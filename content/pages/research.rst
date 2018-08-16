@@ -1,5 +1,7 @@
 :title: Research
 
+The following details various research projects that are in progress.
+
 Vehicle Dynamics, Control, and Handling
 =======================================
 
@@ -67,7 +69,7 @@ vestibular, and proprioceptive sensing inform the brain's control strategy
 which reacts to internally and environmentally produced perturbations. This is
 something humans are very good at but robots are bad at, thus if we can
 understand how humans accomplish this we can potentially design robots with
-biomemetic controllers. In laboratory settings we can accurately measure body
+biomimetic controllers. In laboratory settings we can accurately measure body
 segment kinematics, muscle activation levels, and ground force reactions during
 standing. Given all or subsets of this data collected during externally
 perturbed standing, we are interested in developing optimal control theories
@@ -93,6 +95,13 @@ Design of a Quadrapeligic Friendly Tricycle
 
 | Current researchers: Aaron Shaw, Jake Parkhurst
 | Collaborators: Greg Tanner (Disability Reports), Outrider USA
+| Past researchers: Andy Wu, Felicia Fashanu, Haowei Li, Cynthia Devaughn, Vivian Ting, Thomas Poozhikala
+
+.. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/quad-friendly-trike.png
+   :width: 60%
+
+Students developed a adaptive input device to enable persons with ALS and
+quadriplegia to control an electric tricycle.
 
 Sports Engineering
 ==================
@@ -172,14 +181,6 @@ Learning Mechanical Vibrations Through Computational Thinking
 
 | Current researchers:
 | Past researchers: Kenneth Lyons
-| Collaborators: Allen Downey (Olin College)
-
-Utlizing Computational Thinking in Engineering Teaching and Learning
---------------------------------------------------------------------
-
-| Current researchers:
-| Past researchers: Kenneth Lyons
-| Collaborators: Allen Downey (Olin College)
 
 Appropriate Technology
 ======================
@@ -187,6 +188,9 @@ Appropriate Technology
 Design of a Mobile Bicycle Powered Irrigation Pump
 --------------------------------------------------
 
-| Current researchers: Rayming Liang, Aaron Shaw
+| Current researchers: Aaron Shaw, Rayming Liang
 | Collaborators: Andrew Hall (Buffalo Bikes)
 | Past researchers: Abraham McKay
+
+We have developed a inexpensive centrifugal pump that attaches to a simple PTO
+on a Buffalo Bike.
