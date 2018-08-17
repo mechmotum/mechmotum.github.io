@@ -10,8 +10,8 @@ Masters of Science Students
 
 - Abraham McKay February 2017-June 2018
 
-Postgraduate Research Assistants
-================================
+Research Assistants
+===================
 
 - Erich Baur
 - Britt Tarien June 2018-present
