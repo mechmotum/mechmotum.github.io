@@ -142,6 +142,20 @@ specified equivalent fall height.
 Engineering Education
 =====================
 
+Learning Mechanical Vibrations Through Computational Thinking
+-------------------------------------------------------------
+
+| Current researchers:
+| Past researchers: Kenneth Lyons
+
+"Computational thinking" is an alternative learning process for formulating and
+solving engineering problems. A unique set of abstractions are available to the
+learner in addition to those from mathematical and written language. We have
+developed an interactive textbook and problem sets using the Jupyter system of
+tools for 40 hours of in-class teaching and learning. These teaching materials
+are backed by a custom software library for mechanical vibrations designed to
+facilitate solving problems with computational thinking.
+
 Interactive Jupyter-Enabled LibreTexts Pages
 --------------------------------------------
 
@@ -149,12 +163,12 @@ Interactive Jupyter-Enabled LibreTexts Pages
 | Collaborators: Delmar Larsen (UC Davis)
 
 We are interested in providing an interactive computing environments in online
-textbooks at a massive scale. LibreTexts is one of the largest and most visited
-online compendium of textbooks used in collegiate academics. The website
-currently serves mostly static and non-interactive content. We are working to
-enable Jupyter-backed interactive computation cells that authors can use to
-incorporate Python, R, Octave, and Sage generated media for pages. This will
-enable arbitrary visualizations and allow students to learn through
+textbooks at a massive scale. LibreTexts_ is one of the largest and most
+visited online compendium of textbooks used in collegiate academics. The
+website currently serves mostly static and non-interactive content. We are
+working to enable Jupyter-backed interactive computation cells that authors can
+use to incorporate Python, R, Octave, and Sage generated media for pages. This
+will enable arbitrary visualizations and allow students to learn through
 computational oriented exercises.
 
 .. _LibreTexts: http://www.libretexts.org
@@ -162,7 +176,7 @@ computational oriented exercises.
 Development of a Beam Bending Package for SymPy
 -----------------------------------------------
 
-| Current researchers: Jashanpreet
+| Current researchers: Jashanpreet Singh
 | Collaborators: Ashirant and other SymPy Developers
 | Past researchers: Sampad Saha
 
@@ -176,21 +190,25 @@ often hide the trees for the woods. This project is centered around developing
 a package for SymPy that can be used to model and solve analytical beam
 problems, without getting bogged down in the mathematical details.
 
-Learning Mechanical Vibrations Through Computational Thinking
--------------------------------------------------------------
-
-| Current researchers:
-| Past researchers: Kenneth Lyons
-
 Appropriate Technology
 ======================
 
-Design of a Mobile Bicycle Powered Irrigation Pump
---------------------------------------------------
+Efficiency of Human Powered Irrigation Pumps
+--------------------------------------------
 
 | Current researchers: Aaron Shaw, Rayming Liang
 | Collaborators: Andrew Hall (Buffalo Bikes)
 | Past researchers: Abraham McKay
 
-We have developed a inexpensive centrifugal pump that attaches to a simple PTO
-on a Buffalo Bike.
+We have developed a inexpensive centrifugal pump that attaches to a simple
+power takeoff on a Buffalo Bike [#]_. Our hypothesis is that a less efficient
+centrifugal pump paired with power generation from cycling will be overall more
+efficient than a more efficient positive displacement pump paired with stepping
+power generation. We are accurately measuring the input biomechanical power and
+output hydraulic power from both systems to produce efficiency curves as a
+function of hydraulic load.
+
+.. [#] Mckay, Abraham B., "The Water Buffalo: Design of a Portable Bicycle
+   Powered Irrigation Pump for Small-Scale African Farmers", MSc Thesis,
+   University of California, Davis, 2018.
+   https://doi.org/10.6084/m9.figshare.6378401.v2
