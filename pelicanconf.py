@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 LABNAME = 'Laboratorium of Marvelous Mechanical Motum'
 
-# TODO : Theme puts the author's name below he logo, should put sitename (i.e.
+# TODO : Theme puts the author's name below the logo, should put sitename (i.e.
 # it assumes this is a blog).
 AUTHOR = LABNAME
 SITENAME = LABNAME
