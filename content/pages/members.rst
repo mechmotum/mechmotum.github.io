@@ -15,7 +15,7 @@ Research Assistants
 
 - Erich Baur July 2018-present
 - Britt Tarien June 2018-present
-- Aaron Shaw
+- Aaron Shaw March 2016-present
 - Scott Kresie January 2017-September 2017
 
 Undergraduate Research Assistants
