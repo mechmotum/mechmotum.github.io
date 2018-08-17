@@ -14,6 +14,10 @@ Editing Guide
   reStructuredText. See the `Sphinx reStructuredText primer`_ to learn the syntax.
 - All changes, in general, should be submitted as Github pull requests. Don't
   commit directly to the ``source`` branch.
+- Binary Assets such as images, videos, etc should be served from an external
+  hosting site. Ask Jason about using his Dreamhost DreamObject bucket. He'll
+  set it up for multi-user access when needed. Do not commit binary assets to
+  this repository.
 
 .. _Pelican documentation: http://docs.getpelican.com/en/stable/
 .. _Sphinx reStructuredText primer: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
