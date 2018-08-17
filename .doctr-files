@@ -4,6 +4,7 @@
 ./feeds/all.atom.xml
 ./index.html
 ./pages/members.html
+./pages/research-products.html
 ./pages/research.html
 ./tags.html
 ./theme/css/pygments.css
