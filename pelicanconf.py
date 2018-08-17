@@ -36,10 +36,13 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-with open('config.yml', 'r') as config_file:
-    config_data = yaml.load(config_file)
-
-THEME = config_data['THEME_PATH']
+try:
+    with open('config.yml', 'r') as config_file:
+        config_data = yaml.load(config_file)
+except IOError:
+    THEME = ''
+else:
+    THEME = config_data['THEME_PATH']
 # svbhack settings
 # https://github.com/gfidente/pelican-svbhack/
 #GOOGLE_ANALYTICS = ''
