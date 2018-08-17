@@ -58,6 +58,8 @@ Web Articles
 Tutorials
 =========
 
+#. Moore, Jason K. "Squiggly Bicycle Routes: Physics Based Route Design
+   Evaluation." (2018) https://tinyurl.com/squiggly-cosmos2018
 #. Dahlgren, Bjorn, Kenneth Lyons, Aaron Meurer, and Jason K. Moore. "Automatic
    Code Generation With SymPy." (July 2017) http://www.sympy.org/scipy-2017-codegen-tutorial/
 
