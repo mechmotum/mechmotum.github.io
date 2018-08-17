@@ -22,9 +22,9 @@ Theses
 Books
 =====
 
-#. Moore, Jason K. "Resonance: Learning Mechanical Vibration Engineering
-   Through Computation" (2018) https://moorepants.github.io/resonance/ *--
-   Draft*
+#. Moore, Jason K. and Kenneth Lyons. "Resonance: Learning Mechanical Vibration
+   Engineering Through Computation" (2018)
+   https://moorepants.github.io/resonance/ *-- Draft*
 
 Conference Proceedings
 ======================
