@@ -13,7 +13,7 @@ Masters of Science Students
 Research Assistants
 ===================
 
-- Erich Baur
+- Erich Baur July 2018-present
 - Britt Tarien June 2018-present
 - Aaron Shaw
 - Scott Kresie January 2017-September 2017
