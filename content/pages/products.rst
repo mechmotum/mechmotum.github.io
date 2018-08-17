@@ -1,4 +1,4 @@
-:title: Research Products
+:title: Products
 
 Journal Articles
 ================
