@@ -38,7 +38,7 @@ Clone the theme repository::
 
 Note the path to the theme, e.g.::
 
-   $ /home/my_username/pelican-svbhack
+   /home/my_username/pelican-svbhack
 
 Clone this repository and change into the new directory::
 
