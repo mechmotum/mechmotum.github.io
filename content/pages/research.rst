@@ -90,8 +90,8 @@ result of known programmed control strategies.
    Collocation." Journal of Open Source Software 3, no. 21 (2018): 300.
    https://doi.org/10.21105/joss.00300.
 
-Design of a Quadrapeligic Friendly Tricycle
--------------------------------------------
+Design of a Quadriplegic Friendly Tricycle
+------------------------------------------
 
 | Current researchers: Aaron Shaw, Jake Parkhurst
 | Collaborators: Greg Tanner (Disability Reports), Outrider USA
@@ -123,7 +123,7 @@ have developed rower adaptive filtering methods to predict global boat
 position, speed, stroke rate, and distance per stroke at high accuracy and with
 experimental protocols for validating the estimations.
 
-Ski Jumps Designed for a Specific Equivlanet Fall Height
+Ski Jumps Designed for a Specific Equivalent Fall Height
 --------------------------------------------------------
 
 | Current researchers:
