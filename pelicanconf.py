@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import yaml
+
 LABNAME = 'Laboratorium of Marvelous Mechanical Motum'
 
 # TODO : Theme puts the author's name below the logo, should put sitename (i.e.
@@ -34,7 +36,10 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = "/home/moorepants/src/pelican-themes/svbhack"
+with open('config.yml', 'r') as config_file:
+    config_data = yaml.load(config_file)
+
+THEME = config_data['THEME_PATH']
 # svbhack settings
 # https://github.com/gfidente/pelican-svbhack/
 #GOOGLE_ANALYTICS = ''
