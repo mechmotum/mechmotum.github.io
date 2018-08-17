@@ -11,4 +11,4 @@ install:
 script:
   - set -e
   - pelican -s publishconf.py
-  - doctr deploy --built-docs output/ .
+  - doctr deploy --branch-whitelist source --built-docs output/ .
