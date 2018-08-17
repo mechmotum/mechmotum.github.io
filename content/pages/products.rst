@@ -17,7 +17,7 @@ Theses
 
 #. Mckay, Abraham B., "The Water Buffalo: Design of a Portable Bicycle Powered
    Irrigation Pump for Small-Scale African Farmers", MSc Thesis, University of
-   California, Davis, 2018. https://doi.org/10.6084/m9.figshare.637840#.v2
+   California, Davis, 2018. https://doi.org/10.6084/m9.figshare.6378401.v2
 
 Books
 =====
