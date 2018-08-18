@@ -16,13 +16,13 @@ Optimal Bicycle Design for Handling
    :width: 60%
 
 We have developed an optimization algorithm that can discover bicycle designs
-which maximize the lateral handling qualities of the vehicle [1]_. The
+which maximize the lateral handling qualities of the vehicle [#]_. The
 algorithm produces less-than-intuitive but physically feasible bicycle designs.
 We are currently working to make the algorithm more robust and expand the
 parameter search space. We are also constructing some of the discovered designs
 for experimental validation and testing.
 
-.. [1] Moore, Jason, Mont Hubbard, and Ronald A. Hess. "An Optimal Handling
+.. [#] Moore, Jason, Mont Hubbard, and Ronald A. Hess. "An Optimal Handling
    Bicycle." In Proceedings of the 2016 Bicycle and Motorcycle Dynamics
    Conference. Figshare, 2016. https://doi.org/10.6084/m9.figshare.c.3460590.v11.
 
@@ -39,7 +39,7 @@ Experimental Validation of Bicycle Handling Prediction
 
 We have proposed a theoretical lateral handling quality metric for any given
 bicycle design based on a corpus of experimental data in aircraft handling
-research [2]_. This project aims to validate this metric directly from
+research [#]_. This project aims to validate this metric directly from
 experimental evidence in bicycling maneuvers and tasks. We have developed a
 variable stability instrumented bicycle and demonstrated preliminarily that
 that there may be correlations between our theoretical metric and the rider's
@@ -47,13 +47,30 @@ subjective opinion of the bicycle's handling [3]_. Ongoing work includes,
 improvements to the experimental apparatus and protocol for a larger scale
 validation with arbitrary experimental subjects.
 
-.. [2] Hess, Ronald, Jason K. Moore, and Mont Hubbard. “Modeling the Manually
+.. [#] Hess, Ronald, Jason K. Moore, and Mont Hubbard. “Modeling the Manually
    Controlled Bicycle.” IEEE Transactions on Systems, Man, and Cybernetics -
    Part A: Systems and Humans 42, no. 3 (May 2012): 545–57.
    https://doi.org/10.1109/TSMCA.2011.2164244.
-.. [3] Kresie, Scott W., Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
+.. [#] Kresie, Scott W., Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
    "Experimental Validation of Bicycle Handling Prediction," September 13,
    2017. https://doi.org/10.6084/m9.figshare.5405233.v1.
+
+Inexpensive Open Source and Open Hardware Bicycle Data Logger
+-------------------------------------------------------------
+
+| Current researchers: Edward Jacobs
+| Collaborators: Marco Dozza (Chalmers University), Christian-Nils Åkerberg Boda (Chalmers University)
+
+Analysis of comprehensive dynamical data during bicycling trips and activities
+has the potential to teach us much about travel behavior and safety of
+bicyclists. We would like to develop a open collaborative project with the aim
+of creating a modular, continually inexpensive, open source, and open hardware
+bicycle data logger. This idea was pitched by Marco Dozza at ICSC 2017 [#]_ and
+we are working with his team to bring this to fruition.
+
+.. [#] Dozza, Marco; Rasch, A.; Boda, C. N. (2017): An Open-Source Data Logger
+   for Field Cycling Collection: Design and Evaluation.
+   https://doi.org/10.6084/m9.figshare.5404918.v1
 
 Assistive Devices
 =================
