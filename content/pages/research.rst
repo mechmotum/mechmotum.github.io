@@ -146,6 +146,10 @@ Ski Jumps Designed for a Specific Equivalent Fall Height
 | Current researchers:
 | Collaborators: Mont Hubbard (UC Davis), Jim McNeil (Colorado School of Mines)
 
+.. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/skijumpdesign-screenshot.jpg
+   :width: 60%
+   :target: http://www.skijumpdesign.info
+
 Little engineering or science goes into the design and construction of ski and
 snowboard jumps in terrain parks at publicly accessible ski resorts. A
 relatively large number of injuries and even deaths occur during skiing and
