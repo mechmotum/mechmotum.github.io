@@ -48,4 +48,4 @@ else:
 #GOOGLE_ANALYTICS = ''
 USER_LOGO_URL = 'https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png'
 #DISQUS_SITENAME = ''
-TAGLINE = 'A research group led by<br>Jason K. Moore'
+TAGLINE = 'E pur si muove'
