@@ -13,7 +13,7 @@ around human mobility, more specifically:
 - enhancing athlete performance and safety in sports
 - sustainable transportation
 - human powered appropriate technology
-- teaching and learning engineering through mobility engineering
+- teaching and learning engineering through mobility applications
 
 .. _Mechanical and Aerospace Engineering Department: http://mae.ucdavis.edu
 .. _University of California, Davis: http://www.ucdavis.edu
