@@ -6,6 +6,8 @@ Journal Articles
 #. Moore, Jason K., and Mont Hubbard. "skijumpdesign: A Ski Jump Design Tool
    for Specified Equivalent Fall Height." The Journal of Open Source Software
    3, no. 28 (August 20, 2018): 818–20. https://doi.org/10.21105/joss.00818.
+   `[pdf]
+   <https://objects-us-east-1.dream.io/mechmotum.github.io/Moore%20and%20Hubbard%20-%202018%20-%20skijumpdesign%20A%20Ski%20Jump%20Design%20Tool%20for%20Specifie.pdf>`_
 #. Jason K. Moore, and Antonie van den Bogert. "Opty: Software for Trajectory
    Optimization and Parameter Identification Using Direct Collocation." Journal
    of Open Source Software 3, no. 21 (January 31, 2018): 300.
