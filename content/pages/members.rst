@@ -13,7 +13,6 @@ Masters of Science Students
 Research Assistants
 ===================
 
-- Erich Baur July 2018-present
 - Britt Tarien June 2018-present
 - Aaron Shaw March 2016-present
 - Scott Kresie January 2017-September 2017
@@ -33,8 +32,8 @@ Undergraduate Research Assistants
 Google Summer of Code Students
 ==============================
 
-- Nikhil Pappu May 2018-present
-- Jashanpreet Singh 2018-present
+- Nikhil Pappu May 2018-August 2018
+- Jashanpreet Singh May 2018-August 2018
 - James Brandon Milam May 2016-August 2016
 - Sampad Saha May 2016-August 2016
 - Sahil Shekhawat May 2015-August 2015

@@ -78,7 +78,7 @@ Assistive Devices
 Control Identification of Human Standing
 -----------------------------------------
 
-| Current researchers: Erich Baur
+| Current researchers:
 | Collaborators: Ton van den Bogert (Cleveland State University)
 
 Humans unconsciously utilize a control strategy while standing. Visual,
