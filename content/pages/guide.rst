@@ -1,0 +1,107 @@
+:title: Guide
+
+This page is intended to house documentation for lab members that describe how
+the lab functions. It's primary purpose is for on-boarding new members, but is
+also a reference for current members. For this page to be useful, all lab
+members will need to provide their collective knowledge and experiences.
+
+Open Science
+============
+
+The default science and engineering practice should be open practices (open
+access publications, open source software, open data, etc). If unsure whether
+to make information public, ask, otherwise please default to sharing early and
+often. We do work with organizations that value or require privacy (human
+subject data, FERPA protected data, proprietary company needs). Always check
+with the involved parties before sharing when this is the case. This is
+something that should be discussed at the beginning of all projects.
+
+Getting Hired
+=============
+
+Undergraduate Research Assistant
+   Undergraduate research assistants must contact the MAE office and sign some
+   paperwork (patent agreement, etc).
+Volunteer Research Assistant
+   Volunteer researchers must fill out a volunteer form and sign the UCD patent
+   agreement at the MAE office before starting work.
+
+Logging Hours
+=============
+
+Paid lab employees must sign into the `hour logging system`_ every two weeks to
+submit their work hours for review.
+
+.. _`hour logging system`:  https://trs.ucdavis.edu/trs/
+
+Safety Training
+===============
+
+Anyone who works with me in a non-class related project must take the MAE
+Safety Fundamental class (ideally) before working. Contact Loan-Anh Nguygen
+for the next offering and to discuss your specific safety needs.
+
+Anyone who works in a lab space (non-office) and works with physical equipment
+must take the online Lab Safety Fundamentals course.
+
+Anyone who works in a lab space must take the site specific training offered by
+that lab manager. This includes the EDSC.
+
+If you are a volunteer, non-undergraduate employee, haven't taken EME 50, or
+are a graduate student that did not attend UC Davis as an undergrad, you must
+take the 8 week EDSC orientation course before you can use the shop. Check with
+the shop on about the schedule for these.
+
+Purchasing
+==========
+
+See the EME 185 purchasing guidelines for logistics (for now):
+
+http://moorepants.github.io/eme185/pages/resources.html#purchasing-parts-and-materials
+
+Reference Management
+====================
+
+The lab has a shared Zotero_ group which can be used for lab related reference
+management (currently 20 GB plan). Zotero is an open source reference
+management system backed by a consortium of libraries. Create an account and
+request membership to the `mechmotum group`_. Note that all lab members can
+view the contents of this library.
+
+.. _Zotero: https://www.zotero.org
+.. _mechmotum group: https://www.zotero.org/groups/966974/mechmotum
+
+Version Control
+===============
+
+The currently has group accounts on Gitlab and Github for version control of
+text based sources (software, text, etc):
+
+- https://gitlab.com/mechmotum
+- https://github.com/mechmotum/
+
+The services are more or less interchangeable. The primary reason to use Gitlab
+is if you need a private repository, as it offers those for free. You may
+prefer the features of one service over the other.
+
+Lab members should be able to make use of version control and communication
+through these services. The Software Carpentry `Git lesson`_ is a recommended
+introduction. Create an account on one or both services and request group
+membership.
+
+.. _Git lesson: http://swcarpentry.github.io/git-novice/
+
+Lab Website
+===========
+
+The lab website is a Pelican_ based static website hosted through Github pages.
+The source for the website is here:
+
+https://github.com/mechmotum/mechmotum.github.io
+
+Lab members should help collectively maintain and update the website. Please
+use the Github pull request mechanism to submit changes for review. As long as
+one lab member reviews the pull request and approves the changes, the changes
+can be merged.
+
+.. _Pelican: getpelican.com
