@@ -18,6 +18,15 @@ TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
 
+# This sets the default pages to be top level items and articles to be under
+# /blog/.
+INDEX_SAVE_AS = 'blog/index.html'
+ARTICLE_URL = 'blog/{slug}.html'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+MENUITEMS = [('Blog', '/blog/')]
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
