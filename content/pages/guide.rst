@@ -154,3 +154,11 @@ one lab member reviews the pull request and approves the changes, the changes
 can be merged.
 
 .. _Pelican: getpelican.com
+
+Research Ideas
+==============
+
+Check out our research ideas Github repository to read, post, and discuss new
+ideas:
+
+https://github.com/mechmotum/ideas/issues
