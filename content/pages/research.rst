@@ -8,8 +8,9 @@ Vehicle Dynamics, Control, and Handling
 Optimal Bicycle Design for Handling
 -----------------------------------
 
-| Current researchers: Roy Gilboa
+| Current researchers:
 | Collaborators: Mont Hubbard, Ronald Hess (UC Davis)
+| Past researchers: Roy Gilboa
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/optimal-handling-bicycle.png
    :align: center
@@ -110,9 +111,9 @@ result of known programmed control strategies.
 Design of a Quadriplegic Friendly Tricycle
 ------------------------------------------
 
-| Current researchers: Aaron Shaw, Jake Parkhurst
+| Current researchers:
 | Collaborators: Greg Tanner (Disability Reports), Outrider USA
-| Past researchers: Andy Wu, Felicia Fashanu, Haowei Li, Cynthia Devaughn, Vivian Ting, Thomas Poozhikala
+| Past researchers: Aaron Shaw, Jake Parkhurst, Andy Wu, Felicia Fashanu, Haowei Li, Cynthia Devaughn, Vivian Ting, Thomas Poozhikala
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/quad-friendly-trike.png
    :width: 60%

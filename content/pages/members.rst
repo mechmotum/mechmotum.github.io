@@ -20,7 +20,7 @@ Research Assistants
 Undergraduate Research Assistants
 =================================
 
-- Roy Gilboa July 2018-present
+- Roy Gilboa July 2018-September 2018
 - Edward Jacobs July 2018-present
 - Rayming Liang July 2018-present
 - Henry Agnew July 2018-present
