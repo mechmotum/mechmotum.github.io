@@ -3,7 +3,6 @@
 :save_as: index.html
 :sortorder: 0
 :date: 2018-10-05
-:template: front-page
 
 The Laboratorium of Marvelous Mechanical Motum is a research group based in the
 `Mechanical and Aerospace Engineering Department`_ at the `University of
