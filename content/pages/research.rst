@@ -12,16 +12,21 @@ Optimal Bicycle Design for Handling
 | Collaborators: Mont Hubbard, Ronald Hess (UC Davis)
 | Past researchers: Roy Gilboa
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/optimal-handling-bicycle.png
+.. image:: https://objects-us-east-1.dream.io/mechmotum/optimal-handling-bicycle.png
    :align: center
    :width: 60%
 
 We have developed an optimization algorithm that can discover bicycle designs
 which maximize the lateral handling qualities of the vehicle [#]_. The
 algorithm produces less-than-intuitive but physically feasible bicycle designs.
-We are currently working to make the algorithm more robust and expand the
+We are currently working to make the algorithm more robust and expanding the
 parameter search space. We are also constructing some of the discovered designs
-for experimental validation and testing.
+for experimental validation and testing. The first design, based on an optimal
+design for 4 m/s is shown below:
+
+.. image:: https://objects-us-east-1.dream.io/mechmotum/opt-bike-design.png
+   :align: center
+   :width: 60%
 
 .. [#] Moore, Jason, Mont Hubbard, and Ronald A. Hess. "An Optimal Handling
    Bicycle." In Proceedings of the 2016 Bicycle and Motorcycle Dynamics
@@ -34,7 +39,7 @@ Experimental Validation of Bicycle Handling Prediction
 | Collaborators: Mont Hubbard, Ronald Hess
 | Past researchers: Scott Kresie
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/handling-metric.png
+.. image:: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
    :align: center
    :width: 60%
 
@@ -48,8 +53,8 @@ subjective opinion of the bicycle's handling [3]_. Ongoing work includes,
 improvements to the experimental apparatus and protocol for a larger scale
 validation with arbitrary experimental subjects.
 
-.. [#] Hess, Ronald, Jason K. Moore, and Mont Hubbard. “Modeling the Manually
-   Controlled Bicycle.” IEEE Transactions on Systems, Man, and Cybernetics -
+.. [#] Hess, Ronald, Jason K. Moore, and Mont Hubbard. "Modeling the Manually
+   Controlled Bicycle." IEEE Transactions on Systems, Man, and Cybernetics -
    Part A: Systems and Humans 42, no. 3 (May 2012): 545–57.
    https://doi.org/10.1109/TSMCA.2011.2164244.
 .. [#] Kresie, Scott W., Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
@@ -115,7 +120,7 @@ Design of a Quadriplegic Friendly Tricycle
 | Collaborators: Greg Tanner (Disability Reports), Outrider USA
 | Past researchers: Aaron Shaw, Jake Parkhurst, Andy Wu, Felicia Fashanu, Haowei Li, Cynthia Devaughn, Vivian Ting, Thomas Poozhikala
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/quad-friendly-trike.png
+.. image:: https://objects-us-east-1.dream.io/mechmotum/quad-friendly-trike.png
    :width: 60%
 
 Students developed a adaptive input device to enable persons with ALS and
@@ -147,7 +152,7 @@ Ski Jumps Designed for a Specific Equivalent Fall Height
 | Current researchers:
 | Collaborators: Mont Hubbard (UC Davis), Jim McNeil (Colorado School of Mines)
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/skijumpdesign-screenshot.jpg
+.. image:: https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-screenshot.jpg
    :width: 60%
    :target: http://www.skijumpdesign.info
 

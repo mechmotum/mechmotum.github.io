@@ -11,6 +11,7 @@ LABNAME = 'Laboratorium of Marvelous Mechanical Motum'
 AUTHOR = LABNAME
 SITENAME = LABNAME
 SITEURL = ''
+SOURCEURL = 'https://github.com/mechmotum/mechmotum.github.io'
 
 PATH = 'content'
 
