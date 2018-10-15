@@ -64,7 +64,8 @@ validation with arbitrary experimental subjects.
 Inexpensive Open Source and Open Hardware Bicycle Data Logger
 -------------------------------------------------------------
 
-| Current researchers: Edward Jacobs
+| Current researchers:
+| Past researchers: Edward Jacobs
 | Collaborators: Marco Dozza (Chalmers University), Christian-Nils Åkerberg Boda (Chalmers University)
 
 Analysis of comprehensive dynamical data during bicycling trips and activities

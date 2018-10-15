@@ -21,7 +21,7 @@ Undergraduate Research Assistants
 =================================
 
 - Roy Gilboa July 2018-September 2018
-- Edward Jacobs July 2018-present
+- Edward Jacobs July 2018-October 2018
 - Rayming Liang July 2018-present
 - Henry Agnew July 2018-present
 - Trevor Metz July 2018-present
