@@ -162,3 +162,15 @@ Check out our research ideas Github repository to read, post, and discuss new
 ideas:
 
 https://github.com/mechmotum/ideas/issues
+
+Lab Inventory
+=============
+
+There is a common spreadsheet on google drive that lab members should use to
+track our non-consumbable inventory (tools, devices, expensive stuff,
+computers, 3D printing spools in the EDSC, etc). Anytime you buy something add
+it to the spreadsheet. The spreadsheet can be accessed at this link:
+
+https://docs.google.com/spreadsheets/d/1w80SolpcLTbLtuFDIf9-F-sS_pO-1PEHSpSgEGH_SSg/edit?usp=sharing
+
+Ask Jason if you don't have permissions for this file.
