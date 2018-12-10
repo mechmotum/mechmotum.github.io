@@ -79,7 +79,8 @@ Logging Hours
 =============
 
 Paid lab employees must sign into the `hour logging system`_ every two weeks to
-submit their work hours for review.
+submit their work hours for review. If you worked 0 hours for the time period
+you still need to submit a time sheet with 0 hours.
 
 .. _`hour logging system`:  https://trs.ucdavis.edu/trs/
 
