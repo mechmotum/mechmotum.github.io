@@ -27,6 +27,8 @@ Theses
 Books
 =====
 
+#. Barba, Lorena A., et. al, "Teaching and Learning with Jupyter" (2018)
+   https://jupyter4edu.github.io/jupyter-edu-book/ *--Draft*
 #. Moore, Jason K. and Kenneth Lyons. "Resonance: Learning Mechanical Vibration
    Engineering Through Computation" (2018)
    https://moorepants.github.io/resonance/ *-- Draft*
