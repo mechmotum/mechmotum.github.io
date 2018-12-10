@@ -22,6 +22,7 @@ If you'd like to check out the web app, click the image below:
    :width: 50%
    :align: center
    :target: http://www.skijumpdesign.info
+   :alt: Screenshot of the application.
 
 Other related information:
 

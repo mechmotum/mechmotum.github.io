@@ -15,6 +15,7 @@ Optimal Bicycle Design for Handling
 .. image:: https://objects-us-east-1.dream.io/mechmotum/optimal-handling-bicycle.png
    :align: center
    :width: 60%
+   :alt: Image of a theorectical optimal bicycle.
 
 We have developed an optimization algorithm that can discover bicycle designs
 which maximize the lateral handling qualities of the vehicle [#]_. The
@@ -27,6 +28,7 @@ design for 4 m/s is shown below:
 .. image:: https://objects-us-east-1.dream.io/mechmotum/opt-bike-design.png
    :align: center
    :width: 60%
+   :alt: Image of a realizable optimal bicycle.
 
 .. [#] Moore, Jason, Mont Hubbard, and Ronald A. Hess. "An Optimal Handling
    Bicycle." In Proceedings of the 2016 Bicycle and Motorcycle Dynamics
@@ -42,6 +44,7 @@ Experimental Validation of Bicycle Handling Prediction
 .. image:: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
    :align: center
    :width: 60%
+   :alt: Image showing handling quality metrics for a variety of bicycles.
 
 We have proposed a theoretical lateral handling quality metric for any given
 bicycle design based on a corpus of experimental data in aircraft handling
