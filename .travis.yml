@@ -10,5 +10,5 @@ install:
   - git clone https://github.com/gfidente/pelican-svbhack.git
 script:
   - set -e
-  - pelican -v -s publishconf.py
+  - pelican -D -v -s publishconf.py
   - doctr deploy --branch-whitelist source --built-docs output/ .
