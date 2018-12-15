@@ -15,11 +15,14 @@ The goal of this project is to design and implement a control system for an inst
 used in bicycle handling experimentation. To achieve this, a basic unity feedback control 
 architecture (Figure 1) is employed. 
 
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
+   :width: 80%
+   :align: center
+   :alt: Control Architecture.
 
-
-*Figure 1. Control architecture where e is the error between the actual speed v of the ebike 
-and the desired speed, v_d, and V is the DC input voltage to the ebike plant model. 
-Gc and Gp represent the controller and plant model respectively.*
+*Figure 1. Control architecture where :math:`e` is the error between the actual speed :math:`v` of the ebike 
+and the desired speed, :math:`v_d`, and :math:`V` is the DC input voltage to the ebike plant model. 
+:math:`Gc` and :math:`Gp` represent the controller and plant model respectively.*
 
 The goal of the controller is to track a setpoint speed, within +/- 0.10 m/s, set by the rider. 
 To achieve this, a PID controller was tuned using MATLAB’s Control System Toolbox. The ebike plant 
@@ -33,30 +36,42 @@ powertrain of the ebike consists of a standard ebike conversion kit motor contro
 phase direct drive induction motor mounted to the rear hub of the bike. 
 A simple diagram of the ebike drivetrain is shown below in Figure 2.  
 
-
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg
+   :width: 60%
+   :align: center
+   :alt: Ebike Drivetrain Diagram.
 
 *Figure 2. Diagram of the drivetrain circuit and dynamics.*
 
-In Figure 2, the induction motor is approximated by a model of a DC motor circuit with resistance *R*, inductance 
-*L* and back emf *Vb*. The torques *Tm* and *Tp* acting on the motor shaft correspond to motor torque and wheel propulsion
+In Figure 2, the induction motor is approximated by a model of a DC motor circuit with resistance :math:`R`, inductance 
+:math:`L` and back emf :math:`Vb`. The torques :math:`Tm` and :math:`Tp` acting on the motor shaft correspond to motor torque and wheel propulsion
 torque respectively. The rotational dynamics of the drivetrain are defined by Euler’s rotation equation. 
 
 A simple equation of motion for the bicycle, modeled as a point mass, is derived using Newton’s 2nd Law of Motion in 
 the horizontal direction [1].
 
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg
+   :width: 40%
+   :align: center
+   :alt: Free Body Diagram of Bicycle.
 
-
-*Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa, Fr and Fp are the aerodynamic drag, rolling 
+*Figure 3. Free body diagram of the bicycle modeled as a point mass. :math:`Fa`, :math:`Fr` and :math:`Fp` are the aerodynamic drag, rolling 
 resistance and propulsive forces respectively.* 
 
 Together, the vehicle and drivetrain dynamics of the ebike can be shown in a state space representation with state variables 
-*i(t)* and *x(t)* as seen below. 
+:math:`i(t)` and :math:`x(t)` as seen below. 
 
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg
+   :width: 70%
+   :align: center
+   :alt: State Space Representation of the eBike.
 
+From the state space representation, a transfer function from input DC voltage :math:`V` to output speed :math:`v` is formed: 
 
-From the state space representation, a transfer function from input DC voltage *V* to output speed *v* is formed: 
-
-
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-05.jpg
+   :width: 80%
+   :align: center
+   :alt: Plant Model Transfer Function.
 
 This plant model is a second order transfer function relating an applied DC voltage input to the ebike’s motor controller 
 to the output speed of the ebike. This model represents an approximation of the true plant model of the ebike. To get a more 
@@ -72,13 +87,19 @@ instrumented ebike and textbook resources [2,1].
 In MATLAB, a nonlinear least-squares solver was used to optimize the constants in the derived plant model of the ebike to match a 
 speed time response measured from the instrumented ebike. Figure 4, below, shows the curve fitting result.  
 
-
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg
+   :width: 70%
+   :align: center
+   :alt: Curve Fitting Results.
 
 *Figure 4. Result of the least-squares curve fitting.*  
 
 Figure 4 shows that the plant model of ebike was reasonably identified using the least-squares curve fitting method. The resulting ebike plant model is: 
 
-
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-07.jpg
+   :width: 90%
+   :align: center
+   :alt: Identified Plant Model.
 
 Controller Design in MATLAB 
 --------------------------- 
@@ -86,11 +107,13 @@ Controller Design in MATLAB
 With the plant model of the ebike identified, a PID controller (kp = 68.5, ki = 106, kd = 1.44) was tuned for zero steady state error and reasonable transient 
 behavior using MATLAB’s Control System Toolbox. 
 
-
 The closed loop step response (Figure 5) shows that the controller meets the design goals with zero steady state error, a settling time of 
 1.56s, and an overshoot percentage of 10.45%.
 
-
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg
+   :width: 70%
+   :align: center
+   :alt: Closed Loop System Step Response.
 
 *Figure 5. Closed Loop System Step Response.* 
 
@@ -100,14 +123,21 @@ Evaluation of Controller Robustness
 MATLAB’s Robust Control Toolbox was used to test the robustness of the closed loop system with regards to uncertainties in the coefficients
 of the identified ebike plant model. The constants in the derived ebike plant model were lumped together forming the following simplified plant model: 
 
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-09.jpg
+   :width: 90%
+   :align: center
+   :alt: Simplified Plant Model.
 
-
-The constants *a*, *b*, *c*, and *d* in the above transfer function were defined in MATLAB as real-uncertain parameters with varying percentage based uncertainties 
+The constants :math:`a`, :math:`b`, :math:`c`, and :math:`d` in the above transfer function were defined in MATLAB as real-uncertain parameters with varying 
+percentage based uncertainties 
 about their nominal values. The nominal values of each coefficient were taken from the result of the system identification step of the controller design process. 
 Figure 6, below, shows the nominal closed loop and open loop system step response with 20 random samples of the uncertain plant model defined by the uncertain 
 coefficients.
 
-
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-10.jpg
+   :width: 80%
+   :align: center
+   :alt: Uncertain Step Response.
 
 *Figure 6. Step response of the nominal closed loop system with 20 random samples of the uncertain closed loop step response superimposed on the plot.*
 
