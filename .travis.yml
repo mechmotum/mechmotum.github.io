@@ -8,6 +8,8 @@ env:
 install:
   - pip install pelican doctr
   - git clone https://github.com/gfidente/pelican-svbhack.git
+before_script:
+  - pip freeze
 script:
   - set -e
   - pelican -D -v -s publishconf.py
