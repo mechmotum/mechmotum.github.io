@@ -50,7 +50,7 @@ In Figure 2, the induction motor is approximated by a model of a DC motor circui
 torque respectively. The rotational dynamics of the drivetrain are defined by Euler’s rotation equation. 
 
 A simple equation of motion for the bicycle, modeled as a point mass, is derived using Newton’s 2nd Law of Motion in 
-the horizontal direction [1].
+the horizontal direction [Wilson]_.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg
    :width: 40%
@@ -85,7 +85,7 @@ Performing System Identification From Experimental Data
 
 To begin the process of system identification, the values of the ebike drivetrain model parameters and bicycle drag and tire rolling 
 resistance coefficients were initialized using reasonable approximations found from internet searches, previous knowledge of the 
-instrumented ebike and textbook resources [2,1]. 
+instrumented ebike [Moore]_ and textbook resources [Wilson]_. 
 
 In MATLAB, a nonlinear least-squares solver was used to optimize the constants in the derived plant model of the ebike to match a 
 speed time response measured from the instrumented ebike. Figure 4, below, shows the curve fitting result.  
@@ -162,6 +162,9 @@ Implementing a PID Controller on an Instrumented Ebike.
 References
 ----------
 
-1. Wilson, D., Papadopoulos, J. and Whitt, F. (2004). Bicycling science. Cambridge, Mass.: MIT Press. 
-2.Moore, J. (2012). Human Control of a Bicycle. [online] Moorepants.github.io. Available at: http://moorepants.github.io/dissertation/davisbicycle.html 
-[Accessed 12 Dec. 2018].
+.. [Wilson] Wilson, D., Papadopoulos, J. and Whitt, F. (2004). Bicycling science. 
+   Cambridge, Mass.: MIT Press. 
+
+.. [Moore] Moore, J. (2012). Human Control of a Bicycle. [online] Moorepants.github.io. 
+   Available at: http://moorepants.github.io/dissertation/davisbicycle.html 
+   [Accessed 12 Dec. 2018].
