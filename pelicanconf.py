@@ -46,6 +46,12 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+## PLUGINS
+
+PLUGINS = ['render_math']
+
+## THEME
+
 try:
     with open('config.yml', 'r') as config_file:
         config_data = yaml.load(config_file)
