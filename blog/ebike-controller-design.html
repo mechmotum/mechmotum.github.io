@@ -101,8 +101,8 @@ A simple diagram of the ebike drivetrain is shown below in Figure 2.</p>
 <img alt="Ebike Drivetrain Diagram." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg" style="width: 60%;" />
 <p class="caption"><em>Figure 2. Diagram of the drivetrain circuit and dynamics.</em></p>
 </div>
-<p>In Figure 2, the induction motor is approximated by a model of a DC motor circuit with resistance <span class="formula"><i>R</i></span>, inductance
-<span class="formula"><i>L</i></span> and back emf <span class="formula"><i>Vb</i></span>. The torques <span class="formula"><i>Tm</i></span> and <span class="formula"><i>Tp</i></span> acting on the motor shaft correspond to motor torque and wheel propulsion
+<p>In Figure 2, the induction motor is approximated by a model of a DC motor circuit with resistance <span class="math">\(R\)</span>, inductance
+<span class="math">\(L\)</span> and back emf <span class="math">\(Vb\)</span>. The torques <span class="math">\(Tm\)</span> and <span class="math">\(Tp\)</span> acting on the motor shaft correspond to motor torque and wheel propulsion
 torque respectively. The rotational dynamics of the drivetrain are defined by Euler’s rotation equation.</p>
 <p>A simple equation of motion for the bicycle, modeled as a point mass, is derived using Newton’s 2nd Law of Motion in
 the horizontal direction <a class="citation-reference" href="#wilson" id="id1">[Wilson]</a>.</p>
@@ -113,9 +113,9 @@ the horizontal direction <a class="citation-reference" href="#wilson" id="id1">[
 resistance and propulsive forces respectively.</em></p>
 </div>
 <p>Together, the vehicle and drivetrain dynamics of the ebike can be shown in a state space representation with state variables
-<span class="formula"><i>i</i>(<i>t</i>)</span> and <span class="formula"><i>x</i>(<i>t</i>)</span> as seen below.</p>
+<span class="math">\(i(t)\)</span> and <span class="math">\(x(t)\)</span> as seen below.</p>
 <img alt="State Space Representation of the eBike." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg" style="width: 70%;" />
-<p>From the state space representation, a transfer function from input DC voltage <span class="formula"><i>V</i></span> to output speed <span class="formula"><i>v</i></span> is formed:</p>
+<p>From the state space representation, a transfer function from input DC voltage <span class="math">\(V\)</span> to output speed <span class="math">\(v\)</span> is formed:</p>
 <img alt="Plant Model Transfer Function." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-05.jpg" style="width: 80%;" />
 <p>This plant model is a second order transfer function relating an applied DC voltage input to the ebike’s motor controller
 to the output speed of the ebike. This model represents an approximation of the true plant model of the ebike. To get a more
@@ -151,7 +151,7 @@ behavior using MATLAB’s Control System Toolbox.</p>
 <p>MATLAB’s Robust Control Toolbox was used to test the robustness of the closed loop system with regards to uncertainties in the coefficients
 of the identified ebike plant model. The constants in the derived ebike plant model were lumped together forming the following simplified plant model:</p>
 <img alt="Simplified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-09.jpg" style="width: 90%;" />
-<p>The constants <span class="formula"><i>a</i></span>, <span class="formula"><i>b</i></span>, <span class="formula"><i>c</i></span>, and <span class="formula"><i>d</i></span> in the above transfer function were defined in MATLAB as real-uncertain parameters with varying
+<p>The constants <span class="math">\(a\)</span>, <span class="math">\(b\)</span>, <span class="math">\(c\)</span>, and <span class="math">\(d\)</span> in the above transfer function were defined in MATLAB as real-uncertain parameters with varying
 percentage based uncertainties
 about their nominal values. The nominal values of each coefficient were taken from the result of the system identification step of the controller design process.
 Figure 6, below, shows the nominal closed loop and open loop system step response with 20 random samples of the uncertain plant model defined by the uncertain
@@ -191,7 +191,61 @@ Available at: <a class="reference external" href="http://moorepants.github.io/di
 </tbody>
 </table>
 </div>
+<script type='text/javascript'>if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
 
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
     </div>
   </article>
     </div>
