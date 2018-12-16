@@ -7,11 +7,11 @@ used in bicycle handling experimentation. To achieve this, a basic unity feedbac
 architecture (Figure 1) is employed.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg" style="width: 80%;" /&gt;
-&lt;p class="caption"&gt;&lt;em&gt;Figure 1. Control architecture where :math:`e` is the error between the actual speed
-:math:`v` of the ebike
-and the desired speed, :math:`v_d`, and :math:`V` is the DC input voltage to the ebike
+&lt;p class="caption"&gt;&lt;em&gt;Figure 1. Control architecture where e is the error between the actual speed
+v of the ebike
+and the desired speed, vd, and V is the DC input voltage to the ebike
 plant model.
-:math:`Gc` and :math:`Gp` represent the controller and plant model respectively.&lt;/em&gt;&lt;/p&gt;
+Gc and Gp represent the controller and plant model respectively.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The goal of the controller is to track a setpoint speed, within +/- 0.10 m/s, set by the rider.
 To achieve this, a PID controller was tuned using MATLAB’s Control System Toolbox. The ebike plant
@@ -24,23 +24,23 @@ powertrain of the ebike consists of a standard ebike conversion kit motor contro
 phase direct drive induction motor mounted to the rear hub of the bike.
 A simple diagram of the ebike drivetrain is shown below in Figure 2.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ebike Drivetrain Diagram." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg" style="width: 60%;" /&gt;
+&lt;img alt="Ebike Drivetrain Diagram." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Diagram of the drivetrain circuit and dynamics.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;In Figure 2, the induction motor is approximated by a model of a DC motor circuit with resistance &lt;span class="math"&gt;\(R\)&lt;/span&gt;, inductance
-&lt;span class="math"&gt;\(L\)&lt;/span&gt; and back emf &lt;span class="math"&gt;\(Vb\)&lt;/span&gt;. The torques &lt;span class="math"&gt;\(Tm\)&lt;/span&gt; and &lt;span class="math"&gt;\(Tp\)&lt;/span&gt; acting on the motor shaft correspond to motor torque and wheel propulsion
+&lt;span class="math"&gt;\(L\)&lt;/span&gt; and back emf &lt;span class="math"&gt;\(V_b\)&lt;/span&gt;. The torques &lt;span class="math"&gt;\(T_m\)&lt;/span&gt; and &lt;span class="math"&gt;\(T_p\)&lt;/span&gt; acting on the motor shaft correspond to motor torque and wheel propulsion
 torque respectively. The rotational dynamics of the drivetrain are defined by Euler’s rotation equation.&lt;/p&gt;
 &lt;p&gt;A simple equation of motion for the bicycle, modeled as a point mass, is derived using Newton’s 2nd Law of Motion in
 the horizontal direction &lt;a class="citation-reference" href="#wilson" id="id1"&gt;[Wilson]&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Free Body Diagram of Bicycle." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg" style="width: 40%;" /&gt;
-&lt;p class="caption"&gt;&lt;em&gt;Figure 3. Free body diagram of the bicycle modeled as a point mass. :math:`Fa`,
-:math:`Fr` and :math:`Fp` are the aerodynamic drag, rolling
+&lt;img alt="Free Body Diagram of Bicycle." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg" style="width: 20%;" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa,
+Fr and Fp are the aerodynamic drag, rolling
 resistance and propulsive forces respectively.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Together, the vehicle and drivetrain dynamics of the ebike can be shown in a state space representation with state variables
 &lt;span class="math"&gt;\(i(t)\)&lt;/span&gt; and &lt;span class="math"&gt;\(x(t)\)&lt;/span&gt; as seen below.&lt;/p&gt;
-&lt;img alt="State Space Representation of the eBike." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg" style="width: 70%;" /&gt;
+&lt;img alt="State Space Representation of the eBike." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg" style="width: 55%;" /&gt;
 &lt;p&gt;From the state space representation, a transfer function from input DC voltage &lt;span class="math"&gt;\(V\)&lt;/span&gt; to output speed &lt;span class="math"&gt;\(v\)&lt;/span&gt; is formed:&lt;/p&gt;
 &lt;img alt="Plant Model Transfer Function." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-05.jpg" style="width: 80%;" /&gt;
 &lt;p&gt;This plant model is a second order transfer function relating an applied DC voltage input to the ebike’s motor controller
@@ -55,7 +55,7 @@ instrumented ebike &lt;a class="citation-reference" href="#moore" id="id2"&gt;[M
 &lt;p&gt;In MATLAB, a nonlinear least-squares solver was used to optimize the constants in the derived plant model of the ebike to match a
 speed time response measured from the instrumented ebike. Figure 4, below, shows the curve fitting result.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Curve Fitting Results." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg" style="width: 70%;" /&gt;
+&lt;img alt="Curve Fitting Results." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Result of the least-squares curve fitting.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Figure 4 shows that the plant model of ebike was reasonably identified using the least-squares curve fitting method. The resulting ebike plant model is:&lt;/p&gt;
@@ -68,7 +68,7 @@ behavior using MATLAB’s Control System Toolbox.&lt;/p&gt;
 &lt;p&gt;The closed loop step response (Figure 5) shows that the controller meets the design goals with zero steady state error, a settling time of
 1.56s, and an overshoot percentage of 10.45%.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Closed Loop System Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg" style="width: 70%;" /&gt;
+&lt;img alt="Closed Loop System Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Closed Loop System Step Response.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
