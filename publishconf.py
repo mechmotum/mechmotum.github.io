@@ -11,6 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 THEME = "pelican-alchemy/alchemy"
+PLUGIN_PATHS = "pelican-plugins"
 
 SITEURL = 'https://mechmotum.github.io'
 RELATIVE_URLS = False

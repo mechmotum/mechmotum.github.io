@@ -46,19 +46,17 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-## PLUGINS
-
-PLUGINS = ['render_math']
-
-## THEME
-
 try:
     with open('config.yml', 'r') as config_file:
         config_data = yaml.load(config_file)
 except IOError:
     THEME = ''
+    PLUGIN_PATHS = ''
 else:
     THEME = config_data['THEME_PATH']
+    PLUGIN_PATHS = config_data['PLUGIN_PATHS']
+
+## THEME
 
 # Alchemy theme settings
 SITESUBTITLE = 'E pur si muove'
@@ -67,3 +65,7 @@ DESCRIPTION = ''
 
 #GOOGLE_ANALYTICS = ''
 #DISQUS_SITENAME = ''
+
+## PLUGINS
+
+PLUGINS = ['render_math']
