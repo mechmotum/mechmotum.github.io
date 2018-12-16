@@ -20,11 +20,11 @@ architecture (Figure 1) is employed.
    :align: center
    :alt: Control Architecture.
 
-   *Figure 1. Control architecture where :math:`e` is the error between the actual speed 
-   :math:`v` of the ebike 
-   and the desired speed, :math:`v_d`, and :math:`V` is the DC input voltage to the ebike 
+   *Figure 1. Control architecture where e is the error between the actual speed 
+   v of the ebike 
+   and the desired speed, vd, and V is the DC input voltage to the ebike 
    plant model. 
-   :math:`Gc` and :math:`Gp` represent the controller and plant model respectively.*
+   Gc and Gp represent the controller and plant model respectively.*
 
 The goal of the controller is to track a setpoint speed, within +/- 0.10 m/s, set by the rider. 
 To achieve this, a PID controller was tuned using MATLAB’s Control System Toolbox. The ebike plant 
@@ -39,33 +39,33 @@ phase direct drive induction motor mounted to the rear hub of the bike.
 A simple diagram of the ebike drivetrain is shown below in Figure 2.  
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg
-   :width: 60%
+   :width: 80%
    :align: center
    :alt: Ebike Drivetrain Diagram.
 
    *Figure 2. Diagram of the drivetrain circuit and dynamics.*
 
 In Figure 2, the induction motor is approximated by a model of a DC motor circuit with resistance :math:`R`, inductance 
-:math:`L` and back emf :math:`Vb`. The torques :math:`Tm` and :math:`Tp` acting on the motor shaft correspond to motor torque and wheel propulsion
+:math:`L` and back emf :math:`V_b`. The torques :math:`T_m` and :math:`T_p` acting on the motor shaft correspond to motor torque and wheel propulsion
 torque respectively. The rotational dynamics of the drivetrain are defined by Euler’s rotation equation. 
 
 A simple equation of motion for the bicycle, modeled as a point mass, is derived using Newton’s 2nd Law of Motion in 
 the horizontal direction [Wilson]_.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg
-   :width: 40%
+   :width: 20%
    :align: center
    :alt: Free Body Diagram of Bicycle.
 
-   *Figure 3. Free body diagram of the bicycle modeled as a point mass. :math:`Fa`, 
-   :math:`Fr` and :math:`Fp` are the aerodynamic drag, rolling 
+   *Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa, 
+   Fr and Fp are the aerodynamic drag, rolling 
    resistance and propulsive forces respectively.* 
 
 Together, the vehicle and drivetrain dynamics of the ebike can be shown in a state space representation with state variables 
 :math:`i(t)` and :math:`x(t)` as seen below. 
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg
-   :width: 70%
+   :width: 55%
    :align: center
    :alt: State Space Representation of the eBike.
 
@@ -91,7 +91,7 @@ In MATLAB, a nonlinear least-squares solver was used to optimize the constants i
 speed time response measured from the instrumented ebike. Figure 4, below, shows the curve fitting result.  
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg
-   :width: 70%
+   :width: 80%
    :align: center
    :alt: Curve Fitting Results.
 
@@ -114,7 +114,7 @@ The closed loop step response (Figure 5) shows that the controller meets the des
 1.56s, and an overshoot percentage of 10.45%.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg
-   :width: 70%
+   :width: 80%
    :align: center
    :alt: Closed Loop System Step Response.
 
