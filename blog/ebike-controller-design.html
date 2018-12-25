@@ -19,7 +19,7 @@
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
         href="https://mechmotum.github.io/feeds/all.atom.xml">
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="https://mechmotum.github.io/feeds/blog.atom.xml">  
+        href="https://mechmotum.github.io/feeds/research.atom.xml">  
   <meta name="description" content="Blog post on designing a speed controller for an instrumented ebike.">
 
 
@@ -64,7 +64,7 @@
         </li>
         <li class="list-inline-item">
           <i class="fa fa-folder-open-o"></i>
-          <a href="https://mechmotum.github.io/category/blog.html">blog</a>
+          <a href="https://mechmotum.github.io/category/research.html">research</a>
         </li>
           <li class="list-inline-item">
             <i class="fa fa-user-o"></i>
@@ -77,71 +77,84 @@
     <div class="content">
       <div class="section" id="introduction">
 <h2>Introduction</h2>
-<p>The goal of this project is to design and implement a control system for an instrumented ebike
-used in bicycle handling experimentation. To achieve this, a basic unity feedback control
-architecture (Figure 1) is employed.</p>
+<p>The goal of this project is to design and implement a control system for an
+instrumented ebike used in bicycle handling experimentation. To achieve this, a
+basic unity feedback control architecture (Figure 1) is employed.</p>
 <div class="figure align-center">
 <img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg" style="width: 80%;" />
-<p class="caption"><em>Figure 1. Control architecture where e is the error between the actual speed
-v of the ebike
-and the desired speed, vd, and V is the DC input voltage to the ebike
-plant model.
-Gc and Gp represent the controller and plant model respectively.</em></p>
+<p class="caption"><em>Figure 1. Control architecture where e is the error between the actual
+speed v of the ebike and the desired speed, vd, and V is the DC input
+voltage to the ebike plant model. Gc and Gp represent the controller and
+plant model respectively.</em></p>
 </div>
-<p>The goal of the controller is to track a setpoint speed, within +/- 0.10 m/s, set by the rider.
-To achieve this, a PID controller was tuned using MATLAB’s Control System Toolbox. The ebike plant
-model was derived using first principles and grey box system identification.</p>
+<p>The goal of the controller is to track a setpoint speed, within +/- 0.10 m/s,
+set by the rider.  To achieve this, a PID controller was tuned using MATLAB’s
+Control System Toolbox. The ebike plant model was derived using first
+principles and grey box system identification.</p>
 </div>
 <div class="section" id="modeling-the-ebike-from-first-principles">
 <h2>Modeling the eBike From First Principles</h2>
-<p>The dynamics of the ebike powertrain and the vehicle itself can be modeled from first principles. The
-powertrain of the ebike consists of a standard ebike conversion kit motor controller and a brushless 3
-phase direct drive induction motor mounted to the rear hub of the bike.
-A simple diagram of the ebike drivetrain is shown below in Figure 2.</p>
+<p>The dynamics of the ebike powertrain and the vehicle itself can be modeled from
+first principles. The powertrain of the ebike consists of a standard ebike
+conversion kit motor controller and a brushless 3 phase direct drive induction
+motor mounted to the rear hub of the bike. A simple diagram of the ebike
+drivetrain is shown below in Figure 2.</p>
 <div class="figure align-center">
 <img alt="Ebike Drivetrain Diagram." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg" style="width: 80%;" />
 <p class="caption"><em>Figure 2. Diagram of the drivetrain circuit and dynamics.</em></p>
 </div>
-<p>In Figure 2, the induction motor is approximated by a model of a DC motor circuit with resistance <span class="math">\(R\)</span>, inductance
-<span class="math">\(L\)</span> and back emf <span class="math">\(V_b\)</span>. The torques <span class="math">\(T_m\)</span> and <span class="math">\(T_p\)</span> acting on the motor shaft correspond to motor torque and wheel propulsion
-torque respectively. The rotational dynamics of the drivetrain are defined by Euler’s rotation equation.</p>
-<p>A simple equation of motion for the bicycle, modeled as a point mass, is derived using Newton’s 2nd Law of Motion in
-the horizontal direction <a class="citation-reference" href="#wilson" id="id1">[Wilson]</a>.</p>
+<p>In Figure 2, the induction motor is approximated by a model of a DC motor
+circuit with resistance <span class="math">\(R\)</span>, inductance <span class="math">\(L\)</span> and back emf
+<span class="math">\(V_b\)</span>. The torques <span class="math">\(T_m\)</span> and <span class="math">\(T_p\)</span> acting on the motor shaft
+correspond to motor torque and wheel propulsion torque respectively. The
+rotational dynamics of the drivetrain are defined by Euler’s rotation equation.</p>
+<p>A simple equation of motion for the bicycle, modeled as a point mass, is
+derived using Newton’s 2nd Law of Motion in the horizontal direction <a class="citation-reference" href="#wilson" id="id1">[Wilson]</a>.</p>
 <div class="figure align-center">
 <img alt="Free Body Diagram of Bicycle." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg" style="width: 20%;" />
-<p class="caption"><em>Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa,
-Fr and Fp are the aerodynamic drag, rolling
-resistance and propulsive forces respectively.</em></p>
+<p class="caption"><em>Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa, Fr
+and Fp are the aerodynamic drag, rolling resistance and propulsive forces
+respectively.</em></p>
 </div>
-<p>Together, the vehicle and drivetrain dynamics of the ebike can be shown in a state space representation with state variables
-<span class="math">\(i(t)\)</span> and <span class="math">\(x(t)\)</span> as seen below.</p>
+<p>Together, the vehicle and drivetrain dynamics of the ebike can be shown in a
+state space representation with state variables <span class="math">\(i(t)\)</span> and <span class="math">\(x(t)\)</span>
+as seen below.</p>
 <img alt="State Space Representation of the eBike." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg" style="width: 55%;" />
-<p>From the state space representation, a transfer function from input DC voltage <span class="math">\(V\)</span> to output speed <span class="math">\(v\)</span> is formed:</p>
+<p>From the state space representation, a transfer function from input DC voltage
+<span class="math">\(V\)</span> to output speed <span class="math">\(v\)</span> is formed:</p>
 <img alt="Plant Model Transfer Function." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-05.jpg" style="width: 80%;" />
-<p>This plant model is a second order transfer function relating an applied DC voltage input to the ebike’s motor controller
-to the output speed of the ebike. This model represents an approximation of the true plant model of the ebike. To get a more
-accurate plant model, a grey box system identification procedure based on measured time response data from the ebike was used.</p>
+<p>This plant model is a second order transfer function relating an applied DC
+voltage input to the ebike’s motor controller to the output speed of the ebike.
+This model represents an approximation of the true plant model of the ebike. To
+get a more accurate plant model, a grey box system identification procedure
+based on measured time response data from the ebike was used.</p>
 </div>
 <div class="section" id="performing-system-identification-from-experimental-data">
 <h2>Performing System Identification From Experimental Data</h2>
-<p>To begin the process of system identification, the values of the ebike drivetrain model parameters and bicycle drag and tire rolling
-resistance coefficients were initialized using reasonable approximations found from internet searches, previous knowledge of the
-instrumented ebike <a class="citation-reference" href="#moore" id="id2">[Moore]</a> and textbook resources <a class="citation-reference" href="#wilson" id="id3">[Wilson]</a>.</p>
-<p>In MATLAB, a nonlinear least-squares solver was used to optimize the constants in the derived plant model of the ebike to match a
-speed time response measured from the instrumented ebike. Figure 4, below, shows the curve fitting result.</p>
+<p>To begin the process of system identification, the values of the ebike
+drivetrain model parameters and bicycle drag and tire rolling resistance
+coefficients were initialized using reasonable approximations found from
+internet searches, previous knowledge of the instrumented ebike <a class="citation-reference" href="#moore" id="id2">[Moore]</a> and
+textbook resources <a class="citation-reference" href="#wilson" id="id3">[Wilson]</a>.</p>
+<p>In MATLAB, a nonlinear least-squares solver was used to optimize the constants
+in the derived plant model of the ebike to match a speed time response measured
+from the instrumented ebike. Figure 4, below, shows the curve fitting result.</p>
 <div class="figure align-center">
 <img alt="Curve Fitting Results." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg" style="width: 80%;" />
 <p class="caption"><em>Figure 4. Result of the least-squares curve fitting.</em></p>
 </div>
-<p>Figure 4 shows that the plant model of ebike was reasonably identified using the least-squares curve fitting method. The resulting ebike plant model is:</p>
+<p>Figure 4 shows that the plant model of ebike was reasonably identified using
+the least-squares curve fitting method. The resulting ebike plant model is:</p>
 <img alt="Identified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-07.jpg" style="width: 90%;" />
 </div>
 <div class="section" id="controller-design-in-matlab">
 <h2>Controller Design in MATLAB</h2>
-<p>With the plant model of the ebike identified, a PID controller (kp = 68.5, ki = 106, kd = 1.44) was tuned for zero steady state error and reasonable transient
+<p>With the plant model of the ebike identified, a PID controller (kp = 68.5, ki =
+106, kd = 1.44) was tuned for zero steady state error and reasonable transient
 behavior using MATLAB’s Control System Toolbox.</p>
-<p>The closed loop step response (Figure 5) shows that the controller meets the design goals with zero steady state error, a settling time of
-1.56s, and an overshoot percentage of 10.45%.</p>
+<p>The closed loop step response (Figure 5) shows that the controller meets the
+design goals with zero steady state error, a settling time of 1.56s, and an
+overshoot percentage of 10.45%.</p>
 <div class="figure align-center">
 <img alt="Closed Loop System Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg" style="width: 80%;" />
 <p class="caption"><em>Figure 5. Closed Loop System Step Response.</em></p>
@@ -149,29 +162,41 @@ behavior using MATLAB’s Control System Toolbox.</p>
 </div>
 <div class="section" id="evaluation-of-controller-robustness">
 <h2>Evaluation of Controller Robustness</h2>
-<p>MATLAB’s Robust Control Toolbox was used to test the robustness of the closed loop system with regards to uncertainties in the coefficients
-of the identified ebike plant model. The constants in the derived ebike plant model were lumped together forming the following simplified plant model:</p>
+<p>MATLAB’s Robust Control Toolbox was used to test the robustness of the closed
+loop system with regards to uncertainties in the coefficients of the identified
+ebike plant model. The constants in the derived ebike plant model were lumped
+together forming the following simplified plant model:</p>
 <img alt="Simplified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-09.jpg" style="width: 90%;" />
-<p>The constants <span class="math">\(a\)</span>, <span class="math">\(b\)</span>, <span class="math">\(c\)</span>, and <span class="math">\(d\)</span> in the above transfer function were defined in MATLAB as real-uncertain parameters with varying
-percentage based uncertainties
-about their nominal values. The nominal values of each coefficient were taken from the result of the system identification step of the controller design process.
-Figure 6, below, shows the nominal closed loop and open loop system step response with 20 random samples of the uncertain plant model defined by the uncertain
-coefficients.</p>
+<p>The constants <span class="math">\(a\)</span>, <span class="math">\(b\)</span>, <span class="math">\(c\)</span>, and <span class="math">\(d\)</span> in the above
+transfer function were defined in MATLAB as real-uncertain parameters with
+varying percentage based uncertainties about their nominal values. The nominal
+values of each coefficient were taken from the result of the system
+identification step of the controller design process.  Figure 6, below, shows
+the nominal closed loop and open loop system step response with 20 random
+samples of the uncertain plant model defined by the uncertain coefficients.</p>
 <div class="figure align-center">
 <img alt="Uncertain Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-10.jpg" style="width: 80%;" />
-<p class="caption"><em>Figure 6. Step response of the nominal closed loop system with 20 random samples of the
-uncertain closed loop step response superimposed on the plot.</em></p>
+<p class="caption"><em>Figure 6. Step response of the nominal closed loop system with 20 random
+samples of the uncertain closed loop step response superimposed on the
+plot.</em></p>
 </div>
-<p>Figure 6 shows that the closed loop system is reasonably robust despite uncertainty in the plant model. Having this robustness in the control system means
-that small changes in the dynamics of the ebike will not cause the controller to have undesirable performance.</p>
+<p>Figure 6 shows that the closed loop system is reasonably robust despite
+uncertainty in the plant model. Having this robustness in the control system
+means that small changes in the dynamics of the ebike will not cause the
+controller to have undesirable performance.</p>
 </div>
 <div class="section" id="conclusion">
 <h2>Conclusion</h2>
-<p>A simple PID controller used in a unity feedback control architecture was designed to reduce the steady state error and improve the transient performance of the
-speed time response of an instrumented ebike. Using grey box system identification, the plant model of the ebike was identified and used in the controller design. A
-PID tuner app was used to tune the controller constants to achieve zero steady state gain and favorable transient behavior. Finally, the robustness of the controller
-was tested by simulating uncertainties in the closed loop system.</p>
-<p>The next step in the project is to take the continuous time PID controller and implement it digitally on the instrumented ebike. Stay tuned for part two:
+<p>A simple PID controller used in a unity feedback control architecture was
+designed to reduce the steady state error and improve the transient performance
+of the speed time response of an instrumented ebike. Using grey box system
+identification, the plant model of the ebike was identified and used in the
+controller design. A PID tuner app was used to tune the controller constants to
+achieve zero steady state gain and favorable transient behavior. Finally, the
+robustness of the controller was tested by simulating uncertainties in the
+closed loop system.</p>
+<p>The next step in the project is to take the continuous time PID controller and
+implement it digitally on the instrumented ebike. Stay tuned for part two:
 Implementing a PID Controller on an Instrumented Ebike.</p>
 </div>
 <div class="section" id="references">
@@ -186,7 +211,7 @@ Cambridge, Mass.: MIT Press.</td></tr>
 <table class="docutils citation" frame="void" id="moore" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id2">[Moore]</a></td><td>Moore, J. (2012). Human Control of a Bicycle. [online] Moorepants.github.io.
+<tr><td class="label"><a class="fn-backref" href="#id2">[Moore]</a></td><td>Moore, J. (2012). Human Control of a Bicycle.
 Available at: <a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html">http://moorepants.github.io/dissertation/davisbicycle.html</a>
 [Accessed 12 Dec. 2018].</td></tr>
 </tbody>

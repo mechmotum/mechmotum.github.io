@@ -7,13 +7,13 @@
 ./blog/libretexts-grant.html
 ./blog/skijumpdesign-published.html
 ./categories.html
-./category/blog.html
 ./category/grants.html
 ./category/papers.html
+./category/research.html
 ./feeds/all.atom.xml
-./feeds/blog.atom.xml
 ./feeds/grants.atom.xml
 ./feeds/papers.atom.xml
+./feeds/research.atom.xml
 ./guide.html
 ./index.html
 ./jobs.html
