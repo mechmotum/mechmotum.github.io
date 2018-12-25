@@ -27,11 +27,11 @@ Current
    - Bryn Cloud [June 2018-present]
    - Ada Liu [June 2018-present]
    - Trevor Metz [July 2018-present]
-   - Henry Agnew [July 2018-present]
    - Rayming Liang [July 2018-present]
    - Jonathan Cubanski [October 2018-present]
    - Dorian Crutcher [October 2018-present]
 Past
+   - Henry Agnew [July 2018-September 2018]
    - Vivian Tran [May 2016-December 2016]
    - Edward Jacobs [July 2018-October 2018]
    - Roy Gilboa July [2018-September 2018]
