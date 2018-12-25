@@ -21,7 +21,7 @@ specific paid positions (listed below) but also take on undergraduates to work
 on any of the current lab projects (paid/unpaid). Undergraduates that have not
 worked with Jason (in a class or project) will start with a two week unpaid
 trial and be upgraded to paid, if funds are available, after the two week trial
-period. If you want to join the lab for a position not listed below, please
+period. If you want to join the lab for a position **not listed below**, please
 send a letter explaining your interest in the lab, CV or resume, and any other
 relevant information to jkm@ucdavis.edu. Include whether you have been accepted
 already or have applied to our department.
@@ -29,26 +29,26 @@ already or have applied to our department.
 LibreTexts Engineering Education Asst
 -------------------------------------
 
-Apply via `Aggie Job Link <https://icc.ucdavis.edu/find/resources/ajl>`.
+Apply via `Aggie Job Link`_.
 
-Aggie Job Link Specifier: STDT4 - LibreTexts Engineering Education Asst (MAE) (845986)
+Aggie Job Link Specifier: STDT4 - LibreTexts_ Engineering Education Asst (MAE) (845986)
 
 Job Function: Student Worker
 
 Job Purpose: To assist Dr. Jason K Moore and other engineering faculty in
-developing interactive open access textbooks for the LibreTexts project and
+developing interactive open access textbooks for the LibreTexts_ project and
 various UCD engineering courses.
 
 Job Description:
 
 The assistant will be part of a team that develops one or more open access
 engineering textbooks. These textbooks will be published as part of the
-LibreTexts engineering "living library". The assistant will work on a variety
+LibreTexts_ engineering "living library". The assistant will work on a variety
 of tasks based on their skills and performance: search for existing open access
 engineering content edit existing engineering textbook content write new
 engineering textbook content draw engineering figures using graphic design
 software write and solve engineering homework problems develop computational
-learning content using Jupyter The student will work a minimum of 10 hours per
+learning content using Jupyter_ The student will work a minimum of 10 hours per
 week during the fall, winter, and spring quarters and a minimum of 20 hrs per
 week during the summer quarter. Up to three years of work on the project may be
 available based on performance.
@@ -68,7 +68,7 @@ Required
 
 Preferred
 
-- Familiarity with Python, Jupyter, and scientific Python packages.
+- Familiarity with Python, Jupyter_, and scientific Python packages.
 - Engineering major, ideally Mechanical Engineering or Aerospace Sciences
   major.
 
@@ -95,19 +95,19 @@ Assistant IV: $11.25 - $16.75
 LibreTexts System Administrator Asst
 ------------------------------------
 
-Apply via `Aggie Job Link <https://icc.ucdavis.edu/find/resources/ajl>`.
+Apply via `Aggie Job Link`_.
 
-Aggie Job Link Specifier: STDT4 - LibreTexts System Administrator Asst (MAE) (845989)
+Aggie Job Link Specifier: STDT4 - LibreTexts_ System Administrator Asst (MAE) (845989)
 
 Job Function: Student Worker
 
 Job Purpose: To assist Dr. Jason K. Moore in setting up and maintaining
-computational cloud services for the LibreTexts project.
+computational cloud services for the LibreTexts_ project.
 
 Job Description:
 
 The assistant will work on purchasing, setting up, and maintaining a cluster of
-compute nodes to run Binder, Thebelab, and JupyterHub to support the LibreTexts
+compute nodes to run Binder_, Thebelab, and Jupyter_Hub to support the LibreTexts_
 project. They will be part of a team of system administrator assistants working
 on the various related tasks. The assistant will develop scripts,
 documentation, and support various open source projects as needed. The student
@@ -132,7 +132,7 @@ Required
 Preferred
 
 - Familiarity with open source software development practices.
-- Familiarity with Python and Jupyter.
+- Familiarity with Python and Jupyter_.
 - Familiarity with Kubernetes.
 - Familiarity with web technologies: HTML/CSS/JS.
 
@@ -154,3 +154,9 @@ Location(s): Bainer Hall and Remote
 Base Pay Rate:
 
 Assistant IV: $11.25 - $16.75
+
+.. _LibreTexts: http://libretexts.org
+.. _Jupyter: http://jupyter.org
+.. _ThebeLab: https://github.com/minrk/thebelab
+.. _Binder: http://mybinder.org
+.. _Aggie Job Link: https://icc.ucdavis.edu/find/resources/ajl
