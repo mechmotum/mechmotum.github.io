@@ -46,9 +46,20 @@ Conference Proceedings
    In Proceedings of the 2016 Bicycle and Motorcycle Dynamics Conference.
    Figshare, 2016. https://doi.org/10.6084/m9.figshare.3806310.v1
 
+Preprints
+=========
+
+#. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
+   R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
+   fusion for estimating competitive rowing kinematic metrics.
+   https://doi.org/10.31224/osf.io/nykuh
+
 Web Articles
 ============
 
+#. Metz, Trevor. "Design of a PID Controller for Controlling The Speed of an
+   Instrumented Ebike", Laboratorium of Marvelous Mechanical Motum Blog
+   (December 15, 2018) https://mechmotum.github.io/blog/ebike-controller-design.html
 #. Moore, Jason K. and Lyons, Kenneth. "Using Computational Thinking to Teach
    Mechanical Vibrations." UC Davis Engineering Education Learning Community
    Blog (April 23, 2018)
@@ -67,12 +78,15 @@ Tutorials
 
 #. Moore, Jason K. "Squiggly Bicycle Routes: Physics Based Route Design
    Evaluation." (2018) https://tinyurl.com/squiggly-cosmos2018
+#. Downey, Allen & Moore, Jason K. "Computational Thinking in the Engineering
+   Curriculum" (2018) https://youtu.be/lfRVRqdYdjM
 #. Dahlgren, Bjorn, Kenneth Lyons, Aaron Meurer, and Jason K. Moore. "Automatic
    Code Generation With SymPy." (July 2017) http://www.sympy.org/scipy-2017-codegen-tutorial/
 
 Software
 ========
 
+- row_filter: https://gitlab.com/mechmotum/row_filter
 - opty http://github.com/csu-hmc/opty
 - pydy http://pydy.org
 - resonance http://github.com/moorepants/resonance
