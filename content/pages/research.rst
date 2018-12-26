@@ -2,8 +2,8 @@
 
 The following details various research projects that are in progress.
 
-Vehicle Dynamics, Control, and Handling
-=======================================
+Human-in-the-loop Augmented Automatic Control and Vehicle Design
+================================================================
 
 Optimal Bicycle Design for Handling
 -----------------------------------
@@ -52,9 +52,9 @@ research [#]_. This project aims to validate this metric directly from
 experimental evidence in bicycling maneuvers and tasks. We have developed a
 variable stability instrumented bicycle and demonstrated preliminarily that
 that there may be correlations between our theoretical metric and the rider's
-subjective opinion of the bicycle's handling [3]_. Ongoing work includes,
+subjective opinion of the bicycle's handling [#]_. Ongoing work includes,
 improvements to the experimental apparatus and protocol for a larger scale
-validation with arbitrary experimental subjects.
+validation with arbitrary experimental subjects [#]_.
 
 .. [#] Hess, Ronald, Jason K. Moore, and Mont Hubbard. "Modeling the Manually
    Controlled Bicycle." IEEE Transactions on Systems, Man, and Cybernetics -
@@ -63,27 +63,13 @@ validation with arbitrary experimental subjects.
 .. [#] Kresie, Scott W., Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
    "Experimental Validation of Bicycle Handling Prediction," September 13,
    2017. https://doi.org/10.6084/m9.figshare.5405233.v1.
+.. [#] Metz, Trevor. "Design of a PID Controller for Controlling The Speed of
+   an Instrumented Ebike", Laboratorium of Marvelous Mechanical Motum Blog
+   (December 15, 2018)
+   https://mechmotum.github.io/blog/ebike-controller-design.html
 
-Inexpensive Open Source and Open Hardware Bicycle Data Logger
--------------------------------------------------------------
-
-| Current researchers:
-| Past researchers: Edward Jacobs
-| Collaborators: Marco Dozza (Chalmers University), Christian-Nils Åkerberg Boda (Chalmers University)
-
-Analysis of comprehensive dynamical data during bicycling trips and activities
-has the potential to teach us much about travel behavior and safety of
-bicyclists. We would like to develop a open collaborative project with the aim
-of creating a modular, continually inexpensive, open source, and open hardware
-bicycle data logger. This idea was pitched by Marco Dozza at ICSC 2017 [#]_ and
-we are working with his team to bring this to fruition.
-
-.. [#] Dozza, Marco; Rasch, A.; Boda, C. N. (2017): An Open-Source Data Logger
-   for Field Cycling Collection: Design and Evaluation.
-   https://doi.org/10.6084/m9.figshare.5404918.v1
-
-Assistive Devices
-=================
+Assistive Device Design for the Physically Impaired
+===================================================
 
 Control Identification of Human Standing
 -----------------------------------------
@@ -102,17 +88,17 @@ standing. Given all or subsets of this data collected during externally
 perturbed standing, we are interested in developing optimal control theories
 and methods of identifying the specific control strategy in use. We have
 developed parameter identification methods using direct collocation to identify
-the controllers used in simulated standing [4]_. The general optimal control
+the controllers used in simulated standing [#]_. The general optimal control
 and parameter estimation methods used have been formalized in the software,
-Opty [5]_. We are currently developing a small desktop "double pendulum on a
+Opty [#]_. We are currently developing a small desktop "double pendulum on a
 cart" robot to verify and improve the control identification methods. The robot
 will allow us to measure the motion during perturbed balancing which is a
 result of known programmed control strategies.
 
-.. [4] Moore, Jason K., and Antonie J. van den Bogert. "Quiet Standing Control
+.. [#] Moore, Jason K., and Antonie J. van den Bogert. "Quiet Standing Control
    Parameter Identification with Direct Collocation." In XV International
    Symposium on Computer Simulation in Biomechanics. Edinburgh, UK, 2015.
-.. [5] Jason K. Moore, and Antonie van den Bogert. "Opty: Software for
+.. [#] Jason K. Moore, and Antonie van den Bogert. "Opty: Software for
    Trajectory Optimization and Parameter Identification Using Direct
    Collocation." Journal of Open Source Software 3, no. 21 (2018): 300.
    https://doi.org/10.21105/joss.00300.
@@ -131,8 +117,8 @@ Design of a Quadriplegic Friendly Tricycle
 Students developed a adaptive input device to enable persons with ALS and
 quadriplegia to control an electric tricycle.
 
-Sports Engineering
-==================
+Enhancing Athlete Performance and Safety in Sports
+==================================================
 
 Smartphone-based Rowing Metric Estimation
 -----------------------------------------
@@ -149,7 +135,12 @@ and kinetic measurements. This project aims to improve performance critical
 biomechanic rowing metrics through dynamics informed estimation algorithms. We
 have developed rower adaptive filtering methods to predict global boat
 position, speed, stroke rate, and distance per stroke at high accuracy and with
-experimental protocols for validating the estimations.
+experimental protocols for validating the estimations [#]_.
+
+.. [#] B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
+   competitive rowing kinematic metrics," 23-Dec-2018.
+   https://doi.org/10.31224/osf.io/nykuh
+
 
 Ski Jumps Designed for a Specific Equivalent Fall Height
 --------------------------------------------------------
@@ -172,8 +163,52 @@ jump designs can still provide large maximum heights and flight durations. We
 have designed a web application that laymen can use to design ski jumps with a
 specified equivalent fall height.
 
-Engineering Education
-=====================
+Sustainable Transportation
+==========================
+
+Inexpensive Open Source and Open Hardware Bicycle Data Logger
+-------------------------------------------------------------
+
+| Current researchers:
+| Past researchers: Edward Jacobs
+| Collaborators: Marco Dozza (Chalmers University), Christian-Nils Åkerberg Boda (Chalmers University)
+
+Analysis of comprehensive dynamical data during bicycling trips and activities
+has the potential to teach us much about travel behavior and safety of
+bicyclists. We would like to develop a open collaborative project with the aim
+of creating a modular, continually inexpensive, open source, and open hardware
+bicycle data logger. This idea was pitched by Marco Dozza at ICSC 2017 [#]_ and
+we are working with his team to bring this to fruition.
+
+.. [#] Dozza, Marco; Rasch, A.; Boda, C. N. (2017): An Open-Source Data Logger
+   for Field Cycling Collection: Design and Evaluation.
+   https://doi.org/10.6084/m9.figshare.5404918.v1
+
+Human Powered Appropriate Technology
+====================================
+
+Efficiency of Human Powered Irrigation Pumps
+--------------------------------------------
+
+| Current researchers: Aaron Shaw, Rayming Liang
+| Collaborators: Andrew Hall (Buffalo Bikes)
+| Past researchers: Abraham McKay
+
+We have developed a inexpensive centrifugal pump that attaches to a simple
+power takeoff on a Buffalo Bike [#]_. Our hypothesis is that a less efficient
+centrifugal pump paired with power generation from cycling will be overall more
+efficient than a more efficient positive displacement pump paired with stepping
+power generation. We are accurately measuring the input biomechanical power and
+output hydraulic power from both systems to produce efficiency curves as a
+function of hydraulic load.
+
+.. [#] Mckay, Abraham B., "The Water Buffalo: Design of a Portable Bicycle
+   Powered Irrigation Pump for Small-Scale African Farmers", MSc Thesis,
+   University of California, Davis, 2018.
+   https://doi.org/10.6084/m9.figshare.6378401.v2
+
+Teaching and Learning Engineering Through Mobility Applications
+===============================================================
 
 Learning Mechanical Vibrations Through Computational Thinking
 -------------------------------------------------------------
@@ -222,26 +257,3 @@ solving for boundary conditions. The integral calculus and algebra details
 often hide the trees for the woods. This project is centered around developing
 a package for SymPy that can be used to model and solve analytical beam
 problems, without getting bogged down in the mathematical details.
-
-Appropriate Technology
-======================
-
-Efficiency of Human Powered Irrigation Pumps
---------------------------------------------
-
-| Current researchers: Aaron Shaw, Rayming Liang
-| Collaborators: Andrew Hall (Buffalo Bikes)
-| Past researchers: Abraham McKay
-
-We have developed a inexpensive centrifugal pump that attaches to a simple
-power takeoff on a Buffalo Bike [#]_. Our hypothesis is that a less efficient
-centrifugal pump paired with power generation from cycling will be overall more
-efficient than a more efficient positive displacement pump paired with stepping
-power generation. We are accurately measuring the input biomechanical power and
-output hydraulic power from both systems to produce efficiency curves as a
-function of hydraulic load.
-
-.. [#] Mckay, Abraham B., "The Water Buffalo: Design of a Portable Bicycle
-   Powered Irrigation Pump for Small-Scale African Farmers", MSc Thesis,
-   University of California, Davis, 2018.
-   https://doi.org/10.6084/m9.figshare.6378401.v2
