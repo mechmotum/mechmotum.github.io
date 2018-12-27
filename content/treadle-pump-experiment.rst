@@ -74,14 +74,10 @@ where :math:`F` is the force in Newtons applied to the lever arm perpendicular t
 where torque |tau| is in Newton-meters and angular velocity |omega| is in radians per second. Time required to fill the 20 liter bucket was measured and used to calculate flow rate. Hydraulic power could then be calculated using the equation:
 
 
-.. |tau| image:: https://objects-us-east-1.dream.io/mechmotum/tau.png
-   :width: 15
-   :alt: Tau.
+.. |tau| unicode:: U+1D6D5
 
 
-.. |omega| image:: https://objects-us-east-1.dream.io/mechmotum/sigma.png
-   :width: 15
-   :alt: Sigma.
+.. |omega| unicode:: U+1D6DA
 
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/hydraulic-power.png
@@ -134,6 +130,7 @@ Results
    *Figure 4*
 
 
+
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/2m-trials.png
    :align: center
    :alt: 2m Trials.
@@ -141,11 +138,13 @@ Results
    *Figure 5*
 
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/3m-trials.png
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/3m-trials.png
    :align: center
    :alt: 3m Trials.
 
    *Figure 6*
+
 
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/4m-trials.png
@@ -153,6 +152,7 @@ Results
    :alt: 4m Trials.
 
    *Figure 7*
+
 
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/5m-trials.png
@@ -186,9 +186,7 @@ Figure 9 shows the average efficiencies for each pump at various pressure heads.
 The Buffalo pump is determined to be 21% (|sigma| = 6.7%) more efficient at 1 meter pressure head than the Xylem pump, and 32% (|sigma| = 4.9%) more efficient at the same head when compared to the Money Maker. At 2 meters pressure head, the Buffalo pump was 17.0% (|sigma| = 2.9%) and 24.7% (|sigma| = 2.4%) more efficient than the Xylem and Money Maker respectively. At 3 meters head, it was 16.3% (|sigma| = 3.8%) and 26% (|sigma| = 4.1%) more efficient respectively. At 4 meters, the differences decreased to 2.2% (|sigma| = 4.6%) and 9.7% (|sigma| = 4.6%). At 5 meters the Xylem pump was 6.8% (|sigma| = 4.9%) more efficient than the Buffalo pump and the Money Maker was only 2% (|sigma| = 3.7%) less efficient than the Buffalo. 
 
 
-.. |sigma| image:: https://objects-us-east-1.dream.io/mechmotum/sigma.png
-   :width: 15
-   :alt: Sigma.
+.. |sigma| unicode:: U+1D6D4
 
 
 Until the correlation between power and efficiency can be determined, these conclusions include an error assumed to be negligible. It is within the best interest of further research to try and describe this correlation, which may appear something like this:
