@@ -123,7 +123,7 @@ Results
 -------
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/1m-trials.png
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/1m-trials.jpg
    :align: center
    :alt: 1m Trials.
      
@@ -131,7 +131,7 @@ Results
 
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/2m-trials.png
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/2m-trials.jpg
    :align: center
    :alt: 2m Trials.
    
@@ -139,7 +139,7 @@ Results
 
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/3m-trials.png
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/3m-trials.jpg
    :align: center
    :alt: 3m Trials.
 
@@ -147,7 +147,7 @@ Results
 
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/4m-trials.png
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/4m-trials.jpg
    :align: center
    :alt: 4m Trials.
 
@@ -155,7 +155,7 @@ Results
 
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/5m-trials.png
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/5m-trials.jpg
    :align: center
    :alt: 5m Trials.
 
