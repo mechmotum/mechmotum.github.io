@@ -5,7 +5,7 @@ Finding the Efficiency of the Xylem and Money Maker Treadle Pumps
 :tags: efficiency, treadle pump, engineering
 :category: research
 :slug: treadle-pump-experiment
-:authors: Aaron Shaw and Rayming Liang
+:authors: Aaron Shaw, Rayming Liang
 :summary: Blog post on conducting efficiency experiments with treadle pumps.
 
 Introduction
