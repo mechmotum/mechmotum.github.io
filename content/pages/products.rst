@@ -57,9 +57,14 @@ Preprints
 Web Articles
 ============
 
+#. Shaw, Aaron and Liang, Rayming. "Finding the Efficiency of the Xylem and
+   Money Maker Treadle Pumps", Laboratorium of Marvelous Mechanical Motum Blog
+   (December 27, 2018)
+   https://mechmotum.github.io/blog/treadle-pump-experiment.html
 #. Metz, Trevor. "Design of a PID Controller for Controlling The Speed of an
    Instrumented Ebike", Laboratorium of Marvelous Mechanical Motum Blog
-   (December 15, 2018) https://mechmotum.github.io/blog/ebike-controller-design.html
+   (December 15, 2018)
+   https://mechmotum.github.io/blog/ebike-controller-design.html
 #. Moore, Jason K. and Lyons, Kenneth. "Using Computational Thinking to Teach
    Mechanical Vibrations." UC Davis Engineering Education Learning Community
    Blog (April 23, 2018)
