@@ -55,27 +55,53 @@ consisting of the force sensors and angular rate gyro are shown below in Figure
 &lt;p&gt;We measure force and angular rate using the force sensors and the angular rate
 gyro respectively. Using our force measurements, we were able to calculate
 torque using the equation below:&lt;/p&gt;
-&lt;img alt="Torque Equation." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/torque-equation.png" style="width: 80%;" /&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\tau = F \times r
+\end{equation*}
+&lt;/div&gt;
 &lt;p&gt;where &lt;span class="math"&gt;\(F\)&lt;/span&gt; is the force in Newtons applied to the lever arm perpendicular
 to the arm. The radius &lt;span class="math"&gt;\(r\)&lt;/span&gt; is the distance from the point of applied
 force to the lever arm’s center of rotation. Using torque and angular rate
 measurements from the angular rate gyro, power in watts is calculated using the
 equation below:&lt;/p&gt;
-&lt;img alt="Power Equation." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/power-equation.png" style="width: 80%;" /&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+P = \tau \times \omega
+\end{equation*}
+&lt;/div&gt;
 &lt;p&gt;where torque 𝛕 is in Newton-meters and angular velocity 𝛚 is in
 radians per second. Time required to fill the 20 liter bucket was measured and
 used to calculate flow rate. Hydraulic power could then be calculated using the
 equation:&lt;/p&gt;
-&lt;img alt="Hydraulic Power." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/hydraulic-power.png" style="width: 80%;" /&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\textrm{Hydraulic Power} = q \times \rho \times g \times h
+\end{equation*}
+&lt;/div&gt;
 &lt;p&gt;Simplifying for water, where density equals 1 kilogram per liter:&lt;/p&gt;
-&lt;img alt="Simplified Hyrdualic Power." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/simplified-hydraulic-power.png" style="width: 80%;" /&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\textrm{Hydraulic Power} = q \times g \times h
+\end{equation*}
+&lt;/div&gt;
 &lt;p&gt;where &lt;span class="math"&gt;\(q\)&lt;/span&gt; is measured in liters per second, &lt;span class="math"&gt;\(g\)&lt;/span&gt; is 9.81 meters per
 second squared, and &lt;span class="math"&gt;\(h\)&lt;/span&gt; is vertical pressure head measured in meters.
 Efficiency can be calculated using the equation below:&lt;/p&gt;
-&lt;img alt="Power Efficiency." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/efficiency.png" style="width: 80%;" /&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\eta = \frac{\textrm{Hydraulic Power}} {\textrm{Input Power}}
+\end{equation*}
+&lt;/div&gt;
 &lt;p&gt;Hazen efficiency is determined by calculating the friction head loss using the
 Hazen-Williams equation:&lt;/p&gt;
-&lt;img alt="Hazen-Williams Head Loss Equation." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/hazen-williams-head-loss-equation.png" style="width: 80%;" /&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\textrm{Frictional Head Loss} = \frac{\textrm{Pipe Length} \times 10.67 \times
+(\textrm{flow rate})^{1.852}}{(\textrm{Hazen
+Roughness})^{1.852\times d^{4.8704}}}
+\end{equation*}
+&lt;/div&gt;
 &lt;p&gt;Hydraulic power is adjusted using this estimated friction head. A Hazen
 efficiency can then determined.&lt;/p&gt;
 &lt;p&gt;Each test began with one person priming the pump in order to achieve consistent
@@ -165,7 +191,11 @@ more efficient than the Buffalo pump and the Money Maker was only 2% (𝛔 =
 conclusions include an error assumed to be negligible. It is within the best
 interest of further research to try and describe this correlation, which may
 appear something like this:&lt;/p&gt;
-&lt;img alt="Power Efficiency Correlation." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/power-efficiency-correlation.png" style="width: 80%;" /&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\textrm{Efficiency} = C \times \textrm{Power} + B
+\end{equation*}
+&lt;/div&gt;
 &lt;p&gt;For low C values (&amp;lt;&amp;lt;1), our assumption can be considered valid. Our current
 assumption is that C=0, where efficiency is not a function of power. It would
 also be beneficial to direct further research at determining the range of
@@ -184,16 +214,16 @@ between two treadle style pumps and a centrifugal-type water pump.&lt;/p&gt;
 &lt;table class="docutils citation" frame="void" id="polak" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[Polak]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;P. Polak, “How IDE Installed 1.5 Million Treadle Pumps in
-Bangladesh by Activating the Private Secotr: The Practical Steps,”
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[Polak]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;P. Polak, &amp;quot;How IDE Installed 1.5 Million Treadle Pumps in
+Bangladesh by Activating the Private Secotr: The Practical Steps,&amp;quot;
 International Development Enterprises (IDE), 2000.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="mckay" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[McKay]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;A. Mckay. (2018), “The Water Buffalo: Design of a Portable Bicycle
-Powered Irrigation Pump for Small-Scale African Farmers” UC Davis, Davis,
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[McKay]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;A. Mckay. (2018), &amp;quot;The Water Buffalo: Design of a Portable Bicycle
+Powered Irrigation Pump for Small-Scale African Farmers&amp;quot; UC Davis, Davis,
 California&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
