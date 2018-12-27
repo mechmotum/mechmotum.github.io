@@ -22,7 +22,7 @@ motion (Figure 1).
    :align: center
    :alt: Treadle Example.
 
-   *Figure 1. A user “treadles” on the Money Maker treadle pump.*
+   *Figure 1. A user "treadles" on the Money Maker treadle pump.*
 
 The treadle pump is an inexpensive and portable irrigation tool. According to
 International Development Enterprises (IDE), treadle pumps helped farmers in
