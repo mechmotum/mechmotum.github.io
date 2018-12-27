@@ -1,4 +1,5 @@
 ./archives.html
+./author/aaron-shaw-and-rayming-liang.html
 ./author/jason-k-moore.html
 ./author/trevor-metz.html
 ./authors.html
@@ -6,6 +7,7 @@
 ./blog/index.html
 ./blog/libretexts-grant.html
 ./blog/skijumpdesign-published.html
+./blog/treadle-pump-experiment.html
 ./categories.html
 ./category/grants.html
 ./category/papers.html
@@ -22,12 +24,14 @@
 ./research.html
 ./tag/controls.html
 ./tag/education.html
+./tag/efficiency.html
 ./tag/engineering.html
 ./tag/instrumented-bike.html
 ./tag/jupyter.html
 ./tag/oer.html
 ./tag/ski.html
 ./tag/sports.html
+./tag/treadle-pump.html
 ./tags.html
 ./theme/css/bootstrap.min.css
 ./theme/css/font-awesome.min.css

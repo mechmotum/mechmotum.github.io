@@ -1,5 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum - research</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/research.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2018-12-15T00:00:00-08:00</updated><entry><title>Design of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-design.html" rel="alternate"></link><published>2018-12-15T00:00:00-08:00</published><updated>2018-12-15T00:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2018-12-15:/blog/ebike-controller-design.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on designing a speed controller for an instrumented ebike.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum - research</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/research.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2018-12-27T00:00:00-08:00</updated><entry><title>Finding the Efficiency of the Xylem and Money Maker Treadle Pumps</title><link href="https://mechmotum.github.io/blog/treadle-pump-experiment.html" rel="alternate"></link><published>2018-12-27T00:00:00-08:00</published><updated>2018-12-27T00:00:00-08:00</updated><author><name>Aaron Shaw and Rayming Liang</name></author><id>tag:mechmotum.github.io,2018-12-27:/blog/treadle-pump-experiment.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on conducting efficiency experiments with treadle pumps.&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="introduction"&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Small scale farmers use human-powered water pumps in rural areas to increase crop yields beyond subsistence levels. Different designs utilize various biomechanical motions. One of the most popular and proven designs for human-powered water pumps is the treadle pump, which is operated via a stepping motion (Figure 1).&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Treadle Example." src="https://objects-us-east-1.dream.io/mechmotum/treadle-example.jpg" style="width: 50%;" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 1. A user “treadles” on the Money Maker treadle pump.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The treadle pump is an inexpensive and portable irrigation tool. According to International Development Enterprises (IDE), treadle pumps helped farmers in Bangladesh increase their income by an average of $100 a year. This increase in profit allowed farmers to invest in larger, more expensive irrigation machines that further increased crop yields and helped create financial stability &lt;a class="citation-reference" href="#polak" id="id1"&gt;[Polak]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A prototype pedal-powered centrifugal water pump was tested by Abe McKay during his Master’s studies &lt;a class="citation-reference" href="#mckay" id="id2"&gt;[McKay]&lt;/a&gt;. Mckay’s tests suggested that this pump’s efficiency was comparable to that of the commercially available Xylem and Money Maker treadle pumps. Detailed efficiency data for these treadle pumps are not available and thus an accurate comparison could not be made until now.&lt;/p&gt;
+&lt;p&gt;For our experiment, we gathered efficiency data from the Xylem and Money Maker treadle pumps and compared them to McKay’s data on the prototype Buffalo pump. By comparing the efficiency of the Buffalo pump to the commercially available Xylem and Money Maker pumps, we can evaluate the prototype’s potential for success as a low cost tool for small scale irrigation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="methods"&gt;
+&lt;h2&gt;Methods&lt;/h2&gt;
+&lt;p&gt;McKay had conducted an efficiency test with the centrifugal pump so our goal was to conduct a similar test with our treadle pumps in order to produce data that could be compared. We conducted fifteen tests, with three replicates at each pressure head between 1 and 5 meters. We pumped 20 liters of water for each test. We measured time using a photoresistor that was covered and uncovered (on/off) to record the beginning and end of each test. The DAQ apparatus including photoresistor circuit, sensor wires, and LabJack is shown in Figure 2 below.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="DAQ Setup." src="https://objects-us-east-1.dream.io/mechmotum/daq-setup.png" style="width: 50%;" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 2. The LabJack was kept dry and out of danger behind the treadle pump.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Force sensors were designed using steel plates and two 200 kg rated load cells. The load cells were mounted between steel plates and then mounted on the treadle pump lever arms with U-bolts. We calibrated the force sensor using Olympic weights and a balance scale for reference. The power meter apparatus consisting of the force sensors and angular rate gyro are shown below in Figure 3.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Treadle Pump Setup." src="https://objects-us-east-1.dream.io/mechmotum/treadle-pump-setup.jpg" style="width: 50%;" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 3. The Xylem treadle pump with force sensor and angular rate gyro attached&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;We measure force and angular rate using the force sensors and the angular rate gyro respectively. Using our force measurements, we were able to calculate torque using the equation below:&lt;/p&gt;
+&lt;img alt="Torque Equation." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/torque-equation.png" style="width: 80%;" /&gt;
+&lt;p&gt;where &lt;span class="math"&gt;\(F\)&lt;/span&gt; is the force in Newtons applied to the lever arm perpendicular to the arm. The radius &lt;span class="math"&gt;\(r\)&lt;/span&gt; is the distance from the point of applied force to the lever arm’s center of rotation. Using torque and angular rate measurements from the angular rate gyro, power in watts is calculated using the equation below:&lt;/p&gt;
+&lt;img alt="Power Equation." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/power-equation.png" style="width: 80%;" /&gt;
+&lt;p&gt;where torque 𝛕 is in Newton-meters and angular velocity 𝛚 is in radians per second. Time required to fill the 20 liter bucket was measured and used to calculate flow rate. Hydraulic power could then be calculated using the equation:&lt;/p&gt;
+&lt;img alt="Hydraulic Power." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/hydraulic-power.png" style="width: 80%;" /&gt;
+&lt;p&gt;Simplifying for water, where density equals 1 kilogram per liter:&lt;/p&gt;
+&lt;img alt="Simplified Hyrdualic Power." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/simplified-hydraulic-power.png" style="width: 80%;" /&gt;
+&lt;p&gt;where &lt;span class="math"&gt;\(q\)&lt;/span&gt; is measured in liters per second, &lt;span class="math"&gt;\(g\)&lt;/span&gt; is 9.81 meters per second squared, and &lt;span class="math"&gt;\(h\)&lt;/span&gt; is vertical pressure head measured in meters. Efficiency can be calculated using the equation below:&lt;/p&gt;
+&lt;img alt="Power Efficiency." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/efficiency.png" style="width: 80%;" /&gt;
+&lt;p&gt;Hazen efficiency is determined by calculating the friction head loss using the Hazen-Williams equation:&lt;/p&gt;
+&lt;img alt="Hazen-Williams Head Loss Equation." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/hazen-williams-head-loss-equation.png" style="width: 80%;" /&gt;
+&lt;p&gt;Hydraulic power is adjusted using this estimated friction head. A Hazen efficiency can then determined.&lt;/p&gt;
+&lt;p&gt;Each test began with one person priming the pump in order to achieve consistent water flow. The collector would deliver the pumped water into an overflow bucket until the experiment began. At the start of the experiment the treadler would remove a piece of paper covering the photoresistor. Simultaneously, the collector would transfer the outlet hose to the 20 L metered collection bucket. During the data collection, the treadler would attempt to maintain an average of 100 Watts. This was done by feel only and therefore resulted in some deviation from the target power. The experiment ended when the collector signaled to the treadler that 20 L was reached, at which point the photoresistor was covered and the data collection complete. The data was collected via a MATLAB program and saved after each trial. 15 trials were completed: three at each meter interval between 1 and 5 meters.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="results"&gt;
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="1m Trials." src="https://objects-us-east-1.dream.io/mechmotum/1m-trials.png" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 4&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="2m Trials." src="https://objects-us-east-1.dream.io/mechmotum/2m-trials.png" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 5&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="3m Trials." src="https://objects-us-east-1.dream.io/mechmotum/3m-trials.png" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 6&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="4m Trials." src="https://objects-us-east-1.dream.io/mechmotum/4m-trials.png" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 7&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="5m Trials." src="https://objects-us-east-1.dream.io/mechmotum/5m-trials.png" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 8&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The figures 4-8 above show the calculated efficiencies for each pump at different pressure heads across all trials. The average efficiencies are graphed in figure 9 below.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Average Efficiency." src="https://objects-us-east-1.dream.io/mechmotum/average-efficiency.jpg" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 9&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Figure 9 shows the efficiency trends across different pressure heads for each pump. The average efficiency was found by finding the mean across the three trial tests at each pressure head. The effect that the variation in power may have had on efficiency was assumed to be negligible. The trendlines and corresponding equations are shown.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="discussion"&gt;
+&lt;h2&gt;Discussion&lt;/h2&gt;
+&lt;p&gt;There is a variation in average power within each testing group that must be acknowledged. Because the average power for each testing group was not held constant, we must consider the relationship between power and efficiency. When the trendlines for each testing group are observed, our data does not suggest a strong relationship between average power and efficiency within a given pressure head. More data points and a dedicated testing procedure would help validate this claim, but the observed results are enough to make the assumption that the effect of any hypothetical correlation is negligible given the range over which average power varied during our tests. Therefore, the average efficiencies can be compared between pumps where pressure head is held constant despite fluctuating average power measurements across trials.&lt;/p&gt;
+&lt;p&gt;Figure 9 shows the average efficiencies for each pump at various pressure heads. The centrifugal Buffalo pump has a negatively sloped trendline whereas the treadle pumps have positively sloped trendlines when observed between our range of pressure heads. The Xylem pump surpasses the efficiency of the Buffalo pump around 4.5 meters pressure head. The Money Maker pump can be predicted to surpass the efficiency of the Buffalo pump at around 5.5 meters pressure head. The Xylem and Money Maker pumps share a similar relationship between increased pressure head and increased efficiency. There is a difference in slope between the two trendlines of 0.54. Due to shared mechanical properties, all treadle-type pumps most likely produce similarly sloped trendlines. The centrifugal Buffalo pump is a completely different design, and thus its efficiency can be predicted along a completely different trendline.&lt;/p&gt;
+&lt;p&gt;The Buffalo pump is determined to be 21% (𝛔 = 6.7%) more efficient at 1 meter pressure head than the Xylem pump, and 32% (𝛔 = 4.9%) more efficient at the same head when compared to the Money Maker. At 2 meters pressure head, the Buffalo pump was 17.0% (𝛔 = 2.9%) and 24.7% (𝛔 = 2.4%) more efficient than the Xylem and Money Maker respectively. At 3 meters head, it was 16.3% (𝛔 = 3.8%) and 26% (𝛔 = 4.1%) more efficient respectively. At 4 meters, the differences decreased to 2.2% (𝛔 = 4.6%) and 9.7% (𝛔 = 4.6%). At 5 meters the Xylem pump was 6.8% (𝛔 = 4.9%) more efficient than the Buffalo pump and the Money Maker was only 2% (𝛔 = 3.7%) less efficient than the Buffalo.&lt;/p&gt;
+&lt;p&gt;Until the correlation between power and efficiency can be determined, these conclusions include an error assumed to be negligible. It is within the best interest of further research to try and describe this correlation, which may appear something like this:&lt;/p&gt;
+&lt;img alt="Power Efficiency Correlation." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/power-efficiency-correlation.png" style="width: 80%;" /&gt;
+&lt;p&gt;For low C values (&amp;lt;&amp;lt;1), our assumption can be considered valid. Our current assumption is that C=0, where efficiency is not a function of power. It would also be beneficial to direct further research at determining the range of pressure heads most frequently encountered in real world irrigation situations. This information will be critical in determining which human powered water pump is the most efficient for its given application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Our research finds that the Buffalo pump is more efficient than the Xylem treadle pump up to 4.5 meters pressure head, and the Money Maker up to 5.5 meters pressure head. The efficiency advantage of one type of pump over another will depend largely on pressure head. Figure 9 shows the efficiency trends between two treadle style pumps and a centrifugal-type water pump.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;table class="docutils citation" frame="void" id="polak" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[Polak]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;ol class="first last upperalpha simple" start="16"&gt;
+&lt;li&gt;Polak, “How IDE Installed 1.5 Million Treadle Pumps in Bangladesh by Activating the Private Secotr: The Practical Steps,” International Development Enterprises (IDE), 2000.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils citation" frame="void" id="mckay" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[McKay]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;ol class="first last upperalpha simple"&gt;
+&lt;li&gt;Mckay. (2018), “The Water Buffalo: Design of a Portable Bicycle Powered Irrigation Pump for Small-Scale African Farmers” UC Davis, Davis, California&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="efficiency"></category><category term="treadle pump"></category><category term="engineering"></category></entry><entry><title>Design of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-design.html" rel="alternate"></link><published>2018-12-15T00:00:00-08:00</published><updated>2018-12-15T00:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2018-12-15:/blog/ebike-controller-design.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on designing a speed controller for an instrumented ebike.&lt;/p&gt;
 </summary><content type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The goal of this project is to design and implement a control system for an
