@@ -17,14 +17,12 @@ biomechanical motions. One of the most popular and proven designs for
 human-powered water pumps is the treadle pump, which is operated via a stepping
 motion (Figure 1).
 
-
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/treadle-example.jpg
    :width: 50%
    :align: center
    :alt: Treadle Example.
 
    *Figure 1. A user “treadles” on the Money Maker treadle pump.*
-
 
 The treadle pump is an inexpensive and portable irrigation tool. According to
 International Development Enterprises (IDE), treadle pumps helped farmers in
@@ -64,7 +62,6 @@ in Figure 2 below.
 
    *Figure 2. The LabJack was kept dry and out of danger behind the treadle pump.*
 
-
 Force sensors were designed using steel plates and two 200 kg rated load cells.
 The load cells were mounted between steel plates and then mounted on the
 treadle pump lever arms with U-bolts. We calibrated the force sensor using
@@ -83,10 +80,9 @@ We measure force and angular rate using the force sensors and the angular rate
 gyro respectively. Using our force measurements, we were able to calculate
 torque using the equation below\:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/torque-equation.png
-   :width: 80%
-   :align: center
-   :alt: Torque Equation.
+.. math::
+
+   \tau = F \times r
 
 where :math:`F` is the force in Newtons applied to the lever arm perpendicular
 to the arm. The radius :math:`r` is the distance from the point of applied
@@ -94,11 +90,9 @@ force to the lever arm’s center of rotation. Using torque and angular rate
 measurements from the angular rate gyro, power in watts is calculated using the
 equation below:
 
+.. math::
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/power-equation.png
-   :width: 80%
-   :align: center
-   :alt: Power Equation.
+   P = \tau \times \omega
 
 where torque |tau| is in Newton-meters and angular velocity |omega| is in
 radians per second. Time required to fill the 20 liter bucket was measured and
@@ -110,35 +104,32 @@ equation:
 .. |omega| unicode:: U+1D6DA
 
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/hydraulic-power.png
-   :width: 80%
-   :align: center
-   :alt: Hydraulic Power.
+.. math::
 
+   \textrm{Hydraulic Power} = q \times \rho \times g \times h
 
 Simplifying for water, where density equals 1 kilogram per liter\:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/simplified-hydraulic-power.png
-   :width: 80%
-   :align: center
-   :alt: Simplified Hyrdualic Power.
+.. math::
+
+   \textrm{Hydraulic Power} = q \times g \times h
 
 where :math:`q` is measured in liters per second, :math:`g` is 9.81 meters per
 second squared, and :math:`h` is vertical pressure head measured in meters.
 Efficiency can be calculated using the equation below:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/efficiency.png
-   :width: 80%
-   :align: center
-   :alt: Power Efficiency.
+.. math::
+
+   \eta = \frac{\textrm{Hydraulic Power}} {\textrm{Input Power}}
 
 Hazen efficiency is determined by calculating the friction head loss using the
 Hazen-Williams equation:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/hazen-williams-head-loss-equation.png
-   :width: 80%
-   :align: center
-   :alt: Hazen-Williams Head Loss Equation.
+.. math::
+
+   \textrm{Frictional Head Loss} = \frac{\textrm{Pipe Length} \times 10.67 \times
+   (\textrm{flow rate})^{1.852}}{(\textrm{Hazen
+   Roughness})^{1.852\times d^{4.8704}}}
 
 Hydraulic power is adjusted using this estimated friction head. A Hazen
 efficiency can then determined.
@@ -259,10 +250,9 @@ conclusions include an error assumed to be negligible. It is within the best
 interest of further research to try and describe this correlation, which may
 appear something like this:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/power-efficiency-correlation.png
-   :width: 80%
-   :align: center
-   :alt: Power Efficiency Correlation.
+.. math::
+
+   \textrm{Efficiency} = C \times \textrm{Power} + B
 
 For low C values (<<1), our assumption can be considered valid. Our current
 assumption is that C=0, where efficiency is not a function of power. It would
@@ -282,9 +272,9 @@ between two treadle style pumps and a centrifugal-type water pump.
 
 **References**
 
-.. [Polak] P. Polak, “How IDE Installed 1.5 Million Treadle Pumps in
-   Bangladesh by Activating the Private Secotr: The Practical Steps,”
+.. [Polak] P. Polak, "How IDE Installed 1.5 Million Treadle Pumps in
+   Bangladesh by Activating the Private Secotr: The Practical Steps,"
    International Development Enterprises (IDE), 2000.
-.. [McKay] A. Mckay. (2018), “The Water Buffalo: Design of a Portable Bicycle
-   Powered Irrigation Pump for Small-Scale African Farmers” UC Davis, Davis,
+.. [McKay] A. Mckay. (2018), "The Water Buffalo: Design of a Portable Bicycle
+   Powered Irrigation Pump for Small-Scale African Farmers" UC Davis, Davis,
    California
