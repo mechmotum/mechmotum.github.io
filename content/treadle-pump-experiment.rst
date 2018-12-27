@@ -127,9 +127,9 @@ Hazen-Williams equation:
 
 .. math::
 
-   \textrm{Frictional Head Loss} = \frac{\textrm{Pipe Length} \times 10.67 \times
-   (\textrm{flow rate})^{1.852}}{(\textrm{Hazen
-   Roughness})^{1.852\times d^{4.8704}}}
+   \textrm{Frictional Head Loss} =
+     \frac{\textrm{Pipe Length} \times 10.67 \times (\textrm{flow rate})^{1.852}}
+          {(\textrm{Hazen Roughness})^{1.852} \times d^{4.8704}}
 
 Hydraulic power is adjusted using this estimated friction head. A Hazen
 efficiency can then determined.
