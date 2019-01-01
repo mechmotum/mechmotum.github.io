@@ -27,8 +27,6 @@ ARTICLE_SAVE_AS = 'blog/{slug}.html'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 MENUITEMS = [('Blog', '/blog/')]
-DIRECT_TEMPLATES = ['frontpage']
-PAGINATED_DIRECT_TEMPLATES = ['frontpage']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
