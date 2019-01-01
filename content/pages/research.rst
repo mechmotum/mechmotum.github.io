@@ -112,6 +112,7 @@ Design of a Quadriplegic Friendly Tricycle
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/quad-friendly-trike.png
    :width: 60%
+   :align: center
    :alt: brochure image of the tricycle
 
 Students developed a adaptive input device to enable persons with ALS and
@@ -150,6 +151,7 @@ Ski Jumps Designed for a Specific Equivalent Fall Height
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-screenshot.jpg
    :width: 60%
+   :align: center
    :target: http://www.skijumpdesign.info
    :alt: Screenshot of the ski jump design application.
 
