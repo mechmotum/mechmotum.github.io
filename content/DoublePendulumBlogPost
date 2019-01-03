@@ -1,12 +1,20 @@
+Double Pendulum Human Controller Robot: GUI Development
+=================================================================
+
+:date: 2018-12-27 00:00:00
+:tags: controller, double pendulum, gui
+:category: research
+:slug: Double Pendulum Robot
+:authors: Jonathan Blaze Cubanski, Dorian Crutcher
+:summary: Blog post on creating a new interface to test different controller designs for the Double Pendulum Robot.
+
 Introduction and background
 ---------------------------
 
 The Double Pendulum Biomimetic Project has the overarching goal of developing a desktop-controlled inverted double pendulum with actuators in each joint to serve as a model for a human balancing on a moving platform (i.e. a skateboard), where the degrees of freedom is limited to the human’s waist and ankle joints. This model is illustrated in Figure 1 below.
 
 .. image:: https://i.ibb.co/02cgsJ4/DPDiagram.png 
-   :height:100
-   :width: 100
-   :scale: 500
+   :width: 80%
    :alt: alter2ate text
    :align: right
 
@@ -21,9 +29,7 @@ Software Development
 The following presents a high-level overview of the software solutions that were implemented. To make the code modular and user-friendly, 4 custom libraries were developed to encapsulate all needed functionality. General system operation functions and interrupts governing writing PWM signals, tracking encoder positions, enforcing position limits, and computing system states were isolated in a general functionality library. A separate library for controllers allows the user to add or modify controllers for all actuators. In order to send position and angle commands as a function of time, the user can directly write mathematical functions into a dedicated position library in inches, degrees, and seconds. It was determined that the educational value of the system and the overall functionality would greatly benefit from real-time gain updates and user control. To facilitate this, a serial processing library was established and using the IDE Processing, a GUI was created. The GUI, as shown below, has a startup and swing-up buttons which enable the user to safely start system operation when ready. The user can select the desired motor controller and update the gains in real time.
 
 .. image:: https://i.ibb.co/VHnSm6t/GUIScreenshot.png 
-   :height: 100
-   :width: 100
-   :scale: 500
+   :width: 80%
    :alt: alter2ate text
    :align: right
 
@@ -48,14 +54,13 @@ https://github.com/mechmotum/DoublePendulumCode
 
 
 Thank you
-==========
+----------
 
 
 
 
 .. image:: https://i.ibb.co/JRwyV6m/Team-Photo.jpg :height:100
-   :width: 100
-   :scale: 500
+   :width: 80%
    :alt: alter2ate text
    :align: right
 
