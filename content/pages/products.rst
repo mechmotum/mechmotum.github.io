@@ -69,6 +69,12 @@ Web Articles
    Mechanical Vibrations." UC Davis Engineering Education Learning Community
    Blog (April 23, 2018)
    http://engineering.ucdavis.edu/eelc/using-computational-thinking-to-teach-mechanical-vibrations/
+#. McKay, Abe. "Pedaling for Water in Kisumu: Closing", UC Davis Blum Center
+   Blog (September 12, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-closing-by.html
+#. McKay, Abe. "Pedaling for Water in Kisumu: Midway", UC Davis Blum Center
+   Blog (August 26, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-midway-by.html
+#. McKay, Abe. "Pedaling for Water in Kisumu: Beginning", UC Davis Blum Center
+   Blog (August 20, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-beginning.html
 #. Lyons, Kenneth and Moore, Jason K. "Teaching Modeling and Simulation with
    Python." (July 20, 2017) http://www.moorepants.info/blog/scipy-2017-bof.html
 #. Moore, Jason K. "Learning Mechanical Design Through Lightweight
