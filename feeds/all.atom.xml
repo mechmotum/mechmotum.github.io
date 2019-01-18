@@ -59,10 +59,10 @@ varying boat pitch during rowing. This can be done by augmenting the
 accelerometer's reading (&lt;span class="math"&gt;\(\phi_k\)&lt;/span&gt;).&lt;/p&gt;
 &lt;p&gt;Therefore, the kinematic model for the Kalman Filter is as follows:&lt;/p&gt;
 &lt;div class="math"&gt;
-\begin{equation*}
-d_{k+1} = d_k+ v_k \Delta t
+\begin{align*}
+d_{k+1} = d_k+ v_k \Delta t \\
 v_{k+1} = v_k + (\alpha_{y,k} - \phi_k) \Delta t
-\end{equation*}
+\end{align*}
 &lt;/div&gt;
 &lt;p&gt;This bias term now becomes a new state to be estimated by the filter which will
 effectively account for drift due to integration error accumulation.&lt;/p&gt;
