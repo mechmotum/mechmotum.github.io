@@ -79,7 +79,7 @@ Therefore, the kinematic model for the Kalman Filter is as follows:
 
 .. math::
 
-    d_{k+1} = d_k+ v_k \Delta t
+    d_{k+1} = d_k+ v_k \Delta t \\
     v_{k+1} = v_k + (\alpha_{y,k} - \phi_k) \Delta t
 
 This bias term now becomes a new state to be estimated by the filter which will
