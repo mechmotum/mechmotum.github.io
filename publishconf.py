@@ -10,7 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-THEME = "pelican-svbhack"
+THEME = "pelican-alchemy/alchemy"
+PLUGIN_PATHS = "pelican-plugins"
 
 SITEURL = 'https://mechmotum.github.io'
 RELATIVE_URLS = False
