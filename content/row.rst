@@ -6,10 +6,12 @@ Estimating Competition Rowing Metrics
 :category: papers
 :slug: row
 :authors: Bryn Cloud, Britt Tarien, Ada Liu, Thomas Shedd
-:summary: Our paper on the sensor fusion of iPhone sensor streams will be submitted in the online journal PLOS ONE.
+:summary: Our paper on the sensor fusion of iPhone sensor streams is 
+currently available for preprint at https://engrxiv.org/nykuh.
 
-Our paper "Adaptive smartphone-based sensor fusion for estimating competitive
-rowing kinematic metrics" is to be submitted soon to PLOS ONE.
+This blog post provides a brief description of the primary ideas and results 
+that will be found in the paper, "Adaptive smartphone-based sensor fusion for 
+estimating competitive rowing kinematic metrics".
 
 Goal
 ====
@@ -102,29 +104,35 @@ smartphone GPS, complementary filter, and Kalman filter through the relative
 error with respect to the the distance per stroke computed from the
 differential GPS measurements.
 
-<Enter dps.png figure here>
+.. image:: https://objects-us-east-1.dream.io/mechmotum/dps.png
+   :width: 50%
+   :align: center
 
 Example boat speed estimates over 30 seconds during a typical trial comparing
 smartphone GPS derived speed and the complementary filter and Kalman filter
 outputs against the differential GPS is shown in Figure 2.  RMSE is calculated
 with respect to the sampling rate of the accelerometer, 100 Hz.
 
-<Enter speed-example.png here>
+.. image:: https://objects-us-east-1.dream.io/mechmotum/speed-example.png
+   :width: 50%
+   :align: center
 
 Discussion
 ==========
 
-We have presented two methods to estimate the distance and speed along a rowing
-boat's path in real time that provide high accuracy and precision from the
-relatively low accuracy sensors from a single smartphone attached to the boat.
-These estimates provide an intimate view of the rower's performance. In
-particular, we show that the distance per stroke can be estimated to an
-accuracy of 61cm using the Kalman Filter which is high enough to be able to
-examine relative stroke differences that may contribute to winning or losing a
-race.  Additionally, the inter-stroke view of boat speed that our methods
-provide are better than any inexpensive commercial on-board boat speed
-measurement device and compares favorably to very accurate differential GPS
-systems without the need for more than one GPS receiver.
+We have presented two methods to estimate the speed and distance per stroke 
+along a rowing boat's path in real time that provide high accuracy and precision 
+from the relatively low accuracy sensors from a single smartphone attached to the 
+boat. These estimates provide an intimate view of the rower's performance. These 
+improved estimates can be used to create a more detailed analysis of the rower's 
+performance. Specifically, we show that the distance per stroke can be estimated 
+to an accuracy of 50~\si{\centi\meter}, which is an improvement over smartphone 
+estimates but still insufficient for detailed stroke-by-stroke level 
+differentiation of boats in a racing event with relatively close elapsed times. 
+Additionally, the inter-stroke view of boat speed that our methods provide are 
+better than any inexpensive commercial on-board boat speed measurement device 
+and compares favorably to very accurate differential GPS systems without the 
+need for more than one GPS receiver.
 
 The complementary filter has a disadvantage in that the filter cutoff
 frequencies aren't updated to optimal values in real time, and the optimal
@@ -139,6 +147,4 @@ estimations.
 
 Other related information:
 
-- Software repository: https://gitlab.com/a9503006/paper_row.git
-
-.. _Journal of Open Source Software: http://joss.theoj.org
+- Software repository: https://gitlab.com/mechmotum/row_filter
