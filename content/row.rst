@@ -7,7 +7,7 @@ Estimating Competition Rowing Metrics
 :slug: row
 :authors: Bryn Cloud, Britt Tarien, Ada Liu, Thomas Shedd
 :summary: Our paper on the sensor fusion of iPhone sensor streams is 
-currently available for preprint at https://engrxiv.org/nykuh.
+          currently available for preprint at https://engrxiv.org/nykuh.
 
 This blog post provides a brief description of the primary ideas and results 
 that will be found in the paper, "Adaptive smartphone-based sensor fusion for 
