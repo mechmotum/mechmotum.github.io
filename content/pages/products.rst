@@ -36,6 +36,19 @@ Books
 Conference Proceedings
 ======================
 
+#. B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
+   competitive rowing kinematic metrics," submitted to the XXVII Congress of
+   the International Society of Biomechanics & 43rd Annual Meeting of the
+   American Society of Biomechanics, Calgary, Canada, 2019.
+#. T. Metz and J. K. Moore, "Design of an Electric Bicycle Speed Controller,"
+   submitted to the Bicycle and Motorcycle Dynamics 2019, Padova, Italy, 2019,
+   p. 2.
+#. J. K. Moore, M. Hubbard, and R. A. Hess, "Expanded Optimization for
+   Discovering Optimal Lateral Handling Bicycles," submitted to the Bicycle and
+   Motorcycle Dynamics 2019, 2019, p. 2.
+#. R. Gilboa, J. K. Moore, M. Hubbard, and R. A. Hess, “Practical Realization
+   of a Theoretical Optimal-Handling Bicycle,” submitted to the Bicycle and
+   Motorcycle Dynamics 2019, 2019, p. 2.
 #. Moore, Jason K., Mont Hubbard, and Ronald A. Hess. "Optimal Bicycle Design
    to Maximize Handling and Safety," September 13, 2017.
    https://doi.org/10.6084/m9.figshare.5405242.v1
