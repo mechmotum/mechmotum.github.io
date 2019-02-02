@@ -282,7 +282,7 @@ California&lt;/td&gt;&lt;/tr&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="efficiency"></category><category term="treadle pump"></category><category term="engineering"></category></entry><entry><title>Design of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-design.html" rel="alternate"></link><published>2018-12-15T00:00:00-08:00</published><updated>2018-12-15T00:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2018-12-15:/blog/ebike-controller-design.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on designing a speed controller for an instrumented ebike.&lt;/p&gt;
+&lt;/script&gt;</content><category term="efficiency"></category><category term="treadle pump"></category><category term="engineering"></category><category term="biomechanics"></category><category term="appropriate&#10;technology"></category></entry><entry><title>Design of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-design.html" rel="alternate"></link><published>2018-12-15T00:00:00-08:00</published><updated>2018-12-15T00:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2018-12-15:/blog/ebike-controller-design.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on designing a speed controller for an instrumented ebike.&lt;/p&gt;
 </summary><content type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The goal of this project is to design and implement a control system for an
@@ -479,4 +479,4 @@ Available at: &lt;a class="reference external" href="http://moorepants.github.io
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="controls"></category><category term="instrumented bike"></category><category term="engineering"></category></entry></feed>
+&lt;/script&gt;</content><category term="controls"></category><category term="instrumentation"></category><category term="engineering"></category><category term="mechatronics"></category><category term="bicycle"></category></entry></feed>
