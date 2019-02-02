@@ -2,7 +2,8 @@ Finding the Efficiency of the Xylem and Money Maker Treadle Pumps
 =================================================================
 
 :date: 2018-12-27 00:00:00
-:tags: efficiency, treadle pump, engineering
+:tags: efficiency, treadle pump, engineering, biomechanics, appropriate
+       technology
 :category: research
 :slug: treadle-pump-experiment
 :authors: Aaron Shaw, Rayming Liang

@@ -2,7 +2,7 @@ Design of a PID Controller for Controlling The Speed of an Instrumented Ebike
 =============================================================================
 
 :date: 2018-12-15 00:00:00
-:tags: controls, instrumented bike, engineering
+:tags: controls, instrumentation, engineering, mechatronics, bicycle
 :category: research
 :slug: ebike-controller-design
 :authors: Trevor Metz
