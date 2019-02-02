@@ -1,14 +1,15 @@
-BMD and ISB/ASB Abstract Submissions
-====================================
+BMD, ISSS, and ISB/ASB Abstract Submissions
+===========================================
 
 :date: 2019-02-01 00:00:00
-:tags: sports, biomechanics, bicycles, handling, optimization, design, mechatronics
+:tags: sports, biomechanics, bicycles, handling, optimization, design, mechatronics, ski
 :category: conferences
-:slug: isb-bmd-abstracts-2019
+:slug: bmd-isss-isb-asb-abstracts
 :authors: Jason K. Moore
 :summary: Blog post to share recent conference abstract submissions.
 
-The lab has just submitted a series of abstracts for two conferences in 2019.
+The lab has just submitted a series of abstracts for three upcoming conferences
+in 2019.
 
 We submitted an abstract on the `soon to be submitted rowing biomechanics paper
 <https://engrxiv.org/nykuh>`_ to the `International Society of Biomechanics &
@@ -32,6 +33,14 @@ conference in Padova, Italy <https://bmd2019.org/>`_ in September.
 - "Expanded Optimization for Discovering Optimal Lateral Handling Bicycle" is
   on work Mont, Ron, and I are continuing on optimal handling bicycles.  `[PDF]
   <https://objects-us-east-1.dream.io/mechmotum/bmd2019-abstract-moore.pdf>`__
+
+And finally, we submitted an abstract on our work about ski jump design to the
+`International Society of Skiing Safety meeting <https://www.isss2019.com/>`_
+at Squaw Valley in April.
+
+- "Accessible, Open-source Computational Analysis and Design of Terrain Park
+  Ski Jumps" based on work done by Bryn Cloud, Britt Tarien, Mont Hubbard and
+  me. `[PDF] <https://objects-us-east-1.dream.io/mechmotum/isss2019-abstract.pdf>`__
 
 We are crossing our fingers for acceptance! Thanks for all the hard work from
 the students!
