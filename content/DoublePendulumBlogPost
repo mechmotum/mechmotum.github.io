@@ -13,14 +13,15 @@ Introduction and background
 
 The Double Pendulum Biomimetic Project has the overarching goal of developing a desktop-controlled inverted double pendulum with actuators in each joint to serve as a model for a human balancing on a moving platform (i.e. a skateboard), where the degrees of freedom is limited to the human’s waist and ankle joints. This model is illustrated in Figure 1 below.
 
-.. figure:: https://i.ibb.co/02cgsJ4/DPDiagram.png 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/pendulum-fbd.png 
    :width: 80%
    :alt: alter2ate text
    :align: center
 
    *Figure 1: Double Pendulum Reference (Photo created by Erich Baur, Todd Sweeney, Jiahao Wei, Greg McDonald)*
 
-There are two key applications for such a device. Firstly, it can assist in controller identification, helping bridge the gap between the simulation of human movements and real-world data collection. Secondly, the project is done in collaboration with the Dr. Zhaodan Kong and the Cyber Human Physical Systems Lab— Dr. Kong intends to use the device to demonstrate the fundamentals of control theory to high school students.
+There are two key applications for such a device. Firstly, it can assist in controller identification, helping bridge the gap between the simulation of human movements and real-world data collection. Secondly, the project is done in collaboration with the Dr. Zhaodan Kong and the Cyber Human Physical Systems Lab— Dr. Kong intends to use the device to demonstrate the fundamentals of control theory to 
+school students.
 The pendulum hardware was developed previously by EME 185 students, as well as some preliminary Arduino code to enable robot movement. The primary objectives were now to bring this hardware to life with UI software with an interactive GUI for the robot, and improve upon the embedded Arduino code. Additional objectives included restoring and improving the electromechanical hardware as needed, and allow data collection from the onboard encoders.
 
 Software Development
@@ -30,7 +31,7 @@ The following presents a high-level overview of the software solutions that were
 
 
 
-.. figure:: https://i.ibb.co/VHnSm6t/GUIScreenshot.png 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/pendulum-gui.png 
    :width: 50%
    :align: center
    :alt: Operating GUI.
@@ -62,7 +63,7 @@ Thank you
 
 
 
-.. figure:: https://i.ibb.co/JRwyV6m/Team-Photo.jpg 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/dorian-blaze.jpg 
    :width: 80%
    :alt: alter2ate text
    :align: center
