@@ -15,7 +15,7 @@ The Double Pendulum Biomimetic Project has the overarching goal of developing a 
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/pendulum-fbd.png 
    :width: 80%
-   :alt: alter2ate text
+   :alt: Image depicting visual model showing the dynamics of the double pendulum robot
    :align: center
 
    *Figure 1: Double Pendulum Reference (Photo created by Erich Baur, Todd Sweeney, Jiahao Wei, Greg McDonald)*
@@ -44,7 +44,10 @@ Results and Discussion
 
 The system currently is operating with PID controllers for each actuator and the aforementioned functionality. The custom designed GUI successfully augments the controller values and output response of the double pendulum robot. In the video below, the robot is set to remain positioned perpendicular to the ground as different external inputs are enacted onto the robot. The different PID gains inputted into the GUI clearly affect its ability to return to that position after being offset by external forces. Here is a link to a video that showcases its performance. 
 
-VIDEO: https://www.youtube.com/embed/nCciGgxlK24
+
+.. raw:: html 
+   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nCciGgxlK24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Further Work
 ------------------
@@ -65,7 +68,7 @@ Thank you
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/dorian-blaze.jpg 
    :width: 80%
-   :alt: alter2ate text
+   :alt: This image displays the two students that worked on this project over the Fall 2018 Quarter, Dorian Crutcher and Jonathan Blaze Cubanski
    :align: center
 
    *Figure 3: Left: Dorian Crutcher   Right: Jonathan Blaze Cubanski* 
