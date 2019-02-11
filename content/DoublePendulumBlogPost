@@ -1,7 +1,7 @@
 Double Pendulum Human Controller Robot: GUI Development
 =================================================================
 
-:date: 2018-12-27 00:00:00
+:date: 2019-02-11 00:00:00
 :tags: controller, double pendulum, gui
 :category: research
 :slug: Double Pendulum Robot
@@ -38,7 +38,6 @@ The following presents a high-level overview of the software solutions that were
 
    *Figure 2. Operating GUI for Double Pendulum Operation*
 
-
 Results and Discussion 
 ----------------------
 
@@ -47,7 +46,7 @@ The system currently is operating with PID controllers for each actuator and the
 
 .. raw:: html 
    
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nCciGgxlK24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/nCciGgxlK24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Further Work
 ------------------
@@ -62,9 +61,6 @@ https://github.com/mechmotum/DoublePendulumCode
 
 Thank you
 ----------
-
-
-
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/dorian-blaze.jpg 
    :width: 80%
