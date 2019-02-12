@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Double Pendulum Human Controller Robot: GUI Development | Laboratorium of Marvelous Mechanical Motum
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/blog/double-pendulum-robot.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://mechmotum.github.io/feeds/research.atom.xml">  
+  <meta name="description" content="Blog post on creating a new interface to test different controller designs for the Double Pendulum Robot.">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Laboratorium of Marvelous Mechanical Motum">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <h1 class="title"><a href="https://mechmotum.github.io/">Laboratorium of Marvelous Mechanical Motum</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Double Pendulum Human Controller Robot: GUI Development
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2019-02-11T00:00:00-08:00">
+          <i class="fa fa-clock-o"></i>
+          Mon 11 February 2019
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="https://mechmotum.github.io/category/research.html">research</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="https://mechmotum.github.io/author/jonathan-blaze-cubanski.html">Jonathan Blaze Cubanski</a>,               <a href="https://mechmotum.github.io/author/dorian-crutcher.html">Dorian Crutcher</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="https://mechmotum.github.io/tag/controller.html">#controller</a>,               <a href="https://mechmotum.github.io/tag/double-pendulum.html">#double pendulum</a>,               <a href="https://mechmotum.github.io/tag/gui.html">#gui</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="section" id="introduction-and-background">
+<h2>Introduction and background</h2>
+<p>The Double Pendulum Biomimetic Project has the overarching goal of developing a
+desktop-controlled inverted double pendulum with actuators in each joint to
+serve as a model for a human balancing on a moving platform (i.e. a
+skateboard), where the degrees of freedom is limited to the human’s waist and
+ankle joints. This model is illustrated in Figure 1 below.</p>
+<div class="figure align-center">
+<img alt="Image depicting visual model showing the dynamics of the double pendulum robot" src="https://objects-us-east-1.dream.io/mechmotum/pendulum-fbd.png" style="width: 80%;" />
+<p class="caption"><em>Figure 1: Double Pendulum Reference (Photo created by Erich Baur, Todd Sweeney, Jiahao Wei, Greg McDonald)</em></p>
+</div>
+<p>There are two key applications for such a device. Firstly, it can assist in
+controller identification, helping bridge the gap between the simulation of
+human movements and real-world data collection. Secondly, the project is done
+in collaboration with the Dr. Zhaodan Kong and the Cyber Human Physical Systems
+Lab— Dr. Kong intends to use the device to demonstrate the fundamentals of
+control theory to school students.</p>
+<p>The pendulum hardware was developed previously by EME 185 students, as well as
+some preliminary Arduino code to enable robot movement. The primary objectives
+were now to bring this hardware to life with UI software with an interactive
+GUI for the robot, and improve upon the embedded Arduino code. Additional
+objectives included restoring and improving the electromechanical hardware as
+needed, and allow data collection from the onboard encoders.</p>
+</div>
+<div class="section" id="software-development">
+<h2>Software Development</h2>
+<p>The following presents a high-level overview of the software solutions that
+were implemented. To make the code modular and user-friendly, 4 custom
+libraries were developed to encapsulate all needed functionality. General
+system operation functions and interrupts governing writing PWM signals,
+tracking encoder positions, enforcing position limits, and computing system
+states were isolated in a general functionality library. A separate library for
+controllers allows the user to add or modify controllers for all actuators. In
+order to send position and angle commands as a function of time, the user can
+directly write mathematical functions into a dedicated position library in
+inches, degrees, and seconds. It was determined that the educational value of
+the system and the overall functionality would greatly benefit from real-time
+gain updates and user control. To facilitate this, a serial processing library
+was established and using the IDE Processing, a GUI was created. The GUI, as
+shown below, has a startup and swing-up buttons which enable the user to safely
+start system operation when ready. The user can select the desired motor
+controller and update the gains in real time.</p>
+<div class="figure align-center">
+<img alt="Operating GUI." src="https://objects-us-east-1.dream.io/mechmotum/pendulum-gui.png" style="width: 50%;" />
+<p class="caption"><em>Figure 2. Operating GUI for Double Pendulum Operation</em></p>
+</div>
+</div>
+<div class="section" id="results-and-discussion">
+<h2>Results and Discussion</h2>
+<p>The system currently is operating with PID controllers for each actuator and
+the aforementioned functionality. The custom designed GUI successfully augments
+the controller values and output response of the double pendulum robot. In the
+video below, the robot is set to remain positioned perpendicular to the ground
+as different external inputs are enacted onto the robot. The different PID
+gains inputted into the GUI clearly affect its ability to return to that
+position after being offset by external forces. Here is a link to a video that
+showcases its performance.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nCciGgxlK24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="section" id="further-work">
+<h2>Further Work</h2>
+<p>The current limiting factors of this system primarily relate to the state of
+the hardware and certain design decisions. Testing of serial communication
+indicates that there may be a systematic shielding issue, and the
+microprocessor should be moved away from high voltage lines. It is also unclear
+if the code is operating fast enough to achieve optimal performance. Thorough
+testing of performance while increasing the delay between each loop is needed
+to understand the effects of this. Including a feature to allow enter custom
+controller algorithms to save, access and port these into the microcontroller
+was also difficult to achieve within the time constraints allotted.</p>
+<p>Data collection using a serial monitoring application is currently possible by
+printing encoder data to the terminal, however, this slows down the code since
+serial writing is relatively slow. Without a clear understanding of the effects
+of changing loop time, it is not possible to draw clear conclusions about the
+implications of this. A viable solution would be to have a second Arduino
+running in parallel which only prints serial data and does not command the
+robot. More testing is needed.</p>
+<p>Here is the link to our GitHub Repository where you can find the Arduino .ino
+code, the custom libraries to operate the robot, and the Processing IDE code
+for the GUI controller.</p>
+<p><a class="reference external" href="https://github.com/mechmotum/DoublePendulumCode">https://github.com/mechmotum/DoublePendulumCode</a></p>
+</div>
+<div class="section" id="thank-you">
+<h2>Thank you</h2>
+<div class="figure align-center">
+<img alt="This image displays the two students that worked on this project over the Fall 2018 Quarter, Dorian Crutcher and Jonathan Blaze Cubanski" src="https://objects-us-east-1.dream.io/mechmotum/dorian-blaze.jpg" style="width: 80%;" />
+<p class="caption"><em>Figure 3: Left: Dorian Crutcher   Right: Jonathan Blaze Cubanski</em></p>
+</div>
+</div>
+
+    </div>
+  </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+</body>
+
+</html>
