@@ -2,11 +2,12 @@ JOSS Paper On Ski Jump Design Software Published
 ================================================
 
 :date: 2018-08-20 00:00:00
-:tags: ski, sports, engineering
+:tags: ski, sports, engineering, safety
 :category: papers
 :slug: skijumpdesign-published
 :authors: Jason K. Moore
-:summary: Our paper on the ski jump design software is published in the Journal of Open Source Software.
+:summary: Our paper on the ski jump design software is published in the Journal
+          of Open Source Software.
 
 The `Journal of Open Source Software`_ accepted and published our paper
 "skijumpdesign: A Ski Jump Design Tool for Specified Equivalent Fall Height"

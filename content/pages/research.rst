@@ -1,6 +1,6 @@
 :title: Research
 
-The following details various research projects that are in progress.
+The following details various research projects that are currently active.
 
 Human-in-the-loop Augmented Automatic Control and Vehicle Design
 ================================================================
@@ -74,8 +74,9 @@ Assistive Device Design for the Physically Impaired
 Control Identification of Human Standing
 -----------------------------------------
 
-| Current researchers: Dorian Crutcher, Jonathan Cubanski
+| Current researchers:
 | Collaborators: Ton van den Bogert (Cleveland State University)
+| Past researchers: Dorian Crutcher, Jonathan Cubanski, Todd Sweeney, Greg McDonald, Jiahao Wei, Erich Baur, Kendall Lui, Stanley Tsang, Chenxiong Yi, Rouxi Peng
 
 Humans unconsciously utilize a control strategy while standing. Visual,
 vestibular, and proprioceptive sensing inform the brain's control strategy
@@ -107,7 +108,7 @@ Design of a Quadriplegic Friendly Tricycle
 ------------------------------------------
 
 | Current researchers:
-| Collaborators: Greg Tanner (Disability Reports), Outrider USA
+| Collaborators: Greg Tanner (Disability Reports), Tommy Ausherman (Outrider USA)
 | Past researchers: Aaron Shaw, Jake Parkhurst, Andy Wu, Felicia Fashanu, Haowei Li, Cynthia Devaughn, Vivian Ting, Thomas Poozhikala
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/quad-friendly-trike.png
@@ -115,7 +116,7 @@ Design of a Quadriplegic Friendly Tricycle
    :align: center
    :alt: brochure image of the tricycle
 
-Students developed a adaptive input device to enable persons with ALS and
+Students developed a adaptive input device to enable persons with ALS or
 quadriplegia to control an electric tricycle.
 
 Enhancing Athlete Performance and Safety in Sports
@@ -124,9 +125,9 @@ Enhancing Athlete Performance and Safety in Sports
 Smartphone-based Rowing Metric Estimation
 -----------------------------------------
 
-| Current researchers: Bryn Cloud, Ada Liu, Britt Tarien
+| Current researchers:
 | Collaborators: Paul Crawford (Hegemony Technologies), Mont Hubbard (UC Davis), Xinfan Lin (UC Davis)
-| Past researchers: Thomas Shedd, Li Wang, Andrew Shoats
+| Past researchers: Bryn Cloud, Ada Liu, Britt Tarien, Thomas Shedd, Li Wang, Andrew Shoats
 
 Real-time feedback of stroke-by-stroke rowing performance metrics can enable
 data driven training and coaching. Instrumenting rowers during training and
@@ -146,8 +147,8 @@ experimental protocols for validating the estimations [#]_.
 Ski Jumps Designed for a Specific Equivalent Fall Height
 --------------------------------------------------------
 
-| Current researchers:
-| Collaborators: Mont Hubbard (UC Davis), Jim McNeil (Colorado School of Mines)
+| Current researchers: Bryn Cloud
+| Collaborators: Britt Tarien, Mont Hubbard (UC Davis), Jim McNeil (Colorado School of Mines)
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-screenshot.jpg
    :width: 60%
@@ -192,9 +193,9 @@ Human Powered Appropriate Technology
 Efficiency of Human Powered Irrigation Pumps
 --------------------------------------------
 
-| Current researchers: Aaron Shaw, Rayming Liang
+| Current researchers:
 | Collaborators: Andrew Hall (Buffalo Bikes)
-| Past researchers: Abraham McKay
+| Past researchers:  Aaron Shaw, Rayming Liang, Abraham McKay
 
 We have developed a inexpensive centrifugal pump that attaches to a simple
 power takeoff on a Buffalo Bike [#]_. Our hypothesis is that a less efficient
@@ -233,8 +234,9 @@ facilitate solving problems with computational thinking.
 Interactive Jupyter-Enabled LibreTexts Pages
 --------------------------------------------
 
-| Current researchers: Henry Agnew
+| Current researchers:
 | Collaborators: Delmar Larsen (UC Davis)
+| Past researchers: Henry Agnew
 
 We are interested in providing an interactive computing environments in online
 textbooks at a massive scale. LibreTexts_ is one of the largest and most
@@ -250,9 +252,9 @@ computational oriented exercises.
 Development of a Beam Bending Package for SymPy
 -----------------------------------------------
 
-| Current researchers: Jashanpreet Singh
+| Current researchers:
 | Collaborators: Ashirant and other SymPy Developers
-| Past researchers: Sampad Saha
+| Past researchers: Jashanpreet Singh, Sampad Saha
 
 Mechanical and civil engineers utilize two- and three-dimensional theories of
 stress and strain to determine if structural beams will fail. Simple
