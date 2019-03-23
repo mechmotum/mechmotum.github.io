@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum - papers</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/papers.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2018-08-20T00:00:00-07:00</updated><entry><title>JOSS Paper On Ski Jump Design Software Published</title><link href="https://mechmotum.github.io/blog/skijumpdesign-published.html" rel="alternate"></link><published>2018-08-20T00:00:00-07:00</published><updated>2018-08-20T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2018-08-20:/blog/skijumpdesign-published.html</id><summary type="html">&lt;p class="first last"&gt;Our paper on the ski jump design software is published in the Journal of Open Source Software.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;The &lt;a class="reference external" href="http://joss.theoj.org"&gt;Journal of Open Source Software&lt;/a&gt; accepted and published our paper
+&amp;quot;skijumpdesign: A Ski Jump Design Tool for Specified Equivalent Fall Height&amp;quot;
+which describes an open source software library and hosted web app for
+designing ski jumps with a specified equivalent fall height. The paper can be
+viewed here:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://doi.org/10.21105/joss.00818"&gt;https://doi.org/10.21105/joss.00818&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you'd like to check out the web app, click the image below:&lt;/p&gt;
+&lt;a class="reference external image-reference" href="http://www.skijumpdesign.info"&gt;&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum.github.io/skijumpdesign-screenshot.jpg" style="width: 50%;" /&gt;&lt;/a&gt;
+&lt;p&gt;Other related information:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Web application: &lt;a class="reference external" href="http://www.skijumpdesign.info"&gt;http://www.skijumpdesign.info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Software repository: &lt;a class="reference external" href="https://gitlab.com/moorepants/skijumpdesign"&gt;https://gitlab.com/moorepants/skijumpdesign&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Software documentation: &lt;a class="reference external" href="http://skijumpdesign.readthedocs.io"&gt;http://skijumpdesign.readthedocs.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="ski"></category><category term="sports"></category><category term="engineering"></category></entry></feed>

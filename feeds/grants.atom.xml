@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum - grants</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/grants.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2018-10-05T00:00:00-07:00</updated><entry><title>Co-awarded $5M to build interactive STEM Open Educational Resources</title><link href="https://mechmotum.github.io/blog/libretexts-grant.html" rel="alternate"></link><published>2018-10-05T00:00:00-07:00</published><updated>2018-10-05T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2018-10-05:/blog/libretexts-grant.html</id><summary type="html">&lt;p class="first last"&gt;Lab co-awardees of $5M Department of Education Grant&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;An inaugural &lt;a class="reference external" href="https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program"&gt;$5M grant&lt;/a&gt; from the Department of Education was awarded to UC
+Davis to further the &lt;a class="reference external" href="http://www.libretexts.org"&gt;LibreTexts&lt;/a&gt; project over the next three years. LibreTexts'
+mission is to develop free open access textbooks for STEM disciplines. The
+grant will support work at UC Davis and 11 other institutions around the
+country. The project is led by Prof. Delmar Larsen in the UC Davis Chemistry
+department. Jason K. Moore is a co-pi will lead efforts to enable interactive
+computation in the text books and develop engineering open educational
+resources. For more information see the LibreTexts &lt;a class="reference external" href="https://libretexts.org/pressRelease.html"&gt;press release&lt;/a&gt; and an
+&lt;a class="reference external" href="https://www.insidehighered.com/digital-learning/article/2018/10/02/department-education-awards-pilot-oer-grant-uc-davis-open"&gt;article&lt;/a&gt; in Inside Higher Ed.&lt;/p&gt;
+</content><category term="oer"></category><category term="education"></category><category term="jupyter"></category></entry></feed>
