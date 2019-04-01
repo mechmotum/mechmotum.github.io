@@ -16,27 +16,27 @@ Outline
 
 * 3.0 System Architecture  
 
-* * 3.1 Control Architecture 
+  * 3.1 Control Architecture 
 
-* * 3.2 Physical Architecture
+  * 3.2 Physical Architecture
 
 * 4.0 Software  
 
-* * 4.1 PID_v1 Library 
+  * 4.1 PID_v1 Library 
 
-* * 4.2 Pin Change Interrupt Library 
+  * 4.2 Pin Change Interrupt Library 
 
-* * 4.3 Logic Flow 
+  * 4.3 Logic Flow 
 
-* * 4.4 Github Repository
+  * 4.4 Github Repository
 
 * 5.0 Hardware Hook Up and Design 
 
-* * 5.1 Instrumented Ebike Platform 
+  * 5.1 Instrumented Ebike Platform 
 
-* * 5.2 Electrical Hook Up 
+  * 5.2 Electrical Hook Up 
 
-* * 5.3 Electronics Housings 
+  * 5.3 Electronics Housings 
 
 * 6.0 Bill of Materials 
 
