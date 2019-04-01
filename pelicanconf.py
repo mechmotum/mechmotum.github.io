@@ -51,11 +51,21 @@ try:
         config_data = yaml.load(config_file)
 except IOError:
     THEME = ''
+    PLUGIN_PATHS = ''
 else:
     THEME = config_data['THEME_PATH']
-# svbhack settings
-# https://github.com/gfidente/pelican-svbhack/
+    PLUGIN_PATHS = config_data['PLUGIN_PATHS']
+
+## THEME
+
+# Alchemy theme settings
+SITESUBTITLE = 'E pur si muove'
+SITEIMAGE = 'https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png'
+DESCRIPTION = ''
+
 #GOOGLE_ANALYTICS = ''
-USER_LOGO_URL = 'https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png'
 #DISQUS_SITENAME = ''
-TAGLINE = 'E pur si muove'
+
+## PLUGINS
+
+PLUGINS = ['render_math']

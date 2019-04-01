@@ -2,7 +2,7 @@ Co-awarded $5M to build interactive STEM Open Educational Resources
 ===================================================================
 
 :date: 2018-10-05 00:00:00
-:tags: oer, education, jupyter
+:tags: oer, education, jupyter, textbooks, engineering
 :category: grants
 :slug: libretexts-grant
 :authors: Jason K. Moore
