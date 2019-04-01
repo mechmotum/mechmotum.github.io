@@ -10,39 +10,39 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 
 Outline
 
-1.0 Introduction
+* 1.0 Introduction
 
-2.0 System Functionality 
+* 2.0 System Functionality 
 
-3.0 System Architecture  
+* 3.0 System Architecture  
 
-    3.1 Control Architecture 
+* * 3.1 Control Architecture 
 
-    3.2 Physical Architecture
+* * 3.2 Physical Architecture
 
-4.0 Software  
+* 4.0 Software  
 
-    4.1 PID_v1 Library 
+* * 4.1 PID_v1 Library 
 
-    4.2 Pin Change Interrupt Library 
+* * 4.2 Pin Change Interrupt Library 
 
-    4.3 Logic Flow 
+* * 4.3 Logic Flow 
 
-    4.4 Github Repository
+* * 4.4 Github Repository
 
-5.0 Hardware Hook Up and Design 
+* 5.0 Hardware Hook Up and Design 
 
-    5.1 Instrumented Ebike Platform 
+* * 5.1 Instrumented Ebike Platform 
 
-    5.2 Electrical Hook Up 
+* * 5.2 Electrical Hook Up 
 
-    5.3 Electronics Housings 
+* * 5.3 Electronics Housings 
 
-6.0 Bill of Materials 
+* 6.0 Bill of Materials 
 
-7.0 Lessons Learned and Suggested Improvements 
+* 7.0 Lessons Learned and Suggested Improvements 
 
-8.0 Acknowledgements
+* 8.0 Acknowledgements
 
 1.0 Introduction
 ----------------
