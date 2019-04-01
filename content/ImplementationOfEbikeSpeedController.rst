@@ -9,25 +9,40 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 :summary: Blog post on the implementation of a PID controller on an instrumented ebike 
 
 Outline
-------- 
 
-1.0 Introduction 
-2.0 System Functionality 
-3.0 System Architecture  
-	3.1 Control Architecture 
-	3.2 Physical Architecture
-4.0 Software  
-	4.1 PID_v1 Library 
-4.2 Pin Change Interrupt Library 
-4.3 Logic Flow 
-4.4 Github Repository
-5.0 Hardware Hook Up and Design 
-	5.1 Instrumented Ebike Platform 
-5.2 Electrical Hook Up 
-	5.3 Electronics Housings 
-6.0 Bill of Materials 
-7.0 Lessons Learned and Suggested Improvements 
-8.0 Acknowledgements
+    1.0 Introduction
+
+    2.0 System Functionality 
+
+    3.0 System Architecture  
+
+    3.1 Control Architecture 
+
+    3.2 Physical Architecture
+
+    4.0 Software  
+
+    4.1 PID_v1 Library 
+
+    4.2 Pin Change Interrupt Library 
+
+    4.3 Logic Flow 
+
+    4.4 Github Repository
+
+    5.0 Hardware Hook Up and Design 
+
+    5.1 Instrumented Ebike Platform 
+
+    5.2 Electrical Hook Up 
+
+    5.3 Electronics Housings 
+
+    6.0 Bill of Materials 
+
+    7.0 Lessons Learned and Suggested Improvements 
+
+    8.0 Acknowledgements
 
 1.0 Introduction
 ----------------
@@ -170,10 +185,7 @@ can be found in Jason’s dissertation `found here <http://moorepants.github.io/
 The electrical components of the control system revolve around an Arduino Nano which is used to process inputs and outputs to human 
 interface hardware, actuators, and logging hardware. Table 1, below, shows a complete list of the hardware used in this build. 
 
-*Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in 
-section 6.0.*
-
-.. csv-table:: Parts List
+.. csv-table:: *Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in section 6.0.*
    :header: "Component Name", "Details", "Function"
    :widths: 20, 20, 10
 
