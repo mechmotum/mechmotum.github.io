@@ -41,7 +41,7 @@ where :math:`$v_j$` is the jumper's landing speed, :math:`$\theta_J$` is the jum
 landing angle, :math:`$\theta_L$` is the slope angle and :math:`$g$` is gravity.
 This calculation was added to the skijumpdesign software to evaluate the EFH of any surface.
 A takeoff angle, skier instance, and a takeoff point relative to the surface are
-user inputs to the function. Then, the function uses these inputs to find the skier
+user inputs to the function. Then, the function uses these inputs to find the skier's
 impact velocity at each point along the surface and extracts the skier's landing speed
 and landing angle. The slope angle is calculated using the slope along the surface.
 
