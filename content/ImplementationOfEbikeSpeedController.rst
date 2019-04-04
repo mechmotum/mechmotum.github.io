@@ -23,11 +23,7 @@ Outline
 
 * 4.0 Software  
 
-  * 4.1 PID_v1 Library 
-
-  * 4.2 Pin Change Interrupt Library 
-
-  * 4.3 Github Repository
+  * 4.1 Code Libraries 
 
 * 5.0 Hardware Hook Up and Design 
 
@@ -130,7 +126,10 @@ Figure 5, below, shows the logic flow of the code.
 
 *Figure 5. Code logic flowchart.* 
 
-4.1 “PID_v1” Library 
+The software, and more details about it, can be found on the Laboratorium’s Github repository `found here 
+<https://github.com/mechmotum/eBikeSpdController>`_. 
+
+4.1 Code Libraries 
 ^^^^^^^^^^^^^^^^^^^^
 
 The continuous time PID controller derived in part one of this blog post series was digitized on the Arduino Nano using Brett Beauregard’s 
@@ -141,21 +140,12 @@ Brett’s library was chosen to implement the PID controller because of its many
 Additionally, this library contains fantastic documentation which can be `found here <http://brettbeauregard.com/blog/2011/04/improving-
 the-beginners-pid-introduction/>`_.  
   
-4.2 Interrupts Library 
-^^^^^^^^^^^^^^^^^^^^^^
-
 To avoid slowing the code’s main loop, interrupts were used to manage the change in setpoint brought on by a press of the speed increment 
 decrement buttons. Using interrupts free’s up the Arduino’s processor from having to check whether or not there’s been a button press on 
 every loop iteration. Instead, the processor reacts to pin changes and interrupts the execution of the main code to perform the function 
 tied to the interrupt pin. However, the Arduino Nano only has a limited number of pins that can be used as interrupts. A library, written 
 by GreyGnome `(found here) <https://github.com/GreyGnome/PinChangeInt>`_, enables the use of interrupts on any pin of the Arduino Nano. 
 This library was used to free up pin real estate for the many components that are wired up to the Arduino. 
-
-4.3 Github Repository
-^^^^^^^^^^^^^^^^^^^^^
-
-The software, and more details about it, can be found on the Laboratorium’s Github repository `found here 
-<https://github.com/mechmotum/eBikeSpdController>`_. 
 
 5.0 Hardware Hook Up and Design 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
