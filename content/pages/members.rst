@@ -11,6 +11,12 @@ Masters of Science Students
 Past
    - Abraham McKay [February 2017-June 2018], now at `219 Design <https://www.219design.com>`_
 
+Graduate Research Assistants
+============================
+
+Past
+   - Kenneth Lyons [June 2017-September 2017], now at Systron Donner Inertial
+
 Research Assistants
 ===================
 
@@ -40,6 +46,19 @@ Past
    - Aaron Shaw [March 2016-June 2017], now at `JUMP Bikes <https://jump.com>`_
    - Vivian Tran [May 2016-December 2016], now at University of Michigan
    - Braden Tinucci [November 2015-December 2015]
+
+Teaching Assistants
+===================
+
+- Gregory Bales [January 2019-present]
+- Scott Kresie [January 2019-present, January 2018-June 2018]
+- Ian Garretson [January 2019-present, January 2018-June 2018]
+- Naveen Gowrishankar [January 2017-June 2017,January 2018-June 2018], now at Omron Adept Technologies
+- Gang Chen [January 2017-June 2017]
+- Kenneth Lyons [September 2017-December 2018,September 2016-June 2017], now at Systron Donner Inertial
+- Destiny Garcia [September 2016-December 2016]
+- Farhad Gadhamli [January 2016-June 2016], now at ExOne
+- Matthew Lefort [September 2015-June 2016], now at Altech
 
 Google Summer of Code Students
 ==============================
