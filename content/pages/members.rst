@@ -29,7 +29,7 @@ Past
    - Jonathan Cubanski [October 2018-December 2018]
    - Dorian Crutcher [October 2018-December 2018], now at `Gener8 <http://www.gener8.net/>`_
    - Rayming Liang [July 2018-December 2018]
-   - Ada Liu [June 2018-December 2018]
+   - Ada Liu [June 2018-December 2018], now at `Frontier Energy <https://frontierenergy.com/>`_
    - Edward Jacobs [July 2018-October 2018]
    - Henry Agnew [July 2018-September 2018]
    - Roy Gilboa [July 2018-September 2018], now at `Gener8 <http://www.gener8.net/>`_
