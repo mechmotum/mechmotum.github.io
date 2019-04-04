@@ -27,9 +27,7 @@ Outline
 
   * 4.2 Pin Change Interrupt Library 
 
-  * 4.3 Logic Flow 
-
-  * 4.4 Github Repository
+  * 4.3 Github Repository
 
 * 5.0 Hardware Hook Up and Design 
 
@@ -121,7 +119,16 @@ Figure 4, below, graphically shows this interaction.
 
 The control system software was written in C using the Arduino IDE. Based on user inputs from two momentary pushbuttons, the software 
 decides whether or not to pass the throttle signal as an output or compute a throttle output based on the PID controller. The software 
-also updates the user on the current status of the system via an LCD and logs diagnostic information to an SD card.   
+also updates the user on the current status of the system via an LCD and logs diagnostic information to an SD card. 
+
+Figure 5, below, shows the logic flow of the code. 
+
+.. figure:: 
+   :width: 80%
+   :align: center
+   :alt: Code Logic Flowchart. 
+
+*Figure 5. Code logic flowchart.* 
 
 4.1 “PID_v1” Library 
 ^^^^^^^^^^^^^^^^^^^^
@@ -144,19 +151,7 @@ tied to the interrupt pin. However, the Arduino Nano only has a limited number o
 by GreyGnome `(found here) <https://github.com/GreyGnome/PinChangeInt>`_, enables the use of interrupts on any pin of the Arduino Nano. 
 This library was used to free up pin real estate for the many components that are wired up to the Arduino. 
 
-4.3 Logic Flow  
-^^^^^^^^^^^^^^
-
-Figure 5, below, shows the logic flow of the code. 
-
-.. figure:: 
-   :width: 80%
-   :align: center
-   :alt: Code Logic Flowchart. 
-
-*Figure 5. Code logic flowchart.* 
-
-4.4 Github Repository
+4.3 Github Repository
 ^^^^^^^^^^^^^^^^^^^^^
 
 The software, and more details about it, can be found on the Laboratorium’s Github repository `found here 
