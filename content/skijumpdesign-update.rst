@@ -48,7 +48,7 @@ and landing angle. The slope angle is calculated using the slope along the surfa
 Measuring A Jump's Profile
 --------------------------
 
-A jump has been measured using three of the following methods.
+A jump has been measured using the three following methods.
 
 1. Use a tape measure and level to find the surface distance and angle at defined points
    along the jump. Then, input the values into the J. A. McNeil Excel Jump Tool.
