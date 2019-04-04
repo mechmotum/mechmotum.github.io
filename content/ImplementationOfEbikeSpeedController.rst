@@ -270,7 +270,7 @@ access.
 6.0 Bill of Materials 
 ^^^^^^^^^^^^^^^^^^^^^
 
-*Table 2. Bill of materials (BOM) showing each part of project, where is was purchased, what quantity was purchased and its cost.*
+*Table 2. Bill of materials (BOM) showing each part of project, where it was purchased, what quantity was purchased and its cost.*
 
 .. figure:: 
    :width: 80%
