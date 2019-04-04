@@ -25,6 +25,10 @@ Undergraduate Research Assistants
 Current
    - Bryn Cloud [June 2018-present]
    - Trevor Metz [July 2018-present]
+   - Celine Liang [February 2019-present]
+   - Xin Luigi Chen [February 2019-present]
+   - Xiaochen Zang [February 2019-present]
+   - Kevin Krausse [February 2019-present]
 Past
    - Jonathan Cubanski [October 2018-December 2018]
    - Dorian Crutcher [October 2018-December 2018], now at `Gener8 <http://www.gener8.net/>`_
