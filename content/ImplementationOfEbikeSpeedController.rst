@@ -9,7 +9,7 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 :summary: Blog post on the implementation of a PID controller on an instrumented ebike 
 
 Outline
--------
+^^^^^^^
 
 * 1.0 Introduction
 
@@ -46,7 +46,7 @@ Outline
 * 8.0 Acknowledgements
 
 1.0 Introduction
-----------------
+^^^^^^^^^^^^^^^^
 
 The overall goal of this project is to design and implement a control system for an instrumented ebike 
 used in bicycle handling experimentation. A previous blog post `(found here) <https://mechmotum.github.io/blog/ebike-controller-
@@ -54,7 +54,7 @@ design.html>`_ outlines the design and analysis of a PID controller that meets t
 of how the designed PID controller was implemented on the instrumented ebike using an Arduino Nano.  
 
 2.0 System Operation & Functionality 
-------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The implementation of the PID controller on the electric bike was fundamentally informed by the interactions
 that the user would have with the system. A typical user interaction with the system is outlined in Figure 1 below. 
@@ -70,10 +70,10 @@ This user interaction flowchart was used to help better understand the problem a
 for the hardware and software design of the speed control system.  
 
 3.0 System Architecture 
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 3.1 Control Architecture
------------------------- 
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 The control architecture is a simple feedback design that computes the error between a user defined setpoint and compares it 
 to the speed of the ebike as measured via a DC generator wheel speed sensor (more on this in section 5.2). Figure 2, shows how 
@@ -88,7 +88,7 @@ control the speed of the ebike.
 *Figure 2. Control architecture.*
 
 3.2 Physical Architecture
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 At the heart of the control system’s physical architecture is its integration into the existing instrumented ebike platform. 
 Figure 3, below, shows this integration by highlighting the input/output and geometric relationships between 
@@ -117,14 +117,14 @@ Figure 4, below, graphically shows this interaction.
 *Figure 4. Schematic showing the Arduino’s function as a throttle emulator.* 
 
 4.0 Software 
-------------
+^^^^^^^^^^^^
 
 The control system software was written in C using the Arduino IDE. Based on user inputs from two momentary pushbuttons, the software 
 decides whether or not to pass the throttle signal as an output or compute a throttle output based on the PID controller. The software 
 also updates the user on the current status of the system via an LCD and logs diagnostic information to an SD card.   
 
 4.1 “PID_v1” Library 
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 The continuous time PID controller derived in part one of this blog post series was digitized on the Arduino Nano using Brett Beauregard’s 
 PID_v1 library `(found here) <https://github.com/br3ttb/Arduino-PID-Library>`_. This library was developed by Brett to implement PID 
@@ -135,7 +135,7 @@ Additionally, this library contains fantastic documentation which can be `found 
 the-beginners-pid-introduction/>`_.  
   
 4.2 Interrupts Library 
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 To avoid slowing the code’s main loop, interrupts were used to manage the change in setpoint brought on by a press of the speed increment 
 decrement buttons. Using interrupts free’s up the Arduino’s processor from having to check whether or not there’s been a button press on 
@@ -145,7 +145,7 @@ by GreyGnome `(found here) <https://github.com/GreyGnome/PinChangeInt>`_, enable
 This library was used to free up pin real estate for the many components that are wired up to the Arduino. 
 
 4.3 Logic Flow  
---------------
+^^^^^^^^^^^^^^
 
 Figure 5, below, shows the logic flow of the code. 
 
@@ -157,16 +157,16 @@ Figure 5, below, shows the logic flow of the code.
 *Figure 5. Code logic flowchart.* 
 
 4.4 Github Repository
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 The software, and more details about it, can be found on the Laboratorium’s Github repository `found here 
 <https://github.com/mechmotum/eBikeSpdController>`_. 
 
 5.0 Hardware Hook Up and Design 
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 5.1 Instrumented Ebike Platform
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Jason Moore, the lab’s PI, originally began constructing the instrumented ebike platform in 2008 from a large Surly single speed off road 
 steel frame bicycle converted to an ebike with a conversion kit sold by Amped Bikes. The Amped Bikes kit consists of a brushless direct 
@@ -181,7 +181,7 @@ can be found in Jason’s dissertation `found here <http://moorepants.github.io/
 *Figure 6. The instrumented ebike today.*
 
 5.2 Electrical Hook Up  
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 The electrical components of the control system revolve around an Arduino Nano which is used to process inputs and outputs to human 
 interface hardware, actuators, and logging hardware. Table 1, below, shows a complete list of the hardware used in this build. 
@@ -227,7 +227,7 @@ Rearward of the Arduino, T-tap wire splices were used to cleanly splice power si
 tube and from the wheel speed sensor near the bottom bracket.  
 
 5.3 Electronics Housings 
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Housings for the Arduino Nano, pushbuttons and LCD were designed and 3D printed to enclose the electrical components and mount them to the 
 ebike. Figure 9, below, shows the CAD model design of the Arduino housing. The housing’s design includes pins for press fitting the 
@@ -283,7 +283,7 @@ access.
 *Figure 13. Button housing position on the handlebars.*
 
 6.0 Bill of Materials 
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 *Table 2. Bill of materials (BOM) showing each part of project, where is was purchased, what quantity was purchased and its cost.*
 
@@ -293,7 +293,7 @@ access.
    :alt: Bill of Materials. 
 
 7.0 Lessons Learned and Suggested Improvements  
-----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Throughout the process of implementing this controller, I learned some good best practices to follow when designing 3D printed electronics 
 housings and doing electrical hookups.  
@@ -319,7 +319,7 @@ protocol requiring only four wires to function. Additionally, the stripboard Ard
 terminal connectors making the wiring of the Arduino much simpler and robust.    
   
 8.0 Acknowledgements 
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 I would like to thank `Nicholas Chan <https://github.com/ngchan>`_ for writing the camera gimbal software that my speed control software 
 is based off of. I’d also like to thank `Brett Beuaregard <https://github.com/br3ttb>`_ for writing the PID library and it’s excellent 
