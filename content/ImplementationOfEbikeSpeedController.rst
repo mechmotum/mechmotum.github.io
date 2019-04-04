@@ -280,7 +280,7 @@ access.
 7.0 Lessons Learned and Suggested Improvements  
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Throughout the process of implementing this controller, I learned some good best practices to follow when designing 3D printed electronics 
+Throughout the process of implementing this controller, I learned some helpful practices to follow when designing 3D printed electronics 
 housings and doing electrical hookups.  
 
 When designing electronics housings I found it very necessary to account for the minimum bend radius of each wire as not taking this into 
