@@ -41,7 +41,7 @@ for the hardware and software design of the speed control system.
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 3.1 Control Architecture
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 The control architecture is a simple feedback design that computes the error between a user defined setpoint and compares it 
 to the speed of the ebike as measured via a DC generator wheel speed sensor (more on this in section 5.2). Figure 2, shows how 
@@ -56,7 +56,7 @@ control the speed of the ebike.
 *Figure 2. Control architecture.*
 
 3.2 Physical Architecture
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 At the heart of the control system’s physical architecture is its integration into the existing instrumented ebike platform. 
 Figure 3, below, shows this integration by highlighting the input/output and geometric relationships between 
@@ -104,7 +104,7 @@ The software, and more details about it, can be found on the Laboratorium’s Gi
 <https://github.com/mechmotum/eBikeSpdController>`_. 
 
 4.1 Code Libraries 
-^^^^^^^^^^^^^^^^^^^^
+------------------
 
 The continuous time PID controller derived in part one of this blog post series was digitized on the Arduino Nano using Brett Beauregard’s 
 PID_v1 library `(found here) <https://github.com/br3ttb/Arduino-PID-Library>`_. This library was developed by Brett to implement PID 
@@ -125,7 +125,7 @@ This library was used to free up pin real estate for the many components that ar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 5.1 Instrumented Ebike Platform
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 
 Jason Moore, the lab’s PI, originally began constructing the instrumented ebike platform in 2008 from a large Surly single speed off road 
 steel frame bicycle converted to an ebike with a conversion kit sold by Amped Bikes. The Amped Bikes kit consists of a brushless direct 
@@ -140,7 +140,7 @@ can be found in Jason’s dissertation `found here <http://moorepants.github.io/
 *Figure 6. The instrumented ebike today.*
 
 5.2 Electrical Hook Up  
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 The electrical components of the control system revolve around an Arduino Nano which is used to process inputs and outputs to human 
 interface hardware, actuators, and logging hardware. Table 1, below, shows a complete list of the hardware used in this build. 
@@ -186,7 +186,7 @@ Rearward of the Arduino, T-tap wire splices were used to cleanly splice power si
 tube and from the wheel speed sensor near the bottom bracket.  
 
 5.3 Electronics Housings 
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 Housings for the Arduino Nano, pushbuttons and LCD were designed and 3D printed to enclose the electrical components and mount them to the 
 ebike. Figure 9, below, shows the CAD model design of the Arduino housing. The housing’s design includes pins for press fitting the 
