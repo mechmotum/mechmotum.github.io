@@ -82,7 +82,7 @@ Figure 4, below, graphically shows this interaction.
    :align: center
    :alt: Arduino's Main Function. 
 
-*Figure 4. Schematic showing the Arduino’s function as a throttle emulator.* 
+   *Figure 4. Schematic showing the Arduino’s function as a throttle emulator.* 
 
 4.0 Software 
 ^^^^^^^^^^^^
