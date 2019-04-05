@@ -229,7 +229,7 @@ button parts were 3D printed and offset from each mini momentary pushbutton usin
    :align: center
    :alt: Button Housing. 
 
-*Figure 12. Button housing design.*
+   *Figure 12. Button housing design.*
 
 As shown in Figure 13, the button housing is mounted on right side of the handlebars near the throttle and brake lever for convenient 
 access.  
