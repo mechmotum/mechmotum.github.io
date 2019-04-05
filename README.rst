@@ -57,7 +57,7 @@ Create a configuration file called ``config.yml`` and add the full path to
 where you installed the plugins and theme::
 
    $ echo "THEME_PATH: /home/my_username/.../pelican-alchemy" > config.yml
-   $ echo "PLUGIN_PATHS: /home/moorepants/src/pelican-plugins" >> config.yml
+   $ echo "PLUGIN_PATHS: /home/my_username/.../pelican-plugins" >> config.yml
 
 Now you can build and serve the documentation with::
 
