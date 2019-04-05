@@ -254,26 +254,18 @@ access.
 7.0 Lessons Learned and Suggested Improvements  
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Throughout the process of implementing this controller, I learned some helpful practices to follow when designing 3D printed electronics 
-housings and doing electrical hookups.  
+Throughout the process of implementing this controller, I learned some helpful lessons when it comes to designing electronics  housings and doing electrical hookups.  
 
-When designing electronics housings I found it very necessary to account for the minimum bend radius of each wire as not taking this into 
-account will not leave enough room for routing wires without excessive strain. Additionally,  it is important to follow `best practices 
-<https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks>`_ when designing for heat set threaded inserts.  Most 
-importantly, when it comes to physically realizing these designs using a fused deposition modeling 3D printer, there is a lot of trial and 
-error and patience required to dial in the print settings that will achieve the intent of the design.  
+Some lessons learned include the following: 
 
-An improvement to the electronics housings can come in the form of reducing the complexity of the button housing. Using larger momentary 
-pushbuttons would eliminate the need for a more complex button assembly, improving the usability and assembly of the mount. 
+- It is important to account for the minimum bend radius of each wire inside of an electrical enclosure 
+- It is important to follow `best practices <https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks>`_ when designing for heat set threaded inserts 
+- Iteration is required in order to achieve a design intent when 3D printing 
+- Test the assembly and function of electrical connections on scrap wire before commiting changes 
 
-While hooking up the electronics I learned it’s important to plan out wire lengths, routes and connections well ahead of time to avoid 
-spending time correcting mistakes. Furthermore, I found it very useful to try new connectors and tricky connections on scrap wire first in 
-order to both practice the assembly and prove the connection before commiting to the real thing. As being one person with only two hands, 
-I found it extremely helpful to jig up fixtures on the bike to help with assembly in awkward positions.  
+Throughout the implementation of this design, I've made note of some improvements to the system's design that could be made. I have listed these below: 
 
-On looking back at this project, I’ve realized that a lot of the electronics used in this build can be replaced with cleaner, simpler 
-components that would reduce the total assembly time and improve the robustness of the system. Some component suggestions are:
-
+- A larger momentary pushbutton could be used to reduce the complexity of the button housing and improve its functionality
 - Use a display that communicates via the SPI protocol to reduce the number of wires used 
 - For the Arduino board, use a custom PCB to increase the robustness of the board
   
