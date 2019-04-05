@@ -28,7 +28,7 @@ The implementation of the PID controller on the electric bike was fundamentally 
 that the user would have with the system. A typical user interaction with the system is outlined in Figure 1 below. 
 
 .. figure:: 
-   :width: 80%
+   :scale: 60%
    :align: center
    :alt: User Interaction. 
    
@@ -49,7 +49,7 @@ this error is inputted to the control algorithm encoded in the Arduino Nano resu
 control the speed of the ebike. 
 
 .. figure:: 
-   :width: 80%
+   :scale: 60%
    :align: center
    :alt: Control Architecture. 
 
@@ -63,7 +63,7 @@ Figure 3, below, shows this integration by highlighting the input/output and geo
 existing components of the ebike and the additional control system components. 
 
 .. figure:: 
-   :width: 80%
+   :scale: 75%
    :align: center
    :alt: System Architecture. 
 
@@ -78,7 +78,7 @@ control is disengaged, the Arduino simply reads the user commanded throttle posi
 Figure 4, below, graphically shows this interaction. 
 
 .. figure:: 
-   :width: 80%
+   :scale: 100%
    :align: center
    :alt: Arduino's Main Function. 
 
@@ -94,7 +94,7 @@ also updates the user on the current status of the system via an LCD and logs di
 Figure 5, below, shows the logic flow of the code. 
 
 .. figure:: 
-   :width: 80%
+   :scale: 100%
    :align: center
    :alt: Code Logic Flowchart. 
 
@@ -133,7 +133,7 @@ drive hub motor driven by a motor controller and a 36V Li ion battery. More info
 can be found in Jason’s dissertation `found here <http://moorepants.github.io/dissertation/davisbicycle.html>`_.  
 
 .. figure:: 
-   :width: 80%
+   :scale: 45%
    :align: center
    :alt: Instrumented Ebike. 
 
@@ -161,7 +161,7 @@ interface hardware, actuators, and logging hardware. Table 1, below, shows a com
 Figure 7, below, shows a Fritzing diagram of the electrical system.
 
 .. figure:: 
-   :width: 80%
+   :scale: 100%
    :align: center
    :alt: Electrical Hookup. 
 
@@ -172,7 +172,7 @@ The Arduino Nano and the voltage divider circuits were soldered to a small 3” 
 soldered to the stripboard to connect the external components to the Nano. Figure 8, below, shows the completed Arduino board. 
 
 .. figure:: 
-   :width: 80%
+   :scale: 15%
    :align: center
    :alt: Arduino Board. 
 
@@ -194,7 +194,7 @@ Arduino stripboard to the mount. Slots on the sides and top of the housing allow
 ebike. Threaded inserts on the base are used to secure the top cover using M3 screws.
 
 .. figure:: 
-   :width: 80%
+   :scale: 100%
    :align: center
    :alt: Arduino Housing. 
 
@@ -203,7 +203,7 @@ ebike. Threaded inserts on the base are used to secure the top cover using M3 sc
 This housing is clamped to the downtube of the ebike by a socket head screw as shown in Figure 10.   
 
 .. figure:: 
-   :width: 80%
+   :scale: 16%
    :align: center
    :alt: Arduino Mounting. 
 
@@ -214,7 +214,7 @@ GoPro cameras to bikes. Each mount had a pair of “bunny ears” designed to in
 Figure 11 below, is a simple rectangular two-piece enclosure joined by button head screws. 
 
 .. figure:: 
-   :width: 80%
+   :scale: 75%
    :align: center
    :alt: LCD Housing. 
 
@@ -225,7 +225,7 @@ stripboard that the pushbuttons are soldered to. To make pressing the mini momen
 button parts were 3D printed and offset from each mini momentary pushbutton using a compression spring as shown in Figure 12 below. 
 
 .. figure:: 
-   :width: 80%
+   :scale: 100%
    :align: center
    :alt: Button Housing. 
 
@@ -235,7 +235,7 @@ As shown in Figure 13, the button housing is mounted on right side of the handle
 access.  
 
 .. figure:: 
-   :width: 80%
+   :scale: 12%
    :align: center
    :alt: Button Housing Mount. 
 
@@ -247,7 +247,7 @@ access.
 *Table 2. Bill of materials (BOM) showing each part of project, where it was purchased, what quantity was purchased and its cost.*
 
 .. figure:: 
-   :width: 80%
+   :scale: 20%
    :align: center
    :alt: Bill of Materials. 
 
