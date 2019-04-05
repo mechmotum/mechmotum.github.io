@@ -1,32 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-03-31T00:00:00-07:00</updated><entry><title>Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation.html" rel="alternate"></link><published>2019-03-31T00:00:00-07:00</published><updated>2019-03-31T00:00:00-07:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-03-31:/blog/ebike-controller-implementation.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the implementation of a PID controller on an instrumented ebike&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-04-05T00:00:00-07:00</updated><entry><title>Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation.html" rel="alternate"></link><published>2019-04-05T00:00:00-07:00</published><updated>2019-04-05T00:00:00-07:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-04-05:/blog/ebike-controller-implementation.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the implementation of a PID controller on an
+instrumented ebike&lt;/p&gt;
 </summary><content type="html">
 &lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;1.0 Introduction&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The overall goal of this project is to design and implement a control system for an instrumented ebike
-used in bicycle handling experimentation. A previous blog post found &lt;a class="reference external" href="ebike-controller-design"&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;outlines the design and analysis of a PID controller that meets the steady state error goal of +/- 0.1m/s. This blog post
-tells the story of how the designed PID controller was implemented on the instrumented ebike using an Arduino Nano.&lt;/p&gt;
+&lt;p&gt;The overall goal of this project is to design and implement a control system
+for an instrumented ebike used in bicycle handling experimentation. A previous
+blog post found &lt;a class="reference external" href="ebike-controller-design"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;outlines the design and analysis of a PID controller that meets the steady
+state error goal of +/- 0.1m/s. This blog post tells the story of how the
+designed PID controller was implemented on the instrumented ebike using an
+Arduino Nano.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="system-operation-functionality"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The implementation of the PID controller on the electric bike was fundamentally informed by the interactions
-that the user would have with the system. A typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
+&lt;p&gt;The implementation of the PID controller on the electric bike was fundamentally
+informed by the interactions that the user would have with the system. A
+typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A typical user interaction with the system.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;This user interaction flowchart was used to help better understand the problem and sculpt the concept
-for the hardware and software design of the speed control system.&lt;/p&gt;
+&lt;p&gt;This user interaction flowchart was used to help better understand the problem
+and sculpt the concept for the hardware and software design of the speed
+control system.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="system-architecture"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;3.0 System Architecture&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="control-architecture"&gt;
 &lt;h3&gt;&lt;a class="toc-backref" href="#id4"&gt;3.1 Control Architecture&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The control architecture is a simple feedback design that computes the error between a user defined setpoint and compares it
-to the speed of the ebike as measured via a DC generator wheel speed sensor (more on this in section 5.2). Figure 2, shows how
-this error is inputted to the control algorithm encoded in the Arduino Nano resulting in an output variable used to
-control the speed of the ebike.&lt;/p&gt;
+&lt;p&gt;The control architecture is a simple feedback design that computes the error
+between a user defined setpoint and compares it to the speed of the ebike as
+measured via a DC generator wheel speed sensor (more on this in section 5.2).
+Figure 2, shows how this error is inputted to the control algorithm encoded in
+the Arduino Nano resulting in an output variable used to control the speed of
+the ebike.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Control architecture.&lt;/em&gt;&lt;/p&gt;
@@ -34,18 +42,27 @@ control the speed of the ebike.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="physical-architecture"&gt;
 &lt;h3&gt;&lt;a class="toc-backref" href="#id5"&gt;3.2 Physical Architecture&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;At the heart of the control system’s physical architecture is its integration into the existing instrumented ebike platform.
-Figure 3, below, shows this integration by highlighting the input/output and geometric relationships between
-existing components of the ebike and the additional control system components.&lt;/p&gt;
+&lt;p&gt;At the heart of the control system’s physical architecture is its integration
+into the existing instrumented ebike platform.  Figure 3, below, shows this
+integration by highlighting the input/output and geometric relationships
+between existing components of the ebike and the additional control system
+components.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg"/&gt;
-&lt;p class="caption"&gt;&lt;em&gt;Figure 3. Geometric layout of the system components showing relative size, location, information flow, and type of each component. Components called out with a triangle are existing components on the ebike. Components called out with a circle are components that are introduced to the ebike system to implement the controller.&lt;/em&gt;&lt;/p&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 3. Geometric layout of the system components showing relative size,
+location, information flow, and type of each component. Components called
+out with a triangle are existing components on the ebike. Components called
+out with a circle are components that are introduced to the ebike system to
+implement the controller.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;The fundamental interaction between the control system and the existing ebike powertrain system occurs at the interface between the
-Arduino nano and the ebike motor controller. While the cruise control is engaged, the function of the Arduino is to take control of the
-throttle signal away from the user and pass it through the control algorithm before sending it to the motor controller. When the cruise
-control is disengaged, the Arduino simply reads the user commanded throttle position and passes it directly to the motor controller.
-Figure 4, below, graphically shows this interaction.&lt;/p&gt;
+&lt;p&gt;The fundamental interaction between the control system and the existing ebike
+powertrain system occurs at the interface between the Arduino nano and the
+ebike motor controller. While the cruise control is engaged, the function of
+the Arduino is to take control of the throttle signal away from the user and
+pass it through the control algorithm before sending it to the motor
+controller. When the cruise control is disengaged, the Arduino simply reads the
+user commanded throttle position and passes it directly to the motor
+controller.  Figure 4, below, graphically shows this interaction.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Schematic showing the Arduino’s function as a throttle emulator.&lt;/em&gt;&lt;/p&gt;
@@ -54,38 +71,50 @@ Figure 4, below, graphically shows this interaction.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="software"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id6"&gt;4.0 Software&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The control system software was written in C using the Arduino IDE. Based on user inputs from two momentary pushbuttons, the software
-decides whether or not to pass the throttle signal as an output or compute a throttle output based on the PID controller. The software
-also updates the user on the current status of the system via an LCD and logs diagnostic information to an SD card.&lt;/p&gt;
+&lt;p&gt;The control system software was written in C using the Arduino IDE. Based on
+user inputs from two momentary pushbuttons, the software decides whether or not
+to pass the throttle signal as an output or compute a throttle output based on
+the PID controller. The software also updates the user on the current status of
+the system via an LCD and logs diagnostic information to an SD card.&lt;/p&gt;
 &lt;p&gt;Figure 5, below, shows the logic flow of the code.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg"/&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 5. Code logic flowchart.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Figure 5. Code logic flowchart.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The software, and more details about it, can be found on the Laboratorium’s Github repository &lt;a class="reference external" href="https://github.com/mechmotum/eBikeSpdController"&gt;found here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The software, and more details about it, can be found on the Laboratorium’s
+Github repository &lt;a class="reference external" href="https://github.com/mechmotum/eBikeSpdController"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="code-libraries"&gt;
 &lt;h3&gt;&lt;a class="toc-backref" href="#id7"&gt;4.1 Code Libraries&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The continuous time PID controller derived in part one of this blog post series was digitized on the Arduino Nano using Brett Beauregard’s
-PID_v1 library &lt;a class="reference external" href="https://github.com/br3ttb/Arduino-PID-Library"&gt;(found here)&lt;/a&gt;. This library was developed by Brett to implement PID
-controllers on an Arduino microcontroller.&lt;/p&gt;
-&lt;p&gt;Brett’s library was chosen to implement the PID controller because of its many robust features such as Derivative Kick and Initialization.
-Additionally, this library contains fantastic documentation which can be &lt;a class="reference external" href="http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/"&gt;found here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To avoid slowing the code’s main loop, interrupts were used to manage the change in setpoint brought on by a press of the speed increment
-decrement buttons. Using interrupts free’s up the Arduino’s processor from having to check whether or not there’s been a button press on
-every loop iteration. Instead, the processor reacts to pin changes and interrupts the execution of the main code to perform the function
-tied to the interrupt pin. However, the Arduino Nano only has a limited number of pins that can be used as interrupts. A library, written
-by GreyGnome &lt;a class="reference external" href="https://github.com/GreyGnome/PinChangeInt"&gt;(found here)&lt;/a&gt;, enables the use of interrupts on any pin of the Arduino Nano.
-This library was used to free up pin real estate for the many components that are wired up to the Arduino.&lt;/p&gt;
+&lt;p&gt;The continuous time PID controller derived in part one of this blog post series
+was digitized on the Arduino Nano using Brett Beauregard’s PID_v1 library
+&lt;a class="reference external" href="https://github.com/br3ttb/Arduino-PID-Library"&gt;(found here)&lt;/a&gt;. This library
+was developed by Brett to implement PID controllers on an Arduino
+microcontroller.&lt;/p&gt;
+&lt;p&gt;Brett’s library was chosen to implement the PID controller because of its many
+robust features such as Derivative Kick and Initialization.  Additionally, this
+library contains fantastic documentation which can be &lt;a class="reference external" href="http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/"&gt;found here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To avoid slowing the code’s main loop, interrupts were used to manage the
+change in setpoint brought on by a press of the speed increment decrement
+buttons. Using interrupts free’s up the Arduino’s processor from having to
+check whether or not there’s been a button press on every loop iteration.
+Instead, the processor reacts to pin changes and interrupts the execution of
+the main code to perform the function tied to the interrupt pin. However, the
+Arduino Nano only has a limited number of pins that can be used as interrupts.
+A library, written by GreyGnome &lt;a class="reference external" href="https://github.com/GreyGnome/PinChangeInt"&gt;(found here)&lt;/a&gt;, enables the use of interrupts
+on any pin of the Arduino Nano.  This library was used to free up pin real
+estate for the many components that are wired up to the Arduino.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="hardware-hook-up-and-design"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id8"&gt;5.0 Hardware Hook Up and Design&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="instrumented-ebike-platform"&gt;
 &lt;h3&gt;&lt;a class="toc-backref" href="#id9"&gt;5.1 Instrumented Ebike Platform&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Jason Moore, the lab’s PI, originally began constructing the instrumented ebike platform in 2009 from a large Surly single speed off road
-steel frame bicycle converted to an ebike with a conversion kit sold by Amped Bikes. The Amped Bikes kit consists of a brushless direct
-drive hub motor driven by a motor controller and a 36V Li ion battery. More information on the build and the bike’s instrumentation system
-can be found in Jason’s dissertation &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;found here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jason Moore, the lab’s PI, originally began constructing the instrumented ebike
+platform in 2009 from a large Surly single speed off road steel frame bicycle
+converted to an ebike with a conversion kit sold by Amped Bikes. The Amped
+Bikes kit consists of a brushless direct drive hub motor driven by a motor
+controller and a 36V Li ion battery. More information on the build and the
+bike’s instrumentation system can be found in Jason’s dissertation &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. The instrumented ebike today.&lt;/em&gt;&lt;/p&gt;
@@ -93,8 +122,10 @@ can be found in Jason’s dissertation &lt;a class="reference external" href="ht
 &lt;/div&gt;
 &lt;div class="section" id="electrical-hook-up"&gt;
 &lt;h3&gt;&lt;a class="toc-backref" href="#id10"&gt;5.2 Electrical Hook Up&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The electrical components of the control system revolve around an Arduino Nano which is used to process inputs and outputs to human
-interface hardware, actuators, and logging hardware. Table 1, below, shows a complete list of the hardware used in this build.&lt;/p&gt;
+&lt;p&gt;The electrical components of the control system revolve around an Arduino Nano
+which is used to process inputs and outputs to human interface hardware,
+actuators, and logging hardware. Table 1, below, shows a complete list of the
+hardware used in this build.&lt;/p&gt;
 &lt;table border="1" class="colwidths-given docutils"&gt;
 &lt;caption&gt;&lt;em&gt;Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in section 6.0.&lt;/em&gt;&lt;/caption&gt;
 &lt;colgroup&gt;
@@ -146,51 +177,68 @@ interface hardware, actuators, and logging hardware. Table 1, below, shows a com
 &lt;p&gt;Figure 7, below, shows a Fritzing diagram of the electrical system.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Electrical Hookup." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg"/&gt;
-&lt;p class="caption"&gt;&lt;em&gt;Figure 7. Fritzing diagram of control system electronics. Note that the motor controller is represented by a DC motor and the 7.2V NiCd battery is represented by a 1S LiPo battery.&lt;/em&gt;&lt;/p&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 7. Fritzing diagram of control system electronics. Note that the
+motor controller is represented by a DC motor and the 7.2V NiCd battery is
+represented by a 1S LiPo battery.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;The Arduino Nano and the voltage divider circuits were soldered to a small 3” x 1.1” piece of stripboard. Wires, braided 22AWG, were
-soldered to the stripboard to connect the external components to the Nano. Figure 8, below, shows the completed Arduino board.&lt;/p&gt;
+&lt;p&gt;The Arduino Nano and the voltage divider circuits were soldered to a small 3" x
+1.1" piece of stripboard. Wires, braided 22AWG, were soldered to the stripboard
+to connect the external components to the Nano. Figure 8, below, shows the
+completed Arduino board.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8. The Arduino board with wires attached.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;With many of the components located on the handlebars, a majority of these wires were routed together along the top tube, up the head tube
-and stretched across to the handlebars. This task was facilitated using spiral wound cable housings, zip ties, and a 15 pin Molex
-connector. Once on the handlebars, wires were connected to header pins on the LCD and pushbuttons with Dupont connectors.&lt;/p&gt;
-&lt;p&gt;Rearward of the Arduino, T-tap wire splices were used to cleanly splice power signals from the NiCd battery above the Arduino near the top
-tube and from the wheel speed sensor near the bottom bracket.&lt;/p&gt;
+&lt;p&gt;With many of the components located on the handlebars, a majority of these
+wires were routed together along the top tube, up the head tube and stretched
+across to the handlebars. This task was facilitated using spiral wound cable
+housings, zip ties, and a 15 pin Molex connector. Once on the handlebars, wires
+were connected to header pins on the LCD and pushbuttons with Dupont
+connectors.&lt;/p&gt;
+&lt;p&gt;Rearward of the Arduino, T-tap wire splices were used to cleanly splice power
+signals from the NiCd battery above the Arduino near the top tube and from the
+wheel speed sensor near the bottom bracket.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="electronics-housings"&gt;
 &lt;h3&gt;&lt;a class="toc-backref" href="#id11"&gt;5.3 Electronics Housings&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Housings for the Arduino Nano, pushbuttons and LCD were designed and 3D printed to enclose the electrical components and mount them to the
-ebike. Figure 9, below, shows the CAD model design of the Arduino housing. The housing’s design includes pins for press fitting the
-Arduino stripboard to the mount. Slots on the sides and top of the housing allow for wires to exit towards their destinations on the
-ebike. Threaded inserts on the base are used to secure the top cover using M3 screws.&lt;/p&gt;
+&lt;p&gt;Housings for the Arduino Nano, pushbuttons and LCD were designed and 3D printed
+to enclose the electrical components and mount them to the ebike. Figure 9,
+below, shows the CAD model design of the Arduino housing. The housing’s design
+includes pins for press fitting the Arduino stripboard to the mount. Slots on
+the sides and top of the housing allow for wires to exit towards their
+destinations on the ebike. Threaded inserts on the base are used to secure the
+top cover using M3 screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9.  Arduino housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;This housing is clamped to the downtube of the ebike by a socket head screw as shown in Figure 10.&lt;/p&gt;
+&lt;p&gt;This housing is clamped to the downtube of the ebike by a socket head screw as
+shown in Figure 10.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 10. Arduino housing mounting point.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Both the LCD and button housings were 3D printed and designed to mount to the handlebars using a clamshell style mount used for securing
-GoPro cameras to bikes. Each mount had a pair of “bunny ears” designed to interface with the GoPro style mount. The LCD housing, shown in
-Figure 11 below, is a simple rectangular two-piece enclosure joined by button head screws.&lt;/p&gt;
+&lt;p&gt;Both the LCD and button housings were 3D printed and designed to mount to the
+handlebars using a clamshell style mount used for securing GoPro cameras to
+bikes. Each mount had a pair of “bunny ears" designed to interface with the
+GoPro style mount. The LCD housing, shown in Figure 11 below, is a simple
+rectangular two-piece enclosure joined by button head screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 11. LCD housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Similar to the LCD housing, the button housing is a two-piece, enclosure joined by screws. Inside the housing is a small piece of
-stripboard that the pushbuttons are soldered to. To make pressing the mini momentary pushbuttons more convenient for the user, larger
-button parts were 3D printed and offset from each mini momentary pushbutton using a compression spring as shown in Figure 12 below.&lt;/p&gt;
+&lt;p&gt;Similar to the LCD housing, the button housing is a two-piece, enclosure joined
+by screws. Inside the housing is a small piece of stripboard that the
+pushbuttons are soldered to. To make pressing the mini momentary pushbuttons
+more convenient for the user, larger button parts were 3D printed and offset
+from each mini momentary pushbutton using a compression spring as shown in
+Figure 12 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 12. Button housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;As shown in Figure 13, the button housing is mounted on right side of the handlebars near the throttle and brake lever for convenient
-access.&lt;/p&gt;
+&lt;p&gt;As shown in Figure 13, the button housing is mounted on right side of the
+handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.jpg"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 13. Button housing position on the handlebars.&lt;/em&gt;&lt;/p&gt;
@@ -199,34 +247,47 @@ access.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id12"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg"/&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
+purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="lessons-learned-and-suggested-improvements"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id13"&gt;7.0 Lessons Learned and Suggested Improvements&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Throughout the process of implementing this controller, I learned some helpful lessons when it comes to designing electronics  housings and doing electrical hookups.&lt;/p&gt;
+&lt;p&gt;Throughout the process of implementing this controller, I learned some helpful
+lessons when it comes to designing electronics  housings and doing electrical
+hookups.&lt;/p&gt;
 &lt;p&gt;Some lessons learned include the following:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;It is important to account for the minimum bend radius of each wire inside of an electrical enclosure&lt;/li&gt;
-&lt;li&gt;It is important to follow &lt;a class="reference external" href="https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks"&gt;best practices&lt;/a&gt; when designing for heat set threaded inserts&lt;/li&gt;
+&lt;li&gt;It is important to account for the minimum bend radius of each wire inside of
+an electrical enclosure&lt;/li&gt;
+&lt;li&gt;It is important to follow &lt;a class="reference external" href="https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks"&gt;best practices&lt;/a&gt;
+when designing for heat set threaded inserts&lt;/li&gt;
 &lt;li&gt;Iteration is required in order to achieve a design intent when 3D printing&lt;/li&gt;
-&lt;li&gt;Test the assembly and function of electrical connections on scrap wire before commiting changes&lt;/li&gt;
+&lt;li&gt;Test the assembly and function of electrical connections on scrap wire before
+commiting changes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Throughout the implementation of this design, I've made note of some improvements to the system's design that could be made. I have listed these below:&lt;/p&gt;
+&lt;p&gt;Throughout the implementation of this design, I've made note of some
+improvements to the system's design that could be made. I have listed these
+below:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;A larger momentary pushbutton could be used to reduce the complexity of the button housing and improve its functionality&lt;/li&gt;
-&lt;li&gt;Use a display that communicates via the SPI protocol to reduce the number of wires used&lt;/li&gt;
-&lt;li&gt;For the Arduino board, use a custom PCB to increase the robustness of the board&lt;/li&gt;
+&lt;li&gt;A larger momentary pushbutton could be used to reduce the complexity of the
+button housing and improve its functionality&lt;/li&gt;
+&lt;li&gt;Use a display that communicates via the SPI protocol to reduce the number of
+wires used&lt;/li&gt;
+&lt;li&gt;For the Arduino board, use a custom PCB to increase the robustness of the
+board&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="acknowledgements"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id14"&gt;8.0 Acknowledgements&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I would like to thank &lt;a class="reference external" href="https://github.com/ngchan"&gt;Nicholas Chan&lt;/a&gt; for writing the camera gimbal software that my speed control software
-is based off of. I’d also like to thank &lt;a class="reference external" href="https://github.com/br3ttb"&gt;Brett Beuaregard&lt;/a&gt; for writing the PID library and it’s excellent
-documentation that is the heart of the speed control software. Finally, I’d like to thank Jason Moore for his support and mentorship
-throughout this project.&lt;/p&gt;
+&lt;p&gt;I would like to thank &lt;a class="reference external" href="https://github.com/ngchan"&gt;Nicholas Chan&lt;/a&gt; for writing
+the camera gimbal software that my speed control software is based off of. I’d
+also like to thank &lt;a class="reference external" href="https://github.com/br3ttb"&gt;Brett Beuaregard&lt;/a&gt; for writing
+the PID library and it’s excellent documentation that is the heart of the speed
+control software. Finally, I’d like to thank Jason Moore for his support and
+mentorship throughout this project.&lt;/p&gt;
 &lt;p&gt;Stay tuned for part three of this series: Testing and Validation&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="bikes"></category><category term="engineering"></category><category term="controller implementation"></category><category term="arduino"></category></entry><entry><title>Double Pendulum Human Controller Robot: GUI Development</title><link href="https://mechmotum.github.io/blog/double-pendulum-robot.html" rel="alternate"></link><published>2019-02-11T00:00:00-08:00</published><updated>2019-02-11T00:00:00-08:00</updated><author><name>Jonathan Blaze Cubanski</name></author><id>tag:mechmotum.github.io,2019-02-11:/blog/double-pendulum-robot.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on creating a new interface to test different controller
