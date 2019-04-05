@@ -16,7 +16,7 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 The overall goal of this project is to design and implement a control system for an instrumented ebike 
 used in bicycle handling experimentation. A previous blog post found `here`_
 
-.. _here:: ebike-controller-design
+.. _here: ebike-controller-design
 
 outlines the design and analysis of a PID controller that meets the steady state error goal of +/- 0.1m/s. This blog post 
 tells the story of how the designed PID controller was implemented on the instrumented ebike using an Arduino Nano.  
