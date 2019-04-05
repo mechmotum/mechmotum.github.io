@@ -30,15 +30,23 @@ change before submitting a pull request.
 
 Install pelican with conda (or pip if you prefer)::
 
-   $ conda install pelican
+   $ conda install pelican beautifulsoup4
 
-Clone the theme repository::
+Clone the plugin repository::
 
-   $ git clone git@github.com:gfidente/pelican-svbhack.git
+   $ git clone git@github.com:getpelican/pelican-plugins.git
 
 Note the path to the theme, e.g.::
 
-   /home/my_username/pelican-svbhack
+   /home/my_username/.../pelican-plugins
+
+Clone the theme repository::
+
+   $ git clone -b mechmotum git@github.com:mechmotum/pelican-alchemy.git
+
+Note the path to the theme, e.g.::
+
+   /home/my_username/.../pelican-alchemy
 
 Clone this repository and change into the new directory::
 
@@ -46,9 +54,10 @@ Clone this repository and change into the new directory::
    $ cd mechmotum.github.io/
 
 Create a configuration file called ``config.yml`` and add the full path to
-where you installed the theme::
+where you installed the plugins and theme::
 
-   $ echo "THEME_PATH: /home/my_username/pelican-svbhack" > config.yml
+   $ echo "THEME_PATH: /home/my_username/.../pelican-alchemy" > config.yml
+   $ echo "PLUGIN_PATHS: /home/moorepants/src/pelican-plugins" >> config.yml
 
 Now you can build and serve the documentation with::
 
