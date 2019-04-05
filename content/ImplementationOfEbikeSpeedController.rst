@@ -218,7 +218,7 @@ Figure 11 below, is a simple rectangular two-piece enclosure joined by button he
    :align: center
    :alt: LCD Housing. 
 
-*Figure 11. LCD housing design.* 
+   *Figure 11. LCD housing design.* 
 
 Similar to the LCD housing, the button housing is a two-piece, enclosure joined by screws. Inside the housing is a small piece of 
 stripboard that the pushbuttons are soldered to. To make pressing the mini momentary pushbuttons more convenient for the user, larger 
