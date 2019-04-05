@@ -8,36 +8,35 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 :authors: Trevor Metz
 :summary: Blog post on the implementation of a PID controller on an instrumented ebike 
 
-Outline
-^^^^^^^
+.. contents:: 
+..
+  1 Introduction
 
-* 1.0 Introduction
+  2 System Functionality 
 
-* 2.0 System Functionality 
+  3 System Architecture  
 
-* 3.0 System Architecture  
+   3.1 Control Architecture 
 
-  * 3.1 Control Architecture 
+   3.2 Physical Architecture
 
-  * 3.2 Physical Architecture
+  4 Software  
 
-* 4.0 Software  
+   4.1 Code Libraries 
 
-  * 4.1 Code Libraries 
+  5 Hardware Hook Up and Design 
 
-* 5.0 Hardware Hook Up and Design 
+   5.1 Instrumented Ebike Platform 
 
-  * 5.1 Instrumented Ebike Platform 
+   5.2 Electrical Hook Up 
 
-  * 5.2 Electrical Hook Up 
+   5.3 Electronics Housings 
 
-  * 5.3 Electronics Housings 
+  6 Bill of Materials 
 
-* 6.0 Bill of Materials 
+  7 Lessons Learned and Suggested Improvements 
 
-* 7.0 Lessons Learned and Suggested Improvements 
-
-* 8.0 Acknowledgements
+  8 Acknowledgements
 
 1.0 Introduction
 ^^^^^^^^^^^^^^^^
