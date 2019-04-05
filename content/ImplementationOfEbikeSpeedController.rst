@@ -272,10 +272,10 @@ order to both practice the assembly and prove the connection before commiting to
 I found it extremely helpful to jig up fixtures on the bike to help with assembly in awkward positions.  
 
 On looking back at this project, I’ve realized that a lot of the electronics used in this build can be replaced with cleaner, simpler 
-components that would reduce the total assembly time and improve the robustness of the system. The LCD on the bike required a whopping 
-nine wires to function, causing a big mess of wires on the bike. This can be replaced by using a display module with an SPI communication 
-protocol requiring only four wires to function. Additionally, the stripboard Arduino circuit can be replaced by a custom PCB with screw 
-terminal connectors making the wiring of the Arduino much simpler and robust.    
+components that would reduce the total assembly time and improve the robustness of the system. Some component suggestions are:
+
+- Use a display that communicates via the SPI protocol to reduce the number of wires used 
+- For the Arduino board, use a custom PCB to increase the robustness of the board
   
 8.0 Acknowledgements 
 ^^^^^^^^^^^^^^^^^^^^
