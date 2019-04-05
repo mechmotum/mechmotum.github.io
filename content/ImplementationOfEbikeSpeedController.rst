@@ -137,7 +137,7 @@ can be found in Jason’s dissertation `found here <http://moorepants.github.io/
    :align: center
    :alt: Instrumented Ebike. 
 
-*Figure 6. The instrumented ebike today.*
+   *Figure 6. The instrumented ebike today.*
 
 5.2 Electrical Hook Up  
 ----------------------
