@@ -127,7 +127,7 @@ This library was used to free up pin real estate for the many components that ar
 5.1 Instrumented Ebike Platform
 -------------------------------
 
-Jason Moore, the lab’s PI, originally began constructing the instrumented ebike platform in 2008 from a large Surly single speed off road 
+Jason Moore, the lab’s PI, originally began constructing the instrumented ebike platform in 2009 from a large Surly single speed off road 
 steel frame bicycle converted to an ebike with a conversion kit sold by Amped Bikes. The Amped Bikes kit consists of a brushless direct 
 drive hub motor driven by a motor controller and a 36V Li ion battery. More information on the build and the bike’s instrumentation system 
 can be found in Jason’s dissertation `found here <http://moorepants.github.io/dissertation/davisbicycle.html>`_.  
