@@ -176,7 +176,7 @@ soldered to the stripboard to connect the external components to the Nano. Figur
    :align: center
    :alt: Arduino Board. 
 
-*Figure 8. The Arduino board with wires attached.*
+   *Figure 8. The Arduino board with wires attached.*
 
 With many of the components located on the handlebars, a majority of these wires were routed together along the top tube, up the head tube 
 and stretched across to the handlebars. This task was facilitated using spiral wound cable housings, zip ties, and a 15 pin Molex 
