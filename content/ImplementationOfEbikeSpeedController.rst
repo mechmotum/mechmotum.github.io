@@ -99,24 +99,24 @@ Figure 5, below, shows the logic flow of the code.
 *Figure 5. Code logic flowchart.* 
 
 The software, and more details about it, can be found on the Laboratorium’s Github repository `found here 
-<https://github.com/mechmotum/eBikeSpdController>`_. 
+<https://github.com/mechmotum/eBikeSpdController>`__. 
 
 4.1 Code Libraries 
 ------------------
 
 The continuous time PID controller derived in part one of this blog post series was digitized on the Arduino Nano using Brett Beauregard’s 
-PID_v1 library `(found here) <https://github.com/br3ttb/Arduino-PID-Library>`_. This library was developed by Brett to implement PID 
+PID_v1 library `(found here) <https://github.com/br3ttb/Arduino-PID-Library>`__. This library was developed by Brett to implement PID 
 controllers on an Arduino microcontroller.
 
 Brett’s library was chosen to implement the PID controller because of its many robust features such as Derivative Kick and Initialization. 
 Additionally, this library contains fantastic documentation which can be `found here <http://brettbeauregard.com/blog/2011/04/improving-
-the-beginners-pid-introduction/>`_.  
+the-beginners-pid-introduction/>`__.  
   
 To avoid slowing the code’s main loop, interrupts were used to manage the change in setpoint brought on by a press of the speed increment 
 decrement buttons. Using interrupts free’s up the Arduino’s processor from having to check whether or not there’s been a button press on 
 every loop iteration. Instead, the processor reacts to pin changes and interrupts the execution of the main code to perform the function 
 tied to the interrupt pin. However, the Arduino Nano only has a limited number of pins that can be used as interrupts. A library, written 
-by GreyGnome `(found here) <https://github.com/GreyGnome/PinChangeInt>`_, enables the use of interrupts on any pin of the Arduino Nano. 
+by GreyGnome `(found here) <https://github.com/GreyGnome/PinChangeInt>`__, enables the use of interrupts on any pin of the Arduino Nano. 
 This library was used to free up pin real estate for the many components that are wired up to the Arduino. 
 
 5.0 Hardware Hook Up and Design 
@@ -128,7 +128,7 @@ This library was used to free up pin real estate for the many components that ar
 Jason Moore, the lab’s PI, originally began constructing the instrumented ebike platform in 2009 from a large Surly single speed off road 
 steel frame bicycle converted to an ebike with a conversion kit sold by Amped Bikes. The Amped Bikes kit consists of a brushless direct 
 drive hub motor driven by a motor controller and a 36V Li ion battery. More information on the build and the bike’s instrumentation system 
-can be found in Jason’s dissertation `found here <http://moorepants.github.io/dissertation/davisbicycle.html>`_.  
+can be found in Jason’s dissertation `found here <http://moorepants.github.io/dissertation/davisbicycle.html>`__.  
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.jpg  
    :scale: 45%
@@ -148,7 +148,7 @@ interface hardware, actuators, and logging hardware. Table 1, below, shows a com
    :widths: 20, 20, 10
 
     "Arduino Nano", "ATmega328P Processor", "Main   Processor"
-    "Wheel Speed Sensor", "DC generator in contact with rear tire `(Click here for more information) <http://moorepants.github.io/dissertation/davisbicycle.html>`_",  "Control Loop Input"
+    "Wheel Speed Sensor", "DC generator in contact with rear tire `(Click here for more information) <http://moorepants.github.io/dissertation/davisbicycle.html>`__",  "Control Loop Input"
     "Voltage Divider", "Used to step down wheel speed sensor voltage to a range measurable by the Arduino", "Wheel Speed Sensor Signal Conditioning"
     "Pushbuttons", "Momentary pushbuttons to get user input", "User Input"
     "Battery", "7.2V NiCd", "System Power"
@@ -256,7 +256,7 @@ Throughout the process of implementing this controller, I learned some helpful l
 Some lessons learned include the following: 
 
 - It is important to account for the minimum bend radius of each wire inside of an electrical enclosure 
-- It is important to follow `best practices <https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks>`_ when designing for heat set threaded inserts 
+- It is important to follow `best practices <https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks>`__ when designing for heat set threaded inserts 
 - Iteration is required in order to achieve a design intent when 3D printing 
 - Test the assembly and function of electrical connections on scrap wire before commiting changes 
 
@@ -269,8 +269,8 @@ Throughout the implementation of this design, I've made note of some improvement
 8.0 Acknowledgements 
 ^^^^^^^^^^^^^^^^^^^^
 
-I would like to thank `Nicholas Chan <https://github.com/ngchan>`_ for writing the camera gimbal software that my speed control software 
-is based off of. I’d also like to thank `Brett Beuaregard <https://github.com/br3ttb>`_ for writing the PID library and it’s excellent 
+I would like to thank `Nicholas Chan <https://github.com/ngchan>`__ for writing the camera gimbal software that my speed control software 
+is based off of. I’d also like to thank `Brett Beuaregard <https://github.com/br3ttb>`__ for writing the PID library and it’s excellent 
 documentation that is the heart of the speed control software. Finally, I’d like to thank Jason Moore for his support and mentorship 
 throughout this project.  
 
