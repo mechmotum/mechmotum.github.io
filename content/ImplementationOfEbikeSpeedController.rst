@@ -239,7 +239,7 @@ access.
    :align: center
    :alt: Button Housing Mount. 
 
-*Figure 13. Button housing position on the handlebars.*
+   *Figure 13. Button housing position on the handlebars.*
 
 6.0 Bill of Materials 
 ^^^^^^^^^^^^^^^^^^^^^
