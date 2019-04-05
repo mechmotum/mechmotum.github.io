@@ -27,7 +27,7 @@ tells the story of how the designed PID controller was implemented on the instru
 The implementation of the PID controller on the electric bike was fundamentally informed by the interactions
 that the user would have with the system. A typical user interaction with the system is outlined in Figure 1 below. 
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg 
    :scale: 60%
    :align: center
    :alt: User Interaction. 
@@ -48,7 +48,7 @@ to the speed of the ebike as measured via a DC generator wheel speed sensor (mor
 this error is inputted to the control algorithm encoded in the Arduino Nano resulting in an output variable used to 
 control the speed of the ebike. 
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg  
    :scale: 60%
    :align: center
    :alt: Control Architecture. 
@@ -62,14 +62,12 @@ At the heart of the control system’s physical architecture is its integration 
 Figure 3, below, shows this integration by highlighting the input/output and geometric relationships between 
 existing components of the ebike and the additional control system components. 
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg 
    :scale: 75%
    :align: center
    :alt: System Architecture. 
 
-   *Figure 3. Geometric layout of the system components showing relative size, location, information flow, and type of each component. 
-   Components called out with a triangle are existing components on the ebike. Components called out with a circle are components that are 
-   introduced to the ebike system to implement the controller.*  
+   *Figure 3. Geometric layout of the system components showing relative size, location, information flow, and type of each component. Components called out with a triangle are existing components on the ebike. Components called out with a circle are components that are introduced to the ebike system to implement the controller.*  
 
 The fundamental interaction between the control system and the existing ebike powertrain system occurs at the interface between the 
 Arduino nano and the ebike motor controller. While the cruise control is engaged, the function of the Arduino is to take control of the 
@@ -77,7 +75,7 @@ throttle signal away from the user and pass it through the control algorithm bef
 control is disengaged, the Arduino simply reads the user commanded throttle position and passes it directly to the motor controller. 
 Figure 4, below, graphically shows this interaction. 
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg  
    :scale: 100%
    :align: center
    :alt: Arduino's Main Function. 
@@ -93,7 +91,7 @@ also updates the user on the current status of the system via an LCD and logs di
 
 Figure 5, below, shows the logic flow of the code. 
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg   
    :scale: 100%
    :align: center
    :alt: Code Logic Flowchart. 
@@ -132,7 +130,7 @@ steel frame bicycle converted to an ebike with a conversion kit sold by Amped Bi
 drive hub motor driven by a motor controller and a 36V Li ion battery. More information on the build and the bike’s instrumentation system 
 can be found in Jason’s dissertation `found here <http://moorepants.github.io/dissertation/davisbicycle.html>`_.  
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.jpg  
    :scale: 45%
    :align: center
    :alt: Instrumented Ebike. 
@@ -160,18 +158,17 @@ interface hardware, actuators, and logging hardware. Table 1, below, shows a com
 
 Figure 7, below, shows a Fritzing diagram of the electrical system.
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg  
    :scale: 100%
    :align: center
    :alt: Electrical Hookup. 
 
-   *Figure 7. Fritzing diagram of control system electronics. Note that the motor controller is represented by a DC motor and the 7.2V NiCd 
-battery is represented by a 1S LiPo battery.*  
+   *Figure 7. Fritzing diagram of control system electronics. Note that the motor controller is represented by a DC motor and the 7.2V NiCd battery is represented by a 1S LiPo battery.*  
 
 The Arduino Nano and the voltage divider circuits were soldered to a small 3” x 1.1” piece of stripboard. Wires, braided 22AWG, were 
 soldered to the stripboard to connect the external components to the Nano. Figure 8, below, shows the completed Arduino board. 
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.jpg   
    :scale: 15%
    :align: center
    :alt: Arduino Board. 
@@ -193,7 +190,7 @@ ebike. Figure 9, below, shows the CAD model design of the Arduino housing. The h
 Arduino stripboard to the mount. Slots on the sides and top of the housing allow for wires to exit towards their destinations on the 
 ebike. Threaded inserts on the base are used to secure the top cover using M3 screws.
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg  
    :scale: 100%
    :align: center
    :alt: Arduino Housing. 
@@ -202,7 +199,7 @@ ebike. Threaded inserts on the base are used to secure the top cover using M3 sc
 
 This housing is clamped to the downtube of the ebike by a socket head screw as shown in Figure 10.   
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.jpg  
    :scale: 16%
    :align: center
    :alt: Arduino Mounting. 
@@ -213,7 +210,7 @@ Both the LCD and button housings were 3D printed and designed to mount to the ha
 GoPro cameras to bikes. Each mount had a pair of “bunny ears” designed to interface with the GoPro style mount. The LCD housing, shown in 
 Figure 11 below, is a simple rectangular two-piece enclosure joined by button head screws. 
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg  
    :scale: 75%
    :align: center
    :alt: LCD Housing. 
@@ -224,7 +221,7 @@ Similar to the LCD housing, the button housing is a two-piece, enclosure joined 
 stripboard that the pushbuttons are soldered to. To make pressing the mini momentary pushbuttons more convenient for the user, larger 
 button parts were 3D printed and offset from each mini momentary pushbutton using a compression spring as shown in Figure 12 below. 
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg  
    :scale: 100%
    :align: center
    :alt: Button Housing. 
@@ -234,7 +231,7 @@ button parts were 3D printed and offset from each mini momentary pushbutton usin
 As shown in Figure 13, the button housing is mounted on right side of the handlebars near the throttle and brake lever for convenient 
 access.  
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.jpg  
    :scale: 12%
    :align: center
    :alt: Button Housing Mount. 
@@ -246,7 +243,7 @@ access.
 
 *Table 2. Bill of materials (BOM) showing each part of project, where it was purchased, what quantity was purchased and its cost.*
 
-.. figure:: 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg  
    :scale: 20%
    :align: center
    :alt: Bill of Materials. 
