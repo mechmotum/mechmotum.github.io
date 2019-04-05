@@ -165,7 +165,7 @@ Figure 7, below, shows a Fritzing diagram of the electrical system.
    :align: center
    :alt: Electrical Hookup. 
 
-*Figure 7. Fritzing diagram of control system electronics. Note that the motor controller is represented by a DC motor and the 7.2V NiCd 
+   *Figure 7. Fritzing diagram of control system electronics. Note that the motor controller is represented by a DC motor and the 7.2V NiCd 
 battery is represented by a 1S LiPo battery.*  
 
 The Arduino Nano and the voltage divider circuits were soldered to a small 3” x 1.1” piece of stripboard. Wires, braided 22AWG, were 
