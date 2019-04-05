@@ -32,7 +32,7 @@ that the user would have with the system. A typical user interaction with the sy
    :align: center
    :alt: User Interaction. 
    
-*Figure 1. A typical user interaction with the system.* 
+   *Figure 1. A typical user interaction with the system.* 
      
 This user interaction flowchart was used to help better understand the problem and sculpt the concept
 for the hardware and software design of the speed control system.  
