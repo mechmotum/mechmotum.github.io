@@ -198,7 +198,7 @@ ebike. Threaded inserts on the base are used to secure the top cover using M3 sc
    :align: center
    :alt: Arduino Housing. 
 
-*Figure 9.  Arduino housing design.* 
+   *Figure 9.  Arduino housing design.* 
 
 This housing is clamped to the downtube of the ebike by a socket head screw as shown in Figure 10.   
 
