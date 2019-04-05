@@ -67,7 +67,7 @@ existing components of the ebike and the additional control system components.
    :align: center
    :alt: System Architecture. 
 
-*Figure 3. Geometric layout of the system components showing relative size, location, information flow, and type of each component. 
+   *Figure 3. Geometric layout of the system components showing relative size, location, information flow, and type of each component. 
 Components called out with a triangle are existing components on the ebike. Components called out with a circle are components that are 
 introduced to the ebike system to implement the controller.*  
 
