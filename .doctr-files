@@ -13,6 +13,7 @@
 ./blog/bmd-isss-isb-asb-abstracts.html
 ./blog/double-pendulum-robot.html
 ./blog/ebike-controller-design.html
+./blog/ebike-controller-implementation.html
 ./blog/estimating-rowing-metrics.html
 ./blog/index.html
 ./blog/libretexts-grant.html
@@ -35,9 +36,12 @@
 ./products.html
 ./research.html
 ./tag/appropriate-technology.html
+./tag/arduino.html
 ./tag/bicycle.html
 ./tag/bicycles.html
+./tag/bikes.html
 ./tag/biomechanics.html
+./tag/controller-implementation.html
 ./tag/controller.html
 ./tag/controls.html
 ./tag/design.html
