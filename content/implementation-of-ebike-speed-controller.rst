@@ -293,7 +293,7 @@ handlebars near the throttle and brake lever for convenient access.
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg
-   :scale: 20%
+   :width: 100%
    :align: center
    :alt: Bill of Materials.
 
