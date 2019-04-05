@@ -53,7 +53,7 @@ control the speed of the ebike.
    :align: center
    :alt: Control Architecture. 
 
-*Figure 2. Control architecture.*
+   *Figure 2. Control architecture.*
 
 3.2 Physical Architecture
 -------------------------
