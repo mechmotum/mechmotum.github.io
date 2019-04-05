@@ -207,7 +207,7 @@ This housing is clamped to the downtube of the ebike by a socket head screw as s
    :align: center
    :alt: Arduino Mounting. 
 
-*Figure 10. Arduino housing mounting point.*  
+   *Figure 10. Arduino housing mounting point.*  
 
 Both the LCD and button housings were 3D printed and designed to mount to the handlebars using a clamshell style mount used for securing 
 GoPro cameras to bikes. Each mount had a pair of “bunny ears” designed to interface with the GoPro style mount. The LCD housing, shown in 
