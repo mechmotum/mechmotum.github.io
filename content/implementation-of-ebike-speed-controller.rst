@@ -162,7 +162,7 @@ controller and a 36V Li ion battery. More information on the build and the
 bike’s instrumentation system can be found in Jason’s dissertation `found here
 <http://moorepants.github.io/dissertation/davisbicycle.html>`__.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.jpg
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG
    :scale: 45%
    :align: center
    :alt: Instrumented Ebike.
@@ -206,7 +206,7 @@ The Arduino Nano and the voltage divider circuits were soldered to a small 3" x
 to connect the external components to the Nano. Figure 8, below, shows the
 completed Arduino board.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.jpg
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG
    :scale: 15%
    :align: center
    :alt: Arduino Board.
@@ -245,7 +245,7 @@ top cover using M3 screws.
 This housing is clamped to the downtube of the ebike by a socket head screw as
 shown in Figure 10.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.jpg
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG
    :scale: 16%
    :align: center
    :alt: Arduino Mounting.
@@ -282,7 +282,7 @@ Figure 12 below.
 As shown in Figure 13, the button housing is mounted on right side of the
 handlebars near the throttle and brake lever for convenient access.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.jpg
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG
    :scale: 12%
    :align: center
    :alt: Button Housing Mount.
