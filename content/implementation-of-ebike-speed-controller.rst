@@ -93,7 +93,7 @@ user commanded throttle position and passes it directly to the motor
 controller.  Figure 4, below, graphically shows this interaction.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg
-   :width: 100%
+   :width: 40%
    :align: center
    :alt: Arduino's Main Function.
 
@@ -193,7 +193,7 @@ hardware used in this build.
 Figure 7, below, shows a Fritzing diagram of the electrical system.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg
-   :width: 100%
+   :width: 60%
    :align: center
    :alt: Electrical Hookup.
 
@@ -207,7 +207,7 @@ to connect the external components to the Nano. Figure 8, below, shows the
 completed Arduino board.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG
-   :width: 15%
+   :width: 60%
    :align: center
    :alt: Arduino Board.
 
