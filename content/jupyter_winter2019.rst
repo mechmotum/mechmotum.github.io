@@ -59,4 +59,6 @@ JupyterHub Bare-Metal
 ^^^^^^^^^^^^^^^^^^^^^
 
 Our next step in the journey was trying to setup a bare-metal verion of `JupyterHub
-<https://github.com/mechmotum/jupyterhub-deploy-teaching>`__.
+<https://github.com/mechmotum/jupyterhub-deploy-teaching>`__ in our virtual machines. We followed the instructions provided to
+successfully setup JupyterHub on our virtual machines and we were able to connet to
+it through the browser.
