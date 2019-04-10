@@ -10,8 +10,8 @@ Creating Linux Servers for JupyterHub
 
 .. contents::
 
-1.0 Background
-^^^^^^^^^^^^^^
+Background
+^^^^^^^^^^
 
 As part of the `$5M grant`_ awarded to the LibreTexts project last year,
 our team was created with two goals: to integrate Jupyter into the LibreTexts
@@ -21,8 +21,8 @@ building test servers.
 
 .. _$5M grant: https://mechmotum.github.io/blog/libretexts-grant.html
 
-2.0 Virtual Machine Environment
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Virtual Machine Environment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The first step in our journey to building a cluster was to familiarize ourselves
 with how to setup a single server. It was crucial for us to really understand all
@@ -30,16 +30,33 @@ the details on how to setup a single server, as we would need the knowledge to s
 each and every single node in the cluster. We decided to use VirtualBox as our
 starting playground so we had an easily disposable environments to learn from.
 
-3.0 RAID1 and LVM
-^^^^^^^^^^^^^^^^^
+RAID1 and LVM
+^^^^^^^^^^^^^
 
-After we succeeded in installing Ubuntu 18 in our VirtualBox machines, we started
+After we succeeded in installing Ubuntu 18 on our VirtualBox machines, we started
 adding more features to the installations that we would eventually use in our cluster
 configuration. We started by adding a software RAID1 to our installations to familiarize
-ourselves with the process.
+ourselves with the process, and then we moved on to adding LVM too.
 
-Redundant Array of Independent Disks, also known as RAID, provides multiple ways of orchestrating
-and synchronizing multiple hard drives in a computer network to establish reliable data storage
-within the network. We decided to use RAID1, which consists of an exact copy of a set of data on
-two or more disks. We chose RAID1 because it allows us to switch a drive while the server is live,
-in case a drive fails.
+Redundant Array of Independent Disks, also known as RAID, provides multiple ways
+of orchestrating and synchronizing multiple hard drives in a computer network to
+establish reliable data storage within the network. We decided to use RAID1, which
+consists of an exact copy of a set of data on two or more disks. We chose RAID1
+because it allows us to switch a drive while the server is live, in case a
+drive fails.
+
+Logical Volume Manager, also known as LVM, is a device mapper target that provides
+logical volume management for the Linux kernel. The benefits of using LVM is the
+ability to use and manage "dynamic partitions". When using LVM "partitions",
+known just as logical volumes, we can manage them very easily through the command
+line if we wanted to either create additional partitions, or resize/delete any
+existing partitions.
+
+A stack of Ubuntu 18, RAID1, and LVM will be our standard setup for each node in
+the cluster.
+
+JupyterHub Bare-Metal
+^^^^^^^^^^^^^^^^^^^^^
+
+Our next step in the journey was trying to setup a bare-metal verion of `JupyterHub
+<https://github.com/mechmotum/jupyterhub-deploy-teaching>`__.
