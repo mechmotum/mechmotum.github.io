@@ -94,8 +94,8 @@ and the backpack strapped to my chest.
 Ski Jump Application Update
 ---------------------------
 
-The new version of the ski jump web application has not launched yet, but a lot of progress
-was made. A home page was added to keep it user friendly. This is shown below.
+The new version of the ski jump web application has launched and is available at
+http://www.skijumpdesign.info. A home page was added to keep it user friendly. This is shown below.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
    :width: 50%
@@ -112,12 +112,12 @@ or the new analysis page shown in Figure 4.
    :align: center
    :alt: Differential GPS Skier Helmet.
 
-   *Figure 4. New Ski Jump Web Application (Work in Progress) - Analysis Page.*
+   *Figure 4. New Ski Jump Web Application - Analysis Page.*
 
-Here the user can upload their csv or excel file with the distance and height coordinates
-of their jump. Then the user specifies the takeoff point and takeoff angle of the jump. An
-example of a jump built using a jump designed with a takeoff angle of 25 degrees and
-maximum equivalent fall height of 0.5 m was input into the app and is shown in Figure 5 below.
+Here the user can upload their csv or excel file with the takeoff angle of their jump.
+An example of a jump built using a jump designed with a takeoff angle of 10 degrees and
+maximum equivalent fall height of 0.8 m is displayed when opening the page and is shown
+in Figure 5 below.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
    :width: 50%
@@ -127,27 +127,16 @@ maximum equivalent fall height of 0.5 m was input into the app and is shown in F
    *Figure 5. Analysis Page with a 0.5 m Constant Equivalent Fall Height.*
 
 The user can see the jump profile, EFH value, and maximum and recommended EFH values.
-The calculation shows a constant EFH value of 0.5 m until it reaches the landing transition
+The calculation shows a constant EFH value of 0.8 m until it reaches the landing transition
 surface. At this point, the ski jump design app limits the acceleration felt by the skier instead,
 and is the reason for the spike in EFH.
-
-This version is not deployed yet as there is work to be done to speed up the EFH calculation,
-limit user error, and make the web application stable.
-
-If you'd like to check out the deployed version of the web app, click the image below:
-
-.. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/skijumpdesign-screenshot.jpg
-   :width: 50%
-   :align: center
-   :target: http://www.skijumpdesign.info
-   :alt: Screenshot of the application.
 
 Conclusion
 ----------
 
 A function was added to the skijumpdesign software to calculate the equivalent fall height of a
 surface. A differential GPS mounted on a skier's helmet is a promising way to measure a jump profile
-becuase it is portable and efficient. The ski jump web application has expanded to showcase three
+because it is portable and efficient. The ski jump web application has expanded to showcase three
 pages: a home page, design page, and analysis page. Further work is needed to speed up the
 calculations, determine the best methods for users to measure a jump, and make the new web app user
 friendly.
