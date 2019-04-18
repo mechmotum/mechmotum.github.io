@@ -22,7 +22,8 @@ components of a terrain park using common terminology.
    :align: center
    :alt: Ski Jump Terminology.
 
-   *Figure 1. Components of standard terrain park jump.*
+   *Figure 1. Components of standard terrain park jump from [Levy]_.
+   Reprinted with permission.*
 
 The software is designed for users with little to no technical background,
 and guides the users through correct implementation.
