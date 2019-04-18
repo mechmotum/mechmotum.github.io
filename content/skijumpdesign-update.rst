@@ -108,7 +108,7 @@ http://www.skijumpdesign.info. A home page was added to keep it user friendly. T
 The buttons centered in the middle of this page will direct users to the ski jump design
 or the new analysis page shown in Figure 4.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-06.png
    :width: 50%
    :align: center
    :alt: Ski Jump Tool Analysis.
@@ -123,7 +123,7 @@ design app limits the acceleration felt by the skier - which is the reason for t
 From there, the user can scroll down to the input box to upload their own jump. This input box
 is shown in Figure 5 with a sample csv file uploaded.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-07.png
    :width: 50%
    :align: center
    :alt: Analysis Input Box.
