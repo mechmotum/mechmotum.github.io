@@ -51,7 +51,7 @@ Measuring A Jump's Profile
 A jump has been measured using the three following methods.
 
 1. Use a tape measure and level to find the surface distance and angle at defined points
-   along the jump. Then, input the values into the J. A. McNeil Excel Jump Tool.
+   along the jump. Then, convert the values to planar Cartesian coordinate system that lies on the jumps cross section.
 #. Mount a high precision differential GPS to a snowboard and slowly walk the snowboard
    along the jump.
 #. Mount a differential GPS on a helmet and have a skier ski along the jump as slowly as
