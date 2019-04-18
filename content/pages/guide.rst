@@ -84,6 +84,14 @@ you still need to submit a time sheet with 0 hours.
 
 .. _`hour logging system`:  https://trs.ucdavis.edu/trs/
 
+If you are paid undergraduate student worker you are expected to work on
+average a minimum of 10 hrs/week unless you have pre-approved a break with
+Jason. The "average" lets you be flexible around winter break, spring break,
+exams, and other priorities with your school work and life. You are expected to
+contribute work hours during the academic breaks unless you request time off.
+You can work a maximum of 20 hrs/week in the academic year and discuss with
+Jason if you want to work more than 20 hrs/week in the summer.
+
 Safety Training
 ===============
 

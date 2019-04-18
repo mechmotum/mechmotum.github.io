@@ -68,4 +68,4 @@ DESCRIPTION = ''
 
 ## PLUGINS
 
-PLUGINS = ['render_math']
+PLUGINS = ['render_math', 'extract_toc']
