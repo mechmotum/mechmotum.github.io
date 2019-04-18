@@ -41,14 +41,14 @@ where :math:`$v_j$` is the jumper's landing speed, :math:`$\theta_J$` is the jum
 landing angle, :math:`$\theta_L$` is the slope angle and :math:`$g$` is gravity.
 This calculation was added to the skijumpdesign software to evaluate the EFH of any surface.
 A takeoff angle, skier instance, and a takeoff point relative to the surface are
-user inputs to the function. Then, the function uses these inputs to find the skier
+user inputs to the function. Then, the function uses these inputs to find the skier's
 impact velocity at each point along the surface and extracts the skier's landing speed
 and landing angle. The slope angle is calculated using the slope along the surface.
 
 Measuring A Jump's Profile
 --------------------------
 
-A jump has been measured using three of the following methods.
+A jump has been measured using the three following methods.
 
 1. Use a tape measure and level to find the surface distance and angle at defined points
    along the jump. Then, input the values into the J. A. McNeil Excel Jump Tool.
@@ -104,7 +104,7 @@ was made. A home page was added to keep it user friendly. This is shown below.
 
    *Figure 3. New Ski Jump Web Application (Work in Progress) - Home Page.*
 
-The buttons centered in the middle of this page will direct user's to the ski jump design
+The buttons centered in the middle of this page will direct users to the ski jump design
 or the new analysis page shown in Figure 4.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
