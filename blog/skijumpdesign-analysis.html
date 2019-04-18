@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Ski Jump Design Software to Analyze User Inputted Jumps | Laboratorium of Marvelous Mechanical Motum
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/blog/skijumpdesign-analysis.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://mechmotum.github.io/feeds/research.atom.xml">  
+  <meta name="description" content="Blog post on adding page to skijumpdesign app to analyze user inputted ski jumps for equivalent fall height.">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Laboratorium of Marvelous Mechanical Motum">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <h1 class="title"><a href="https://mechmotum.github.io/">Laboratorium of Marvelous Mechanical Motum</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Ski Jump Design Software to Analyze User Inputted Jumps
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2019-03-23T00:00:00-07:00">
+          <i class="fa fa-clock-o"></i>
+          Sat 23 March 2019
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="https://mechmotum.github.io/category/research.html">research</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="https://mechmotum.github.io/author/bryn-cloud.html">Bryn Cloud</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="https://mechmotum.github.io/tag/ski.html">#ski</a>,               <a href="https://mechmotum.github.io/tag/sports.html">#sports</a>,               <a href="https://mechmotum.github.io/tag/engineering.html">#engineering</a>,               <a href="https://mechmotum.github.io/tag/safety.html">#safety</a>          </li>
+      </ul>
+    </header>
+
+
+    <div class="content">
+      <div class="section" id="introduction">
+<h2>Introduction</h2>
+<p>The goal of this work is to add a new page to the <a class="reference external" href="http://www.skijumpdesign.info">Ski Jump Design Tool</a>
+that allows users to input a measured jump profile and get a depiction of
+the equivalent fall height (EFH) for their jump. Figure 1 illustrates the
+components of a terrain park using common terminology.</p>
+<blockquote>
+<div class="figure align-center">
+<img alt="Ski Jump Terminology." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png" style="width: 80%;" />
+<p class="caption"><em>Figure 1. Components of standard terrain park jump from [Levy]_.
+Reprinted with permission.</em></p>
+</div>
+</blockquote>
+<p>The software is designed for users with little to no technical background,
+and guides the users through correct implementation.</p>
+</div>
+<div class="section" id="calculating-equivalent-fall-height">
+<h2>Calculating Equivalent Fall Height</h2>
+<p>The theory of equivalent fall height calculations has been discussed by <a class="citation-reference" href="#levy" id="id1">[Levy]</a>.
+EFH can be expressed as follows:</p>
+<div class="math">
+\begin{equation*}
+h = \frac{v_j^2sin^2(\theta_J - \theta_L)}{2g}
+\end{equation*}
+</div>
+<p>where <span class="math">\($v_j$\)</span> is the jumper's landing speed, <span class="math">\($\theta_J$\)</span> is the jumper's
+landing angle, <span class="math">\($\theta_L$\)</span> is the slope angle and <span class="math">\($g$\)</span> is gravity.
+This calculation was added to the skijumpdesign software to evaluate the EFH of any surface.
+A takeoff angle, skier instance, and a takeoff point relative to the surface are
+user inputs to the function. Then, the function uses these inputs to find the skier's
+impact velocity at each point along the surface and extracts the skier's landing speed
+and landing angle. The slope angle is calculated using the slope along the surface.</p>
+</div>
+<div class="section" id="measuring-a-jump-s-profile">
+<h2>Measuring A Jump's Profile</h2>
+<p>A jump has been measured using the three following methods.</p>
+<ol class="arabic simple">
+<li>Use a tape measure and level to find the surface distance and angle at defined points
+along the jump. Then, convert the values to planar Cartesian coordinate system that
+lies on the jumps cross section.</li>
+<li>Mount a high precision differential GPS to a snowboard and slowly walk the snowboard
+along the jump.</li>
+<li>Mount a differential GPS on a helmet and have a skier ski along the jump as slowly as
+possible.</li>
+</ol>
+<p>We spent time this quarter testing the latter. A Piksi differential GPS system was used
+for the experiments. This system uses two receivers, the base and the rover, and
+calculates the relative position between the two. This referencing allows the differential
+GPS to have a one centimeter accuracy. The GNSS antenna was mounted to a bike helmet by
+drilling a hole through the top and fastening it down with a nut and bolt. The cable
+that connects the antenna to the rover evaluation board was fed down the profile of the
+helmet and into a backpack.</p>
+<p>Preliminary tests were gathered using the helmet/backpack setup while a rider biked around
+a neighborhood in Davis. We found that while the rider was biking, there were a lot of
+obstructions that would make the rover and base station lose their fixed position when they
+were more than ~400 meters apart. This meant that we were still able to locate the rover,
+but it had a less accurate reading. We felt confident that we could maintain a fixed, accurate
+position for at least 350 meters, so we spent the next weekend testing the setup at Sierra at
+Tahoe ski resort.</p>
+<p>The skier went down four different jumps while the recorder was with the base station left at the
+bottom of the resort. After the recorder started recording, the skier slowly rode up the takeoff
+of the jump. Once at the top of takeoff, the skier stopped and side stepped the takeoff lip. This
+method was used so that it is easier to take note of where the takeoff point of the jump is when
+we analyzed the data. After the sidestep, the skier stepped off the takeoff lip and slowly rode down
+the landing profile. We tested 2 jump lines, one approximately 200 meters from the base station, and
+one 1000 meters from the base station. We found that the differential GPS accurately measured at
+both locations, which was a pleasant surprise after the testing on a bike. This data shows promise
+for this jump profiling method. Figure 2 shows me (the skier) with the differential GPS ski helmet,
+and the backpack strapped to my chest.</p>
+<div class="figure align-center">
+<img alt="Differential GPS Skier Helmet." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-02.jpg" style="width: 50%;" />
+<p class="caption"><em>Figure 2. A differential GPS mounted to a helmet for testing at Sierra at Tahoe.</em></p>
+</div>
+</div>
+<div class="section" id="ski-jump-application-update">
+<h2>Ski Jump Application Update</h2>
+<p>The new version of the ski jump web application has launched and is available at
+<a class="reference external" href="http://www.skijumpdesign.info">http://www.skijumpdesign.info</a>. A home page was added to keep it user friendly. This is shown below.</p>
+<div class="figure align-center">
+<img alt="Ski Jump Tool Home Page." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-03.png" style="width: 50%;" />
+<p class="caption"><em>Figure 3. New Ski Jump Web Application - Home Page.</em></p>
+</div>
+<p>The buttons centered in the middle of this page will direct users to the ski jump design
+or the new analysis page shown in Figure 4.</p>
+<div class="figure align-center">
+<img alt="Ski Jump Tool Analysis." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-06.png" style="width: 50%;" />
+<p class="caption"><em>Figure 4. New Ski Jump Web Application - Analysis Page.</em></p>
+</div>
+<p>An example of a jump designed with a takeoff angle of 10 degrees and maximum equivalent
+fall height of 0.8 m is displayed when the page is loaded. The user can see the jump profile,
+EFH value, and knee collapse and possible soft landing EFH values. The calculation shows a constant
+EFH value of 0.8 m until it reaches the landing transition surface. Instead, the ski jump
+design app limits the acceleration felt by the skier - which is the reason for the spike in EFH.
+From there, the user can scroll down to the input box to upload their own jump. This input box
+is shown in Figure 5 with a sample csv file uploaded.</p>
+<div class="figure align-center">
+<img alt="Analysis Input Box." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-07.png" style="width: 50%;" />
+<p class="caption"><em>Figure 5. Analysis Page Input Box.</em></p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>A function was added to the skijumpdesign software to calculate the equivalent fall height of a
+surface. A differential GPS mounted on a skier's helmet is a promising way to measure a jump profile
+because it is portable and efficient. The ski jump web application has expanded to showcase three
+pages: a home page, design page, and analysis page. Further work is needed to speed up the
+calculations, determine the best methods for users to measure a jump, and make the new web app user
+friendly.</p>
+<p>Other related information:</p>
+<ul class="simple">
+<li>Web application: <a class="reference external" href="http://www.skijumpdesign.info">http://www.skijumpdesign.info</a></li>
+<li>Software repository: <a class="reference external" href="https://gitlab.com/moorepants/skijumpdesign">https://gitlab.com/moorepants/skijumpdesign</a></li>
+<li>Software documentation: <a class="reference external" href="http://skijumpdesign.readthedocs.io">http://skijumpdesign.readthedocs.io</a></li>
+</ul>
+</div>
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils citation" frame="void" id="levy" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[Levy]</a></td><td>Levy, D., Hubbard, M., McNeil, J.A. et al. Sports Eng (2015) 18: 227.
+<a class="reference external" href="https://doi.org/10.1007/s12283-015-0182-6">https://doi.org/10.1007/s12283-015-0182-6</a></td></tr>
+</tbody>
+</table>
+</div>
+<script type='text/javascript'>if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        fonts: [['STIX', 'TeX']]," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+    </div>
+  </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+</body>
+
+</html>
