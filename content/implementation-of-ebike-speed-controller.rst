@@ -33,7 +33,7 @@ informed by the interactions that the user would have with the system. A
 typical user interaction with the system is outlined in Figure 1 below.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg
-   :scale: 60%
+   :width: 60%
    :align: center
    :alt: User Interaction.
 
@@ -57,7 +57,7 @@ the Arduino Nano resulting in an output variable used to control the speed of
 the ebike.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg
-   :scale: 60%
+   :width: 60%
    :align: center
    :alt: Control Architecture.
 
@@ -73,7 +73,7 @@ between existing components of the ebike and the additional control system
 components.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg
-   :scale: 75%
+   :width: 75%
    :align: center
    :alt: System Architecture.
 
@@ -93,7 +93,7 @@ user commanded throttle position and passes it directly to the motor
 controller.  Figure 4, below, graphically shows this interaction.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg
-   :scale: 100%
+   :width: 40%
    :align: center
    :alt: Arduino's Main Function.
 
@@ -111,7 +111,7 @@ the system via an LCD and logs diagnostic information to an SD card.
 Figure 5, below, shows the logic flow of the code.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg
-   :scale: 100%
+   :width: 100%
    :align: center
    :alt: Code Logic Flowchart.
 
@@ -162,8 +162,8 @@ controller and a 36V Li ion battery. More information on the build and the
 bike’s instrumentation system can be found in Jason’s dissertation `found here
 <http://moorepants.github.io/dissertation/davisbicycle.html>`__.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.jpg
-   :scale: 45%
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG
+   :width: 45%
    :align: center
    :alt: Instrumented Ebike.
 
@@ -193,7 +193,7 @@ hardware used in this build.
 Figure 7, below, shows a Fritzing diagram of the electrical system.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg
-   :scale: 100%
+   :width: 60%
    :align: center
    :alt: Electrical Hookup.
 
@@ -206,8 +206,8 @@ The Arduino Nano and the voltage divider circuits were soldered to a small 3" x
 to connect the external components to the Nano. Figure 8, below, shows the
 completed Arduino board.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.jpg
-   :scale: 15%
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG
+   :width: 60%
    :align: center
    :alt: Arduino Board.
 
@@ -236,7 +236,7 @@ destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg
-   :scale: 100%
+   :width: 100%
    :align: center
    :alt: Arduino Housing.
 
@@ -245,8 +245,8 @@ top cover using M3 screws.
 This housing is clamped to the downtube of the ebike by a socket head screw as
 shown in Figure 10.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.jpg
-   :scale: 16%
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG
+   :width: 80%
    :align: center
    :alt: Arduino Mounting.
 
@@ -259,7 +259,7 @@ GoPro style mount. The LCD housing, shown in Figure 11 below, is a simple
 rectangular two-piece enclosure joined by button head screws.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg
-   :scale: 75%
+   :width: 75%
    :align: center
    :alt: LCD Housing.
 
@@ -273,7 +273,7 @@ from each mini momentary pushbutton using a compression spring as shown in
 Figure 12 below.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg
-   :scale: 100%
+   :width: 100%
    :align: center
    :alt: Button Housing.
 
@@ -282,8 +282,8 @@ Figure 12 below.
 As shown in Figure 13, the button housing is mounted on right side of the
 handlebars near the throttle and brake lever for convenient access.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.jpg
-   :scale: 12%
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG
+   :width: 80%
    :align: center
    :alt: Button Housing Mount.
 
