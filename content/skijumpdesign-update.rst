@@ -97,7 +97,7 @@ Ski Jump Application Update
 The new version of the ski jump web application has launched and is available at
 http://www.skijumpdesign.info. A home page was added to keep it user friendly. This is shown below.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-03.png
    :width: 50%
    :align: center
    :alt: Differential GPS Skier Helmet.
