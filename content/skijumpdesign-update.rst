@@ -103,7 +103,7 @@ http://www.skijumpdesign.info. A home page was added to keep it user friendly. T
    :align: center
    :alt: Ski Jump Tool Home Page.
 
-   *Figure 3. New Ski Jump Web Application (Work in Progress) - Home Page.*
+   *Figure 3. New Ski Jump Web Application - Home Page.*
 
 The buttons centered in the middle of this page will direct users to the ski jump design
 or the new analysis page shown in Figure 4.
@@ -115,22 +115,20 @@ or the new analysis page shown in Figure 4.
 
    *Figure 4. New Ski Jump Web Application - Analysis Page.*
 
-Here the user can upload their csv or Excel file with the takeoff angle of their jump.
-An example of a jump built using a jump designed with a takeoff angle of 10 degrees and
-maximum equivalent fall height of 0.8 m is displayed when opening the page and is shown
-in Figure 5 below.
+An example of a jump designed with a takeoff angle of 10 degrees and maximum equivalent
+fall height of 0.8 m is displayed when the page is loaded. The user can see the jump profile,
+EFH value, and knee collapse and possible soft landing EFH values. The calculation shows a constant
+EFH value of 0.8 m until it reaches the landing transition surface. Instead, the ski jump
+design app limits the acceleration felt by the skier - which is the reason for the spike in EFH.
+From there, the user can scroll down to the input box to upload their own jump. This input box
+is shown in Figure 5 with a sample csv file uploaded.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
    :width: 50%
    :align: center
-   :alt: Differential GPS Skier Helmet.
+   :alt: Analysis Input Box.
 
-   *Figure 5. Analysis Page with a 0.5 m Constant Equivalent Fall Height.*
-
-The user can see the jump profile, EFH value, and maximum and recommended EFH values.
-The calculation shows a constant EFH value of 0.8 m until it reaches the landing transition
-surface. Instead, the ski jump design app limits the acceleration felt by the skier,
-which is the reason for the spike in EFH.
+   *Figure 5. Analysis Page Input Box.*
 
 Conclusion
 ----------
