@@ -84,7 +84,7 @@ both locations, which was a pleasant surprise after the testing on a bike. This 
 for this jump profiling method. Figure 2 shows me (the skier) with the differential GPS ski helmet,
 and the backpack strapped to my chest.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-02.jpg
    :width: 50%
    :align: center
    :alt: Differential GPS Skier Helmet.
