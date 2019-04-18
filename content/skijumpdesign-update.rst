@@ -17,7 +17,7 @@ that allows users to input a measured jump profile and get a depiction of
 the equivalent fall height (EFH) for their jump.Figure 1 illustrates the
 components of a terrain park using common terminology.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
+ .. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png
    :width: 80%
    :align: center
    :alt: Ski Jump Terminology.
