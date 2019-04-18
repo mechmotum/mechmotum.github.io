@@ -1,7 +1,7 @@
 Ski Jump Design Software to Analyze User Inputted Jumps
 =======================================================
 
-:date: 2019-03-23 00:00:00
+:date: 2019-04-18 00:00:00
 :tags: ski, sports, engineering, safety
 :category: research
 :slug: skijumpdesign-analysis
@@ -23,7 +23,7 @@ components of a terrain park using common terminology.
    :alt: Ski Jump Terminology.
 
    *Figure 1. Components of standard terrain park jump from [Levy]_.
-   Reprinted with permission.*
+   Reprinted with the author's permission.*
 
 The software is designed for users with little to no technical background,
 and guides the users through correct implementation.
