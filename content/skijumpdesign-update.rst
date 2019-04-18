@@ -57,11 +57,32 @@ A jump has been measured using three of the following methods.
 #. Mount a differential GPS on a helmet and have a skier ski along the jump as slowly as
    possible.
 
-We spent time this quarter testing the latter at Sierra at Tahoe ski resort. The skier
-went down four different jumps while the recorder was with the base station left at the
-bottom of the resort. We found that the differential GPS can accurately measure at a range
-of over 1000 meters. This data showed promise for this jump profiling method. Figure 2
-shows me (the skier) with the differential GPS ski helmet.
+We spent time this quarter testing the latter. A Piksi differential GPS system was used
+for the experiments. This system uses two receivers, the base and the rover, and
+calculates the relative position between the two. This referencing allows the differential
+GPS to have a one centimeter accuracy. The GNSS antenna was mounted to a bike helmet by
+drilling a hole through the top and fastening it down with a nut and bolt. The cable
+that connects the antenna to the rover evaluation board was fed down the profile of the
+helmet and into a backpack.
+
+Preliminary tests were gathered using the helmet/backpack setup while a rider biked around
+a neighborhood in Davis. We found that while the rider was biking, there were a lot of
+obstructions that would make the rover and base station lose their fixed position when they
+were more than ~400 meters apart. This meant that we were still able to locate the rover,
+but it had a less accurate reading. We felt confident that we could maintain a fixed, accurate
+position for at least 350 meters, so we spent the next weekend testing the setup at Sierra at
+Tahoe ski resort.
+
+The skier went down four different jumps while the recorder was with the base station left at the
+bottom of the resort. After the recorder started recording, the skier slowly rode up the takeoff
+of the jump. Once at the top of takeoff, the skier stopped and side stepped the takeoff lip. This
+method was used so that it is easier to take note of where the takeoff point of the jump is when
+we analyzed the data. After the sidestep, the skier stepped off the takeoff lip and slowly rode down
+the landing profile. We tested 2 jump lines, one approximately 200 meters from the base station, and
+one 1000 meters from the base station. We found that the differential GPS accurately measured at
+both locations, which was a pleasant surprise after the testing on a bike. This data shows promise
+for this jump profiling method. Figure 2 shows me (the skier) with the differential GPS ski helmet,
+and the backpack strapped to my chest.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
    :width: 50%
