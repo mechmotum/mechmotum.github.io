@@ -51,7 +51,8 @@ Measuring A Jump's Profile
 A jump has been measured using the three following methods.
 
 1. Use a tape measure and level to find the surface distance and angle at defined points
-   along the jump. Then, convert the values to planar Cartesian coordinate system that lies on the jumps cross section.
+   along the jump. Then, convert the values to planar Cartesian coordinate system that
+   lies on the jumps cross section.
 #. Mount a high precision differential GPS to a snowboard and slowly walk the snowboard
    along the jump.
 #. Mount a differential GPS on a helmet and have a skier ski along the jump as slowly as
@@ -100,7 +101,7 @@ http://www.skijumpdesign.info. A home page was added to keep it user friendly. T
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-03.png
    :width: 50%
    :align: center
-   :alt: Differential GPS Skier Helmet.
+   :alt: Ski Jump Tool Home Page.
 
    *Figure 3. New Ski Jump Web Application (Work in Progress) - Home Page.*
 
@@ -110,11 +111,11 @@ or the new analysis page shown in Figure 4.
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
    :width: 50%
    :align: center
-   :alt: Differential GPS Skier Helmet.
+   :alt: Ski Jump Tool Analysis.
 
    *Figure 4. New Ski Jump Web Application - Analysis Page.*
 
-Here the user can upload their csv or excel file with the takeoff angle of their jump.
+Here the user can upload their csv or Excel file with the takeoff angle of their jump.
 An example of a jump built using a jump designed with a takeoff angle of 10 degrees and
 maximum equivalent fall height of 0.8 m is displayed when opening the page and is shown
 in Figure 5 below.
@@ -128,8 +129,8 @@ in Figure 5 below.
 
 The user can see the jump profile, EFH value, and maximum and recommended EFH values.
 The calculation shows a constant EFH value of 0.8 m until it reaches the landing transition
-surface. At this point, the ski jump design app limits the acceleration felt by the skier instead,
-and is the reason for the spike in EFH.
+surface. Instead, the ski jump design app limits the acceleration felt by the skier,
+which is the reason for the spike in EFH.
 
 Conclusion
 ----------
