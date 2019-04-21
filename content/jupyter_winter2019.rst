@@ -12,7 +12,7 @@ Creating Linux Servers for JupyterHub
 Background
 ^^^^^^^^^^
 
-As part of the `$5M grant <{filename}/content/pages/libretexts-grant.rst>`_ awarded to the LibreTexts project last year,
+As part of the `$5M grant <libretexts-grant.rst>`_ awarded to the LibreTexts project last year,
 our team was created with two goals: to integrate Jupyter into the LibreTexts
 website and to create a computing cluster running JupyterHub to serve LibreTexts
 and UC Davis users. This quarter, we focused on researching how to create the
