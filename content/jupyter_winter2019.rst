@@ -64,7 +64,7 @@ Our individual setups varied between each test server. In one successful setup, 
 contained two partitions. One partition contained 2.0 GB and was mounted on ``/boot`` as the
 boot partition. The other partition contained 19.5 GB, serving as primary storage.
 
-A stack of Ubuntu 18, RAID1, and LVM will be our standard setup for each node in
+We plan to have a stack of Ubuntu 18, RAID1, and LVM as our standard setup for each node in
 the cluster.
 
 JupyterHub Bare-Metal
@@ -78,12 +78,14 @@ our virtual machines and connect to it through the browser.
 We ran into a few issues during the installation process.
 The Ansible script in the repository was missing some required installations.
 The package `python3-distutils` is required by JupyterHub but was not installed. We suspect that the 
-package may have been part of Ubuntu 16.04 so it was not required previously. This was fixed 
-in the Ansible Playbook via `this commit <https://github.com/mechmotum/jupyterhub-deploy-teaching/commit/51b070a9ae3223d1919ec56323411ef455d642e5>`__.
+package may have been part of Ubuntu 16.04, so it is possible that the Ansible script did not need to
+specify installing `python3-disutils` previously. This was fixed in the Ansible Playbook via 
+`this commit <https://github.com/mechmotum/jupyterhub-deploy-teaching/commit/51b070a9ae3223d1919ec56323411ef455d642e5>`__.
 
 We also encountered Conda errors while installing JupyterHub. We suspect that this is 
-due to the conda submodules, which are fixed by running their updates in `setup.sh`.
+due to the conda submodules, which are fixed by running their updates in our automatic configuration 
+and deploying script, `setup.sh`.
 
 After succeeding in setting up JupyterHub on our virtual machines, we incorporated the changes
-into the configuration files and wrote a bash script to automate the installation process, testing it
+into the configuration files and completed `setup.sh` to automate the installation process, testing it
 to make sure that it worked.
