@@ -76,8 +76,13 @@ We followed the instructions provided in the repository, `jupyterhub-deploy-teac
 our virtual machines and connect to it through the browser.
 
 We ran into a few issues during the installation process.
-The Ansible script in the repository did not install all of the packages required by JupyterHub.
-This included `python3-distutils` and the conda submodules. 
+The Ansible script in the repository was missing some required installations.
+The package `python3-distutils` is required by JupyterHub but was not installed. We suspect that the 
+package may have been part of Ubuntu 16.04 so it was not required previously. This was fixed 
+in the Ansible Playbook via `this commit <https://github.com/mechmotum/jupyterhub-deploy-teaching/commit/51b070a9ae3223d1919ec56323411ef455d642e5>`__.
+
+We also encountered Conda errors while installing JupyterHub. We suspect that this is 
+due to the conda submodules, which are fixed by running their updates in `setup.sh`.
 
 After succeeding in setting up JupyterHub on our virtual machines, we incorporated the changes
 into the configuration files and wrote a bash script to automate the installation process, testing it
