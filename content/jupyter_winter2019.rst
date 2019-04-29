@@ -13,7 +13,7 @@ Background
 ^^^^^^^^^^
 
 As part of the `$5M grant <libretexts-grant.rst>`_ awarded to the LibreTexts project last year,
-our team was created with two goals: to integrate Jupyter into the LibreTexts
+our team had two goals: to integrate Jupyter into the LibreTexts
 website and to create a computing cluster running JupyterHub to serve LibreTexts
 and UC Davis users. This quarter, we focused on researching how to create the
 cluster through building test servers.
@@ -30,8 +30,7 @@ starting playground so we had an easily disposable environments to learn from.
 RAID1 and LVM
 ^^^^^^^^^^^^^
 
-After we succeeded in installing Ubuntu 18 on our VirtualBox machines, we started
-adding more features to the installations that we would eventually use in our cluster
+We started adding more features to the installations that we would eventually use in our cluster
 configuration. We started by adding a software RAID1 to our installations to familiarize
 ourselves with the process, and then we moved on to adding LVM too.
 
@@ -49,15 +48,44 @@ known just as logical volumes, we can manage them very easily through the comman
 line if we wanted to either create additional partitions, or resize/delete any
 existing partitions.
 
-A stack of Ubuntu 18, RAID1, and LVM will be our standard setup for each node in
+While installing Ubuntu Live Server 18.04 with RAID1, we ran into an issue where
+the server failed to start. After some researching, we learned that `a bug
+<https://bugs.launchpad.net/subiquity/+bug/1785332>`__ from the Ubuntu Live Server image
+caused the installer to fail to mount the boot partition. We instead used a 
+non-live server image to successfully install Ubuntu Server 18.04 with RAID1 on the 
+virtual machines.
+
+When installing Ubuntu Server with RAID1 and LVM on our virtual machines, we did not allot
+enough space on our hard disks for the operating system and JupyterHub combined. We determined
+that in total, the operating system and JupyterHub required about 15 GB of storage. To be safe,
+we now recommend to create two 20 GB virtual hard disks for setting up JupyterHub.
+
+Our individual setups varied between each test server. In one successful setup, each hard disk 
+contained two partitions. One partition contained 2.0 GB and was mounted on ``/boot`` as the
+boot partition. The other partition contained 19.5 GB, serving as primary storage.
+
+We plan to have a stack of Ubuntu 18, RAID1, and LVM as our standard setup for each node in
 the cluster.
 
 JupyterHub Bare-Metal
 ^^^^^^^^^^^^^^^^^^^^^
 
-Our next step in the journey was trying to setup a bare-metal verion of `JupyterHub
-<https://github.com/mechmotum/jupyterhub-deploy-teaching>`__ in our virtual machines. We followed the instructions provided to
-successfully setup JupyterHub on our virtual machines and we were able to connect to
-it through the browser.
-After succeeding in setting up JupyterHub on our virtual machines, we wrote a bash
-script to automate the installation process and tested that to make sure that it worked.
+Our next step was trying to setup a bare-metal verion of JupyterHub in our virtual machines. 
+We followed the instructions provided in the repository, `jupyterhub-deploy-teaching
+<https://github.com/mechmotum/jupyterhub-deploy-teaching>`__, to install JupyterHub on 
+our virtual machines and connect to it through the browser.
+
+We ran into a few issues during the installation process.
+The Ansible script in the repository was missing some required installations.
+The package `python3-distutils` is required by JupyterHub but was not installed. We suspect that the 
+package may have been part of Ubuntu 16.04, so it is possible that the Ansible script did not need to
+specify installing `python3-disutils` previously. This was fixed in the Ansible Playbook via 
+`this commit <https://github.com/mechmotum/jupyterhub-deploy-teaching/commit/51b070a9ae3223d1919ec56323411ef455d642e5>`__.
+
+We also encountered Conda errors while installing JupyterHub. We suspect that this is 
+due to the conda submodules, which are fixed by running their updates in our automatic configuration 
+and deploying script, `setup.sh`.
+
+After succeeding in setting up JupyterHub on our virtual machines, we incorporated the changes
+into the configuration files and completed `setup.sh` to automate the installation process, testing it
+to make sure that it worked.
