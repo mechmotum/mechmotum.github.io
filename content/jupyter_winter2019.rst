@@ -102,4 +102,15 @@ and deploying script, `setup.sh`.
 
 After succeeding in setting up JupyterHub on our virtual machines, we incorporated the changes
 into the configuration files and completed `setup.sh` to automate the installation process, testing it
-to make sure that it worked.
+to make sure that it worked. The script `setup.sh` automates the following configuration tasks:
+
+#. Adds the conda submodules.
+#. Adds the current user to as an admin and user.
+#. Generates a proxy_auth_token and inputs it into the configuration file.
+#. Generates a self-signed SSL certificate and cookie secret.
+#. Names the `hosts` and `jupyter_hosts` files properly from `hosts.example` and `jupyter_hosts.example` respectively.
+#. Runs Ansible Playbook.
+
+Users can now save time by running the script to configure and deploy JupyterHub,
+rather than complete the above tasks manually. Using the script should be less 
+error-prone compared to the manual setup.
