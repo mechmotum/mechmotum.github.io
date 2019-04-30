@@ -49,11 +49,23 @@ line if we wanted to either create additional partitions, or resize/delete any
 existing partitions.
 
 While installing Ubuntu Live Server 18.04 with RAID1, we ran into an issue where
-the server failed to start. After some researching, we learned that `a bug
-<https://bugs.launchpad.net/subiquity/+bug/1785332>`__ from the Ubuntu Live Server image
-caused the installer to fail to mount the boot partition. We instead used a 
-non-live server image to successfully install Ubuntu Server 18.04 with RAID1 on the 
-virtual machines.
+the server failed to start. According to the `Ubuntu 18.04.02 Release Notes 
+<https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes#Server_installer>`__: 
+
+  The next generation Subiquity server installer, brings the comfortable live session 
+  and speedy install of Ubuntu Desktop to server users at last.
+
+  N.B., If you require multipath, full-disk encryption, or the ability to re-using 
+  existing partitions, you will want to continue to use the alternate installer 
+  which can be downloaded from http://cdimage.ubuntu.com/releases/18.04/release/ 
+  
+  As of 18.04.1, the Subiquity server installer now supports LVM, RAID, vlans, and bonds. 
+
+After some researching, we learned however that `a bug <https://bugs.launchpad.net/subiquity/+bug/1785332>`__ 
+from the Ubuntu Live Server image caused the installer to fail to mount the boot partition, 
+preventing the installation of Ubuntu on RAID1. We instead used this 
+`alternate installer (non-live server image file) <http://cdimage.ubuntu.com/releases/18.04.2/release/ubuntu-18.04.2-server-amd64.iso>`__ 
+to successfully install Ubuntu Server 18.04 with RAID1 on the virtual machines. 
 
 When installing Ubuntu Server with RAID1 and LVM on our virtual machines, we did not allot
 enough space on our hard disks for the operating system and JupyterHub combined. We determined
