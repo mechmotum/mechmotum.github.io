@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-04-18T00:00:00-07:00</updated><entry><title>Ski Jump Design Software to Analyze User Inputted Jumps</title><link href="https://mechmotum.github.io/blog/skijumpdesign-analysis.html" rel="alternate"></link><published>2019-04-18T00:00:00-07:00</published><updated>2019-04-18T00:00:00-07:00</updated><author><name>Bryn Cloud</name></author><id>tag:mechmotum.github.io,2019-04-18:/blog/skijumpdesign-analysis.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on adding page to skijumpdesign app to analyze user inputted
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-04-30T00:00:00-07:00</updated><entry><title>Laboratorium Represented at the UC Davis Undergraduate Research Conference</title><link href="https://mechmotum.github.io/blog/urc-2019.rst.html" rel="alternate"></link><published>2019-04-30T00:00:00-07:00</published><updated>2019-04-30T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2019-04-30:/blog/urc-2019.rst.html</id><summary type="html">&lt;p class="first last"&gt;Bryn Cloud and Trevor Metz Presented at the 2019 UC Davis
+Undergraduate Research Conference&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Two of the undergraduate researchers in the Laboratorium presented their past
+year's work at the UC Davis Undergraduate Research Conference on April 26,
+2019. Congratulations on this accomplishment!&lt;/p&gt;
+&lt;div class="section" id="design-of-an-electric-bicycle-speed-controller"&gt;
+&lt;h2&gt;Design of an Electric Bicycle Speed Controller&lt;/h2&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Trevor Metz standing beside his poster at the conference." src="https://objects-us-east-1.dream.io/mechmotum/urc2019-metz-photo.jpg" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Trevor Metz beside his poster.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Trevor Metz's poster." src="https://objects-us-east-1.dream.io/mechmotum/urc2019-metz-poster.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Trevor Metz's poster. &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/urc2019-poster-metz.pdf"&gt;[Download bicycle poster PDF]&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="smartphone-based-sensor-fusion-for-estimating-rowing-kinematic-metrics"&gt;
+&lt;h2&gt;Smartphone-based Sensor Fusion for Estimating Rowing Kinematic Metrics&lt;/h2&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Bryn Cloud standing beside her poster at the conference." src="https://objects-us-east-1.dream.io/mechmotum/urc2019-cloud-photo.jpg" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Bryn Cloud beside her poster.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Bryn Cloud's poster." src="https://objects-us-east-1.dream.io/mechmotum/urc2019-cloud-poster.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Bryn Cloud's poster. &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/urc2019-poster-cloud.pdf"&gt;[Download rowing poster PDF]&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="sports"></category><category term="biomechanics"></category><category term="rowing"></category><category term="bicycles"></category></entry><entry><title>Ski Jump Design Software to Analyze User Inputted Jumps</title><link href="https://mechmotum.github.io/blog/skijumpdesign-analysis.html" rel="alternate"></link><published>2019-04-18T00:00:00-07:00</published><updated>2019-04-18T00:00:00-07:00</updated><author><name>Bryn Cloud</name></author><id>tag:mechmotum.github.io,2019-04-18:/blog/skijumpdesign-analysis.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on adding page to skijumpdesign app to analyze user inputted
 ski jumps for equivalent fall height.&lt;/p&gt;
 </summary><content type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
