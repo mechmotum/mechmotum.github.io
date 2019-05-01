@@ -93,15 +93,15 @@ We ran into a few issues during the installation process.
 The Ansible script in the repository was missing some required installations.
 The package `python3-distutils` is required by JupyterHub but was not installed. The 
 package was a part of Ubuntu 16.04, so the Ansible script did not need to
-specify installing `python3-disutils` previously. This was fixed in the Ansible Playbook via 
+specify installing ``python3-disutils`` previously. This was fixed in the Ansible Playbook via 
 `this commit <https://github.com/mechmotum/jupyterhub-deploy-teaching/commit/51b070a9ae3223d1919ec56323411ef455d642e5>`__.
 
 We also encountered Conda errors while installing JupyterHub. We suspect that this is 
-due to the submodules from the `ansible-conda <https://github.com/UDST/ansible-conda/tree/f26ac9f82bb96035d9d96a1531d62456c959229d>`__ repository, which are fixed by running their updates in our automatic configuration and deploying script, `setup.sh`.
+due to the submodules from the `ansible-conda <https://github.com/UDST/ansible-conda/tree/f26ac9f82bb96035d9d96a1531d62456c959229d>`__ repository, which are fixed by running their updates in our automatic configuration and deploying script, ``setup.sh``.
 
 After succeeding in setting up JupyterHub on our virtual machines, we incorporated the changes
-into the configuration files and completed `setup.sh` to automate the installation process, testing it
-to make sure that it worked. The script `setup.sh` automates the following configuration tasks:
+into the configuration files and completed ``setup.sh`` to automate the installation process, testing it
+to make sure that it worked. The script ``setup.sh`` automates the following configuration tasks:
 
 #. Adds submodules from the `ansible-conda <https://github.com/UDST/ansible-conda/tree/f26ac9f82bb96035d9d96a1531d62456c959229d>`__ repository.
 #. Adds the current user to as an admin and user.
