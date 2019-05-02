@@ -87,7 +87,7 @@ We followed the instructions provided in the repository, `jupyterhub-deploy-teac
 <https://github.com/mechmotum/jupyterhub-deploy-teaching>`__, to install JupyterHub on 
 our virtual machines and connect to it through the browser. The repository is a "light fork" 
 from the JupyterHub's `original jupyterhub-deploy-teaching <https://github.com/jupyterhub/jupyterhub-deploy-teaching>`__
-repository, intended for UC Davis uses.
+repository, intended for UC Davis usage.
 
 We ran into a few issues during the installation process.
 The Ansible script in the repository was missing some required installations.
