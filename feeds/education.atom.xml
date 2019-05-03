@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum - education</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/education.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-04-08T00:00:00-07:00</updated><entry><title>Creating Linux Servers for JupyterHub</title><link href="https://mechmotum.github.io/blog/jupyter-winter-2019.html" rel="alternate"></link><published>2019-04-08T00:00:00-07:00</published><updated>2019-04-08T00:00:00-07:00</updated><author><name>Celine Liang</name></author><id>tag:mechmotum.github.io,2019-04-08:/blog/jupyter-winter-2019.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on setting up JupyterHub for a future computing cluster&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;As part of the &lt;a class="reference external" href="libretexts-grant.rst"&gt;$5M grant&lt;/a&gt; awarded to the LibreTexts project last year,
+our team had two goals: to integrate Jupyter into the LibreTexts
+website and to create a computing cluster running JupyterHub to serve LibreTexts
+and UC Davis users. This quarter, we focused on researching how to create the
+cluster through building test servers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="virtual-machine-environment"&gt;
+&lt;h2&gt;Virtual Machine Environment&lt;/h2&gt;
+&lt;p&gt;The first step in our journey to building a cluster was to familiarize ourselves
+with how to setup a single server. It was crucial for us to really understand all
+the details on how to setup a single server, as we would need the knowledge to setup
+each and every single node in the cluster. We decided to use VirtualBox as our
+starting playground so we had an easily disposable environments to learn from.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="raid1-and-lvm"&gt;
+&lt;h2&gt;RAID1 and LVM&lt;/h2&gt;
+&lt;p&gt;We started adding more features to the installations that we would eventually use in our cluster
+configuration. We started by adding a software RAID1 to our installations to familiarize
+ourselves with the process, and then we moved on to adding LVM too.&lt;/p&gt;
+&lt;p&gt;Redundant Array of Independent Disks, also known as RAID, provides multiple ways
+of orchestrating and synchronizing multiple hard drives in a computer network to
+establish reliable data storage within the network. We decided to use RAID1, which
+consists of an exact copy of a set of data on two or more disks. We chose RAID1
+because it allows us to switch a drive while the server is live, in case a
+drive fails.&lt;/p&gt;
+&lt;p&gt;Logical Volume Manager, also known as LVM, is a device mapper target that provides
+logical volume management for the Linux kernel. The benefits of using LVM is the
+ability to use and manage &amp;quot;dynamic partitions&amp;quot;. When using LVM &amp;quot;partitions&amp;quot;,
+known just as logical volumes, we can manage them very easily through the command
+line if we wanted to either create additional partitions, or resize/delete any
+existing partitions.&lt;/p&gt;
+&lt;p&gt;While installing Ubuntu Live Server 18.04 with RAID1, we ran into an issue where
+the server failed to start. According to the &lt;a class="reference external" href="https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes#Server_installer"&gt;Ubuntu 18.04.02 Release Notes&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The next generation Subiquity server installer, brings the comfortable live session
+and speedy install of Ubuntu Desktop to server users at last.&lt;/p&gt;
+&lt;p&gt;N.B., If you require multipath, full-disk encryption, or the ability to re-using
+existing partitions, you will want to continue to use the alternate installer
+which can be downloaded from &lt;a class="reference external" href="http://cdimage.ubuntu.com/releases/18.04/release/"&gt;http://cdimage.ubuntu.com/releases/18.04/release/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As of 18.04.1, the Subiquity server installer now supports LVM, RAID, vlans, and bonds.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After some researching, we learned however that &lt;a class="reference external" href="https://bugs.launchpad.net/subiquity/+bug/1785332"&gt;a bug&lt;/a&gt;
+from the Ubuntu Live Server image caused the installer to fail to mount the boot partition,
+preventing the installation of Ubuntu on RAID1. We instead used this
+&lt;a class="reference external" href="http://cdimage.ubuntu.com/releases/18.04.2/release/ubuntu-18.04.2-server-amd64.iso"&gt;alternate installer (non-live server image file)&lt;/a&gt;
+to successfully install Ubuntu Server 18.04 with RAID1 on the virtual machines.&lt;/p&gt;
+&lt;p&gt;When installing Ubuntu Server with RAID1 and LVM on our virtual machines, we did not allot
+enough space on our hard disks for the operating system and JupyterHub combined. We determined
+that in total, the operating system and JupyterHub required about 15 GB of storage. To be safe,
+we now recommend to create two 20 GB virtual hard disks for setting up JupyterHub.&lt;/p&gt;
+&lt;p&gt;Our individual setups varied between each test server. In one successful setup, each hard disk
+contained two partitions. One partition contained 2.0 GB and was mounted on &lt;tt class="docutils literal"&gt;/boot&lt;/tt&gt; as the
+boot partition. The other partition contained 19.5 GB, serving as primary storage.&lt;/p&gt;
+&lt;p&gt;We plan to have a stack of Ubuntu 18, RAID1, and LVM as our standard setup for each node in
+the cluster.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jupyterhub-bare-metal"&gt;
+&lt;h2&gt;JupyterHub Bare-Metal&lt;/h2&gt;
+&lt;p&gt;Our next step was trying to setup a bare-metal verion of JupyterHub in our virtual machines.
+We followed the instructions provided in the repository, &lt;a class="reference external" href="https://github.com/mechmotum/jupyterhub-deploy-teaching"&gt;jupyterhub-deploy-teaching&lt;/a&gt;, to install JupyterHub on
+our virtual machines and connect to it through the browser. The repository is a &amp;quot;light fork&amp;quot;
+from the JupyterHub's &lt;a class="reference external" href="https://github.com/jupyterhub/jupyterhub-deploy-teaching"&gt;original jupyterhub-deploy-teaching&lt;/a&gt;
+repository, intended for UC Davis usage.&lt;/p&gt;
+&lt;p&gt;We ran into a few issues during the installation process.
+The Ansible script in the repository was missing some required installations.
+The package &lt;cite&gt;python3-distutils&lt;/cite&gt; is required by JupyterHub but was not installed. The
+package was a part of Ubuntu 16.04, so the Ansible script did not need to
+specify installing &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;python3-disutils&lt;/span&gt;&lt;/tt&gt; previously. This was fixed in the Ansible Playbook via
+&lt;a class="reference external" href="https://github.com/mechmotum/jupyterhub-deploy-teaching/commit/51b070a9ae3223d1919ec56323411ef455d642e5"&gt;this commit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We also encountered Conda errors while installing JupyterHub. We suspect that this is
+due to the submodules from the &lt;a class="reference external" href="https://github.com/UDST/ansible-conda/tree/f26ac9f82bb96035d9d96a1531d62456c959229d"&gt;ansible-conda&lt;/a&gt; repository, which are fixed by running their updates in our automatic configuration and deploying script, &lt;tt class="docutils literal"&gt;setup.sh&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;After succeeding in setting up JupyterHub on our virtual machines, we incorporated the changes
+into the configuration files and completed &lt;tt class="docutils literal"&gt;setup.sh&lt;/tt&gt; to automate the installation process, testing it
+to make sure that it worked. The script &lt;tt class="docutils literal"&gt;setup.sh&lt;/tt&gt; automates the following configuration tasks:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Adds submodules from the &lt;a class="reference external" href="https://github.com/UDST/ansible-conda/tree/f26ac9f82bb96035d9d96a1531d62456c959229d"&gt;ansible-conda&lt;/a&gt; repository.&lt;/li&gt;
+&lt;li&gt;Adds the current user to as an admin and user.&lt;/li&gt;
+&lt;li&gt;Generates a proxy_auth_token and inputs it into the configuration file.&lt;/li&gt;
+&lt;li&gt;Generates a self-signed SSL certificate and cookie secret.&lt;/li&gt;
+&lt;li&gt;Names the &lt;cite&gt;hosts&lt;/cite&gt; and &lt;cite&gt;jupyter_hosts&lt;/cite&gt; files properly from &lt;cite&gt;hosts.example&lt;/cite&gt; and &lt;cite&gt;jupyter_hosts.example&lt;/cite&gt; respectively.&lt;/li&gt;
+&lt;li&gt;Runs Ansible Playbook.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Users can now save time by running the script to configure and deploy JupyterHub,
+rather than complete the above tasks manually. Using the script should be less
+error-prone compared to the manual setup.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="engineering"></category><category term="libretexts"></category></entry></feed>
