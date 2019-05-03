@@ -183,3 +183,15 @@ it to the spreadsheet. The spreadsheet can be accessed at this link:
 https://docs.google.com/spreadsheets/d/1w80SolpcLTbLtuFDIf9-F-sS_pO-1PEHSpSgEGH_SSg/edit?usp=sharing
 
 Ask Jason if you don't have permissions for this file.
+
+Undergraduate Travel Awards
+===========================
+
+The Undergraduate Research Center (URC) administers undergraduate travel awards
+for up to $500 for students who travel to present their undergraduate
+research at conferences and meetings of regionally or internationally
+recognized professional societies. There is an application every Fall, Winter
+and Spring quarter. More information and eligibility requirements can be found at
+the following link:
+
+https://urc.ucdavis.edu/travel-award-application
