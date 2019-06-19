@@ -1,9 +1,12 @@
 :title: Guide
 
-This page is intended to house documentation for lab members that describe how
-the lab functions. It's primary purpose is for on-boarding new members, but is
-also a reference for current members. For this page to be useful, all lab
-members will need to provide their collective knowledge and experiences.
+This page is intended to house documentation for lab members that describes the
+nuts and bolts of how the lab functions. It's primary purpose is for
+on-boarding new members, but is also a reference for current members. For this
+page to be useful, all lab members will need to provide their collective
+knowledge and experiences.
+
+.. contents::
 
 Open Science
 ============
@@ -55,6 +58,12 @@ me and then post outstanding ones and the revised objectives post meeting.
 However you do it, each week the accomplishments should hopefully reflect the
 objectives you wrote the previous week.
 
+Quarterly Blog Posts
+====================
+
+In general, I would like each project to co-write an end of quarter blog post
+on the lab website describing their accomplishments and results.
+
 Lab Email List
 ==============
 
@@ -84,20 +93,26 @@ you still need to submit a time sheet with 0 hours.
 
 .. _`hour logging system`:  https://trs.ucdavis.edu/trs/
 
-If you are paid undergraduate student worker you are expected to work on
+If you are a paid undergraduate student worker you are expected to work on
 average a minimum of 10 hrs/week unless you have pre-approved a break with
 Jason. The "average" lets you be flexible around winter break, spring break,
-exams, and other priorities with your school work and life. You are expected to
-contribute work hours during the academic breaks unless you request time off.
-You can work a maximum of 20 hrs/week in the academic year and discuss with
-Jason if you want to work more than 20 hrs/week in the summer.
+exams, and other priorities with your school work and life. You will also
+likely need to work more on lead up to various research deadlines (paper due
+dates, conferences, etc), so plan for that. You can work a maximum of 20
+hrs/week in the academic year and discuss with Jason if you want to work more
+than 20 hrs/week in the summer. You are expected to contribute work hours
+during the academic breaks unless you request time off. If work > 20 hrs/wk you
+will accrue standard vacation and sick leave. If you work < 20 hrs/wk you can
+take 1 week off in the summer that doesn't count towards your average hours.
+Always let Jason and your co-employees know what your time off plans are well
+ahead of time.
 
 Safety Training
 ===============
 
 Anyone who works with me in a non-class related project must take the MAE
-Safety Fundamental class (ideally) before working. Contact Loan-Anh Nguygen
-for the next offering and to discuss your specific safety needs.
+Safety Fundamental class (ideally) before working. Contact the MAE saftey
+coordinator for the next offering and to discuss your specific safety needs.
 
 Anyone who works in a lab space (non-office) and works with physical equipment
 must take the online Lab Safety Fundamentals course.
@@ -176,7 +191,7 @@ Lab Inventory
 =============
 
 There is a common spreadsheet on google drive that lab members should use to
-track our non-consumbable inventory (tools, devices, expensive stuff,
+track our non-consumable inventory (tools, devices, expensive stuff,
 computers, 3D printing spools in the EDSC, etc). Anytime you buy something add
 it to the spreadsheet. The spreadsheet can be accessed at this link:
 
