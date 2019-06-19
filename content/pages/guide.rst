@@ -4,7 +4,9 @@ This page is intended to house documentation for lab members that describes the
 nuts and bolts of how the lab functions. It's primary purpose is for
 on-boarding new members, but is also a reference for current members. For this
 page to be useful, all lab members will need to provide their collective
-knowledge and experiences.
+knowledge and experiences. It is up to all of us to make this guide useful. You
+are expected to contribute to the guide and edit it. Just discuss with the lab
+any desires to change any of the guidelines.
 
 .. contents::
 
