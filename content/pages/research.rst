@@ -8,7 +8,7 @@ Human-in-the-loop Augmented Automatic Control and Vehicle Design
 Optimal Bicycle Design for Handling
 -----------------------------------
 
-| Current researchers:
+| Current researchers: Anastasia Kubicki, Anthony Toribio
 | Collaborators: Mont Hubbard, Ronald Hess (UC Davis)
 | Past researchers: Roy Gilboa
 
@@ -234,9 +234,9 @@ facilitate solving problems with computational thinking.
 Interactive Jupyter-Enabled LibreTexts Pages
 --------------------------------------------
 
-| Current researchers:
+| Current researchers: Celine Liang
 | Collaborators: Delmar Larsen (UC Davis)
-| Past researchers: Henry Agnew
+| Past researchers: Xiaochen Zang, Xin Luigi Chen, Kevin Krausse, Henry Agnew
 
 We are interested in providing an interactive computing environments in online
 textbooks at a massive scale. LibreTexts_ is one of the largest and most
