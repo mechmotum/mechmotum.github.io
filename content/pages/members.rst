@@ -31,11 +31,11 @@ Undergraduate Research Assistants
 Current
    - Anastasia Kubicki [June 2019-present]
    - Anthony Toribio [June 2019-present]
-   - Trevor Metz [July 2018-present]
    - Celine Liang [February 2019-present]
-   - Xin Luigi Chen [February 2019-present]
-   - Xiaochen Zang [February 2019-present]
+   - Trevor Metz [July 2018-present]
 Past
+   - Xin Luigi Chen [February 2019-June 2019]
+   - Xiaochen Zang [February 2019-June 2019]
    - Bryn Cloud [June 2018-June 2019]
    - Kevin Krausse [February 2019-June 2019], now at Walmart
    - Jonathan Cubanski [October 2018-December 2018]

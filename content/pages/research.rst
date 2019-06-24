@@ -195,7 +195,7 @@ Efficiency of Human Powered Irrigation Pumps
 
 | Current researchers:
 | Collaborators: Andrew Hall (Buffalo Bikes)
-| Past researchers:  Aaron Shaw, Rayming Liang, Abraham McKay
+| Past researchers: Aaron Shaw, Rayming Liang, Abraham McKay
 
 We have developed a inexpensive centrifugal pump that attaches to a simple
 power takeoff on a Buffalo Bike [#]_. Our hypothesis is that a less efficient
@@ -235,7 +235,7 @@ Interactive Jupyter-Enabled LibreTexts Pages
 --------------------------------------------
 
 | Current researchers: Celine Liang
-| Collaborators: Delmar Larsen (UC Davis)
+| Collaborators: Delmar Larsen (UC Davis), Richard Feltstykket (UC Davis), Tom Neubarth (UC Davis)
 | Past researchers: Xiaochen Zang, Xin Luigi Chen, Kevin Krausse, Henry Agnew
 
 We are interested in providing an interactive computing environments in online
@@ -252,8 +252,8 @@ computational oriented exercises.
 Development of a Beam Bending Package for SymPy
 -----------------------------------------------
 
-| Current researchers:
-| Collaborators: Ashirant and other SymPy Developers
+| Current researchers: Ishan Joshi (Netaji Subhas Institute of Technology, SymPy GSoC)
+| Collaborators: SymPy Developers
 | Past researchers: Jashanpreet Singh, Sampad Saha
 
 Mechanical and civil engineers utilize two- and three-dimensional theories of
