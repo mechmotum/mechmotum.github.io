@@ -168,7 +168,8 @@ the new web app user friendly.&lt;/p&gt;
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
-        "        fonts: [['STIX', 'TeX']]," +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
         "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
         "    }, " +
@@ -838,7 +839,8 @@ California&lt;/td&gt;&lt;/tr&gt;
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
-        "        fonts: [['STIX', 'TeX']]," +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
         "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
         "    }, " +
@@ -1041,7 +1043,8 @@ Available at: &lt;a class="reference external" href="http://moorepants.github.io
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
-        "        fonts: [['STIX', 'TeX']]," +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
         "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
         "    }, " +
