@@ -29,8 +29,6 @@ already or have applied to our department.
 LibreTexts Site Reliability Engineer Asst
 -----------------------------------------
 
-Apply via Handshake_
-
 Job Function: Student Worker
 
 Job Purpose: To assist Dr. Jason K. Moore in setting up and maintaining
@@ -90,8 +88,6 @@ Assistant IV: $11.25 - $16.75
 
 LibreTexts Engineering Education Asst
 -------------------------------------
-
-Apply via Handshake_
 
 Job Function: Student Worker
 
@@ -156,4 +152,3 @@ Assistant IV: $11.25 - $16.75
 .. _Jupyter: http://jupyter.org
 .. _ThebeLab: https://github.com/minrk/thebelab
 .. _Binder: http://mybinder.org
-.. _Handshake: https://joinhandshake.com/
