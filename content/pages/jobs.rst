@@ -26,12 +26,68 @@ send a letter explaining your interest in the lab, CV or resume, and any other
 relevant information to jkm@ucdavis.edu. Include whether you have been accepted
 already or have applied to our department.
 
+LibreTexts Site Reliability Engineer Asst
+-----------------------------------------
+
+Job Function: Student Worker
+
+Job Purpose: To assist Dr. Jason K. Moore in setting up and maintaining
+computational cloud services for the LibreTexts_ project.
+
+Job Description:
+
+The assistant will work on purchasing, setting up, and maintaining a cluster of
+compute nodes to run Binder_ and Jupyter_ to support the LibreTexts_ project.
+They will be part of a team of site reliability engineer assistants working on
+the various related tasks. The assistant will develop scripts, documentation,
+and support various open source projects as needed. The student will work a
+minimum of 10 hours per week during the fall, winter, and spring quarters and a
+minimum of 20 hrs per week during the summer quarter. Up to three years of work
+on the project may be available based on performance.
+
+Qualifications:
+
+Required
+
+- Able to work independently with minimal supervision.
+- Able to work in a team both remotely and in-person.
+- Able to communicate remotely using chat rooms, email, code hosting platforms,
+  and video chat.
+- Comfortable using remote Linux, Bash, and the command line.
+- Familiarity with running a publicly accessible web server.
+- Comfortable using Git version control (or similar tool).
+- Comfortable with at least one high level programming language (e.g. Python,
+  R, Octave, Ruby, Javascript, etc).
+
+Preferred
+
+- Familiarity with open source software development practices.
+- Familiarity with Python and Jupyter_.
+- Familiarity with Kubernetes.
+- Familiarity with web technologies: HTML/CSS/JS.
+
+Application materials:
+
+Please submit a cover letter, resume, and examples of code, documentation,
+websites, or any related work. Be sure to explain how you meet the Required
+and/or Preferred qualifications.
+
+Desired Start: 08/01/2019
+End Date: 09/30/2020
+
+Approximate Hours Per Week:
+
+Minimum of 10 hrs and up to 20 hrs during the academic quarters. Up to 40 hrs in the summer.
+
+Location(s): Bainer Hall, Genome Center, and Remote
+
+Base Pay Rate:
+
+Assistant IV: $11.25 - $16.75
+
+
 LibreTexts Engineering Education Asst
 -------------------------------------
-
-Apply via `Aggie Job Link`_.
-
-Aggie Job Link Specifier: STDT4 - LibreTexts_ Engineering Education Asst (MAE) (845986)
 
 Job Function: Student Worker
 
@@ -78,72 +134,9 @@ Please submit a cover letter, resume, and at least one example of technical
 writing. Be sure to explain how you meet the Required and/or Preferred
 qualifications.
 
-Desired Start: 01/01/2019
+Desired Start: 08/01/2019
 
-End Date: 12/31/2019
-
-Approximate Hours Per Week:
-
-Minimum of 10 hrs and up to 20 hrs during the academic quarters. Up to 40 hrs in the summer.
-
-Location(s): Bainer Hall and Remote
-
-Base Pay Rate:
-
-Assistant IV: $11.25 - $16.75
-
-LibreTexts System Administrator Asst
-------------------------------------
-
-Apply via `Aggie Job Link`_.
-
-Aggie Job Link Specifier: STDT4 - LibreTexts_ System Administrator Asst (MAE) (845989)
-
-Job Function: Student Worker
-
-Job Purpose: To assist Dr. Jason K. Moore in setting up and maintaining
-computational cloud services for the LibreTexts_ project.
-
-Job Description:
-
-The assistant will work on purchasing, setting up, and maintaining a cluster of
-compute nodes to run Binder_, Thebelab, and Jupyter_Hub to support the LibreTexts_
-project. They will be part of a team of system administrator assistants working
-on the various related tasks. The assistant will develop scripts,
-documentation, and support various open source projects as needed. The student
-will work a minimum of 10 hours per week during the fall, winter, and spring
-quarters and a minimum of 20 hrs per week during the summer quarter. Up to
-three years of work on the project may be available based on performance.
-
-Qualifications:
-
-Required
-
-- Able to work independently with minimal supervision.
-- Able to work in a team both remotely and in-person.
-- Able to communicate remotely using chat rooms, email, code hosting platforms,
-  and video chat.
-- Comfortable using remote Linux, Bash, and the command line.
-- Familiarity with running a publicly accessible web server.
-- Comfortable using Git version control (or similar tool).
-- Comfortable with at least one high level programming language (e.g. Python,
-  R, Octave, Ruby, Javascript, etc).
-
-Preferred
-
-- Familiarity with open source software development practices.
-- Familiarity with Python and Jupyter_.
-- Familiarity with Kubernetes.
-- Familiarity with web technologies: HTML/CSS/JS.
-
-Application materials:
-
-Please submit a cover letter, resume, and examples of code, documentation,
-websites, or any related work. Be sure to explain how you meet the Required
-and/or Preferred qualifications.
-
-Desired Start: 01/01/2019
-End Date: 12/01/2019
+End Date: 09/30/2020
 
 Approximate Hours Per Week:
 
@@ -159,4 +152,3 @@ Assistant IV: $11.25 - $16.75
 .. _Jupyter: http://jupyter.org
 .. _ThebeLab: https://github.com/minrk/thebelab
 .. _Binder: http://mybinder.org
-.. _Aggie Job Link: https://icc.ucdavis.edu/find/resources/ajl

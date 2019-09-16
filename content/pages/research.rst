@@ -8,7 +8,7 @@ Human-in-the-loop Augmented Automatic Control and Vehicle Design
 Optimal Bicycle Design for Handling
 -----------------------------------
 
-| Current researchers:
+| Current researchers: Anastasia Kubicki, Anthony Toribio
 | Collaborators: Mont Hubbard, Ronald Hess (UC Davis)
 | Past researchers: Roy Gilboa
 
@@ -195,7 +195,7 @@ Efficiency of Human Powered Irrigation Pumps
 
 | Current researchers:
 | Collaborators: Andrew Hall (Buffalo Bikes)
-| Past researchers:  Aaron Shaw, Rayming Liang, Abraham McKay
+| Past researchers: Aaron Shaw, Rayming Liang, Abraham McKay
 
 We have developed a inexpensive centrifugal pump that attaches to a simple
 power takeoff on a Buffalo Bike [#]_. Our hypothesis is that a less efficient
@@ -234,9 +234,9 @@ facilitate solving problems with computational thinking.
 Interactive Jupyter-Enabled LibreTexts Pages
 --------------------------------------------
 
-| Current researchers:
-| Collaborators: Delmar Larsen (UC Davis)
-| Past researchers: Henry Agnew
+| Current researchers: Celine Liang
+| Collaborators: Delmar Larsen (UC Davis), Richard Feltstykket (UC Davis), Tom Neubarth (UC Davis)
+| Past researchers: Xiaochen Zang, Xin Luigi Chen, Kevin Krausse, Henry Agnew
 
 We are interested in providing an interactive computing environments in online
 textbooks at a massive scale. LibreTexts_ is one of the largest and most
@@ -252,8 +252,8 @@ computational oriented exercises.
 Development of a Beam Bending Package for SymPy
 -----------------------------------------------
 
-| Current researchers:
-| Collaborators: Ashirant and other SymPy Developers
+| Current researchers: Ishan Joshi (Netaji Subhas Institute of Technology, SymPy GSoC)
+| Collaborators: SymPy Developers
 | Past researchers: Jashanpreet Singh, Sampad Saha
 
 Mechanical and civil engineers utilize two- and three-dimensional theories of
