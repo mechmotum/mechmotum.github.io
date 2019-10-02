@@ -29,16 +29,17 @@ Undergraduate Research Assistants
 =================================
 
 Current
-   - Anastasia Kubicki [June 2019-present]
-   - Anthony Toribio [June 2019-present]
+   - Sejin Han [August 2019-present]
    - Celine Liang [February 2019-present]
+   - Xin Luigi Chen [February 2019-present]
    - Trevor Metz [July 2018-present]
 Past
-   - Xin Luigi Chen [February 2019-June 2019]
+   - Anthony Toribio [June 2019-September 2019]
+   - Anastasia Kubicki [June 2019-September 2019]
    - Xiaochen Zang [February 2019-June 2019]
-   - Bryn Cloud [June 2018-June 2019]
+   - Bryn Cloud [June 2018-June 2019], not at Tesla
    - Kevin Krausse [February 2019-June 2019], now at Walmart
-   - Jonathan Cubanski [October 2018-December 2018]
+   - Jonathan Cubanski [October 2018-December 2018], now at `Kitty Hawk <https://kittyhawk.aero/>`_
    - Dorian Crutcher [October 2018-December 2018], now at `Gener8 <http://www.gener8.net/>`_
    - Rayming Liang [July 2018-December 2018]
    - Ada Liu [June 2018-December 2018], now at `Frontier Energy <https://frontierenergy.com/>`_
@@ -52,6 +53,7 @@ Past
 Teaching Assistants
 ===================
 
+- Kevin Mallon [September 2019-present]
 - Gregory Bales [January 2019-June 2019]
 - Scott Kresie [January 2019-June 2019, January 2018-June 2018]
 - Ian Garretson [January 2019-June 2019, January 2018-June 2018]
