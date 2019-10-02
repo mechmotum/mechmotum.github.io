@@ -1,0 +1,20 @@
+Electric Bicycle Speed Controller Presented at the 2019 Bicycle and Motorcycle Dynamics Conference 
+====================================================================================================
+
+:date: 2019-10-02 00:00:00
+:tags: controls, BMD2019, engineering
+:category: blog
+:slug: ebike-controller-BMDpresentation
+:authors: Trevor Metz
+:summary: Sharing the presentation of the speed controller project at the 2019 Bicycle and Motorcycle Dynamics Conference.
+
+From September 9th to the 11th, the design and implementation of the electric bicycle speed controller project was presented in a poster exhibition hall during the 2019 Bicycle and Motorcycle Dynamics Conference held in Padova, Italy. 
+
+Below you can find the poster presented at the conference.
+
+<iframe src="https://widgets.figshare.com/articles/9883154/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe> 
+
+Find the poster `here <https://doi.org/10.6084/m9.figshare.9883154.v1>`_. 
+
+Read the conference paper `here <link>`_. 
+
