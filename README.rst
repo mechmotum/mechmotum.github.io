@@ -4,10 +4,10 @@ Editing Guide
 =============
 
 - The website is built using Pelican. Review the `Pelican documentation`_ to
-  get familar with how to create pages and articles.
+  get familiar with how to create pages and articles.
 - The source files are in the git branch called ``source``. This is the default
   branch of the repository. The HTML files are generated via doctr and pushed
-  to the ``master`` branch, which is automatically seved to
+  to the ``master`` branch, which is automatically served to
   http://mechmotum.github.io. Don't manually edit files in the ``master``
   branch.
 - All articles, pages, and similar content should be written in
@@ -17,7 +17,9 @@ Editing Guide
 - Binary Assets such as images, videos, etc should be served from an external
   hosting site. Ask Jason about using his Dreamhost DreamObject bucket. He'll
   set it up for multi-user access when needed. Do not commit binary assets to
-  this repository.
+  this repository. Images should be all lower case unique filenames with a
+  ``-`` to separate words, for example: ``my-image-for-this-blog-post.png``.
+  All assets are store in the same directory on the object store.
 
 .. _Pelican documentation: http://docs.getpelican.com/en/stable/
 .. _Sphinx reStructuredText primer: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
@@ -30,15 +32,23 @@ change before submitting a pull request.
 
 Install pelican with conda (or pip if you prefer)::
 
-   $ conda install pelican
+   $ conda install pelican beautifulsoup4
 
-Clone the theme repository::
+Clone the plugin repository::
 
-   $ git clone git@github.com:gfidente/pelican-svbhack.git
+   $ git clone git@github.com:getpelican/pelican-plugins.git
 
 Note the path to the theme, e.g.::
 
-   /home/my_username/pelican-svbhack
+   /home/my_username/.../pelican-plugins
+
+Clone the theme repository::
+
+   $ git clone -b mechmotum git@github.com:mechmotum/pelican-alchemy.git
+
+Note the path to the theme, e.g.::
+
+   /home/my_username/.../pelican-alchemy
 
 Clone this repository and change into the new directory::
 
@@ -46,9 +56,10 @@ Clone this repository and change into the new directory::
    $ cd mechmotum.github.io/
 
 Create a configuration file called ``config.yml`` and add the full path to
-where you installed the theme::
+where you installed the plugins and theme::
 
-   $ echo "THEME_PATH: /home/my_username/pelican-svbhack" > config.yml
+   $ echo "THEME_PATH: /home/my_username/.../pelican-alchemy" > config.yml
+   $ echo "PLUGIN_PATHS: /home/my_username/.../pelican-plugins" >> config.yml
 
 Now you can build and serve the documentation with::
 
