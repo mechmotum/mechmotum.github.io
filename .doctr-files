@@ -1,6 +1,7 @@
 ./archives.html
 ./author/aaron-shaw.html
 ./author/ada-liu.html
+./author/anthony-toribio.html
 ./author/britt-tarien.html
 ./author/bryn-cloud.html
 ./author/celine-liang.html
@@ -9,6 +10,7 @@
 ./author/jonathan-blaze-cubanski.html
 ./author/kevin-krausse.html
 ./author/rayming-liang.html
+./author/stasia-kubicki.html
 ./author/thomas-shedd.html
 ./author/trevor-metz.html
 ./author/xiaochen-zeng.html
@@ -22,6 +24,7 @@
 ./blog/index.html
 ./blog/jupyter-winter-2019.html
 ./blog/libretexts-grant.html
+./blog/practical-realization-of-a-theoretical-optimal-handling-bicycle-results.html
 ./blog/skijumpdesign-analysis.html
 ./blog/skijumpdesign-published.html
 ./blog/treadle-pump-experiment.html
@@ -50,6 +53,7 @@
 ./tag/bicycles.html
 ./tag/bikes.html
 ./tag/biomechanics.html
+./tag/control.html
 ./tag/controller-implementation.html
 ./tag/controller.html
 ./tag/controls.html
@@ -59,7 +63,9 @@
 ./tag/efficiency.html
 ./tag/engineering.html
 ./tag/estimation.html
+./tag/fabrication.html
 ./tag/gui.html
+./tag/handling-qualities.html
 ./tag/handling.html
 ./tag/instrumentation.html
 ./tag/jupyter.html
