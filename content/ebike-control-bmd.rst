@@ -14,6 +14,6 @@ bicycle speed controller project was presented in a poster exhibition hall
 during the 2019 Bicycle and Motorcycle Dynamics Conference held in Padova,
 Italy.
 
-Find the poster `here <https://doi.org/10.6084/m9.figshare.9883154.v1>`_.
+`Download the poster <https://doi.org/10.6084/m9.figshare.9883154.v1>`_.
 
-Read the conference paper `here <https://doi.org/10.6084/m9.figshare.9937091.v1>`_.
+`Download the paper <https://doi.org/10.6084/m9.figshare.9937091.v1>`_.
