@@ -12,8 +12,6 @@ From September 9th to the 11th, the design and implementation of the electric bi
 
 Below you can find the poster presented at the conference.
 
-<iframe src="https://widgets.figshare.com/articles/9883154/embed?show_title=1" width="568" height="351" allowfullscreen="true" frameborder="0"></iframe> 
-
 Find the poster `here <https://doi.org/10.6084/m9.figshare.9883154.v1>`_. 
 
 Read the conference paper `here <https://doi.org/10.6084/m9.figshare.9937091.v1>`_. 
