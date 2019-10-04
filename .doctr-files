@@ -18,6 +18,7 @@
 ./authors.html
 ./blog/bmd-isss-isb-asb-abstracts.html
 ./blog/double-pendulum-robot.html
+./blog/ebike-controller-bmd-presentation.html
 ./blog/ebike-controller-design.html
 ./blog/ebike-controller-implementation.html
 ./blog/estimating-rowing-metrics.html
@@ -30,12 +31,14 @@
 ./blog/treadle-pump-experiment.html
 ./blog/urc-2019.rst.html
 ./categories.html
+./category/blog.html
 ./category/conferences.html
 ./category/education.html
 ./category/grants.html
 ./category/papers.html
 ./category/research.html
 ./feeds/all.atom.xml
+./feeds/blog.atom.xml
 ./feeds/conferences.atom.xml
 ./feeds/education.atom.xml
 ./feeds/grants.atom.xml
@@ -53,6 +56,7 @@
 ./tag/bicycles.html
 ./tag/bikes.html
 ./tag/biomechanics.html
+./tag/bmd2019.html
 ./tag/control.html
 ./tag/controller-implementation.html
 ./tag/controller.html
