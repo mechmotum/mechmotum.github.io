@@ -8,6 +8,7 @@ Creating a Kubernetes Bare-Metal Cluster for JupyterHub
 :authors: Xin Luigi Chen, Celine Liang
 :summary: Blog post on setting up JupyterHub on a Kubernetes bare-metal cluster
 
+
 Background
 ^^^^^^^^^^
 
