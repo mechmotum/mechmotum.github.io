@@ -28,9 +28,6 @@ to create these child nodes and Ansible to provision them.
 <https://github.com/LibreTexts/metalc/tree/master/dev-env>`__ contains 
 instructions for setting up this development environment.
 
-We used Flannel for pod networking,  
-
-
 Bare-Metal Cluster
 ^^^^^^^^^^^^^^^^^^
 Our original bare-metal cluster consists of one master node named chick0 and 
@@ -52,7 +49,6 @@ entered by the user.
 
 All servers are connected to a smart switch. The ZFS server is also connected
 to the switch and provides persistent storage of JupyterHub users' files.
-This is so that 
 
 `PXEBoot <https://wiki.debian.org/PXEBootInstall#Preface>`__ used a preseed 
 file and a DHCP server to install Ubuntu Server 18.04 on 
@@ -75,6 +71,8 @@ Additionally, we originally had an NFS server on rooster itself,
 so each node had a mount to a folder on rooster. We later built a ZFS 
 server to save users' files.
 
+Later, we added more chicks and upgraded the RAM of almost all chicks.
+
 Our 
 `documentation <https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/baremetal.md>`__ details
 our setup further and describes the actions taken to build the cluster from
@@ -85,27 +83,39 @@ Customizing JupyterHub
 We made many modifications to JupyterHub, including redesigning the website,
 adding new default environments, and more.
 
-Redesigning Webpages
---------------------
-JupyterHub is customizable using the `Jinja2 templating system
+JupyterHub pages is customizable using the `Jinja2 templating system
 <https://jinja.palletsprojects.com/en/2.10.x/templates/>`__ .
 There are two ways to add custom HTML files to JupyterHub
 (as described in 
 `this Discourse post <https://discourse.jupyter.org/t/customizing-jupyterhub-on-kubernetes/1769>`__):
 
-* Through `InitContainers <https://kubernetes.io/docs/concepts/workloads/pods/init-containers/>`__ that
-pulls a repository of template files before the hub starts,
-* Or through mounting 
-`ConfigMaps <https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/>`__ to
-the template file directory.
+* Through `InitContainers <https://kubernetes.io/docs/concepts/workloads/pods/init-containers/>`__ that pull repositories of template files before the hub starts, 
+* Or through mounting `ConfigMaps <https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/>`__ to the template file directory.
 
 We chose the former option and have repositories for 
 `custom HTML files <https://github.com/LibreTexts/jupyterhub-templates>`__ 
 and `additional
 images <https://github.com/LibreTexts/jupyterhub-images>`__.
 
+This is a screenshot of how the login page looks now.
 
+.. image:: images/jupyterhubscreenshot.png
+   :width: 300
+   :alt: Screenshot of the redesigned JupyterHub login page
 
+Additionally, more spawner options are included. We modified the default environment
+to include many packages requested by professors and students. RStudio is also
+available in addition to JupyterLab.
+
+.. image:: images/jupyterhubspawner.png
+   :width: 300
+   :alt: Screenshot of the redesigned JupyterHub spawner page
 
 Future
 ^^^^^^
+In the future, we plan to create another cluster including, but not limited,
+to the following:
+
+* Creating multiple master nodes to avoid single points of failure
+* Assigning GPU's to different users
+* Assigning different networks based on organization
