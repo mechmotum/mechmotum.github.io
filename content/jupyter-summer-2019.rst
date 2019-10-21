@@ -92,11 +92,21 @@ work. We then hooked up the ZFS to our smart-switch where the Kubernetes network
 We made use of the 10Gib/s intel network card with a short range transceiver and
 10M copper wire. After we finished setting the ZFS server up, we renamed it to 'hen'
 to go along with our naming theme for our cluster. Anyone can check out our extensive
-`documentation <https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/ZFS.md>`__
-for more information regarding how we setup our ZFS.
+`documentation <https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/ZFS.md>`__ for 
+more information regarding how we setup our ZFS.
 
+For security, we mainly followed the guide, 
+`*How to Secure a Linux Server* <https://github.com/imthenachoman/How-To-Secure-A-Linux-Server>`__
+written by GitHub user `iamthenachoman <https://github.com/imthenachoman>`__. Using the guide,
+we implemented SSHing into rooster using only an SSH public/private key pair, cleaned up short
+keys and UFW rules, and added intrusion detection for iptables, SSH, and rootkits. You could
+find more information on our security implementation in `this section <https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/baremetal.md#securing-the-cluster>`__ 
+of our documentation.
 
-Later, we added more chicks and upgraded the RAM of almost all chicks.
+Later, we added more chicks and upgraded the RAM of almost all chicks. We increased the number
+of worker nodes from 10 to 18, and upgraded the RAM on most chicks from 16GB to 64GB. These 
+efforts prepared the cluster for handling new classes in the fall quarter.
+
 
 Our
 `documentation <https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/baremetal.md>`__ details
@@ -133,6 +143,8 @@ to include many packages requested by professors and students. The Dockerfile
 for the default environment
 is maintained in `this repository <https://github.com/LibreTexts/default-env>`__.
 The environment includes Python 2 and 3, Octave, R, Julia, and SageMath.
+The default environment mainly installs software and packages via apt and conda
+for security reasons.
 
 .. image:: jupyterhubspawner.png
    :width: 300
@@ -143,6 +155,9 @@ Note that SageMath requires Python 2, so changing the Python path inside the
 SageMath configuration files is 
 required. `This article <https://bytesofcomputerwisdom.home.blog/2019/03/31/jupyter-notebook-running-the-wrong-python-version/>`__ contains 
 more information on how this was accomplished. This fix is automated in the Dockerfile.
+
+RStudio is also offered alongside JupyterLab, since deploying web applications using packages
+such as ``shiny`` and ``shiny-dashboard`` require RStudio and do not run in Jupyter Notebooks.
 
 Interesting Nuggets
 ^^^^^^^^^^^^^^^^^^^
