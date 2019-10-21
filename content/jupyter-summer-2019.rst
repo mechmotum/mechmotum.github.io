@@ -95,7 +95,7 @@ work. We hooked up the ZFS to our smart-switch where the Kubernetes network live
 We made use of the 10Gib/s intel network card with a short range transceiver and
 10M copper wire. After we finished setting the ZFS server up, we renamed to 'hen'
 to go along with our naming theme for our cluster. Anyone can check out our extensive
-`documentation <https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/ZFS.md#Installing-CentOS-7>`
+`documentation <https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/ZFS.md#Installing-CentOS-7>`__
 for more information regarding how we setup our ZFS.
 
 
