@@ -129,19 +129,27 @@ This is a screenshot of how the login page looks now.
    :alt: Screenshot of the redesigned JupyterHub login page
 
 Additionally, more spawner options are included. We modified the default environment
-to include many packages requested by professors and students. RStudio is also
-available in addition to JupyterLab.
+to include many packages requested by professors and students. The Dockerfile 
+for the default environment
+is maintained in `this repository <https://github.com/LibreTexts/default-env>`__.
+The environment includes Python 2 and 3, Octave, R, Julia, and SageMath.
 
 .. image:: jupyterhubspawner.png
    :width: 300
    :alt: Screenshot of the redesigned JupyterHub spawner page
+   
+The default environment includes Python 2 and 3, Octave, R, Julia, and SageMath. 
+Note that SageMath requires Python 2, so changing the Python path inside the 
+SageMath configuration files is 
+required. `This article <https://bytesofcomputerwisdom.home.blog/2019/03/31/jupyter-notebook-running-the-wrong-python-version/>`__ contains 
+more information on how this was accomplished. This fix is automated in the Dockerfile.
 
 Interesting Nuggets
 ^^^^^^^^^^^^^^^^^^^
 * Our Nginx server serves as a proxy to direct packets from public ips to ips that metallb assigns to services on our cluster. When we setup HTTPS for JupyterHub, Nginx started complaing as it would try to decrypt the traffic meant for JupyterHub. We solved the problem by using the stream block, which streams packet to the backend without trying to decrypt anything.
 * A service on the cluster can be connected to a ingress controller(for example Nginx) to make it accessible from outside the cluster. The ingress controller is not to be confused with the Nginx proxy that we have running outside the cluster, an ingress controller is a service running on Kubernetes that allows host or URL based HTTP routing from outside the cluster to services on the cluster.
 * cert-manager is a very useful helm chart that can be deployed on Kubernetes to automatically manage and issue TLS certificates from various issuing sources. This alongside an ingress controller like Nginx can be a very useful setup.
-* Grafana with Prometheus is a good solution for setting up basic monitoring and alerting on a Kubernetes cluster. They currently have a bug that erases all the saved data when the Grafana pod is deleted for some reason. A workaround is to save the json of the dashboards.
+* Grafana and Prometheus is a good solution for setting up basic monitoring and alerting on a Kubernetes cluster. They currently have a bug that erases all the saved data when the Grafana pod is deleted for some reason. A workaround is to save the json of the dashboards.
 
 
 Future
