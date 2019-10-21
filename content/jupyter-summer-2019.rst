@@ -4,7 +4,7 @@ Creating a Kubernetes Bare-Metal Cluster for JupyterHub
 :date: 2019-10-04 00:00:00
 :tags: oer, education, jupyter, textbooks, engineering, libretexts
 :category: education
-:slug: jupyter-winter-2019
+:slug: jupyter-summer-2019
 :authors: Xin Luigi Chen, Celine Liang
 :summary: Blog post on setting up JupyterHub on a Kubernetes bare-metal cluster
 
