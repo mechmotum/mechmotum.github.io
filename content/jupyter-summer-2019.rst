@@ -81,6 +81,21 @@ we came to the conclusion that a ZFS setup would make the most sense, this
 decision was reached mostly because of factors such as hardware already
 available and the experience on ZFS that Dean and Mike brought to the table.
 
+Thanks to a retired ZFS server called the 'Hyperserver', we didn't have to
+spend time and money ordering parts for our design. The 'Hyperserver' was
+quite fitting of its name as it was a behemoth compared to the other nodes
+that we were used to working with. The 'Hyperserver' was a 4U rack with enough
+slots in the front to fit 24 drives, and 12 additional slots in the back for
+more. With the help of Mike and Dean, we updated the firmware on the motherboard,
+drives, and IPMI controller before we installed 24 storage drives in the front, and
+2 RAID1 OS drives, 2 zil caches and 2 hot spares in the back. We used 4 stripes
+of 6 drives each with raidz2 for storage for maximum speed and redundancy.
+With raidz2, each stripe could have 2 failing disks and the ZFS would still
+work. We hooked up the ZFS to our smart-switch where the Kubernetes network lives.
+We made use of the 10Gib/s intel network card with a short range transceiver and
+10M copper wire. After we finished setting the ZFS server up, we renamed to 'hen'
+to go along with our naming theme for our cluster.
+
 
 Later, we added more chicks and upgraded the RAM of almost all chicks.
 
