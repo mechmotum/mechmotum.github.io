@@ -142,7 +142,7 @@ Interesting Nuggets
 * Our Nginx server serves as a proxy to direct packets from public ips to ips that metallb assigns to services on our cluster. When we setup HTTPS for JupyterHub, Nginx started complaing as it would try to decrypt the traffic meant for JupyterHub. We solved the problem by using the stream block, which streams packet to the backend without trying to decrypt anything.
 * A service on the cluster can be connected to a ingress controller(for example Nginx) to make it accessible from outside the cluster. The ingress controller is not to be confused with the Nginx proxy that we have running outside the cluster, an ingress controller is a service running on Kubernetes that allows host or URL based HTTP routing from outside the cluster to services on the cluster.
 * cert-manager is a very useful helm chart that can be deployed on Kubernetes to automatically manage and issue TLS certificates from various issuing sources. This alongside an ingress controller like Nginx can be a very useful setup.
-* Grafana and Prometheus is a good solution for setting up basic monitoring and alerting on a Kubernetes cluster. They currently have a bug that erases all the saved data when the Grafana pod is deleted for some reason. A workaround is to save the json of the dashboards.
+* Grafana with Prometheus is a good solution for setting up basic monitoring and alerting on a Kubernetes cluster. They currently have a bug that erases all the saved data when the Grafana pod is deleted for some reason. A workaround is to save the json of the dashboards.
 
 
 Future
