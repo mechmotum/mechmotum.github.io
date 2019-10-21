@@ -97,7 +97,7 @@ to go along with our naming theme for our cluster. Anyone can check out our exte
 more information regarding how we setup our ZFS.
 
 For security, we mainly followed the guide, 
-`*How to Secure a Linux Server* <https://github.com/imthenachoman/How-To-Secure-A-Linux-Server>`__
+`How to Secure a Linux Server <https://github.com/imthenachoman/How-To-Secure-A-Linux-Server>`__
 written by GitHub user `iamthenachoman <https://github.com/imthenachoman>`__. Using the guide,
 we implemented SSHing into rooster using only an SSH public/private key pair, cleaned up short
 keys and UFW rules, and added intrusion detection for iptables, SSH, and rootkits. You could
