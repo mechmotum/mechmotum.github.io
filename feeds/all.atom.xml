@@ -1,5 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-10-03T00:00:00-07:00</updated><entry><title>Electric Bicycle Speed Controller Presented at the 2019 Bicycle and Motorcycle Dynamics Conference</title><link href="https://mechmotum.github.io/blog/ebike-controller-bmd-presentation.html" rel="alternate"></link><published>2019-10-03T00:00:00-07:00</published><updated>2019-10-03T00:00:00-07:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-10-03:/blog/ebike-controller-bmd-presentation.html</id><summary type="html">&lt;p class="first last"&gt;Sharing the presentation of the speed controller project at the 2019
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-11-01T00:00:00-07:00</updated><entry><title>Creating a Kubernetes Bare-Metal Cluster for JupyterHub</title><link href="https://mechmotum.github.io/blog/jupyter-summer-2019.html" rel="alternate"></link><published>2019-11-01T00:00:00-07:00</published><updated>2019-11-01T00:00:00-07:00</updated><author><name>Xin Luigi Chen</name></author><id>tag:mechmotum.github.io,2019-11-01:/blog/jupyter-summer-2019.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on setting up JupyterHub on a Kubernetes bare-metal cluster&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;During the spring quarter and summer sessions, we focused on creating a
+Kubernetes bare-metal cluster to deploy JupyterHub, BinderHub, and other
+services.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="virtual-machine-cluster"&gt;
+&lt;h2&gt;Virtual Machine Cluster&lt;/h2&gt;
+&lt;p&gt;During spring quarter, Kevin and Celine worked on creating the bare metal
+Kubernetes cluster. We first created a cluster of virtual machines (VMs) A
+Linux test server served as the master node and host machine, while virtual
+machines served as the child nodes. We used Vagrant to create these child nodes
+and Ansible to provision them.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/LibreTexts/metalc/tree/master/dev-env"&gt;This folder in our main repository&lt;/a&gt; contains
+instructions for setting up this development environment.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="bare-metal-cluster"&gt;
+&lt;h2&gt;Bare-Metal Cluster&lt;/h2&gt;
+&lt;p&gt;Our original bare-metal cluster consists of one master node named chick0 and 11
+children named chick1 through chick10 sequentially. It also contains a
+management node called rooster, which acts as a DHCP server, a TFTP server for
+NetBoot and a proxy between the Internet and the Kubernetes cluster. The
+Kubernetes cluster is under a private network, so the only way to access the
+Kubernetes cluster is by connecting through rooster.&lt;/p&gt;
+&lt;p&gt;The following diagram describes our networking setup.&lt;/p&gt;
+&lt;img alt="Kubernetes diagram of cluster" src="https://objects-us-east-1.dream.io/mechmotum/kubediagram.png" style="width: 600px;" /&gt;
+&lt;p&gt;The private network is under the &lt;tt class="docutils literal"&gt;10.0.0.0/8&lt;/tt&gt;. Kubernetes uses this network
+for its resources to communicate.  Rooster has a public IP address of
+&lt;tt class="docutils literal"&gt;128.120.136.26&lt;/tt&gt;, which serves multiple services based on the domain name
+entered by the user.&lt;/p&gt;
+&lt;p&gt;All servers are connected to a smart switch. The ZFS server is also connected
+to the switch and provides persistent storage of JupyterHub users' files.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://wiki.debian.org/PXEBootInstall#Preface"&gt;PXEBoot&lt;/a&gt; used a preseed
+file and a DHCP server to install Ubuntu Server 18.04 on the servers more
+efficiently. Each new server pulls the preseed and installation files via a
+TFTP server set up on rooster.&lt;/p&gt;
+&lt;p&gt;As done in the development environment, the nodes were provisioned using
+&lt;a class="reference external" href="https://github.com/LibreTexts/metalc/tree/master/ansible/playbooks"&gt;Ansible scripts&lt;/a&gt;.
+Unlike the development environment, the bare-metal cluster &lt;a class="reference external" href="https://medium.com/&amp;#64;jain.sm/flannel-vs-calico-a-battle-of-l2-vs-l3-based-networking-5a30cd0a3ebd"&gt;uses Calico instead
+of Flannel&lt;/a&gt;
+for pod networking. This was chosen because Calico doesn't require software
+bridges or IP tunneling like Flannel does. When communicating from pod to pod,
+Flannel requires the pod's IP to be &amp;quot;packaged&amp;quot; in another IP (IP tunneling) to
+send to the other pod. Calico, on the other hand, uses BGP protocol and
+conserves the original pod IP.&lt;/p&gt;
+&lt;p&gt;When we first setup our bare-metal cluster, we used rooster for our storage
+needs by running a NFS server on it. Once we started getting ready for
+production, we decided that we needed a more robust and redundant option for
+our storage needs. With that in mind, we met with Mike and Dean, folks from the
+Bioinformatics Core at the Genome Center here at UC Davis, to discuss the best
+storage setup for our needs. After a couple of meetings, we came to the
+conclusion that a ZFS setup would make the most sense, this decision was
+reached mostly because of factors such as hardware already available and the
+experience on ZFS that Dean and Mike brought to the table.&lt;/p&gt;
+&lt;p&gt;Thanks to a retired ZFS server called the 'Hyperserver', we didn't have to
+spend time and money ordering parts for our design. The 'Hyperserver' was quite
+fitting of its name as it was a behemoth compared to the other nodes that we
+were used to working with. The 'Hyperserver' was a 4U rack with enough slots in
+the front to fit 24 drives, and 12 additional slots in the back for more. With
+the help of Mike and Dean, we updated the firmware on the motherboard, drives,
+and IPMI controller before we installed 24 storage drives in the front, and 2
+RAID1 OS drives, 2 zil caches and 2 hot spares in the back. We used 4 stripes
+of 6 drives each with raidz2 for our data storage drives, the goal was to
+maximize speed and redundancy.  With raidz2, each stripe could lose a maximum
+of 2 disks at once and the ZFS would still work. We then hooked up the ZFS to
+our smart-switch where the Kubernetes network lives.  We made use of the
+10Gib/s intel network card with a short range transceiver and 10M copper wire.
+After we finished setting the ZFS server up, we renamed it to 'hen' to go along
+with our naming theme for our cluster. Anyone can check out our extensive
+&lt;a class="reference external" href="https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/ZFS.md"&gt;documentation&lt;/a&gt;
+for more information regarding how we setup our ZFS.&lt;/p&gt;
+&lt;p&gt;For security, we mainly followed the guide, &lt;a class="reference external" href="https://github.com/imthenachoman/How-To-Secure-A-Linux-Server"&gt;How to Secure a Linux Server&lt;/a&gt; written by
+GitHub user &lt;a class="reference external" href="https://github.com/imthenachoman"&gt;iamthenachoman&lt;/a&gt;. Using the
+guide, we implemented SSHing into rooster using only an SSH public/private key
+pair, cleaned up short keys and UFW rules, and added intrusion detection for
+iptables, SSH, and rootkits. You could find more information on our security
+implementation in &lt;a class="reference external" href="https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/baremetal.md#securing-the-cluster"&gt;this section&lt;/a&gt;
+of our documentation.&lt;/p&gt;
+&lt;p&gt;Later, we added more chicks and upgraded the RAM of almost all chicks. We
+increased the number of worker nodes from 10 to 18, and upgraded the RAM on
+most chicks from 16GB to 64GB. These efforts prepared the cluster for handling
+new classes in the fall quarter.&lt;/p&gt;
+&lt;p&gt;Our &lt;a class="reference external" href="https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/baremetal.md"&gt;documentation&lt;/a&gt;
+details our setup further and describes the actions taken to build the cluster
+from scratch.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="customizing-jupyterhub"&gt;
+&lt;h2&gt;Customizing JupyterHub&lt;/h2&gt;
+&lt;p&gt;We made many modifications to JupyterHub, including redesigning the website,
+adding new default environments, and more.&lt;/p&gt;
+&lt;p&gt;JupyterHub pages is customizable using the &lt;a class="reference external" href="https://jinja.palletsprojects.com/en/2.10.x/templates/"&gt;Jinja2 templating system&lt;/a&gt; .  There are two
+ways to add custom HTML files to JupyterHub (as described in &lt;a class="reference external" href="https://discourse.jupyter.org/t/customizing-jupyterhub-on-kubernetes/1769"&gt;this Discourse
+post&lt;/a&gt;):&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Through &lt;a class="reference external" href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/"&gt;InitContainers&lt;/a&gt; that
+pull repositories of template files before the hub starts,&lt;/li&gt;
+&lt;li&gt;Or through mounting &lt;a class="reference external" href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/"&gt;ConfigMaps&lt;/a&gt;
+to the template file directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We chose the former option and have repositories for &lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-templates"&gt;custom HTML files&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-images"&gt;additional images&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a screenshot of how the login page looks now.&lt;/p&gt;
+&lt;img alt="Screenshot of the redesigned JupyterHub login page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubscreenshot.png" style="width: 600px;" /&gt;
+&lt;p&gt;Additionally, more spawner options are included. We modified the default
+environment to include many packages requested by professors and students. The
+Dockerfile for the default environment is maintained in &lt;a class="reference external" href="https://github.com/LibreTexts/default-env"&gt;this repository&lt;/a&gt;.  The environment includes
+Python 2 and 3, Octave, R, Julia, and SageMath.  The default environment mainly
+installs software and packages via apt and conda for security reasons.&lt;/p&gt;
+&lt;img alt="Screenshot of the redesigned JupyterHub spawner page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubspawner.png" style="width: 600px;" /&gt;
+&lt;p&gt;The default environment includes Python 2 and 3, Octave, R, Julia, and
+SageMath.  Note that SageMath requires Python 2, so changing the Python path
+inside the SageMath configuration files is required. &lt;a class="reference external" href="https://bytesofcomputerwisdom.home.blog/2019/03/31/jupyter-notebook-running-the-wrong-python-version/"&gt;This article&lt;/a&gt;
+contains more information on how this was accomplished. This fix is automated
+in the Dockerfile.&lt;/p&gt;
+&lt;p&gt;RStudio is also offered alongside JupyterLab, since deploying web applications
+using packages such as &lt;tt class="docutils literal"&gt;shiny&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;shiny-dashboard&lt;/span&gt;&lt;/tt&gt; require RStudio and do
+not run in Jupyter Notebooks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="interesting-nuggets"&gt;
+&lt;h2&gt;Interesting Nuggets&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Our Nginx server serves as a proxy to direct packets from public ips to ips
+that metallb assigns to services on our cluster. When we setup HTTPS for
+JupyterHub, Nginx started complaing as it would try to decrypt the traffic
+meant for JupyterHub. We solved the problem by using the stream block, which
+streams packet to the backend without trying to decrypt anything.&lt;/li&gt;
+&lt;li&gt;A service on the cluster can be connected to a ingress controller(for example
+Nginx) to make it accessible from outside the cluster. The ingress controller
+is not to be confused with the Nginx proxy that we have running outside the
+cluster, an ingress controller is a service running on Kubernetes that allows
+host or URL based HTTP routing from outside the cluster to services on the
+cluster.&lt;/li&gt;
+&lt;li&gt;cert-manager is a very useful helm chart that can be deployed on Kubernetes
+to automatically manage and issue TLS certificates from various issuing
+sources. This alongside an ingress controller like Nginx can be a very useful
+setup.&lt;/li&gt;
+&lt;li&gt;Grafana and Prometheus is a good solution for setting up basic monitoring and
+alerting on a Kubernetes cluster. They currently have a bug that erases all
+the saved data when the Grafana pod is deleted for some reason. A workaround
+is to save the json of the dashboards.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="future"&gt;
+&lt;h2&gt;Future&lt;/h2&gt;
+&lt;p&gt;In the future, we plan to create another cluster including, but not limited, to
+the following:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Having multiple master nodes and using two HAproxy servers instead of a
+single Nginx server to avoid single points of failure.&lt;/li&gt;
+&lt;li&gt;Assigning GPU's to different users.&lt;/li&gt;
+&lt;li&gt;Assigning different networks based on organization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="engineering"></category><category term="libretexts"></category></entry><entry><title>Electric Bicycle Speed Controller Presented at the 2019 Bicycle and Motorcycle Dynamics Conference</title><link href="https://mechmotum.github.io/blog/ebike-controller-bmd-presentation.html" rel="alternate"></link><published>2019-10-03T00:00:00-07:00</published><updated>2019-10-03T00:00:00-07:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-10-03:/blog/ebike-controller-bmd-presentation.html</id><summary type="html">&lt;p class="first last"&gt;Sharing the presentation of the speed controller project at the 2019
 Bicycle and Motorcycle Dynamics Conference.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;From September 9th to the 11th, the design and implementation of the electric
 bicycle speed controller project was presented in a poster exhibition hall

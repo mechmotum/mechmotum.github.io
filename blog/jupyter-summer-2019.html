@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Creating a Kubernetes Bare-Metal Cluster for JupyterHub | Laboratorium of Marvelous Mechanical Motum
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/blog/jupyter-summer-2019.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://mechmotum.github.io/feeds/{'slug': 'education'}.atom.xml">  
+  <meta name="description" content="Blog post on setting up JupyterHub on a Kubernetes bare-metal cluster">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Laboratorium of Marvelous Mechanical Motum">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <h1 class="title"><a href="https://mechmotum.github.io/">Laboratorium of Marvelous Mechanical Motum</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Creating a Kubernetes Bare-Metal Cluster for JupyterHub
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2019-11-01T00:00:00-07:00">
+          <i class="fa fa-clock-o"></i>
+          Fri 01 November 2019
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="https://mechmotum.github.io/category/education.html">education</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="https://mechmotum.github.io/author/xin-luigi-chen.html">Xin Luigi Chen</a>,               <a href="https://mechmotum.github.io/author/celine-liang.html">Celine Liang</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="https://mechmotum.github.io/tag/oer.html">#oer</a>,               <a href="https://mechmotum.github.io/tag/education.html">#education</a>,               <a href="https://mechmotum.github.io/tag/jupyter.html">#jupyter</a>,               <a href="https://mechmotum.github.io/tag/textbooks.html">#textbooks</a>,               <a href="https://mechmotum.github.io/tag/engineering.html">#engineering</a>,               <a href="https://mechmotum.github.io/tag/libretexts.html">#libretexts</a>          </li>
+      </ul>
+    </header>
+
+
+    <div class="content">
+      <div class="section" id="background">
+<h2>Background</h2>
+<p>During the spring quarter and summer sessions, we focused on creating a
+Kubernetes bare-metal cluster to deploy JupyterHub, BinderHub, and other
+services.</p>
+</div>
+<div class="section" id="virtual-machine-cluster">
+<h2>Virtual Machine Cluster</h2>
+<p>During spring quarter, Kevin and Celine worked on creating the bare metal
+Kubernetes cluster. We first created a cluster of virtual machines (VMs) A
+Linux test server served as the master node and host machine, while virtual
+machines served as the child nodes. We used Vagrant to create these child nodes
+and Ansible to provision them.</p>
+<p><a class="reference external" href="https://github.com/LibreTexts/metalc/tree/master/dev-env">This folder in our main repository</a> contains
+instructions for setting up this development environment.</p>
+</div>
+<div class="section" id="bare-metal-cluster">
+<h2>Bare-Metal Cluster</h2>
+<p>Our original bare-metal cluster consists of one master node named chick0 and 11
+children named chick1 through chick10 sequentially. It also contains a
+management node called rooster, which acts as a DHCP server, a TFTP server for
+NetBoot and a proxy between the Internet and the Kubernetes cluster. The
+Kubernetes cluster is under a private network, so the only way to access the
+Kubernetes cluster is by connecting through rooster.</p>
+<p>The following diagram describes our networking setup.</p>
+<img alt="Kubernetes diagram of cluster" src="https://objects-us-east-1.dream.io/mechmotum/kubediagram.png" style="width: 600px;" />
+<p>The private network is under the <tt class="docutils literal">10.0.0.0/8</tt>. Kubernetes uses this network
+for its resources to communicate.  Rooster has a public IP address of
+<tt class="docutils literal">128.120.136.26</tt>, which serves multiple services based on the domain name
+entered by the user.</p>
+<p>All servers are connected to a smart switch. The ZFS server is also connected
+to the switch and provides persistent storage of JupyterHub users' files.</p>
+<p><a class="reference external" href="https://wiki.debian.org/PXEBootInstall#Preface">PXEBoot</a> used a preseed
+file and a DHCP server to install Ubuntu Server 18.04 on the servers more
+efficiently. Each new server pulls the preseed and installation files via a
+TFTP server set up on rooster.</p>
+<p>As done in the development environment, the nodes were provisioned using
+<a class="reference external" href="https://github.com/LibreTexts/metalc/tree/master/ansible/playbooks">Ansible scripts</a>.
+Unlike the development environment, the bare-metal cluster <a class="reference external" href="https://medium.com/&#64;jain.sm/flannel-vs-calico-a-battle-of-l2-vs-l3-based-networking-5a30cd0a3ebd">uses Calico instead
+of Flannel</a>
+for pod networking. This was chosen because Calico doesn't require software
+bridges or IP tunneling like Flannel does. When communicating from pod to pod,
+Flannel requires the pod's IP to be &quot;packaged&quot; in another IP (IP tunneling) to
+send to the other pod. Calico, on the other hand, uses BGP protocol and
+conserves the original pod IP.</p>
+<p>When we first setup our bare-metal cluster, we used rooster for our storage
+needs by running a NFS server on it. Once we started getting ready for
+production, we decided that we needed a more robust and redundant option for
+our storage needs. With that in mind, we met with Mike and Dean, folks from the
+Bioinformatics Core at the Genome Center here at UC Davis, to discuss the best
+storage setup for our needs. After a couple of meetings, we came to the
+conclusion that a ZFS setup would make the most sense, this decision was
+reached mostly because of factors such as hardware already available and the
+experience on ZFS that Dean and Mike brought to the table.</p>
+<p>Thanks to a retired ZFS server called the 'Hyperserver', we didn't have to
+spend time and money ordering parts for our design. The 'Hyperserver' was quite
+fitting of its name as it was a behemoth compared to the other nodes that we
+were used to working with. The 'Hyperserver' was a 4U rack with enough slots in
+the front to fit 24 drives, and 12 additional slots in the back for more. With
+the help of Mike and Dean, we updated the firmware on the motherboard, drives,
+and IPMI controller before we installed 24 storage drives in the front, and 2
+RAID1 OS drives, 2 zil caches and 2 hot spares in the back. We used 4 stripes
+of 6 drives each with raidz2 for our data storage drives, the goal was to
+maximize speed and redundancy.  With raidz2, each stripe could lose a maximum
+of 2 disks at once and the ZFS would still work. We then hooked up the ZFS to
+our smart-switch where the Kubernetes network lives.  We made use of the
+10Gib/s intel network card with a short range transceiver and 10M copper wire.
+After we finished setting the ZFS server up, we renamed it to 'hen' to go along
+with our naming theme for our cluster. Anyone can check out our extensive
+<a class="reference external" href="https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/ZFS.md">documentation</a>
+for more information regarding how we setup our ZFS.</p>
+<p>For security, we mainly followed the guide, <a class="reference external" href="https://github.com/imthenachoman/How-To-Secure-A-Linux-Server">How to Secure a Linux Server</a> written by
+GitHub user <a class="reference external" href="https://github.com/imthenachoman">iamthenachoman</a>. Using the
+guide, we implemented SSHing into rooster using only an SSH public/private key
+pair, cleaned up short keys and UFW rules, and added intrusion detection for
+iptables, SSH, and rootkits. You could find more information on our security
+implementation in <a class="reference external" href="https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/baremetal.md#securing-the-cluster">this section</a>
+of our documentation.</p>
+<p>Later, we added more chicks and upgraded the RAM of almost all chicks. We
+increased the number of worker nodes from 10 to 18, and upgraded the RAM on
+most chicks from 16GB to 64GB. These efforts prepared the cluster for handling
+new classes in the fall quarter.</p>
+<p>Our <a class="reference external" href="https://github.com/LibreTexts/metalc/blob/master/docs/Bare-Metal/baremetal.md">documentation</a>
+details our setup further and describes the actions taken to build the cluster
+from scratch.</p>
+</div>
+<div class="section" id="customizing-jupyterhub">
+<h2>Customizing JupyterHub</h2>
+<p>We made many modifications to JupyterHub, including redesigning the website,
+adding new default environments, and more.</p>
+<p>JupyterHub pages is customizable using the <a class="reference external" href="https://jinja.palletsprojects.com/en/2.10.x/templates/">Jinja2 templating system</a> .  There are two
+ways to add custom HTML files to JupyterHub (as described in <a class="reference external" href="https://discourse.jupyter.org/t/customizing-jupyterhub-on-kubernetes/1769">this Discourse
+post</a>):</p>
+<ul class="simple">
+<li>Through <a class="reference external" href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/">InitContainers</a> that
+pull repositories of template files before the hub starts,</li>
+<li>Or through mounting <a class="reference external" href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/">ConfigMaps</a>
+to the template file directory.</li>
+</ul>
+<p>We chose the former option and have repositories for <a class="reference external" href="https://github.com/LibreTexts/jupyterhub-templates">custom HTML files</a> and <a class="reference external" href="https://github.com/LibreTexts/jupyterhub-images">additional images</a>.</p>
+<p>This is a screenshot of how the login page looks now.</p>
+<img alt="Screenshot of the redesigned JupyterHub login page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubscreenshot.png" style="width: 600px;" />
+<p>Additionally, more spawner options are included. We modified the default
+environment to include many packages requested by professors and students. The
+Dockerfile for the default environment is maintained in <a class="reference external" href="https://github.com/LibreTexts/default-env">this repository</a>.  The environment includes
+Python 2 and 3, Octave, R, Julia, and SageMath.  The default environment mainly
+installs software and packages via apt and conda for security reasons.</p>
+<img alt="Screenshot of the redesigned JupyterHub spawner page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubspawner.png" style="width: 600px;" />
+<p>The default environment includes Python 2 and 3, Octave, R, Julia, and
+SageMath.  Note that SageMath requires Python 2, so changing the Python path
+inside the SageMath configuration files is required. <a class="reference external" href="https://bytesofcomputerwisdom.home.blog/2019/03/31/jupyter-notebook-running-the-wrong-python-version/">This article</a>
+contains more information on how this was accomplished. This fix is automated
+in the Dockerfile.</p>
+<p>RStudio is also offered alongside JupyterLab, since deploying web applications
+using packages such as <tt class="docutils literal">shiny</tt> and <tt class="docutils literal"><span class="pre">shiny-dashboard</span></tt> require RStudio and do
+not run in Jupyter Notebooks.</p>
+</div>
+<div class="section" id="interesting-nuggets">
+<h2>Interesting Nuggets</h2>
+<ul class="simple">
+<li>Our Nginx server serves as a proxy to direct packets from public ips to ips
+that metallb assigns to services on our cluster. When we setup HTTPS for
+JupyterHub, Nginx started complaing as it would try to decrypt the traffic
+meant for JupyterHub. We solved the problem by using the stream block, which
+streams packet to the backend without trying to decrypt anything.</li>
+<li>A service on the cluster can be connected to a ingress controller(for example
+Nginx) to make it accessible from outside the cluster. The ingress controller
+is not to be confused with the Nginx proxy that we have running outside the
+cluster, an ingress controller is a service running on Kubernetes that allows
+host or URL based HTTP routing from outside the cluster to services on the
+cluster.</li>
+<li>cert-manager is a very useful helm chart that can be deployed on Kubernetes
+to automatically manage and issue TLS certificates from various issuing
+sources. This alongside an ingress controller like Nginx can be a very useful
+setup.</li>
+<li>Grafana and Prometheus is a good solution for setting up basic monitoring and
+alerting on a Kubernetes cluster. They currently have a bug that erases all
+the saved data when the Grafana pod is deleted for some reason. A workaround
+is to save the json of the dashboards.</li>
+</ul>
+</div>
+<div class="section" id="future">
+<h2>Future</h2>
+<p>In the future, we plan to create another cluster including, but not limited, to
+the following:</p>
+<ul class="simple">
+<li>Having multiple master nodes and using two HAproxy servers instead of a
+single Nginx server to avoid single points of failure.</li>
+<li>Assigning GPU's to different users.</li>
+<li>Assigning different networks based on organization.</li>
+</ul>
+</div>
+
+    </div>
+  </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+</body>
+
+</html>
