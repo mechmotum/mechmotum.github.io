@@ -27,6 +27,7 @@
 ./blog/jupyter-winter-2019.html
 ./blog/libretexts-grant.html
 ./blog/practical-realization-of-a-theoretical-optimal-handling-bicycle-results.html
+./blog/sacpy-slideck-2019.html
 ./blog/skijumpdesign-analysis.html
 ./blog/skijumpdesign-published.html
 ./blog/treadle-pump-experiment.html
@@ -79,6 +80,7 @@
 ./tag/mechatronics.html
 ./tag/oer.html
 ./tag/optimization.html
+./tag/python.html
 ./tag/rowing.html
 ./tag/safety.html
 ./tag/ski.html
