@@ -86,6 +86,8 @@ Volunteer Research Assistant
    Volunteer researchers must fill out a volunteer form and sign the UCD patent
    agreement at the MAE office before starting work.
 
+- `Student Assistant Pay Scale <https://ucdavispolicy.ellucid.com/documents/view/183>`_
+
 Logging Hours
 =============
 
@@ -153,7 +155,7 @@ The currently has group accounts on Gitlab and Github for version control of
 text based sources (software, text, etc):
 
 - https://gitlab.com/mechmotum
-- https://github.com/mechmotum/
+- https://github.com/mechmotum
 
 The services are more or less interchangeable. The primary reason to use Gitlab
 is if you need a private repository, as it offers those for free. You may
