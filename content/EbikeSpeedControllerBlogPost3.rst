@@ -83,7 +83,7 @@ Figure 5, below, shows a high level view of the logic flow of the code.
 
    *Figure 5. Basic logic flowchart of the cruise control software.*
     
-Source code, and more details about it, can be found on the Laboratorium’s Github repository `found here<https://github.com/mechmotum/eBikeSpdController>`__.
+Source code, and more details about it, can be found on the Laboratorium’s Github repository `found here <https://github.com/mechmotum/eBikeSpdController>`__.
 
 4.1 Code Libraries
 ------------------
