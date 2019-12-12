@@ -10,25 +10,7 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 
 *This is an updated version of a previous blog post on the implementation of a PID controller on an instrumented ebike which can be* `found here <https://mechmotum.github.io/blog/ebike-controller-implementation.html#hardware-hook-up-and-design>`_. *Updates include sections 5.4-5.5 discussing the added dead man's switch and throttle relay and minor fixes throughout.* 
 
-Outline
-------- 
-
-1.0 Introduction 
-2.0 System Functionality 
-3.0 System Architecture  
-	3.1 Control Architecture 
-	3.2 Physical Architecture
-4.0 Software  
-	4.1 Code Libraries
-5.0 Hardware Hook Up and Design 
-	5.1 Instrumented Ebike Platform 
-    5.2 Electrical Hook Up  
-	5.3 Electronics Housings
-    5.4 Dead Man’s Switch 
-    5.5 Throttle Relay (Planned) 
-6.0 Bill of Materials 
-7.0 Suggested Improvements 
-8.0 Acknowledgements 
+.. contents::
 
 1.0 Introduction
 ^^^^^^^^^^^^^^^^
@@ -45,7 +27,7 @@ The implementation of the cruise control system on the electric bike was fundame
    :align: center
    :alt: User Interaction. 
    
-    *Figure 1. A typical user interaction with the system.* 
+   *Figure 1. A typical user interaction with the system.* 
 
 This user interaction flowchart was used to help better understand the problem of implementing the cruise control system and sculpt the concepts for the hardware and software portions of the cruise control system. 
 
@@ -62,7 +44,7 @@ The control architecture is a simple negative feedback design that computes the 
    :align: center
    :alt: Control Architecture.
 
-    *Figure 2. Control architecture as implemented on the ebike.*
+   *Figure 2. Control architecture as implemented on the ebike.*
     
 3.2 Physical Architecture
 ------------------------- 
@@ -99,7 +81,7 @@ Figure 5, below, shows a high level view of the logic flow of the code.
    :align: center
    :alt: Code Logic Flowchart.
 
-    *Figure 5. Basic logic flowchart of the cruise control software.*
+   *Figure 5. Basic logic flowchart of the cruise control software.*
     
 Source code, and more details about it, can be found on the Laboratorium’s Github repository `found here<https://github.com/mechmotum/eBikeSpdController>`__.
 
