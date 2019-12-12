@@ -8,7 +8,7 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 :authors: Trevor Metz
 :summary: Updated blog post on the implementation of a PID controller on an instrumented ebike 
 
-*This is an updated version of a previous blog post on the implementation of a PID controller on an instrumented ebike which can be* `found here <https://mechmotum.github.io/blog/ebike-controller-implementation.html#hardware-hook-up-and-design>`_. *Updates include sections 5.4-5.5 discussing the added dead man's switch and throttle relay and minor fixes throughout.* 
+*This is an updated version of a previous blog post on the implementation of a PID controller on an instrumented ebike which can be* `found here <https://mechmotum.github.io/blog/ebike-controller-implementation.html>`_. *Updates include sections 5.4-5.5 discussing the added dead man's switch and throttle relay and minor fixes throughout.* 
 
 .. contents::
 
