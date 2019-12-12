@@ -9,6 +9,8 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 :summary: Blog post on the implementation of a PID controller on an
           instrumented ebike
 
+*This blog post has been updated in a newer blog post. Please see the updated version of this blog post for the most up to date information.*
+
 .. contents::
 
 1.0 Introduction
