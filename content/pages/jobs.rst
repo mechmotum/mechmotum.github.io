@@ -4,8 +4,8 @@ Graduate
 ========
 
 There are currently no funded Graduate Student Researcher positions in the lab,
-but graduate students are welcome join. You will be required to find your own
-funding through Teaching Assistant positions or other means. We will also
+but graduate students are welcome to join. You will be required to find your
+own funding through Teaching Assistant positions or other means. We will also
 assist you on finding various other fellowships, grants, and scholarships.
 
 If you would like to join the lab for your MAE Master's or PhD degree please
