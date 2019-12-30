@@ -3,6 +3,9 @@
 Journal Articles
 ================
 
+#. B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
+   competitive rowing kinematic metrics," PLOS ONE, vol. 14, no. 12, p.
+   e0225690, Dec. 2019, doi: https://doi.org/10.1371/journal.pone.0225690.
 #. Moore, Jason K., and Mont Hubbard. "skijumpdesign: A Ski Jump Design Tool
    for Specified Equivalent Fall Height." The Journal of Open Source Software
    3, no. 28 (August 20, 2018): 818–20. https://doi.org/10.21105/joss.00818.
@@ -36,6 +39,9 @@ Books
 Conference Proceedings
 ======================
 
+#. P. Abraha, J. K. Moore, and S. Ohshima, "Design Without Borders: Influence
+   of cultural exchange on machine design and engineering careers," presented
+   at the ASEE Pacific Southwest 2020, Davis, CA, USA, 2020.
 #. B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
    competitive rowing kinematic metrics," submitted to the XXVII Congress of
    the International Society of Biomechanics & 43rd Annual Meeting of the
