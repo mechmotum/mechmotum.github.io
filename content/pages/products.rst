@@ -36,6 +36,19 @@ Books
 Conference Proceedings
 ======================
 
+#. B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
+   competitive rowing kinematic metrics," submitted to the XXVII Congress of
+   the International Society of Biomechanics & 43rd Annual Meeting of the
+   American Society of Biomechanics, Calgary, Canada, 2019.
+#. T. Metz and J. K. Moore, "Design of an Electric Bicycle Speed Controller,"
+   submitted to the Bicycle and Motorcycle Dynamics 2019, Padova, Italy, 2019,
+   p. 2.
+#. J. K. Moore, M. Hubbard, and R. A. Hess, "Expanded Optimization for
+   Discovering Optimal Lateral Handling Bicycles," submitted to the Bicycle and
+   Motorcycle Dynamics 2019, 2019, p. 2.
+#. R. Gilboa, J. K. Moore, M. Hubbard, and R. A. Hess, “Practical Realization
+   of a Theoretical Optimal-Handling Bicycle,” submitted to the Bicycle and
+   Motorcycle Dynamics 2019, 2019, p. 2.
 #. Moore, Jason K., Mont Hubbard, and Ronald A. Hess. "Optimal Bicycle Design
    to Maximize Handling and Safety," September 13, 2017.
    https://doi.org/10.6084/m9.figshare.5405242.v1
@@ -57,13 +70,24 @@ Preprints
 Web Articles
 ============
 
+#. Shaw, Aaron and Liang, Rayming. "Finding the Efficiency of the Xylem and
+   Money Maker Treadle Pumps", Laboratorium of Marvelous Mechanical Motum Blog
+   (December 27, 2018)
+   https://mechmotum.github.io/blog/treadle-pump-experiment.html
 #. Metz, Trevor. "Design of a PID Controller for Controlling The Speed of an
    Instrumented Ebike", Laboratorium of Marvelous Mechanical Motum Blog
-   (December 15, 2018) https://mechmotum.github.io/blog/ebike-controller-design.html
+   (December 15, 2018)
+   https://mechmotum.github.io/blog/ebike-controller-design.html
 #. Moore, Jason K. and Lyons, Kenneth. "Using Computational Thinking to Teach
    Mechanical Vibrations." UC Davis Engineering Education Learning Community
    Blog (April 23, 2018)
    http://engineering.ucdavis.edu/eelc/using-computational-thinking-to-teach-mechanical-vibrations/
+#. McKay, Abe. "Pedaling for Water in Kisumu: Closing", UC Davis Blum Center
+   Blog (September 12, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-closing-by.html
+#. McKay, Abe. "Pedaling for Water in Kisumu: Midway", UC Davis Blum Center
+   Blog (August 26, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-midway-by.html
+#. McKay, Abe. "Pedaling for Water in Kisumu: Beginning", UC Davis Blum Center
+   Blog (August 20, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-beginning.html
 #. Lyons, Kenneth and Moore, Jason K. "Teaching Modeling and Simulation with
    Python." (July 20, 2017) http://www.moorepants.info/blog/scipy-2017-bof.html
 #. Moore, Jason K. "Learning Mechanical Design Through Lightweight

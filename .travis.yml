@@ -6,7 +6,7 @@ env:
     # Doctr deploy key for mechmotum/mechmotum.github.io
     - secure: "EYdP7H/5vG1GeU3gSqbkFPxcy0zVSks9xF0gBZQAAf9taArVYHbh677pqbsAAPLQLs7yO9I1YgIaxEwqstg1PRhuAzoIAiY2AvXAABvjpL+hzuDuVP8TTBSNGfDYHloTSosHWsOzePHVrtu3Tcht13V8cIsL0jwOIMq3m/kARYnNk2i2G9SxHeAgCdy0IDoOrj/JNLs+WIwYfHwKu3dWKpKFGK3qcU90wCbgHUiPMFTMn3wRfkZQJWA5m5VAQbDn4YLzlLj+p7MnkO4rR2BpXb0M1Kh/Ft6eRlywhF+xYgwvZ1rzICpj6TtyVTmM/rTcbR4KZtzL4H9zih9fM6OJo1sB6aleTOlRVXip5IQin3Gf2Mm07c+mcgUrKCJG7GGnEpHghvGLAKdkF0ho2LoAtrPXZ3ArKXwsZkDMawEwU4Y8sDAv99+qsMDPPMYCRnh478oYEYU52AYbASdOAxJwonyCjwOUU5+AKU/yf1Tp+NeKbS8oVqzo9jtMAZ6YZsdbX9M9AdyvrlvwxFlc1VW367etKPaJPoPHXpQ0ClwtlG/czhq+3wQNy2lYS78mdA8v7IYjYD5tEXhn471tYUU4wveWM7N2tWd0hUy5MOpP+3JZJtiN7dYJSXd9+IdCWuHcfGESzLKmFFMsubSNUsnL0yx5U/P9ByIQpNpniHAcDv8="
 install:
-  - pip install pelican doctr
+  - pip install pelican<4 doctr beautifulsoup4
   - git clone --depth=1 --single-branch --branch mechmotum https://github.com/mechmotum/pelican-alchemy.git
   - git clone --depth=1 https://github.com/getpelican/pelican-plugins.git
 before_script:
