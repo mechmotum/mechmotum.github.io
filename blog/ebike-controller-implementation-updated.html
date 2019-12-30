@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>  Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike | Laboratorium of Marvelous Mechanical Motum
+  <title>  Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike | Laboratorium of Marvelous Mechanical Motum
 </title>
-  <link rel="canonical" href="https://mechmotum.github.io/blog/ebike-controller-implementation.html">
+  <link rel="canonical" href="https://mechmotum.github.io/blog/ebike-controller-implementation-updated.html">
 
 
   <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
@@ -20,7 +20,7 @@
         href="https://mechmotum.github.io/feeds/all.atom.xml">
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
         href="https://mechmotum.github.io/feeds/{'slug': 'research'}.atom.xml">  
-  <meta name="description" content="Blog post on the implementation of a PID controller on an instrumented ebike">
+  <meta name="description" content="Updated blog post on the implementation of a PID controller on an instrumented ebike">
 
 
 </head>
@@ -52,15 +52,15 @@
 
   <div class="main">
     <div class="container">
-      <h1>  Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike
+      <h1>  Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike
 </h1>
       <hr>
   <article class="article">
     <header>
       <ul class="list-inline">
-        <li class="list-inline-item text-muted" title="2019-04-05T00:00:00-07:00">
+        <li class="list-inline-item text-muted" title="2019-12-30T00:00:00-08:00">
           <i class="fa fa-clock-o"></i>
-          Fri 05 April 2019
+          Mon 30 December 2019
         </li>
         <li class="list-inline-item">
           <i class="fa fa-folder-open-o"></i>
@@ -71,7 +71,7 @@
               <a href="https://mechmotum.github.io/author/trevor-metz.html">Trevor Metz</a>          </li>
           <li class="list-inline-item">
             <i class="fa fa-files-o"></i>
-              <a href="https://mechmotum.github.io/tag/bikes.html">#bikes</a>,               <a href="https://mechmotum.github.io/tag/engineering.html">#engineering</a>,               <a href="https://mechmotum.github.io/tag/controller-implementation.html">#controller implementation</a>,               <a href="https://mechmotum.github.io/tag/arduino.html">#arduino</a>          </li>
+              <a href="https://mechmotum.github.io/tag/bicycle.html">#bicycle</a>,               <a href="https://mechmotum.github.io/tag/engineering.html">#engineering</a>,               <a href="https://mechmotum.github.io/tag/controller-implementation.html">#controller implementation</a>,               <a href="https://mechmotum.github.io/tag/arduino.html">#arduino</a>          </li>
       </ul>
     </header>
 
@@ -80,123 +80,134 @@
       <div class="toc" id="">
 
 <ul class="simple">
-<li><a class="reference internal" href="#introduction" id="id1">1.0 Introduction</a></li>
-<li><a class="reference internal" href="#system-operation-functionality" id="id2">2.0 System Operation &amp; Functionality</a></li>
-<li><a class="reference internal" href="#system-architecture" id="id3">3.0 System Architecture</a><ul>
-<li><a class="reference internal" href="#control-architecture" id="id4">3.1 Control Architecture</a></li>
-<li><a class="reference internal" href="#physical-architecture" id="id5">3.2 Physical Architecture</a></li>
+<li><a class="reference internal" href="#introduction" id="id2">1.0 Introduction</a></li>
+<li><a class="reference internal" href="#system-operation-functionality" id="id3">2.0 System Operation &amp; Functionality</a></li>
+<li><a class="reference internal" href="#system-architecture" id="id4">3.0 System Architecture</a><ul>
+<li><a class="reference internal" href="#control-architecture" id="id5">3.1 Control Architecture</a></li>
+<li><a class="reference internal" href="#physical-architecture" id="id6">3.2 Physical Architecture</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#software" id="id6">4.0 Software</a><ul>
-<li><a class="reference internal" href="#code-libraries" id="id7">4.1 Code Libraries</a></li>
+<li><a class="reference internal" href="#software" id="id7">4.0 Software</a><ul>
+<li><a class="reference internal" href="#code-libraries" id="id8">4.1 Code Libraries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#hardware-hook-up-and-design" id="id8">5.0 Hardware Hook Up and Design</a><ul>
-<li><a class="reference internal" href="#instrumented-ebike-platform" id="id9">5.1 Instrumented Ebike Platform</a></li>
-<li><a class="reference internal" href="#electrical-hook-up" id="id10">5.2 Electrical Hook Up</a></li>
-<li><a class="reference internal" href="#electronics-housings" id="id11">5.3 Electronics Housings</a></li>
+<li><a class="reference internal" href="#hardware-hook-up-and-design" id="id9">5.0 Hardware Hook Up and Design</a><ul>
+<li><a class="reference internal" href="#instrumented-ebike-platform" id="id10">5.1 Instrumented Ebike Platform</a></li>
+<li><a class="reference internal" href="#electrical-hook-up" id="id11">5.2 Electrical Hook Up</a></li>
+<li><a class="reference internal" href="#electronics-housings" id="id12">5.3 Electronics Housings</a></li>
+<li><a class="reference internal" href="#dead-mans-switch" id="id13">5.4 Dead Man’s Switch</a></li>
+<li><a class="reference internal" href="#throttle-relay-planned" id="id14">5.5 Throttle Relay (Planned)</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#bill-of-materials" id="id12">6.0 Bill of Materials</a></li>
-<li><a class="reference internal" href="#lessons-learned-and-suggested-improvements" id="id13">7.0 Lessons Learned and Suggested Improvements</a></li>
-<li><a class="reference internal" href="#acknowledgements" id="id14">8.0 Acknowledgements</a></li>
+<li><a class="reference internal" href="#bill-of-materials" id="id15">6.0 Bill of Materials</a></li>
+<li><a class="reference internal" href="#suggested-improvements" id="id16">7.0 Suggested Improvements</a></li>
+<li><a class="reference internal" href="#acknowledgements" id="id17">8.0 Acknowledgements</a></li>
 </ul>
 </div>
     </div>
 
     <div class="content">
-      <p><em>This blog post has been updated in a newer blog post. Please see the updated version of this blog post for the most up to date information.</em></p>
+      <p><em>This is an updated version of a previous blog post on the implementation of a
+PID controller on an instrumented ebike which can be</em> <a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-implementation.html">found here</a>.
+<em>Updates include sections 5.4-5.5 discussing the added dead man's switch and
+throttle relay and minor fixes throughout.</em></p>
 
 <div class="section" id="introduction">
-<h2><a class="toc-backref" href="#id1">1.0 Introduction</a></h2>
-<p>The overall goal of this project is to design and implement a control system
-for an instrumented ebike used in bicycle handling experimentation. A previous
-blog post found <a class="reference external" href="ebike-controller-design">here</a></p>
-<p>outlines the design and analysis of a PID controller that meets the steady
-state error goal of +/- 0.1m/s. This blog post tells the story of how the
-designed PID controller was implemented on the instrumented ebike using an
-Arduino Nano.</p>
+<h2><a class="toc-backref" href="#id2">1.0 Introduction</a></h2>
+<p>The overall goal of this project is to design and implement a cruise control
+system for an instrumented ebike used for conducting bicycle handling
+experiments. A previous blog post <a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-design.html">(found here)</a> outlines the design and analysis of a
+continuous time PID controller for controlling the speed of the ebike. This
+blog post tells the story of how the designed PID controller was implemented
+digitally on the instrumented ebike through an Arduino Nano and how it fits
+into the ebike cruise control system that was developed to make functional use
+of the PID controller.</p>
 </div>
 <div class="section" id="system-operation-functionality">
-<h2><a class="toc-backref" href="#id2">2.0 System Operation &amp; Functionality</a></h2>
-<p>The implementation of the PID controller on the electric bike was fundamentally
-informed by the interactions that the user would have with the system. A
-typical user interaction with the system is outlined in Figure 1 below.</p>
+<h2><a class="toc-backref" href="#id3">2.0 System Operation &amp; Functionality</a></h2>
+<p>The implementation of the cruise control system on the electric bike was
+fundamentally informed by the interactions the user would have with the system.
+A typical user interaction with the system is outlined in Figure 1 below.</p>
 <div class="figure align-center">
 <img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;"/>
 <p class="caption"><em>Figure 1. A typical user interaction with the system.</em></p>
 </div>
 <p>This user interaction flowchart was used to help better understand the problem
-and sculpt the concept for the hardware and software design of the speed
-control system.</p>
+of implementing the cruise control system and sculpt the concepts for the
+hardware and software portions of the cruise control system.</p>
 </div>
 <div class="section" id="system-architecture">
-<h2><a class="toc-backref" href="#id3">3.0 System Architecture</a></h2>
+<h2><a class="toc-backref" href="#id4">3.0 System Architecture</a></h2>
 <div class="section" id="control-architecture">
-<h3><a class="toc-backref" href="#id4">3.1 Control Architecture</a></h3>
-<p>The control architecture is a simple feedback design that computes the error
-between a user defined setpoint and compares it to the speed of the ebike as
-measured via a DC generator wheel speed sensor (more on this in section 5.2).
-Figure 2, shows how this error is inputted to the control algorithm encoded in
-the Arduino Nano resulting in an output variable used to control the speed of
-the ebike.</p>
+<h3><a class="toc-backref" href="#id5">3.1 Control Architecture</a></h3>
+<p>The control architecture is a simple negative feedback design that computes the
+error between a user defined setpoint and the actual speed of the ebike. Figure
+2 graphically shows how the control architecture is implemented on the ebike.</p>
 <div class="figure align-center">
 <img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;"/>
-<p class="caption"><em>Figure 2. Control architecture.</em></p>
+<p class="caption"><em>Figure 2. Control architecture as implemented on the ebike.</em></p>
 </div>
 </div>
 <div class="section" id="physical-architecture">
-<h3><a class="toc-backref" href="#id5">3.2 Physical Architecture</a></h3>
-<p>At the heart of the control system’s physical architecture is its integration
-into the existing instrumented ebike platform.  Figure 3, below, shows this
+<h3><a class="toc-backref" href="#id6">3.2 Physical Architecture</a></h3>
+<p>At the heart of the cruise control system’s physical architecture is its
+integration into the instrumented ebike’s powertrain. Figure 3 shows this
 integration by highlighting the input/output and geometric relationships
-between existing components of the ebike and the additional control system
-components.</p>
+between existing components of the ebike and the additional components needed
+to implement the cruise control system.</p>
 <div class="figure align-center">
 <img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;"/>
 <p class="caption"><em>Figure 3. Geometric layout of the system components showing relative size,
 location, information flow, and type of each component. Components called
 out with a triangle are existing components on the ebike. Components called
 out with a circle are components that are introduced to the ebike system to
-implement the controller.</em></p>
+implement the cruise control.</em></p>
 </div>
 <p>The fundamental interaction between the control system and the existing ebike
 powertrain system occurs at the interface between the Arduino nano and the
 ebike motor controller. While the cruise control is engaged, the function of
-the Arduino is to take control of the throttle signal away from the user and
-pass it through the control algorithm before sending it to the motor
-controller. When the cruise control is disengaged, the Arduino simply reads the
-user commanded throttle position and passes it directly to the motor
-controller.  Figure 4, below, graphically shows this interaction.</p>
+the Arduino is to take control of the throttle signal away from the user by
+passing the calculated output of the control loop to the motor controller
+instead of the throttle position commanded by the rider. When the cruise
+control is disengaged, the Arduino simply reads the user commanded throttle
+position and passes it directly to the motor controller. Figure 4, below,
+graphically shows this interaction.</p>
 <div class="figure align-center">
 <img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;"/>
 <p class="caption"><em>Figure 4. Schematic showing the Arduino’s function as a throttle emulator.</em></p>
 </div>
+<p><em>Note: Testing of the cruise control system has shown the implementation method
+shown in Figure 4 to be inadequate while the cruise control is disengaged. The
+time required for the Arduino to read and then write the signal it receives
+from the throttle leads to unresponsive manual speed control while the cruise
+control is disengaged. A fix to this issue is proposed in section 5.5 of this
+blog post.</em></p>
 </div>
 </div>
 <div class="section" id="software">
-<h2><a class="toc-backref" href="#id6">4.0 Software</a></h2>
-<p>The control system software was written in C using the Arduino IDE. Based on
-user inputs from two momentary pushbuttons, the software decides whether or not
-to pass the throttle signal as an output or compute a throttle output based on
-the PID controller. The software also updates the user on the current status of
-the system via an LCD and logs diagnostic information to an SD card.</p>
-<p>Figure 5, below, shows the logic flow of the code.</p>
+<h2><a class="toc-backref" href="#id7">4.0 Software</a></h2>
+<p>The cruise control system software was written in C using the Arduino IDE.
+Based on user inputs from two momentary pushbuttons, the software decides
+whether or not to pass the throttle signal as an output or compute a throttle
+output based on the PID controller. The software also updates the user on the
+current status of the system via an LCD and logs diagnostic information to an
+SD card.</p>
+<p>Figure 5, below, shows a high level view of the logic flow of the code.</p>
 <div class="figure align-center">
 <img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;"/>
-<p class="caption"><em>Figure 5. Code logic flowchart.</em></p>
+<p class="caption"><em>Figure 5. Basic logic flowchart of the cruise control software.</em></p>
 </div>
-<p>The software, and more details about it, can be found on the Laboratorium’s
+<p>Source code, and more details about it, can be found on the Laboratorium’s
 Github repository <a class="reference external" href="https://github.com/mechmotum/eBikeSpdController">found here</a>.</p>
 <div class="section" id="code-libraries">
-<h3><a class="toc-backref" href="#id7">4.1 Code Libraries</a></h3>
+<h3><a class="toc-backref" href="#id8">4.1 Code Libraries</a></h3>
 <p>The continuous time PID controller derived in part one of this blog post series
 was digitized on the Arduino Nano using Brett Beauregard’s PID_v1 library
 <a class="reference external" href="https://github.com/br3ttb/Arduino-PID-Library">(found here)</a>. This library
-was developed by Brett to implement PID controllers on an Arduino
-microcontroller.</p>
+was developed by Brett to implement continuous time PID controllers on Arduino
+microcontrollers.</p>
 <p>Brett’s library was chosen to implement the PID controller because of its many
-robust features such as Derivative Kick and Initialization.  Additionally, this
+robust features such as Derivative Kick and Initialization. Additionally, this
 library contains fantastic documentation which can be <a class="reference external" href="http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/">found here</a>.</p>
 <p>To avoid slowing the code’s main loop, interrupts were used to manage the
 change in setpoint brought on by a press of the speed increment decrement
@@ -206,31 +217,32 @@ Instead, the processor reacts to pin changes and interrupts the execution of
 the main code to perform the function tied to the interrupt pin. However, the
 Arduino Nano only has a limited number of pins that can be used as interrupts.
 A library, written by GreyGnome <a class="reference external" href="https://github.com/GreyGnome/PinChangeInt">(found here)</a>, enables the use of interrupts
-on any pin of the Arduino Nano.  This library was used to free up pin real
+on any pin of the Arduino Nano. This library was used to free up pin real
 estate for the many components that are wired up to the Arduino.</p>
 </div>
 </div>
 <div class="section" id="hardware-hook-up-and-design">
-<h2><a class="toc-backref" href="#id8">5.0 Hardware Hook Up and Design</a></h2>
+<h2><a class="toc-backref" href="#id9">5.0 Hardware Hook Up and Design</a></h2>
 <div class="section" id="instrumented-ebike-platform">
-<h3><a class="toc-backref" href="#id9">5.1 Instrumented Ebike Platform</a></h3>
+<h3><a class="toc-backref" href="#id10">5.1 Instrumented Ebike Platform</a></h3>
 <p>Jason Moore, the lab’s PI, originally began constructing the instrumented ebike
 platform in 2009 from a large Surly single speed off road steel frame bicycle
 converted to an ebike with a conversion kit sold by Amped Bikes. The Amped
 Bikes kit consists of a brushless direct drive hub motor driven by a motor
-controller and a 36V Li ion battery. More information on the build and the
-bike’s instrumentation system can be found in Jason’s dissertation <a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html">found here</a>.</p>
+controller and powered by a 36V Li ion battery. More information on the build
+and the bike’s instrumentation system can be found in Jason’s dissertation
+<a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html">found here</a>.</p>
 <div class="figure align-center">
 <img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;"/>
 <p class="caption"><em>Figure 6. The instrumented ebike today.</em></p>
 </div>
 </div>
 <div class="section" id="electrical-hook-up">
-<h3><a class="toc-backref" href="#id10">5.2 Electrical Hook Up</a></h3>
+<h3><a class="toc-backref" href="#id11">5.2 Electrical Hook Up</a></h3>
 <p>The electrical components of the control system revolve around an Arduino Nano
-which is used to process inputs and outputs to human interface hardware,
-actuators, and logging hardware. Table 1, below, shows a complete list of the
-hardware used in this build.</p>
+which is the central processor for the hardware and logic of the cruise control
+system. Table 1, below, shows a complete list of the hardware used in this
+build.</p>
 <table border="1" class="colwidths-given docutils">
 <caption><em>Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in section 6.0.</em></caption>
 <colgroup>
@@ -279,20 +291,13 @@ hardware used in this build.</p>
 </tr>
 </tbody>
 </table>
-<p>Figure 7, below, shows a Fritzing diagram of the electrical system.</p>
-<div class="figure align-center">
-<img alt="Electrical Hookup." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg" style="width: 60%;"/>
-<p class="caption"><em>Figure 7. Fritzing diagram of control system electronics. Note that the
-motor controller is represented by a DC motor and the 7.2V NiCd battery is
-represented by a 1S LiPo battery.</em></p>
-</div>
 <p>The Arduino Nano and the voltage divider circuits were soldered to a small 3" x
-1.1" piece of stripboard. Wires, braided 22AWG, were soldered to the stripboard
-to connect the external components to the Nano. Figure 8, below, shows the
-completed Arduino board.</p>
+1" piece of protoboard. Wires (22 AWG) were soldered to the protoboard to
+connect the external components to the Nano. Figure 7 shows the completed
+Arduino board.</p>
 <div class="figure align-center">
 <img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;"/>
-<p class="caption"><em>Figure 8. The Arduino board with wires attached.</em></p>
+<p class="caption"><em>Figure 7. The Arduino board with wires attached.</em></p>
 </div>
 <p>With many of the components located on the handlebars, a majority of these
 wires were routed together along the top tube, up the head tube and stretched
@@ -300,100 +305,126 @@ across to the handlebars. This task was facilitated using spiral wound cable
 housings, zip ties, and a 15 pin Molex connector. Once on the handlebars, wires
 were connected to header pins on the LCD and pushbuttons with Dupont
 connectors.</p>
-<p>Rearward of the Arduino, T-tap wire splices were used to cleanly splice power
-signals from the NiCd battery above the Arduino near the top tube and from the
-wheel speed sensor near the bottom bracket.</p>
+<p>T-tap wire splices were used to cleanly splice power signals from the NiCd
+battery above the Arduino near the top tube and from the wheel speed sensor
+near the bottom bracket.</p>
+<p>A complete wiring schematic of the cruise control system can be found on the
+laboratorium’s github <a class="reference external" href="https://github.com/mechmotum/eBikeSpdController">here</a>.</p>
 </div>
 <div class="section" id="electronics-housings">
-<h3><a class="toc-backref" href="#id11">5.3 Electronics Housings</a></h3>
+<h3><a class="toc-backref" href="#id12">5.3 Electronics Housings</a></h3>
 <p>Housings for the Arduino Nano, pushbuttons and LCD were designed and 3D printed
-to enclose the electrical components and mount them to the ebike. Figure 9,
-below, shows the CAD model design of the Arduino housing. The housing’s design
+to enclose the electrical components and mount them to the ebike. Figure 8
+shows the CAD model design of the Arduino housing. The housing’s design
 includes pins for press fitting the Arduino stripboard to the mount. Slots on
 the sides and top of the housing allow for wires to exit towards their
 destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.</p>
 <div class="figure align-center">
 <img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;"/>
-<p class="caption"><em>Figure 9.  Arduino housing design.</em></p>
+<p class="caption"><em>Figure 8. Arduino housing design.</em></p>
 </div>
-<p>This housing is clamped to the downtube of the ebike by a socket head screw as
-shown in Figure 10.</p>
+<p>The Arduino housing is clamped to the downtube of the ebike by a socket head
+screw as shown in Figure 9.</p>
 <div class="figure align-center">
 <img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;"/>
-<p class="caption"><em>Figure 10. Arduino housing mounting point.</em></p>
+<p class="caption"><em>Figure 9. Arduino housing mounting point.</em></p>
 </div>
 <p>Both the LCD and button housings were 3D printed and designed to mount to the
 handlebars using a clamshell style mount used for securing GoPro cameras to
 bikes. Each mount had a pair of “bunny ears" designed to interface with the
-GoPro style mount. The LCD housing, shown in Figure 11 below, is a simple
+GoPro style mount. The LCD housing, shown in Figure 10 below, is a simple
 rectangular two-piece enclosure joined by button head screws.</p>
 <div class="figure align-center">
 <img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;"/>
-<p class="caption"><em>Figure 11. LCD housing design.</em></p>
+<p class="caption"><em>Figure 10. LCD housing design.</em></p>
 </div>
 <p>Similar to the LCD housing, the button housing is a two-piece, enclosure joined
-by screws. Inside the housing is a small piece of stripboard that the
+by screws. Inside the housing is a small piece of protoboard that the
 pushbuttons are soldered to. To make pressing the mini momentary pushbuttons
 more convenient for the user, larger button parts were 3D printed and offset
 from each mini momentary pushbutton using a compression spring as shown in
-Figure 12 below.</p>
+Figure 11 below.</p>
 <div class="figure align-center">
 <img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;"/>
-<p class="caption"><em>Figure 12. Button housing design.</em></p>
+<p class="caption"><em>Figure 11. Button housing design.</em></p>
 </div>
-<p>As shown in Figure 13, the button housing is mounted on right side of the
+<p>As shown in Figure 12, the button housing is mounted on the right side of the
 handlebars near the throttle and brake lever for convenient access.</p>
 <div class="figure align-center">
 <img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;"/>
-<p class="caption"><em>Figure 13. Button housing position on the handlebars.</em></p>
+<p class="caption"><em>Figure 12. Button housing position on the handlebars.</em></p>
 </div>
+</div>
+<div class="section" id="dead-mans-switch">
+<h3><a class="toc-backref" href="#id13">5.4 Dead Man’s Switch</a></h3>
+<p>For safety reasons, a dead man’s switch was added to the cruise control system.
+The dead man’s switch works by cutting power from the Li+ battery through a
+mechanical relay. The relay’s coil is connected to a power circuit having a
+Reed switch. The Reed switch is actuated by a magnet strapped to the rider’s
+ankle. If the rider were to remove their ankle from the foot peg, separating
+the ankle magnet from the Reed switch, power to relay’s coil would be
+interrupted, opening the Li+ battery circuit. Sheet five of the master
+electrical schematic shows how the switch is wired up to the ebike’s
+powertrain.</p>
+</div>
+<div class="section" id="throttle-relay-planned">
+<h3><a class="toc-backref" href="#id14">5.5 Throttle Relay (Planned)</a></h3>
+<p>Currently, when cruise control is disengaged, the time it takes the Arduino to
+read the throttle signal and then write it to the motor controller is leading
+to a jerky ride. This is likely due to the intermittency in the throttle signal
+output to the motor controller produced by the delay in reading and writing the
+throttle signal through the Arduino. Placing a relay in line with the throttle
+signal will provide a continuous signal flow to the motor controller by
+eliminating the need to read and then write that signal when it passes through
+the Arduino. A continuous signal flow will eliminate the intermittency issues
+that make the bike feel jerky when the cruise control is disengaged.</p>
+<p>Current plans for the relay have it placed inline with the throttle signal wire
+and switched by the Arduino through its digital write function. The proposed
+changes to the wiring schematic and software can be found on the project’s
+Github repository under the “relay” branch. Plans for the physical
+implementation of the relay include placing the relay on a piece of protoboard
+mounted to the bike’s top tube,inside the upper head tube triangle.</p>
 </div>
 </div>
 <div class="section" id="bill-of-materials">
-<h2><a class="toc-backref" href="#id12">6.0 Bill of Materials</a></h2>
+<h2><a class="toc-backref" href="#id15">6.0 Bill of Materials</a></h2>
 <div class="figure align-center">
 <img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;"/>
 <p class="caption"><em>Table 2. Bill of materials (BOM) showing each part of project, where it was
 purchased, what quantity was purchased and its cost.</em></p>
 </div>
 </div>
-<div class="section" id="lessons-learned-and-suggested-improvements">
-<h2><a class="toc-backref" href="#id13">7.0 Lessons Learned and Suggested Improvements</a></h2>
-<p>Throughout the process of implementing this controller, I learned some helpful
-lessons when it comes to designing electronics  housings and doing electrical
-hookups.</p>
-<p>Some lessons learned include the following:</p>
-<ul class="simple">
-<li>It is important to account for the minimum bend radius of each wire inside of
-an electrical enclosure</li>
-<li>It is important to follow <a class="reference external" href="https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks">best practices</a>
-when designing for heat set threaded inserts</li>
-<li>Iteration is required in order to achieve a design intent when 3D printing</li>
-<li>Test the assembly and function of electrical connections on scrap wire before
-commiting changes</li>
-</ul>
+<div class="section" id="suggested-improvements">
+<h2><a class="toc-backref" href="#id16">7.0 Suggested Improvements</a></h2>
 <p>Throughout the implementation of this design, I've made note of some
-improvements to the system's design that could be made. I have listed these
-below:</p>
+improvements to the system's hardware design that could be made to address
+known issues. I have listed these below:</p>
 <ul class="simple">
-<li>A larger momentary pushbutton could be used to reduce the complexity of the
-button housing and improve its functionality</li>
 <li>Use a display that communicates via the SPI protocol to reduce the number of
 wires used</li>
-<li>For the Arduino board, use a custom PCB to increase the robustness of the
-board</li>
+<li>For the Arduino board, use a custom PCB and connectors to increase the
+robustness of the board</li>
+<li>Implement a throttle relay (See section 5.5)</li>
+</ul>
+<p>Here are some avenues for improving the accuracy and precision of the cruise
+control:</p>
+<ul class="simple">
+<li>Set a faster sampling time in the PID Arduino library</li>
+<li>Replace DC generator wheel speed sensor with a rotary encoder for smoother
+speed input (and preservation of the rear tire)</li>
+<li>Experiment with manual PID parameter tuning during outdoor testing to improve
+output surging while cruise control is engaged</li>
 </ul>
 </div>
 <div class="section" id="acknowledgements">
-<h2><a class="toc-backref" href="#id14">8.0 Acknowledgements</a></h2>
+<h2><a class="toc-backref" href="#id17">8.0 Acknowledgements</a></h2>
 <p>I would like to thank <a class="reference external" href="https://github.com/ngchan">Nicholas Chan</a> for writing
 the camera gimbal software that my speed control software is based off of. I’d
 also like to thank <a class="reference external" href="https://github.com/br3ttb">Brett Beuaregard</a> for writing
 the PID library and it’s excellent documentation that is the heart of the speed
 control software. Finally, I’d like to thank Jason Moore for his support and
 mentorship throughout this project.</p>
-<p>Stay tuned for part three of this series: Testing and Validation</p>
 </div>
 
     </div>
