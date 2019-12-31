@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-12-30T00:00:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation-updated.html" rel="alternate"></link><published>2019-12-30T00:00:00-08:00</published><updated>2019-12-30T00:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-12-30:/blog/ebike-controller-implementation-updated.html</id><summary type="html">&lt;p class="first last"&gt;Updated blog post on the implementation of a PID controller on an
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-12-30T21:00:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Rowing Performance Estimation Paper Published</title><link href="https://mechmotum.github.io/blog/rowing-estimation-paper-published.html" rel="alternate"></link><published>2019-12-30T21:00:00-08:00</published><updated>2019-12-30T21:00:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2019-12-30:/blog/rowing-estimation-paper-published.html</id><summary type="html">&lt;p class="first last"&gt;Our 2019 rowing performance estimation paper is now published in Plos
+One.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;We've been working on this project and paper for two years and it was finally
+published in Plos One on December 5, 2019. The citation is:&lt;/p&gt;
+&lt;blockquote&gt;
+Cloud B, Tarien B, Liu A, Shedd T, Lin X, Hubbard M, et al. (2019) Adaptive
+smartphone-based sensor fusion for estimating competitive rowing kinematic
+metrics. PLoS ONE 14(12): e0225690. &lt;a class="reference external" href="https://doi.org/10.1371/journal.pone.0225690"&gt;https://doi.org/10.1371/journal.pone.0225690&lt;/a&gt;&lt;/blockquote&gt;
+&lt;a class="reference external image-reference" href="https://doi.org/10.1371/journal.pone.0225690"&gt;&lt;img alt="Screenshot of the Plos One paper." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/row-plos-screenshot.png" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p&gt;The abstract reads:&lt;/p&gt;
+&lt;blockquote&gt;
+Competitive rowing highly values boat position and velocity data for
+real-time feedback during training, racing and post-training analysis. The
+ubiquity of smartphones with embedded position (GPS) and motion
+(accelerometer) sensors motivates their possible use in these tasks. In this
+paper, we investigate the use of two real-time digital filters to achieve
+highly accurate yet reasonably priced measurements of boat speed and
+distance traveled. Both filters combine acceleration and location data to
+estimate boat distance and speed; the first using a complementary frequency
+response-based filter technique, the second with a Kalman filter formalism
+that includes adaptive, real-time estimates of effective accelerometer bias.
+The estimates of distance and speed from both filters were validated and
+compared with accurate reference data from a differential GPS system with
+better than 1 cm precision and a 5 Hz update rate, in experiments using two
+subjects (an experienced club-level rower and an elite rower) in two
+different boats on a 300 m course. Compared with single channel (smartphone
+GPS only) measures of distance and speed, the complementary filter improved
+the accuracy and precision of boat speed, boat distance traveled, and
+distance per stroke by 44%, 42%, and 73%, respectively, while the Kalman
+filter improved the accuracy and precision of boat speed, boat distance
+traveled, and distance per stroke by 48%, 22%, and 82%, respectively. Both
+filters demonstrate promise as general purpose methods to substantially
+improve estimates of important rowing performance metrics.&lt;/blockquote&gt;
+&lt;p&gt;Congratulations to everyone involved in making this happen! We hope this work
+helps others progress in sports performance estimation and other related
+topics.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="Rowing performance estimation project team." src="https://objects-us-east-1.dream.io/mechmotum/row-research-team.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Research team members Li Wang, Ada Liu, Thomas Shedd, Paul Crawford, Britt
+Tarien, and Bryn Cloud&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="papers"></category><category term="rowing"></category><category term="sports"></category><category term="engineering"></category><category term="estimation"></category><category term="kalman filter"></category></entry><entry><title>Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation-updated.html" rel="alternate"></link><published>2019-12-30T15:00:00-08:00</published><updated>2019-12-30T15:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-12-30:/blog/ebike-controller-implementation-updated.html</id><summary type="html">&lt;p class="first last"&gt;Updated blog post on the implementation of a PID controller on an
 instrumented ebike&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;em&gt;This is an updated version of a previous blog post on the implementation of a
 PID controller on an instrumented ebike which can be&lt;/em&gt; &lt;a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-implementation.html"&gt;found here&lt;/a&gt;.
