@@ -1,7 +1,7 @@
 Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike
 =============================================================================================
 
-:date: 2019-12-30 00:00:00
+:date: 2019-12-30 15:00:00
 :tags: bicycle, engineering, controller implementation, arduino
 :category: research
 :slug: ebike-controller-implementation-updated
