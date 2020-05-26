@@ -128,7 +128,7 @@ hr {
 
 /*---------------------------------------------------------------------------*/
 
-img.align-center {
+.align-center {
   display: block;
   margin: 0 auto;
 }
