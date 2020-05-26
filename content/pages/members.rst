@@ -21,7 +21,7 @@ Research Assistants
 ===================
 
 Past
-   - Aaron Shaw [June 2018-December 2018], now at `JUMP Bikes <https://jump.com>`_
+   - Aaron Shaw [June 2018-December 2018]
    - Britt Tarien [June 2018-December 2018], now at BioCeryx
    - Scott Kresie [January 2017-September 2017]
 
@@ -29,6 +29,7 @@ Undergraduate Research Assistants
 =================================
 
 Current
+   - Noah Sanders [January 2020-present]
    - Hao Huang [October 2019-present]
    - Tannavee Kumar [October 2019-present]
    - Celine Liang [February 2019-present]
@@ -51,7 +52,7 @@ Past
    - Edward Jacobs [July 2018-October 2018], now at Barnhard Crane & Rigging
    - Henry Agnew [July 2018-September 2018]
    - Roy Gilboa [July 2018-September 2018], now at `Gener8 <http://www.gener8.net/>`_
-   - Aaron Shaw [March 2016-June 2017], now at `JUMP Bikes <https://jump.com>`_
+   - Aaron Shaw [March 2016-June 2017]
    - Vivian Tran [May 2016-December 2016], now at University of Michigan
    - Braden Tinucci [November 2015-December 2015], now at Valcor Engineering
      Corporation
@@ -59,8 +60,10 @@ Past
 Teaching Assistants
 ===================
 
+- Russell Hawkins [March 2020-June 2020]
+- Sergio Guillen [January 2020-March 2020]
 - Kevin Mallon [September 2019-present]
-- Gregory Bales [January 2019-June 2019]
+- Gregory Bales [January 2020-March 2020, January 2019-June 2019]
 - Scott Kresie [January 2019-June 2019, January 2018-June 2018]
 - Ian Garretson [January 2019-June 2019, January 2018-June 2018]
 - Naveen Gowrishankar [January 2017-June 2017,January 2018-June 2018], now at Omron Adept Technologies
