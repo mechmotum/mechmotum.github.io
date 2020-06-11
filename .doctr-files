@@ -27,6 +27,7 @@
 ./blog/jupyter-summer-2019.html
 ./blog/jupyter-winter-2019.html
 ./blog/libretexts-grant.html
+./blog/moving-to-tudelft.html
 ./blog/practical-realization-of-a-theoretical-optimal-handling-bicycle-results.html
 ./blog/rowing-estimation-paper-published.html
 ./blog/sacpy-slideck-2019.html
@@ -39,6 +40,7 @@
 ./category/conferences.html
 ./category/education.html
 ./category/grants.html
+./category/news.html
 ./category/papers.html
 ./category/research.html
 ./feeds/all.atom.xml
@@ -46,6 +48,7 @@
 ./feeds/conferences.atom.xml
 ./feeds/education.atom.xml
 ./feeds/grants.atom.xml
+./feeds/news.atom.xml
 ./feeds/papers.atom.xml
 ./feeds/research.atom.xml
 ./guide.html

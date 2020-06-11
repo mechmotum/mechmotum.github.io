@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-06-10T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>The Laboratorium is Moving to TU Delft</title><link href="https://mechmotum.github.io/blog/moving-to-tudelft.html" rel="alternate"></link><published>2020-06-10T00:00:00-07:00</published><updated>2020-06-10T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-06-10:/blog/moving-to-tudelft.html</id><summary type="html">&lt;p class="first last"&gt;The lab is moving to TU Delft this summer.&lt;/p&gt;
+</summary><content type="html">&lt;img alt="TU Delft Logo" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/tudelft-logo.png" /&gt;
+&lt;p&gt;I am pleased to announce that I have accepted a position as an Assistant
+Professor in the &lt;a class="reference external" href="https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/"&gt;Biomechanical Engineering Department&lt;/a&gt; of the &lt;a class="reference external" href="https://www.tudelft.nl/en/3me/"&gt;Mechanical,
+Maritime, and Materials Engineering (3mE) Faculty&lt;/a&gt; at &lt;a class="reference external" href="https://www.tudelft.nl"&gt;Delft University of
+Technology&lt;/a&gt; where I will join the Biomechatronics &amp;amp; Human-Machine Control
+group. At TU Delft I will be leading a research laboratory and effort focusing
+on bicycle engineering and related technologies. I will be teaching courses in
+dynamics, multibody dynamics, and computational engineering to compliment this
+effort and support the students in the department and faculty.&lt;/p&gt;
+&lt;p&gt;So, this means that the Laboratorium for Marvelous Mechanical Motum will be
+moving with me to the Netherlands. Over the next few years the lab will be
+reimagined as it merges with the existing TU Delft &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/"&gt;Bicycle Dynamics Lab&lt;/a&gt;. The
+primary initial topics of research will be:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Data driven vehicle and biomechanical modeling of the bicycle-rider system&lt;/li&gt;
+&lt;li&gt;Data driven manual control characterization and identification in bicycle
+balance and navigation&lt;/li&gt;
+&lt;li&gt;Design and augmented/autonomous control for improvements in bicycling safety
+and handling&lt;/li&gt;
+&lt;li&gt;Development of the next generation of bicycle designs for improvements to
+transportation&lt;/li&gt;
+&lt;li&gt;Application of vehicle dynamics to influence transportation infrastructure
+design&lt;/li&gt;
+&lt;li&gt;Performance and safety improvements in the sport of cycling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are described more in the &lt;a class="reference external" href="https://github.com/moorepants/application-materials/blob/gh-pages/2019/tudelft/research-statement.pdf"&gt;research statement&lt;/a&gt; I developed for my
+application and presented in the slides from the job talk below:&lt;/p&gt;
+&lt;iframe
+src="https://docs.google.com/presentation/d/e/2PACX-1vThi6LQvvs6Xw6AFr3HJTzGPSv2EOo5r1vSBlmqEsHK6WvDMqMKVi1DVMGm9U-rRspRPU76dCX33-DZ/embed?start=false&amp;loop=false&amp;delayms=3000"
+frameborder="0" width="960" height="569" allowfullscreen="true"
+mozallowfullscreen="true" webkitallowfullscreen="true"&gt;&lt;/iframe&gt;&lt;p&gt;I start the new position on August 1st, 2020; so look for changes and new
+announcements as I ramp up activity. I'll soon be looking for TU Delft MSc
+students for various projects and will be reaching out to researchers,
+companies, and organizations in Europe to develop new collaborations. Feel free
+to contact me if you are interested in working with me and the new lab.&lt;/p&gt;
+&lt;p&gt;I am going to miss UC Davis. I've been here for the vast majority of the last
+15 years and have learned so much from the faculty, students, and colleagues.
+It is a bittersweet departure, but an exciting new adventure awaits!&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="biomechanics"></category><category term="control"></category><category term="education"></category><category term="engineering"></category><category term="sports"></category></entry></feed>
