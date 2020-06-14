@@ -119,9 +119,9 @@ which is not allowed in ``C++``.
 Packages and libraries can be exported as they normally would; however, if
 an author finds that a specific package or library that they would like to
 use is not currently available they can make a request to have it added by
-either sending an `email to the Jupyter Team<jupyterteam@ucdavis.edu>` __,
-linked in the dialog box, or `open an issue
-<https://github.com/LibreTexts/ckeditor-binder-plugin/issues>` __ . 
+either sending an `email to the Jupyter Team <jupyterteam@ucdavis.edu>`__,
+linked in the dialog box, or `open an issue 
+<https://github.com/LibreTexts/ckeditor-binder-plugin/issues>`__ . 
 
 Once the author is ready to insert the code block into their textbook page,
 they have the option to either ‘Insert with code and output,’ ‘Insert with
