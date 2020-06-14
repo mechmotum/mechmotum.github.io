@@ -1,18 +1,21 @@
 Developing a Textbook Editor Plugin Inserting Executable Code Blocks
 ====================================================================
 
-:date: 2020-06-13 00:00:00 :tags: oer, education, jupyter, textbooks,
-engineering, libretexts :category: education :slug: jupyter-summer-2020
-:authors: Hao Huang, Tannavee Kumar, Celine Liang :summary: Blog post on
-creating a CKEditor plugin which could insert executable code blocks
+:date: 2020-06-13 00:00:00 
+:tags: oer, education, jupyter, textbooks, engineering, libretexts 
+:category: education 
+:slug: jupyter-summer-2020
+:authors: Hao Huang, Tannavee Kumar, Celine Liang 
+:summary: Blog post on creating a CKEditor plugin which could insert 
+  executable code blocks
 
 Background
 ----------
 
 During the end of the Fall Quarter 2019 and Winter Quarter 2020, we focused
 on building a `CKEditor Binder Plugin
-<https://github.com/LibreTexts/ckeditor-binder-plugin>` __ to be used on
-the `LibreTexts <https://libretexts.org>` __ to allow textbook authors to
+<https://github.com/LibreTexts/ckeditor-binder-plugin>`__ to be used on
+the `LibreTexts <https://libretexts.org>`__ to allow textbook authors to
 insert executable code blocks. We intend for both textbook authors and
 readers to have the ability to edit and run code blocks efficiently, making
 online educational content more interactive.
@@ -79,7 +82,7 @@ During development, we used `environments developed by the Jupyter project
 <https://github.com/binder-examples>`__. Using their Binder environments
 helped us test and include different languages in our editor. Ideally, we
 would utilize the same `default environment
-<https://github.com/libretexts/default-env>` __ in our JupyterHub for our
+<https://github.com/libretexts/default-env>`__ in our JupyterHub for our
 editor. This default environment contains many packages that are commonly
 used and requested by students and faculty. 
 
