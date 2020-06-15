@@ -131,6 +131,14 @@ in the code block. If the code block has already been inserted into the
 page, and the author wants to make any changes, they can simply double
 click on that section and the dialog box will pop back up. 
 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/example-libretexts-jupyter-page.gif
+   :width: 100%
+   :alt: GIF depicting an example page made using CKEditor
+   :align: center
+
+   *Figure 1: Example of what and author can do with CKEditor, and what the output will look like*
+
+
 Future
 ------ 
 
