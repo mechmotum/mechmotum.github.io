@@ -1,4 +1,4 @@
-Developing a Textbook Editor Plugin Inserting Executable Code Blocks
+Developing a LibreTexts Editor Plugin For Inserting Executable Code Blocks
 ====================================================================
 
 :date: 2020-06-13 00:00:00 
