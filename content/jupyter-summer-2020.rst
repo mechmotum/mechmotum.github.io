@@ -16,7 +16,8 @@ Background
 During the end of the Fall Quarter 2019 and Winter Quarter 2020, we focused
 on building a `CKEditor Binder Plugin
 <https://github.com/LibreTexts/ckeditor-binder-plugin>`__ to be used on
-the `LibreTexts <https://libretexts.org>`__ to allow textbook authors to
+the `LibreTexts <https://libretexts.org>`__ website to allow textbook authors to
+
 insert executable code blocks. We intend for both textbook authors and
 readers to have the ability to edit and run code blocks efficiently, making
 online educational content more interactive.
