@@ -145,7 +145,8 @@ Future
 ------ 
 
 As mentioned before, a long term goal is to use ``default-env`` for the
-packages, this is the same environment that is used for JupyterHub, and by
+packages, this is the same environment that is used for the LIbreTexts-UCD JupyterHub, and by
+
 using this, authors will have a greater selection of packages and libraries
 to choose from, and it will also be easier for us to maintain. We also want
 to improve the execution time of the code blocks, as currently requesting a
