@@ -1,14 +1,14 @@
 Developing a LibreTexts Editor Plugin For Inserting Executable Code Blocks
 ====================================================================
 
-:date: 2020-06-13 00:00:00 
+:date: 2020-06-22 00:00:00 
 :tags: oer, education, jupyter, textbooks, engineering, libretexts 
 :category: education 
 :slug: libretexts-jupyter-plugin
 
 :authors: Hao Huang, Tannavee Kumar, Celine Liang 
 :summary: Blog post on creating a CKEditor plugin which could insert 
-  executable code blocks
+          executable code blocks
 
 Background
 ----------
@@ -24,7 +24,7 @@ online educational content more interactive.
  
 Build Process
 -------------
-We started the project by surveying
+We started the project by `surveying <https://docs.google.com/document/d/1eV08l_4djKJ7bc8r0LPbD5bp3QT7mHTZgABUleH15H0/edit?usp=sharing>`__
 LibreTexts authors and readers on their most requested features. 
 
 BinderHub
@@ -33,40 +33,46 @@ On the backend, the CKEditor Binder plugin utilizes a project called
 `BinderHub  <https://binderhub.readthedocs.io/en/latest/>`__ to run code
 blocks. BinderHub is developed as part of the Jupyter project and gives
 custom computing environments based on a list of requirements specified
-through a GitHub repository. We intend to use a BinderHub that we deployed
-on our bare-metal Kubernetes cluster as our backend environment to run
-codeblocks.
+through a GitHub repository. 
 
 Thebelab
 ^^^^^^^^
 `Thebelab <https://github.com/minrk/thebelab>`__ and  `Juniper
 <https://github.com/ines/juniper>`__ are two examples of projects which can
 insert code blocks into HTML pages and running them by requesting a kernel
-from a computing backend like BinderHub. We deliberated on which project to
-incorporate into our plugin, and decided to use Thebelab since it seemed to
-be more actively maintained and had more community support.
+from a computing backend like BinderHub. We found that Juniper had some 
+better deign elements; however, Thebelab was more actively maintained.
+We deliberated on which project to incorporate into our plugin, and decided to 
+use Thebelab since the recent commits indicated that any possible need for help 
+would be more promptly met. To incorportate some of the streamlined design elements of 
+Juniper, we planned on adding syntax highlighting.
 
 Creating the plugin
 ^^^^^^^^^^^^^^^^^^^
 Our plugin is based on the `CKEditor 4
 <https://ckeditor.com/docs/ckeditor4/latest/>`__, an open source “what you
-see is what you get” text editor. This editor is used on the LibreTexts
-website through a service called Mindtouch.
+see is what you get” text editor. This is the editor authors use on the 
+LibreTexts website.
 
 Our approach to this plugin is to make use of a `widget
 <https://ckeditor.com/docs/ckeditor4/latest/guide/widget_sdk_intro.html>`__,
 on the editor which allows us to place all the HTML elements of Thebelab
-together as one unit. Additionally, we created a `dialog window
-<https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_dialog_windows.html>`__
+together as one unit. In other words the widget is a componant 
+made out of multiple seperate elements that are grouped together for easy formatting
+and movement; however, inidividual parts can be altered independently. This allows
+for the CKEditor instance to easily enforce the elements. Additionally, we created 
+a `dialog window <https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_dialog_windows.html>`__
 for each code block so that users can modify each block whenever they want.
 
 Mindtouch Specific Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 One of the challenges we faced was working around Mindtouch, which
-sometimes caused the plugin to function in unexpected ways. For instance,
-Mindtouch seemed to apply its own CSS to the plugin. This caused text
-overflow, addition of characters to the end of each line, etc. In order to
-resolve this, we added our own `styling
+sometimes caused the plugin to function in unexpected ways. For reference,
+Mindtouch was what lended the interface for the text editor, it is the web 
+based wiki software that Libretexts uses for editing the website. An exmaple of 
+an obstacle we faced was that Mindtouch seemed to apply its own CSS to the 
+plugin. This caused text overflow, addition of characters to the end of each 
+line, etc. In order to resolve this, we added our own `styling
 <https://github.com/LibreTexts/ckeditor-binder-plugin/tree/staging/src/styles>`__
 to the plugin. If one wishes to use the CKEditor plugin on their own pages,
 they can remove the extra styling in the folder.
@@ -82,8 +88,8 @@ Including different programming languages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 During development, we used `environments developed by the Jupyter project
 <https://github.com/binder-examples>`__. Using their Binder environments
-helped us test and include different languages in our editor. Ideally, we
-would utilize the same `default environment
+helped us test and include different languages in our editor. Eventually we will 
+utilize, we would utilize the same `default environment
 <https://github.com/libretexts/default-env>`__ in our JupyterHub for our
 editor. This default environment contains many packages that are commonly
 used and requested by students and faculty. 
@@ -126,8 +132,8 @@ linked in the dialog box, or `open an issue
 <https://github.com/LibreTexts/ckeditor-binder-plugin/issues>`__ . 
 
 Once the author is ready to insert the code block into their textbook page,
-they have the option to either ‘Insert with code and output,’ ‘Insert with
-code only,’ or ‘Insert with output only.’ Selection of any of these choices
+they have the option to either 'Insert with code and output,' 'Insert with
+code only,' or 'Insert with output only.' Selection of any of these choices
 depends on how the author intends to communicate the information provided
 in the code block. If the code block has already been inserted into the
 page, and the author wants to make any changes, they can simply double
