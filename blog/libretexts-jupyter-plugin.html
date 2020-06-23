@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Developing a LibreTexts Editor Plugin For Inserting Executable Code Blocks | Laboratorium of Marvelous Mechanical Motum
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://mechmotum.github.io/feeds/{slug}.atom.xml">  
+  <meta name="description" content="Blog post on creating a CKEditor plugin which could insert executable code blocks">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Laboratorium of Marvelous Mechanical Motum">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <h1 class="title"><a href="https://mechmotum.github.io/">Laboratorium of Marvelous Mechanical Motum</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Developing a LibreTexts Editor Plugin For Inserting Executable Code Blocks
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2020-06-22T00:00:00-07:00">
+          <i class="fa fa-clock-o"></i>
+          Mon 22 June 2020
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="https://mechmotum.github.io/category/education.html">education</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="https://mechmotum.github.io/author/hao-huang.html">Hao Huang</a>,               <a href="https://mechmotum.github.io/author/tannavee-kumar.html">Tannavee Kumar</a>,               <a href="https://mechmotum.github.io/author/celine-liang.html">Celine Liang</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="https://mechmotum.github.io/tag/oer.html">#oer</a>,               <a href="https://mechmotum.github.io/tag/education.html">#education</a>,               <a href="https://mechmotum.github.io/tag/jupyter.html">#jupyter</a>,               <a href="https://mechmotum.github.io/tag/textbooks.html">#textbooks</a>,               <a href="https://mechmotum.github.io/tag/engineering.html">#engineering</a>,               <a href="https://mechmotum.github.io/tag/libretexts.html">#libretexts</a>          </li>
+      </ul>
+    </header>
+
+
+    <div class="content">
+      <div class="section" id="background">
+<h2>Background</h2>
+<p>During the end of the Fall Quarter 2019 and Winter Quarter 2020, we focused on
+building a <a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin">CKEditor Binder Plugin</a> to be used on the
+<a class="reference external" href="https://libretexts.org">LibreTexts</a> website to allow textbook authors to
+insert executable code blocks. We intend for both textbook authors and readers
+to have the ability to edit and run code blocks efficiently, making online
+educational content more interactive.</p>
+</div>
+<div class="section" id="build-process">
+<h2>Build Process</h2>
+<p>We started the project by <a class="reference external" href="https://docs.google.com/document/d/1eV08l_4djKJ7bc8r0LPbD5bp3QT7mHTZgABUleH15H0/edit?usp=sharing">surveying</a>
+LibreTexts authors and readers on their most requested features.</p>
+<div class="section" id="binderhub">
+<h3>BinderHub</h3>
+<p>On the backend, the CKEditor Binder plugin utilizes a project called <a class="reference external" href="https://binderhub.readthedocs.io/en/latest/">BinderHub</a> to run code blocks. BinderHub
+is developed as part of the Jupyter project and gives custom computing
+environments based on a list of requirements specified through a GitHub
+repository.</p>
+</div>
+<div class="section" id="thebelab">
+<h3>Thebelab</h3>
+<p><a class="reference external" href="https://github.com/minrk/thebelab">Thebelab</a> and  <a class="reference external" href="https://github.com/ines/juniper">Juniper</a> are two examples of projects which can
+insert code blocks into HTML pages and running them by requesting a kernel from
+a computing backend like BinderHub. We found that Juniper had some better deign
+elements; however, Thebelab was more actively maintained.  We deliberated on
+which project to incorporate into our plugin, and decided to use Thebelab since
+the recent commits indicated that any possible need for help would be more
+promptly met. To incorporate some of the streamlined design elements of
+Juniper, we planned on adding syntax highlighting.</p>
+</div>
+<div class="section" id="creating-the-plugin">
+<h3>Creating the plugin</h3>
+<p>Our plugin is based on the <a class="reference external" href="https://ckeditor.com/docs/ckeditor4/latest/">CKEditor 4</a>, an open source “what you see
+is what you get” text editor. This is the editor authors use on the LibreTexts
+website.</p>
+<p>Our approach to this plugin is to make use of a <a class="reference external" href="https://ckeditor.com/docs/ckeditor4/latest/guide/widget_sdk_intro.html">widget</a>, on
+the editor which allows us to place all the HTML elements of Thebelab together
+as one unit. In other words the widget is a component made out of multiple
+separate elements that are grouped together for easy formatting and movement;
+however, individual parts can be altered independently. This allows for the
+CKEditor instance to easily enforce the elements. Additionally, we created a
+<a class="reference external" href="https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_dialog_windows.html">dialog window</a>
+for each code block so that users can modify each block whenever they want.</p>
+</div>
+<div class="section" id="mindtouch-specific-settings">
+<h3>Mindtouch Specific Settings</h3>
+<p>One of the challenges we faced was working around Mindtouch, which sometimes
+caused the plugin to function in unexpected ways. For reference, Mindtouch is
+the web based wiki software that Libretexts uses and it uses a CKEditor. An
+example of an obstacle we faced was that Mindtouch seemed to apply its own CSS
+to the plugin.  This caused text overflow, addition of characters to the end of
+each line, etc.  In order to resolve this, we added our own <a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin/tree/staging/src/styles">styling</a>
+to the plugin. If one wishes to use the CKEditor plugin on their own pages,
+they can remove the extra styling in the folder.</p>
+<p>Another difference was JavaScript conflict. When we were trying to support
+Jupyter Widgets, we found that it depended on Require.js. However, adding
+Require.js to Mindtouch would break all the JQuery plugins. In order to fix all
+the JavaScript conflicts, we created registerPlugin.js to include all Mindtouch
+specific JavaScript code.</p>
+</div>
+<div class="section" id="including-different-programming-languages">
+<h3>Including different programming languages</h3>
+<p>During development, we used <a class="reference external" href="https://github.com/binder-examples">environments developed by the Jupyter project</a>. Using their Binder environments helped
+us test and include different languages in our editor. Eventually we will
+utilize, we would utilize the same <a class="reference external" href="https://github.com/libretexts/default-env">default environment</a> in our JupyterHub for our
+editor. This default environment contains many packages that are commonly used
+and requested by students and faculty.</p>
+</div>
+<div class="section" id="github-actions">
+<h3>Github Actions</h3>
+<p>We made use of Github Actions to automate two important tasks. After each push
+on Github, it will trigger our custom linter to ensure code quality and
+consistency. Additionally, if we push any code to the master branch, it will
+trigger an automatic deploy to production.</p>
+</div>
+</div>
+<div class="section" id="ckeditor-capabilities">
+<h2>CKEditor Capabilities</h2>
+<p>Currently authors publishing on the LibreTexts platform have the option to
+insert executable code blocks using <tt class="docutils literal">Octave</tt>, <tt class="docutils literal">SageMath</tt>, <tt class="docutils literal">Julia</tt>, <tt class="docutils literal">R</tt>,
+<tt class="docutils literal">Python</tt>, and <tt class="docutils literal">C++</tt>. There is a possibility that other languages may be
+added in the future. Authors can choose to either copy and paste their code
+into the text editor, or directly code in the text editor as they would any
+other one. To ensure that it is easy for the author as well as the reader of
+the textbook to view the contents within the code block, as described in the
+aforementioned section, syntax highlighting is made available via
+<tt class="docutils literal">CodeMirror</tt> for all the languages except <tt class="docutils literal">SageMath</tt> which is not supported
+by <tt class="docutils literal">CodeMirror</tt>.</p>
+<p>It is important to note that we suggest authors <tt class="docutils literal">run</tt> the sample <tt class="docutils literal">Hello
+World</tt> print statement first to get the kernel started, once that is
+successful, code can be added in the dialog box. For <tt class="docutils literal">C++</tt>, if the code has
+already been <tt class="docutils literal">run</tt>, but the author wants to make any changes, they will need
+to <tt class="docutils literal">restart</tt> the kernel in order to avoid an <tt class="docutils literal">Interpreter Error</tt> as any
+variables will be assigned more than once in <tt class="docutils literal">Binder</tt> which is not allowed in
+<tt class="docutils literal">C++</tt>.</p>
+<p>Packages and libraries can be exported as they normally would; however, if an
+author finds that a specific package or library that they would like to use is
+not currently available they can make a request to have it added by either
+sending an <a class="reference external" href="mailto:jupyterteam&#64;ucdavis.edu">email to the Jupyter Team</a>, linked in
+the dialog box, or <a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin/issues">open an issue</a> .</p>
+<p>Once the author is ready to insert the code block into their textbook page,
+they have the option to either 'Insert with code and output,' 'Insert with code
+only,' or 'Insert with output only.' Selection of any of these choices depends
+on how the author intends to communicate the information provided in the code
+block. If the code block has already been inserted into the page, and the
+author wants to make any changes, they can simply double click on that section
+and the dialog box will pop back up.</p>
+<div class="figure align-center">
+<img alt="GIF depicting an example page made using CKEditor" src="https://objects-us-east-1.dream.io/mechmotum/example-libretexts-jupyter-page.gif" style="width: 100%;" />
+<p class="caption"><em>Figure 1: Example of what and author can do with CKEditor, and what the output will look like</em></p>
+</div>
+</div>
+<div class="section" id="future">
+<h2>Future</h2>
+<p>As mentioned before, a long term goal is to use <tt class="docutils literal"><span class="pre">default-env</span></tt> for the
+packages, this is the same environment that is used for the LIbreTexts-UCD
+JupyterHub, and by</p>
+<p>using this, authors will have a greater selection of packages and libraries to
+choose from, and it will also be easier for us to maintain. We also want to
+improve the execution time of the code blocks, as currently requesting a kernel
+involves downloading an image from DockerHub and creating a Docker container.</p>
+</div>
+
+    </div>
+  </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+</body>
+
+</html>

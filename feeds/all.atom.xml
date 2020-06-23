@@ -1,5 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-06-10T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>The Laboratorium is Moving to TU Delft</title><link href="https://mechmotum.github.io/blog/moving-to-tudelft.html" rel="alternate"></link><published>2020-06-10T00:00:00-07:00</published><updated>2020-06-10T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-06-10:/blog/moving-to-tudelft.html</id><summary type="html">&lt;p class="first last"&gt;The lab is moving to TU Delft this summer.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-06-22T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Developing a LibreTexts Editor Plugin For Inserting Executable Code Blocks</title><link href="https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html" rel="alternate"></link><published>2020-06-22T00:00:00-07:00</published><updated>2020-06-22T00:00:00-07:00</updated><author><name>Hao Huang</name></author><id>tag:mechmotum.github.io,2020-06-22:/blog/libretexts-jupyter-plugin.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on creating a CKEditor plugin which could insert
+executable code blocks&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;During the end of the Fall Quarter 2019 and Winter Quarter 2020, we focused on
+building a &lt;a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin"&gt;CKEditor Binder Plugin&lt;/a&gt; to be used on the
+&lt;a class="reference external" href="https://libretexts.org"&gt;LibreTexts&lt;/a&gt; website to allow textbook authors to
+insert executable code blocks. We intend for both textbook authors and readers
+to have the ability to edit and run code blocks efficiently, making online
+educational content more interactive.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="build-process"&gt;
+&lt;h2&gt;Build Process&lt;/h2&gt;
+&lt;p&gt;We started the project by &lt;a class="reference external" href="https://docs.google.com/document/d/1eV08l_4djKJ7bc8r0LPbD5bp3QT7mHTZgABUleH15H0/edit?usp=sharing"&gt;surveying&lt;/a&gt;
+LibreTexts authors and readers on their most requested features.&lt;/p&gt;
+&lt;div class="section" id="binderhub"&gt;
+&lt;h3&gt;BinderHub&lt;/h3&gt;
+&lt;p&gt;On the backend, the CKEditor Binder plugin utilizes a project called &lt;a class="reference external" href="https://binderhub.readthedocs.io/en/latest/"&gt;BinderHub&lt;/a&gt; to run code blocks. BinderHub
+is developed as part of the Jupyter project and gives custom computing
+environments based on a list of requirements specified through a GitHub
+repository.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="thebelab"&gt;
+&lt;h3&gt;Thebelab&lt;/h3&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/minrk/thebelab"&gt;Thebelab&lt;/a&gt; and  &lt;a class="reference external" href="https://github.com/ines/juniper"&gt;Juniper&lt;/a&gt; are two examples of projects which can
+insert code blocks into HTML pages and running them by requesting a kernel from
+a computing backend like BinderHub. We found that Juniper had some better deign
+elements; however, Thebelab was more actively maintained.  We deliberated on
+which project to incorporate into our plugin, and decided to use Thebelab since
+the recent commits indicated that any possible need for help would be more
+promptly met. To incorporate some of the streamlined design elements of
+Juniper, we planned on adding syntax highlighting.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="creating-the-plugin"&gt;
+&lt;h3&gt;Creating the plugin&lt;/h3&gt;
+&lt;p&gt;Our plugin is based on the &lt;a class="reference external" href="https://ckeditor.com/docs/ckeditor4/latest/"&gt;CKEditor 4&lt;/a&gt;, an open source “what you see
+is what you get” text editor. This is the editor authors use on the LibreTexts
+website.&lt;/p&gt;
+&lt;p&gt;Our approach to this plugin is to make use of a &lt;a class="reference external" href="https://ckeditor.com/docs/ckeditor4/latest/guide/widget_sdk_intro.html"&gt;widget&lt;/a&gt;, on
+the editor which allows us to place all the HTML elements of Thebelab together
+as one unit. In other words the widget is a component made out of multiple
+separate elements that are grouped together for easy formatting and movement;
+however, individual parts can be altered independently. This allows for the
+CKEditor instance to easily enforce the elements. Additionally, we created a
+&lt;a class="reference external" href="https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_dialog_windows.html"&gt;dialog window&lt;/a&gt;
+for each code block so that users can modify each block whenever they want.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mindtouch-specific-settings"&gt;
+&lt;h3&gt;Mindtouch Specific Settings&lt;/h3&gt;
+&lt;p&gt;One of the challenges we faced was working around Mindtouch, which sometimes
+caused the plugin to function in unexpected ways. For reference, Mindtouch is
+the web based wiki software that Libretexts uses and it uses a CKEditor. An
+example of an obstacle we faced was that Mindtouch seemed to apply its own CSS
+to the plugin.  This caused text overflow, addition of characters to the end of
+each line, etc.  In order to resolve this, we added our own &lt;a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin/tree/staging/src/styles"&gt;styling&lt;/a&gt;
+to the plugin. If one wishes to use the CKEditor plugin on their own pages,
+they can remove the extra styling in the folder.&lt;/p&gt;
+&lt;p&gt;Another difference was JavaScript conflict. When we were trying to support
+Jupyter Widgets, we found that it depended on Require.js. However, adding
+Require.js to Mindtouch would break all the JQuery plugins. In order to fix all
+the JavaScript conflicts, we created registerPlugin.js to include all Mindtouch
+specific JavaScript code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="including-different-programming-languages"&gt;
+&lt;h3&gt;Including different programming languages&lt;/h3&gt;
+&lt;p&gt;During development, we used &lt;a class="reference external" href="https://github.com/binder-examples"&gt;environments developed by the Jupyter project&lt;/a&gt;. Using their Binder environments helped
+us test and include different languages in our editor. Eventually we will
+utilize, we would utilize the same &lt;a class="reference external" href="https://github.com/libretexts/default-env"&gt;default environment&lt;/a&gt; in our JupyterHub for our
+editor. This default environment contains many packages that are commonly used
+and requested by students and faculty.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="github-actions"&gt;
+&lt;h3&gt;Github Actions&lt;/h3&gt;
+&lt;p&gt;We made use of Github Actions to automate two important tasks. After each push
+on Github, it will trigger our custom linter to ensure code quality and
+consistency. Additionally, if we push any code to the master branch, it will
+trigger an automatic deploy to production.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ckeditor-capabilities"&gt;
+&lt;h2&gt;CKEditor Capabilities&lt;/h2&gt;
+&lt;p&gt;Currently authors publishing on the LibreTexts platform have the option to
+insert executable code blocks using &lt;tt class="docutils literal"&gt;Octave&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;SageMath&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;Julia&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;R&lt;/tt&gt;,
+&lt;tt class="docutils literal"&gt;Python&lt;/tt&gt;, and &lt;tt class="docutils literal"&gt;C++&lt;/tt&gt;. There is a possibility that other languages may be
+added in the future. Authors can choose to either copy and paste their code
+into the text editor, or directly code in the text editor as they would any
+other one. To ensure that it is easy for the author as well as the reader of
+the textbook to view the contents within the code block, as described in the
+aforementioned section, syntax highlighting is made available via
+&lt;tt class="docutils literal"&gt;CodeMirror&lt;/tt&gt; for all the languages except &lt;tt class="docutils literal"&gt;SageMath&lt;/tt&gt; which is not supported
+by &lt;tt class="docutils literal"&gt;CodeMirror&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;It is important to note that we suggest authors &lt;tt class="docutils literal"&gt;run&lt;/tt&gt; the sample &lt;tt class="docutils literal"&gt;Hello
+World&lt;/tt&gt; print statement first to get the kernel started, once that is
+successful, code can be added in the dialog box. For &lt;tt class="docutils literal"&gt;C++&lt;/tt&gt;, if the code has
+already been &lt;tt class="docutils literal"&gt;run&lt;/tt&gt;, but the author wants to make any changes, they will need
+to &lt;tt class="docutils literal"&gt;restart&lt;/tt&gt; the kernel in order to avoid an &lt;tt class="docutils literal"&gt;Interpreter Error&lt;/tt&gt; as any
+variables will be assigned more than once in &lt;tt class="docutils literal"&gt;Binder&lt;/tt&gt; which is not allowed in
+&lt;tt class="docutils literal"&gt;C++&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;Packages and libraries can be exported as they normally would; however, if an
+author finds that a specific package or library that they would like to use is
+not currently available they can make a request to have it added by either
+sending an &lt;a class="reference external" href="mailto:jupyterteam&amp;#64;ucdavis.edu"&gt;email to the Jupyter Team&lt;/a&gt;, linked in
+the dialog box, or &lt;a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin/issues"&gt;open an issue&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Once the author is ready to insert the code block into their textbook page,
+they have the option to either 'Insert with code and output,' 'Insert with code
+only,' or 'Insert with output only.' Selection of any of these choices depends
+on how the author intends to communicate the information provided in the code
+block. If the code block has already been inserted into the page, and the
+author wants to make any changes, they can simply double click on that section
+and the dialog box will pop back up.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="GIF depicting an example page made using CKEditor" src="https://objects-us-east-1.dream.io/mechmotum/example-libretexts-jupyter-page.gif" style="width: 100%;" /&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Figure 1: Example of what and author can do with CKEditor, and what the output will look like&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="future"&gt;
+&lt;h2&gt;Future&lt;/h2&gt;
+&lt;p&gt;As mentioned before, a long term goal is to use &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;default-env&lt;/span&gt;&lt;/tt&gt; for the
+packages, this is the same environment that is used for the LIbreTexts-UCD
+JupyterHub, and by&lt;/p&gt;
+&lt;p&gt;using this, authors will have a greater selection of packages and libraries to
+choose from, and it will also be easier for us to maintain. We also want to
+improve the execution time of the code blocks, as currently requesting a kernel
+involves downloading an image from DockerHub and creating a Docker container.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="education"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="engineering"></category><category term="libretexts"></category></entry><entry><title>The Laboratorium is Moving to TU Delft</title><link href="https://mechmotum.github.io/blog/moving-to-tudelft.html" rel="alternate"></link><published>2020-06-10T00:00:00-07:00</published><updated>2020-06-10T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-06-10:/blog/moving-to-tudelft.html</id><summary type="html">&lt;p class="first last"&gt;The lab is moving to TU Delft this summer.&lt;/p&gt;
 </summary><content type="html">&lt;img alt="TU Delft Logo" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/tudelft-logo.png" /&gt;
 &lt;p&gt;I am pleased to announce that I have accepted a position as an Assistant
 Professor in the &lt;a class="reference external" href="https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/"&gt;Biomechanical Engineering Department&lt;/a&gt; of the &lt;a class="reference external" href="https://www.tudelft.nl/en/3me/"&gt;Mechanical,

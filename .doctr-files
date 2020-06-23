@@ -6,11 +6,13 @@
 ./author/bryn-cloud.html
 ./author/celine-liang.html
 ./author/dorian-crutcher.html
+./author/hao-huang.html
 ./author/jason-k-moore.html
 ./author/jonathan-blaze-cubanski.html
 ./author/kevin-krausse.html
 ./author/rayming-liang.html
 ./author/stasia-kubicki.html
+./author/tannavee-kumar.html
 ./author/thomas-shedd.html
 ./author/trevor-metz.html
 ./author/xiaochen-zeng.html
@@ -27,6 +29,7 @@
 ./blog/jupyter-summer-2019.html
 ./blog/jupyter-winter-2019.html
 ./blog/libretexts-grant.html
+./blog/libretexts-jupyter-plugin.html
 ./blog/moving-to-tudelft.html
 ./blog/practical-realization-of-a-theoretical-optimal-handling-bicycle-results.html
 ./blog/rowing-estimation-paper-published.html
