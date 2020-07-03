@@ -1,19 +1,19 @@
-Creating a Web Application GUI for BicycleParameters
+A Web Application for Analyzing Bicycle Dynamics
 ==========================================================================
 
-:date: 2020-06-28 00:00:00
-:tags: BicycleParameters, web application, gui, 
+:date: 2020-07-03 00:00:00
+:tags: bicycle, web application
 :category: software
-:slug: BicycleParameters-web-application
+:slug: bicycle-dynamics-web-application
 :authors: Noah Sanders
 :summary: Blog post on creating a web application to serve as a GUI for
-		  BicycleParameters
+		  bicycle dynamics.
 		  
 Background
 ----------
 
 The `BicycleParameters <https://github.com/moorepants/BicycleParameters>`__ 
-python program provides a way for users to interact with the 27 parameters
+Python program provides a way for users to interact with the 27 parameters
 laid out by the Whipple-Carvallo bicycle model. However, its accessibility is limited 
 to the programming experience of the user, and it can be unweildy to manually work with.
 To make the program more accessible, the Bicycle Dynamics Web App was created to supply 
@@ -26,7 +26,7 @@ Building the App
 ----------------
 
 Given that BicycleParameters was to be used as the backend for the website, it made sense
-to use another python based program to build the frontend. `Dash <https://dash.plotly.com/>`__
+to use another Python based program to build the frontend. `Dash <https://dash.plotly.com/>`__
 from Plotly serves this purpose perfectly, providing us with a full set of html components 
 in addition to many custom made Javascript elements such as datatables and value sliders. 
 Finally, the app is styled with `Dash Bootstraps Components 
