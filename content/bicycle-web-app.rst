@@ -44,6 +44,11 @@ of mass of the bicycle, while the eigenvalue plot reveals the self-stability of 
 as a function of its speed. Users may toggle the centers of mass and intertia ellipsoid
 on the geometry plot, and they may adjust the speed range for the eigenvalue plot.
 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png
+   :width: 800px
+   
+   Screenshot of the bicycle dynamics web app.
+
 Conclusion
 ----------
 
