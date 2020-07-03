@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  A Web Application for Analyzing Bicycle Dynamics | Laboratorium of Marvelous Mechanical Motum
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/blog/bicycle-dynamics-web-application.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://mechmotum.github.io/feeds/{slug}.atom.xml">  
+  <meta name="description" content="Blog post on creating a web application to serve as a GUI for bicycle dynamics.">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Laboratorium of Marvelous Mechanical Motum">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <h1 class="title"><a href="https://mechmotum.github.io/">Laboratorium of Marvelous Mechanical Motum</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  A Web Application for Analyzing Bicycle Dynamics
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2020-07-03T00:00:00-07:00">
+          <i class="fa fa-clock-o"></i>
+          Fri 03 July 2020
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="https://mechmotum.github.io/category/software.html">software</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="https://mechmotum.github.io/author/noah-sanders.html">Noah Sanders</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="https://mechmotum.github.io/tag/bicycle.html">#bicycle</a>,               <a href="https://mechmotum.github.io/tag/web-application.html">#web application</a>          </li>
+      </ul>
+    </header>
+
+
+    <div class="content">
+      <div class="section" id="background">
+<h2>Background</h2>
+<p>The <a class="reference external" href="https://github.com/moorepants/BicycleParameters">BicycleParameters</a>
+Python program provides a way for users to interact with the 27 parameters
+laid out by the Whipple-Carvallo bicycle model. However, its accessibility is limited
+to the programming experience of the user, and it can be unweildy to manually work with.
+To make the program more accessible, the Bicycle Dynamics Web App was created to supply
+a graphical user interface for the program as well as to enable a broader range
+of users to access it via the web. The web app takes heavy inspiration from <a class="reference external" href="http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/JBike6_web_folder/index.htm">Jbike6</a>,
+but aims to remove the accessibility barriers inherent to MATLAB.</p>
+</div>
+<div class="section" id="building-the-app">
+<h2>Building the App</h2>
+<p>Given that BicycleParameters was to be used as the backend for the website, it made sense
+to use another Python based program to build the frontend. <a class="reference external" href="https://dash.plotly.com/">Dash</a>
+from Plotly serves this purpose perfectly, providing us with a full set of html components
+in addition to many custom made Javascript elements such as datatables and value sliders.
+Finally, the app is styled with <a class="reference external" href="https://dash-bootstrap-components.opensource.faculty.ai/">Dash Bootstraps Components</a>, so that only a very minimal
+amount of custom CSS had to be written.</p>
+</div>
+<div class="section" id="functionality">
+<h2>Functionality</h2>
+<p>The Bicycle Dynamics Web App provides a graphical interface with 10 different
+default parameter sets, a set of editable tables where users may adjust the parameter
+values as they see fit, and two plots which are generated behind the scenes
+from the datatable values. The geometry plot displays the essential schematic and centers
+of mass of the bicycle, while the eigenvalue plot reveals the self-stability of the bicycle
+as a function of its speed. Users may toggle the centers of mass and intertia ellipsoid
+on the geometry plot, and they may adjust the speed range for the eigenvalue plot.</p>
+<div class="figure">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" />
+<p class="caption">Screenshot of the bicycle dynamics web app.</p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>The Bicycle Dynamics Web App is currently deployed at <a class="reference external" href="https://bicycleparameters.herokuapp.com/">https://bicycleparameters.herokuapp.com/</a>
+and its github repository is located at <a class="reference external" href="https://github.com/moorepants/BicycleParameters">https://github.com/moorepants/BicycleParameters</a>. Feel free
+to play around with the app and provide suggestions or feedback!</p>
+</div>
+
+    </div>
+  </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+</body>
+
+</html>

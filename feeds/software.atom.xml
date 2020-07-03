@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Laboratorium of Marvelous Mechanical Motum - software</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/software.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-07-03T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>A Web Application for Analyzing Bicycle Dynamics</title><link href="https://mechmotum.github.io/blog/bicycle-dynamics-web-application.html" rel="alternate"></link><published>2020-07-03T00:00:00-07:00</published><updated>2020-07-03T00:00:00-07:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2020-07-03:/blog/bicycle-dynamics-web-application.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on creating a web application to serve as a GUI for
+bicycle dynamics.&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;The &lt;a class="reference external" href="https://github.com/moorepants/BicycleParameters"&gt;BicycleParameters&lt;/a&gt;
+Python program provides a way for users to interact with the 27 parameters
+laid out by the Whipple-Carvallo bicycle model. However, its accessibility is limited
+to the programming experience of the user, and it can be unweildy to manually work with.
+To make the program more accessible, the Bicycle Dynamics Web App was created to supply
+a graphical user interface for the program as well as to enable a broader range
+of users to access it via the web. The web app takes heavy inspiration from &lt;a class="reference external" href="http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/JBike6_web_folder/index.htm"&gt;Jbike6&lt;/a&gt;,
+but aims to remove the accessibility barriers inherent to MATLAB.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="building-the-app"&gt;
+&lt;h2&gt;Building the App&lt;/h2&gt;
+&lt;p&gt;Given that BicycleParameters was to be used as the backend for the website, it made sense
+to use another Python based program to build the frontend. &lt;a class="reference external" href="https://dash.plotly.com/"&gt;Dash&lt;/a&gt;
+from Plotly serves this purpose perfectly, providing us with a full set of html components
+in addition to many custom made Javascript elements such as datatables and value sliders.
+Finally, the app is styled with &lt;a class="reference external" href="https://dash-bootstrap-components.opensource.faculty.ai/"&gt;Dash Bootstraps Components&lt;/a&gt;, so that only a very minimal
+amount of custom CSS had to be written.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="functionality"&gt;
+&lt;h2&gt;Functionality&lt;/h2&gt;
+&lt;p&gt;The Bicycle Dynamics Web App provides a graphical interface with 10 different
+default parameter sets, a set of editable tables where users may adjust the parameter
+values as they see fit, and two plots which are generated behind the scenes
+from the datatable values. The geometry plot displays the essential schematic and centers
+of mass of the bicycle, while the eigenvalue plot reveals the self-stability of the bicycle
+as a function of its speed. Users may toggle the centers of mass and intertia ellipsoid
+on the geometry plot, and they may adjust the speed range for the eigenvalue plot.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /&gt;
+&lt;p class="caption"&gt;Screenshot of the bicycle dynamics web app.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The Bicycle Dynamics Web App is currently deployed at &lt;a class="reference external" href="https://bicycleparameters.herokuapp.com/"&gt;https://bicycleparameters.herokuapp.com/&lt;/a&gt;
+and its github repository is located at &lt;a class="reference external" href="https://github.com/moorepants/BicycleParameters"&gt;https://github.com/moorepants/BicycleParameters&lt;/a&gt;. Feel free
+to play around with the app and provide suggestions or feedback!&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="software"></category><category term="bicycle"></category><category term="web application"></category></entry></feed>
