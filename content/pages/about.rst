@@ -6,9 +6,9 @@
 :front: true
 
 The Laboratorium of Marvelous Mechanical Motum is a research group based in the
-`Mechanical and Aerospace Engineering Department`_ at the `University of
-California, Davis`_ led by Jason K. Moore. Our research is centered around
-human mobility and spans the following themes:
+`BioMechanical Engineering Department`_ at `Delft University of Technology`_
+led by Jason K. Moore. Our research is centered around human mobility and spans
+the following themes:
 
 - human-in-the-loop augmented automatic control and vehicle design
 - bicycle and other human powered vehicle design and engineering
@@ -19,5 +19,5 @@ human mobility and spans the following themes:
 - engineering and scientific software design and development
 - teaching and learning in engineering
 
-.. _Mechanical and Aerospace Engineering Department: http://mae.ucdavis.edu
-.. _University of California, Davis: http://www.ucdavis.edu
+.. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering
+.. _Delft University of Technology: https://www.tudelft.nl
