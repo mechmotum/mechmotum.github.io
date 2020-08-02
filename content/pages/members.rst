@@ -15,7 +15,7 @@ Graduate Research Assistants
 ============================
 
 Past
-   - Kenneth Lyons [June 2017-September 2017], now at Systron Donner Inertial
+   - Dr. Kenneth Lyons [June 2017-September 2017], now at Systron Donner Inertial
 
 Research Assistants
 ===================
@@ -29,11 +29,12 @@ Undergraduate Research Assistants
 =================================
 
 Current
+   - Kevin Rong [June 2020-present]
    - Noah Sanders [January 2020-present]
-   - Hao Huang [October 2019-present]
-   - Tannavee Kumar [October 2019-present]
-   - Celine Liang [February 2019-present]
 Past
+   - Hao Huang [October 2019-June 2020]
+   - Tannavee Kumar [October 2019-June 2020]
+   - Celine Liang [February 2019-June 2020]
    - Trevor Metz [July 2018-December 2019], now at `Specialized Bicycle
      Components <http://www.specialized.com>`_
    - Xin Luigi Chen [February 2019-December 2019], now at `lastline
@@ -42,7 +43,7 @@ Past
    - Anthony Toribio [June 2019-September 2019]
    - Anastasia Kubicki [June 2019-September 2019], now at `Specialized Bicycle
      Components <http://www.specialized.com>`_
-   - Xiaochen Zang [February 2019-June 2019]
+   - Xiaochen Zang [February 2019-June 2019], now at Huawei
    - Bryn Cloud [June 2018-June 2019], now at Tesla
    - Kevin Krausse [February 2019-June 2019], now at Walmart
    - Jonathan Cubanski [October 2018-December 2018], now at `Kitty Hawk <https://kittyhawk.aero/>`_
@@ -77,6 +78,7 @@ Google Summer of Code and Season of Docs Mentees
 ================================================
 
 Past
+   - Naman Nimmo [May 2020-August 2020]
    - Lauren Glattly [August 2019-November 2019]
    - Jashanpreet Singh [May 2018-August 2018]
    - Nikhil Pappu [May 2018-August 2018]
