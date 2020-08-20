@@ -113,38 +113,3 @@ we are working with his team to bring this to fruition.
 .. [#] Dozza, Marco; Rasch, A.; Boda, C. N. (2017): An Open-Source Data Logger
    for Field Cycling Collection: Design and Evaluation.
    https://doi.org/10.6084/m9.figshare.5404918.v1
-
-Teaching and Learning Engineering Through Mobility Applications
-===============================================================
-
-Learning Mechanical Vibrations Through Computational Thinking
--------------------------------------------------------------
-
-| Current researchers:
-| Past researchers: Kenneth Lyons
-
-"Computational thinking" is an alternative learning process for formulating and
-solving engineering problems. A unique set of abstractions are available to the
-learner in addition to those from mathematical and written language. We have
-developed an interactive textbook and problem sets using the Jupyter system of
-tools for 40 hours of in-class teaching and learning. These teaching materials
-are backed by a custom software library for mechanical vibrations designed to
-facilitate solving problems with computational thinking.
-
-Interactive Jupyter-Enabled LibreTexts Pages
---------------------------------------------
-
-| Current researchers: Celine Liang
-| Collaborators: Delmar Larsen (UC Davis), Richard Feltstykket (UC Davis), Tom Neubarth (UC Davis)
-| Past researchers: Xiaochen Zang, Xin Luigi Chen, Kevin Krausse, Henry Agnew
-
-We are interested in providing an interactive computing environments in online
-textbooks at a massive scale. LibreTexts_ is one of the largest and most
-visited online compendium of textbooks used in collegiate academics. The
-website currently serves mostly static and non-interactive content. We are
-working to enable Jupyter-backed interactive computation cells that authors can
-use to incorporate Python, R, Octave, and Sage generated media for pages. This
-will enable arbitrary visualizations and allow students to learn through
-computational oriented exercises.
-
-.. _LibreTexts: http://www.libretexts.org
