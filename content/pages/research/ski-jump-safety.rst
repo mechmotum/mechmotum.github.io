@@ -1,4 +1,4 @@
-:title: Design and Analsys of Ski Jumps
+:title: Design and Analysis of Ski Jumps
 :category: project
 :date: 2018
 :status: hidden
@@ -7,15 +7,15 @@
 :tags: rowing
 :summary-sentence: Little engineering goes into the design and
                    construction of ski and snowboard jumps in terrain parks at
-                   publicly accessible ski resorts. Catostrophic injuries and
+                   publicly accessible ski resorts. Catastrophic injuries and
                    even deaths occur during skiing and snowboarding at these
                    resorts. It is possible to design the landing surfaces of
                    jumps such that the normal impact velocity on landing is
                    capped at a safer value regardless of the jumper's takeoff
                    speed and jump launch speed. These jump designs can still
                    provide large maximum heights and flight durations for
-                   particpant fun. We have designed a web application that
-                   laypeople can use to design and anlayze ski jumps with
+                   participant fun. We have designed a web application that
+                   laypeople can use to design and analyze ski jumps with
                    specified equivalent fall height in mind.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-ski-jump.png
 
@@ -40,9 +40,6 @@ Software:
 
 - http://www.skijumpdesign.info
 - https://gitlab.com/moorepants/skijumpdesign
-
-
-
 
 Media
 =====
