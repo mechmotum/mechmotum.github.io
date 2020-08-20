@@ -1,30 +1,73 @@
 :title: Jobs
 
-Graduate
-========
+Researchers, Postdoctoral Researchers, PhD Researchers
+======================================================
 
-There are currently no funded Graduate Student Researcher positions in the lab,
-but graduate students are welcome to join. You will be required to find your
-own funding through Teaching Assistant positions or other means. We will also
-assist you on finding various other fellowships, grants, and scholarships.
+If you are interested in doing paid research with the lab after you have a
+Masters degree [#]_ there are two options:
 
-If you would like to join the lab for your MAE Master's or PhD degree please
-send a letter explaining your interest in the lab, CV or resume, and any other
-relevant information to jkm@ucdavis.edu. Include whether you have been accepted
-already or have applied to our department.
+1. Wait for an open position in the lab and apply.
+2. Find self-funding and ask if we can host and work with you.
+
+All paid positions associated with the lab will be posted to the `TU Delft
+vacancies website`_, the `BioMechanical Engineering Department vacancies web
+page`_, `Academic Transfer`_ [#]_, and/or this lab website.
+
+.. _Academic Transfer: http://www.academictransfer.com
+.. _TU Delft vacancies website: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/
+.. _BioMechanical Engineering Department vacancies web page: https://www.tudelft.nl/3me/over/afdelingen/biomechanical-engineering/about-bmeche/vacancies/
+
+.. [#] Unlike many other countries, PhD positions are considered full time
+   academic research jobs and we only accept you if there is an available paid
+   position. You are also required to have a Master's degree to start a PhD.
+.. [#] All academic jobs in the Netherlands are (and have to be) posted to
+   Academic Transfer.
+
+Postdoc Fall Prevention in Elite and Consumer Cycling
+-----------------------------------------------------
+
+- Application URL: https://www.academictransfer.com/en/293095/postdoc-fall-prevention-in-elite-and-consumer-cycling/
+- Application Due Date: 2020-10-02
+- Note that Arend L. Schwab is the primary principal investigator on this
+  project.
+
+Masters Students
+================
+
+Anyone may apply to the Masters Program at TU Delft if you have completed a
+Bachelor degree. If you want to work directly in this lab you need to apply to
+the `Master of Science in Mechanical Engineering`_ and select the
+`BioMechanical Design Track`_.
+
+.. _Master of Science in Mechanical Engineering: https://www.tudelft.nl/en/education/programmes/masters/mechanical-engineering/msc-mechanical-engineering/
+.. _BioMechanical Design Track: https://www.tudelft.nl/en/education/programmes/masters/mechanical-engineering/msc-mechanical-engineering/track-overview/track-biomechanical-design/
+
+If you would like to work on a project for your Master's thesis in the lab
+please send a letter explaining your interest in the lab, CV or resume, and any
+other relevant information to j.k.moore@tudelft.nl. Include whether you have
+been accepted to the program already or have or have not applied.
+
+If you'd like to see what some of the possibilities for projects are, I post
+non-confidential project ideas to this Github repository:
+
+https://github.com/mechmotum/ideas/issues
+
+If any of these interest you, be sure to let me know in your introduction
+email.
 
 Undergraduate
 =============
 
-Undergraduates are welcome to join the lab to get research experience. We have
-specific paid positions (listed below) but also take on undergraduates to work
-on any of the current lab projects (paid/unpaid). Undergraduates that have not
-worked with Jason (in a class or project) will start with a two week unpaid
-trial and be upgraded to paid, if funds are available, after the two week trial
-period. If you want to join the lab for a position **not listed below**, please
-send a letter explaining your interest in the lab, CV or resume, and any other
-relevant information to jkm@ucdavis.edu. Include whether you have been accepted
-already or have applied to our department.
+Undergraduates are welcome to join the lab to get research and engineering
+experience. Undergraduates will start with a two week trial period. Please send
+a letter explaining your interest in the lab, CV or resume, and any other
+relevant information to j.k.moore@tudelft.nl.
+
+UC Davis Positions
+==================
+
+These positions are available on an ongoing basis for UC Davis students. Email
+j.k.moore@tudelft.nl if interested.
 
 LibreTexts Site Reliability Engineer Asst
 -----------------------------------------
