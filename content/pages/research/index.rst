@@ -114,33 +114,6 @@ we are working with his team to bring this to fruition.
    for Field Cycling Collection: Design and Evaluation.
    https://doi.org/10.6084/m9.figshare.5404918.v1
 
-Human Powered Appropriate Technology
-====================================
-
-Efficiency of Human Powered Irrigation Pumps
---------------------------------------------
-
-| Current researchers:
-| Collaborators: Andrew Hall (Buffalo Bikes)
-| Past researchers: Aaron Shaw, Rayming Liang, Abraham McKay
-
-We have developed a inexpensive centrifugal pump that attaches to a simple
-power takeoff on a Buffalo Bike [#]_. Our hypothesis is that a less efficient
-centrifugal pump paired with power generation from cycling will be overall more
-efficient than a more efficient positive displacement pump paired with stepping
-power generation. We have recently shown this to be true by accurately
-measuring the input biomechanical power and output hydraulic power from both
-systems to produce efficiency curves as a function of hydraulic load [#]_.
-
-.. [#] Mckay, Abraham B., "The Water Buffalo: Design of a Portable Bicycle
-   Powered Irrigation Pump for Small-Scale African Farmers", MSc Thesis,
-   University of California, Davis, 2018.
-   https://doi.org/10.6084/m9.figshare.6378401.v2
-.. [#] Shaw, Aaron and Liang, Rayming. "Finding the Efficiency of the Xylem and
-   Money Maker Treadle Pumps", Laboratorium of Marvelous Mechanical Motum Blog
-   (December 27, 2018)
-   https://mechmotum.github.io/blog/treadle-pump-experiment.html
-
 Teaching and Learning Engineering Through Mobility Applications
 ===============================================================
 
