@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Optimal Handling Bicycles | Laboratorium of Marvelous Mechanical Motum
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/optimal-handling-bicycles.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="In [Hess2012], we proposed a handling quality metric that can be derived from a bicycle design and its associated human-like controller. Bicycles that have an associated low handling quality metric should be easier to maneuver and control. The handling quality metric can be analytically computed for almost any bicycle design …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Laboratorium of Marvelous Mechanical Motum">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <h1 class="title"><a href="https://mechmotum.github.io/">Laboratorium of Marvelous Mechanical Motum</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Optimal Handling Bicycles
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <div class="row">
+      <div class="col-sm-4">
+        <img style="width:100%;" src="https://objects-us-east-1.dream.io/mechmotum/project-image-optimal-handling-bicycle.png" />
+      </div>
+      <div class="col-sm">
+        <h2>Summary</h2>
+        <p>Our goal with this project is to develop metrics that
+quantify the handling, i.e. ease of control, of a bicycle or
+other single track vehicle and using these metrics develop
+methods for designing bicycles with specified handling
+characteristics. We have developed an optimization algorithm
+that can discover bicycle designs which maximize the lateral
+handling qualities of the vehicle. The algorithm currently
+produces less-than-intuitive but physically feasible bicycle
+designs. These methods can likely be extended to any
+human-machine system design.</p>
+      </div>
+    </div>
+    <p>In <a class="citation-reference" href="#hess2012" id="id1">[Hess2012]</a>, we proposed a handling quality metric that can be derived from
+a bicycle design and its associated human-like controller. Bicycles that have
+an associated low handling quality metric should be easier to maneuver and
+control. The handling quality metric can be analytically computed for almost
+any bicycle design and provides a single value for comparing handling among
+different designs. In <a class="citation-reference" href="#moore2012" id="id2">[Moore2012]</a> (Chapter 8: Control), a robust computational
+method of designing the human-like controller was introduced. These ideas
+allowed us to frame an optimization problem in which we search for bicycle
+designs that minimize the handling quality metric. In <a class="citation-reference" href="#moore2016" id="id3">[Moore2016]</a>, we
+discovered optimal handling designs for various travel speeds by optimizing
+over four geometric parameters. This created some non-intuitive designs, but
+they were difficult to realize due to the geometry mismatching with the fixed
+inertial parameters. We solved this issue in <a class="citation-reference" href="#moore2019" id="id4">[Moore2019]</a> by developing a
+constrained optimization problem which enforces consistency and realism in the
+geometric and inertial parameters. This method produced bicycle designs that
+can be constructed and tested. We constructed one such bicycle in <a class="citation-reference" href="#gilboa2019" id="id5">[Gilboa2019]</a>
+and showed that the vehicle is realizable and rideable. For this work, we have
+developed companion open source software <a class="citation-reference" href="#moore2011" id="id6">[Moore2011]</a> that can create
+human-like controllers for a broad set of bicycle designs, calculate the
+handling quality metric, and solve the optimal design problems.</p>
+<div class="section" id="associated-research-products">
+<h2>Associated Research Products</h2>
+<ul>
+<li><p class="first">Journal articles:</p>
+<blockquote>
+<ul class="simple">
+<li><a class="citation-reference" href="#hess2012" id="id7">[Hess2012]</a></li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Conference papers:</p>
+<blockquote>
+<ul class="simple">
+<li><a class="citation-reference" href="#gilboa2019" id="id8">[Gilboa2019]</a></li>
+<li><a class="citation-reference" href="#moore2019" id="id9">[Moore2019]</a></li>
+<li><a class="citation-reference" href="#moore2016" id="id10">[Moore2016]</a></li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Conference presentations:</p>
+<blockquote>
+<ul class="simple">
+<li>&quot;<a class="reference external" href="https://www.moorepants.info/presentations/2016/BMD2016">An Optimal Handling Bicycle</a>&quot;, BMD 2016</li>
+<li>&quot;<a class="reference external" href="https://docs.google.com/presentation/d/e/2PACX-1vSs1mO_r0up-V_J-rHGOawPF-BAi8EtSdnGBUzNsRp1g5C4IAJeDx56b7y0mMmKzDPlAqTau6pMnmN6/pub?start=false&amp;loop=false&amp;delayms=3000#slide=id.p">Expanded Optimization for Discovering Optimal Lateral Handling Bicycles</a>&quot;, BMD 2019</li>
+<li>&quot;<a class="reference external" href="https://docs.google.com/presentation/d/e/2PACX-1vSEw9wiGY9DfPvp76Q6AorG1_Yf2I90ZaTrCrJzLXcVTwXXNM1aY90lROchV84E0Y1Rx9aFkPQBJtOo/pub?start=false&amp;loop=false&amp;delayms=3000">Practical Realization of a Theoretical Optimal-Handling Bicycle</a>&quot;,  BMD 2019</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Reports:</p>
+<ul class="simple">
+<li>&quot;Optimal Handling Bicycle: Final Design&quot; <a class="reference external" href="https://doi.org/10.6084/m9.figshare.12833933.v1">https://doi.org/10.6084/m9.figshare.12833933.v1</a></li>
+</ul>
+</li>
+<li><p class="first">Software:</p>
+<blockquote>
+<ul class="simple">
+<li><a class="citation-reference" href="#moore2011" id="id11">[Moore2011]</a></li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Blog posts:</p>
+<blockquote>
+<ul class="simple">
+<li><a class="reference external" href="https://mechmotum.github.io/blog/practical-realization-of-a-theoretical-optimal-handling-bicycle-results.html">Practical Realization of a Theoretical Optimal-Handling Bicycle Results</a></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="media">
+<h2>Media</h2>
+<div class="figure align-center">
+<img alt="Example handle quality metric plot." src="https://objects-us-east-1.dream.io/mechmotum/handling-metric.png" style="width: 60%;" />
+<p class="caption">Figure taken from <a class="citation-reference" href="#hess2012" id="id12">[Hess2012]</a> showing the handling quality metrics for an
+assortment of bicycles.</p>
+</div>
+<div class="figure align-center">
+<img alt="Image of a theorectical optimal bicycle." src="https://objects-us-east-1.dream.io/mechmotum/optimal-handling-bicycle.png" style="width: 60%;" />
+<p class="caption">Figure taken from <a class="citation-reference" href="#moore2016" id="id13">[Moore2016]</a> showing an optimal handling bicycle design
+for a 5 m/s travel speed compared to the benchmark bicycle from
+<a class="citation-reference" href="#meijaard2007" id="id14">[Meijaard2007]</a>.</p>
+</div>
+<div class="figure align-center">
+<img alt="Image of a realizable optimal bicycle." src="https://objects-us-east-1.dream.io/mechmotum/opt-bike-design.png" style="width: 60%;" />
+<p class="caption">Image of an early realizable potentiall optimal bicycle. This bicycle design was based
+on some incorrect analisys and was not constructed.</p>
+</div>
+<div class="figure align-center">
+<img alt="3ms Fabricated Rider." src="https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated-rider.jpg" style="width: 50%;" />
+<p class="caption">Fabricated model of optimal bicycle for 3 m/s with rider.</p>
+</div>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/videoseries?list=PLK0jeQYhBx8OKwawxvqduBsUDNv8WVHG1"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+<br>
+Playlist of videos of some of the bicycles we have constructed.</div>
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils citation" frame="void" id="gilboa2019" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Gilboa2019]</td><td><em>(<a class="fn-backref" href="#id5">1</a>, <a class="fn-backref" href="#id8">2</a>)</em> R. Gilboa, A. Kubicki, A. Toribio, M. Hubbard, and J. K. Moore,
+&quot;Practical Realization of a Theoretical Optimal-Handling Bicycle,&quot; 2019, p.
+11, <a class="reference external" href="https://doi.org/10.6084/m9.figshare.9883328.v1">https://doi.org/10.6084/m9.figshare.9883328.v1</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2019" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Moore2019]</td><td><em>(<a class="fn-backref" href="#id4">1</a>, <a class="fn-backref" href="#id9">2</a>)</em> J. K. Moore and M. Hubbard, &quot;Expanded Optimization for
+Discovering Optimal Lateral Handling Bicycles,&quot; Padua, Italy, 2019, p. 12,
+<a class="reference external" href="https://doi.org/10.6084/m9.figshare.9942938.v1">https://doi.org/10.6084/m9.figshare.9942938.v1</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2016" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Moore2016]</td><td><em>(<a class="fn-backref" href="#id3">1</a>, <a class="fn-backref" href="#id10">2</a>, <a class="fn-backref" href="#id13">3</a>)</em> Moore, Jason, Mont Hubbard, and Ronald A. Hess. &quot;An Optimal
+Handling Bicycle.&quot; In Proceedings of the 2016 Bicycle and Motorcycle
+Dynamics Conference. Figshare, 2016.
+<a class="reference external" href="https://doi.org/10.6084/m9.figshare.c.3460590.v11">https://doi.org/10.6084/m9.figshare.c.3460590.v11</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2012" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[Moore2012]</a></td><td>J. K. Moore, &quot;Human Control of a Bicycle,&quot; Doctor of Philosophy,
+University of California, Davis, CA, 2012. <a class="reference external" href="https://moorepants.github.io/dissertation">https://moorepants.github.io/dissertation</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="hess2012" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Hess2012]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id7">2</a>, <a class="fn-backref" href="#id12">3</a>)</em> R. Hess, J. K. Moore, and M. Hubbard, &quot;Modeling the Manually
+Controlled Bicycle,&quot; IEEE Transactions on Systems, Man, and Cybernetics -
+Part A: Systems and Humans, vol. 42, no. 3, pp. 545–557, Feb. 2012, doi:
+10.1109/TSMCA.2011.2164244.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2011" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Moore2011]</td><td><em>(<a class="fn-backref" href="#id6">1</a>, <a class="fn-backref" href="#id11">2</a>)</em> J. K. Moore, HumanControl: Human control of a bicycle.
+University of California, Davis, 2011. Github:
+<a class="reference external" href="https://github.com/moorepants/HumanControl">https://github.com/moorepants/HumanControl</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="meijaard2007" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id14">[Meijaard2007]</a></td><td>J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L.
+Schwab, &quot;Linearized dynamics equations for the balance and steer of a bicycle:
+A benchmark and review,&quot; Proceedings of the Royal Society A: Mathematical,
+Physical and Engineering Sciences, vol. 463, no. 2084, pp. 1955–1982, Aug.
+2007.</td></tr>
+</tbody>
+</table>
+</div>
+
+  </div>
+</article>
+
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+</body>
+
+</html>

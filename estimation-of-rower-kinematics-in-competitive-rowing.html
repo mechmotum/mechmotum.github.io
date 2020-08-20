@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>  Rowing Performance Estimation Paper Published | Laboratorium of Marvelous Mechanical Motum
+  <title>  Estimation of Rower Kinematics in Competitive Rowing | Laboratorium of Marvelous Mechanical Motum
 </title>
-  <link rel="canonical" href="https://mechmotum.github.io/blog/rowing-estimation-paper-published.html">
+  <link rel="canonical" href="https://mechmotum.github.io/estimation-of-rower-kinematics-in-competitive-rowing.html">
 
 
   <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
@@ -18,9 +18,8 @@
 
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
         href="https://mechmotum.github.io/feeds/all.atom.xml">
-  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="https://mechmotum.github.io/feeds/{slug}.atom.xml">  
-  <meta name="description" content="Our 2019 rowing performance estimation paper is now published in Plos One.">
+  
+  <meta name="description" content="Details of a rowing research project.">
 
 
 </head>
@@ -52,39 +51,48 @@
 
   <div class="main">
     <div class="container">
-      <h1>  Rowing Performance Estimation Paper Published
+      <h1>  Estimation of Rower Kinematics in Competitive Rowing
 </h1>
       <hr>
-  <article class="article">
-    <header>
-      <ul class="list-inline">
-        <li class="list-inline-item text-muted" title="2019-12-30T21:00:00-08:00">
-          <i class="fa fa-clock-o"></i>
-          Mon 30 December 2019
-        </li>
-        <li class="list-inline-item">
-          <i class="fa fa-folder-open-o"></i>
-          <a href="https://mechmotum.github.io/category/papers.html">papers</a>
-        </li>
-          <li class="list-inline-item">
-            <i class="fa fa-user-o"></i>
-              <a href="https://mechmotum.github.io/author/jason-k-moore.html">Jason K. Moore</a>          </li>
-          <li class="list-inline-item">
-            <i class="fa fa-files-o"></i>
-              <a href="https://mechmotum.github.io/tag/rowing.html">#rowing</a>,               <a href="https://mechmotum.github.io/tag/sports.html">#sports</a>,               <a href="https://mechmotum.github.io/tag/engineering.html">#engineering</a>,               <a href="https://mechmotum.github.io/tag/estimation.html">#estimation</a>,               <a href="https://mechmotum.github.io/tag/kalman-filter.html">#kalman filter</a>          </li>
-      </ul>
-    </header>
 
-
-    <div class="content">
-      <p>We've been working on this project and paper for two years and it was finally
-published in Plos One on December 5, 2019. The citation is:</p>
-<blockquote>
-Cloud B, Tarien B, Liu A, Shedd T, Lin X, Hubbard M, et al. (2019) Adaptive
-smartphone-based sensor fusion for estimating competitive rowing kinematic
-metrics. PLoS ONE 14(12): e0225690. <a class="reference external" href="https://doi.org/10.1371/journal.pone.0225690">https://doi.org/10.1371/journal.pone.0225690</a></blockquote>
-<a class="reference external image-reference" href="https://doi.org/10.1371/journal.pone.0225690"><img alt="Screenshot of the Plos One paper." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/row-plos-screenshot.png" style="width: 80%;" /></a>
-<p>The abstract reads:</p>
+<article class="article">
+  <div class="content">
+    <div class="row">
+      <div class="col-sm-4">
+        <img style="width:100%;" src="https://objects-us-east-1.dream.io/mechmotum/project-image-row.png" />
+      </div>
+      <div class="col-sm">
+        <h2>Summary</h2>
+        <p>Real-time feedback of stroke-by-stroke rowing performance
+metrics can enable data driven training and coaching.
+Instrumenting rowers during training and competition with
+laboratory quality sensing is very difficult, but the
+ubiquity of smartphones provides an avenue to collect fewer
+and less accurate kinematic and kinetic measurements. This
+project aims to improve performance critical biomechanic
+rowing metrics through dynamics informed estimation
+algorithms. We have developed rower adaptive filtering
+methods to predict global boat position, speed, stroke rate,
+and distance per stroke at high accuracy and with
+experimental protocols for validating the estimations.</p>
+      </div>
+    </div>
+    <div class="section" id="description">
+<h2>Description</h2>
+<p>The purpose of this project was to develop methods to estimate important rowing
+performance metrics using data collected from sensors in a smartphone: rate
+gyros, accelerometers, magnetometer, and GPS. We simultaneously collected data
+during typical single scull rowing from smartphones attached to the boat and a
+differential GPS antennae. We showed that &quot;distance per stroke&quot; estimates could
+be improved with the use of either a complementary filter or Kalman filter with
+mean errors dropping to around 0.5 meter or less using the filters. The
+accuracy and frequency of the GPS measurements from the smartphone is the
+primary factor preventing these estimates from being closer to 5 centimeters; a
+threshold to make the estimates useful for analyzing performance on a
+stroke-by-stroke basis. More advanced filters might improve the estimates, but
+improvements in smartphone sensors and the associated GPS network might be the
+best way to obtain desirable estimates. <a class="reference external" href="https://doi.org/10.1371/journal.pone.0225690">The results were published in PLoS One
+in 2019</a>. The abstract reads:</p>
 <blockquote>
 Competitive rowing highly values boat position and velocity data for
 real-time feedback during training, racing and post-training analysis. The
@@ -108,17 +116,54 @@ filter improved the accuracy and precision of boat speed, boat distance
 traveled, and distance per stroke by 48%, 22%, and 82%, respectively. Both
 filters demonstrate promise as general purpose methods to substantially
 improve estimates of important rowing performance metrics.</blockquote>
-<p>Congratulations to everyone involved in making this happen! We hope this work
-helps others progress in sports performance estimation and other related
-topics.</p>
+</div>
+<div class="section" id="associated-research-products">
+<h2>Associated Research Products</h2>
+<ul class="simple">
+<li>Journal article: Cloud B, Tarien B, Liu A, Shedd T, Lin X, Hubbard M, et al.
+(2019) Adaptive smartphone-based sensor fusion for estimating competitive
+rowing kinematic metrics. PLoS ONE 14(12): e0225690.
+<a class="reference external" href="https://doi.org/10.1371/journal.pone.0225690">https://doi.org/10.1371/journal.pone.0225690</a></li>
+<li>Preprint article: <a class="reference external" href="https://engrxiv.org/nykuh/">https://engrxiv.org/nykuh/</a></li>
+<li>Software repository: <a class="reference external" href="https://gitlab.com/mechmotum/row_filter">https://gitlab.com/mechmotum/row_filter</a></li>
+<li>Software archive: <a class="reference external" href="http://doi.org/10.5281/zenodo.3378965">http://doi.org/10.5281/zenodo.3378965</a></li>
+<li>Data: <a class="reference external" href="https://doi.org/10.6084/m9.figshare.7963643.v2">https://doi.org/10.6084/m9.figshare.7963643.v2</a></li>
+<li>Blog posts:<ul>
+<li><a class="reference external" href="https://mechmotum.github.io/blog/estimating-rowing-metrics.html">Estimating Competition Rowing Metrics</a></li>
+<li><a class="reference external" href="https://mechmotum.github.io/blog/rowing-estimation-paper-published.html">Rowing Performance Estimation Paper Published</a></li>
+<li><a class="reference external" href="urc-2019.rst">Laboratorium Represented at the UC Davis Undergraduate Research Conference</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="media">
+<h2>Media</h2>
+<div class="figure align-center">
+<img alt="Experimental setup of the scull." src="https://objects-us-east-1.dream.io/mechmotum/experimental-boat.jpg" style="width: 80%;" />
+<p class="caption">Seth Weil during his trials with annotations indicating the equipment on the
+boat.</p>
+</div>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/yL8U_8ALjHc" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe><p>A video of the club-level rower during the data collection:</p>
+<div class="figure align-center">
+<img alt="Final results plot for the distance per stroke estimates." src="https://objects-us-east-1.dream.io/mechmotum/dist-per-stroke-summary.png" style="width: 80%;" />
+<p class="caption">Final results showing the improvements in the distance per stroke estimates
+for the complementary filter (CF) and Kalman filter (KF) as compared to the
+estimates from the raw smartphone data (SP).</p>
+</div>
 <div class="figure align-center">
 <img alt="Rowing performance estimation project team." src="https://objects-us-east-1.dream.io/mechmotum/row-research-team.png" style="width: 80%;" />
 <p class="caption">Research team members Li Wang, Ada Liu, Thomas Shedd, Paul Crawford, Britt
 Tarien, and Bryn Cloud</p>
 </div>
+</div>
 
-    </div>
-  </article>
+  </div>
+</article>
+
+
     </div>
   </div>
 

@@ -49,6 +49,9 @@
 ./category/papers.html
 ./category/research.html
 ./category/software.html
+./computational-thinking.html
+./design-and-analsys-of-ski-jumps.html
+./estimation-of-rower-kinematics-in-competitive-rowing.html
 ./feeds/all.atom.xml
 ./feeds/blog.atom.xml
 ./feeds/conferences.atom.xml
@@ -62,6 +65,7 @@
 ./index.html
 ./jobs.html
 ./members.html
+./optimal-handling-bicycles.html
 ./products.html
 ./research.html
 ./tag/appropriate-technology.html

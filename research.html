@@ -1,3 +1,23 @@
+<!--
+  This template displays a summary of pages in a directory below the content
+  provided in the index.rst file.
+
+  content/pages/dir-of-pages/
+    index.rst
+    page1.rst
+    page2.rst
+
+  The index.rst file should have:
+
+  - page-dir : name of parent directory (not full path, just name). This name
+               should be unique.
+
+  Each page should have these metadata items:
+  - date
+  - summary-sentence : more like a paragraph
+  - summary-image : this should be a 400x400 px url to an image
+
+-->
 <!doctype html>
 <html lang="en">
 
@@ -19,7 +39,7 @@
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
         href="https://mechmotum.github.io/feeds/all.atom.xml">
   
-  <meta name="description" content="The following details various research projects that are currently active. Human-in-the-loop Augmented Automatic Control and Vehicle Design Optimal Bicycle Design for Handling Current researchers: Anastasia Kubicki, Anthony Toribio Collaborators: Mont Hubbard, Ronald Hess (UC Davis) Past researchers: Roy Gilboa We have developed an optimization algorithm that can discover bicycle designs …">
+  <meta name="description" content="The following details various research projects that are currently active. Human-in-the-loop Augmented Automatic Control and Vehicle Design Experimental Validation of Bicycle Handling Prediction Current researchers: Trevor Metz Collaborators: Mont Hubbard, Ronald Hess Past researchers: Scott Kresie We have proposed a theoretical lateral handling quality metric for any given bicycle design …">
 
 
 </head>
@@ -39,10 +59,10 @@
       <ul class="list-inline">
             <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
             <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
             <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
             <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
             <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
-            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
           <li class="list-inline-item"><a href="/blog/">Blog</a></li>
       </ul>
   </div>
@@ -60,31 +80,6 @@
     <p>The following details various research projects that are currently active.</p>
 <div class="section" id="human-in-the-loop-augmented-automatic-control-and-vehicle-design">
 <h2>Human-in-the-loop Augmented Automatic Control and Vehicle Design</h2>
-<div class="section" id="optimal-bicycle-design-for-handling">
-<h3>Optimal Bicycle Design for Handling</h3>
-<div class="line-block">
-<div class="line">Current researchers: Anastasia Kubicki, Anthony Toribio</div>
-<div class="line">Collaborators: Mont Hubbard, Ronald Hess (UC Davis)</div>
-<div class="line">Past researchers: Roy Gilboa</div>
-</div>
-<img alt="Image of a theorectical optimal bicycle." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/optimal-handling-bicycle.png" style="width: 60%;" />
-<p>We have developed an optimization algorithm that can discover bicycle designs
-which maximize the lateral handling qualities of the vehicle <a class="footnote-reference" href="#id2" id="id1">[1]</a>. The
-algorithm produces less-than-intuitive but physically feasible bicycle designs.
-We are currently working to make the algorithm more robust and expanding the
-parameter search space. We are also constructing some of the discovered designs
-for experimental validation and testing. The first design, based on an optimal
-design for 4 m/s is shown below:</p>
-<img alt="Image of a realizable optimal bicycle." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/opt-bike-design.png" style="width: 60%;" />
-<table class="docutils footnote" frame="void" id="id2" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
-<tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>Moore, Jason, Mont Hubbard, and Ronald A. Hess. &quot;An Optimal Handling
-Bicycle.&quot; In Proceedings of the 2016 Bicycle and Motorcycle Dynamics
-Conference. Figshare, 2016. <a class="reference external" href="https://doi.org/10.6084/m9.figshare.c.3460590.v11">https://doi.org/10.6084/m9.figshare.c.3460590.v11</a>.</td></tr>
-</tbody>
-</table>
-</div>
 <div class="section" id="experimental-validation-of-bicycle-handling-prediction">
 <h3>Experimental Validation of Bicycle Handling Prediction</h3>
 <div class="line-block">
@@ -95,34 +90,34 @@ Conference. Figshare, 2016. <a class="reference external" href="https://doi.org/
 <img alt="Image showing handling quality metrics for a variety of bicycles." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/handling-metric.png" style="width: 60%;" />
 <p>We have proposed a theoretical lateral handling quality metric for any given
 bicycle design based on a corpus of experimental data in aircraft handling
-research <a class="footnote-reference" href="#id6" id="id3">[2]</a>. This project aims to validate this metric directly from
+research <a class="footnote-reference" href="#id4" id="id1">[1]</a>. This project aims to validate this metric directly from
 experimental evidence in bicycling maneuvers and tasks. We have developed a
 variable stability instrumented bicycle and demonstrated preliminarily that
 that there may be correlations between our theoretical metric and the rider's
-subjective opinion of the bicycle's handling <a class="footnote-reference" href="#id7" id="id4">[3]</a>. Ongoing work includes,
+subjective opinion of the bicycle's handling <a class="footnote-reference" href="#id5" id="id2">[2]</a>. Ongoing work includes,
 improvements to the experimental apparatus and protocol for a larger scale
-validation with arbitrary experimental subjects <a class="footnote-reference" href="#id8" id="id5">[4]</a>.</p>
-<table class="docutils footnote" frame="void" id="id6" rules="none">
+validation with arbitrary experimental subjects <a class="footnote-reference" href="#id6" id="id3">[3]</a>.</p>
+<table class="docutils footnote" frame="void" id="id4" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id3">[2]</a></td><td>Hess, Ronald, Jason K. Moore, and Mont Hubbard. &quot;Modeling the Manually
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>Hess, Ronald, Jason K. Moore, and Mont Hubbard. &quot;Modeling the Manually
 Controlled Bicycle.&quot; IEEE Transactions on Systems, Man, and Cybernetics -
 Part A: Systems and Humans 42, no. 3 (May 2012): 545–57.
 <a class="reference external" href="https://doi.org/10.1109/TSMCA.2011.2164244">https://doi.org/10.1109/TSMCA.2011.2164244</a>.</td></tr>
 </tbody>
 </table>
-<table class="docutils footnote" frame="void" id="id7" rules="none">
+<table class="docutils footnote" frame="void" id="id5" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id4">[3]</a></td><td>Kresie, Scott W., Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
+<tr><td class="label"><a class="fn-backref" href="#id2">[2]</a></td><td>Kresie, Scott W., Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
 &quot;Experimental Validation of Bicycle Handling Prediction,&quot; September 13,
 2017. <a class="reference external" href="https://doi.org/10.6084/m9.figshare.5405233.v1">https://doi.org/10.6084/m9.figshare.5405233.v1</a>.</td></tr>
 </tbody>
 </table>
-<table class="docutils footnote" frame="void" id="id8" rules="none">
+<table class="docutils footnote" frame="void" id="id6" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id5">[4]</a></td><td>Metz, Trevor. &quot;Design of a PID Controller for Controlling The Speed of
+<tr><td class="label"><a class="fn-backref" href="#id3">[3]</a></td><td>Metz, Trevor. &quot;Design of a PID Controller for Controlling The Speed of
 an Instrumented Ebike&quot;, Laboratorium of Marvelous Mechanical Motum Blog
 (December 15, 2018)
 <a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-design.html">https://mechmotum.github.io/blog/ebike-controller-design.html</a></td></tr>
@@ -150,24 +145,24 @@ standing. Given all or subsets of this data collected during externally
 perturbed standing, we are interested in developing optimal control theories
 and methods of identifying the specific control strategy in use. We have
 developed parameter identification methods using direct collocation to identify
-the controllers used in simulated standing <a class="footnote-reference" href="#id11" id="id9">[5]</a>. The general optimal control
+the controllers used in simulated standing <a class="footnote-reference" href="#id9" id="id7">[4]</a>. The general optimal control
 and parameter estimation methods used have been formalized in the software,
-Opty <a class="footnote-reference" href="#id12" id="id10">[6]</a>. We are currently developing a small desktop &quot;double pendulum on a
+Opty <a class="footnote-reference" href="#id10" id="id8">[5]</a>. We are currently developing a small desktop &quot;double pendulum on a
 cart&quot; robot to verify and improve the control identification methods. The robot
 will allow us to measure the motion during perturbed balancing which is a
 result of known programmed control strategies.</p>
-<table class="docutils footnote" frame="void" id="id11" rules="none">
+<table class="docutils footnote" frame="void" id="id9" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id9">[5]</a></td><td>Moore, Jason K., and Antonie J. van den Bogert. &quot;Quiet Standing Control
+<tr><td class="label"><a class="fn-backref" href="#id7">[4]</a></td><td>Moore, Jason K., and Antonie J. van den Bogert. &quot;Quiet Standing Control
 Parameter Identification with Direct Collocation.&quot; In XV International
 Symposium on Computer Simulation in Biomechanics. Edinburgh, UK, 2015.</td></tr>
 </tbody>
 </table>
-<table class="docutils footnote" frame="void" id="id12" rules="none">
+<table class="docutils footnote" frame="void" id="id10" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id10">[6]</a></td><td>Jason K. Moore, and Antonie van den Bogert. &quot;Opty: Software for
+<tr><td class="label"><a class="fn-backref" href="#id8">[5]</a></td><td>Jason K. Moore, and Antonie van den Bogert. &quot;Opty: Software for
 Trajectory Optimization and Parameter Identification Using Direct
 Collocation.&quot; Journal of Open Source Software 3, no. 21 (2018): 300.
 <a class="reference external" href="https://doi.org/10.21105/joss.00300">https://doi.org/10.21105/joss.00300</a>.</td></tr>
@@ -186,51 +181,6 @@ Collocation.&quot; Journal of Open Source Software 3, no. 21 (2018): 300.
 quadriplegia to control an electric tricycle.</p>
 </div>
 </div>
-<div class="section" id="enhancing-athlete-performance-and-safety-in-sports">
-<h2>Enhancing Athlete Performance and Safety in Sports</h2>
-<div class="section" id="smartphone-based-rowing-metric-estimation">
-<h3>Smartphone-based Rowing Metric Estimation</h3>
-<div class="line-block">
-<div class="line">Current researchers:</div>
-<div class="line">Collaborators: Paul Crawford (Hegemony Technologies), Mont Hubbard (UC Davis), Xinfan Lin (UC Davis)</div>
-<div class="line">Past researchers: Bryn Cloud, Ada Liu, Britt Tarien, Thomas Shedd, Li Wang, Andrew Shoats</div>
-</div>
-<p>Real-time feedback of stroke-by-stroke rowing performance metrics can enable
-data driven training and coaching. Instrumenting rowers during training and
-competition with laboratory quality sensing is very difficult, but the ubiquity
-of smartphones provides an avenue to collect fewer and less accurate kinematic
-and kinetic measurements. This project aims to improve performance critical
-biomechanic rowing metrics through dynamics informed estimation algorithms. We
-have developed rower adaptive filtering methods to predict global boat
-position, speed, stroke rate, and distance per stroke at high accuracy and with
-experimental protocols for validating the estimations <a class="footnote-reference" href="#id14" id="id13">[7]</a>.</p>
-<table class="docutils footnote" frame="void" id="id14" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
-<tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id13">[7]</a></td><td>B. Cloud et al., &quot;Adaptive smartphone-based sensor fusion for estimating
-competitive rowing kinematic metrics,&quot; 23-Dec-2018.
-<a class="reference external" href="https://doi.org/10.31224/osf.io/nykuh">https://doi.org/10.31224/osf.io/nykuh</a></td></tr>
-</tbody>
-</table>
-</div>
-<div class="section" id="ski-jumps-designed-for-a-specific-equivalent-fall-height">
-<h3>Ski Jumps Designed for a Specific Equivalent Fall Height</h3>
-<div class="line-block">
-<div class="line">Current researchers: Bryn Cloud</div>
-<div class="line">Collaborators: Britt Tarien, Mont Hubbard (UC Davis), Jim McNeil (Colorado School of Mines)</div>
-</div>
-<a class="reference external image-reference" href="http://www.skijumpdesign.info"><img alt="Screenshot of the ski jump design application." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-screenshot.jpg" style="width: 60%;" /></a>
-<p>Little engineering or science goes into the design and construction of ski and
-snowboard jumps in terrain parks at publicly accessible ski resorts. A
-relatively large number of injuries and even deaths occur during skiing and
-snowboarding at these resorts. It is possible to design the landing surfaces of
-jumps such that the normal impact velocity on landing is capped at a safer
-value regardless of the jumper's takeoff speed and jump launch speed. These
-jump designs can still provide large maximum heights and flight durations. We
-have designed a web application that laymen can use to design ski jumps with a
-specified equivalent fall height.</p>
-</div>
-</div>
 <div class="section" id="sustainable-transportation">
 <h2>Sustainable Transportation</h2>
 <div class="section" id="inexpensive-open-source-and-open-hardware-bicycle-data-logger">
@@ -244,12 +194,12 @@ specified equivalent fall height.</p>
 has the potential to teach us much about travel behavior and safety of
 bicyclists. We would like to develop a open collaborative project with the aim
 of creating a modular, continually inexpensive, open source, and open hardware
-bicycle data logger. This idea was pitched by Marco Dozza at ICSC 2017 <a class="footnote-reference" href="#id16" id="id15">[8]</a> and
+bicycle data logger. This idea was pitched by Marco Dozza at ICSC 2017 <a class="footnote-reference" href="#id12" id="id11">[6]</a> and
 we are working with his team to bring this to fruition.</p>
-<table class="docutils footnote" frame="void" id="id16" rules="none">
+<table class="docutils footnote" frame="void" id="id12" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id15">[8]</a></td><td>Dozza, Marco; Rasch, A.; Boda, C. N. (2017): An Open-Source Data Logger
+<tr><td class="label"><a class="fn-backref" href="#id11">[6]</a></td><td>Dozza, Marco; Rasch, A.; Boda, C. N. (2017): An Open-Source Data Logger
 for Field Cycling Collection: Design and Evaluation.
 <a class="reference external" href="https://doi.org/10.6084/m9.figshare.5404918.v1">https://doi.org/10.6084/m9.figshare.5404918.v1</a></td></tr>
 </tbody>
@@ -266,25 +216,25 @@ for Field Cycling Collection: Design and Evaluation.
 <div class="line">Past researchers: Aaron Shaw, Rayming Liang, Abraham McKay</div>
 </div>
 <p>We have developed a inexpensive centrifugal pump that attaches to a simple
-power takeoff on a Buffalo Bike <a class="footnote-reference" href="#id19" id="id17">[9]</a>. Our hypothesis is that a less efficient
+power takeoff on a Buffalo Bike <a class="footnote-reference" href="#id15" id="id13">[7]</a>. Our hypothesis is that a less efficient
 centrifugal pump paired with power generation from cycling will be overall more
 efficient than a more efficient positive displacement pump paired with stepping
 power generation. We have recently shown this to be true by accurately
 measuring the input biomechanical power and output hydraulic power from both
-systems to produce efficiency curves as a function of hydraulic load <a class="footnote-reference" href="#id20" id="id18">[10]</a>.</p>
-<table class="docutils footnote" frame="void" id="id19" rules="none">
+systems to produce efficiency curves as a function of hydraulic load <a class="footnote-reference" href="#id16" id="id14">[8]</a>.</p>
+<table class="docutils footnote" frame="void" id="id15" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id17">[9]</a></td><td>Mckay, Abraham B., &quot;The Water Buffalo: Design of a Portable Bicycle
+<tr><td class="label"><a class="fn-backref" href="#id13">[7]</a></td><td>Mckay, Abraham B., &quot;The Water Buffalo: Design of a Portable Bicycle
 Powered Irrigation Pump for Small-Scale African Farmers&quot;, MSc Thesis,
 University of California, Davis, 2018.
 <a class="reference external" href="https://doi.org/10.6084/m9.figshare.6378401.v2">https://doi.org/10.6084/m9.figshare.6378401.v2</a></td></tr>
 </tbody>
 </table>
-<table class="docutils footnote" frame="void" id="id20" rules="none">
+<table class="docutils footnote" frame="void" id="id16" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id18">[10]</a></td><td>Shaw, Aaron and Liang, Rayming. &quot;Finding the Efficiency of the Xylem and
+<tr><td class="label"><a class="fn-backref" href="#id14">[8]</a></td><td>Shaw, Aaron and Liang, Rayming. &quot;Finding the Efficiency of the Xylem and
 Money Maker Treadle Pumps&quot;, Laboratorium of Marvelous Mechanical Motum Blog
 (December 27, 2018)
 <a class="reference external" href="https://mechmotum.github.io/blog/treadle-pump-experiment.html">https://mechmotum.github.io/blog/treadle-pump-experiment.html</a></td></tr>
@@ -346,6 +296,96 @@ problems, without getting bogged down in the mathematical details.</p>
   </div>
 </article>
 
+<div class="container">
+  <div class="row">
+    <h3><a href=computational-thinking.html>Computational Thinking</a></h3>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=computational-thinking.html>
+        <img style="width:100%;" src="https://objects-us-east-1.dream.io/mechmotum/project-image-comp-think.png" />
+      </a>
+    </div>
+    <div class="col-sm">
+      <p>Programming is not just a way of translating well understood
+ideas into code; it is a tool for communicating, teaching,
+learning, and thinking. Students with basic programming
+skills can use coding as a "pedagogic lever" to learn other
+topics in engineering, math, natural and social science,
+arts and humanities.</p>
+    </div>
+  </div>
+  <div class="row">
+    <h3><a href=estimation-of-rower-kinematics-in-competitive-rowing.html>Estimation of Rower Kinematics in Competitive Rowing</a></h3>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=estimation-of-rower-kinematics-in-competitive-rowing.html>
+        <img style="width:100%;" src="https://objects-us-east-1.dream.io/mechmotum/project-image-row.png" />
+      </a>
+    </div>
+    <div class="col-sm">
+      <p>Real-time feedback of stroke-by-stroke rowing performance
+metrics can enable data driven training and coaching.
+Instrumenting rowers during training and competition with
+laboratory quality sensing is very difficult, but the
+ubiquity of smartphones provides an avenue to collect fewer
+and less accurate kinematic and kinetic measurements. This
+project aims to improve performance critical biomechanic
+rowing metrics through dynamics informed estimation
+algorithms. We have developed rower adaptive filtering
+methods to predict global boat position, speed, stroke rate,
+and distance per stroke at high accuracy and with
+experimental protocols for validating the estimations.</p>
+    </div>
+  </div>
+  <div class="row">
+    <h3><a href=design-and-analsys-of-ski-jumps.html>Design and Analsys of Ski Jumps</a></h3>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=design-and-analsys-of-ski-jumps.html>
+        <img style="width:100%;" src="https://objects-us-east-1.dream.io/mechmotum/project-image-ski-jump.png" />
+      </a>
+    </div>
+    <div class="col-sm">
+      <p>Little engineering goes into the design and
+construction of ski and snowboard jumps in terrain parks at
+publicly accessible ski resorts. Catostrophic injuries and
+even deaths occur during skiing and snowboarding at these
+resorts. It is possible to design the landing surfaces of
+jumps such that the normal impact velocity on landing is
+capped at a safer value regardless of the jumper's takeoff
+speed and jump launch speed. These jump designs can still
+provide large maximum heights and flight durations for
+particpant fun. We have designed a web application that
+laypeople can use to design and anlayze ski jumps with
+specified equivalent fall height in mind.</p>
+    </div>
+  </div>
+  <div class="row">
+    <h3><a href=optimal-handling-bicycles.html>Optimal Handling Bicycles</a></h3>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=optimal-handling-bicycles.html>
+        <img style="width:100%;" src="https://objects-us-east-1.dream.io/mechmotum/project-image-optimal-handling-bicycle.png" />
+      </a>
+    </div>
+    <div class="col-sm">
+      <p>Our goal with this project is to develop metrics that
+quantify the handling, i.e. ease of control, of a bicycle or
+other single track vehicle and using these metrics develop
+methods for designing bicycles with specified handling
+characteristics. We have developed an optimization algorithm
+that can discover bicycle designs which maximize the lateral
+handling qualities of the vehicle. The algorithm currently
+produces less-than-intuitive but physically feasible bicycle
+designs. These methods can likely be extended to any
+human-machine system design.</p>
+    </div>
+  </div>
+</div>
 
     </div>
   </div>
