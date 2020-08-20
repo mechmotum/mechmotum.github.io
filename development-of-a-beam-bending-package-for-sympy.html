@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Development of a Beam Bending Package for SymPy | Laboratorium of Marvelous Mechanical Motum
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/development-of-a-beam-bending-package-for-sympy.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="Latest version documentation Open SymPy pull requests Open SymPy issues This package has been primarily developed by Google Summer of Code students: GSoC 2016 Sampad Kumar Saha (Indian Institute of Technology, Kharagpur) Application: https://github.com/sympy/sympy/wiki/GSoC-2016-Application-Sampad-Kumar-Saha:-Singularity-Functions Mentors: Jason K. Moore, Sartaj Singh, Ondřej Čertík Blog …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Laboratorium of Marvelous Mechanical Motum">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <h1 class="title"><a href="https://mechmotum.github.io/">Laboratorium of Marvelous Mechanical Motum</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Development of a Beam Bending Package for SymPy
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <div class="row">
+      <div class="col-sm-4">
+        <img style="width:100%;" src="https://objects-us-east-1.dream.io/mechmotum/project-image-sympy-beam.png" />
+      </div>
+      <div class="col-sm">
+        <h2>Summary</h2>
+        <p>Mechanical and civil engineers utilize two- and
+three-dimensional theories of stress and strain to determine
+if structural beams will fail. Simple mathematical models
+can be used to make accurate predictions of failure due to
+shear, bending, and torsion stresses and due to deflection.
+Solving beam related problems typically involves integrating
+discontinuous functions and solving for boundary conditions.
+The integral calculus and algebra details often hide the
+trees for the woods. This project is centered around
+developing a package for SymPy that can be used to model and
+solve analytical beam problems, without getting bogged down
+in the mathematical details.</p>
+      </div>
+    </div>
+    <ul class="simple">
+<li><a class="reference external" href="https://docs.sympy.org/latest/modules/physics/continuum_mechanics/index.html">Latest version documentation</a></li>
+<li><a class="reference external" href="https://github.com/sympy/sympy/pulls?q=is%3Aopen+is%3Apr+label%3Aphysics.continuum_mechanics">Open SymPy pull requests</a></li>
+<li><a class="reference external" href="https://github.com/sympy/sympy/issues?q=is%3Aopen+is%3Aissue+label%3Aphysics.continuum_mechanics">Open SymPy issues</a></li>
+</ul>
+<p>This package has been primarily developed by Google Summer of Code students:</p>
+<ul class="simple">
+<li>GSoC 2016 Sampad Kumar Saha (Indian Institute of Technology, Kharagpur)<ul>
+<li>Application: <a class="reference external" href="https://github.com/sympy/sympy/wiki/GSoC-2016-Application-Sampad-Kumar-Saha:-Singularity-Functions">https://github.com/sympy/sympy/wiki/GSoC-2016-Application-Sampad-Kumar-Saha:-Singularity-Functions</a></li>
+<li>Mentors: Jason K. Moore, Sartaj Singh, Ondřej Čertík</li>
+<li>Blog: <a class="reference external" href="https://sampadblog.wordpress.com/">https://sampadblog.wordpress.com/</a></li>
+<li>Final report: ?</li>
+</ul>
+</li>
+<li>GSoC 2018 Jashanpreet Singh (Thapar Institute of Engineering and Technology, India)<ul>
+<li>Application: <a class="reference external" href="https://github.com/sympy/sympy/wiki/GSoC-2018-Application-Jashanpreet-Singh:-Create-a-Rich-Beam-Solving-System">https://github.com/sympy/sympy/wiki/GSoC-2018-Application-Jashanpreet-Singh:-Create-a-Rich-Beam-Solving-System</a></li>
+<li>Mentors: Arihant Parsoya, Jason K. Moore</li>
+<li>Blog: <a class="reference external" href="https://singhjashan.wordpress.com/">https://singhjashan.wordpress.com/</a></li>
+<li>Final report <a class="reference external" href="https://github.com/sympy/sympy/wiki/GSoC-2018-Report-Jashanpreet-Singh:-Create-a-Rich-Beam-Solving-System">https://github.com/sympy/sympy/wiki/GSoC-2018-Report-Jashanpreet-Singh:-Create-a-Rich-Beam-Solving-System</a></li>
+</ul>
+</li>
+<li>GSoC 2019 Ishan Joshi (Netaji Subhas Institute of Technology)<ul>
+<li>Application: <a class="reference external" href="https://docs.google.com/document/d/1LOtMTr9cCrzQ8_OnKrgkZs8wFS9N9PxlR10h3aKG0jg/edit">https://docs.google.com/document/d/1LOtMTr9cCrzQ8_OnKrgkZs8wFS9N9PxlR10h3aKG0jg/edit</a></li>
+<li>Mentors: Jashanpreet Singh, Yathartha</li>
+<li>Blog: <a class="reference external" href="https://ishanaj.wordpress.com/">https://ishanaj.wordpress.com/</a></li>
+<li>Final report <a class="reference external" href="https://github.com/sympy/sympy/wiki/GSoC-2019-Final-Report-Ishan-Joshi:-Creating-a-rich-beam-solving-system-and-extending-continuum-mechanics-module">https://github.com/sympy/sympy/wiki/GSoC-2019-Final-Report-Ishan-Joshi:-Creating-a-rich-beam-solving-system-and-extending-continuum-mechanics-module</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+</article>
+
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+</body>
+
+</html>
