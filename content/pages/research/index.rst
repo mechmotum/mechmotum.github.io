@@ -175,20 +175,3 @@ will enable arbitrary visualizations and allow students to learn through
 computational oriented exercises.
 
 .. _LibreTexts: http://www.libretexts.org
-
-Development of a Beam Bending Package for SymPy
------------------------------------------------
-
-| Current researchers: Ishan Joshi (Netaji Subhas Institute of Technology, SymPy GSoC)
-| Collaborators: SymPy Developers
-| Past researchers: Jashanpreet Singh, Sampad Saha
-
-Mechanical and civil engineers utilize two- and three-dimensional theories of
-stress and strain to determine if structural beams will fail. Simple
-mathematical models can be used to make accurate predictions of failure due to
-shear, bending, and torsion stresses and due to deflection. Solving beam
-related problems typically involves integrating discontinuous functions and
-solving for boundary conditions. The integral calculus and algebra details
-often hide the trees for the woods. This project is centered around developing
-a package for SymPy that can be used to model and solve analytical beam
-problems, without getting bogged down in the mathematical details.
