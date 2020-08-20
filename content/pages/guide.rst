@@ -5,8 +5,8 @@ nuts and bolts of how the lab functions. It's primary purpose is for
 on-boarding new members, but is also a reference for current members. For this
 page to be useful, all lab members will need to provide their collective
 knowledge and experiences. It is up to all of us to make this guide useful. You
-are expected to contribute to the guide and edit it. Just discuss with the lab
-any desires to change any of the guidelines.
+are expected to contribute to the guide and edit it. Discuss with the lab any
+desires to change any of the guidelines.
 
 .. contents::
 
@@ -14,18 +14,29 @@ Open Science
 ============
 
 The default science and engineering practice should be open practices (open
-access publications, open source software, open data, etc). If unsure whether
-to make information public, ask, otherwise please default to sharing early and
-often. We do work with organizations that value or require privacy (human
-subject data, FERPA protected data, proprietary company needs). Always check
-with the involved parties before sharing when this is the case. This is
-something that should be discussed at the beginning of all projects.
+access publications, open source software, open data, accessible and public
+sharing etc.). If unsure whether to make information public, ask, otherwise
+please default to sharing early and often. We do work with organizations that
+value or require privacy (human subject data, student protected data,
+proprietary company needs). Always check with the involved parties before
+sharing when this is the case. This is something that should be discussed at
+the beginning of all projects.
+
+Research Tools Contributions
+============================
+
+Researcher have to use and develop a variety of tools to complete their work.
+For example, we will develop experimental equipment and software often in the
+lab. Many tools are potentially useful to other people inside and outside of
+the lab. Lab members should build on and contribute to the tools we use and
+develop in the lab. There is a general expectation to create and contribute to
+open source software and open hardware efforts while working in the lab.
 
 AIO Weekly Emails
 =================
 
 Lab members are expected to send out AIOs to the lab group email list and any
-collaborators each week.
+project collaborators each week.
 
 "AIO" stands for Accomplishments, Issues, and Objectives. This email should
 contain three bullet lists:
@@ -41,30 +52,33 @@ The purpose of these are to share what you are doing with me, anyone involved
 in your project outside the lab, and also to share among the lab members. The
 latter is the most important one, because many of you may be solving similar
 problems and can offer help/tips to other members. Doing this will hopefully
-start conversations among the group. Some notes:
+certainly start conversations among the group. Some notes:
 
 - If you are working in a team you can send out a single AIO for your team.
 - No need to list your hours worked or who did what in teams.
 - The AIOs do not need to be elaborate, concise is best.
 - It is ok, and preferred, to reply-all if you want to comment on an AIO with a
   suggestion so everyone can learn.
-- This is not a contest. I don't care how much you accomplish, but I do care
-  that you are working and attempting to make progress. If you had vacation
-  that week or just didn't have much time to work, that's fine, just note that.
+- The AIOs are not a contest. I am not collecting these to judge how much you
+  accomplish, but I do care that you are working, attempting to make progress,
+  and communicating with your lab members for help. If you had vacation that
+  week or just didn't have much time to work, that's fine, just note that.
 - If you need help via with issues, you need to provide enough detail for the
   reader to understand the problem.
 
 The AIOs should be sent the day of your meeting with the PI. It can be before
 (we can use it as an agenda) or after if you prefer to work on the issues with
-me and then post outstanding ones and the revised objectives post meeting.
-However you do it, each week the accomplishments should hopefully reflect the
-objectives you wrote the previous week.
+me and then post outstanding ones and the revised objectives post meeting. Some
+students like to leave the objectives blank and add them after meeting with the
+PI. However you do it, each week the accomplishments should hopefully reflect
+the objectives you wrote the previous week.
 
 Quarterly Blog Posts
 ====================
 
 In general, I would like each project to co-write an end of quarter blog post
-on the lab website describing their accomplishments and results.
+on the lab website describing their accomplishments and results. This writing
+exercise will help build the content for future papers and theses.
 
 Lab Email List
 ==============
@@ -75,66 +89,6 @@ https://groups.google.com/forum/#!forum/mechmotum
 
 This is both an announcement list and a discussion list for the lab. All lab
 members need to join and pay attention to this list.
-
-Getting Hired
-=============
-
-Undergraduate Research Assistant
-   Undergraduate research assistants must contact the MAE office and sign some
-   paperwork (patent agreement, etc).
-Volunteer Research Assistant
-   Volunteer researchers must fill out a volunteer form and sign the UCD patent
-   agreement at the MAE office before starting work.
-
-- `Student Assistant Pay Scale <https://ucdavispolicy.ellucid.com/documents/view/183>`_
-
-Logging Hours
-=============
-
-Paid lab employees must sign into the `hour logging system`_ every two weeks to
-submit their work hours for review. If you worked 0 hours for the time period
-you still need to submit a time sheet with 0 hours.
-
-.. _`hour logging system`:  https://trs.ucdavis.edu/trs/
-
-If you are a paid undergraduate student worker you are expected to work on
-average a minimum of 10 hrs/week unless you have pre-approved a break with
-Jason. The "average" lets you be flexible around winter break, spring break,
-exams, and other priorities with your school work and life. You will also
-likely need to work more on lead up to various research deadlines (paper due
-dates, conferences, etc), so plan for that. You can work a maximum of 20
-hrs/week in the academic year and discuss with Jason if you want to work more
-than 20 hrs/week in the summer. You are expected to contribute work hours
-during the academic breaks unless you request time off. If work > 20 hrs/wk you
-will accrue standard vacation and sick leave. If you work < 20 hrs/wk you can
-take 1 week off in the summer that doesn't count towards your average hours.
-Always let Jason and your co-employees know what your time off plans are well
-ahead of time.
-
-Safety Training
-===============
-
-Anyone who works with me in a non-class related project must take the MAE
-Safety Fundamental class (ideally) before working. Contact the MAE saftey
-coordinator for the next offering and to discuss your specific safety needs.
-
-Anyone who works in a lab space (non-office) and works with physical equipment
-must take the online Lab Safety Fundamentals course.
-
-Anyone who works in a lab space must take the site specific training offered by
-that lab manager. This includes the EDSC.
-
-If you are a volunteer, non-undergraduate employee, haven't taken EME 50, or
-are a graduate student that did not attend UC Davis as an undergrad, you must
-take the 8 week EDSC orientation course before you can use the shop. Check with
-the shop on about the schedule for these.
-
-Purchasing
-==========
-
-See the EME 185 purchasing guidelines for logistics (for now):
-
-http://moorepants.github.io/eme185/pages/resources.html#purchasing-parts-and-materials
 
 Reference Management
 ====================
@@ -202,15 +156,3 @@ it to the spreadsheet. The spreadsheet can be accessed at this link:
 https://docs.google.com/spreadsheets/d/1w80SolpcLTbLtuFDIf9-F-sS_pO-1PEHSpSgEGH_SSg/edit?usp=sharing
 
 Ask Jason if you don't have permissions for this file.
-
-Undergraduate Travel Awards
-===========================
-
-The Undergraduate Research Center (URC) administers undergraduate travel awards
-for up to $500 for students who travel to present their undergraduate
-research at conferences and meetings of regionally or internationally
-recognized professional societies. There is an application every Fall, Winter
-and Spring quarter. More information and eligibility requirements can be found at
-the following link:
-
-https://urc.ucdavis.edu/travel-award-application
