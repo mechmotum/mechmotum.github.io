@@ -1,5 +1,5 @@
-:title: Projects
-:page-dir: projects
+:title: Research
+:page-dir: research
 :template: list-of-pages
 
 The following details various research projects that are currently active.
