@@ -1,38 +1,11 @@
 :title: Research
+:page-dir: research
+:template: list-of-pages
 
 The following details various research projects that are currently active.
 
 Human-in-the-loop Augmented Automatic Control and Vehicle Design
 ================================================================
-
-Optimal Bicycle Design for Handling
------------------------------------
-
-| Current researchers: Anastasia Kubicki, Anthony Toribio
-| Collaborators: Mont Hubbard, Ronald Hess (UC Davis)
-| Past researchers: Roy Gilboa
-
-.. image:: https://objects-us-east-1.dream.io/mechmotum/optimal-handling-bicycle.png
-   :align: center
-   :width: 60%
-   :alt: Image of a theorectical optimal bicycle.
-
-We have developed an optimization algorithm that can discover bicycle designs
-which maximize the lateral handling qualities of the vehicle [#]_. The
-algorithm produces less-than-intuitive but physically feasible bicycle designs.
-We are currently working to make the algorithm more robust and expanding the
-parameter search space. We are also constructing some of the discovered designs
-for experimental validation and testing. The first design, based on an optimal
-design for 4 m/s is shown below:
-
-.. image:: https://objects-us-east-1.dream.io/mechmotum/opt-bike-design.png
-   :align: center
-   :width: 60%
-   :alt: Image of a realizable optimal bicycle.
-
-.. [#] Moore, Jason, Mont Hubbard, and Ronald A. Hess. "An Optimal Handling
-   Bicycle." In Proceedings of the 2016 Bicycle and Motorcycle Dynamics
-   Conference. Figshare, 2016. https://doi.org/10.6084/m9.figshare.c.3460590.v11.
 
 Experimental Validation of Bicycle Handling Prediction
 ------------------------------------------------------
@@ -118,53 +91,6 @@ Design of a Quadriplegic Friendly Tricycle
 
 Students developed a adaptive input device to enable persons with ALS or
 quadriplegia to control an electric tricycle.
-
-Enhancing Athlete Performance and Safety in Sports
-==================================================
-
-Smartphone-based Rowing Metric Estimation
------------------------------------------
-
-| Current researchers:
-| Collaborators: Paul Crawford (Hegemony Technologies), Mont Hubbard (UC Davis), Xinfan Lin (UC Davis)
-| Past researchers: Bryn Cloud, Ada Liu, Britt Tarien, Thomas Shedd, Li Wang, Andrew Shoats
-
-Real-time feedback of stroke-by-stroke rowing performance metrics can enable
-data driven training and coaching. Instrumenting rowers during training and
-competition with laboratory quality sensing is very difficult, but the ubiquity
-of smartphones provides an avenue to collect fewer and less accurate kinematic
-and kinetic measurements. This project aims to improve performance critical
-biomechanic rowing metrics through dynamics informed estimation algorithms. We
-have developed rower adaptive filtering methods to predict global boat
-position, speed, stroke rate, and distance per stroke at high accuracy and with
-experimental protocols for validating the estimations [#]_.
-
-.. [#] B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
-   competitive rowing kinematic metrics," 23-Dec-2018.
-   https://doi.org/10.31224/osf.io/nykuh
-
-
-Ski Jumps Designed for a Specific Equivalent Fall Height
---------------------------------------------------------
-
-| Current researchers: Bryn Cloud
-| Collaborators: Britt Tarien, Mont Hubbard (UC Davis), Jim McNeil (Colorado School of Mines)
-
-.. image:: https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-screenshot.jpg
-   :width: 60%
-   :align: center
-   :target: http://www.skijumpdesign.info
-   :alt: Screenshot of the ski jump design application.
-
-Little engineering or science goes into the design and construction of ski and
-snowboard jumps in terrain parks at publicly accessible ski resorts. A
-relatively large number of injuries and even deaths occur during skiing and
-snowboarding at these resorts. It is possible to design the landing surfaces of
-jumps such that the normal impact velocity on landing is capped at a safer
-value regardless of the jumper's takeoff speed and jump launch speed. These
-jump designs can still provide large maximum heights and flight durations. We
-have designed a web application that laymen can use to design ski jumps with a
-specified equivalent fall height.
 
 Sustainable Transportation
 ==========================
