@@ -1,6 +1,6 @@
 :title: Computational Thinking
 :status: hidden
-:date: 2018
+:date: 2019
 :summary-sentence: Programming is not just a way of translating well understood
                    ideas into code; it is a tool for communicating, teaching,
                    learning, and thinking. Students with basic programming

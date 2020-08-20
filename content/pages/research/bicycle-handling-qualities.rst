@@ -1,6 +1,6 @@
 :title: Experimental Validation of Bicycle Handling Prediction
 :status: hidden
-:date: 2012
+:date: 2019-12-10
 :summary-sentence: This project aims to validate this metric directly from
                    experimental evidence in bicycling maneuvers and tasks. We
                    have developed a variable stability instrumented bicycle and

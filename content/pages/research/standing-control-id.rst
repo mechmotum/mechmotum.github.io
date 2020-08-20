@@ -1,6 +1,6 @@
 :title: Control Identification of Human Standing
 :status: hidden
-:date: 2018
+:date: 2019-02
 :summary-sentence: Humans unconsciously utilize a control strategy while
                    standing. Visual, vestibular, and proprioceptive sensing
                    inform the brain's control strategy which reacts to

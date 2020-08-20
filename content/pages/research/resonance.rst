@@ -1,5 +1,5 @@
 :title: Learning Mechanical Vibrations Through Computational Thinking
-:date: 2017
+:date: 2019-12
 :status: hidden
 :summary-sentence: "Computational thinking" is an alternative learning process
                    for formulating and solving engineering problems. A unique

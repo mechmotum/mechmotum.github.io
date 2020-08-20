@@ -1,6 +1,6 @@
 :title: Efficiency and Use of Human Powered Irrigation Pumps
 :status: hidden
-:date: 2017
+:date: 2018-12-27
 :summary-sentence: We have developed a inexpensive centrifugal pump that
                    attaches to a simple power takeoff on a Buffalo Bike. Our
                    hypothesis is that a less efficient centrifugal pump paired

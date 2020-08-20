@@ -1,6 +1,6 @@
 :title: Development of a Beam Bending Package for SymPy
 :status: hidden
-:date: 2018
+:date: 2019-08
 :summary-sentence: Mechanical and civil engineers utilize two- and
                    three-dimensional theories of stress and strain to determine
                    if structural beams will fail. Simple mathematical models

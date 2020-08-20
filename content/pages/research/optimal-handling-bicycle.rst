@@ -1,6 +1,6 @@
 :title: Optimal Handling Bicycles
 :collaborators: Mont Hubbard (UC Davis), Ronald Hess (UC Davis)
-:date: 2012
+:date: 2019-09
 :researchers: Roy Gilboa, Stasia Kubicki, Molly Moritzburke, Anthony Toribio, Shizhao Yang
 :status: hidden
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-optimal-handling-bicycle.png

@@ -1,6 +1,6 @@
 :title: Inexpensive Open Source and Open Hardware Bicycle Data Logger
 :status: hidden
-:date: 2017
+:date: 2018-10
 :summary-sentence: Analysis of comprehensive dynamical data during bicycling
                    trips and activities has the potential to teach us much
                    about travel behavior and safety of bicyclists. We would

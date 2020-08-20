@@ -1,6 +1,6 @@
 :title: Estimation of Rower Kinematics in Competitive Rowing
 :category: project
-:date: 2018
+:date: 2019-12-05
 :status: hidden
 :summary: Details of a rowing research project.
 :research-theme: Sports Engineering

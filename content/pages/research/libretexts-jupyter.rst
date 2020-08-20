@@ -1,6 +1,6 @@
 :title: Interactive Jupyter-Enabled LibreTexts Pages
 :status: hidden
-:date: 2018
+:date: 2020
 :summary-sentence: We are interested in providing an interactive computing
                    environments in online textbooks at a massive scale.
                    LibreTexts is one of the largest and most visited online
