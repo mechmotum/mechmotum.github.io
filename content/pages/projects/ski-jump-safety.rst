@@ -1,7 +1,6 @@
 :title: Design and Analsys of Ski Jumps
 :category: project
-:date: 2020-08-20
-:modified: 2020-08-20
+:date: 2018
 :status: hidden
 :summary: Details of a rowing research project.
 :research-theme: Sports Engineering
