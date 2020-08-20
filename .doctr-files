@@ -50,10 +50,13 @@
 ./category/research.html
 ./category/software.html
 ./computational-thinking.html
+./control-identification-of-human-standing.html
 ./design-and-analysis-of-ski-jumps.html
+./design-of-a-quadriplegic-friendly-tricycle.html
 ./development-of-a-beam-bending-package-for-sympy.html
 ./efficiency-and-use-of-human-powered-irrigation-pumps.html
 ./estimation-of-rower-kinematics-in-competitive-rowing.html
+./experimental-validation-of-bicycle-handling-prediction.html
 ./feeds/all.atom.xml
 ./feeds/blog.atom.xml
 ./feeds/conferences.atom.xml
@@ -65,7 +68,10 @@
 ./feeds/software.atom.xml
 ./guide.html
 ./index.html
+./inexpensive-open-source-and-open-hardware-bicycle-data-logger.html
+./interactive-jupyter-enabled-libretexts-pages.html
 ./jobs.html
+./learning-mechanical-vibrations-through-computational-thinking.html
 ./members.html
 ./optimal-handling-bicycles.html
 ./products.html
