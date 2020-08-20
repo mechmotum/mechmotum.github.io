@@ -1,0 +1,5 @@
+# binary objects directory stored in dreamobject
+assets/
+
+# pelican output directory
+output/
