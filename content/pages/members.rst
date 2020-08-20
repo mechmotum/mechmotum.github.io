@@ -77,8 +77,10 @@ Teaching Assistants
 Google Summer of Code and Season of Docs Mentees
 ================================================
 
-Past
+Current
    - Naman Nimmo [May 2020-August 2020]
+
+Past
    - Lauren Glattly [August 2019-November 2019]
    - Jashanpreet Singh [May 2018-August 2018]
    - Nikhil Pappu [May 2018-August 2018]

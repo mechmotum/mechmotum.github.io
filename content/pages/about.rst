@@ -7,11 +7,11 @@
 
 The Laboratorium of Marvelous Mechanical Motum is a research group based in the
 `BioMechanical Engineering Department`_ at `Delft University of Technology`_
-led by Jason K. Moore. Our research is centered around human mobility and spans
-the following themes:
+led by `Jason K. Moore`_. Our research is centered around human mobility and
+spans the following themes:
 
-- human-in-the-loop augmented automatic control and vehicle design
 - bicycle and other human powered vehicle design and engineering
+- human-in-the-loop augmented automatic control and vehicle design
 - assistive device design for the physically impaired
 - enhancing athlete performance and safety in sports
 - human powered appropriate technology
@@ -21,3 +21,4 @@ the following themes:
 
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering
 .. _Delft University of Technology: https://www.tudelft.nl
+.. _Jason K. Moore: https://www.moorepants.info
