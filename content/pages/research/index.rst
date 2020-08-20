@@ -1,6 +1,7 @@
 :title: Research
 :page-dir: research
 :template: list-of-pages
+:sortorder: 2
 
 The following details various research projects that are currently active.
 

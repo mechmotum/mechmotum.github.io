@@ -1,4 +1,5 @@
 :title: Guide
+:sortorder: 5
 
 This page is intended to house documentation for lab members that describes the
 nuts and bolts of how the lab functions. It's primary purpose is for

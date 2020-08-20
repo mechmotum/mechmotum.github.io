@@ -1,4 +1,5 @@
 :title: Products
+:sortorder: 3
 
 Journal Articles
 ================
