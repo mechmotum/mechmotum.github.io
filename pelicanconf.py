@@ -63,6 +63,8 @@ else:
 SITESUBTITLE = 'E pur si muove'
 SITEIMAGE = 'https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png'
 DESCRIPTION = ''
+# pelican-alchemy removed the original theme.css, so bring it back.
+THEME_CSS_OVERRIDES = ['theme/css/origtheme.css']
 
 #GOOGLE_ANALYTICS = ''
 #DISQUS_SITENAME = ''
