@@ -4,8 +4,8 @@
 Researchers, Postdoctoral Researchers, PhD Researchers
 ======================================================
 
-If you are interested in doing paid research with the lab after you have a
-Masters degree [#]_ there are two options:
+If you are interested in doing paid research with the lab after you have
+obtained a Master's degree [#]_ there are two options:
 
 1. Wait for an open position in the lab and apply.
 2. Find self-funding and ask if we can host and work with you.
@@ -13,6 +13,8 @@ Masters degree [#]_ there are two options:
 All paid positions associated with the lab will be posted to the `TU Delft
 vacancies website`_, the `BioMechanical Engineering Department vacancies web
 page`_, `Academic Transfer`_ [#]_, and/or this lab website.
+
+**No vacancies at the moment.**
 
 .. _Academic Transfer: http://www.academictransfer.com
 .. _TU Delft vacancies website: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/
@@ -24,20 +26,12 @@ page`_, `Academic Transfer`_ [#]_, and/or this lab website.
 .. [#] All academic jobs in the Netherlands are (and have to be) posted to
    Academic Transfer.
 
-Postdoc Fall Prevention in Elite and Consumer Cycling
------------------------------------------------------
+Master's Students
+=================
 
-- Application URL: https://www.academictransfer.com/en/293095/postdoc-fall-prevention-in-elite-and-consumer-cycling/
-- Application Due Date: 2020-10-02
-- Note that Arend L. Schwab is the primary principal investigator on this
-  project.
-
-Masters Students
-================
-
-Anyone may apply to the Masters Program at TU Delft if you have completed a
-Bachelor degree. If you want to work directly in this lab you need to apply to
-the `Master of Science in Mechanical Engineering`_ and select the
+Anyone may apply to the Master's Program at TU Delft if you have completed a
+Bachelor's degree. If you want to work directly in this lab you need to apply
+to the `Master of Science in Mechanical Engineering`_ and select the
 `BioMechanical Design Track`_.
 
 .. _Master of Science in Mechanical Engineering: https://www.tudelft.nl/en/education/programmes/masters/mechanical-engineering/msc-mechanical-engineering/
@@ -46,22 +40,23 @@ the `Master of Science in Mechanical Engineering`_ and select the
 If you would like to work on a project for your Master's thesis in the lab
 please send a letter explaining your interest in the lab, CV or resume, and any
 other relevant information to j.k.moore@tudelft.nl. Include whether you have
-been accepted to the program already or have or have not applied.
+been accepted to the University or have not applied yet.
 
 If you'd like to see what some of the possibilities for projects are, I post
 non-confidential project ideas to this Github repository:
 
 https://github.com/mechmotum/ideas/issues
 
-If any of these interest you, be sure to let me know in your introduction
-email.
+I will provide any confidential projects available in personal discussion with
+you. If any of these projects interest you or you have a project idea that is
+similar, be sure to let me know in your introduction email.
 
 Undergraduate
 =============
 
 Undergraduates are welcome to join the lab to get research and engineering
-experience. Undergraduates will start with a two week trial period. Please send
-a letter explaining your interest in the lab, CV or resume, and any other
+experience. Undergraduates will start with a one month trial period. Please
+send a letter explaining your interest in the lab, CV or resume, and any other
 relevant information to j.k.moore@tudelft.nl.
 
 UC Davis Positions
