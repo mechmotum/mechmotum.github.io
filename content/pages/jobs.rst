@@ -42,8 +42,10 @@ please send a letter explaining your interest in the lab, CV or resume, and any
 other relevant information to j.k.moore@tudelft.nl. Include whether you have
 been accepted to the University or have not applied yet.
 
-If you'd like to see what some of the possibilities for projects are, I post
-non-confidential project ideas to this Github repository:
+If you'd like to see what some of the possibilities for projects are, browse
+the `current and past research projects <{filename}/pages/research/index.rst>`_
+on this website and I also post non-confidential project ideas to this Github
+repository:
 
 https://github.com/mechmotum/ideas/issues
 
