@@ -6,6 +6,8 @@ Principal Investigators
 
 - Jason K. Moore, PhD
 
+.. _Jason K. Moore: https://www.moorepants.info
+
 Masters of Science Students
 ===========================
 
@@ -16,7 +18,9 @@ Graduate Research Assistants
 ============================
 
 Past
-   - Dr. Kenneth Lyons [June 2017-September 2017], now at Systron Donner Inertial
+   - Dr. `Kenneth Lyons`_ [June 2017-September 2017], now at Systron Donner ynertial
+
+.. _Kenneth Lyons: https://ixjlyons.com
 
 Research Assistants
 ===================
@@ -45,7 +49,7 @@ Past
    - Anastasia Kubicki [June 2019-September 2019], now at `Specialized Bicycle
      Components <http://www.specialized.com>`_
    - Xiaochen Zang [February 2019-June 2019], now at Huawei
-   - Bryn Cloud [June 2018-June 2019], now at Tesla
+   - `Bryn Cloud`_ [June 2018-June 2019], now at Tesla
    - Kevin Krausse [February 2019-June 2019], now at Walmart
    - Jonathan Cubanski [October 2018-December 2018], now at `Kitty Hawk <https://kittyhawk.aero/>`_
    - Dorian Crutcher [October 2018-December 2018], now at `Gener8 <http://www.gener8.net/>`_
@@ -58,6 +62,8 @@ Past
    - Vivian Tran [May 2016-December 2016], now at University of Michigan
    - Braden Tinucci [November 2015-December 2015], now at Valcor Engineering
      Corporation
+
+.. _Bryn Cloud: https://www.linkedin.com/in/bryn-cloud/
 
 Teaching Assistants
 ===================
