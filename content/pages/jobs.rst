@@ -5,7 +5,7 @@ Researchers, Postdoctoral Researchers, PhD Researchers
 ======================================================
 
 If you are interested in doing paid research with the lab after you have
-obtained a Master's degree [#]_ there are two options:
+obtained a related Master's degree [#]_ there are two options:
 
 1. Wait for an open position in the lab and apply.
 2. Find self-funding and ask if we can host and work with you.
@@ -14,25 +14,34 @@ All paid positions associated with the lab will be posted to the `TU Delft
 vacancies website`_, the `BioMechanical Engineering Department vacancies web
 page`_, `Academic Transfer`_ [#]_, and/or this lab website.
 
-**No vacancies at the moment.**
+Vacancies
+---------
+
+Postdoc Fall Prevention in Elite and Consumer Cycling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Application URL: https://www.academictransfer.com/en/293095/postdoc-fall-prevention-in-elite-and-consumer-cycling/
+- Application Due Date: 2020-10-02
+- Note that Dr. Arend L. Schwab is the primary principal investigator on this
+  project.
 
 .. _Academic Transfer: http://www.academictransfer.com
 .. _TU Delft vacancies website: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/
 .. _BioMechanical Engineering Department vacancies web page: https://www.tudelft.nl/3me/over/afdelingen/biomechanical-engineering/about-bmeche/vacancies/
 
-.. [#] Unlike many other countries, PhD positions are considered full time
-   academic research jobs and we only accept you if there is an available paid
-   position. You are also required to have a Master's degree to start a PhD.
+.. [#] PhD positions at TU Delft are considered full time academic research
+   jobs and we only accept you if there is an available paid position. You are
+   also required to have a Master's degree to start a PhD.
 .. [#] All academic jobs in the Netherlands are (and have to be) posted to
    Academic Transfer.
 
 Master's Students
 =================
 
-Anyone may apply to the Master's Program at TU Delft if you have completed a
-Bachelor's degree. If you want to work directly in this lab you need to apply
-to the `Master of Science in Mechanical Engineering`_ and select the
-`BioMechanical Design Track`_.
+Anyone may apply to the Master's Program at TU Delft if you have completed an
+appropriate Bachelor's degree. If you want to work directly in this lab you
+need to apply to the `Master of Science in Mechanical Engineering`_ and
+preferrably select the `BioMechanical Design Track`_.
 
 .. _Master of Science in Mechanical Engineering: https://www.tudelft.nl/en/education/programmes/masters/mechanical-engineering/msc-mechanical-engineering/
 .. _BioMechanical Design Track: https://www.tudelft.nl/en/education/programmes/masters/mechanical-engineering/msc-mechanical-engineering/track-overview/track-biomechanical-design/
@@ -53,13 +62,13 @@ I will provide any confidential projects available in personal discussion with
 you. If any of these projects interest you or you have a project idea that is
 similar, be sure to let me know in your introduction email.
 
-Undergraduate
-=============
+Bachelor's Students
+===================
 
-Undergraduates are welcome to join the lab to get research and engineering
-experience. Undergraduates will start with a one month trial period. Please
-send a letter explaining your interest in the lab, CV or resume, and any other
-relevant information to j.k.moore@tudelft.nl.
+Students working towards their Bachelor's degree are welcome to join the lab to
+get research and engineering experience. Bachelor's students will start with a
+one month trial period. Please send a letter explaining your interest in the
+lab, CV or resume, and any other relevant information to j.k.moore@tudelft.nl.
 
 UC Davis Positions
 ==================
