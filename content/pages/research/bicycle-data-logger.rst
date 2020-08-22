@@ -1,6 +1,11 @@
 :title: Inexpensive Open Source and Open Hardware Bicycle Data Logger
-:status: hidden
+:collaborators: Marco Dozza (Chalmers University), Christian-Nils Åkerberg Boda (Chalmers University)
+:current_researchers:
 :date: 2018-10
+:past_researchers: Edward Jacobs
+:research_theme: Transportation
+:status: hidden
+:template: project
 :summary-sentence: Analysis of comprehensive dynamical data during bicycling
                    trips and activities has the potential to teach us much
                    about travel behavior and safety of bicyclists. We would
@@ -8,10 +13,6 @@
                    creating a modular, continually inexpensive, open source,
                    and open hardware bicycle data logger.
 :summary-image:
-
-| Current researchers:
-| Past researchers: Edward Jacobs
-| Collaborators: Marco Dozza (Chalmers University), Christian-Nils Åkerberg Boda (Chalmers University)
 
 This idea was pitched by Marco Dozza at ICSC 2017 [#]_ and we are working with
 his team to bring this to fruition.

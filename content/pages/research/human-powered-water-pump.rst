@@ -1,6 +1,11 @@
 :title: Efficiency and Use of Human Powered Irrigation Pumps
-:status: hidden
+:collaborators: Andrew Hall
+:current_researchers:
 :date: 2018-12-27
+:past_researchers: Abraham McKay, Aaron Shaw, Rayming Liang
+:research_theme: Appropriate Technology
+:status: hidden
+:template: project
 :summary-sentence: We have developed a inexpensive centrifugal pump that
                    attaches to a simple power takeoff on a Buffalo Bike. Our
                    hypothesis is that a less efficient centrifugal pump paired

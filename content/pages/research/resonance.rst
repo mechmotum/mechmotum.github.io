@@ -1,6 +1,12 @@
 :title: Learning Mechanical Vibrations Through Computational Thinking
 :date: 2019-12
 :status: hidden
+:collaborators: Kenneth Lyons
+:current_researchers:
+:past_researchers:
+:research_theme: Engineering Education
+:status: hidden
+:template: project
 :summary-sentence: "Computational thinking" is an alternative learning process
                    for formulating and solving engineering problems. A unique
                    set of abstractions are available to the learner in addition

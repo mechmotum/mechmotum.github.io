@@ -1,10 +1,11 @@
 :title: Estimation of Rower Kinematics in Competitive Rowing
-:category: project
+:collaborators: Mont Hubbard, Paul Crawford, Xinfan Lin, Seth Weil
+:current_researchers:
 :date: 2019-12-05
+:past_researchers: Bryn Cloud, Britt Tarien, Thomas Shedd, Ada Liu, Li Wang
+:research_theme: Sports Engineering
 :status: hidden
-:summary: Details of a rowing research project.
-:research-theme: Sports Engineering
-:tags: rowing
+:template: project
 :summary-sentence: Real-time feedback of stroke-by-stroke rowing performance
                    metrics can enable data driven training and coaching.
                    Instrumenting rowers during training and competition with

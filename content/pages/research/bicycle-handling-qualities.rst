@@ -1,6 +1,11 @@
 :title: Experimental Validation of Bicycle Handling Prediction
 :status: hidden
 :date: 2019-12-10
+:collaborators: Mont Hubbard, Ronald Hess
+:current_researchers:
+:past_researchers: Scott Kresie, Trevor Metz
+:research_theme: Bicycle Engineering
+:template: project
 :summary-sentence: This project aims to validate this metric directly from
                    experimental evidence in bicycling maneuvers and tasks. We
                    have developed a variable stability instrumented bicycle and
@@ -8,10 +13,6 @@
                    correlations between our theoretical metric and the rider's
                    subjective opinion of the bicycle's handling.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
-
-| Current researchers: Trevor Metz
-| Collaborators: Mont Hubbard, Ronald Hess
-| Past researchers: Scott Kresie
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
    :align: center

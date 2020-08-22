@@ -1,10 +1,11 @@
 :title: Design and Analysis of Ski Jumps
-:category: project
-:date: 2020
+:collaborators: Bryn Cloud, Mont Hubbard, Chris Brown
+:current_researchers:
+:date: 2020-08
+:past_researchers: Bryn Cloud, Britt Tarien
+:research_theme: Sports Engineering
 :status: hidden
-:summary: Details of a rowing research project.
-:research-theme: Sports Engineering
-:tags: rowing
+:template: project
 :summary-sentence: Little engineering goes into the design and
                    construction of ski and snowboard jumps in terrain parks at
                    publicly accessible ski resorts. Catastrophic injuries and
@@ -35,11 +36,10 @@ Conference Presentations:
   the 23rd International Congress on Snow Sports Trauma and Safety, Squaw
   Valley, California, USA, Apr. 2019.
 
-
 Software:
 
-- http://www.skijumpdesign.info
-- https://gitlab.com/moorepants/skijumpdesign
+- Web application: http://www.skijumpdesign.info
+- Ski jump simluation library and web application source code: https://gitlab.com/moorepants/skijumpdesign
 
 Media
 =====

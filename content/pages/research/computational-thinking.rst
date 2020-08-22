@@ -1,6 +1,11 @@
 :title: Computational Thinking
+:collaborators: Allen Downey
+:current_researchers:
+:date: 2019-01-05
+:past_researchers:
+:research_theme: Engineering Education
 :status: hidden
-:date: 2019
+:template: project
 :summary-sentence: Programming is not just a way of translating well understood
                    ideas into code; it is a tool for communicating, teaching,
                    learning, and thinking. Students with basic programming

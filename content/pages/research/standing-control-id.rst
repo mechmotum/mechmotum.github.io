@@ -1,6 +1,13 @@
 :title: Control Identification of Human Standing
 :status: hidden
 :date: 2019-02
+:collaborators: Ton van den Bogert (Cleveland State University)
+:current_researchers:
+:past_researchers: Dorian Crutcher, Jonathan Cubanski, Todd Sweeney, Greg
+                   McDonald, Jiahao Wei, Erich Baur, Kendall Lui, Stanley
+                   Tsang, Chenxiong Yi, Rouxi Peng
+:research_theme: Human Control Identification
+:template: project
 :summary-sentence: Humans unconsciously utilize a control strategy while
                    standing. Visual, vestibular, and proprioceptive sensing
                    inform the brain's control strategy which reacts to
@@ -15,10 +22,6 @@
                    interested in developing optimal control theories and
                    methods of identifying the specific control strategy in use.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-standing-id.png
-
-| Current researchers:
-| Collaborators: Ton van den Bogert (Cleveland State University)
-| Past researchers: Dorian Crutcher, Jonathan Cubanski, Todd Sweeney, Greg McDonald, Jiahao Wei, Erich Baur, Kendall Lui, Stanley Tsang, Chenxiong Yi, Rouxi Peng
 
 Humans unconsciously utilize a control strategy while standing. Visual,
 vestibular, and proprioceptive sensing inform the brain's control strategy

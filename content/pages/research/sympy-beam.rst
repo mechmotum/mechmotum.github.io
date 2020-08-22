@@ -1,6 +1,11 @@
 :title: Development of a Beam Bending Package for SymPy
 :status: hidden
 :date: 2019-08
+:collaborators: SymPy Developers
+:current_researchers:
+:past_researchers: Sampad Saha, Jashanpreet Singh, Ishan Joshi
+:research_theme: Engineering Education
+:template: project
 :summary-sentence: Mechanical and civil engineers utilize two- and
                    three-dimensional theories of stress and strain to determine
                    if structural beams will fail. Simple mathematical models

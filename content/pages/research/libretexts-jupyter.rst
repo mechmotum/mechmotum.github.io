@@ -1,6 +1,12 @@
 :title: Interactive Jupyter-Enabled LibreTexts Pages
 :status: hidden
-:date: 2020
+:date: 2020-08
+:collaborators: Delmar Larsen, Richard Feltstykket, Henry Agnew
+:current_researchers: Kevin Rong, Noah Sanders
+:past_researchers: Abigail Alamanza, Lawrence Lee, Eric Li, Celine Liang,
+                   Xiaochen Zang, Xin Luigi Chen, Kevin Krausse, Henry Agnew
+:research_theme: Engineering Education
+:template: project
 :summary-sentence: We are interested in providing an interactive computing
                    environments in online textbooks at a massive scale.
                    LibreTexts is one of the largest and most visited online
@@ -13,11 +19,7 @@
                    learn through computational oriented exercises.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-jupyter-libretexts.png
 
-| Current researchers: Kevin Rong, Noah Sanders
-| Collaborators: Delmar Larsen (UC Davis), Richard Feltstykket (UC Davis), Tom Neubarth (UC Davis)
-| Past researchers: Abigail Alamanza, Lawrence Lee, Eric Li, Celine Liang, Xiaochen Zang, Xin Luigi Chen, Kevin Krausse, Henry Agnew
-
-Visit the hub: https://jupyter.libretexts.org
+Visit the LibreTexts/UC Davis JupyterHub: https://jupyter.libretexts.org
 
 Associated Research Products
 ============================
@@ -54,10 +56,10 @@ Software:
 
 Blog posts:
 
-- `Winter 2020 Report <{filename}/jupyter-winter-2020.rst>`_
-- `Summer 2019 Report <{filename}/jupyter-summer-2019.rst>`_
+- `Winter 2020 Update <{filename}/jupyter-winter-2020.rst>`_
+- `Summer 2019 Update <{filename}/jupyter-summer-2019.rst>`_
 - `SacPy 2019 Presentation <{filename}/sacypy-2019.rst>`_
-- `Winter 2019 Report <{filename}/jupyter-winter-2019.rst>`_
+- `Winter 2019 Update <{filename}/jupyter-winter-2019.rst>`_
 - `Grant Announcement <{filename}/libretexts-grant.rst>`_
 
 Media
