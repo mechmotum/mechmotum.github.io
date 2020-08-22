@@ -4,7 +4,7 @@
 Principal Investigators
 =======================
 
-- Jason K. Moore, PhD
+- `Jason K. Moore`_, PhD
 
 .. _Jason K. Moore: https://www.moorepants.info
 
@@ -12,7 +12,9 @@ Masters of Science Students
 ===========================
 
 Past
-   - Abraham McKay [February 2017-June 2018], now at `219 Design <https://www.219design.com>`_
+   - `Abraham McKay`_ [February 2017-June 2018], now at `219 Design <https://www.219design.com>`_
+
+.. _Abraham McKay: https://www.linkedin.com/in/abemckay/
 
 Graduate Research Assistants
 ============================
