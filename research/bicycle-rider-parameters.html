@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Measurement and Estimation of Bicycle and Rider Physical Parameters | Laboratorium of Marvelous Mechanical Motum
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/research/bicycle-rider-parameters.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="In [Moore2008] we developed and used a method for estimating the inertial properties of the bicycle and rider given simple geometric measurements. The rider method in [Moore2008] was formalized in [Moore2009] and combined with more accurate measures and estimates of the bicycle's physical parameters based on the methods used in …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Laboratorium of Marvelous Mechanical Motum">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <h1 class="title"><a href="https://mechmotum.github.io/">Laboratorium of Marvelous Mechanical Motum</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Measurement and Estimation of Bicycle and Rider Physical Parameters
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <div class="row">
+      <div class="col-sm-4">
+        <img style="width:100%;" src="http://moorepants.github.io/dissertation/_images/moore-model.png" />
+      </div>
+      <div class="col-sm">
+        <h2>Summary</h2>
+        <p>The purpose of this research is to establish methods for
+measuring and estimating the physical parameters of bicycles
+and bicycle riders necessary for simulating models of the
+bicycle-rider system.</p>
+      </div>
+    </div>
+    <table class="table">
+      <tr>
+        <td><strong>Theme</strong></td>
+        <td>Bicycle Engineering</td>
+        <td><strong>Current Researchers</strong></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><strong>Last Worked On</strong></td>
+        <td>August 2020</td>
+        <td><strong>Past Researchers</strong></td>
+        <td>Noah Sanders, Chris Dembia</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td><strong>Collaborators</strong></td>
+        <td>Mont Hubbard, Ronald Hess, Chris Dembia, Arend Schwab, Jodi
+Kooijman</td>
+      </tr>
+    </table>
+    <p>In <a class="citation-reference" href="#moore2008" id="id1">[Moore2008]</a> we developed and used a method for estimating the inertial
+properties of the bicycle and rider given simple geometric measurements. The
+rider method in <a class="citation-reference" href="#moore2008" id="id2">[Moore2008]</a> was formalized in <a class="citation-reference" href="#moore2009" id="id3">[Moore2009]</a> and combined with
+more accurate measures and estimates of the bicycle's physical parameters based
+on the methods used in <a class="citation-reference" href="#kooijman2006" id="id4">[Kooijman2006]</a>. We presented estimates of the physical
+parameters of several different styles of bicycles in <a class="citation-reference" href="#moore2010" id="id5">[Moore2010]</a> and compared
+their resulting dynamics. Then in <a class="citation-reference" href="#moore2012" id="id6">[Moore2012]</a> the prior work was further
+refined and included measurements of additional bicycles and a new method for
+estimating the rider's inertial parameters. The generalized human inertia
+estimation method used in <a class="citation-reference" href="#moore2012" id="id7">[Moore2012]</a> was published in <a class="citation-reference" href="#dembia2015" id="id8">[Dembia2015]</a>.  The
+software <a class="citation-reference" href="#moore2011" id="id9">[Moore2011]</a> used for the computations has been developed over the
+years and basic functionality is now available in a freely accessible web
+application:</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="https://bicycleparameters.herokuapp.com"><img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /></a>
+<p class="caption">Screenshot of the bicycle dynamics web app. Click the image to go to the app
+at <a class="reference external" href="https://bicycleparameters.herokuapp.com">https://bicycleparameters.herokuapp.com</a>.</p>
+</div>
+<div class="section" id="funding">
+<h2>Funding</h2>
+<p>This material is partially based upon work supported by the National Science
+Foundation under <a class="reference external" href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=0928339">Grant No. 0928339</a>. Any opinions,
+findings, and conclusions or recommendations expressed in this material are
+those of the authors and do not necessarily reflect the views of the National
+Science Foundation.</p>
+</div>
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils citation" frame="void" id="kooijman2006" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[Kooijman2006]</a></td><td>J. D. G. Kooijman. Experimental validation of a model for the
+motion of an uncontrolled bicycle. Master’s thesis, Delft University of
+Technology, 2006.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2008" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Moore2008]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id2">2</a>)</em> J. Moore and M. Hubbard, &quot;Parametric Study of Bicycle
+Stability,&quot; in The Engineering of Sport 7, 2008, vol. 2,
+<a class="reference external" href="https://dx.doi.org/10.1007/978-2-287-99056-4_39">https://dx.doi.org/10.1007/978-2-287-99056-4_39</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2009" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[Moore2009]</a></td><td>J. K. Moore, J. D. G. Kooijman, M. Hubbard, and A. L. Schwab, &quot;A
+Method for Estimating Physical Properties of a Combined Bicycle and Rider,&quot;
+presented at the ASME 2009 International Design Engineering Technical
+Conferences &amp; Computers and Information in Engineering Conference, IDETC/CIE
+2009, San Diego, CA, USA, Aug. 2009, <a class="reference external" href="https://dx.doi.org/10.1115/DETC2009-86947">https://dx.doi.org/10.1115/DETC2009-86947</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2010" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id5">[Moore2010]</a></td><td>Jason K. Moore et al. An Accurate Method of Measuring and Comparing a
+Bicycle's Physical Parameters&quot;. In: Proceedings of Bicycle and Motorcycle
+Dynamics: Symposium on the Dynamics and Control of Single Track Vehicles.
+Delft, Netherlands, Oct. 2010.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2011" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id9">[Moore2011]</a></td><td>J. K. Moore, C. Dembia, O. Lee and N. Sanders,
+BicycleParameters: A Python library for bicycle parameter estimation and
+analysis. 2011. <a class="reference external" href="https://github.com/moorepants/BicycleParameters">https://github.com/moorepants/BicycleParameters</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2012" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Moore2012]</td><td><em>(<a class="fn-backref" href="#id6">1</a>, <a class="fn-backref" href="#id7">2</a>)</em> Jason K. Moore. Human Control of a Bicycle&quot;. PhD thesis. Davis,
+CA: University of California, Davis, Aug. 2012.
+<a class="reference external" href="http://moorepants.github.io/dissertation">http://moorepants.github.io/dissertation</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="dembia2015" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id8">[Dembia2015]</a></td><td>C. Dembia, J. K. Moore, and M. Hubbard, &quot;An object oriented
+implementation of the Yeadon human inertia model,&quot; F1000Research, vol. 3,
+no. 233, Apr. 2015, <a class="reference external" href="https://dx.doi.org/10.12688/f1000research.5292.2">https://dx.doi.org/10.12688/f1000research.5292.2</a>.</td></tr>
+</tbody>
+</table>
+</div>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
