@@ -12,7 +12,7 @@
                    measuring and estimating the physical parameters of bicycles
                    and bicycle riders necessary for simulating models of the
                    bicycle-rider system.
-:summary-image: http://moorepants.github.io/dissertation/_images/moore-model.png
+:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-bicycle-rider-parameters.png
 
 In [Moore2008]_ we developed and used a method for estimating the inertial
 properties of the bicycle and rider given simple geometric measurements. The
