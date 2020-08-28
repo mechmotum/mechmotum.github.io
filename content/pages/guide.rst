@@ -1,6 +1,8 @@
 :title: Guide
 :sortorder: 5
 
+.. contents::
+
 This page is intended to house documentation for lab members that describes the
 nuts and bolts of how the lab functions. It's primary purpose is for
 on-boarding new members, but is also a reference for current members. For this
@@ -9,32 +11,39 @@ knowledge and experiences. It is up to all of us to make this guide useful. You
 are expected to contribute to the guide and edit it. Discuss with the lab any
 desires to change any of the guidelines.
 
-.. contents::
+Getting Started
+===============
 
-Open Science
-============
+- Join the various lab communication channels (email list, github, gitlab,
+  etc.)
+- Send an introduction email to the lab email list: who you are, what you will
+  work on, etc.
+- Get campus card access to the bicycle lab and bicycle lab storage.
+- Setup regular mentorship meetings with your mentor(s). This should at least
+  be a weekly or biweekly depending on your needs and the mentor(s)
+  recommendations.
+- Attend lab meetings.
 
-The default science and engineering practice should be open practices (open
-access publications, open source software, open data, accessible and public
-sharing etc.). If unsure whether to make information public, ask, otherwise
-please default to sharing early and often. We do work with organizations that
-value or require privacy (human subject data, student protected data,
-proprietary company needs). Always check with the involved parties before
-sharing when this is the case. This is something that should be discussed at
-the beginning of all projects.
+Communication
+=============
 
-Research Tools Contributions
-============================
+Lab Email List
+--------------
 
-Researcher have to use and develop a variety of tools to complete their work.
-For example, we will develop experimental equipment and software often in the
-lab. Many tools are potentially useful to other people inside and outside of
-the lab. Lab members should build on and contribute to the tools we use and
-develop in the lab. There is a general expectation to create and contribute to
-open source software and open hardware efforts while working in the lab.
+When you join the lab you should request access to the lab email list:
+
+https://groups.google.com/forum/#!forum/mechmotum
+
+This can both be used as an announcement list and a discussion list for the
+lab. All lab members need to join and pay attention to this list.
+
+Github/Gitlab Issues
+--------------------
+
+We make heavy use of issue trackers on Github and Gitlab to communicate.
 
 AIO Weekly Emails
-=================
+-----------------
 
 Lab members are expected to send out AIOs to the lab group email list and any
 project collaborators each week.
@@ -75,53 +84,45 @@ PI. However you do it, each week the accomplishments should hopefully reflect
 the objectives you wrote the previous week.
 
 Quarterly Blog Posts
-====================
+--------------------
 
 In general, I would like each project to co-write an end of quarter blog post
 on the lab website describing their accomplishments and results. This writing
 exercise will help build the content for future papers and theses.
 
-Lab Email List
-==============
+Research Ideas
+--------------
 
-When you join the lab you should request access to the lab email list:
+Check out our research ideas Github repository to read, post, and discuss new
+ideas:
 
-https://groups.google.com/forum/#!forum/mechmotum
+https://github.com/mechmotum/ideas/issues
 
-This is both an announcement list and a discussion list for the lab. All lab
-members need to join and pay attention to this list.
+Specific MSc project advertisements can be found here:
 
-Reference Management
-====================
+https://github.com/mechmotum/ideas/tree/master/msc
 
-The lab has a shared Zotero_ group which can be used for lab related reference
-management (currently 20 GB plan). Zotero is an open source reference
-management system backed by a consortium of libraries. Create an account and
-request membership to the `mechmotum group`_. Note that all lab members can
-view the contents of this library.
+Open Science
+============
 
-.. _Zotero: https://www.zotero.org
-.. _mechmotum group: https://www.zotero.org/groups/966974/mechmotum
+The default science and engineering practice should be open practices (open
+access publications, open source software, open data, accessible and public
+sharing etc.). If unsure whether to make information public, ask, otherwise
+please default to sharing early and often. We do work with organizations that
+value or require privacy (human subject data, student protected data,
+proprietary company needs). Always check with the involved parties before
+sharing when this is the case. This is something that should be discussed at
+the beginning of all projects.
 
-Version Control
-===============
+Research Tools Contributions
+----------------------------
 
-The currently has group accounts on Gitlab and Github for version control of
-text based sources (software, text, etc):
-
-- https://gitlab.com/mechmotum
-- https://github.com/mechmotum
-
-The services are more or less interchangeable. The primary reason to use Gitlab
-is if you need a private repository, as it offers those for free. You may
-prefer the features of one service over the other.
-
-Lab members should be able to make use of version control and communication
-through these services. The Software Carpentry `Git lesson`_ is a recommended
-introduction. Create an account on one or both services and request group
-membership.
-
-.. _Git lesson: http://swcarpentry.github.io/git-novice/
+Researcher have to use and develop a variety of tools to complete their work.
+For example, we will develop experimental equipment and software often in the
+lab. Many tools are potentially useful to other people inside and outside of
+the lab. Lab members should build on and contribute to the tools we use and
+develop in the lab. There is a general expectation to create and contribute to
+open source software and open hardware efforts while working in the lab.
 
 Lab Website
 ===========
@@ -134,20 +135,52 @@ https://github.com/mechmotum/mechmotum.github.io
 Lab members should help collectively maintain and update the website. Please
 use the Github pull request mechanism to submit changes for review. As long as
 one lab member reviews the pull request and approves the changes, the changes
-can be merged.
+can be merged. Keep in mind that content here should reflect the whole of the
+lab.
 
 .. _Pelican: getpelican.com
 
-Research Ideas
+Software Tools
 ==============
 
-Check out our research ideas Github repository to read, post, and discuss new
-ideas:
+Reference Management
+--------------------
 
-https://github.com/mechmotum/ideas/issues
+The lab has a shared Zotero_ group which can be used for lab related reference
+management (currently 20 GB plan). Zotero is an open source reference
+management system backed by a consortium of libraries. Create an account and
+request membership to the `mechmotum group`_. Note that all lab members can
+view the contents of this library.
 
-Lab Inventory
-=============
+.. _Zotero: https://www.zotero.org
+.. _mechmotum group: https://www.zotero.org/groups/966974/mechmotum
+
+Version Control
+---------------
+
+The lab currently has group accounts on Gitlab and Github for version control
+of text based sources (software, text, etc):
+
+- https://gitlab.com/mechmotum
+- https://github.com/mechmotum
+
+The services are more or less interchangeable. We used Gitlab in the past
+because it provided free unrestricted private repositories, but Github does now
+too. Gitlab's core software is open source. You may prefer the features of one
+service over the other.
+
+Lab members should be able to make use of version control and communication
+through these services. The Software Carpentry `Git lesson`_ is a recommended
+introduction. Create an account on one or both services and request group
+membership.
+
+.. _Git lesson: http://swcarpentry.github.io/git-novice/
+
+Lab
+===
+
+Inventory
+---------
 
 There is a common spreadsheet on google drive that lab members should use to
 track our non-consumable inventory (tools, devices, expensive stuff,
