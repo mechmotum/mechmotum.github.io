@@ -23,6 +23,7 @@ Getting Started
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
 - Attend lab meetings.
+- Get trained: Software Carpentry, Python, Fabrication, etc.
 
 Communication
 =============
@@ -113,6 +114,13 @@ value or require privacy (human subject data, student protected data,
 proprietary company needs). Always check with the involved parties before
 sharing when this is the case. This is something that should be discussed at
 the beginning of all projects.
+
+TU Delft offers several resources for open science:
+
+- `TU Delft Library Open Science <https://www.tudelft.nl/library/actuele-themas/tu-delft-open-science/>`_
+- `Open Access Publishing Information <https://www.tudelft.nl/library/actuele-themas/tu-delft-open-science/os/open-publishing/>`_
+- `TU Delft 2020-2024 Open Science Strategic Plan
+  <https://doi.org/10.4233/uuid:f2faff07-408f-4cec-bd87-0919c9e4c26f>`_
 
 Research Tools Contributions
 ----------------------------
@@ -210,3 +218,28 @@ Conferences
 - EuroSciPy: https://www.euroscipy.org/
 - SciPy: https://conference.scipy.org/
 - JupyterCon: https://jupytercon.com/
+
+Training
+========
+
+It is important to both learn the tools, methods, and techniques used in the
+lab and to teach the lab new things you've learned so we can collaborate
+efficiently and effectively.
+
+The Carpentries Trainings
+-------------------------
+
+Each lab member will need to learn the collaborative software tools and open
+source development practices needed to work on code and other text based
+sources together. Carpentries trainings (Software Carpentry in particular) is a
+great way to get started on this. TU Delft offers regular courses:
+
+- `Software Carpentry Workshops
+  <https://www.tudelft.nl/library/actuele-themas/research-data-management/r/training-evenementen/training-voor-onderzoekers/software-carpentry-workshop/>`_
+
+Sign up by emailing Femke van Giessen (F.vanGiessen@tudelft.nl) to register for
+a slot. You will be directed to an Evenbrite. Sign up on Eventbrite immediately
+because these typically fill up in 10 minutes and there are large wait lists.
+
+- TU Delft Data Champions hosts events and trainings: https://www.tudelft.nl/en/library/current-topics/research-data-management/r/support/data-champions/
+- 4TU Research Data Training and Events: https://data.4tu.nl/info/en/news-events/training-events/
