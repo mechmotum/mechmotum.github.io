@@ -190,3 +190,23 @@ it to the spreadsheet. The spreadsheet can be accessed at this link:
 https://docs.google.com/spreadsheets/d/1w80SolpcLTbLtuFDIf9-F-sS_pO-1PEHSpSgEGH_SSg/edit?usp=sharing
 
 Ask Jason if you don't have permissions for this file.
+
+Connecting to Research Communities
+==================================
+
+We regularly participate in several research communities.
+
+Online
+------
+
+- The `Biomech-L forum <https://biomch-l.isbweb.org>`_ is a very good way to
+  connect to the international Biomechanics community.
+
+Conferences
+-----------
+
+- Bicycle and Motorcycle Dynamics Conference: http://bmdconf.org/
+- International Cycling Safety Conference: http://cyclingsafety.net/
+- EuroSciPy: https://www.euroscipy.org/
+- SciPy: https://conference.scipy.org/
+- JupyterCon: https://jupytercon.com/
