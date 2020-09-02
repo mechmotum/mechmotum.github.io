@@ -19,6 +19,7 @@
                    laypeople can use to design and analyze ski jumps with
                    specified equivalent fall height in mind.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-ski-jump.png
+:slug: research/ski-jump-safety
 
 Associated Research Products
 ============================

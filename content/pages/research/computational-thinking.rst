@@ -13,6 +13,7 @@
                    topics in engineering, math, natural and social science,
                    arts and humanities.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-comp-think.png
+:slug: research/computational-thinking
 
 We have been exploring ways to use computation in the STEM curriculum not
 simply as a companion to traditional STEM teaching but as a primary mechanism

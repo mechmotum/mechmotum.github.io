@@ -17,6 +17,7 @@
                    produces less-than-intuitive but physically feasible bicycle
                    designs. These methods can likely be extended to any
                    human-machine system design.
+:slug: research/optimal-handling-bicycle
 
 In [Hess2012]_, we proposed a handling quality metric that can be derived from
 a bicycle design and its associated human-like controller. Bicycles that have

@@ -19,6 +19,7 @@
                    solve analytical beam problems, without getting bogged down
                    in the mathematical details.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-sympy-beam.png
+:slug: research/sympy-beam
 
 - `Latest version documentation <https://docs.sympy.org/latest/modules/physics/continuum_mechanics/index.html>`_
 - `Open SymPy pull requests <https://github.com/sympy/sympy/pulls?q=is%3Aopen+is%3Apr+label%3Aphysics.continuum_mechanics>`_

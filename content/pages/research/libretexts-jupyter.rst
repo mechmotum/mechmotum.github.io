@@ -18,6 +18,7 @@
                    will enable arbitrary visualizations and allow students to
                    learn through computational oriented exercises.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-jupyter-libretexts.png
+:slug: research/librtexts-jupyter
 
 Visit the LibreTexts/UC Davis JupyterHub: https://jupyter.libretexts.org
 

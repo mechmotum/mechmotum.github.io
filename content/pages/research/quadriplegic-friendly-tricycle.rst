@@ -11,6 +11,7 @@
 :summary-sentence: Students developed a adaptive input device to enable persons
                    with ALS or quadriplegia to control an electric tricycle.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/quad-friendly-trike.png
+:slug: research/quadriplegic-friendly-tricycle
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/quad-friendly-trike.png
    :width: 60%

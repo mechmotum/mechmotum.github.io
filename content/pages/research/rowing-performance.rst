@@ -19,6 +19,7 @@
                    and distance per stroke at high accuracy and with
                    experimental protocols for validating the estimations.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-row.png
+:slug: research/rowing-performance
 
 Description
 ===========

@@ -17,6 +17,7 @@
                    custom software library for mechanical vibrations designed
                    to facilitate solving problems with computational thinking.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-resonance.png
+:slug: research/resonance
 
 Associated Research Products
 ============================

@@ -13,6 +13,7 @@
                    correlations between our theoretical metric and the rider's
                    subjective opinion of the bicycle's handling.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
+:slug: research/bicycle-handling-qualities
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
    :align: center

@@ -13,6 +13,7 @@
                    creating a modular, continually inexpensive, open source,
                    and open hardware bicycle data logger.
 :summary-image:
+:slug: research/bicycle-data-logger
 
 This idea was pitched by Marco Dozza at ICSC 2017 [#]_ and we are working with
 his team to bring this to fruition.

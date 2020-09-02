@@ -18,6 +18,7 @@
                    hydraulic load.
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-human-powered-pumps.png
 :research-theme: Human Powered Appropriate Technology
+:slug: research/human-powered-water-pump
 
 Associated Research Products
 ============================
