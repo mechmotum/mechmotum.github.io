@@ -59,6 +59,7 @@
 ./feeds/research.atom.xml
 ./feeds/software.atom.xml
 ./guide.html
+./index.html
 ./jobs.html
 ./members.html
 ./products.html
