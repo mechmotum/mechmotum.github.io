@@ -1,6 +1,8 @@
 :title: Jobs
 :sortorder: 4
 
+.. contents::
+
 Researchers, Postdoctoral Researchers, PhD Researchers
 ======================================================
 
@@ -14,16 +16,14 @@ All paid positions associated with the lab will be posted to the `TU Delft
 vacancies website`_, the `BioMechanical Engineering Department vacancies web
 page`_, `Academic Transfer`_ [#]_, and/or this lab website.
 
-Vacancies
----------
+Current Vacancies
+-----------------
 
 Postdoc Fall Prevention in Elite and Consumer Cycling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Application URL: https://www.academictransfer.com/en/293095/postdoc-fall-prevention-in-elite-and-consumer-cycling/
 - Application Due Date: 2020-10-02
-- Note that Dr. Arend L. Schwab is the primary principal investigator on this
-  project.
 
 .. _Academic Transfer: http://www.academictransfer.com
 .. _TU Delft vacancies website: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/
@@ -39,12 +39,14 @@ Master's Students
 =================
 
 Anyone may apply to the Master's Program at TU Delft if you have completed an
-appropriate Bachelor's degree. If you want to work directly in this lab you
-need to apply to the `Master of Science in Mechanical Engineering`_ and
-preferrably select the `BioMechanical Design Track`_.
+appropriate Bachelor's degree. If you want to work directly in this lab it is
+best to apply to the `Master of Science in Mechanical Engineering`_ and
+preferably select the `BioMechanical Design Track`_. `This video`_ explains the
+MSc tracks in the BME department.
 
 .. _Master of Science in Mechanical Engineering: https://www.tudelft.nl/en/education/programmes/masters/mechanical-engineering/msc-mechanical-engineering/
 .. _BioMechanical Design Track: https://www.tudelft.nl/en/education/programmes/masters/mechanical-engineering/msc-mechanical-engineering/track-overview/track-biomechanical-design/
+.. _This video: https://collegerama.tudelft.nl/Mediasite/Showcase/public/Presentation/fa73a57026674d3faeed902b0e261ec91d
 
 If you would like to work on a project for your Master's thesis in the lab
 please send a letter explaining your interest in the lab, CV or resume, and any
@@ -52,23 +54,34 @@ other relevant information to j.k.moore@tudelft.nl. Include whether you have
 been accepted to the University or have not applied yet.
 
 If you'd like to see what some of the possibilities for projects are, browse
-the `current and past research projects <{filename}/pages/research/index.rst>`_
-on this website and I also post non-confidential project ideas to this Github
-repository:
+this list of formal project ideas [#]_:
 
-https://github.com/mechmotum/ideas/issues
+- `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_ (with USSEA)
+- Adaptive Speed Control in Cycling (with Gazelle)
+- Bicycle Design, Dynamics, and Handling (with Gazelle)
+- Bicycle Load Cases and Road Quality (with Gazelle)
+- Early Warning and Crash Detection in Cycling (with Gazelle)
+- `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
+- `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
+- `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
+- Understanding Disc Brake Squeal in Cycling (with Gazelle)
 
-I will provide any confidential projects available in personal discussion with
-you. If any of these projects interest you or you have a project idea that is
-similar, be sure to let me know in your introduction email.
+The `current and past research projects <{filename}/pages/research/index.rst>`_
+will also give some ideas of what is possible. I will provide any confidential
+projects available in personal communication with you. If any of these projects
+interest you or you have a project idea that is similar, be sure to let me know
+in your introduction email.
+
+.. [#] I also post and formulate more raw project ideas here: https://github.com/mechmotum/ideas/issues
 
 Bachelor's Students
 ===================
 
 Students working towards their Bachelor's degree are welcome to join the lab to
-get research and engineering experience. Bachelor's students will start with a
-one month trial period. Please send a letter explaining your interest in the
-lab, CV or resume, and any other relevant information to j.k.moore@tudelft.nl.
+get research and engineering experience. The best way to work with us it to
+choose a Bachelor's final project proposed from the lab in your final year.
+Otherwise, please send a letter explaining your interest in the lab, CV or
+resume, and any other relevant information to j.k.moore@tudelft.nl.
 
 UC Davis Positions
 ==================
