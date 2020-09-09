@@ -53,18 +53,24 @@ please send a letter explaining your interest in the lab, CV or resume, and any
 other relevant information to j.k.moore@tudelft.nl. Include whether you have
 been accepted to the University or have not applied yet.
 
-If you'd like to see what some of the possibilities for projects are, browse
-this list of formal project ideas [#]_:
+The following list provides the current formal MSc projects we are interested
+in finding students for [#]_:
 
-- `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_ (with USSEA)
-- Adaptive Speed Control in Cycling (with Gazelle)
-- Bicycle Design, Dynamics, and Handling (with Gazelle)
-- Bicycle Load Cases and Road Quality (with Gazelle)
-- Early Warning and Crash Detection in Cycling (with Gazelle)
+- `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_ (with USSEA_)
+- Adaptive Speed Control in Cycling (with Gazelle_)
+- Bicycle Design, Dynamics, and Handling (with Gazelle_)
+- Bicycle Load Cases and Road Quality (with Gazelle_)
+- Early Warning and Crash Detection in Cycling (with Gazelle_)
+- Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology (with TrueKinetix_)
 - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
 - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
 - `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
-- Understanding Disc Brake Squeal in Cycling (with Gazelle)
+- Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling (with TrueKinetix_)
+- Understanding Disc Brake Squeal in Cycling (with Gazelle_)
+
+.. _TrueKinetix: http://www.truekinetix.com
+.. _Gazelle: https://www.gazelle.nl/
+.. _USSEA: https://usskateboardeducation.com/
 
 The `current and past research projects <{filename}/pages/research/index.rst>`_
 will also give some ideas of what is possible. I will provide any confidential
@@ -72,7 +78,7 @@ projects available in personal communication with you. If any of these projects
 interest you or you have a project idea that is similar, be sure to let me know
 in your introduction email.
 
-.. [#] I also post and formulate more raw project ideas here: https://github.com/mechmotum/ideas/issues
+.. [#] We also post and formulate more raw project ideas here: https://github.com/mechmotum/ideas/issues.
 
 Bachelor's Students
 ===================

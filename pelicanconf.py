@@ -62,6 +62,7 @@ else:
 # Alchemy theme settings
 SITESUBTITLE = 'E pur si muove'
 SITEIMAGE = 'https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png'
+# INSTITUTEIMAGE should bee 100px in height
 INSTITUTIONIMAGE = 'https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png'
 DESCRIPTION = ''
 # pelican-alchemy removed the original theme.css, so bring it back.
