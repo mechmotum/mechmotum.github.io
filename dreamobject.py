@@ -1,3 +1,8 @@
+# Create a ~/.boto file with:
+#[Credentials]
+#aws_access_key_id = <key>
+#aws_secret_access_key = <key>
+
 import os
 
 import boto
