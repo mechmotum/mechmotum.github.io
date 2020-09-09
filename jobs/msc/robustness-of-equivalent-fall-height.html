@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/robustness-of-equivalent-fall-height.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="Example snow jump with a constant equivalent fall height landing surface. Description Equivalent fall height has been proposed as an important measure to minimize in the design of safer ski and snowboard jumps [Hubbard2009]. The equivalent fall height is a proxy measure for the impact velocity of a human against …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps?
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png" style="width: 600px;" />
+<p class="caption">Example snow jump with a constant equivalent fall height landing surface.</p>
+</div>
+<div class="section" id="description">
+<h2>Description</h2>
+<p><em>Equivalent fall height</em> has been proposed as an important measure to minimize
+in the design of safer ski and snowboard jumps <a class="citation-reference" href="#hubbard2009" id="id1">[Hubbard2009]</a>. The equivalent
+fall height is a proxy measure for the impact velocity of a human against a
+surface. It provides better context for a layperson to perceive the associated
+danger, i.e. people have a strong experiential sense of the danger associated
+with falling from a given height. Jumps can be designed with a specified
+equivalent fall height by simulating a particle model of a jumper <a class="citation-reference" href="#levy2015" id="id2">[Levy2015]</a>.
+These models seem simplistic but they are a useful because both the equivalent
+fall height is such a dominant corollary to injury and it's predictive power is
+robust to many other factors that can cause injury in a jump landing
+<a class="citation-reference" href="#hubbard2012" id="id3">[Hubbard2012]</a>. Nevertheless, there are naysayers to the idea that jumps should
+be designed with a small equivalent fall height. One objection is that the
+particle models do not capture enough of reality to be useful, see
+<a class="citation-reference" href="#shealy2010" id="id4">[Shealy2010]</a> &amp; <a class="citation-reference" href="#scher2015" id="id5">[Scher2015]</a>. The goal of this project would be to extend the
+particle model to one or more rigid bodies which can have angular rotation and
+tangential forces due to friction on the landing surface are considered.  Here
+are some questions that could possibly be answered:</p>
+<ul class="simple">
+<li>Is equivalent fall height a robust measure of injury severity with respect to
+a rotating jumper? Or is a different measure necessary?</li>
+<li>How dangerous is the force to the skier in terms of the tangential and normal
+components?</li>
+<li>For what angular rotation and surface friction conditions is or isn't
+equivalent fall height a dominant cause of impact forces?</li>
+<li>How much curvature can safely be permitted in the takeoff ramp shape to
+prevent large tangential impact forces?</li>
+<li>Are there simple measures or criteria like the equivalent fall height for the
+particle model that can be used for jump design that considers the rotational
+affects of the jumper?</li>
+<li>Are there any reasons that equivalent fall height should not be lowered in
+jump designs with respect to rotating impacts?</li>
+</ul>
+</div>
+<div class="section" id="possible-approach">
+<h2>Possible Approach</h2>
+<ul class="simple">
+<li>Literature review on foundational topics: human body collisions, ski jumping,
+measures of injury severity in falls &amp; collisions, etc.</li>
+<li>Develop a simple rigid body model and show that it simulates reasonable
+free-rotating ski jump flight. See <a class="citation-reference" href="#hubbard1989" id="id6">[Hubbard1989]</a> for one such model.</li>
+<li>Exercise the simulation to find impact velocities and/or forces for differing
+initial conditions and landing surfaces.</li>
+<li>Expand the skijumpdesign library and web application <a class="citation-reference" href="#moore2018" id="id7">[Moore2018]</a> with any
+validated findings.</li>
+</ul>
+</div>
+<div class="section" id="required-skills">
+<h2>Required Skills</h2>
+<ul class="simple">
+<li>2D rigid body dynamics and impact</li>
+<li>Simulation of rigid body dynamics</li>
+<li>Visualisation with Python based tools</li>
+<li>Web application (basic HTML/CSS and Dash)</li>
+</ul>
+</div>
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils citation" frame="void" id="hubbard1989" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id6">[Hubbard1989]</a></td><td>M. Hubbard, R. L. Hibbard, M. R. Yeadon, and A. Komor, &quot;A
+Multisegment Dynamic Model of Ski Jumping,&quot; Journal of Applied Biomechanics,
+vol. 5, no. 2, pp. 258–274, May 1989, doi: 10.1123/ijsb.5.2.258.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="hubbard2009" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[Hubbard2009]</a></td><td>M. Hubbard, &quot;Safer Ski Jump Landing Surface Design Limits
+Normal Impact Velocity,&quot; Journal of ASTM International, vol. 6, no. 1, p.
+10, 2009, doi: 10.1520/STP47480S.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="shealy2010" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[Shealy2010]</a></td><td>J. Shealy, I. Scher, L. Stepan, and E. Harley, &quot;Jumper
+Kinematics on Terrain Park Jumps: Relationship between Takeoff Speed and
+Distance Traveled,&quot; Journal of ASTM International, vol. 7, no. 10, p. 10,
+Nov.  2010, doi: 10.1520/JAI102885.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="hubbard2012" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[Hubbard2012]</a></td><td>M. Hubbard and A. D. Swedberg, &quot;Design of Terrain Park Jump Landing
+Surfaces for Constant Equivalent Fall Height Is Robust to ‘Uncontrollable’
+Factors,&quot; in Skiing Trauma and Safety: 19th Volume, R. J. Johnson, J. E.
+Shealy, R. M. Greenwald, and I. S. Scher, Eds. 100 Barr Harbor Drive, PO Box
+C700, West Conshohocken, PA 19428-2959: ASTM International, 2012, pp. 75–94.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="levy2015" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[Levy2015]</a></td><td>D. Levy, M. Hubbard, J. A. McNeil, and A. Swedberg, &quot;A design
+rationale for safer terrain park jumps that limit equivalent fall height,&quot;
+Sports Engineering, vol. 18, no. 4, pp. 227–239, Dec. 2015, doi:
+10.1007/s12283-015-0182-6.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="scher2015" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id5">[Scher2015]</a></td><td>I. Scher, J. Shealy, L. Stepan, R. Thomas, and R. Hoover,
+&quot;Terrain Park Jump Design: Would Limiting Equivalent Fall Height Reduce
+Spine Injuries?,&quot; in Skiing Trauma and Safety: 20th Volume, R. J. Johnson,
+J. E.  Shealy, and R. M. Greenwald, Eds. 100 Barr Harbor Drive, PO Box C700,
+West Conshohocken, PA 19428-2959: ASTM International, 2015, pp. 72–90.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2018" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id7">[Moore2018]</a></td><td>J. K. Moore and M. Hubbard, “skijumpdesign: A Ski Jump Design
+Tool for Specified Equivalent Fall Height,” The Journal of Open Source
+Software, vol. 3, no. 28, p. 818, Aug. 2018, doi: 10.21105/joss.00818.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="see-also">
+<h2>See Also</h2>
+<ul class="simple">
+<li><a class="reference external" href="https://mechmotum.github.io/research/ski-jump-safety.html">Lab research page on ski jumps</a></li>
+<li>skijumpdesign web application: <a class="reference external" href="http://www.skijumpdesign.info">http://www.skijumpdesign.info</a></li>
+</ul>
+</div>
+<div class="section" id="how-to-apply">
+<h2>How to Apply</h2>
+<p>Send an email to <a class="reference external" href="mailto:j.k.moore&#64;tudelft.nl">j.k.moore&#64;tudelft.nl</a> with the title of the project in the
+subject line. Include an approximately half-page motivation letter explaining
+why you want to work in the Bicycle Lab on this project along with your current
+resume or C.V.</p>
+</div>
+
+  </div>
+</article>
+
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Optimization Based Bicycle Design For Equivlanet Dynamics | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/optimization-based-bicycle-design.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="The Strida folding bicycle is an example of an unusual bicycle design in which it is desirable for it to handle as well as a more typical bicycle. Description When creating new bicycle styles, designers use little more than anecdotes and intuition to guide them in design decisions that affect …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Optimization Based Bicycle Design For Equivlanet Dynamics
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <div class="figure align-center">
+<img alt="" src="https://upload.wikimedia.org/wikipedia/en/0/0c/Strida.JPG" />
+<p class="caption">The <a class="reference external" href="https://en.wikipedia.org/wiki/Strida">Strida</a> folding bicycle is an example of an unusual bicycle design in
+which it is desirable for it to handle as well as a more typical bicycle.</p>
+</div>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>When creating new bicycle styles, designers use little more than anecdotes and
+intuition to guide them in design decisions that affect how the vehicle handles
+during maneuvering <a class="citation-reference" href="#kooijman2013" id="id1">[Kooijman2013]</a>. For example, if a designer has a very small
+wheeled folding bicycle in mind, is it possible for that vehicle to handle and
+feel the same or similar to a more typical bicycle design? If the wheels are
+small, what is the best location for the center of mass? What should the angle
+of the steer tube be?  What should the wheelbase be? The designer chooses
+these, builds prototypes, tests the handling, and adjusts hopefully coming to a
+favorable handling feeling.</p>
+<p>The vehicle's uncontrolled dynamics affect both the perceived and objective
+handling. We have one way fairly clear way to characterize a given bicycle's
+dynamics: the eigenvalues of a linear model of the vehicle. For example, if the
+Whipple-Carvallo model <a class="citation-reference" href="#meijaard2007" id="id2">[Meijaard2007]</a> is used to model the bicycle, there are
+four complex numbers at any given travel speed that fully characterize the
+uncontrolled dynamics. Existing good-handling bicycles have a set of
+characteristic eigenvalues and a related characteristic equation <a class="citation-reference" href="#moore2010" id="id3">[Moore2010]</a>.</p>
+<p>One possible design approach would be to specify some aspects of a bicycle's
+physical characteristics and then search for candidate physical characteristics
+that ensure this new bicycle design has dynamics as similar as possible to a
+bicycle that is subjectively judged to have good handling. This is what a
+designer does in an ad-hoc way, but these characteristics could be chosen in an
+optimal fashion. <a class="citation-reference" href="#paudel2020" id="id4">[Paudel2020]</a> shows a manual method of this design process
+that does utilize the vehicle's dynamics.</p>
+<p>The goal of this project is to develop a constrained optimization problem which
+ensures that an atypical bicycle design with some fully constrained
+characteristics has uncontrolled dynamics as close as possible to a typical
+bicycle. The optimization problem presented in <a class="citation-reference" href="#moore2020" id="id5">[Moore2020]</a> has similarities to
+this problem and can be used for initial ideas. The success of the
+methodology should be demonstrated with different atypical bicycles: bakfiets,
+folding bicycles, recumbent bicycles, etc. and potentially constructing one of
+the designs and testing it.</p>
+</div>
+<div class="section" id="required-skills">
+<h2>Required Skills</h2>
+<ul class="simple">
+<li>3D multibody dynamics</li>
+<li>Constrained non-linear optimization techniques</li>
+<li>Proficiency in a scientific programming language</li>
+<li>Metal fabrication</li>
+<li>Experimental methods and dynamic measurements</li>
+</ul>
+</div>
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils citation" frame="void" id="meijaard2007" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[Meijaard2007]</a></td><td>J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L.
+Schwab, “Linearized dynamics equations for the balance and steer of a
+bicycle: A benchmark and review,” Proceedings of the Royal Society A:
+Mathematical, Physical and Engineering Sciences, vol. 463, no. 2084, pp.
+1955–1982, Aug.  2007.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2010" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[Moore2010]</a></td><td>J. K. Moore, M. Hubbard, D. L. Peterson, A. L. Schwab, and J. D.
+G. Kooijman, “An Accurate Method of Measuring and Comparing a Bicycle’s
+Physical Parameters,” Delft, Netherlands, Oct. 2010.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="kooijman2013" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[Kooijman2013]</a></td><td>J. D. G. Kooijman and A. L. Schwab, “A review on bicycle and
+motorcycle rider control with a perspective on handling qualities,” Vehicle
+System Dynamics, vol. 0, no. 0, pp. 1–43, doi: 10.1080/00423114.2013.824990.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="moore2020" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id5">[Moore2020]</a></td><td>J. K. Moore and M. Hubbard, “Expanded Optimization for
+Discovering Optimal Lateral Handling Bicycles,” Padua, Italy, 2019, p. 12,
+doi: 10.6084/m9.figshare.9942938.v1.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="paudel2020" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[Paudel2020]</a></td><td>M. Paudel and F. F. Yap, “Development of an improved design
+methodology and front steering design guideline for small-wheel bicycles for
+better stability and performance,” Proceedings of the Institution of
+Mechanical Engineers, Part P: Journal of Sports Engineering and Technology,
+vol. 234, no.  3, pp. 227–244, Sep. 2020, doi: 10.1177/1754337120919608.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="see-also">
+<h2>See Also</h2>
+<ul class="simple">
+<li><a class="reference external" href="https://mechmotum.github.io/research/optimal-handling-bicycle.html">Lab research page on optimal handling bicycles</a></li>
+</ul>
+</div>
+<div class="section" id="how-to-apply">
+<h2>How to Apply</h2>
+<p>Send an email to <a class="reference external" href="mailto:j.k.moore&#64;tudelft.nl">j.k.moore&#64;tudelft.nl</a> with the title of the project in the
+subject line. Include an approximately half-page motivation letter explaining
+why you want to work in the Bicycle Lab on this project along with your current
+resume or C.V.</p>
+</div>
+
+  </div>
+</article>
+
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
