@@ -4,8 +4,10 @@
 Principal Investigators
 =======================
 
-- `Jason K. Moore`_, PhD
+- `Arend L. Schwab`_, PhD, Associate Professor
+- `Jason K. Moore`_, PhD, Assistant Professor
 
+.. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
 .. _Jason K. Moore: https://www.moorepants.info
 
 Masters of Science Students

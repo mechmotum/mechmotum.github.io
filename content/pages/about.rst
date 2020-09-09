@@ -5,20 +5,22 @@
 :date: 2018-10-05
 :front: true
 
-The Laboratorium of Marvelous Mechanical Motum is a research group based in the
-`BioMechanical Engineering Department`_ at `Delft University of Technology`_
-led by `Jason K. Moore`_. Our research is centered around human mobility and
-spans the following themes:
+The Bicycle Laboratorium is a research lab in the `Biomechantronics and
+Human-Machine Control Group`_ of the `BioMechanical Engineering Department`_ at
+`Delft University of Technology`_ led by `Arend L.  Schwab`_ and `Jason K.
+Moore`_. Our research is centered around the science and engineering of
+bicycles and spans the following themes:
 
-- bicycle and other human powered vehicle design and engineering
-- human-in-the-loop augmented automatic control and vehicle design
-- assistive device design for the physically impaired
-- enhancing athlete performance and safety in sports
+- design of bicycles and other human powered vehicles
+- single track vehicle dynamics, handling, and control
+- enhancing athlete performance and safety in sports of cycling
+- bicycle and micromobility transportation improvements and safety
 - human powered appropriate technology
-- sustainable transportation (primarily bicycling and mass transit)
 - engineering and scientific software design and development
-- teaching and learning in engineering
+- teaching and learning in engineering education
 
+.. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering
 .. _Delft University of Technology: https://www.tudelft.nl
 .. _Jason K. Moore: https://www.moorepants.info
+.. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
