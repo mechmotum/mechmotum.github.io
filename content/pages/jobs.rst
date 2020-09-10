@@ -53,6 +53,9 @@ please send a letter explaining your interest in the lab, CV or resume, and any
 other relevant information to j.k.moore@tudelft.nl. Include whether you have
 been accepted to the University or have not applied yet.
 
+MSc Project Proposals and Ideas
+-------------------------------
+
 The following list provides the current formal MSc projects we are interested
 in finding students for [#]_:
 
