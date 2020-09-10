@@ -56,17 +56,59 @@ been accepted to the University or have not applied yet.
 The following list provides the current formal MSc projects we are interested
 in finding students for [#]_:
 
-- `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_ (with USSEA_)
-- Adaptive Speed Control in Cycling (with Gazelle_)
-- Bicycle Design, Dynamics, and Handling (with Gazelle_)
-- Bicycle Load Cases and Road Quality (with Gazelle_)
-- Early Warning and Crash Detection in Cycling (with Gazelle_)
-- Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology (with TrueKinetix_)
-- `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
-- `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
-- `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
-- Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling (with TrueKinetix_)
-- Understanding Disc Brake Squeal in Cycling (with Gazelle_)
+.. list-table::
+   :header-rows: 1
+   :widths: 60 15 20 15
+   :class: table table-striped table-bordered
+
+   * - Project Proposal Title
+     - Date posted
+     - Partners
+     - More information
+   * - Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety
+     - 2020-09-10
+     - USSEA_
+     - `Web page <{filename}/pages/jobs/skateboarding-learning-safety.rst>`__
+   * - Adaptive Speed Control in Cycling
+     - 2020-09-10
+     - Gazelle_
+     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`__
+   * - Bicycle Design, Dynamics, and Handling
+     - 2020-09-10
+     - Gazelle_
+     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc5DesignRulesHandlingQualities.pdf>`__
+   * - Bicycle Load Cases and Road Quality
+     - 2020-09-10
+     - Gazelle_
+     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`__
+   * - Early Warning and Crash Detection in Cycling
+     - 2020-09-10
+     - Gazelle_
+     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc3EarlyWarningCrashDetection.pdf>`__
+   * - Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology
+     - 2020-09-10
+     - TrueKinetix_
+     - `Web page <{filename}/pages/jobs/truebike-calibration.rst>`__
+   * - How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps?
+     - 2020-09-10
+     - Dr. Mont Hubbard
+     - `Web page <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`__
+   * - Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors
+     - 2020-09-10
+     - Dr. Paul Crawford
+     - `Web page <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`__
+   * - Optimization Based Bicycle Design For Equivalent Dynamics
+     - 2020-09-10
+     -
+     - `Web page <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`__
+   * - Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling
+     - 2020-09-10
+     - TrueKinetix_
+     - `Web page <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`__
+   * - Understanding Disc Brake Squeal in Cycling
+     - 2020-09-10
+     - Gazelle_
+     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`__
 
 .. _TrueKinetix: http://www.truekinetix.com
 .. _Gazelle: https://www.gazelle.nl/
