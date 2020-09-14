@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - research</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/research.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2019-12-30T15:00:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation-updated.html" rel="alternate"></link><published>2019-12-30T15:00:00-08:00</published><updated>2019-12-30T15:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-12-30:/blog/ebike-controller-implementation-updated.html</id><summary type="html">&lt;p class="first last"&gt;Updated blog post on the implementation of a PID controller on an
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - research</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/research.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-09-14T09:47:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Announcing Georgios Dialynas's PhD Defense</title><link href="https://mechmotum.github.io/blog/dialynas-defense-announcement.html" rel="alternate"></link><published>2020-09-14T09:47:00-07:00</published><updated>2020-09-14T09:47:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-14:/blog/dialynas-defense-announcement.html</id><summary type="html">&lt;p class="first last"&gt;Georgios Dialynas will defend his Bicycle Lab PhD thesis September 15
+at 12:30 CEST.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;From Georgios:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I will be defending my Ph.D. dissertation titled &amp;quot;An experimental approach
+into the quantification of steering and balance behaviour of bicyclists&amp;quot; on
+Tuesday 15th September 2020 at 12.30-13:30 h in the Senaatszaal of the TU
+Delft Aula. Prior to the defense, at  12.00 h, I will give a brief
+presentation about my research. I invite my family and friends to join the
+event via: &lt;a class="reference external" href="https://www.facebook.com/events/1012404512534541"&gt;https://www.facebook.com/events/1012404512534541&lt;/a&gt; (I decided FB
+since there are no time or participants limitations for the mobile version)&lt;/p&gt;
+&lt;p&gt;Thesis Aim&lt;/p&gt;
+&lt;p&gt;The aim of this thesis is to derive bicycle rider control models, based on
+experimental data, that mimic the rider in his balance control task at
+various forward speeds. These rider control models can help to understand
+bicycle falls and crashes, predict cyclist motions necessary for vehicle to
+vehicle safety systems, and can guide towards the design of a bicycle with
+active balance control. You can find the softcopy of my thesis here:
+&lt;a class="reference external" href="https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a"&gt;https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kind Regards,
+Georgios Dialynas
+Ph.D. Candidate at Delft University of Technology
+Department of Biomechatronics &amp;amp; Human-Machine Control&lt;/p&gt;
+&lt;/blockquote&gt;
+</content><category term="research"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation-updated.html" rel="alternate"></link><published>2019-12-30T15:00:00-08:00</published><updated>2019-12-30T15:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-12-30:/blog/ebike-controller-implementation-updated.html</id><summary type="html">&lt;p class="first last"&gt;Updated blog post on the implementation of a PID controller on an
 instrumented ebike&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;em&gt;This is an updated version of a previous blog post on the implementation of a
 PID controller on an instrumented ebike which can be&lt;/em&gt; &lt;a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-implementation.html"&gt;found here&lt;/a&gt;.
