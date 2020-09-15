@@ -10,6 +10,13 @@ Principal Investigators
 .. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
 .. _Jason K. Moore: https://www.moorepants.info
 
+PhD Candidates
+==============
+
+- `Marco Reijne`_ [April 2018-present]
+
+.. _Marco Reijne: https://www.linkedin.com/in/marco-reijne-2331401a
+
 Masters of Science Students
 ===========================
 
@@ -22,7 +29,7 @@ Graduate Research Assistants
 ============================
 
 Past
-   - Dr. `Kenneth Lyons`_ [June 2017-September 2017], now at Systron Donner ynertial
+   - Dr. `Kenneth Lyons`_ [June 2017-September 2017], now at Systron Donner Inertial
 
 .. _Kenneth Lyons: https://ixjlyons.com
 
