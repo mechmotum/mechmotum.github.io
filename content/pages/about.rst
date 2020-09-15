@@ -5,7 +5,7 @@
 :date: 2018-10-05
 :front: true
 
-The Bicycle Laboratorium is a research lab in the `Biomechatronics &
+The TU Delft Bicycle Lab is a research lab in the `Biomechatronics &
 Human-Machine Control Group`_ of the `BioMechanical Engineering Department`_ at
 `Delft University of Technology`_ led by `Arend L.  Schwab`_ and `Jason K.
 Moore`_. Our research is centered around the science and engineering of
