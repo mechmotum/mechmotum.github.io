@@ -1,4 +1,3 @@
-
 Announcing Georgios Dialynas's PhD Defense
 ==========================================
 
