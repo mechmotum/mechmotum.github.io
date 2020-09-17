@@ -20,18 +20,19 @@ skateboarding, see [Shuman2015]_ for an example. There is a need, especially
 for beginners, for training and practicing methods and/or designed equipments
 and terrain that can accelerate learning the fundamental tricks while
 simultaneously reducing the falls incurred in the process. Our partner, the `US
-Skateboard Education Association`_, is interested studying several of the
-fundamental tricks that beginners focus on: developing a good stance, the
-ollie, dropping in to a ramp, pumping on different common ramps, ramp coping
-grinds, etc. The purpose of this project is to develop techniques and assistive
-terrain and equipment to accelerate learning and increase safety for beginners
-learning fundamental skateboarding tricks. The researcher will use their
-knowledge of biomechanics to study novice and expert performance of the tricks,
-develop experimental or model backed learning procedures, and use the dynamics
-of the tricks to discover optimal terrain and skateboard designs (materials and
-geometry) to progressively learn the tricks. The project is fairly open ended
-in terms of what fundi tel tricks to focus on and the methods to arrive at the
-results.
+Skateboard Education Association`_, is developing training techniques for
+skateboard educators to safely teach. They are interested studying several of
+the fundamental tricks that beginners focus on: having a safe and fun first
+experience (no falls), developing a good stance, the ollie, dropping in to a
+ramp, pumping on different common ramps, ramp coping grinds, etc. The purpose
+of this project is to develop techniques and assistive terrain and equipment to
+accelerate learning and increase safety for beginners learning fundamental
+skateboarding tricks. The researcher will use their knowledge of biomechanics
+to study novice and expert performance of the tricks, develop experimental or
+model backed learning procedures, and use the dynamics of the tricks to
+discover optimal terrain and skateboard designs (materials and geometry) to
+progressively learn the tricks. The project is fairly open ended in terms of
+what fundi tel tricks to focus on and the methods to arrive at the results.
 
 Skills
 ======
