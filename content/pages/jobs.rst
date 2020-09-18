@@ -92,6 +92,10 @@ in finding students for [#]_:
      - 2020-09-10
      - TrueKinetix_
      - `Web page <{filename}/pages/jobs/truebike-calibration.rst>`__
+   * - How fast will my open source code break?
+     - 2020-09-18
+     -
+     - `Web page <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
    * - How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps?
      - 2020-09-10
      - Dr. Mont Hubbard
