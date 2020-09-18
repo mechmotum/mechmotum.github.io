@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  How fast will my open source code break? | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/how-fast-will-open-source-break.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="A downside about open source software is the fact that application program interfaces (APIs) do not remain stable very long. If an author creates a research paper using a software stack to produce the results, then doesn't maintain the scripts as the software dependencies are updated, and then comes back …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  How fast will my open source code break?
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <p>A downside about open source software is the fact that application program
+interfaces (APIs) do not remain stable very long. If an author creates a
+research paper using a software stack to produce the results, then doesn't
+maintain the scripts as the software dependencies are updated, and then comes
+back 1 year later it seems highly likely that the software will not run with
+updated dependencies. One year isn't that long of a time in a research world.
+This isn't good for reproducibility. There are different proposed solutions,
+like shipping a virtual machine image with a paper that freezes the entire
+stack. It is interesting to note that Matlab code that is 10+ years old tends
+to run just fine with new version, leading to the belief that Mathworks takes
+this API breakage much more seriously. Software developers are constantly faced
+with the difficulties of maintain backwards compatibility and how easier it is
+to introduce new features to software if the backwards compatibility shackles
+are not present.</p>
+<p>This project would work to characterize:</p>
+<ul class="simple">
+<li>how quickly changes in downstream dependencies break scientific software</li>
+<li>the ranking of stability in API for core software packages, i.e. can we label
+all software packages on their backwards incompatibility quality in a
+quantifiable way?</li>
+<li>can we determine how broadly semantic versioning is actually used and abided
+by?</li>
+<li>comparing the API stability culture among languages, e.g. Python and R</li>
+<li>how deep in the stack do you have to go to get stable APIs (for example the
+Linux kernel API is probably rock solid stable)</li>
+</ul>
+<p><em>Hypothesis</em>: On average a given script or software package that relies on a
+high level scientific computing software stack will break within a year due to
+unstable dependency APIs.</p>
+<div class="section" id="possible-methods">
+<h2>Possible Methods</h2>
+<p>Here is an idea for a method to do this:</p>
+<ol class="arabic simple">
+<li>Download a package or script at the top of (or near top of) the stack and
+log its release date</li>
+<li>Install the dependencies specified at the time of release and ensure the
+software runs</li>
+<li>Increment the dependency versions in chronological order and test if the
+script/package still runs at every increment. You can detect whether is runs
+or not and also whether deprecation warnings are emitted. If a single
+dependency fails, you can then fix it at the last working version and then
+continue to increment the other until you get to the script's release date
+or all dependencies fail.</li>
+<li>Record the dates that your software gets deprecation warnings and fails.</li>
+</ol>
+<p>Another method:</p>
+<p>Track a code bases through git commits and somehow measure the frequency and
+time of depredations and removals.</p>
+<p>We will have to find a reliable way to get old dependencies installed. This is
+often quite a painful process to simply get things installed as they were from
+some point in the past.</p>
+<p>Another thought:</p>
+<p>We could check how many tests of a prior version raise errors or deprecation
+warnings.</p>
+</div>
+<div class="section" id="how-to-apply">
+<h2>How to Apply</h2>
+<p>Send an email to <a class="reference external" href="mailto:j.k.moore&#64;tudelft.nl">j.k.moore&#64;tudelft.nl</a> with the title of the project in the
+subject line. Include an approximately half-page motivation letter explaining
+why you want to work in the Bicycle Lab on this project along with your current
+resume or C.V.</p>
+</div>
+
+  </div>
+</article>
+
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
