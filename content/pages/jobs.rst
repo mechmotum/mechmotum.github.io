@@ -104,6 +104,10 @@ in finding students for [#]_:
      - 2020-09-10
      - Dr. Paul Crawford
      - `Web page <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`__
+   * - Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions
+     - 2020-09-21
+     -
+     - `Web page <{filename}/pages/jobs/fast-musculoskeletal-simulations.rst>`__
    * - Optimization Based Bicycle Design For Equivalent Dynamics
      - 2020-09-10
      -
