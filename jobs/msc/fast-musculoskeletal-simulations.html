@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/fast-musculoskeletal-simulations.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="Increasingly, musculoskeletal models are being used with optimization tools to answer a variety of research questions. When these optimization problems require forward simulation of the models it is helpful if the simulations execute as fast as possible to reduce the time to obtain results, because optimization methods can require millions …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum.github.io/bear-bicycle-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <p>Increasingly, musculoskeletal models are being used with optimization tools to
+answer a variety of research questions. When these optimization problems
+require forward simulation of the models it is helpful if the simulations
+execute as fast as possible to reduce the time to obtain results, because
+optimization methods can require millions of distinct simulations and forward
+simulations of musculoskeletal models may even still require real time
+simulation times.</p>
+<p>Many of the optimization methods used today wrap simulations based on generic
+physics engines which solve for the equations of motion at each time step.
+These physics engines are optimized for speedy forward simulation execution in
+a variety of ways, but because of their generic-ness they are unlikely
+optimized for the particular model. Many early prominent mutlibody dynamics
+codes, and some modern ones, use computer algebra systems (CAS) to symbolically
+derive long form analytic expressions for the equations of motion of the
+system. This allows for very high level mathematical descriptors of the
+equations of motion that can embody assumptions about the mathematical
+variables and expressions. With this high level description of the math it is
+possible to generate model and computer architecture specific low level codes
+through tailored code generation and compilation. This process has the
+potential to give significant speedups relative to the generic physics engines.</p>
+<p>The hypothesis is that code generated from the symbolic forms can be
+significantly faster than a numeric based system. There has been work over the
+years in the SymPy and PyDy code generation tools that can be applied to
+musculoskeletal models.</p>
+<p>Possible goals related to this topic (there is enough for multiple MSc's
+depending on the path):</p>
+<ul class="simple">
+<li>Improve SymPy's code generation facilities for arbitrary ordinary
+differential equations and differential algebraic equations that considers
+high level mathematical assumptions for optimizing the generated code.</li>
+<li>Create one or more benchmark models based on complex and typically
+slow-to-simulate biomechanics models using different software and compare
+execution times.</li>
+<li>Compare optimized forward simulations of different musculoskeletal simulation
+tools to tailored code generation from symbolic forms.</li>
+<li>Improve the Autolev to SymPy parser and get it working smoothly with complex
+Autolev models:
+<a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/autolev_parser.html">https://docs.sympy.org/latest/modules/physics/mechanics/autolev_parser.html</a></li>
+<li>Implement the Featherstone, Jain, or similar equation of motion method in
+sympy.physics.mechanics, symbolically or as numeric code generation pattern.</li>
+<li>Implement code generation for typical models that slow simulations:
+stiffness, friction, switching, non-linearities, contact, muscle models, etc.</li>
+<li>Explore applicable parallelization techniques and apply to a complex muscle
+skeletal simulation.</li>
+</ul>
+<div class="section" id="prior-art">
+<h2>Prior Art</h2>
+<p>Mailing list and Github discussions in the SymPy and PyDy projects will be
+useful.</p>
+<p>Some symbolic multibody dynamics codes:</p>
+<ul class="simple">
+<li>Auto/Bike/Truck/CarSim (derived from Michael Sayer's work at University of Michigan), <a class="reference external" href="https://www.carsim.com/">https://www.carsim.com/</a>, <a class="reference external" href="http://www.umtri.umich.edu/our-results/publications/symbolic-computer-language-multibody-systems">http://www.umtri.umich.edu/our-results/publications/symbolic-computer-language-multibody-systems</a></li>
+<li>Autolev (<a class="reference external" href="https://link.springer.com/chapter/10.1007/978-3-642-50995-7_7">https://link.springer.com/chapter/10.1007/978-3-642-50995-7_7</a>)</li>
+<li>MotionGenesis (<a class="reference external" href="http://www.motiongenesis.com/">http://www.motiongenesis.com/</a>)</li>
+<li>SD/Fast (<a class="reference external" href="https://support.ptc.com/support/sdfast/index.html">https://support.ptc.com/support/sdfast/index.html</a>)</li>
+<li>symy.physics.mechanics (<a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/index.html">https://docs.sympy.org/latest/modules/physics/mechanics/index.html</a>)</li>
+</ul>
+<p>Numeric mulitbody dynamics codes:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/bulletphysics/bullet3">Bullet</a></li>
+<li><a class="reference external" href="https://github.com/dartsim/dart">DART</a></li>
+<li><a class="reference external" href="https://bitbucket.org/odedevs/ode">Open Dynamics Engine</a></li>
+<li><a class="reference external" href="https://github.com/ORB-HD/rbdl-orb">Rigid Body Dynamics Library</a></li>
+<li><a class="reference external" href="https://github.com/simbody/simbody">Simbody</a></li>
+</ul>
+<p>Papers that may be useful to this project in our Zotero group:
+<a class="reference external" href="https://www.zotero.org/groups/966974/mechmotum/collections/GB9UR7YK">https://www.zotero.org/groups/966974/mechmotum/collections/GB9UR7YK</a></p>
+</div>
+<div class="section" id="how-to-apply">
+<h2>How to Apply</h2>
+<p>Send an email to <a class="reference external" href="mailto:j.k.moore&#64;tudelft.nl">j.k.moore&#64;tudelft.nl</a> with the title of the project in the
+subject line. Include an approximately half-page motivation letter explaining
+why you want to work in the Bicycle Lab on this project along with your current
+resume or C.V.</p>
+</div>
+
+  </div>
+</article>
+
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
