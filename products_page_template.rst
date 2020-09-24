@@ -21,6 +21,9 @@ Conference Proceedings
 
 {conference_proceedings}
 
+Conference Abstracts
+====================
+
 Reports
 =======
 
