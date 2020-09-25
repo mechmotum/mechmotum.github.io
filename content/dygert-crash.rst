@@ -13,7 +13,7 @@ Video Analysis
 ==============
 
 Going downhill
-Righward curve
+Rightward curve
 Large lean angle to the right
 Riding a Felt bicycle
 
@@ -22,9 +22,9 @@ Here is a map of the course by Imola: https://www.cyclingweekly.com/news/racing/
 Women time trialers average about 45 km/h (12.5 m/s), so she must have been
 going faster than this going down hill (but she isn't pedaling).
 
-4:09 to 4:10 The seat of the bike bounces up, seeminlgy a bump in the road
+4:09 to 4:10 The seat of the bike bounces up, seemingly a bump in the road
 4:10 to 4:19 She bounces once on the seat and then a second time with her butt
-disconnecting from the seat. The bicycle leans further rigtward during this
+disconnecting from the seat. The bicycle leans further rightward during this
 process.
 4:19 to 4:23 bounces back down on the seat
 4:23 to 4:27 bounces back up off the seat, bike is even further leaned hard to
@@ -49,11 +49,11 @@ back to the left just before connecting (but still at hard right roll angle)
 6:16,right
 6:20,left
 6:24,right
-hard to detext next left max because the collision with the rail is occuring
+hard to detect next left max because the collision with the rail is occurring
 
 
 Ploch2012 shows wobble frequencies between 6 and 9 Hz for 0 to 20 m/s in Figure
-4. Same figure shows the wobble mode unstant from about 4 to 20 m/s. This is
+4. Same figure shows the wobble mode unstable from about 4 to 20 m/s. This is
 for a model with rider lean and the but attached to the seat.
 
 Klinger2014 shows wobble between 8 and 12 Hz for 0 to 20 m/s for leaned over
@@ -70,6 +70,7 @@ TODO
 - Get the grade and curvature of the curve from Google maps or some other
   similar thing?
 - What speed was she going?
+- Check frequency in this video: https://youtu.be/VfngbsIUSj8
 
 References
 ==========
