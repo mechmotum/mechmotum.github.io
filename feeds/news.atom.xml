@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-06-10T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>The Laboratorium is Moving to TU Delft</title><link href="https://mechmotum.github.io/blog/moving-to-tudelft.html" rel="alternate"></link><published>2020-06-10T00:00:00-07:00</published><updated>2020-06-10T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-06-10:/blog/moving-to-tudelft.html</id><summary type="html">&lt;p class="first last"&gt;The lab is moving to TU Delft this summer.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-09-16T07:15:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Dr. Georgios Dialynas Successfully Defends His Thesis</title><link href="https://mechmotum.github.io/blog/dialynas-passes-defense.html" rel="alternate"></link><published>2020-09-16T07:15:00-07:00</published><updated>2020-09-16T07:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-16:/blog/dialynas-passes-defense.html</id><summary type="html">&lt;p class="first last"&gt;Georgios Dialynas successfully defended his thesis.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;As of yesterday, George Dialynas is now Dr. George Dialynas! Congratulations to
+George! He delivered very nice experimental and theoretical work on the control
+of bicycles where he's added some very important findings to push forward
+single track vehicle control. He also developed unique equipment that we are
+excited to use in the future in the lab. He has kindly shared his defense on
+Youtube. This is a nice opportunity to see a Dutch PhD defense. The defense
+provides a special time for the candidate to defend his findings and be awarded
+his new degree.&lt;/p&gt;
+&lt;p&gt;The first video is George's presentation followed by the defense portion:&lt;/p&gt;
+&lt;iframe width="560" height="315"
+src="https://www.youtube.com/embed/Ql41VQm_LM4" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;The second video is the award ceremony after George passed:&lt;/p&gt;
+&lt;iframe width="560" height="315"
+src="https://www.youtube.com/embed/kxWMlRiSnDU" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;Everyone at the bicycle lab is very proud of George and will miss him!&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>Announcing Georgios Dialynas's PhD Defense</title><link href="https://mechmotum.github.io/blog/dialynas-defense-announcement.html" rel="alternate"></link><published>2020-09-14T09:47:00-07:00</published><updated>2020-09-14T09:47:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-14:/blog/dialynas-defense-announcement.html</id><summary type="html">&lt;p class="first last"&gt;Georgios Dialynas will defend his Bicycle Lab PhD thesis September 15
+at 12:30 CEST.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;From Georgios:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I will be defending my Ph.D. dissertation titled &amp;quot;An experimental approach
+into the quantification of steering and balance behaviour of bicyclists&amp;quot; on
+Tuesday 15th September 2020 at 12.30-13:30 h in the Senaatszaal of the TU
+Delft Aula. Prior to the defense, at  12.00 h, I will give a brief
+presentation about my research. I invite my family and friends to join the
+event via: &lt;a class="reference external" href="https://www.facebook.com/events/1012404512534541"&gt;https://www.facebook.com/events/1012404512534541&lt;/a&gt; (I decided FB
+since there are no time or participants limitations for the mobile version)&lt;/p&gt;
+&lt;p&gt;Thesis Aim&lt;/p&gt;
+&lt;p&gt;The aim of this thesis is to derive bicycle rider control models, based on
+experimental data, that mimic the rider in his balance control task at
+various forward speeds. These rider control models can help to understand
+bicycle falls and crashes, predict cyclist motions necessary for vehicle to
+vehicle safety systems, and can guide towards the design of a bicycle with
+active balance control. You can find the softcopy of my thesis here:
+&lt;a class="reference external" href="https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a"&gt;https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kind Regards,
+Georgios Dialynas
+Ph.D. Candidate at Delft University of Technology
+Department of Biomechatronics &amp;amp; Human-Machine Control&lt;/p&gt;
+&lt;/blockquote&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>The Laboratorium is Moving to TU Delft</title><link href="https://mechmotum.github.io/blog/moving-to-tudelft.html" rel="alternate"></link><published>2020-06-10T00:00:00-07:00</published><updated>2020-06-10T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-06-10:/blog/moving-to-tudelft.html</id><summary type="html">&lt;p class="first last"&gt;The lab is moving to TU Delft this summer.&lt;/p&gt;
 </summary><content type="html">&lt;img alt="TU Delft Logo" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/tudelft-logo.png" /&gt;
 &lt;p&gt;I am pleased to announce that I have accepted a position as an Assistant
 Professor in the &lt;a class="reference external" href="https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/"&gt;Biomechanical Engineering Department&lt;/a&gt; of the &lt;a class="reference external" href="https://www.tudelft.nl/en/3me/"&gt;Mechanical,

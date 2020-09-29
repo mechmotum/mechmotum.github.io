@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - research</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/research.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-09-16T07:15:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Dr. Georgios Dialynas Successfully Defends His Thesis</title><link href="https://mechmotum.github.io/blog/dialynas-passes-defense.html" rel="alternate"></link><published>2020-09-16T07:15:00-07:00</published><updated>2020-09-16T07:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-16:/blog/dialynas-passes-defense.html</id><summary type="html">&lt;p class="first last"&gt;Georgios Dialynas successfully defended his thesis.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;As of yesterday, George Dialynas is now Dr. George Dialynas! Congratulations to
-George! He delivered very nice experimental and theoretical work on the control
-of bicycles where he's added some very important findings to push forward
-single track vehicle control. He also developed unique equipment that we are
-excited to use in the future in the lab. He has kindly shared his defense on
-Youtube. This is a nice opportunity to see a Dutch PhD defense. The defense
-provides a special time for the candidate to defend his findings and be awarded
-his new degree.&lt;/p&gt;
-&lt;p&gt;The first video is George's presentation followed by the defense portion:&lt;/p&gt;
-&lt;iframe width="560" height="315"
-src="https://www.youtube.com/embed/Ql41VQm_LM4" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;The second video is the award ceremony after George passed:&lt;/p&gt;
-&lt;iframe width="560" height="315"
-src="https://www.youtube.com/embed/kxWMlRiSnDU" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;Everyone at the bicycle lab is very proud of George and will miss him!&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>Announcing Georgios Dialynas's PhD Defense</title><link href="https://mechmotum.github.io/blog/dialynas-defense-announcement.html" rel="alternate"></link><published>2020-09-14T09:47:00-07:00</published><updated>2020-09-14T09:47:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-14:/blog/dialynas-defense-announcement.html</id><summary type="html">&lt;p class="first last"&gt;Georgios Dialynas will defend his Bicycle Lab PhD thesis September 15
-at 12:30 CEST.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;From Georgios:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I will be defending my Ph.D. dissertation titled &amp;quot;An experimental approach
-into the quantification of steering and balance behaviour of bicyclists&amp;quot; on
-Tuesday 15th September 2020 at 12.30-13:30 h in the Senaatszaal of the TU
-Delft Aula. Prior to the defense, at  12.00 h, I will give a brief
-presentation about my research. I invite my family and friends to join the
-event via: &lt;a class="reference external" href="https://www.facebook.com/events/1012404512534541"&gt;https://www.facebook.com/events/1012404512534541&lt;/a&gt; (I decided FB
-since there are no time or participants limitations for the mobile version)&lt;/p&gt;
-&lt;p&gt;Thesis Aim&lt;/p&gt;
-&lt;p&gt;The aim of this thesis is to derive bicycle rider control models, based on
-experimental data, that mimic the rider in his balance control task at
-various forward speeds. These rider control models can help to understand
-bicycle falls and crashes, predict cyclist motions necessary for vehicle to
-vehicle safety systems, and can guide towards the design of a bicycle with
-active balance control. You can find the softcopy of my thesis here:
-&lt;a class="reference external" href="https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a"&gt;https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Kind Regards,
-Georgios Dialynas
-Ph.D. Candidate at Delft University of Technology
-Department of Biomechatronics &amp;amp; Human-Machine Control&lt;/p&gt;
-&lt;/blockquote&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation-updated.html" rel="alternate"></link><published>2019-12-30T15:00:00-08:00</published><updated>2019-12-30T15:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-12-30:/blog/ebike-controller-implementation-updated.html</id><summary type="html">&lt;p class="first last"&gt;Updated blog post on the implementation of a PID controller on an
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - research</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/research.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-07-03T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>A Web Application for Analyzing Bicycle Dynamics</title><link href="https://mechmotum.github.io/blog/bicycle-dynamics-web-application.html" rel="alternate"></link><published>2020-07-03T00:00:00-07:00</published><updated>2020-07-03T00:00:00-07:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2020-07-03:/blog/bicycle-dynamics-web-application.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on creating a web application to serve as a GUI for bicycle
+dynamics.&lt;/p&gt;
+</summary><content type="html">&lt;div class="figure align-center"&gt;
+&lt;a class="reference external image-reference" href="https://bicycleparameters.herokuapp.com"&gt;&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Screenshot of the bicycle dynamics web app. Click the image to go to the app
+at &lt;a class="reference external" href="https://bicycleparameters.herokuapp.com"&gt;https://bicycleparameters.herokuapp.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;The &lt;a class="reference external" href="https://github.com/moorepants/BicycleParameters"&gt;BicycleParameters&lt;/a&gt; Python program provides a way for users to interact with
+the 27 parameters laid out by the Whipple-Carvallo bicycle model. However, its
+accessibility is limited to the programming experience of the user, and it can
+be unweildy to manually work with.  To make the program more accessible, the
+Bicycle Dynamics Web App was created to supply a graphical user interface for
+the program as well as to enable a broader range of users to access it via the
+web. The web app takes heavy inspiration from &lt;a class="reference external" href="http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/JBike6_web_folder/index.htm"&gt;JBike6&lt;/a&gt;, but aims to remove the
+accessibility barriers inherent to MATLAB.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="building-the-app"&gt;
+&lt;h2&gt;Building the App&lt;/h2&gt;
+&lt;p&gt;Given that BicycleParameters was to be used as the backend for the website, it
+made sense to use another Python based program to build the frontend. &lt;a class="reference external" href="https://dash.plotly.com"&gt;Dash&lt;/a&gt;
+from Plotly serves this purpose perfectly, providing us with a full set of html
+components in addition to many custom made Javascript elements such as
+datatables and value sliders.  Finally, the app is styled with &lt;a class="reference external" href="https://dash-bootstrap-components.opensource.faculty.ai"&gt;Dash Bootstrap
+Components&lt;/a&gt;, so that only a very minimal amount of custom CSS had to be
+written.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="functionality"&gt;
+&lt;h2&gt;Functionality&lt;/h2&gt;
+&lt;p&gt;The Bicycle Dynamics Web App provides a graphical interface with 10 different
+default parameter sets, a set of editable tables where users may adjust the
+parameter values as they see fit, and two plots which are generated behind the
+scenes from the datatable values. The geometry plot displays the essential
+schematic and centers of mass of the bicycle, while the eigenvalue plot reveals
+the self-stability of the bicycle as a function of its speed. Users may toggle
+the centers of mass and intertia ellipsoid on the geometry plot, and they may
+adjust the speed range for the eigenvalue plot.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The Bicycle Dynamics Web App is currently deployed at
+&lt;a class="reference external" href="https://bicycleparameters.herokuapp.com/"&gt;https://bicycleparameters.herokuapp.com/&lt;/a&gt; and its github repository is located
+at &lt;a class="reference external" href="https://github.com/moorepants/BicycleParameters"&gt;https://github.com/moorepants/BicycleParameters&lt;/a&gt;. Feel free to play around
+with the app and provide suggestions or feedback!&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="research"></category><category term="bicycle"></category><category term="web application"></category></entry><entry><title>Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation-updated.html" rel="alternate"></link><published>2019-12-30T15:00:00-08:00</published><updated>2019-12-30T15:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-12-30:/blog/ebike-controller-implementation-updated.html</id><summary type="html">&lt;p class="first last"&gt;Updated blog post on the implementation of a PID controller on an
 instrumented ebike&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;em&gt;This is an updated version of a previous blog post on the implementation of a
 PID controller on an instrumented ebike which can be&lt;/em&gt; &lt;a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-implementation.html"&gt;found here&lt;/a&gt;.
