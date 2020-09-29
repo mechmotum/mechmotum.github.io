@@ -3,7 +3,7 @@ Electric Bicycle Speed Controller Presented at the 2019 Bicycle and Motorcycle D
 
 :date: 2019-10-03 00:00:00
 :tags: controls, BMD2019, engineering
-:category: blog
+:category: conferences
 :slug: ebike-controller-bmd-presentation
 :authors: Trevor Metz
 :summary: Sharing the presentation of the speed controller project at the 2019
