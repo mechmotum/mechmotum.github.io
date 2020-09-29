@@ -6,7 +6,7 @@ What Caused Chloé Dygert's Crash?
 :tags: bicycle, wobble, shimmy, sports, engineering
 :category: outreach
 :slug: dygert-crash
-:authors: Jason K. Moore
+:authors: Jason K. Moore, Marco Reijne
 :summary: Back of the napkin analysis and commentary on Chloé Dygert's 2020 UCI
           Road World Championships crash.
 
@@ -34,10 +34,10 @@ major injuries. You can watch for yourself in the video below:
 
 The video has made its round on the internet and collected various commentary.
 For example, on the Single Track Vehicle Dynamics discussion list there are
-several perspectives:
-https://groups.google.com/forum/#!msg/stvdy/K932UhSVOAs/uUJE83YuBAAJ. As is
-common with videos showing oscillation of this nature, the words "wobble" and
-"shimmy" are often brought up.
+`several perspectives`_. As is common with videos showing oscillation of this
+nature, the words "wobble" and "shimmy" are often brought up.
+
+.. _several perspectives: https://groups.google.com/forum/#!msg/stvdy/K932UhSVOAs/uUJE83YuBAAJ
 
 What is "wobble" and "shimmy" of a bicycle?
 ===========================================
@@ -47,12 +47,12 @@ academic and popular literature to describe higher frequency oscillations that
 single track vehicles (bicycles, motorcycles, and similar vehicles) sometimes
 exhibit [Wikipedia2020]_. There does not seem to be a definitive unique
 definition of the two words. In this case, "higher frequencies" refers to being
-higher than the vehicle's weave frequency. Weave is the fundamental steer and
-roll oscillation that occurs in the 0 to 4 Hz bandwidth for bicycles traveling
-at speeds below 20 m/s (72 km/h, 45 mph). In addition to the frequency
-differences, at higher speeds this wobble/shimmy oscillation can grow in
-magnitude (unstable) whereas weave oscillations become more damped (stable) as
-the speed increases.
+higher than the vehicle's weave oscillation frequency. Weave is the fundamental
+steer and roll oscillation that occurs in the 0 to 4 Hz bandwidth for bicycles
+traveling at speeds below 20 m/s (72 km/h, 45 mph). In addition to the
+frequency differences, at higher speeds this wobble/shimmy oscillation can grow
+in magnitude (unstable) whereas weave oscillations become more damped (stable)
+as the speed increases.
 
 Wobble/shimmy oscillations are attributed to the effective flexibility of the
 bicycle frame between the contact patches of the two tires. This flexibility is
@@ -62,14 +62,15 @@ present even if the bicycle and tires are infinitely stiff, i.e. weave is a
 function purely of the assembly of rigid bodies (wheels, fork, frame, ground)
 and the nature of their connections.
 
-Advanced dynamics models of bicycles and motorcycles are able to predict the
-wobble/shimmy oscillation ([Plöchl2012]_, [Klinger2014]_) and, at least in
-these papers, wobble/shimmy *is* specifically defined. These models show that:
+Advanced dynamics models of bicycles are able to predict the wobble/shimmy
+oscillation ([Plöchl2012]_, [Klinger2014]_) and, at least in these papers,
+wobble *is* specifically defined. These models show that:
 
-- at speed > 13 m/s (45 km/h) the wobble frequency of oscillation is between 8
-  and 10 Hz
-- the dominant wobble motion is oscillation of the handle bar and fork about
-  the steering axis; it being 3-5X the magnitude of roll oscillations
+- at speeds > 13 m/s (45 km/h) the wobble frequency of oscillation is between 8
+  and 12 Hz
+- the dominant motion during wobble is the oscillation of the handle bar and
+  fork about the steering axis and this steer motion has an amplitude magnitude
+  of 3-5X that of the roll motion
 - there is a speed threshold (2-6 m/s) at which the oscillation will tend to
   grow unstably; above this threshold damping this oscillation is the
   responsibility of the rider
@@ -99,6 +100,8 @@ After watching Dygert's crash frame-by-frame, we make some observations:
 
 - She's likely traveling at a speed between 9 m/s (32 km/h, 20 mph) and 13 m/s
   (47 km/h, 29 mph)
+- She is in a steady rightward turn, with a large roll angle of about 30
+  degrees or so.
 - She is not pedaling during the event.
 - She is initially bounced from her seat and the oscillation builds with her
   disconnecting more and more from the seat. This left her fully connected to
@@ -111,14 +114,20 @@ The last two points would seem to indicate that this isn't wobble/shimmy; at
 least not by the definition espoused by the academic literature. The frequency
 is half what it should be and it isn't steer dominant. The video of Dygert
 shows clearly different oscillations than that shown in the "Bicycle Shimmy"
-video. We aren't likely seeing wobble/shimmy in Dygert's crash.
+video above. We aren't likely seeing wobble/shimmy in Dygert's crash but the
+initial jolt visible in the video surely excited an unstable oscillation. The
+large bump may have played a significant role in initiating the subsequent
+cascading effects. There is also the possibility of the rider effectively
+causing the instability. This is well documented in aircraft as "pilot induced
+oscillations", but seems less likely as it requires more activity on the
+rider's part.
 
 Here is a video that has similarities to Dygert's oscillation. In this video,
 the rider's pelvis seems fairly firmly connected to the seat. The oscillations
 are similar in magnitude for steer and roll and a frame-by-frame analysis
 estimate gives a 2 Hz oscillation frequency, which also doesn't fit the bill to
 be wobble/shimmy. Interestingly, it occurs with the more solid seat-rider
-coupling.
+coupling and not at a hard roll angle.
 
 .. raw:: html
 
@@ -137,17 +146,35 @@ Conclusion
 ==========
 
 One important assumption in the wobble/shimmy academic literature is that the
-rider's pelvis is firmly connected to the seat in the models. With Dygert's
-pelvis disconnected from the seat, the bicycle rider system is thus different
-than these models. The interactions of the rider's flexible body with the
-bicycle in Dygert's riding position may very well destabilize the weave mode.
-For example, [Moore2012]_ shows that simply adding the inertial effects of the
-riders arms onto the handlebars can have a destabilizing effect. Developing a
-predictive model of the rider being loosely coupled to the bicycle could help
-answer whether there are aspects of the bicycle's design or seating position
-which could minimize the chance of this happening. In addition, a rider control
-model could help determine whether there is something the rider can actively do
-to stop this and regain control (besides slowing down).
+rider's pelvis is firmly connected to the seat the models. With Dygert's pelvis
+disconnected from the seat, the bicycle rider system is thus different than
+these models. The interactions of the rider's flexible body with the bicycle in
+Dygert's riding position may very well destabilize the weave oscillation. For
+example, [Moore2012a]_ shows that simply adding the inertial effects of the
+riders arms onto the handlebars can have a destabilizing effect.
+
+A second important assumption in the models in the academic literature is that
+the nominal roll angle of the bicycle is zero. At a roll angle of 30 degrees,
+the predicted frequencies of wobble/shimmy oscillation could be lower and the
+steer and roll amplitudes similar in magnitude. This would then better match
+what we observe with Dygert's crash. At large roll angles like this, the
+vehicle could also have an easily destabilized lower frequency weave
+oscillation. But there are no studies of these phenomena in hard steady turns
+for bicycles.
+
+Developing a predictive model of the rider being loosely coupled to the bicycle
+could help answer whether there are aspects of the bicycle's design or seating
+position which could minimize the chance of this happening. Studying
+perturbations around large roll angles could also offer more insight. And,
+lastly, a rider control model could help determine whether there is something
+the rider can actively do to stop this and regain control (besides slowing
+down).
+
+Acknowledgements
+================
+
+We thank Jaap Meijaard for some helpful comments as well as the folks on the
+Single Track Vehicle Dynamics discussion list for providing food-for-thought.
 
 References
 ==========
@@ -160,7 +187,8 @@ References
    Plöchl. “Wobble of a Racing Bicycle with a Rider Hands on and Hands off the
    Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
    https://doi.org/10.1080/00423114.2013.877592.
-.. [Moore2012] http://moorepants.github.io/dissertation/extensions.html#rider-arms
+.. [Moore2012a] http://moorepants.github.io/dissertation/extensions.html#rider-arms
+.. [Moore2012b] http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders
 
 Notes
 =====
@@ -172,7 +200,7 @@ Notes
   This is for a model with rider lean and the but attached to the seat.
 - [Klinger2014]_ shows wobble between 8 and 12 Hz for 0 to 20 m/s for leaned
   over hands on handlebars (no rider lean DOF).
-- Figure 6.10 in [Moore2012]_ shows that the weave frequency for a bicycle
+- Figure 6.10 in [Moore2012b]_ shows that the weave frequency for a bicycle
   without a rider can get higher 10 rad/s (1.6 Hz) at 7 m/s, maybe it would be
   close to 4 Hz at 13 m/s?? But weave should be damped and stable at these
   speeds.
