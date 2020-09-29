@@ -1,5 +1,5 @@
 =================================
-What Caused Chloe Dygert's Crash?
+What Caused Chloé Dygert's Crash?
 =================================
 
 :date: 2020-9-29 00:00:00
@@ -7,14 +7,16 @@ What Caused Chloe Dygert's Crash?
 :category: outreach
 :slug: dygert-crash
 :authors: Jason K. Moore
-:summary: Back of the napkin analysis and commentary on Chloe Dygert's 2020 UCI
+:summary: Back of the napkin analysis and commentary on Chloé Dygert's 2020 UCI
           Road World Championships crash.
 
-Chloe Dygert had a race ending crash on September 24th, 2020 in the UCI Road
+`Chloé Dygert`_ had a race ending crash on September 24th, 2020 in the UCI Road
 World Championships. The crash was caught quite clearly on video. The bicycle
 starts oscillating during a right turn decent and she loses directional control
 of the bicycle. She ultimately collided with a guard rail and had major
 injuries. You can watch for yourself in the video below:
+
+.. _Chloé Dygert: https://en.wikipedia.org/wiki/Chlo%C3%A9_Dygert
 
 .. raw:: html
 
@@ -29,9 +31,12 @@ injuries. You can watch for yourself in the video below:
    </iframe>
    </div>
 
-The video has made its round on the internet with various commentary. As is
-common with videos showing oscillation of this nature, the words "wobble"
-and "shimmy" are often brought up.
+The video has made its round on the internet with various commentary. For
+example, on the Single Track Vehicle Dynamics discussion list there are several
+perspectives:
+https://groups.google.com/forum/#!msg/stvdy/K932UhSVOAs/uUJE83YuBAAJ. As is
+common with videos showing oscillation of this nature, the words "wobble" and
+"shimmy" are often brought up.
 
 What is "wobble" and "shimmy" of a bicycle?
 ===========================================
@@ -82,7 +87,7 @@ matches the wobble/shimmy model predictions:
    </iframe>
    </div>
 
-Did Chloe Dygert experience wobble/shimmy?
+Did Chloé Dygert experience wobble/shimmy?
 ==========================================
 
 After watching Dygert's crash frame by frame, we make some observations:
@@ -121,8 +126,8 @@ estimate gives a 2 Hz oscillation frequency.
    </iframe>
    </div>
 
-Wrap up
-=======
+Conclusion
+==========
 
 One important assumption in the wobble/shimmy academic literature is that the
 rider's pelvis is firmly connected to the seat in the models. With Dygert's
@@ -136,6 +141,18 @@ answer whether there are aspects of the bicycle's design which could minimize
 the chance of this happening. In addition, a rider control model could help
 determine whether there is something the rider can do to stop this (besides
 slowing down).
+
+References
+==========
+
+.. [Plöchl2012] Plöchl, Manfred, Johannes Edelmann, Bernhard Angrosch, and
+   Christoph Ott. “On the Wobble Mode of a Bicycle.” Vehicle System Dynamics
+   50, no. 3 (March 1, 2012): 415–29. https://doi.org/10.1080/00423114.2011.594164.
+.. [Klinger2014] Klinger, Florian, Julia Nusime, Johannes Edelmann, and Manfred
+   Plöchl. “Wobble of a Racing Bicycle with a Rider Hands on and Hands off the
+   Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
+   https://doi.org/10.1080/00423114.2013.877592.
+.. [Moore2012] http://moorepants.github.io/dissertation/extensions.html#rider-arms
 
 Notes
 =====
@@ -236,16 +253,3 @@ Wintergreen Cycling Camp Video
    33,08,left
    33,15,right
    33,24,left
-
-References
-==========
-
-.. [Plöchl2012] Plöchl, Manfred, Johannes Edelmann, Bernhard Angrosch, and
-   Christoph Ott. “On the Wobble Mode of a Bicycle.” Vehicle System Dynamics
-   50, no. 3 (March 1, 2012): 415–29. https://doi.org/10.1080/00423114.2011.594164.
-.. [Klinger2014] Klinger, Florian, Julia Nusime, Johannes Edelmann, and Manfred
-   Plöchl. “Wobble of a Racing Bicycle with a Rider Hands on and Hands off the
-   Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
-   https://doi.org/10.1080/00423114.2013.877592.
-.. [Moore2012] http://moorepants.github.io/dissertation/extensions.html#rider-arms
-
