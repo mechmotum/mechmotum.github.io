@@ -3,7 +3,7 @@ Announcing Georgios Dialynas's PhD Defense
 
 :date: 2020-9-14 09:47:00
 :tags: bicycle, engineering
-:category: research
+:category: news
 :slug: dialynas-defense-announcement
 :authors: Jason K. Moore
 :summary: Georgios Dialynas will defend his Bicycle Lab PhD thesis September 15

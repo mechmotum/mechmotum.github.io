@@ -3,7 +3,7 @@ A Web Application for Analyzing Bicycle Dynamics
 
 :date: 2020-07-03 00:00:00
 :tags: bicycle, web application
-:category: software
+:category: research
 :slug: bicycle-dynamics-web-application
 :authors: Noah Sanders
 :summary: Blog post on creating a web application to serve as a GUI for bicycle

@@ -3,7 +3,7 @@ Dr. Georgios Dialynas Successfully Defends His Thesis
 
 :date: 2020-9-16 07:15:00
 :tags: bicycle, engineering
-:category: research
+:category: news
 :slug: dialynas-passes-defense
 :authors: Jason K. Moore
 :summary: Georgios Dialynas successfully defended his thesis.
