@@ -146,12 +146,12 @@ Conclusion
 ==========
 
 One important assumption in the wobble/shimmy academic literature is that the
-rider's pelvis is firmly connected to the seat the models. With Dygert's pelvis
-disconnected from the seat, the bicycle rider system is thus different than
-these models. The interactions of the rider's flexible body with the bicycle in
-Dygert's riding position may very well destabilize the weave oscillation. For
-example, [Moore2012a]_ shows that simply adding the inertial effects of the
-riders arms onto the handlebars can have a destabilizing effect.
+rider's pelvis is firmly connected to the seat in the models. With Dygert's
+pelvis disconnected from the seat, that bicycle-rider system is thus different
+than these models. The interactions of the rider's flexible body with the
+bicycle in Dygert's riding position may very well destabilize the weave
+oscillation. For example, [Moore2012a]_ shows that simply adding the inertial
+effects of the rider's arms to the handlebars can have a destabilizing effect.
 
 A second important assumption in the models in the academic literature is that
 the nominal roll angle of the bicycle is zero. At a roll angle of 30 degrees,
@@ -162,13 +162,20 @@ vehicle could also have an easily destabilized lower frequency weave
 oscillation. But there are no studies of these phenomena in hard steady turns
 for bicycles.
 
+So, what caused Chloé Dygert's crash? Given the limited information and barring
+there were no mechanical failures, our best idea is that a bump excited an
+unstable weave-like oscillation during the descent. This instability was
+possible due to the high speed and large roll angle as well as Dygert's time
+trial body position and her disconnecting from the seat.
+
 Developing a predictive model of the rider being loosely coupled to the bicycle
 could help answer whether there are aspects of the bicycle's design or seating
 position which could minimize the chance of this happening. Studying
 perturbations around large roll angles could also offer more insight. And,
 lastly, a rider control model could help determine whether there is something
-the rider can actively do to stop this and regain control (besides slowing
-down).
+the rider could actively do to stop this and regain control (besides slowing
+down). These types of analyses take more time and resources, but could likely
+pin down the cause more concretely.
 
 Acknowledgements
 ================
