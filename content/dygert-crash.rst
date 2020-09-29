@@ -2,16 +2,19 @@
 Chloe Dygert Crash
 ==================
 
-:date: 2020-9-25 00:00:00
-:tags: bicycle, engineering
-:category: research
-:slug:
+:date: 2020-9-29 00:00:00
+:tags: bicycle, wobble, shimmy, sports, engineering
+:category: outreach
+:slug: dygert-crash
 :authors: Jason K. Moore
-:summary:
+:summary: Back of the napkin analysis and commentary on Chloe Dygert's 2020 UCI
+          Road World Championships crash.
 
-Chloe Dygert had a race ending crash on September 24th. It was caught clearly
-on video. It seems the bicycle began to oscillate and she ultimately lost
-directional control bicycle and collided with a guard rail.
+Chloe Dygert had a race ending crash on September 24th, 2020 in the UCI Road
+World Championships. The crash was caught quite clearly on video. The bicycle
+starts oscillating during a right turn decent and she loses directional control
+of the bicycle. She ultimately collided with a guard rail and had major
+injuries. You can watch for yourself in the video below:
 
 .. raw:: html
 
@@ -24,32 +27,110 @@ directional control bicycle and collided with a guard rail.
      allowfullscreen>
    </iframe>
 
-The video is making its round on the internet with various commentary. The most
-common words that pop up regarding this uncontrollable oscillation are "speed
-wobble" and "shimmy".
+The video has made its round on the internet with various commentary. As is
+common with videos showing oscillation of this nature, the words "wobble"
+and "shimmy" are often brought up.
 
-What is wobble and shimmy?
-==========================
+What is "wobble" and "shimmy" of a bicycle?
+===========================================
 
-The words wobble and shimmy are both interchangeably used to describe a higher
-frequency oscillations that single track vehicles (bicycles, motorcyles, and
-things inbetween) sometimes exhibit. There isn't a definitive unique definition
-of the two words. The key thing is that this oscillation is not the
-fundatmenatl steer and roll oscillation, called weave, that occurs in the 0 to
-2 Hz bandwidth.At higher speeds this oscillation can grow and be difficult to
-control and even cause a crash.  Wobble/shimmy are attributed to the effective
-flexibility of the bicycle frame between the contact patches of the two tires.
-This flexibility is primarily a a combination of the flex in the tire carcas,
-structural stiffness of the frame and wheels.
+The words (speed) wobble and shimmy are both interchangeably used in both
+academic and popular literature to describe a higher frequency oscillations
+that single track vehicles (bicycles, motorcycles, and similar vehicles)
+sometimes exhibit. Although, there does not seem to be a definitive unique
+definition of the two words. "Higher frequencies" refers to being higher than
+the vehicle's weave frequency. Weave is the fundamental steer and roll
+oscillation that occurs in the 0 to 4 Hz bandwidth for bicycles traveling at
+speeds below 20 m/s (72 km/h, 45 mph). In addition to the frequency
+differences, at higher speeds this wobble/shimmy oscillation can grow in
+magnitude (unstable) whereas weave oscillations become more damped (stable) as
+the speed increases.
 
-These things are true about wobble:
+Wobble/shimmy oscillations are attributed to the effective flexibility of the
+bicycle frame between the contact patches of the two tires. This flexibility is
+primarily a combination of the flex in the tire carcass, structural stiffness
+of the frame and wheels. Weave oscillations are present even if the bicycle and
+tires are infinitely stiff.
 
+Dynamics models of bicycles and motorcycles are able to predict the
+wobble/shimmmy oscillation ([Plöchl2012]_, [Klinger2014]_) and, at least in
+these papers, wobble/shimmy is specifically defined. These models show that:
+
+- at speed > 45 km/h the frequency of oscillation is between 8 and 10 Hz
+- the dominant motion is oscillation of the handle bar and fork about the
+  steering axis; it being 3-5X the magnitude of roll oscillations
 - there is a speed threshold at which the oscillation will tend to grow
-  unstably, above this threshold damping this ossiclation is up to the rider
-- the dominant motoin is osciallation about the steering axis (3-5X magnitude
-  of roll oscillations)
-- the frequency of oscillation is going to be between 8 and 10 Hz [Klinger2014]
-- slowing down is likely the most effective way to reduce the oscillations
+  unstably; above this threshold damping this oscillation is the responsibility
+  of the rider
+- slowing down will reduce the oscillations
+
+This video shows a steer dominant high frequency oscillation that qualitatively
+matches the wobble/shimmy model predictions:
+
+.. raw:: html
+
+   <iframe
+     width="560"
+     height="315"
+     src="https://www.youtube.com/embed/vSNjpQPdrX4?start=27"
+     frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+
+Did Chloe Dygert experience wobble/shimmy?
+==========================================
+
+After watching Dygert's crash frame by frame, we make some observations:
+
+- She's likely traveling at a speed between 9 m/s (32 km/h, 20 mph) and 13 m/s
+  (47 km/h, 29 mph)
+- She is initially bounced from her seat and the oscillation builds with her
+  disconnecting more and more from the seat. This left her fully connected to
+  the bike only at the time trial bars and at the pedals. She also isn't
+  pedaling.
+- The magnitudes of the steer and roll angles during oscillation are of similar
+  magnitude.
+- The frequency of oscillation is approximately 4.2 Hz.
+
+The last two points would seem to indicate that this isn't wobble/shimmy; at
+least not the definition espoused by the academic literature. The frequency is
+half what it should be and it isn't steer dominant. The video of Dygert shows
+clearly different oscillations than that shown in the "Bicycle Shimmy" video.
+We aren't likely seeing wobble/shimmy in Dygert's crash.
+
+Here is a video that has similarities to Dygert's oscillation. In this video,
+the rider's pelvis seems fairly firmly connected to the seat. The oscillations
+are similar in magnitude for steer and roll and a frame-by-frame analysis
+estimate gives a 2 Hz oscillation frequency.
+
+.. raw:: html
+
+   <iframe
+     width="560"
+     height="315"
+     src="https://www.youtube.com/embed/VfngbsIUSj8?start=27"
+     frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+
+Wrap up
+=======
+
+One important assumption in the wobble/shimmy academic literature is that the
+rider's pelvis is firmly connected to the seat in the models. With Dygert's
+pelvis disconnected from the seat, the bicycle rider system is thus different
+than these models. The interactions of the rider's flexible body with the
+bicycle in Dygert's riding position may very well destabilize the weave mode.
+For example, [Moore2012]_ shows that simply adding the inertial effects of the
+riders arms onto the handlebars can have a destabilizing effect. Developing a
+predictive model of the rider being loosely coupled to the bicycle could help
+answer whether there are aspects of the bicycle's design which could minimize
+the chance of this happening. In addition, a rider control model could help
+determine whether there is something the rider can do to stop this (besides
+slowing down).
+
 
 Notes
 =====
@@ -111,14 +192,35 @@ back to the left just before connecting (but still at hard right roll angle)
 6:24,right
 hard to detect next left max because the collision with the rail is occurring
 
-Some code to calculate frequency::
+.. code::
+
+   second,frame,side
+   4,27,right
+   5,01,left
+   5,06,right
+   5,10,left
+   5,13,right
+   5,16,left
+   5,19,right
+   5,23,left
+   5,26,right
+   5,29,left
+   6,03,right
+   6,06,left
+   6,09,right
+   6,13,left
+   6,16,right
+   6,20,left
+   6,24,right
+
+Some code to calculate frequency:
+
+.. code:: python
 
    import pandas as pd
    df = pd.read_csv('dygert-oscillation-data.csv')
    fps = 30
    df['time'] = df['second'] + (df['frame'] - 1)/fps
-   df['time'].diff()
-   df['time'].diff().mean()
    period = 2*df['time'].diff().mean()
    frequency_hz = 1/period
    frequency_hz
@@ -154,22 +256,6 @@ second,frame,side
 I got 2.18 Hz from this video, which is half that of Dygert and also much
 lowered that the expected wobble mode.
 
-Bicycle Shimmy Video
-====================
-
-This video shows a steer dominant high frequency oscillation.
-
-.. raw:: html
-
-   <iframe
-     width="560"
-     height="315"
-     src="https://www.youtube.com/embed/vSNjpQPdrX4?start=27"
-     frameborder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-     allowfullscreen>
-   </iframe>
-
 TODO
 ====
 
@@ -184,10 +270,11 @@ References
 
 .. [Plöchl2012] Plöchl, Manfred, Johannes Edelmann, Bernhard Angrosch, and
    Christoph Ott. “On the Wobble Mode of a Bicycle.” Vehicle System Dynamics
-   50, no. 3 (March 1, 2012): 415–29.
-   https://doi.org/10.1080/00423114.2011.594164.
+   50, no. 3 (March 1, 2012): 415–29. https://doi.org/10.1080/00423114.2011.594164.
 .. [Klinger2014] Klinger, Florian, Julia Nusime, Johannes Edelmann, and Manfred
    Plöchl. “Wobble of a Racing Bicycle with a Rider Hands on and Hands off the
    Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
    https://doi.org/10.1080/00423114.2013.877592.
-.. https://www.sheldonbrown.com/brandt/shimmy.html
+.. [Brandt2004] Shimmy or Speed Wobble https://www.sheldonbrown.com/brandt/shimmy.html
+.. [Moore2012] http://moorepants.github.io/dissertation/extensions.html#rider-arms
+
