@@ -4,7 +4,7 @@ What Caused Chloé Dygert's Crash?
 
 :date: 2020-9-29 00:00:00
 :tags: bicycle, wobble, shimmy, sports, engineering
-:category: outreach
+:category: research
 :slug: dygert-crash
 :authors: Jason K. Moore, Marco Reijne
 :summary: Back of the napkin analysis and commentary on Chloé Dygert's 2020 UCI
@@ -42,13 +42,13 @@ nature, the words "wobble" and "shimmy" are often brought up.
 What is "wobble" and "shimmy" of a bicycle?
 ===========================================
 
-The words (speed) wobble and shimmy are both interchangeably used in both
-academic and popular literature to describe higher frequency oscillations that
-single track vehicles (bicycles, motorcycles, and similar vehicles) sometimes
-exhibit [Wikipedia2020]_. There does not seem to be a definitive unique
-definition of the two words. In this case, "higher frequencies" refers to being
-higher than the vehicle's weave oscillation frequency. Weave is the fundamental
-steer and roll oscillation that occurs in the 0 to 4 Hz bandwidth for bicycles
+The words (speed) wobble and shimmy are both interchangeably used in academic
+and popular literature without a unique or definitive definition. Both terms
+are used to describe higher frequency oscillations that single track vehicles
+(bicycles, motorcycles, and similar vehicles) sometimes exhibit
+[Wikipedia2020]_. In this case, "higher frequencies" refers to being higher
+than the vehicle's weave oscillation frequency. Weave is the fundamental steer
+and roll oscillation that occurs in the 0 to 4 Hz bandwidth for bicycles
 traveling at speeds below 20 m/s (72 km/h, 45 mph). In addition to the
 frequency differences, at higher speeds this wobble/shimmy oscillation can grow
 in magnitude (unstable) whereas weave oscillations become more damped (stable)
@@ -71,8 +71,8 @@ wobble *is* specifically defined. These models show that:
 - the dominant motion during wobble is the oscillation of the handle bar and
   fork about the steering axis and this steer motion has an amplitude magnitude
   of 3-5X that of the roll motion
-- there is a speed threshold (2-6 m/s) at which the oscillation will tend to
-  grow unstably; above this threshold damping this oscillation is the
+- there is a speed threshold (2-6 m/s) at which the oscillation will tend to be
+  unstable and grow; above this threshold damping this oscillation is the
   responsibility of the rider
 - slowing down will dampen the oscillations
 
@@ -175,6 +175,7 @@ Acknowledgements
 
 We thank Jaap Meijaard for some helpful comments as well as the folks on the
 Single Track Vehicle Dynamics discussion list for providing food-for-thought.
+Yumiko Henneberry contributed copy editing.
 
 References
 ==========
@@ -236,7 +237,7 @@ Dygert Crash Video
 The follow csv file, ``dygert-oscillation-data.csv`` gives the second and frame
 number for the peak left/right motions of the seat.
 
-.. code::
+.. sourcecode:: none
 
    second,frame,side
    4,27,right
@@ -277,7 +278,9 @@ Wintergreen Cycling Camp Video
 - got 2.18 Hz from this video, which is half that of Dygert and also much
   lowered that the expected wobble mode.
 
-``wintergreen.csv`` giving timings of left/right peaks of seat motion::
+``wintergreen.csv`` giving timings of left/right peaks of seat motion:
+
+.. sourcecode:: none
 
    second,frame,side
    31,29,left
