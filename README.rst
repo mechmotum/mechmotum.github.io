@@ -34,17 +34,17 @@ change before submitting a pull request.
 
 Install pelican with conda (or pip if you prefer)::
 
-   $ conda install pelican beautifulsoup4
+   $ conda install pelican
 
 Clone the plugin repository::
 
    $ git clone git@github.com:getpelican/pelican-plugins.git
 
-Note the path to the theme, e.g.::
+Note the path to the plugin repository, e.g.::
 
    /home/my_username/.../pelican-plugins
 
-Clone the theme repository::
+Clone the theme repository (you want the mechmotum branch to be active)::
 
    $ git clone -b mechmotum git@github.com:mechmotum/pelican-alchemy.git
 
