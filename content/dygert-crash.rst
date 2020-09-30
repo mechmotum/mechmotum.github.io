@@ -162,11 +162,11 @@ vehicle could also have an easily destabilized lower frequency weave
 oscillation. But there are no studies of these phenomena in hard steady turns
 for bicycles.
 
-So, what caused Chloé Dygert's crash? Given the limited information and barring
-there were no mechanical failures, our best idea is that a bump excited an
-unstable weave-like oscillation during the descent. This instability was
-possible due to the high speed and large roll angle as well as Dygert's time
-trial body position and her disconnecting from the seat.
+**So, what caused Chloé Dygert's crash?** Given the limited information and
+barring there were no mechanical failures, our best idea is that a bump excited
+an unstable weave-like oscillation during the descent. The high speed and large
+roll angle as well as Dygert's time trial body position and her disconnection
+from the seat may have all contributed to this instability.
 
 Developing a predictive model of the rider being loosely coupled to the bicycle
 could help answer whether there are aspects of the bicycle's design or seating
