@@ -4,7 +4,7 @@ What Caused Chloé Dygert's Crash?
 
 :date: 2020-9-29 00:00:00
 :tags: bicycle, wobble, shimmy, sports, engineering
-:category: research
+:category: outreach
 :slug: dygert-crash
 :authors: Jason K. Moore, Marco Reijne
 :summary: Back of the napkin analysis and commentary on Chloé Dygert's 2020 UCI
