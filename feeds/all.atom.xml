@@ -1,5 +1,286 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-09-16T07:15:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Dr. Georgios Dialynas Successfully Defends His Thesis</title><link href="https://mechmotum.github.io/blog/dialynas-passes-defense.html" rel="alternate"></link><published>2020-09-16T07:15:00-07:00</published><updated>2020-09-16T07:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-16:/blog/dialynas-passes-defense.html</id><summary type="html">&lt;p class="first last"&gt;Georgios Dialynas successfully defended his thesis.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-09-29T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>What Caused Chloé Dygert's Crash?</title><link href="https://mechmotum.github.io/blog/dygert-crash.html" rel="alternate"></link><published>2020-09-29T00:00:00-07:00</published><updated>2020-09-29T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-29:/blog/dygert-crash.html</id><summary type="html">&lt;p class="first last"&gt;Back of the napkin analysis and commentary on Chloé Dygert's 2020 UCI
+Road World Championships crash.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Chlo%C3%A9_Dygert"&gt;Chloé Dygert&lt;/a&gt; had a race ending crash on September 24th, 2020 in the &lt;a class="reference external" href="https://en.wikipedia.org/wiki/UCI_Road_World_Championships"&gt;UCI
+Road World Championships&lt;/a&gt;. The crash was caught quite clearly on video. The
+bicycle starts oscillating during a right turn decent and she loses directional
+control of the bicycle. She ultimately collided with a guard rail and incurred
+major injuries. You can watch for yourself in the video below:&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/rEzFIQmDJYU"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;&lt;p&gt;The video has made its round on the internet and collected various commentary.
+For example, on the Single Track Vehicle Dynamics discussion list there are
+&lt;a class="reference external" href="https://groups.google.com/forum/#!msg/stvdy/K932UhSVOAs/uUJE83YuBAAJ"&gt;several perspectives&lt;/a&gt;. As is common with videos showing oscillation of this
+nature, the words &amp;quot;wobble&amp;quot; and &amp;quot;shimmy&amp;quot; are often brought up.&lt;/p&gt;
+&lt;div class="section" id="what-is-wobble-and-shimmy-of-a-bicycle"&gt;
+&lt;h2&gt;What is &amp;quot;wobble&amp;quot; and &amp;quot;shimmy&amp;quot; of a bicycle?&lt;/h2&gt;
+&lt;p&gt;The words (speed) wobble and shimmy are both interchangeably used in academic
+and popular literature without a unique or definitive definition. Both terms
+are used to describe higher frequency oscillations that single track vehicles
+(bicycles, motorcycles, and similar vehicles) sometimes exhibit
+&lt;a class="citation-reference" href="#wikipedia2020" id="id1"&gt;[Wikipedia2020]&lt;/a&gt;. In this case, &amp;quot;higher frequencies&amp;quot; refers to being higher
+than the vehicle's weave oscillation frequency. Weave is the fundamental steer
+and roll oscillation that occurs in the 0 to 4 Hz bandwidth for bicycles
+traveling at speeds below 20 m/s (72 km/h, 45 mph). In addition to the
+frequency differences, at higher speeds this wobble/shimmy oscillation can grow
+in magnitude (unstable) whereas weave oscillations become more damped (stable)
+as the speed increases.&lt;/p&gt;
+&lt;p&gt;Wobble/shimmy oscillations are attributed to the effective flexibility of the
+bicycle frame between the contact patches of the two tires. This flexibility is
+primarily a combination of the flex in the tire carcass and structural
+stiffness of the frame and wheels. On the other hand, weave oscillations are
+present even if the bicycle and tires are infinitely stiff, i.e. weave is a
+function purely of the assembly of rigid bodies (wheels, fork, frame, ground)
+and the nature of their connections.&lt;/p&gt;
+&lt;p&gt;Advanced dynamics models of bicycles are able to predict the wobble/shimmy
+oscillation (&lt;a class="citation-reference" href="#plochl2012" id="id2"&gt;[Plöchl2012]&lt;/a&gt;, &lt;a class="citation-reference" href="#klinger2014" id="id3"&gt;[Klinger2014]&lt;/a&gt;) and, at least in these papers,
+wobble &lt;em&gt;is&lt;/em&gt; specifically defined. These models show that:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;at speeds &amp;gt; 13 m/s (45 km/h) the wobble frequency of oscillation is between 8
+and 12 Hz&lt;/li&gt;
+&lt;li&gt;the dominant motion during wobble is the oscillation of the handle bar and
+fork about the steering axis and this steer motion has an amplitude magnitude
+of 3-5X that of the roll motion&lt;/li&gt;
+&lt;li&gt;there is a speed threshold (2-6 m/s) at which the oscillation will tend to be
+unstable and grow; above this threshold damping this oscillation is the
+responsibility of the rider&lt;/li&gt;
+&lt;li&gt;slowing down will dampen the oscillations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This video shows a steer dominant high frequency oscillation that qualitatively
+matches the wobble/shimmy model predictions to give an idea of what these
+research papers are modeling:&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/vSNjpQPdrX4?start=27"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="did-chloe-dygert-experience-wobble-shimmy"&gt;
+&lt;h2&gt;Did Chloé Dygert experience wobble/shimmy?&lt;/h2&gt;
+&lt;p&gt;After watching Dygert's crash frame-by-frame, we make some observations:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;She's likely traveling at a speed between 9 m/s (32 km/h, 20 mph) and 13 m/s
+(47 km/h, 29 mph)&lt;/li&gt;
+&lt;li&gt;She is in a steady rightward turn, with a large roll angle of about 30
+degrees or so.&lt;/li&gt;
+&lt;li&gt;She is not pedaling during the event.&lt;/li&gt;
+&lt;li&gt;She is initially bounced from her seat and the oscillation builds with her
+disconnecting more and more from the seat. This left her fully connected to
+the bicycle only at the time trial bars and at the pedals.&lt;/li&gt;
+&lt;li&gt;The magnitudes of the steer and roll angles during oscillation are of similar
+magnitude.&lt;/li&gt;
+&lt;li&gt;The frequency of oscillation is approximately 4.2 Hz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The last two points would seem to indicate that this isn't wobble/shimmy; at
+least not by the definition espoused by the academic literature. The frequency
+is half what it should be and it isn't steer dominant. The video of Dygert
+shows clearly different oscillations than that shown in the &amp;quot;Bicycle Shimmy&amp;quot;
+video above. We aren't likely seeing wobble/shimmy in Dygert's crash but the
+initial jolt visible in the video surely excited an unstable oscillation. The
+large bump may have played a significant role in initiating the subsequent
+cascading effects. There is also the possibility of the rider effectively
+causing the instability. This is well documented in aircraft as &amp;quot;pilot induced
+oscillations&amp;quot;, but seems less likely as it requires more activity on the
+rider's part.&lt;/p&gt;
+&lt;p&gt;Here is a video that has similarities to Dygert's oscillation. In this video,
+the rider's pelvis seems fairly firmly connected to the seat. The oscillations
+are similar in magnitude for steer and roll and a frame-by-frame analysis
+estimate gives a 2 Hz oscillation frequency, which also doesn't fit the bill to
+be wobble/shimmy. Interestingly, it occurs with the more solid seat-rider
+coupling and not at a hard roll angle.&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/VfngbsIUSj8?start=27"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;One important assumption in the wobble/shimmy academic literature is that the
+rider's pelvis is firmly connected to the seat in the models. With Dygert's
+pelvis disconnected from the seat, that bicycle-rider system is thus different
+than these models. The interactions of the rider's flexible body with the
+bicycle in Dygert's riding position may very well destabilize the weave
+oscillation. For example, &lt;a class="citation-reference" href="#moore2012a" id="id4"&gt;[Moore2012a]&lt;/a&gt; shows that simply adding the inertial
+effects of the rider's arms to the handlebars can have a destabilizing effect.&lt;/p&gt;
+&lt;p&gt;A second important assumption in the models in the academic literature is that
+the nominal roll angle of the bicycle is zero. At a roll angle of 30 degrees,
+the predicted frequencies of wobble/shimmy oscillation could be lower and the
+steer and roll amplitudes similar in magnitude. This would then better match
+what we observe with Dygert's crash. At large roll angles like this, the
+vehicle could also have an easily destabilized lower frequency weave
+oscillation. But there are no studies of these phenomena in hard steady turns
+for bicycles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So, what caused Chloé Dygert's crash?&lt;/strong&gt; Given the limited information and
+barring there were no mechanical failures, our best idea is that a bump excited
+an unstable weave-like oscillation during the descent. The high speed and large
+roll angle as well as Dygert's time trial body position and her disconnection
+from the seat may have all contributed to this instability.&lt;/p&gt;
+&lt;p&gt;Developing a predictive model of the rider being loosely coupled to the bicycle
+could help answer whether there are aspects of the bicycle's design or seating
+position which could minimize the chance of this happening. Studying
+perturbations around large roll angles could also offer more insight. And,
+lastly, a rider control model could help determine whether there is something
+the rider could actively do to stop this and regain control (besides slowing
+down). These types of analyses take more time and resources, but could likely
+pin down the cause more concretely.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="acknowledgements"&gt;
+&lt;h2&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;We thank Jaap Meijaard for some helpful comments as well as the folks on the
+Single Track Vehicle Dynamics discussion list for providing food-for-thought.
+Yumiko Henneberry contributed copy editing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="references"&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;table class="docutils citation" frame="void" id="wikipedia2020" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[Wikipedia2020]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble"&gt;https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils citation" frame="void" id="plochl2012" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[Plöchl2012]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id2"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id5"&gt;2&lt;/a&gt;)&lt;/em&gt; Plöchl, Manfred, Johannes Edelmann, Bernhard Angrosch, and
+Christoph Ott. “On the Wobble Mode of a Bicycle.” Vehicle System Dynamics
+50, no. 3 (March 1, 2012): 415–29. &lt;a class="reference external" href="https://doi.org/10.1080/00423114.2011.594164"&gt;https://doi.org/10.1080/00423114.2011.594164&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils citation" frame="void" id="klinger2014" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[Klinger2014]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id3"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id6"&gt;2&lt;/a&gt;)&lt;/em&gt; Klinger, Florian, Julia Nusime, Johannes Edelmann, and Manfred
+Plöchl. “Wobble of a Racing Bicycle with a Rider Hands on and Hands off the
+Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
+&lt;a class="reference external" href="https://doi.org/10.1080/00423114.2013.877592"&gt;https://doi.org/10.1080/00423114.2013.877592&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils citation" frame="void" id="moore2012a" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id4"&gt;[Moore2012a]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/extensions.html#rider-arms"&gt;http://moorepants.github.io/dissertation/extensions.html#rider-arms&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils citation" frame="void" id="moore2012b" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id7"&gt;[Moore2012b]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders"&gt;http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="notes"&gt;
+&lt;h2&gt;Notes&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Women time trial-ers average about 45 km/h (12.5 m/s), so she should have
+been going faster than this going down hill (but she isn't pedaling).&lt;/li&gt;
+&lt;li&gt;&lt;a class="citation-reference" href="#plochl2012" id="id5"&gt;[Plöchl2012]&lt;/a&gt; shows wobble frequencies between 6 and 9 Hz for 0 to 20 m/s in
+Figure 4. Same figure shows the wobble mode unstable from about 4 to 20 m/s.
+This is for a model with rider lean and the but attached to the seat.&lt;/li&gt;
+&lt;li&gt;&lt;a class="citation-reference" href="#klinger2014" id="id6"&gt;[Klinger2014]&lt;/a&gt; shows wobble between 8 and 12 Hz for 0 to 20 m/s for leaned
+over hands on handlebars (no rider lean DOF).&lt;/li&gt;
+&lt;li&gt;Figure 6.10 in &lt;a class="citation-reference" href="#moore2012b" id="id7"&gt;[Moore2012b]&lt;/a&gt; shows that the weave frequency for a bicycle
+without a rider can get higher 10 rad/s (1.6 Hz) at 7 m/s, maybe it would be
+close to 4 Hz at 13 m/s?? But weave should be damped and stable at these
+speeds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="dygert-crash-video"&gt;
+&lt;h3&gt;Dygert Crash Video&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Going downhill&lt;/li&gt;
+&lt;li&gt;Rightward curve&lt;/li&gt;
+&lt;li&gt;Large lean angle to the right&lt;/li&gt;
+&lt;li&gt;The magnitude of roll is dominant. The steer and roll magnitudes are similar,
+more like weave that a steering dominated wobble/shimmy.&lt;/li&gt;
+&lt;li&gt;Riding a custom Felt bicycle&lt;/li&gt;
+&lt;li&gt;She kept cycling holding on to the time trial bars. Can you can damp
+oscillations as good in that position?&lt;/li&gt;
+&lt;li&gt;Can the geometry of the time trial bike and the different mass distribution
+due to the different rider position have influence on the wobble frequency (a
+time trial bike is definitely different in geometry than a normal racing bike
+which Klungel might have used in his experiments)?&lt;/li&gt;
+&lt;li&gt;Here is a map of the course by Imola:
+&lt;a class="reference external" href="https://www.cyclingweekly.com/news/racing/uci-road-world-championships-465806"&gt;https://www.cyclingweekly.com/news/racing/uci-road-world-championships-465806&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4:09 to 4:10 the seat of the bike bounces upward, maybe a bump in the road?&lt;/li&gt;
+&lt;li&gt;4:10 to 4:19 She bounces once on the seat and then a second time with her
+butt disconnecting from the seat. The bicycle leans further rightward during
+this process.&lt;/li&gt;
+&lt;li&gt;4:19 to 4:23 bounces back down on the seat&lt;/li&gt;
+&lt;li&gt;4:23 to 4:27 bounces back up off the seat, bike is even further leaned hard
+to the right&lt;/li&gt;
+&lt;li&gt;4:27 to 5:02 connects back down to the seat (much harder it seems), bike
+leans back to the left just before connecting (but still at hard right roll
+angle)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The follow csv file, &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;dygert-oscillation-data.csv&lt;/span&gt;&lt;/tt&gt; gives the second and frame
+number for the peak left/right motions of the seat.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;second,frame,side
+4,27,right
+5,01,left
+5,06,right
+5,10,left
+5,13,right
+5,16,left
+5,19,right
+5,23,left
+5,26,right
+5,29,left
+6,03,right
+6,06,left
+6,09,right
+6,13,left
+6,16,right
+6,20,left
+6,24,right
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Some code to calculate frequency:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read_csv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;dygert-oscillation-data.csv&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;fps&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;30&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;time&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;second&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;frame&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;fps&lt;/span&gt;
+&lt;span class="n"&gt;period&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;time&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;diff&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;frequency_hz&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;period&lt;/span&gt;
+&lt;span class="n"&gt;frequency_hz&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="wintergreen-cycling-camp-video"&gt;
+&lt;h3&gt;Wintergreen Cycling Camp Video&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;guy's butt is connected to the seat the whole time (much more than Dygert)&lt;/li&gt;
+&lt;li&gt;downhill in dropbar position&lt;/li&gt;
+&lt;li&gt;got 2.18 Hz from this video, which is half that of Dygert and also much
+lowered that the expected wobble mode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;wintergreen.csv&lt;/tt&gt; giving timings of left/right peaks of seat motion:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;second,frame,side
+31,29,left
+32,06,right
+32,13,left
+32,20,right
+32,26,left
+33,03,right
+33,08,left
+33,15,right
+33,24,left
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="outreach"></category><category term="bicycle"></category><category term="wobble"></category><category term="shimmy"></category><category term="sports"></category><category term="engineering"></category></entry><entry><title>Dr. Georgios Dialynas Successfully Defends His Thesis</title><link href="https://mechmotum.github.io/blog/dialynas-passes-defense.html" rel="alternate"></link><published>2020-09-16T07:15:00-07:00</published><updated>2020-09-16T07:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-16:/blog/dialynas-passes-defense.html</id><summary type="html">&lt;p class="first last"&gt;Georgios Dialynas successfully defended his thesis.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;As of yesterday, George Dialynas is now Dr. George Dialynas! Congratulations to
 George! He delivered very nice experimental and theoretical work on the control
 of bicycles where he's added some very important findings to push forward
@@ -2255,7 +2536,7 @@ department. Jason K. Moore is a co-pi will lead efforts to enable interactive
 computation in the text books and develop engineering open educational
 resources. For more information see the LibreTexts &lt;a class="reference external" href="https://libretexts.org/pressRelease.html"&gt;press release&lt;/a&gt; and an
 &lt;a class="reference external" href="https://www.insidehighered.com/digital-learning/article/2018/10/02/department-education-awards-pilot-oer-grant-uc-davis-open"&gt;article&lt;/a&gt; in Inside Higher Ed.&lt;/p&gt;
-</content><category term="grants"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="engineering"></category></entry><entry><title>JOSS Paper On Ski Jump Design Software Published</title><link href="https://mechmotum.github.io/blog/skijumpdesign-published.html" rel="alternate"></link><published>2018-08-20T00:00:00-07:00</published><updated>2018-08-20T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2018-08-20:/blog/skijumpdesign-published.html</id><summary type="html">&lt;p class="first last"&gt;Our paper on the ski jump design software is published in the Journal
+</content><category term="news"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="engineering"></category></entry><entry><title>JOSS Paper On Ski Jump Design Software Published</title><link href="https://mechmotum.github.io/blog/skijumpdesign-published.html" rel="alternate"></link><published>2018-08-20T00:00:00-07:00</published><updated>2018-08-20T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2018-08-20:/blog/skijumpdesign-published.html</id><summary type="html">&lt;p class="first last"&gt;Our paper on the ski jump design software is published in the Journal
 of Open Source Software.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;The &lt;a class="reference external" href="http://joss.theoj.org"&gt;Journal of Open Source Software&lt;/a&gt; accepted and published our paper
 &amp;quot;skijumpdesign: A Ski Jump Design Tool for Specified Equivalent Fall Height&amp;quot;

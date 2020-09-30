@@ -10,6 +10,7 @@
 ./author/jason-k-moore.html
 ./author/jonathan-blaze-cubanski.html
 ./author/kevin-krausse.html
+./author/marco-reijne.html
 ./author/noah-sanders.html
 ./author/rayming-liang.html
 ./author/stasia-kubicki.html
@@ -24,6 +25,7 @@
 ./blog/dialynas-defense-announcement.html
 ./blog/dialynas-passes-defense.html
 ./blog/double-pendulum-robot.html
+./blog/dygert-crash.html
 ./blog/ebike-controller-bmd-presentation.html
 ./blog/ebike-controller-design.html
 ./blog/ebike-controller-implementation-updated.html
@@ -45,15 +47,15 @@
 ./categories.html
 ./category/conferences.html
 ./category/education.html
-./category/grants.html
 ./category/news.html
+./category/outreach.html
 ./category/papers.html
 ./category/research.html
 ./feeds/all.atom.xml
 ./feeds/conferences.atom.xml
 ./feeds/education.atom.xml
-./feeds/grants.atom.xml
 ./feeds/news.atom.xml
+./feeds/outreach.atom.xml
 ./feeds/papers.atom.xml
 ./feeds/research.atom.xml
 ./guide.html
@@ -114,11 +116,13 @@
 ./tag/python.html
 ./tag/rowing.html
 ./tag/safety.html
+./tag/shimmy.html
 ./tag/ski.html
 ./tag/sports.html
 ./tag/textbooks.html
 ./tag/treadle-pump.html
 ./tag/web-application.html
+./tag/wobble.html
 ./tags.html
 ./theme/css/bootstrap.min.css
 ./theme/css/fontawesome.min.css
