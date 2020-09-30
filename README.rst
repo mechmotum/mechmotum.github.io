@@ -1,4 +1,4 @@
-Source files for the Laboratorium of Marvelous Mechanical Motum's website.
+Source files for the TU Delft Bicycle Laboratorium's website.
 
 Editing Guide
 =============
@@ -6,12 +6,13 @@ Editing Guide
 - The website is built using Pelican. Review the `Pelican documentation`_ to
   get familiar with how to create pages and articles.
 - The source files are in the git branch called ``source``. This is the default
-  branch of the repository. The HTML files are generated via doctr and pushed
+  branch of the repository. The HTML files are generated via doctr_ and pushed
   to the ``master`` branch, which is automatically served to
   http://mechmotum.github.io. Don't manually edit files in the ``master``
-  branch.
+  branch (except if a special need arises).
 - All articles, pages, and similar content should be written in
-  reStructuredText. See the `Sphinx reStructuredText primer`_ to learn the syntax.
+  reStructuredText. See the `Sphinx reStructuredText primer`_ to learn the
+  syntax.
 - All changes, in general, should be submitted as Github pull requests. Don't
   commit directly to the ``source`` branch.
 - Binary Assets such as images, videos, etc should be served from an external
@@ -22,6 +23,7 @@ Editing Guide
   All assets are store in the same directory on the object store.
 
 .. _Pelican documentation: http://docs.getpelican.com/en/stable/
+.. _doctr: https://github.com/drdoctr/doctr
 .. _Sphinx reStructuredText primer: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
 Building Locally
