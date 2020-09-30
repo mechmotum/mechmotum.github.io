@@ -1,5 +1,5 @@
 =========================================================
-Optimization Based Bicycle Design For Equivlanet Dynamics
+Optimization Based Bicycle Design For Equivalent Dynamics
 =========================================================
 
 :date: 2020-09-09
