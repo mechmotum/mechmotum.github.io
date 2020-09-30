@@ -34,7 +34,7 @@ change before submitting a pull request.
 
 Install pelican with conda (or pip if you prefer)::
 
-   $ conda install pelican
+   $ conda install pelican beautifulsoup4
 
 Clone the plugin repository::
 
