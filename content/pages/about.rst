@@ -11,9 +11,9 @@ Human-Machine Control Group`_ of the `BioMechanical Engineering Department`_ at
 Moore`_. Our research is centered around the science and engineering of
 bicycles and spans the following themes:
 
-- design of bicycles and other human powered vehicles
 - single track vehicle dynamics, handling, and control
-- enhancing athlete performance and safety in sports of cycling
+- improving design of bicycles and other human powered vehicles
+- enhancing athlete performance and safety in sports (cycling & more)
 - bicycle and micromobility transportation improvements and safety
 - human powered appropriate technology
 - engineering and scientific software design and development
