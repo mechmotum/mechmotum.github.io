@@ -35,14 +35,6 @@ Past
 
 .. _Abraham McKay: https://www.linkedin.com/in/abemckay/
 
-Graduate Research Assistants
-============================
-
-Past
-   - `Kenneth Lyons`_ [UCD, Jun 2017-Sep 2017], now at Systron Donner Inertial
-
-.. _Kenneth Lyons: https://ixjlyons.com
-
 Research Assistants
 ===================
 
@@ -51,7 +43,10 @@ Current
 Past
    - Aaron Shaw [UCD, Jun 2018-Dec 2018]
    - Britt Tarien [UCD, Jun 2018-Dec 2018], now at BioCeryx
+   - `Kenneth Lyons`_ [UCD, Jun 2017-Sep 2017], now at Systron Donner Inertial
    - Scott Kresie [UCD, Jan 2017-Sep 2017]
+
+.. _Kenneth Lyons: https://ixjlyons.com
 
 Undergraduate Research Assistants
 =================================
@@ -111,9 +106,8 @@ Past
 Google Summer of Code and Season of Docs Mentees
 ================================================
 
-Current
-   - Naman Nimmo [May 2020-Aug 2020]
 Past
+   - Naman Nimmo [May 2020-Aug 2020]
    - Lauren Glattly [Aug 2019-Nov 2019]
    - Jashanpreet Singh [May 2018-Aug 2018]
    - Nikhil Pappu [May 2018-Aug 2018]
