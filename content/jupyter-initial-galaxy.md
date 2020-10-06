@@ -11,7 +11,7 @@ dunno how to translate these to markdown, they come from the rst file and we'll 
 
 ## Summary
 
-Over the summer sessions of 2020, the JupyterTeam was able to restructure the default-env image used by our JupyterHub deployment to be built by [repo2docker](https://repo2docker.readthedocs.io/en/latest/), allowing us to finally make use of our own binder deployment as the backend for the CKEditor Binder plugin on Libretexts.org. This resolves many of the remaining issues mentioned in the JupyterTeam's [previous blog post](https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html). Additionally, we began bare-metal development on the new Galaxy kubernetes cluster building off of experiences with the first [flock cluster](https://mechmotum.github.io/blog/jupyter-summer-2019.html) and improving on it. We also made numerous miscallaneous improvements including a new alert setup, a more detailed FAQ page for our JupyterHub as well as completing some much needed cluster upgrades.
+Over the summer sessions of 2020, the JupyterTeam was able to restructure the default-env image used by our JupyterHub deployment to be built by [repo2docker](https://repo2docker.readthedocs.io/en/latest/), allowing us to finally make use of our own binder deployment as the backend for the CKEditor Binder plugin on Libretexts.org. This resolves the remaining issues mentioned in the JupyterTeam's [previous blog post](https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html#future). Additionally, we began bare-metal development on the new Galaxy kubernetes cluster building off of experiences with the first [flock cluster](https://mechmotum.github.io/blog/jupyter-summer-2019.html) and improving on it. We also made numerous miscallaneous improvements including a new alert setup, a more detailed FAQ page for our JupyterHub as well as completing some much needed cluster upgrades.
 
 ## default-env 2.0
 
@@ -54,6 +54,6 @@ Other improvements were made as well. Kubernetes [cert-manager](https://cert-man
 
 ## Future Plans
 
-Our top priorities moving forward are to enhance the exectuable code cell features of LibreText and continue development on the Galaxy cluster. We would like to fix the current issues with ipywidgets and other interactive plotting features currently exhibited by our CKEditor Binder plugin. To compliment this, we must bring cell-to-cell communcation to the plugin so that adjusting the output of one cell (such as a slider) can redraw the output of a previous cell just as it would in JupyterLab.
+Our top priorities moving forward are to enhance the executable code cell features of LibreText and continue development on the Galaxy cluster. We would like to fix the current issues with ipywidgets and other interactive plotting features currently exhibited by our CKEditor Binder plugin. To compliment this, we must bring cell-to-cell communcation to the plugin so that adjusting the output of one cell (such as a slider) can redraw the output of a previous cell just as it would in JupyterLab.
 
 For the Galaxy cluster, we need to find a way to read the authentication process of Hub users so that we can tag their pod and send them to the high performance computing setup as needed. We will also need to construct the physical computer setup for Galaxy, just as was done for Flock cluster over a year ago. Stay tuned for more updates!
