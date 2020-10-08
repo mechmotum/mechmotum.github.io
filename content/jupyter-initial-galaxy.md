@@ -47,6 +47,8 @@ To improve the maintainability of this cluster, we use [puppet](https://puppet.c
 
 Finally, we have a (private) puppet control-repo which employs the ProtoGalaxy module and configures all the non-kubernetes components of our Galaxy cluster. Our goal is to use this control-repo to completely reset the cluster state to a working version in the case that something massively breaks. This would greatly improve the maintainability of Galaxy cluster.
 
+As of now, we currently only have a development Galaxy cluster with no public availability. We repurposed chicks11-18 from the Flock cluster with brand new SSDs and then booted them up using IPMI. We also used IPMI to install Ubuntu on all of these nodes because we do not have physical access to the cluster in the midst of Covid-19. 
+
 ## Flock Cluster Upgrades/Improvements
 
 At the beginning of summer, the original flock cluster went totally down because our [kubeadm certificates](https://v1-18.docs.kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/) expired. The reason for this was that our cluster was very behind on Ubuntu and kubernetes upgrades; the kube-apiserver and kubelet were on v1.12 while the latest release was v1.18 at the time. One of the first things we did was to upgrade the flock cluster across all the nodes, and they now sit at a neat v1.19 for kubelet/kube-apiserver and v18.04.5 for Ubuntu. Furthermore, we established a policy of upgrading the cluster every 4 months so that the certificates do not meet their yearly expiration date as they did before.
