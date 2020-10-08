@@ -11,7 +11,7 @@ dunno how to translate these to markdown, they come from the rst file and we'll 
 
 ## Summary
 
-Over the summer sessions of 2020, the JupyterTeam was able to restructure the default-env image used by our JupyterHub deployment to be built by [repo2docker](https://repo2docker.readthedocs.io/en/latest/), allowing us to finally make use of our own binder deployment as the backend for the CKEditor Binder plugin on Libretexts.org. This resolves the remaining issues mentioned in the JupyterTeam's [previous blog post](https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html#future).
+Over the summer sessions of 2020, the JupyterTeam was able to restructure the default-env image used by our [JupyterHub deployment](https://jupyter.libretexts.org/hub/login) so that it is built by [repo2docker](https://repo2docker.readthedocs.io/en/latest/), allowing us to finally make use of our own [Binder deployment](https://binder.libretexts.org/) as the backend for the [CKEditor Binder plugin](https://github.com/LibreTexts/ckeditor-binder-plugin) on [Libretexts.org](https://libretexts.org/). This resolves the remaining issues mentioned in the JupyterTeam's [previous blog post](https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html#future).
 
 Additionally, we began bare-metal development on the new Galaxy kubernetes cluster building off of experiences with the first [flock cluster](https://mechmotum.github.io/blog/jupyter-summer-2019.html) and improving on it. We also made numerous miscallaneous improvements including a new alert setup, a more detailed FAQ page for our JupyterHub as well as completing some much needed cluster upgrades.
 
