@@ -1,5 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-09-29T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>What Caused Chloé Dygert's Crash?</title><link href="https://mechmotum.github.io/blog/dygert-crash.html" rel="alternate"></link><published>2020-09-29T00:00:00-07:00</published><updated>2020-09-29T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-29:/blog/dygert-crash.html</id><summary type="html">&lt;p class="first last"&gt;Back of the napkin analysis and commentary on Chloé Dygert's 2020 UCI
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-10-13T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>JupyterTeam Progress Summer 2020</title><link href="https://mechmotum.github.io/blog/libretexts-jupyter.html" rel="alternate"></link><published>2020-10-13T00:00:00-07:00</published><updated>2020-10-13T00:00:00-07:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2020-10-13:/blog/libretexts-jupyter.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the progress made by JupyterTeam over the summer of 2020&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Over the summer sessions of 2020, the JupyterTeam was able to
+restructure the default-env image used by our &lt;a class="reference external" href="https://jupyter.libretexts.org/hub/login"&gt;JupyterHub
+deployment&lt;/a&gt; so that it is
+built by
+&lt;a class="reference external" href="https://repo2docker.readthedocs.io/en/latest/"&gt;repo2docker&lt;/a&gt;,
+allowing us to finally make use of our own &lt;a class="reference external" href="https://binder.libretexts.org/"&gt;Binder
+deployment&lt;/a&gt; as the backend for the
+&lt;a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin"&gt;CKEditor Binder
+plugin&lt;/a&gt; on
+&lt;a class="reference external" href="https://libretexts.org/"&gt;Libretexts.org&lt;/a&gt;. This resolves the
+remaining issues mentioned in the JupyterTeam's &lt;a class="reference external" href="https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html#future"&gt;previous blog
+post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Additionally, we began bare-metal development on the new Galaxy
+Kubernetes cluster building off of experiences with the first &lt;a class="reference external" href="https://mechmotum.github.io/blog/jupyter-summer-2019.html"&gt;flock
+cluster&lt;/a&gt;
+and improving on it. We also made numerous miscallaneous improvements
+including a new Grafana alert setup, a more detailed FAQ page for our
+JupyterHub as well as completing some much needed cluster upgrades.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="default-env-2-0"&gt;
+&lt;h2&gt;default-env 2.0&lt;/h2&gt;
+&lt;p&gt;A long standing complication with our previous &lt;a class="reference external" href="https://github.com/LibreTexts/default-env/tree/1.13/rich-default"&gt;rich default
+default-env&lt;/a&gt;
+image was that it was built using only a single, cluttered Dockerfile
+and environment.yml. This led to the files being &lt;a class="reference external" href="https://github.com/LibreTexts/metalc/issues/121"&gt;quite
+long&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/LibreTexts/metalc/issues/130"&gt;difficult
+to maintain&lt;/a&gt;. One of
+the advantages of moving to a &lt;a class="reference external" href="https://github.com/LibreTexts/default-env/tree/2.0.1"&gt;repo2docker compatible
+environment&lt;/a&gt; is
+that it separates our image building files into more &lt;a class="reference external" href="https://repo2docker.readthedocs.io/en/latest/config_files.html"&gt;logical
+parts&lt;/a&gt;.
+Using repo2docker, we no longer have to include a Dockerfile and our
+current environment is able to automate away much of what we previously
+had to do using docker commands.&lt;/p&gt;
+&lt;p&gt;Additionally, the new &lt;a class="reference external" href="https://github.com/LibreTexts/default-env"&gt;default-env
+2.0&lt;/a&gt; is properly equipped
+to handle &lt;a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html"&gt;custom conda
+environments&lt;/a&gt;.
+Not only does this enable users to install their own persistent packages
+on the Hub, but it also permitted us to &lt;a class="reference external" href="https://github.com/LibreTexts/metalc/issues/151"&gt;reduce the conda
+channels&lt;/a&gt; necessary
+to build the image down to just conda-forge/defaults and those provided
+by repo2docker. Additionally, repo2docker now uses an alternative
+dependency solver named &lt;a class="reference external" href="https://github.com/mamba-org/mamba"&gt;mamba&lt;/a&gt;
+which reduces our conda environment build times (one part of the image
+building process) down to only a few seconds. We further sought to
+improve the maintainability of default-env 2.0 by including only the top
+level dependencies for all of our desired packages to avoid listing
+redundancies.&lt;/p&gt;
+&lt;p&gt;Finally, we've fully overhauled the &lt;a class="reference external" href="https://jupyter.libretexts.org/hub/faq"&gt;LibreTexts FAQ page for
+JupyterHub&lt;/a&gt; to explain these
+default env changes, provide information on creating conda environments,
+and more. A small
+&lt;a class="reference external" href="https://github.com/LibreTexts/labextension-libretexts-faq"&gt;extension&lt;/a&gt;
+was added to the JupyterLab interface so that users can directly access
+the FAQ through the 'help' tab or in the Jupyter Launcher. To do this,
+we consolidated the
+&lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-templates"&gt;jupyter-templates&lt;/a&gt;
+and &lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-images"&gt;jupyter-images&lt;/a&gt;
+repositories into just jupyter-templates, and &lt;em&gt;all&lt;/em&gt; html pages are now
+jinja templates. You can read more about the specifics from the
+jupyter-templates &lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-templates/blob/master/README.md"&gt;README.md
+file&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ckeditor-binder-plugin-and-our-kubernetes-binderhub-deployment"&gt;
+&lt;h2&gt;CKEditor Binder plugin and our Kubernetes BinderHub deployment&lt;/h2&gt;
+&lt;p&gt;The &lt;a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin"&gt;CKEditor Binder
+plugin&lt;/a&gt; helps
+provide kernels to executable code cells on Libretexts.org using
+&lt;a class="reference external" href="https://github.com/jupyterhub/binderhub"&gt;BinderHub&lt;/a&gt; as a backend.
+While the plugin has been working for a while now and it does enable
+JupyterLab-esque features on LibreTexts, the code cells would &lt;a class="reference external" href="https://github.com/LibreTexts/metalc/issues/83"&gt;often
+take many minutes to load and
+execute&lt;/a&gt;, if they
+ever did at all. Furthermore, Binder uses repo2docker to build images
+which meant that we could not use our own default-env repository as the
+programming environment. As a result, we had to point CKEditor towards
+external repositories where we had no control over the exact packages in
+the environment. Two changes were made to fix this; we created
+default-env 2.0 as outlined above, and we also brought our BinderHub
+Kubernetes deployment into operation.&lt;/p&gt;
+&lt;p&gt;The improvements of using our own default-env 2.0 and BinderHub in
+CKEditor Binder plugin represent a huge benefit for LibreTexts. Now that
+we can adjust the packages and kernels provided on LibreTexts with our
+default-env 2.0, we can include additional &lt;a class="reference external" href="https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements"&gt;interactive
+widgets&lt;/a&gt;
+and exercise greater version control over the programming environment.
+Switching to a locally maintained BinderHub allows us to cache the
+images which are built by Binder on that node, dramatically increasing
+loading speeds when executing code cells on LibreTexts. Pressing &amp;quot;run&amp;quot;
+will now take no more than 20 seconds to connect to a Binder provided
+kernel whereas before it often took minutes or longer due to the
+inconsistent availability of mybinder.org. This drastic decrease in load
+times makes the plugin much more accessible for both authors and
+readers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="galaxy-cluster"&gt;
+&lt;h2&gt;Galaxy Cluster&lt;/h2&gt;
+&lt;p&gt;The primary objectives for the new Galaxy cluster are high availability
+and maintainability. Part of how we achieve high availability is by
+using &lt;a class="reference external" href="https://github.com/kubernetes/kubeadm/blob/master/docs/ha-considerations.md#options-for-software-load-balancing"&gt;Keepalived and
+HAproxy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Keepalived runs as a static Kubernetes pod on each control-plane node
+and it manages a virtual IP for the kube-apiserver that all of the
+Kubernetes worker nodes communicate with. If the control-plane node
+currently holding this Keepalived virtual IP goes down, Keepalived will
+pass the virtual IP on to one of our remaining control-plane nodes so
+that the rest of the Kubernetes cluster can still communicate with the
+kube-apiserver.&lt;/p&gt;
+&lt;p&gt;After Keepalived receives a kube-apiserver request, HAproxy (also
+running as a static pod on each control-plane node) will load-balance
+the request onto whichever control-plane node is chosen according to a
+&lt;a class="reference external" href="https://avinetworks.com/glossary/round-robin-load-balancing/"&gt;round robin
+algorithm&lt;/a&gt;.
+If we did not use HAproxy, any kube-apiserver request received through
+the Keepalived virtual IP would automatically be routed to that same
+control-plane node, leaving the other control-plane nodes to just sit
+there and do nothing. Load-balancing with HAproxy takes better advantage
+of our available hardware and lowers the kube-apiserver load on any
+given node.&lt;/p&gt;
+&lt;p&gt;To improve the maintainability of this cluster, we use
+&lt;a class="reference external" href="https://puppet.com/docs/puppet/6.18/puppet_index.html"&gt;Puppet&lt;/a&gt; to
+setup Kubernetes and administrate our entire bare-metal cluster.
+Although there already exists a &lt;a class="reference external" href="https://github.com/puppetlabs/puppetlabs-kubernetes"&gt;Puppet module for bootstrapping
+Kubernetes&lt;/a&gt;, our
+high availability setup has specific demands which required a &lt;a class="reference external" href="https://github.com/LibreTexts/protogalaxy"&gt;new
+Puppet module&lt;/a&gt; to be
+written. The Protogalaxy Puppet module bootstraps all of the necessary
+components for Kubernetes using kubeadm like kubelet, kubelctl, and also
+configures Keepalived and HAproxy as static pods. You can read more
+about the module on its
+&lt;a class="reference external" href="https://github.com/LibreTexts/protogalaxy/blob/master/README.md"&gt;README&lt;/a&gt;
+page.&lt;/p&gt;
+&lt;p&gt;Finally, we have a &lt;a class="reference external" href="https://github.com/LibreTexts/metalc/blob/master/docs/Galaxy-Control-Repo.md"&gt;Puppet
+control-repo&lt;/a&gt;
+which employs the ProtoGalaxy module and configures all the
+non-Kubernetes components of our Galaxy cluster. Our goal is to use this
+control-repo to completely reset the cluster state to a working version
+in the case that something massively breaks. This would greatly improve
+the maintainability of Galaxy cluster.&lt;/p&gt;
+&lt;p&gt;As of now, we currently only have a development Galaxy cluster with no
+public availability. We repurposed chicks11-18 from the Flock cluster
+with brand new SSDs and then booted them up using IPMI. We also used
+IPMI to install Ubuntu on all of these nodes because we do not have
+physical access to the cluster in the midst of Covid-19.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="flock-cluster-upgrades-improvements"&gt;
+&lt;h2&gt;Flock Cluster Upgrades/Improvements&lt;/h2&gt;
+&lt;p&gt;At the beginning of summer, the original flock cluster went totally down
+because our &lt;a class="reference external" href="https://v1-18.docs.kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/"&gt;kubeadm
+certificates&lt;/a&gt;
+expired. The reason for this was that our cluster was very behind on
+Ubuntu and Kubernetes upgrades; the kube-apiserver and kubelet were on
+v1.12 while the latest release was v1.18 at the time. One of the first
+things we did was to upgrade the flock cluster across all the nodes, and
+they now sit at a neat v1.19 for kubelet/kube-apiserver and v18.04.5 for
+Ubuntu. Furthermore, we established a policy of upgrading the cluster
+every 4 months so that the certificates do not meet their yearly
+expiration date as they did before.&lt;/p&gt;
+&lt;p&gt;Other improvements were made as well. Kubernetes
+&lt;a class="reference external" href="https://cert-manager.io/docs/installation/kubernetes/"&gt;cert-manager&lt;/a&gt;
+has been upgraded to v1, and &lt;a class="reference external" href="https://v3.helm.sh/"&gt;helm&lt;/a&gt; has also
+been migrated over to v3. Our Grafana alerts setup has been recrafted so
+that we no longer have to manually reinput our dashboards if the pod
+goes down. We also enabled IPMI interfaces on all the nodes, affording
+us remote adminstration tools in light of Covid-19.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="future-plans"&gt;
+&lt;h2&gt;Future Plans&lt;/h2&gt;
+&lt;p&gt;Our top priorities moving forward are to enhance the executable code
+cell features of LibreTextsand continue development on the Galaxy
+cluster. We would like to fix the current issues with ipywidgets and
+other interactive plotting features currently exhibited by our CKEditor
+Binder plugin. To complement this, we must bring cell-to-cell
+communcation to the plugin so that adjusting the output of one cell
+(such as a slider) can redraw the output of a previous cell just as it
+would in JupyterLab.&lt;/p&gt;
+&lt;p&gt;For the Galaxy cluster, we need to find a way to read the authentication
+process of Hub users so that we can tag their pod and send them to the
+high performance computing setup as needed. We will also need to
+construct the physical computer setup for Galaxy, just as was done for
+Flock cluster over a year ago. Stay tuned for more updates!&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="education"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="engineering"></category><category term="libretexts"></category></entry><entry><title>What Caused Chloé Dygert's Crash?</title><link href="https://mechmotum.github.io/blog/dygert-crash.html" rel="alternate"></link><published>2020-09-29T00:00:00-07:00</published><updated>2020-09-29T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-09-29:/blog/dygert-crash.html</id><summary type="html">&lt;p class="first last"&gt;Back of the napkin analysis and commentary on Chloé Dygert's 2020 UCI
 Road World Championships crash.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Chlo%C3%A9_Dygert"&gt;Chloé Dygert&lt;/a&gt; had a race ending crash on September 24th, 2020 in the &lt;a class="reference external" href="https://en.wikipedia.org/wiki/UCI_Road_World_Championships"&gt;UCI
 Road World Championships&lt;/a&gt;. The crash was caught quite clearly on video. The
