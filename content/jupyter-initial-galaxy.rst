@@ -25,10 +25,10 @@ remaining issues mentioned in the JupyterTeam's `previous blog
 post <https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html#future>`__.
 
 Additionally, we began bare-metal development on the new Galaxy
-kubernetes cluster building off of experiences with the first `flock
+Kubernetes cluster building off of experiences with the first `flock
 cluster <https://mechmotum.github.io/blog/jupyter-summer-2019.html>`__
 and improving on it. We also made numerous miscallaneous improvements
-including a new grafana alert setup, a more detailed FAQ page for our
+including a new Grafana alert setup, a more detailed FAQ page for our
 JupyterHub as well as completing some much needed cluster upgrades.
 
 default-env 2.0
@@ -36,15 +36,15 @@ default-env 2.0
 
 A long standing complication with our previous `rich default
 default-env <https://github.com/LibreTexts/default-env/tree/1.13/rich-default>`__
-image was that it was built using only a single, cluttered, Dockerfile
+image was that it was built using only a single, cluttered Dockerfile
 and environment.yml. This led to the files being `quite
 long <https://github.com/LibreTexts/metalc/issues/121>`__ and `difficult
 to maintain <https://github.com/LibreTexts/metalc/issues/130>`__. One of
 the advantages of moving to a `repo2docker compatible
 environment <https://github.com/LibreTexts/default-env/tree/2.0.1>`__ is
-that it seperates our image building files into more `logical
+that it separates our image building files into more `logical
 parts <https://repo2docker.readthedocs.io/en/latest/config_files.html>`__.
-Using repo2docker, we no longer have to include a dockerfile and our
+Using repo2docker, we no longer have to include a Dockerfile and our
 current environment is able to automate away much of what we previously
 had to do using docker commands.
 
@@ -76,7 +76,7 @@ we consolidated the
 and `jupyter-images <https://github.com/LibreTexts/jupyterhub-images>`__
 repositories into just jupyter-templates, and *all* html pages are now
 jinja templates. You can read more about the specifics from the
-jupyter-templates `READEME.md
+jupyter-templates `README.md
 file <https://github.com/LibreTexts/jupyterhub-templates/blob/master/README.md>`__.
 
 CKEditor Binder plugin and our Kubernetes BinderHub deployment
@@ -96,7 +96,7 @@ programming environment. As a result, we had to point CKEditor towards
 external repositories where we had no control over the exact packages in
 the environment. Two changes were made to fix this; we created
 default-env 2.0 as outlined above, and we also brought our BinderHub
-kubernetes deployment into operation.
+Kubernetes deployment into operation.
 
 The improvements of using our own default-env 2.0 and BinderHub in
 CKEditor Binder plugin represent a huge benefit for LibreTexts. Now that
@@ -117,24 +117,24 @@ Galaxy Cluster
 --------------
 
 The primary objectives for the new Galaxy cluster are high availability
-and maintainability. Part of how we achieve high avialability is by
+and maintainability. Part of how we achieve high availability is by
 using `Keepalived and
 HAproxy <https://github.com/kubernetes/kubeadm/blob/master/docs/ha-considerations.md#options-for-software-load-balancing>`__.
 
-Keepalived runs as a static kubernetes pod on each control-plane node
+Keepalived runs as a static Kubernetes pod on each control-plane node
 and it manages a virtual IP for the kube-apiserver that all of the
-kubernetes worker nodes communicate with. If the control-plane node
+Kubernetes worker nodes communicate with. If the control-plane node
 currently holding this Keepalived virtual IP goes down, Keepalived will
 pass the virtual IP on to one of our remaining control-plane nodes so
-that the rest of the kubernetes cluster can still communicate with the
+that the rest of the Kubernetes cluster can still communicate with the
 kube-apiserver.
 
-After Keepalived recieves a kube-apiserver request, HAproxy (also
+After Keepalived receives a kube-apiserver request, HAproxy (also
 running as a static pod on each control-plane node) will load-balance
 the request onto whichever control-plane node is chosen according to a
 `round robin
 algorithm <https://avinetworks.com/glossary/round-robin-load-balancing/>`__.
-If we did not use HAproxy, any kube-apiserver request recieved through
+If we did not use HAproxy, any kube-apiserver request received through
 the Keepalived virtual IP would automatically be routed to that same
 control-plane node, leaving the other control-plane nodes to just sit
 there and do nothing. Load-balancing with HAproxy takes better advantage
@@ -142,23 +142,23 @@ of our available hardware and lowers the kube-apiserver load on any
 given node.
 
 To improve the maintainability of this cluster, we use
-`puppet <https://puppet.com/docs/puppet/6.18/puppet_index.html>`__ to
-setup kubernetes and administrate our entire bare-metal cluster.
-Althought there already exists a `puppet module for boostrapping
-kubernetes <https://github.com/puppetlabs/puppetlabs-kubernetes>`__, our
+`Puppet <https://puppet.com/docs/puppet/6.18/puppet_index.html>`__ to
+setup Kubernetes and administrate our entire bare-metal cluster.
+Although there already exists a `Puppet module for bootstrapping
+Kubernetes <https://github.com/puppetlabs/puppetlabs-kubernetes>`__, our
 high availability setup has specific demands which required a `new
-puppet module <https://github.com/LibreTexts/protogalaxy>`__ to be
-written. The Protogalaxy puppet module boostraps all of the necessary
-components for kubernetes using kubeadm like kubelet, kubelctl, and also
+Puppet module <https://github.com/LibreTexts/protogalaxy>`__ to be
+written. The Protogalaxy Puppet module bootstraps all of the necessary
+components for Kubernetes using kubeadm like kubelet, kubelctl, and also
 configures Keepalived and HAproxy as static pods. You can read more
 about the module on its
 `README <https://github.com/LibreTexts/protogalaxy/blob/master/README.md>`__
 page.
 
-Finally, we have a `puppet
+Finally, we have a `Puppet
 control-repo <https://github.com/LibreTexts/metalc/blob/master/docs/Galaxy-Control-Repo.md>`__
 which employs the ProtoGalaxy module and configures all the
-non-kubernetes components of our Galaxy cluster. Our goal is to use this
+non-Kubernetes components of our Galaxy cluster. Our goal is to use this
 control-repo to completely reset the cluster state to a working version
 in the case that something massively breaks. This would greatly improve
 the maintainability of Galaxy cluster.
@@ -176,7 +176,7 @@ At the beginning of summer, the original flock cluster went totally down
 because our `kubeadm
 certificates <https://v1-18.docs.kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/>`__
 expired. The reason for this was that our cluster was very behind on
-Ubuntu and kubernetes upgrades; the kube-apiserver and kubelet were on
+Ubuntu and Kubernetes upgrades; the kube-apiserver and kubelet were on
 v1.12 while the latest release was v1.18 at the time. One of the first
 things we did was to upgrade the flock cluster across all the nodes, and
 they now sit at a neat v1.19 for kubelet/kube-apiserver and v18.04.5 for
@@ -187,7 +187,7 @@ expiration date as they did before.
 Other improvements were made as well. Kubernetes
 `cert-manager <https://cert-manager.io/docs/installation/kubernetes/>`__
 has been upgraded to v1, and `helm <https://v3.helm.sh/>`__ has also
-been migrated over to v3. Our grafana alerts setup has been recrafted so
+been migrated over to v3. Our Grafana alerts setup has been recrafted so
 that we no longer have to manually reinput our dashboards if the pod
 goes down. We also enabled IPMI interfaces on all the nodes, affording
 us remote adminstration tools in light of Covid-19.
@@ -196,10 +196,10 @@ Future Plans
 ------------
 
 Our top priorities moving forward are to enhance the executable code
-cell features of LibreText and continue development on the Galaxy
+cell features of LibreTextsand continue development on the Galaxy
 cluster. We would like to fix the current issues with ipywidgets and
 other interactive plotting features currently exhibited by our CKEditor
-Binder plugin. To compliment this, we must bring cell-to-cell
+Binder plugin. To complement this, we must bring cell-to-cell
 communcation to the plugin so that adjusting the output of one cell
 (such as a slider) can redraw the output of a previous cell just as it
 would in JupyterLab.
