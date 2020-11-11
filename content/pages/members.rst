@@ -15,6 +15,7 @@ PhD Candidates
 
 Current
    - `Marco Reijne`_ [TUD, April 2018-present]
+   - `Rado Dukalski`_ [TUD]
 Past
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020]
 
