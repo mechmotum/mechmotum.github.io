@@ -76,6 +76,10 @@ in finding students for [#]_:
      - 2020-09-10
      - Gazelle_
      - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`__
+   * - Assessment of Mountain Biking Balance for Physiotherapy Interventions
+     - 2020-11-11
+     - `LUNEX University`_
+     - `PDF <https://objects-us-east-1.dream.io/mechmotum/lunex-tud-bicycle-physio-msc>`__
    * - Bicycle Design, Dynamics, and Handling
      - 2020-09-10
      - Gazelle_
@@ -121,8 +125,9 @@ in finding students for [#]_:
      - Gazelle_
      - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`__
 
-.. _TrueKinetix: http://www.truekinetix.com
 .. _Gazelle: https://www.gazelle.nl/
+.. _LUNEX University: https://www.lunex-university.net/
+.. _TrueKinetix: http://www.truekinetix.com
 .. _USSEA: https://usskateboardeducation.com/
 
 The `current and past research projects <{filename}/pages/research/index.rst>`_
