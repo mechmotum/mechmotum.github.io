@@ -79,7 +79,7 @@ in finding students for [#]_:
    * - Assessment of Mountain Biking Balance for Physiotherapy Interventions
      - 2020-11-11
      - `LUNEX University`_
-     - `PDF <https://objects-us-east-1.dream.io/mechmotum/lunex-tud-bicycle-physio-msc>`__
+     - `PDF <https://objects-us-east-1.dream.io/mechmotum/lunex-tud-bicycle-physio-msc.pdf>`__
    * - Bicycle Design, Dynamics, and Handling
      - 2020-09-10
      - Gazelle_
