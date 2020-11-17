@@ -88,6 +88,11 @@ in finding students for [#]_:
      - 2020-09-10
      - Gazelle_
      - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`__
+   * - Determining Dynamics Perception Thresholds of Bicycles
+     - 2020-11-17
+     -
+     - `Web page
+       <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
    * - Early Warning and Crash Detection in Cycling
      - 2020-09-10
      - Gazelle_
