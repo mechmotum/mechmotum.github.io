@@ -158,8 +158,8 @@ LibreTexts Site Reliability Engineer Asst
 
 Job Function: Student Worker
 
-Job Purpose: To assist Dr. Jason K. Moore in setting up and maintaining
-computational cloud services for the LibreTexts_ project.
+Job Purpose: To assist Dr. Jason K. Moore and Richard Feltstykket in setting up
+and maintaining computational cloud services for the LibreTexts_ project.
 
 Job Description:
 
@@ -169,8 +169,7 @@ They will be part of a team of site reliability engineer assistants working on
 the various related tasks. The assistant will develop scripts, documentation,
 and support various open source projects as needed. The student will work a
 minimum of 10 hours per week during the fall, winter, and spring quarters and a
-minimum of 20 hrs per week during the summer quarter. Up to three years of work
-on the project may be available based on performance.
+minimum of 20 hrs per week during the summer quarter.
 
 Qualifications:
 
@@ -199,14 +198,14 @@ Please submit a cover letter, resume, and examples of code, documentation,
 websites, or any related work. Be sure to explain how you meet the Required
 and/or Preferred qualifications.
 
-Desired Start: 01/01/2021
+Desired Start: 12/01/2020
 End Date: 09/30/2021
 
 Approximate Hours Per Week:
 
 Minimum of 10 hrs and up to 20 hrs during the academic quarters. Up to 40 hrs in the summer.
 
-Location(s): Bainer Hall, Genome Center, and Remote
+Location(s): Remote and Genome Center
 
 Base Pay Rate:
 
