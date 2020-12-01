@@ -199,8 +199,8 @@ Please submit a cover letter, resume, and examples of code, documentation,
 websites, or any related work. Be sure to explain how you meet the Required
 and/or Preferred qualifications.
 
-Desired Start: 01/01/2020
-End Date: 12/31/2020
+Desired Start: 01/01/2021
+End Date: 09/30/2021
 
 Approximate Hours Per Week:
 
@@ -211,7 +211,6 @@ Location(s): Bainer Hall, Genome Center, and Remote
 Base Pay Rate:
 
 Assistant IV: $11.25 - $16.75
-
 
 LibreTexts Engineering Education Asst
 -------------------------------------
@@ -261,8 +260,8 @@ Please submit a cover letter, resume, and at least one example of technical
 writing. Be sure to explain how you meet the Required and/or Preferred
 qualifications.
 
-Desired Start: 01/01/2020
-End Date: 12/31/2020
+Desired Start: 01/01/2021
+End Date: 09/30/2021
 
 Approximate Hours Per Week:
 
