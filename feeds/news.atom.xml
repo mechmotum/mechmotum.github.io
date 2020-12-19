@@ -80,7 +80,55 @@ to contact me if you are interested in working with me and the new lab.&lt;/p&gt
 &lt;p&gt;I am going to miss UC Davis. I've been here for the vast majority of the last
 15 years and have learned so much from the faculty, students, and colleagues.
 It is a bittersweet departure, but an exciting new adventure awaits!&lt;/p&gt;
-</content><category term="news"></category><category term="bicycle"></category><category term="biomechanics"></category><category term="control"></category><category term="education"></category><category term="engineering"></category><category term="sports"></category></entry><entry><title>Co-awarded $5M to build interactive STEM Open Educational Resources</title><link href="https://mechmotum.github.io/blog/libretexts-grant.html" rel="alternate"></link><published>2018-10-05T00:00:00-07:00</published><updated>2018-10-05T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2018-10-05:/blog/libretexts-grant.html</id><summary type="html">&lt;p class="first last"&gt;Lab co-awardees of $5M Department of Education Grant&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="biomechanics"></category><category term="control"></category><category term="education"></category><category term="engineering"></category><category term="sports"></category></entry><entry><title>Steer-assist Bicycle</title><link href="https://mechmotum.github.io/blog/steer-assist.html" rel="alternate"></link><published>2019-04-13T00:00:00-07:00</published><updated>2019-04-13T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2019-04-13:/blog/steer-assist.html</id><content type="html">&lt;p&gt;TUDelft demonstrates the steer-assist bicycle, this is a prototype of a bicycle
+with a smart motor in the handlebars which prevents the bicycle from falling at
+low speed. This prototype has been developed in collaboration with the Royal
+Gazelle bicycle company.&lt;/p&gt;
+&lt;table border="1" class="table docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="steer-assist" src="http://bicycle.tudelft.nl/schwab/Bicycle/GazelleTUdelft-steerassist-13.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;iframe width="560" height="315"
+src="https://www.youtube.com/embed/rBOQp2uY_lk" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content><category term="news"></category><category term="schwab blog"></category><category term="gazelle"></category></entry><entry><title>Project Tokyo</title><link href="https://mechmotum.github.io/blog/project-tokyo.html" rel="alternate"></link><published>2019-03-07T00:00:00-08:00</published><updated>2019-03-07T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2019-03-07:/blog/project-tokyo.html</id><summary type="html">&lt;p&gt;Project Tokyo; the new track bicycle for the Dutch Olympic Track cycling team
+has been presented. This new track bicycle, the &lt;a class="reference external" href="https://www.koga.com/nl/baanfiets/over-de-koga-kinsei.htm"&gt;KOGA KINSEI&lt;/a&gt;, has been
+designed and build by a multidisplinary team, &lt;a class="reference external" href="https://www.projecttokyo.nl/"&gt;project Tokyo&lt;/a&gt;, with the partners:&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;strong&gt;KOGA&lt;/strong&gt; - The project leaders, and bicycle builders&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;TU Delft&lt;/strong&gt; - Bikefit, handling and control …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Project Tokyo; the new track bicycle for the Dutch Olympic Track cycling team
+has been presented. This new track bicycle, the &lt;a class="reference external" href="https://www.koga.com/nl/baanfiets/over-de-koga-kinsei.htm"&gt;KOGA KINSEI&lt;/a&gt;, has been
+designed and build by a multidisplinary team, &lt;a class="reference external" href="https://www.projecttokyo.nl/"&gt;project Tokyo&lt;/a&gt;, with the partners:&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;strong&gt;KOGA&lt;/strong&gt; - The project leaders, and bicycle builders&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;TU Delft&lt;/strong&gt; - Bikefit, handling and control&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;Actiflow&lt;/strong&gt; - Aerodynamic design&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;Pontis Engineering&lt;/strong&gt; - Structural design&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Each track bicycle is build individually for each rider such that he has
+maximum power output and good handling at minimal air drag and maximum
+structural integrity. More info (in Dutch) at: &lt;a class="reference external" href="https://www.projecttokyo.nl/"&gt;https://www.projecttokyo.nl/&lt;/a&gt; and
+at &lt;a class="reference external" href="https://www.koga.com/nl/baanfiets/over-de-koga-kinsei.htm"&gt;https://www.koga.com/nl/baanfiets/over-de-koga-kinsei.htm&lt;/a&gt;&lt;/p&gt;
+&lt;table border="1" class="table docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="track bicycle" src="http://bicycle.tudelft.nl/schwab/Bicycle/IMG-20190307-WA0001.jpg" style="width: 300px; height: 225px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="track bicycle + team" src="http://bicycle.tudelft.nl/schwab/Bicycle/Shoot%20Koga%20Road%20to%20Tokyo%20-%20Nanba%CC%84wan-04606.jpg" style="width: 337px; height: 225px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content><category term="news"></category><category term="schwab blog"></category><category term="olympics"></category></entry><entry><title>Co-awarded $5M to build interactive STEM Open Educational Resources</title><link href="https://mechmotum.github.io/blog/libretexts-grant.html" rel="alternate"></link><published>2018-10-05T00:00:00-07:00</published><updated>2018-10-05T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2018-10-05:/blog/libretexts-grant.html</id><summary type="html">&lt;p class="first last"&gt;Lab co-awardees of $5M Department of Education Grant&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;An inaugural &lt;a class="reference external" href="https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program"&gt;$5M grant&lt;/a&gt; from the Department of Education was awarded to UC
 Davis to further the &lt;a class="reference external" href="http://www.libretexts.org"&gt;LibreTexts&lt;/a&gt; project over the next three years. LibreTexts'
 mission is to develop free open access textbooks for STEM disciplines. The
@@ -90,4 +138,52 @@ department. Jason K. Moore is a co-pi will lead efforts to enable interactive
 computation in the text books and develop engineering open educational
 resources. For more information see the LibreTexts &lt;a class="reference external" href="https://libretexts.org/pressRelease.html"&gt;press release&lt;/a&gt; and an
 &lt;a class="reference external" href="https://www.insidehighered.com/digital-learning/article/2018/10/02/department-education-awards-pilot-oer-grant-uc-davis-open"&gt;article&lt;/a&gt; in Inside Higher Ed.&lt;/p&gt;
-</content><category term="news"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="engineering"></category></entry></feed>
+</content><category term="news"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="engineering"></category></entry><entry><title>Motorist</title><link href="https://mechmotum.github.io/blog/motorist.html" rel="alternate"></link><published>2014-09-01T00:00:00-07:00</published><updated>2014-09-01T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2014-09-01:/blog/motorist.html</id><summary type="html">&lt;p&gt;TU Delft is one of the participants within the European Marie Curie Initial
+Training Network (ITN) on &lt;em&gt;Moto&lt;/em&gt;rcycle &lt;em&gt;R&lt;/em&gt;ider &lt;em&gt;I&lt;/em&gt;ntegrated &lt;em&gt;S&lt;/em&gt;afe&lt;em&gt;t&lt;/em&gt;y, called MOTORIST. The project is coordinated by Prof. Marco Pierini,
+from University of Firenze (UNIFI), Florence, Italy.  More info on this ITN can …&lt;/p&gt;</summary><content type="html">&lt;p&gt;TU Delft is one of the participants within the European Marie Curie Initial
+Training Network (ITN) on &lt;em&gt;Moto&lt;/em&gt;rcycle &lt;em&gt;R&lt;/em&gt;ider &lt;em&gt;I&lt;/em&gt;ntegrated &lt;em&gt;S&lt;/em&gt;afe&lt;em&gt;t&lt;/em&gt;y, called MOTORIST. The project is coordinated by Prof. Marco Pierini,
+from University of Firenze (UNIFI), Florence, Italy.  More info on this ITN can
+be found at: &lt;a class="reference external" href="http://www.motorist-ptw.eu/"&gt;http://www.motorist-ptw.eu/&lt;/a&gt;&lt;/p&gt;
+&lt;a class="reference external image-reference" href="http://www.motorist-ptw.eu/"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/MOTORISTlogo.jpg" style="width: 115px; height: 76px;" /&gt;&lt;/a&gt;
+</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-19T00:00:00-07:00</published><updated>2013-05-19T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-19:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
+MODELING THE MECHANICAL PROPERTIES OF BICYCLE TIRES&lt;/em&gt;, PhD thesis, The
+University of Wisconsin-Milwaukee, May 2013.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/dressel2013measuring.pdf"&gt;pdf(30Mb)&lt;/a&gt;&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category><category term="phd"></category></entry><entry><title>Arend's TEDx Talk</title><link href="https://mechmotum.github.io/blog/schwab-ted-talk.html" rel="alternate"></link><published>2012-11-05T00:00:00-08:00</published><updated>2012-11-05T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2012-11-05:/blog/schwab-ted-talk.html</id><content type="html">&lt;p&gt;TED talk by Arend Schwab at TEDxDelft2012 on &amp;quot;Why bicycles do not fall&amp;quot;:&lt;/p&gt;
+&lt;iframe width="560" height="315"
+src="https://www.youtube.com/embed/2Y4mbT3ozcA" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Peter de Lange Successfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/lange-msc-thesis.html" rel="alternate"></link><published>2011-11-30T00:00:00-08:00</published><updated>2011-11-30T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2011-11-30:/blog/lange-msc-thesis.html</id><content type="html">&lt;p&gt;Peter de Lange successfully defended his Engineering Dynamics MSc thesis and
+graduate Cum Laude:&lt;/p&gt;
+&lt;blockquote&gt;
+P.D.L. de Lange, &lt;em&gt;Rider Control Identification in Bicycling, a
+preliminary analysis,&lt;/em&gt; MSc thesis, Delft University of Technology,
+Nov 2011. &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/lange2011rider.pdf"&gt;(pdf
+2.3Mb)&lt;/a&gt;&lt;/blockquote&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category><category term="msc"></category></entry><entry><title>Eric-Jan van den Ouden Successfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/ouden-msc-thesis.html" rel="alternate"></link><published>2011-02-09T00:00:00-08:00</published><updated>2011-02-09T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2011-02-09:/blog/ouden-msc-thesis.html</id><content type="html">&lt;p&gt;Eric-Jan van den Ouden successfully defended his Engineering Dynamics&amp;nbsp; MSc
+thesis:&lt;/p&gt;
+&lt;blockquote&gt;
+J.H. van den Ouden, &lt;em&gt;Inventory of bicycle motion for the design of a bicycle
+simulator&lt;/em&gt;, MSc thesis, Delft University of Technology, Jan 2011. &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/ouden2011inventory.pdf"&gt;(pdf
+2.2Mb)&lt;/a&gt;&lt;/blockquote&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Moved to the New Lab Space</title><link href="https://mechmotum.github.io/blog/lab-space-move.html" rel="alternate"></link><published>2010-09-22T00:00:00-07:00</published><updated>2010-09-22T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-09-22:/blog/lab-space-move.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/BicycleLab.JPG"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/BicycleLabSmall.JPG" /&gt;&lt;/a&gt;
+&lt;p&gt;This month the bicycle lab moved to the new lab space (room &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/OCP-plattegrond_2009.jpg"&gt;4A-1-04&lt;/a&gt;) which
+is on the first floor, close to our offices. We are very happy with the new
+lab; more than 80 m&lt;sup&gt;2&lt;/sup&gt; of light and clean space with lots of room for
+table-top experimental setups and …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/BicycleLab.JPG"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/BicycleLabSmall.JPG" /&gt;&lt;/a&gt;
+&lt;p&gt;This month the bicycle lab moved to the new lab space (room &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/OCP-plattegrond_2009.jpg"&gt;4A-1-04&lt;/a&gt;) which
+is on the first floor, close to our offices. We are very happy with the new
+lab; more than 80 m&lt;sup&gt;2&lt;/sup&gt; of light and clean space with lots of room for
+table-top experimental setups and high visibility from the corridor because of
+the large glass windows.&lt;/p&gt;
+</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Marc Evertse Successfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/evertse-msc-thesis.html" rel="alternate"></link><published>2010-05-11T00:00:00-07:00</published><updated>2010-05-11T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-11:/blog/evertse-msc-thesis.html</id><content type="html">&lt;p&gt;Marc Evertse successfully defended his MSc thesis:&lt;/p&gt;
+&lt;blockquote&gt;
+M.V.C. Evertse, &lt;em&gt;Rider Analysis using a fully instrumented motorcycle&lt;/em&gt;, MSc
+thesis, Delft University of Technology, May 2010.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/evertse2010riderMinApp.pdf"&gt;(pdf 1.9Mb)&lt;/a&gt;&lt;/blockquote&gt;
+</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-19T00:00:00-08:00</published><updated>2010-02-19T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-19:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
+track vehicle dynamics&lt;/a&gt;.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Jodi Kooijman Sucessfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/kooijman-msc-thesis.html" rel="alternate"></link><published>2006-04-25T00:00:00-07:00</published><updated>2006-04-25T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2006-04-25:/blog/kooijman-msc-thesis.html</id><content type="html">&lt;p&gt;Jodi Kooijman succesfully defended his Engineering Dynamics MSc thesis:&lt;/p&gt;
+&lt;blockquote&gt;
+J. D. G. Kooijman, &lt;em&gt;Experimental Validation of a Model for the Motion of an
+Uncontrolled Bicycle&lt;/em&gt;, MSc thesis, Delft University of Technology, April
+2006. &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/Kooijman2006.pdf"&gt;(pdf 4.9Mb)&lt;/a&gt;&lt;/blockquote&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry></feed>
