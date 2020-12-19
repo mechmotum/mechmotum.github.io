@@ -2,13 +2,11 @@
 (Spring 2003)
 =============
 
-:date: 2003-04-01 00:00:00
-:tags: bicycle
-:category: research
-:slug: spring-2003
 :authors: Arend L. Schwab
-:summary: Here are some of my preliminary results on the analysis of the
-          dynamic behavior of a bicycle.
+:category: research
+:date: 2003-04
+:slug: spring-2003
+:tags: bicycle, spacar, dynamics
 
 **Results:** Here are some of my preliminary results on the analysis of the
 dynamic behavior of a bicycle. For the analysis we used our software system
@@ -30,7 +28,10 @@ This is a sketch of the SPACAR model, with all the element and node numbers:
 .. image:: http://bicycle.tudelft.nl/schwab/Bicycle/bike2small.jpg
    :align: center
 
-Finally the input file, which contains the complete definition of the bike, looks like this::
+Finally the input file, which contains the complete definition of the bike,
+looks like this:
+
+.. code-block:: none
 
    * bike3
    pinbody  1  1 2 3
@@ -105,7 +106,8 @@ linearized equations of motion with the forward speed v as a parameter.
 .. image:: http://bicycle.tudelft.nl/schwab/Bicycle/Bike3xrl.jpg
    :align: center
 
-You can take a closer look at the original Figure `Bike3xrl.pdf <http://bicycle.tudelft.nl/schwab/Bicycle/Bike3xrl.pdf>`_.
+You can take a closer look at the original Figure `Bike3xrl.pdf
+<http://bicycle.tudelft.nl/schwab/Bicycle/Bike3xrl.pdf>`_.
 
 In order to get an idea about the stability of this upright motion look at the
 bottom-left figure, the forward speed v versus the Real part of the eigenvalues
@@ -117,7 +119,8 @@ diagram then looks like this:
    :align: center
 
 You can take a closer look at the original Figure `Bike3xRev.pdf
-<http://bicycle.tudelft.nl/schwab/Bicycle/Bike3xRev.pdf>`_, the dots are horizontally equidistant at 0.1 m/s.
+<http://bicycle.tudelft.nl/schwab/Bicycle/Bike3xRev.pdf>`_, the dots are
+horizontally equidistant at 0.1 m/s.
 
 We see that at a forward speed v of less then 0.9 m/s the bike simple falls
 over, 4 real eigenvalues l with 2 positive ones. We call this the capsize mode.
@@ -148,12 +151,13 @@ horizon (as if you were riding along on the rear passenger seat).
 
 Ok, so now for the VRML movies:
 
-| `bike3v000.wrl <http://bicycle.tudelft.nl/schwab/Bicycle/bike3v000.wrl>`_ at v=     0 m/s, unstable capsize.
+| `bike3v000.wrl <http://bicycle.tudelft.nl/schwab/Bicycle/bike3v000.wrl>`_ at v=0 m/s, unstable capsize.
 | `bike3v175.wrl <http://bicycle.tudelft.nl/schwab/Bicycle/bike3v175.wrl>`_ at v=1.75 m/s, unstable weave.
 | `bike3v350.wrl <http://bicycle.tudelft.nl/schwab/Bicycle/bike3v350.wrl>`_ at v=3.50 m/s, unstable weave.
 | `bike3v368.wrl <http://bicycle.tudelft.nl/schwab/Bicycle/bike3v368.wrl>`_ at v=3.68 m/s, stable weave in a curve! (a nice nonlinear result)
 | `bike3v490.wrl <http://bicycle.tudelft.nl/schwab/Bicycle/bike3v490.wrl>`_ at v=4.90 m/s, a stable weave.
 | `bike3v630.wrl <http://bicycle.tudelft.nl/schwab/Bicycle/bike3v630.wrl>`_ at v=6.30 m/s, an unstable capsize.
+|
 
 Note that obtaining a speed of 36 km/h and above is no problem in Ithaca,
 although I myself do not dare to go that fast.
