@@ -4,7 +4,6 @@ Practical Realization of a Theoretical Optimal-Handling Bicycle Results
 :date: 2019-10-03 00:00:00
 :tags: bicycle, design, handling qualities, control, optimization, fabrication
 :category: research
-:slug:
 :authors: Anthony Toribio, Stasia Kubicki
 :summary: Blog post on the design and fabrication of a theoretically optimal
           handling bicycle
