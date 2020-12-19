@@ -22,11 +22,16 @@ DEFAULT_LANG = 'en'
 # This sets the default pages to be top level items and articles to be under
 # /blog/.
 INDEX_SAVE_AS = 'blog/index.html'
-ARTICLE_URL = 'blog/{slug}.html'
-ARTICLE_SAVE_AS = 'blog/{slug}.html'
+
+# All blog posts will have slugs that match the file name.
+PATH_METADATA = '(?P<path_no_ext>.*)\..*'  # regex to grab file name without ext
+ARTICLE_URL = 'blog/{path_no_ext}.html'
+ARTICLE_SAVE_AS = 'blog/{path_no_ext}.html'
+
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_ORDER_BY = 'sortorder'
+
 MENUITEMS = [('Blog', '/blog/')]
 
 # Feed generation is usually not desired when developing
