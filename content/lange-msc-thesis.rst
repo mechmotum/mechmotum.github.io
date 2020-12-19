@@ -1,9 +1,11 @@
 ===================================================
-Peter de Lange successfully defended his MSc thesis
+Peter de Lange Successfully Defended His MSc Thesis
 ===================================================
 
 :date: 2011-11-30
 :authors: Arend L. Schwab
+:category: news
+:tags: bicycle,schwab blog,msc
 
 Peter de Lange successfully defended his Engineering Dynamics MSc thesis and
 graduate Cum Laude:

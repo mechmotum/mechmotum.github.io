@@ -1,9 +1,11 @@
 ==========================
-Salome can ride a bicycle!
+Salome Can Ride a Bicycle!
 ==========================
 
 :date: 2005-05-29
 :authors: Arend L. Schwab
+:category: research
+:tags: bicycle,schwab blog
 
 Salome, 3 and 11/12 years old, can ride a bicycle! Thanks to the Cornell/UIUC
 method. In the last couple of years Andy Ruina, Jim Papadopoulos and Richard
@@ -31,8 +33,5 @@ pedals. On Sunday we went out on the street walk and after an initial push of
 she `rode of all by herself
 <http://bicycle.tudelft.nl/schwab/Bicycle/Stage3b.jpg>`__!
 
-|image25|
-
-.. |image25| image:: http://bicycle.tudelft.nl/schwab/Bicycle/Stage3bsmall.jpg
-   :width: 300px
-   :height: 357px
+.. image:: http://bicycle.tudelft.nl/schwab/Bicycle/Stage3bsmall.jpg
+   :align: center

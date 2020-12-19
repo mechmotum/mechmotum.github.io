@@ -3,8 +3,9 @@ Jodi Kooijman Sucessfully Defended His MSc Thesis
 =================================================
 
 :date: 2006-04-25
-:slug: kooijman-msc-thesis
 :authors: Arend L. Schwab
+:category: news
+:tags: bicycle,schwab blog
 
 Jodi Kooijman succesfully defended his Engineering Dynamics MSc thesis:
 

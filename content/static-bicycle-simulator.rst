@@ -4,6 +4,8 @@ Oliver Lee Presents Results on the State Bicycle Simulator
 
 :date: 2015-09-15
 :authors: Arend L. Schwab
+:category: conferences
+:tags: schwab blog,icsc2015
 
 Oliver Lee successfully presented some results on the usage of our static
 bicycle simulator at the International Cycle Safety Conference in Hannover,
@@ -19,11 +21,13 @@ simulation and training, balance and maneuver assessment, balance training.
 Below is a short youtube video to see the static bicycle simulator in
 operation.
 
-   +-----------------------------------+---------------------------------------+
-   |                                   |                                       |
-   |    |static bicycle simulator|     | |Static Bicycle Simulator on YouTube| |
-   |                                   |                                       |
-   +-----------------------------------+---------------------------------------+
+.. list-table::
+   :class: table
+
+   * - |static bicycle simulator|
+     - |Static Bicycle Simulator on YouTube|
+   * - Static Bicycle Simulator
+     - Static Bicycle Simulator on YouTube
 
 .. |Static Bicycle Simulator on YouTube| raw:: html
 

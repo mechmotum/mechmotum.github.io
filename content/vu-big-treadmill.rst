@@ -4,6 +4,8 @@ VU University Amsterdam Treadmill
 
 :date: 2007-04-04
 :authors: Arend L. Schwab
+:category: research
+:tags: bicycle,experiment,schwab blog
 
 Today we (Jodi and I) went to the VU University Amsterdam and looked at the big
 treadmill from the faculty of Human Movement Sciences. My friend `Knoek van
@@ -39,11 +41,7 @@ work visit at the VU, also showed genuine interest in our experiments!
 .. _(wmv 11.2 Mb): http://bicycle.tudelft.nl/schwab/Bicycle/touwtrekken1.wmv
 
 .. |image23| image:: http://bicycle.tudelft.nl/schwab/Bicycle/arend1_0001.jpg
-   :width: 320px
-   :height: 240px
    :target: http://bicycle.tudelft.nl/schwab/Bicycle/arend1.wmv
 
 .. |image24| image:: http://bicycle.tudelft.nl/schwab/Bicycle/touwtrekken1_0001.jpg
-   :width: 320px
-   :height: 240px
    :target: http://bicycle.tudelft.nl/schwab/Bicycle/touwtrekken1.wmv

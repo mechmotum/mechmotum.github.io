@@ -6,7 +6,7 @@
 :category: research
 :date: 2003-04
 :slug: spring-2003
-:tags: bicycle, spacar, dynamics
+:tags: bicycle,spacar,dynamics,schwab blog
 
 **Results:** Here are some of my preliminary results on the analysis of the
 dynamic behavior of a bicycle. For the analysis we used our software system

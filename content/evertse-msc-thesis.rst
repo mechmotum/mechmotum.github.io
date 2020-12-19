@@ -1,9 +1,11 @@
 =================================================
-Marc Evertse successfully defended his MSc thesis
+Marc Evertse Successfully Defended His MSc Thesis
 =================================================
 
 :date: 2010-05-11
 :authors: Arend L. Schwab
+:category: news
+:tags: msc,schwab blog
 
 Marc Evertse successfully defended his MSc thesis:
 

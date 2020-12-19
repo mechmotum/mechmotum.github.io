@@ -4,6 +4,8 @@ Calspan Bicycle Reports
 
 :date: 2010-08-19
 :authors: Arend L. Schwab
+:category: research
+:tags: bicycle,schwab blog
 
 After many years of searching and negotiating we are now able to post a
 selection of the `Calspan reports

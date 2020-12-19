@@ -4,6 +4,8 @@ Instrumented Bicycle on the VU Treadmill
 
 :date: 2007-04-16
 :authors: Arend L. Schwab
+:category: research
+:tags: bicycle,experiment,schwab blog
 
 Today we put the instrumented bicycle from Jodi' MSc work on the big VU
 `treadmill <http://bicycle.tudelft.nl/schwab/Bicycle/TreadmillVU.jpg>`__.  We
@@ -16,6 +18,8 @@ perturb and catch it. The weave speed  of the bicycle on the road is 4.0 m/s
 (14.4 km/h) [The bicycle is laterally unstable below the weave speed and stable
 above]. The preliminary result is that the bicycle shows approximately the same
 weave speed on the treadmill, as you can see from the three videos below:
+
+.. class:: table
 
 +-----------------------------------+-----------------------------------+
 | |image20|                         | |image21|                         |

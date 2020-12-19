@@ -1,21 +1,25 @@
 ====================================================
-First measurement data from the instrumented bicycle
+First Measurement Data from the Instrumented Bicycle
 ====================================================
 
 :date: 2005-03-11
 :authors: Arend L. Schwab
+:category: research
+:tags: bicycle,experiment,schwab blog
 
 First measurement data from the instrumented bicycle. This work is done by my
 Delft MSc student Jodi Kooijman. This is the bike:
 
-|image28|
+.. list-table::
+   :class: table
 
-.. raw:: html
+   * - |image1|
+     - |image2|
 
-   <iframe width="560" height="315"
-   src="https://www.youtube.com/embed/7V1QWY1STi8" frameborder="0"
-   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-   picture-in-picture" allowfullscreen></iframe>
+.. |image1| image:: http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Still.jpg
+
+.. |image2| image:: http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Start.jpg
+   :target: https://youtu.be/7V1QWY1STi8
 
 Note the laptop on the rear rack, the manual launcher is Jodi. The bike is
 instrumented with two rate gyros, one for the lean rate and one for the yaw
@@ -31,7 +35,3 @@ measured data.
 The final goal is to create a *Robot Bicycle* by adding a steering torque
 controller, to stabilize the bike, and a small elector motor to maintain
 forward speed.
-
-.. |image28| image:: http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Still.jpg
-   :width: 320px
-   :height: 240px

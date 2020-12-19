@@ -4,6 +4,8 @@ Eric-Jan van den Ouden Successfully Defended His MSc Thesis
 
 :date: 2011-02-09
 :authors: Arend L. Schwab
+:category: news
+:tags: bicycle,schwab blog
 
 Eric-Jan van den Ouden successfully defended his Engineering Dynamics  MSc
 thesis:

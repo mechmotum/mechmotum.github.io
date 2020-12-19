@@ -1,9 +1,11 @@
-=========================
-TEDx Talk by Arend Schwab
-=========================
+=================
+Arend's TEDx Talk
+=================
 
-:date: 2012-11-05
 :authors: Arend L. Schwab
+:category: news
+:date: 2012-11-05
+:tags: schwab blog
 
 TED talk by Arend Schwab at TEDxDelft2012 on "Why bicycles do not fall":
 

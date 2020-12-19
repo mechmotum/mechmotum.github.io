@@ -4,6 +4,8 @@ VPRO Noorderlicht Nieuws on Our Bicycle Treadmill Experiments
 
 :date: 2009-07-16
 :authors: Arend L. Schwab
+:category: research
+:tags: bicycle,media,schwab blog
 
 VPRO Noorderlicht Nieuws made a 5 minute item out of our Bicycle Treadmill
 experiments. The interview is in Dutch:

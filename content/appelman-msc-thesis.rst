@@ -5,19 +5,23 @@ Nick Appelman Successfully Defended His MSc Thesis
 :date: 2012-11-27
 :authors: Arend L. Schwab
 :category: research
+:tags: bicycle,msc,schwab blog
 
 Nick Appelman successfully defended his Engineering Dynamics MSc thesis on:
 *Dynamics and Control of a Steer-by-Wire Bicycle*, MSc thesis, Delft University
 of Technology, Nov 2012. His excellent work won the TU Delft Bicycle Lab award
 "De Gouden Spaak" (Golden Spoke).
 
-|gouden spaak|
+.. list-table::
+   :class: table
 
-|steer-by-wire bicycle|
+   * - |gouden spaak|
+     - |steer-by-wire bicycle|
 
 Below you find two videos showing the steer-by-wire bicycle in operation.
 
 .. list-table::
+   :class: table
 
    * - |video1|
      - |video2|

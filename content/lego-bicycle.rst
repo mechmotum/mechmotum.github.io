@@ -1,10 +1,12 @@
-===============================================================
-Joep Mutsaerts builds a LEGO Mindstorms NXT based bicycle robot
-===============================================================
+=======================================
+LEGO Mindstorms NXT Based Bicycle Robot
+=======================================
 
-:date: 2010-05
 :authors: Arend L. Schwab
+:category: research
+:date: 2010-05
 :orginal-url: http://bicycle.tudelft.nl/schwab/Bicycle/#May_2010
+:tags: bicycle,schwab blog
 
 `Joep Mutsaerts
 <mailto:J.T.M.Mutsaerts@student.tudelft.nl?subject=NXTbike-GS>`__ builds a LEGO

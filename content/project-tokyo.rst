@@ -4,6 +4,8 @@ Project Tokyo
 
 :date: 2019-03-07
 :authors: Arend L. Schwab
+:category: news
+:tags: schwab blog,olympics
 
 Project Tokyo; the new track bicycle for the Dutch Olympic Track cycling team
 has been presented. This new track bicycle, the `KOGA KINSEI
@@ -21,6 +23,8 @@ Each track bicycle is build individually for each rider such that he has
 maximum power output and good handling at minimal air drag and maximum
 structural integrity. More info (in Dutch) at: https://www.projecttokyo.nl/ and
 at https://www.koga.com/nl/baanfiets/over-de-koga-kinsei.htm
+
+.. class:: table
 
 +-----------------------------------+-----------------------------------+
 | |track bicycle|                   | |track bicycle + team|            |
