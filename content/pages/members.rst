@@ -4,20 +4,54 @@
 Principal Investigators
 =======================
 
-- `Arend L. Schwab`_, Associate Professor
-- `Jason K. Moore`_, Assistant Professor
+.. list-table::
+   :class: table table-striped
+   :width: 60%
+   :widths: 20 80
+   :align: center
+
+   * - |headshot-arend-schwab|
+     - `Arend L. Schwab`_, Associate Professor
+   * - |headshot-moore-jason|
+     - `Jason K. Moore`_, Assistant Professor
+
+.. |headshot-arend-schwab| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-arend-schwab.jpg
+   :width: 100px
+.. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.jpg
+   :width: 100px
 
 .. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
 .. _Jason K. Moore: https://www.moorepants.info
 
+Postdoctoral Researchers
+========================
+
+.. list-table::
+   :class: table table-striped
+   :width: 60%
+   :widths: 20 80
+   :align: center
+
+   * - |headshot-missing|
+     - Leila Alizadehsaravi, PhD [TUD, Feb 2020-present]
+
 PhD Candidates
 ==============
 
-Current
-   - `Marco Reijne`_ [TUD, April 2018-present]
-   - Rado Dukalski [TUD]
+.. list-table::
+   :class: table table-striped
+   :width: 60%
+   :widths: 20 80
+   :align: center
+
+   * - |headshot-missing|
+     - `Marco Reijne`_ [TUD, April 2018-present]
+   * - |headshot-missing|
+     - Rado Dukalski [TUD]
+
 Past
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020]
+   - Jodi Kooijman [TUD]
 
 .. _Marco Reijne: https://www.linkedin.com/in/marco-reijne-2331401a
 .. _Georgios Dialynas: https://www.linkedin.com/in/georgedialynas/
@@ -25,22 +59,43 @@ Past
 Masters of Science Students
 ===========================
 
-Current
-   - Joris Kuiper [TUD, Sep 2020-present]
-   - Julie van Vlerken [TUD, Sep 2020-present]
-   - Jelle Haasnoot [TUD]
-   - Jan Groenhuis [TUD]
-   - Tim Huiskens [TUD]
+.. list-table::
+   :class: table table-striped
+   :width: 60%
+   :widths: 20 80
+   :align: center
+
+   * - |headshot-missing|
+     - Shannon van de Velde [TUD, Dec 2020-present]
+   * - |headshot-kuiper-joris|
+     - Joris Kuiper [TUD, Sep 2020-present]
+   * - |headshot-missing|
+     - Julie van Vlerken [TUD, Sep 2020-present]
+   * - |headshot-missing|
+     - Jan Groenhuis [TUD]
+   * - |headshot-missing|
+     - Tim Huiskens [TUD]
+
 Past
    - `Abraham McKay`_ [UCD, Feb 2017-Jun 2018], now at `219 Design <https://www.219design.com>`_
 
 .. _Abraham McKay: https://www.linkedin.com/in/abemckay/
 
+.. |headshot-kuiper-joris| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg
+   :width: 100px
+
 Research Assistants
 ===================
 
-Current
-   - Alex Gao [Jul 2020-present]
+.. list-table::
+   :class: table table-striped
+   :width: 60%
+   :widths: 20 80
+   :align: center
+
+   * - |headshot-missing|
+     - Alex Gao [Jul 2020-present]
+
 Past
    - Aaron Shaw [UCD, Jun 2018-Dec 2018]
    - Britt Tarien [UCD, Jun 2018-Dec 2018], now at BioCeryx
@@ -52,12 +107,23 @@ Past
 Undergraduate Research Assistants
 =================================
 
-Current
-   - Xinzhi (Richard) Yan [UCD, Sep 2020-present]
-   - Kevin Rong [UCD, Jun 2020-present]
-   - Noah Sanders [UCD, Jan 2020-present]
-   - Hao Huang [UCD, Oct 2019-Jun 2020, Sep 2020-present]
-   - Celine Liang [UCD, Feb 2019-Jun 2020, Sep 2020-present]]
+.. list-table::
+   :class: table table-striped
+   :width: 60%
+   :widths: 20 80
+   :align: center
+
+   * - |headshot-missing|
+     - Xinzhi (Richard) Yan [UCD, Sep 2020-present]
+   * - |headshot-missing|
+     - Kevin Rong [UCD, Jun 2020-present]
+   * - |headshot-missing|
+     - Noah Sanders [UCD, Jan 2020-present]
+   * - |headshot-missing|
+     - Hao Huang [UCD, Oct 2019-Jun 2020, Sep 2020-present]
+   * - |headshot-missing|
+     - Celine Liang [UCD, Feb 2019-Jun 2020, Sep 2020-present]]
+
 Past
    - Tannavee Kumar [UCD, Oct 2019-Jun 2020]
    - Trevor Metz [UCD, Jul 2018-Dec 2019], now at `Specialized Bicycle
@@ -117,3 +183,6 @@ Past
    - Sahil Shekhawat [May 2015-Aug 2015], now at `Media.net <http://media.net>`_
    - James Crist [May 2014-Aug 2014], now at `Anaconda <http://anaconda.com>`_
    - Tarun Gaba [May 2014-Aug 2014, May 2013-Aug 2013], now at `Plotly <http://plot.ly>`_
+
+.. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
+   :width: 100px
