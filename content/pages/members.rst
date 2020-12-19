@@ -17,7 +17,7 @@ Principal Investigators
 
 .. |headshot-arend-schwab| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-arend-schwab.jpg
    :width: 100px
-.. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.jpg
+.. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.png
    :width: 100px
 
 .. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
