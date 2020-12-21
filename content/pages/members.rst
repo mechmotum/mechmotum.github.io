@@ -17,8 +17,11 @@ Principal Investigators
 
 .. |headshot-arend-schwab| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-arend-schwab.jpg
    :width: 100px
+   :height: 133px
+
 .. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.png
    :width: 100px
+   :height: 133px
 
 .. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
 .. _Jason K. Moore: https://www.moorepants.info
@@ -71,9 +74,9 @@ Masters of Science Students
      - Joris Kuiper [TUD, Sep 2020-present]
    * - |headshot-missing|
      - Julie van Vlerken [TUD, Sep 2020-present]
-   * - |headshot-missing|
+   * - |headshot-groenhuis-jan|
      - Jan Groenhuis [TUD]
-   * - |headshot-missing|
+   * - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
 
 Past
@@ -83,6 +86,14 @@ Past
 
 .. |headshot-kuiper-joris| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg
    :width: 100px
+
+.. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-groenhuis-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg
+   :width: 100px
+   :height: 133px
 
 Research Assistants
 ===================
