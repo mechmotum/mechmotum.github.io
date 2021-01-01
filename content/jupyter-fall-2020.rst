@@ -18,6 +18,13 @@ Jupyter Team attended a JupyterCon sprint to improve
 `Thebe <https://github.com/executablebooks/thebe/>`__, an open source project
 which we use to insert executable code blocks into LibreTexts textbook pages.
 
+Additions to Thebe made by the team include:
+
+* Documenting how to display various `ipywidgets <https://github.com/jupyter-widgets/ipywidgets/>`__ in Thebe code blocks. Without including scripts such as `RequireJS <https://requirejs.org/>`__ and `Font Awesome 4 <https://fontawesome.com/v4.7.0/>`__, many ipywidgets would not display properly. Some example pages for widgets created include `bqplot <https://thebe.readthedocs.io/en/latest/examples/bqplot_example.html>`__, `ipyleaflet <https://thebe.readthedocs.io/en/latest/examples/ipyleaflet_example.html>`__, and `plotly <https://thebe.readthedocs.io/en/latest/examples/plotly-example.html>`__.
+* `Adding a read-only option to code blocks <https://github.com/executablebooks/thebe/pull/274>`__, allowing users to disable editing on rendered code blocks. 
+* `Persisting Binder sessions across pages <https://github.com/executablebooks/thebe/pull/266>`__, which decreases the time to connect to a Binder pod if a user has already requested a previous session.
+* `Simplifying Jest tests <https://github.com/executablebooks/thebe/pull/297>`__ 
+
 CKEditor Query Plugin
 ---------------------
 The `CKEditor Query Plugin <https://repo2docker.readthedocs.io/en/latest/>`__ 
