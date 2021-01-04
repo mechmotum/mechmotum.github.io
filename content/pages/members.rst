@@ -104,8 +104,11 @@ Research Assistants
    :widths: 20 80
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-gao-alex|
      - Alex Gao [Jul 2020-present]
+
+.. |headshot-gao-alex| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gao-alex.jpg
+   :width: 100px
 
 Past
    - Aaron Shaw [UCD, Jun 2018-Dec 2018]
