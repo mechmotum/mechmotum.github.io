@@ -16,15 +16,6 @@ All paid positions associated with the lab will be posted to the `TU Delft
 vacancies website`_, the `BioMechanical Engineering Department vacancies web
 page`_, `Academic Transfer`_ [#]_, and/or this lab website.
 
-Current Vacancies
------------------
-
-Postdoc Fall Prevention in Elite and Consumer Cycling
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Application URL: https://www.academictransfer.com/en/293095/postdoc-fall-prevention-in-elite-and-consumer-cycling/
-- Application Due Date: 2020-10-02
-
 .. _Academic Transfer: http://www.academictransfer.com
 .. _TU Delft vacancies website: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/
 .. _BioMechanical Engineering Department vacancies web page: https://www.tudelft.nl/3me/over/afdelingen/biomechanical-engineering/about-bmeche/vacancies/
@@ -90,9 +81,9 @@ in finding students for [#]_:
      - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`__
    * - Determining Dynamics Perception Thresholds of Bicycles
      - 2020-11-17
-     -
+     - Dr. Rene van Paassen
      - `Web page
-       <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
+       <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`__
    * - Early Warning and Crash Detection in Cycling
      - 2020-09-10
      - Gazelle_
