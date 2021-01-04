@@ -15,10 +15,13 @@ Getting Started
 ===============
 
 - Join the various lab communication channels (email list, github, gitlab,
-  etc.)
+  element chat, etc.)
 - Send an introduction email to the lab email list: who you are, what you will
   work on, etc.
-- Get campus card access to the bicycle lab and bicycle lab storage.
+- Add your name and portrait to the lab members page. The portrait should be
+  300px x 400px and either a png or jpg.
+- Get campus card access to the bicycle lab and bicycle lab storage (if
+  needed).
 - Setup regular mentorship meetings with your mentor(s). This should at least
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
