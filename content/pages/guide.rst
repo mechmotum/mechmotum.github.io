@@ -121,6 +121,7 @@ TU Delft offers several resources for open science:
 - `Open Access Publishing Information <https://www.tudelft.nl/library/actuele-themas/tu-delft-open-science/os/open-publishing/>`_
 - `TU Delft 2020-2024 Open Science Strategic Plan
   <https://doi.org/10.4233/uuid:f2faff07-408f-4cec-bd87-0919c9e4c26f>`_
+- `You Share, We Take Care! <https://www.tudelft.nl/en/library/current-topics/libraryfor-researchers/library-for-researchers/publishing-outreach/you-share-we-take-care/>`_
 
 Research Tools Contributions
 ----------------------------
