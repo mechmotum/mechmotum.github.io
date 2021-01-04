@@ -69,6 +69,8 @@ Masters of Science Students
      - Joris Kuiper [TUD, Sep 2020-present]
    * - |headshot-missing|
      - Julie van Vlerken [TUD, Sep 2020-present]
+   * - |headshot-haasnoot-jelle|
+     - Jelle Haasnoot [TUD]
    * - |headshot-groenhuis-jan|
      - Jan Groenhuis [TUD]
    * - |headshot-huiskens-tim|
@@ -76,12 +78,17 @@ Masters of Science Students
 
 .. |headshot-kuiper-joris| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg
    :width: 100px
+   :height: 133px
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
    :height: 133px
 
 .. |headshot-groenhuis-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-haasnoot-jelle| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png
    :width: 100px
    :height: 133px
 
