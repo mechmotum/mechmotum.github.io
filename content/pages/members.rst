@@ -35,8 +35,12 @@ Postdoctoral Researchers
    :widths: 20 80
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-alizadehsaravi-leila|
      - Leila Alizadehsaravi, PhD [TUD, Feb 2020-present]
+
+.. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
+   :width: 100px
+   :height: 133px
 
 PhD Candidates
 ==============
