@@ -109,21 +109,6 @@ Research Assistants
    :widths: 20 80
    :align: center
 
-   * - |headshot-gao-alex|
-     - Alex Gao [Jul 2020-present]
-
-.. |headshot-gao-alex| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gao-alex.jpg
-   :width: 100px
-
-Undergraduate Research Assistants
-=================================
-
-.. list-table::
-   :class: table table-striped
-   :width: 60%
-   :widths: 20 80
-   :align: center
-
    * - |headshot-missing|
      - Mandeepika Saini [UCD, Dec 2020-present]
    * - |headshot-missing|
@@ -132,8 +117,13 @@ Undergraduate Research Assistants
      - Tim Stewart [UCD, Dec 2020-present]
    * - |headshot-missing|
      - Xinzhi (Richard) Yan [UCD, Sep 2020-present]
+   * - |headshot-gao-alex|
+     - Alex Gao [Jul 2020-present]
    * - |headshot-missing|
      - Noah Sanders [UCD, Jan 2020-present]
+
+.. |headshot-gao-alex| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gao-alex.jpg
+   :width: 100px
 
 .. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
    :width: 100px
@@ -181,11 +171,6 @@ Masters of Science Students
    - S.G.C. De Groot [TUD, May 2010]
    - Jodi Kooijman [TUD, 2008]
 Research Assistants
-   - Aaron Shaw [UCD, Jun 2018-Dec 2018]
-   - Britt Tarien [UCD, Jun 2018-Dec 2018], now at BioCeryx
-   - `Kenneth Lyons`_ [UCD, Jun 2017-Sep 2017], now at Systron Donner Inertial
-   - Scott Kresie [UCD, Jan 2017-Sep 2017]
-Undergraduate Research Assistants
    - Kevin Rong [UCD, Jun 2020-Dec 2020]
    - Sejin Han [UCD, Aug 2019-Oct 2019]
    - Hao Huang [UCD, Oct 2019-Jun 2020, Sep 2020-Dec 2020]
@@ -205,10 +190,13 @@ Undergraduate Research Assistants
    - Dorian Crutcher [UCD, Oct 2018-Dec 2018], now at `Gener8 <http://www.gener8.net/>`_
    - Rayming Liang [UCD, Jul 2018-Dec 2018]
    - Ada Liu [UCD, Jun 2018-Dec 2018], now at `Frontier Energy <https://frontierenergy.com/>`_
+   - Britt Tarien [UCD, Jun 2018-Dec 2018], now at BioCeryx
    - Edward Jacobs [UCD, Jul 2018-Oct 2018], now at Barnhard Crane & Rigging
    - Henry Agnew [UCD, Jul 2018-Sep 2018]
    - Roy Gilboa [UCD, Jul 2018-Sep 2018], now at `Gener8 <http://www.gener8.net/>`_
-   - Aaron Shaw [UCD, Mar 2016-Jun 2017]
+   - `Kenneth Lyons`_ [UCD, Jun 2017-Sep 2017], now at Systron Donner Inertial
+   - Scott Kresie [UCD, Jan 2017-Sep 2017]
+   - Aaron Shaw [UCD, Mar 2016-Jun 2017, Jun 2018-Dec 2018]
    - Vivian Tran [UCD, May 2016-Dec 2016], now at University of Michigan
    - Braden Tinucci [UCD, Nov 2015-Dec 2015], now at Valcor Engineering
      Corporation
