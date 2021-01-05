@@ -53,8 +53,12 @@ PhD Candidates
 
    * - |headshot-missing|
      - `Marco Reijne`_ [TUD, April 2018-present]
-   * - |headshot-missing|
+   * - |headshot-dukalski-rado|
      - Rado Dukalski [TUD]
+
+.. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
+   :width: 100px
+   :height: 133px
 
 .. _Marco Reijne: https://www.linkedin.com/in/marco-reijne-2331401a
 
