@@ -116,14 +116,7 @@ Research Assistants
    * - |headshot-missing|
      - Tim Stewart [UCD, Dec 2020-present]
    * - |headshot-missing|
-     - Xinzhi (Richard) Yan [UCD, Sep 2020-present]
-   * - |headshot-gao-alex|
-     - Alex Gao [Jul 2020-present]
-   * - |headshot-missing|
      - Noah Sanders [UCD, Jan 2020-present]
-
-.. |headshot-gao-alex| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gao-alex.jpg
-   :width: 100px
 
 .. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
    :width: 100px
@@ -171,6 +164,8 @@ Masters of Science Students
    - S.G.C. De Groot [TUD, May 2010]
    - Jodi Kooijman [TUD, 2008]
 Research Assistants
+   - Xinzhi (Richard) Yan [UCD, Sep 2020-Dec 2020]
+   - Alex Gao [Jul 2020-Dec 2020]
    - Kevin Rong [UCD, Jun 2020-Dec 2020]
    - Sejin Han [UCD, Aug 2019-Oct 2019]
    - Hao Huang [UCD, Oct 2019-Jun 2020, Sep 2020-Dec 2020]
