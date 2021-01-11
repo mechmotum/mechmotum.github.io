@@ -14,19 +14,28 @@ desires to change any of the guidelines.
 Getting Started
 ===============
 
-- Join the various lab communication channels (email list, github, gitlab,
-  element chat, etc.)
+- Join the lab communication channels:
+
+  - Ask Jason <j.k.moore@tudelft.nl> or Marco <M.M.Reijne@tudelft.nl> to add
+    you to the lab `email list`_.
+  - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's chat room.
+
 - Send an introduction email to the lab email list: who you are, what you will
   work on, etc.
-- Add your name and portrait to the lab members page. The portrait should be
-  300px x 400px and either a png or jpg.
-- Get campus card access to the bicycle lab and bicycle lab storage (if
-  needed).
+- Add your name and portrait to the `lab members page`_ by sending a PNG or JPG
+  300px x 400px portrait to Jason or by submitting a pull request on Github.
 - Setup regular mentorship meetings with your mentor(s). This should at least
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
-- Attend lab meetings.
-- Get trained: Software Carpentry, Python, Fabrication, etc.
+- Attend biweekly lab meetings. Ask a lab member for the calendar invite with
+  the video chat link. Add your ideas and votes for meeting topics to the
+  google document (ask Marco for permissions to edit).
+- Send out an AIO (see below) before your regular mentor meetings.
+- Get campus card access to the bicycle lab and bicycle lab storage (if
+  needed). These can be requested from Arend or Jason.
+
+.. _email list: https://groups.google.com/g/mechmotum
+.. _lab members page: {filename}/pages/members.rst
 
 Communication
 =============
@@ -44,7 +53,9 @@ lab. All lab members need to join and pay attention to this list.
 Github/Gitlab Issues
 --------------------
 
-We make heavy use of issue trackers on Github and Gitlab to communicate.
+We make heavy use of issue trackers on Github and Gitlab to communication.
+General lab issues can be tracked in this repository:
+https://github.com/mechmotum/mechmotum.github.io
 
 AIO Weekly Emails
 -----------------
@@ -92,7 +103,8 @@ Quarterly Blog Posts
 
 In general, I would like each project to co-write an end of quarter blog post
 on the lab website describing their accomplishments and results. This writing
-exercise will help build the content for future papers and theses.
+exercise will help build the content for future papers and theses and provide
+outreach to the public about our work.
 
 Research Ideas
 --------------
