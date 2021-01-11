@@ -32,10 +32,34 @@ Getting Started
   google document (ask Marco for permissions to edit).
 - Send out an AIO (see below) before your regular mentor meetings.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
-  needed). These can be requested from Arend or Jason.
+  needed). These can be requested from Arend or Jason. Ask for a tour of the
+  space from a current lab member before you start working there.
 
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
+
+COVID-Time Lab Rules
+====================
+
+Use of the bicycle lab for hands-on project work is allowed as long as 3mE
+allows this type of work inside the building. Check with Arend or Jason for the
+up-to-date rules if in question. The current lab rules are:
+
+- All the university rules apply and supersede these rules, see
+  https://www.tudelft.nl/en/3me/current/information-coronavirus/.
+- Indicate on the lab `reservation calender`_ when you will be present and how
+  many people will be present with your reservation. The reservations work on
+  first come, first serve basis. Talk to your fellow lab members if adjustments
+  are needed for time conflicts.
+- No more than 4 people may be in the lab at any given time.
+- 1.5 m distance must be kept between everyone present in the lab.
+- Wear masks when up and about in the lab. When seated you may remove your
+  mask.
+- If you are sick, stay home and get tested.
+- Take the virus seriously and respect everyone's health needs/wishes. Everyone
+  should feel comfortable if using the space. Communication is key for this.
+
+.. _reservation calendar: https://calendar.google.com/calendar/u/0?cid=amcwaG9nMnZxaWRxMXI0dGdmdmlzcWEwazhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 
 Communication
 =============
