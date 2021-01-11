@@ -87,6 +87,7 @@
 ./feeds/outreach.atom.xml
 ./feeds/papers.atom.xml
 ./feeds/research.atom.xml
+./guide.html
 ./index.html
 ./jobs.html
 ./jobs/msc/determining-dynamics-perception-thresholds-of-bicycles.html
