@@ -14,16 +14,52 @@ desires to change any of the guidelines.
 Getting Started
 ===============
 
-- Join the various lab communication channels (email list, github, gitlab,
-  etc.)
+- Join the lab communication channels:
+
+  - Ask Jason <j.k.moore@tudelft.nl> or Marco <M.M.Reijne@tudelft.nl> to add
+    you to the lab `email list`_.
+  - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's chat room.
+
 - Send an introduction email to the lab email list: who you are, what you will
   work on, etc.
-- Get campus card access to the bicycle lab and bicycle lab storage.
+- Add your name and portrait to the `lab members page`_ by sending a PNG or JPG
+  300px x 400px portrait to Jason or by submitting a pull request on Github.
 - Setup regular mentorship meetings with your mentor(s). This should at least
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
-- Attend lab meetings.
-- Get trained: Software Carpentry, Python, Fabrication, etc.
+- Attend biweekly lab meetings. Ask a lab member for the calendar invite with
+  the video chat link. Add your ideas and votes for meeting topics to the
+  google document (ask Marco for permissions to edit).
+- Send out an AIO (see below) before your regular mentor meetings.
+- Get campus card access to the bicycle lab and bicycle lab storage (if
+  needed). These can be requested from Arend or Jason. Ask for a tour of the
+  space from a current lab member before you start working there.
+
+.. _email list: https://groups.google.com/g/mechmotum
+.. _lab members page: {filename}/pages/members.rst
+
+COVID-Time Lab Rules
+====================
+
+Use of the bicycle lab for hands-on project work is allowed as long as 3mE
+allows this type of work inside the building. Check with Arend or Jason for the
+up-to-date rules if in question. The current lab rules are:
+
+- All the university rules apply and supersede these rules, see
+  https://www.tudelft.nl/en/3me/current/information-coronavirus/.
+- Indicate on the lab `reservation calendar`_ when you will be present and how
+  many people will be present with your reservation. The reservations work on
+  first come, first serve basis. Talk to your fellow lab members if adjustments
+  are needed for time conflicts.
+- No more than 4 people may be in the lab at any given time.
+- 1.5 m distance must be kept between everyone present in the lab.
+- Wear masks when up and about in the lab. When seated you may remove your
+  mask.
+- If you are sick, stay home and get tested.
+- Take the virus seriously and respect everyone's health needs/wishes. Everyone
+  should feel comfortable if using the space. Communication is key for this.
+
+.. _reservation calendar: https://calendar.google.com/calendar/u/0?cid=amcwaG9nMnZxaWRxMXI0dGdmdmlzcWEwazhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 
 Communication
 =============
@@ -41,7 +77,9 @@ lab. All lab members need to join and pay attention to this list.
 Github/Gitlab Issues
 --------------------
 
-We make heavy use of issue trackers on Github and Gitlab to communicate.
+We make heavy use of issue trackers on Github and Gitlab to communication.
+General lab issues can be tracked in this repository:
+https://github.com/mechmotum/mechmotum.github.io
 
 AIO Weekly Emails
 -----------------
@@ -89,7 +127,8 @@ Quarterly Blog Posts
 
 In general, I would like each project to co-write an end of quarter blog post
 on the lab website describing their accomplishments and results. This writing
-exercise will help build the content for future papers and theses.
+exercise will help build the content for future papers and theses and provide
+outreach to the public about our work.
 
 Research Ideas
 --------------
@@ -121,6 +160,7 @@ TU Delft offers several resources for open science:
 - `Open Access Publishing Information <https://www.tudelft.nl/library/actuele-themas/tu-delft-open-science/os/open-publishing/>`_
 - `TU Delft 2020-2024 Open Science Strategic Plan
   <https://doi.org/10.4233/uuid:f2faff07-408f-4cec-bd87-0919c9e4c26f>`_
+- `You Share, We Take Care! <https://www.tudelft.nl/en/library/current-topics/libraryfor-researchers/library-for-researchers/publishing-outreach/you-share-we-take-care/>`_
 
 Research Tools Contributions
 ----------------------------
