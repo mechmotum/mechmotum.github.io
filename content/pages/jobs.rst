@@ -79,6 +79,10 @@ in finding students for [#]_:
      - 2020-09-10
      - Gazelle_
      - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`__
+   * - Development of a Bobsleigh Simulator for Training and Outreach in Jamaica
+     - 2020-01-13
+     - Jamaican Bobsleigh and Skeleton Federation
+     - `Web page <{filename}/pages/jobs/bobsleigh-simulator.rst>`__
    * - Determining Dynamics Perception Thresholds of Bicycles
      - 2020-11-17
      - Dr. Rene van Paassen
