@@ -4,7 +4,7 @@ Development of a Bobsleigh Simulator for Training and Outreach in Jamaica
 
 :date: 2021-01-13
 :status: hidden
-:slug: jobs/msc/bobsled-simulator
+:slug: jobs/msc/bobsleigh-simulator
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/jamaican-bobsleigh.jpg
    :align: center
