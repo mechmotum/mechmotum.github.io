@@ -45,8 +45,10 @@ Use of the bicycle lab for hands-on project work is allowed as long as 3mE
 allows this type of work inside the building. Check with Arend or Jason for the
 up-to-date rules if in question. The current lab rules are:
 
-- All the university rules apply and supersede these rules, see
-  https://www.tudelft.nl/en/3me/current/information-coronavirus/.
+- All the `University rules
+  <https://www.tudelft.nl/en/2021/tu-delft/coronavirus/>`_ and `3mE rules
+  <https://www.tudelft.nl/en/3me/current/information-coronavirus/>`_ apply and
+  the following rules are in addition to those.
 - Indicate on the lab `reservation calendar`_ when you will be present and how
   many people will be present with your reservation. The reservations work on
   first come, first serve basis. Talk to your fellow lab members if adjustments
