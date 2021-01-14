@@ -71,6 +71,8 @@ Masters of Science Students
    :widths: 20 80
    :align: center
 
+   * - |headshot-wu-junda|
+     - Junda Wu [TUD, Jan 2021-present]
    * - |headshot-missing|
      - Shannon van de Velde [TUD, Dec 2020-present]
    * - |headshot-kuiper-joris|
@@ -83,6 +85,10 @@ Masters of Science Students
      - Jan Groenhuis [TUD]
    * - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
+
+.. |headshot-wu-junda| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-wu-junda.png
+   :width: 100px
+   :height: 133px
 
 .. |headshot-kuiper-joris| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg
    :width: 100px
