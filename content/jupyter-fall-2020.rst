@@ -48,13 +48,13 @@ to the new Galaxy cluster. This involved various changes in networking,
 hardware, and Jupyterhub.
 
 The first step was to make sure that all of the physical computers were properly
-wired to eachother. At the end of it all, we were able to reconsolidate our Flock
+wired to each other. At the end of it all, we were able to reconsolidate our Flock
 and protogalaxy clusters to where we now have 17 nodes online. These new Galaxy nodes are running
-high availability programs like metallb and HAproxy in order to preserve the availability of 
+high availability programs like metallb and HAproxy to preserve the availability of 
 our Libretexts services and Kubernetes control-planes which is a great improvement over the previous
 Flock cluster.
 
-From a management perspective, the entire cluster was setup using Ubuntu cloudinit to boot the nodes
+We improved cluster management by setting up Ubuntu cloudinit to boot the nodes
 and install a Puppet agent from which we are able to configure and install all the processes we need
 using a Puppet server. This creates consistency across our nodes and makes it easier to refresh 
 the state of the cluster if something goes massively wrong. Both of these features were lacking in 
