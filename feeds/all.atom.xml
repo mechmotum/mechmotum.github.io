@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2020-10-13T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>JupyterTeam Progress Summer 2020</title><link href="https://mechmotum.github.io/blog/jupyter-summer-2020.html" rel="alternate"></link><published>2020-10-13T00:00:00-07:00</published><updated>2020-10-13T00:00:00-07:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2020-10-13:/blog/jupyter-summer-2020.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the progress made by JupyterTeam over the summer of 2020&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-01-14T00:00:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>JupyterTeam Progress Fall 2020</title><link href="https://mechmotum.github.io/blog/jupyter-fall-2020.html" rel="alternate"></link><published>2021-01-14T00:00:00-08:00</published><updated>2021-01-14T00:00:00-08:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2021-01-14:/blog/jupyter-fall-2020.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the progress made by JupyterTeam over the fall of 2020&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;During the fall quarter of 2020 the JupyterTeam attended JupyterCon and was
+able to make improvements to Thebe which our &lt;a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin"&gt;CKEditor Binder Plugin&lt;/a&gt; depends on.
+Furthermore, we expanded LibreTexts's CKEditor with a new Query Plugin to
+enable authors to embed interactive problems into their textbook pages for
+readers to solve. Finally, we went through most of the process of migrating the
+Flock kubernetes cluster to Galaxy, which contains many improvements.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jupytercon-2020"&gt;
+&lt;h2&gt;JupyterCon 2020&lt;/h2&gt;
+&lt;p&gt;Jupyter Team attended a JupyterCon sprint to improve &lt;a class="reference external" href="https://github.com/executablebooks/thebe/"&gt;Thebe&lt;/a&gt;, an open source project which we
+use to insert executable code blocks into LibreTexts textbook pages.&lt;/p&gt;
+&lt;p&gt;Additions to Thebe made by the team include:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Documenting how to display various &lt;a class="reference external" href="https://github.com/jupyter-widgets/ipywidgets/"&gt;ipywidgets&lt;/a&gt; in Thebe code blocks.
+Without including scripts such as &lt;a class="reference external" href="https://requirejs.org/"&gt;RequireJS&lt;/a&gt; and
+&lt;a class="reference external" href="https://fontawesome.com/v4.7.0/"&gt;Font Awesome 4&lt;/a&gt;, many ipywidgets would
+not display properly. Some example pages for widgets created include &lt;a class="reference external" href="https://thebe.readthedocs.io/en/latest/examples/bqplot_example.html"&gt;bqplot&lt;/a&gt;,
+&lt;a class="reference external" href="https://thebe.readthedocs.io/en/latest/examples/ipyleaflet_example.html"&gt;ipyleaflet&lt;/a&gt;,
+and &lt;a class="reference external" href="https://thebe.readthedocs.io/en/latest/examples/plotly-example.html"&gt;plotly&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/executablebooks/thebe/pull/274"&gt;Adding a read-only option to code blocks&lt;/a&gt;, allowing users to
+disable editing on rendered code blocks.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/executablebooks/thebe/pull/266"&gt;Persisting Binder sessions across pages&lt;/a&gt;, which decreases the
+time to connect to a Binder pod if a user has already requested a previous
+session.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/executablebooks/thebe/pull/297"&gt;Simplifying Jest tests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We plan to continue working with Thebe in order to improve how it inserts and
+displays interactive JupyterLab widgets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ckeditor-query-plugin"&gt;
+&lt;h2&gt;CKEditor Query Plugin&lt;/h2&gt;
+&lt;p&gt;The &lt;a class="reference external" href="https://github.com/LibreTexts/ckeditor-query-plugin"&gt;CKEditor Query Plugin&lt;/a&gt; is a plugin added to
+the LibreTexts text editor, CKEditor. The plugin allows textbook authors to
+embed interactive problems into HTML pages. Just like with our CKEditor Binder
+Plugin, the Query Plugin adds a small icon to CKEditor so that authors may add
+answerable problems into their textbooks.  The plugin works by simply embedding
+a LibreTexts Javascript template into the HTML code which constitutes the
+webpage. This plugin is completely operational and deployed on libretexts.org.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="cluster-migration"&gt;
+&lt;h2&gt;Cluster Migration&lt;/h2&gt;
+&lt;p&gt;During the winter break, the Jupyter team migrated the previous Flock cluster
+to the new Galaxy cluster. This involved various changes in networking,
+hardware, and Jupyterhub.&lt;/p&gt;
+&lt;p&gt;The first step was to make sure that all of the physical computers were
+properly wired to each other. At the end of it all, we were able to
+reconsolidate our Flock and protogalaxy clusters to where we now have 17 nodes
+online. These new Galaxy nodes are running high availability programs like
+metallb and HAproxy to preserve the availability of our Libretexts services and
+Kubernetes control-planes which is a great improvement over the previous Flock
+cluster.&lt;/p&gt;
+&lt;p&gt;We improved cluster management by setting up Ubuntu cloudinit to boot the nodes
+and install a Puppet agent from which we are able to configure and install all
+the processes we need using a Puppet server. This creates consistency across
+our nodes and makes it easier to refresh the state of the cluster if something
+goes massively wrong. Both of these features were lacking in the Flock cluster
+and using them now makes it much easier to remotely manage these nodes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="looking-foward"&gt;
+&lt;h2&gt;Looking Foward&lt;/h2&gt;
+&lt;p&gt;While there are still a few &lt;a class="reference external" href="https://github.com/LibreTexts/metalc/issues/14#issuecomment-753696732"&gt;remaining objectives&lt;/a&gt; to
+complete the setup of the Galaxy cluster, our services such as JupyterHub and
+BinderHub are all online and available to the public.  In fact, all UC Davis
+students and faculty have now been authorized to access jupyter.libretexts.org
+without needing manual permission from us to do so. We intend to continue to
+expand the availability of these Jupyter services, with our next target being a
+JupyterHub for high preformance computing.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="education"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="libretexts"></category></entry><entry><title>JupyterTeam Progress Summer 2020</title><link href="https://mechmotum.github.io/blog/jupyter-summer-2020.html" rel="alternate"></link><published>2020-10-13T00:00:00-07:00</published><updated>2020-10-13T00:00:00-07:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2020-10-13:/blog/jupyter-summer-2020.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the progress made by JupyterTeam over the summer of 2020&lt;/p&gt;
 </summary><content type="html">&lt;div class="section" id="summary"&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;p&gt;Over the summer sessions of 2020, the JupyterTeam was able to
@@ -2859,7 +2930,7 @@ Training Network (ITN) on &lt;em&gt;Moto&lt;/em&gt;rcycle &lt;em&gt;R&lt;/em&gt;
 from University of Firenze (UNIFI), Florence, Italy.  More info on this ITN can
 be found at: &lt;a class="reference external" href="http://www.motorist-ptw.eu/"&gt;http://www.motorist-ptw.eu/&lt;/a&gt;&lt;/p&gt;
 &lt;a class="reference external image-reference" href="http://www.motorist-ptw.eu/"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/MOTORISTlogo.jpg" style="width: 115px; height: 76px;" /&gt;&lt;/a&gt;
-</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-13T00:00:00-07:00</published><updated>2013-05-13T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-13:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
+</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-14T00:00:00-07:00</published><updated>2013-05-14T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-14:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
 MODELING THE MECHANICAL PROPERTIES OF BICYCLE TIRES&lt;/em&gt;, PhD thesis, The
 University of Wisconsin-Milwaukee, May 2013.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/dressel2013measuring.pdf"&gt;pdf(30Mb)&lt;/a&gt;&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category><category term="phd"></category></entry><entry><title>Nick Appelman Successfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/appelman-msc-thesis.html" rel="alternate"></link><published>2012-11-27T00:00:00-08:00</published><updated>2012-11-27T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2012-11-27:/blog/appelman-msc-thesis.html</id><summary type="html">&lt;p&gt;Nick Appelman successfully defended his Engineering Dynamics MSc thesis on:
@@ -2958,7 +3029,7 @@ the large glass windows.&lt;/p&gt;
 selection of the &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/calspan/index.htm"&gt;Calspan reports&lt;/a&gt; on Bicycle and
 Motorcycle Dynamics research. Thanks to the effort of Jim Papadopoulos and Doug
 Milliken!&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-13T00:00:00-07:00</published><updated>2010-05-13T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-13:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
+</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-14T00:00:00-07:00</published><updated>2010-05-14T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-14:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
 Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME
 course Mechatronic System Design II. The lateral stability control is done by
 the concept of &amp;quot;steer into the undesired fall&amp;quot; and comes down to only one line
@@ -2976,7 +3047,7 @@ building instructions (&lt;a class="reference external" href="http://bicycle.tud
 &lt;blockquote&gt;
 M.V.C. Evertse, &lt;em&gt;Rider Analysis using a fully instrumented motorcycle&lt;/em&gt;, MSc
 thesis, Delft University of Technology, May 2010.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/evertse2010riderMinApp.pdf"&gt;(pdf 1.9Mb)&lt;/a&gt;&lt;/blockquote&gt;
-</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-13T00:00:00-08:00</published><updated>2010-02-13T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-13:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
+</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-14T00:00:00-08:00</published><updated>2010-02-14T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-14:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
 track vehicle dynamics&lt;/a&gt;.&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>VPRO Noorderlicht Nieuws on Our Bicycle Treadmill Experiments</title><link href="https://mechmotum.github.io/blog/vpro-noorderlicht-niews.html" rel="alternate"></link><published>2009-07-16T00:00:00-07:00</published><updated>2009-07-16T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2009-07-16:/blog/vpro-noorderlicht-niews.html</id><content type="html">&lt;p&gt;VPRO Noorderlicht Nieuws made a 5 minute item out of our Bicycle Treadmill
 experiments. The interview is in Dutch:&lt;/p&gt;
@@ -3236,7 +3307,7 @@ measured data.&lt;/p&gt;
 &lt;p&gt;The final goal is to create a &lt;em&gt;Robot Bicycle&lt;/em&gt; by adding a steering torque
 controller, to stabilize the bike, and a small elector motor to maintain
 forward speed.&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-13T00:00:00-07:00</published><updated>2003-04-13T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-13:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
+</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-14T00:00:00-07:00</published><updated>2003-04-14T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-14:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
 dynamic behavior of a bicycle. For the analysis we used our software system
 SPACAR.  This software has been developed at Delft University of Technology and
 is capable of doing dynamic analysis of flexible multibody systems. The method …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
