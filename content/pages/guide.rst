@@ -67,21 +67,38 @@ Communication
 =============
 
 Lab Email List
---------------
+   When you join the lab you should request access to the lab email list:
 
-When you join the lab you should request access to the lab email list:
+   https://groups.google.com/forum/#!forum/mechmotum
 
-https://groups.google.com/forum/#!forum/mechmotum
+   This can both be used by everyone as both an announcement list and a
+   discussion list. All lab members need to join and pay attention to this list
+   for announcements and are welcome to use if for discussion.
+Text, Audio, Video Chat Room
+   We host a matrix_ server which can be accessed using https://element.io or
+   any other supported clients_. This is used for quick chats, meetings, etc.
+   We'll keep the chat histories around, but its best to treat the data as
+   transient. Lab members can use as needed for lab related communication.
+Issue Trackers
+   We make heavy use of issue trackers on Github and Gitlab to communication.
+   This is good for topic oriented, long form discussion that needs permanency,
+   organization, and/or task control. General lab issues can be tracked in this
+   repository (in addition to the website issues):
 
-This can both be used as an announcement list and a discussion list for the
-lab. All lab members need to join and pay attention to this list.
+   https://github.com/mechmotum/mechmotum.github.io
 
-Github/Gitlab Issues
---------------------
+Quarterly Blog Posts
+   In general, we would like each project to write regular blog posts for the
+   lab website. These posts should describe updates on project progress and
+   results. This writing exercise will help build the content for future papers
+   and theses and provide outreach to the public about our work. It is helpful
+   to do these on a schedule (quarterly, semi-annually, etc.) so that the get
+   done. If your project is of a proprietary nature, you'll need to select
+   aspects of the project or work that can be shared. Discuss these things with
+   your supervisor.
 
-We make heavy use of issue trackers on Github and Gitlab to communication.
-General lab issues can be tracked in this repository:
-https://github.com/mechmotum/mechmotum.github.io
+.. _matrix: https://matrix.org/
+.. _clients: https://matrix.org/docs/projects/try-matrix-now/
 
 AIO Weekly Emails
 -----------------
@@ -99,21 +116,22 @@ contain three bullet lists:
 You should send it to mechmotum@googlegroups.com and cc anyone not in the lab
 that is involved in your project.
 
-The purpose of these are to share what you are doing with me, anyone involved
-in your project outside the lab, and also to share among the lab members. The
-latter is the most important one, because many of you may be solving similar
-problems and can offer help/tips to other members. Doing this will hopefully
-certainly start conversations among the group. Some notes:
+The purpose of these are to share what you are doing with your daily
+supervisor, anyone involved in your project outside the lab, and also to share
+among the lab members. The latter is important, because many of you may be
+solving similar problems and can offer help/tips to other members Doing this
+will hopefully certainly start conversations among the group. Some notes:
 
 - If you are working in a team you can send out a single AIO for your team.
 - No need to list your hours worked or who did what in teams.
 - The AIOs do not need to be elaborate, concise is best.
 - It is ok, and preferred, to reply-all if you want to comment on an AIO with a
   suggestion so everyone can learn.
-- The AIOs are not a contest. I am not collecting these to judge how much you
-  accomplish, but I do care that you are working, attempting to make progress,
-  and communicating with your lab members for help. If you had vacation that
-  week or just didn't have much time to work, that's fine, just note that.
+- The AIOs are not a contest. Your supervisor is not collecting these to judge
+  how much you accomplish, but they do care that you are working, attempting to
+  make progress, and communicating with your lab members for help. If you had
+  vacation that week or just didn't have much time to work, that's fine, just
+  note that.
 - If you need help via with issues, you need to provide enough detail for the
   reader to understand the problem.
 
@@ -124,16 +142,8 @@ students like to leave the objectives blank and add them after meeting with the
 PI. However you do it, each week the accomplishments should hopefully reflect
 the objectives you wrote the previous week.
 
-Quarterly Blog Posts
---------------------
-
-In general, I would like each project to co-write an end of quarter blog post
-on the lab website describing their accomplishments and results. This writing
-exercise will help build the content for future papers and theses and provide
-outreach to the public about our work.
-
 Research Ideas
---------------
+==============
 
 Check out our research ideas Github repository to read, post, and discuss new
 ideas:
@@ -226,8 +236,8 @@ membership.
 
 .. _Git lesson: http://swcarpentry.github.io/git-novice/
 
-Lab
-===
+Lab Space
+=========
 
 Inventory
 ---------
@@ -241,32 +251,20 @@ https://docs.google.com/spreadsheets/d/1w80SolpcLTbLtuFDIf9-F-sS_pO-1PEHSpSgEGH_
 
 Ask Jason if you don't have permissions for this file.
 
-Connecting to Research Communities
-==================================
-
-We regularly participate in several research communities.
-
-Online
-------
-
-- The `Biomech-L forum <https://biomch-l.isbweb.org>`_ is a very good way to
-  connect to the international Biomechanics community.
-
-Conferences
------------
-
-- Bicycle and Motorcycle Dynamics Conference: http://bmdconf.org/
-- International Cycling Safety Conference: http://cyclingsafety.net/
-- EuroSciPy: https://www.euroscipy.org/
-- SciPy: https://conference.scipy.org/
-- JupyterCon: https://jupytercon.com/
-
 Training
 ========
 
 It is important to both learn the tools, methods, and techniques used in the
 lab and to teach the lab new things you've learned so we can collaborate
 efficiently and effectively.
+
+Useful TU Delft MSc Courses
+---------------------------
+
+- Multibody Dynamics B
+- Special Topics Course in Sports Engineering: TU Delft organizes an annual two
+  week course to train students in sports engineering. Cycling has been used as
+  the motivating topic to learn the methods.
 
 The Carpentries Trainings
 -------------------------
@@ -283,5 +281,29 @@ Sign up by emailing Femke van Giessen (F.vanGiessen@tudelft.nl) to register for
 a slot. You will be directed to an Evenbrite. Sign up on Eventbrite immediately
 because these typically fill up in 10 minutes and there are large wait lists.
 
-- TU Delft Data Champions hosts events and trainings: https://www.tudelft.nl/en/library/current-topics/research-data-management/r/support/data-champions/
-- 4TU Research Data Training and Events: https://data.4tu.nl/info/en/news-events/training-events/
+- TU Delft Data Champions hosts events and trainings:
+  https://www.tudelft.nl/en/library/current-topics/research-data-management/r/support/data-champions/
+- 4TU Research Data Training and Events:
+  https://data.4tu.nl/info/en/news-events/training-events/
+
+Connecting to Research Communities
+==================================
+
+We regularly participate in several research communities.
+
+Online
+------
+
+- The `Biomech-L forum <https://biomch-l.isbweb.org>`_ is a very good way to
+  connect to the international Biomechanics community.
+
+Conferences
+-----------
+
+- Bicycle and Motorcycle Dynamics Conference: http://bmdconf.org/
+- ECCOMAS Multibody Dynamics Conference
+- EuroSciPy: https://www.euroscipy.org/
+- International Cycling Safety Conference: http://cyclingsafety.net/
+- JupyterCon: https://jupytercon.com/
+- SciPy: https://conference.scipy.org/
+
