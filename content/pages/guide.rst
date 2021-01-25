@@ -34,6 +34,12 @@ Getting Started
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Arend or Jason. Ask for a tour of the
   space from a current lab member before you start working there.
+- If your project is with a company or institution and/or requires transfer of
+  sensitive information you will need to arrange the "Graduation Agreement at a
+  Company" that abides by the TUD Graduation Conditions. You can find the forms
+  here here:
+  https://www.tudelft.nl/studenten/faculteiten/3me-studentenportal/onderwijs/gerelateerd/formulieren/msc-formulieren/.
+  Discuss this with your supervisor(s) before you start.
 
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
