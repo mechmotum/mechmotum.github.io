@@ -6,10 +6,29 @@ Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning
 :status: hidden
 :slug: jobs/msc/bicycle-crash-video-kinematics.rst
 
-.. figure:: https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/.github/media/dance_foot.gif
-   :align: center
+.. list-table::
+   :class: table
 
-   Pose estimation example using OpenPose.
+   * - |openposegif|
+     - |dygertvideo|
+   * - Pose estimation example using OpenPose.
+     - Example bicycle crash
+
+.. |openposegif| image:: https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/.github/media/dance_foot.gif
+   :width: 400px
+
+.. |dygertvideo| raw:: html
+
+   <div style="text-align: center;">
+   <iframe
+     width="400"
+     height="225"
+     src="https://www.youtube.com/embed/rEzFIQmDJYU"
+     frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+   </div>
 
 It is extremely difficult to obtain motion data of bicycle crashes for a number
 of reasons. But this kind of data would be very useful in understanding why
