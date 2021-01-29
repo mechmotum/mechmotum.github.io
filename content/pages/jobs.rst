@@ -59,6 +59,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - More information
+   * - Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning
+     - 2021-01-29
+     -
+     - `Web page <{filename}/pages/jobs/bicycle-crash-video-kinematics.rst>`__
    * - Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety
      - 2020-09-10
      - USSEA_
