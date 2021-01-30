@@ -153,14 +153,17 @@ the objectives you wrote the previous week.
 Research Ideas
 ==============
 
+Specific MSc project advertisements can be found on the `jobs
+<{filename}/pages/jobs.rst>`_.
+
 Check out our research ideas Github repository to read, post, and discuss new
 ideas:
 
 https://github.com/mechmotum/ideas/issues
 
-Specific MSc project advertisements can be found here:
+Have a look at current and past projects on the `research page
+<{filename}/pages/research/index.rst>`_
 
-https://github.com/mechmotum/ideas/tree/master/msc
 
 Open Science
 ============
