@@ -40,6 +40,8 @@ Getting Started
   here here:
   https://www.tudelft.nl/studenten/faculteiten/3me-studentenportal/onderwijs/gerelateerd/formulieren/msc-formulieren/.
   Discuss this with your supervisor(s) before you start.
+- See the `recommended reading list <#recommended-reading>`_ below for some
+  reading materials to get you started.
 
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
@@ -313,3 +315,78 @@ Conferences
 - JupyterCon: https://jupytercon.com/
 - SciPy: https://conference.scipy.org/
 
+Recommended Reading
+===================
+
+Your projects will vary and you'll have to read a variety of different papers
+and resources, but this list provides a general set of papers that it is good
+for all lab members to read.
+
+Bicycle
+-------
+
+Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
+   Science of competitive cycling.
+David G. Wilson, Bicycling Science, 3rd ed. MIT Press, 2004.
+   Bicycling Science is the authorative introduction text to the science and
+   engineering of bicycles.
+|Astrom2005|
+   IEEE control systems magazine article that introduces bicycle dynammics with
+   a few different models and nice explanation of important control principles.
+|Meijaard2007|
+   Shows the fundamental bicycle model we typically start with for
+   understanding lateral dynamics of single track vehicles. Introduces much of
+   the important terminonlogy and principles.
+|Sharp2008|
+   Robin Sharp developed one of the most widely cited motorcycle dynamics
+   models in 1970 (also recommended read), but this paper is his take on
+   bicycle dynamics, stability, and control after many years of work on the
+   topic of single track vehicle dynamics. It also lays out a number of core
+   principles for the study of lateral dynamics of bicycles.
+
+.. |Meijaard2007| replace:: J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L. Schwab,
+   “Linearized dynamics equations for the balance and steer of a bicycle: A
+   benchmark and review,” Proceedings of the Royal Society A: Mathematical,
+   Physical and Engineering Sciences, vol. 463, no. 2084, pp. 1955–1982, Aug.
+   2007. https://doi.org/10.1098/rspa.2007.1857
+.. |Astrom2005| replace:: K. J. Åström, R. E. Klein, and A. Lennartsson,
+   “Bicycle dynamics and control: adapted bicycles for education and research,”
+   IEEE Control Systems Magazine, vol. 25, no. 4, pp. 26–47, Aug. 2005,
+   https://doi.org/10.1109/MCS.2005.1499389.
+.. |Sharp2008| replace::  R. S. Sharp, “On the Stability and Control of the Bicycle,”
+   Applied Mechanics Reviews, vol. 61, no. 060803, Oct. 2008,
+   https://doi.org/10.1115/1.2983014.
+
+Biomechanics
+------------
+
+David A. Winter, Biomechanics and Motor Control of Human Movement. John Wiley & Sons, 2009.
+   The longtime best introductory textbook to biomechanics of human movement.
+
+Computing and Data
+------------------
+
+Hadley Wickham, “Tidy Data,” Journal of Statistical Software, 2014, http://vita.had.co.nz/papers/tidy-data.pdf.
+   Lays out the idea of "tidy data" which is a tabular data format preferred
+   and used by a large set of software.
+
+Academia
+--------
+
+Srinivasan Keshav, “How To Read A Paper,” ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007, http://ccr.sigcomm.org/online/files/p83-keshavA.pdf.
+   Introduces a structured 3 phase method of reading scientific literature.
+“ICMJE | Recommendations | Defining the Role of Authors and Contributors.” http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+   The International Committee of Medical Journal Editors created a basic
+   guideline for determining who should be considered an author of an academic
+   paper. This is a good starting point for making judgement calls on
+   authorship.
+“Academia Stack Exchange,” https://academia.stackexchange.com/
+   A Q&A website about academia. You can find discussions on many useful topics
+   and also participate in the discussions.
+
+Other
+-----
+
+Greg Wilson, “Meetings,” The Third Bit, May 11, 2018. http://third-bit.com/2018/05/11/meetings.html
+   Some nice simple guidelines for making meetings actually useful for the
+   participants.
