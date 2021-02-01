@@ -141,3 +141,50 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   padding-top: 10px;
 }
+
+/* Reduce the size of the headers. */
+h3 {
+  font-size: 1.50rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.00rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+/* Don't underline headers that are hyperlinks. */
+.article .content h1 a {
+  text-decoration: none;
+}
+
+.article .content h2 a {
+  text-decoration: none;
+}
+
+.article .content h3 a {
+  text-decoration: none;
+}
+
+.article .content h4 a {
+  text-decoration: none;
+}
+
+.article .content h5 a {
+  text-decoration: none;
+}
+
+.article .content h6 a {
+  text-decoration: none;
+}
+
+/* Indent the definition list content */
+dd {
+  padding-left: 2em;
+}
