@@ -3,11 +3,11 @@
 
 .. contents::
 
-Researchers, Postdoctoral Researchers, PhD Researchers
-======================================================
+PhD & Postdoctoral Researchers
+==============================
 
-If you are interested in doing paid research with the lab after you have
-obtained a related Master's degree [#]_ there are two options:
+If you are interested in doing paid research with the lab [#]_ there are two
+options:
 
 1. Wait for an open position in the lab and apply.
 2. Find self-funding and ask if we can host and work with you.
