@@ -57,9 +57,9 @@ Software:
 
 Blog posts:
 
-- `Winter 2020 Update <{filename}/jupyter-winter-2020.rst>`_
+- `Fall 2020 Update <{filename}/jupyter-fall-2020.rst>`_
 - `Summer 2019 Update <{filename}/jupyter-summer-2019.rst>`_
-- `SacPy 2019 Presentation <{filename}/sacypy-2019.rst>`_
+- `SacPy 2019 Presentation <{filename}/sacpy-slideck-2019.rst>`_
 - `Winter 2019 Update <{filename}/jupyter-winter-2019.rst>`_
 - `Grant Announcement <{filename}/libretexts-grant.rst>`_
 

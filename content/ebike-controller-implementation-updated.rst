@@ -11,7 +11,7 @@ Updated Implementation of a PID Controller for Controlling The Speed of an Instr
 
 *This is an updated version of a previous blog post on the implementation of a
 PID controller on an instrumented ebike which can be* `found here
-<{filename}/implementation-of-ebike-speed-controller.rst>`_.
+<{filename}/ebike-controller-implementation.rst>`_.
 *Updates include sections 5.4-5.5 discussing the added dead man's switch and
 throttle relay and minor fixes throughout.*
 
@@ -23,7 +23,7 @@ throttle relay and minor fixes throughout.*
 The overall goal of this project is to design and implement a cruise control
 system for an instrumented ebike used for conducting bicycle handling
 experiments. A previous blog post `(found here)
-<{filename}ebike-speed-controller.rst>`_ outlines the design and analysis of a
+<{filename}/ebike-controller-design.rst>`_ outlines the design and analysis of a
 continuous time PID controller for controlling the speed of the ebike. This
 blog post tells the story of how the designed PID controller was implemented
 digitally on the instrumented ebike through an Arduino Nano and how it fits
