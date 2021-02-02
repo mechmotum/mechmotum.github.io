@@ -48,7 +48,7 @@ with the app and provide suggestions or feedback!&lt;/p&gt;
 </content><category term="research"></category><category term="bicycle"></category><category term="web application"></category></entry><entry><title>Updated Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation-updated.html" rel="alternate"></link><published>2019-12-30T15:00:00-08:00</published><updated>2019-12-30T15:00:00-08:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-12-30:/blog/ebike-controller-implementation-updated.html</id><summary type="html">&lt;p class="first last"&gt;Updated blog post on the implementation of a PID controller on an
 instrumented ebike&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;em&gt;This is an updated version of a previous blog post on the implementation of a
-PID controller on an instrumented ebike which can be&lt;/em&gt; &lt;a class="reference external" href="{filename}/implementation-of-ebike-speed-controller.rst"&gt;found here&lt;/a&gt;.
+PID controller on an instrumented ebike which can be&lt;/em&gt; &lt;a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-implementation.html"&gt;found here&lt;/a&gt;.
 &lt;em&gt;Updates include sections 5.4-5.5 discussing the added dead man's switch and
 throttle relay and minor fixes throughout.&lt;/em&gt;&lt;/p&gt;
 
@@ -56,7 +56,7 @@ throttle relay and minor fixes throughout.&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;1.0 Introduction&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The overall goal of this project is to design and implement a cruise control
 system for an instrumented ebike used for conducting bicycle handling
-experiments. A previous blog post &lt;a class="reference external" href="{filename}ebike-speed-controller.rst"&gt;(found here)&lt;/a&gt; outlines the design and analysis of a
+experiments. A previous blog post &lt;a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-design.html"&gt;(found here)&lt;/a&gt; outlines the design and analysis of a
 continuous time PID controller for controlling the speed of the ebike. This
 blog post tells the story of how the designed PID controller was implemented
 digitally on the instrumented ebike through an Arduino Nano and how it fits
@@ -1586,7 +1586,7 @@ bicycle tire testing can be found at: &lt;a class="reference external" href="htt
 selection of the &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/calspan/index.htm"&gt;Calspan reports&lt;/a&gt; on Bicycle and
 Motorcycle Dynamics research. Thanks to the effort of Jim Papadopoulos and Doug
 Milliken!&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-01T00:00:00-07:00</published><updated>2010-05-01T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-01:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
+</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-02T00:00:00-07:00</published><updated>2010-05-02T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-02:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
 Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME
 course Mechatronic System Design II. The lateral stability control is done by
 the concept of &amp;quot;steer into the undesired fall&amp;quot; and comes down to only one line
@@ -1853,7 +1853,7 @@ measured data.&lt;/p&gt;
 &lt;p&gt;The final goal is to create a &lt;em&gt;Robot Bicycle&lt;/em&gt; by adding a steering torque
 controller, to stabilize the bike, and a small elector motor to maintain
 forward speed.&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-01T00:00:00-08:00</published><updated>2003-04-01T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-01:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
+</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-02T00:00:00-08:00</published><updated>2003-04-02T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-02:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
 dynamic behavior of a bicycle. For the analysis we used our software system
 SPACAR.  This software has been developed at Delft University of Technology and
 is capable of doing dynamic analysis of flexible multibody systems. The method …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
