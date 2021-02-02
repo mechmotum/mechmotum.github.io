@@ -27,9 +27,10 @@ Getting Started
 - Setup regular mentorship meetings with your mentor(s). This should at least
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
-- Attend biweekly lab meetings. Ask a lab member for the calendar invite with
-  the video chat link. Add your ideas and votes for meeting topics to the
-  google document (ask Marco for permissions to edit).
+- Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a
+  lab member for the calendar invite with the video chat link. Add your ideas
+  and votes for meeting topics to the google document (ask Marco for
+  permissions to edit).
 - Send out an AIO (see below) before your regular mentor meetings.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Arend or Jason. Ask for a tour of the
@@ -150,6 +151,56 @@ students like to leave the objectives blank and add them after meeting with the
 PI. However you do it, each week the accomplishments should hopefully reflect
 the objectives you wrote the previous week.
 
+Laboratory Meetings
+===================
+
+We meet every two weeks as a lab. Members are expected to attend and
+participate regularly. It's fine to miss a meeting here and there, but avoid
+making that regular. If the meetings are not useful to you, please be proactive
+about helping us make them useful for all.
+
+Past Meeting Topics and Materials
+---------------------------------
+
+.. list-table::
+   :align: center
+   :class: table table-striped
+   :header-rows: 1
+   :widths: 30 10 30 30
+
+   * - Title
+     - Date
+     - Presenters
+     - Materials
+   * - Data Management
+     - 2021-02-11
+     - Leila Alizadehsaravi & Rado Dukalski & Marco Reijne
+     -
+   * - Bicycle Handling Qualities
+     - 2021-01-28
+     - Julie van Vlerken & Jason Moore
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vR9ylhGLUg2wYq7f7QHym6U5vmpG8V6ylZlrvdpk851vsfdPbZDv_XhkBBWslHAAtsX1NPOcfOKjDF1/pub?start=false&loop=false&delayms=3000>`__
+   * - Bicycle Accidents and Crashes
+     - 2021-01-14
+     - Joris Kuiper & Marco Reijne
+     -
+   * - Bicycle Trainers
+     - 2020-12-17
+     - Jelle Haasnoot & Rado Dukalski
+     -
+   * - Introduction to Git and Github
+     - 2020-12-03
+     - Tim Huiskens & Jason Moore
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQ92Mu3StO7JqIzcQGlR6--37gjGG4UNfCpR26RKhO3exIT7GW9BEAki7G43bm18g/pub?start=false&loop=false&delayms=3000>`__
+   * - BMX Racing
+     - 2020-11-19
+     - Jan Groenhuis & Marco Reijne
+     -
+   * - Introductory Meeting
+     - 2020-11-05
+     - NA
+     - NA
+
 Research Ideas
 ==============
 
@@ -244,6 +295,11 @@ Lab members should be able to make use of version control and communication
 through these services. The Software Carpentry `Git lesson`_ is a recommended
 introduction. Create an account on one or both services and request group
 membership.
+
+**Private repositories** are private for a reason. If you gain access to
+private repositories in the two organizations you are expected to keep the
+private and not to distribute the files in any way. Ask your supervisors if
+you'd like to share something that is set to private.
 
 .. _Git lesson: http://swcarpentry.github.io/git-novice/
 
@@ -348,15 +404,15 @@ David G. Wilson, Bicycling Science, 3rd ed. MIT Press, 2004.
    principles for the study of lateral dynamics of bicycles.
 
 .. |Meijaard2007| replace:: J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L. Schwab,
-   “Linearized dynamics equations for the balance and steer of a bicycle: A
-   benchmark and review,” Proceedings of the Royal Society A: Mathematical,
+   "Linearized dynamics equations for the balance and steer of a bicycle: A
+   benchmark and review," Proceedings of the Royal Society A: Mathematical,
    Physical and Engineering Sciences, vol. 463, no. 2084, pp. 1955–1982, Aug.
    2007. https://doi.org/10.1098/rspa.2007.1857
 .. |Astrom2005| replace:: K. J. Åström, R. E. Klein, and A. Lennartsson,
-   “Bicycle dynamics and control: adapted bicycles for education and research,”
+   "Bicycle dynamics and control: adapted bicycles for education and research,"
    IEEE Control Systems Magazine, vol. 25, no. 4, pp. 26–47, Aug. 2005,
    https://doi.org/10.1109/MCS.2005.1499389.
-.. |Sharp2008| replace::  R. S. Sharp, “On the Stability and Control of the Bicycle,”
+.. |Sharp2008| replace::  R. S. Sharp, "On the Stability and Control of the Bicycle,"
    Applied Mechanics Reviews, vol. 61, no. 060803, Oct. 2008,
    https://doi.org/10.1115/1.2983014.
 
@@ -369,27 +425,28 @@ David A. Winter, Biomechanics and Motor Control of Human Movement. John Wiley & 
 Computing and Data
 ------------------
 
-Hadley Wickham, “Tidy Data,” Journal of Statistical Software, 2014, http://vita.had.co.nz/papers/tidy-data.pdf.
+Hadley Wickham, "Tidy Data," Journal of Statistical Software, 2014, http://vita.had.co.nz/papers/tidy-data.pdf.
    Lays out the idea of "tidy data" which is a tabular data format preferred
    and used by a large set of software.
 
 Academia
 --------
 
-Srinivasan Keshav, “How To Read A Paper,” ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007, http://ccr.sigcomm.org/online/files/p83-keshavA.pdf.
+Srinivasan Keshav, "How To Read A Paper," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007, http://ccr.sigcomm.org/online/files/p83-keshavA.pdf.
    Introduces a structured 3 phase method of reading scientific literature.
-“ICMJE | Recommendations | Defining the Role of Authors and Contributors.” http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+"ICMJE | Recommendations | Defining the Role of Authors and Contributors." http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
    The International Committee of Medical Journal Editors created a basic
    guideline for determining who should be considered an author of an academic
    paper. This is a good starting point for making judgement calls on
    authorship.
-“Academia Stack Exchange,” https://academia.stackexchange.com/
+"Academia Stack Exchange," https://academia.stackexchange.com/
    A Q&A website about academia. You can find discussions on many useful topics
    and also participate in the discussions.
 
 Other
 -----
 
-Greg Wilson, “Meetings,” The Third Bit, May 11, 2018. http://third-bit.com/2018/05/11/meetings.html
+Greg Wilson, "Meetings," The Third Bit, May 11, 2018. http://third-bit.com/2018/05/11/meetings.html
    Some nice simple guidelines for making meetings actually useful for the
    participants.
+
