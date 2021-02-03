@@ -446,7 +446,6 @@ Srinivasan Keshav, "How To Read A Paper," ACM SIGCOMM Computer Communication Rev
 Other
 -----
 
-Greg Wilson, "Meetings," The Third Bit, May 11, 2018. http://third-bit.com/2018/05/11/meetings.html
+Greg Wilson, "Meetings," The Third Bit, May 11, 2018. https://third-bit.com/2018/05/11/meetings/
    Some nice simple guidelines for making meetings actually useful for the
    participants.
-
