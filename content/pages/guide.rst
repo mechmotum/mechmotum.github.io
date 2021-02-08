@@ -434,6 +434,9 @@ Academia
 
 Srinivasan Keshav, "How To Read A Paper," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007, http://ccr.sigcomm.org/online/files/p83-keshavA.pdf.
    Introduces a structured 3 phase method of reading scientific literature.
+Guide to writing a literature review for Science and Technology students, Lancaster University, https://lancaster.libguides.com/engineering/literaturereview
+   This is a nice guide that gives starting information for those of you
+   working on a literature study.
 "ICMJE | Recommendations | Defining the Role of Authors and Contributors." http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
    The International Committee of Medical Journal Editors created a basic
    guideline for determining who should be considered an author of an academic
