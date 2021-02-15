@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>  LEGO Mindstorms NXT Based Bicycle Robot | Bicycle Laboratorium
+  <title>  Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance | Bicycle Laboratorium
 </title>
-  <link rel="canonical" href="https://mechmotum.github.io/blog/lego-bicycle.html">
+  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/mpc-bicycle-assist.rst.html">
 
 
   <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
@@ -19,9 +19,8 @@
 
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
         href="https://mechmotum.github.io/feeds/all.atom.xml">
-  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="https://mechmotum.github.io/feeds/research.atom.xml">  
-  <meta name="description" content="Joep Mutsaerts builds a LEGO Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME course Mechatronic System Design II. The lateral stability control is done by the concept of "steer into the undesired fall" and comes down to only one line of code in the controller …">
+  
+  <meta name="description" content="Prior research has shown that tracking performance can be improved in a human-in-the-loop control task by inserting a robot in between the human and the environment and utilizing Model Predictive Control (MPC) with a short even horizon to assist control. The MPC controller was found to be favored by the …">
 
 
 </head>
@@ -54,62 +53,35 @@
 
   <div class="main">
     <div class="container">
-      <h1>  LEGO Mindstorms NXT Based Bicycle Robot
+      <h1>  Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance
 </h1>
       <hr>
-  <article class="article">
-    <header>
-      <ul class="list-inline">
-        <li class="list-inline-item text-muted" title="2010-05-15T00:00:00-07:00">
-          <i class="fas fa-clock"></i>
-          Sat 15 May 2010
-        </li>
-        <li class="list-inline-item">
-          <i class="fas fa-folder-open"></i>
-          <a href="https://mechmotum.github.io/category/research.html">research</a>
-        </li>
-          <li class="list-inline-item">
-            <i class="fas fa-user"></i>
-              <a href="https://mechmotum.github.io/author/arend-l-schwab.html">Arend L. Schwab</a>          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-tag"></i>
-              <a href="https://mechmotum.github.io/tag/bicycle.html">#bicycle</a>,               <a href="https://mechmotum.github.io/tag/schwab-blog.html">#schwab blog</a>          </li>
-      </ul>
-    </header>
+
+<article class="article">
+  <div class="content">
+    <img alt="" class="align-center" src="https://www.researchgate.net/profile/Georgios_Dialynas2/publication/328808185/figure/fig3/AS:690685799841792&#64;1541683735234/Prototype-of-the-steer-by-wire-bicycle-with-steering-and-handlebar-actuators-sensors.jpg" style="width: 600px;" />
+<p>Prior research has shown that tracking performance can be improved in a
+human-in-the-loop control task by inserting a robot in between the human and
+the environment and utilizing Model Predictive Control (MPC) with a short even
+horizon to assist control. The MPC controller was found to be favored by the
+person performing the task to more typically used controllers such as PID. The
+goal of this project is to extend this idea to the more complex task of making
+lane changes on a bicycle.  The student's job will be to develop an MPC based
+assistive control algorithm for the TU Delft Steer-by-Wire bicycle (shown
+above) and test the performance of the controller through a series of treadmill
+based lane change tasks.</p>
+<div class="section" id="how-to-apply">
+<h2>How to Apply</h2>
+<p>Send an email to <a class="reference external" href="mailto:j.k.moore&#64;tudelft.nl">j.k.moore&#64;tudelft.nl</a> with the title of the project in the
+subject line. Include an approximately half-page motivation letter explaining
+why you want to work in the Bicycle Lab on this project, what relevant skills
+you have, and your current resume or C.V.</p>
+</div>
+
+  </div>
+</article>
 
 
-    <div class="content">
-      <p><a class="reference external" href="mailto:J.T.M.Mutsaerts&#64;student.tudelft.nl?subject=NXTbike-GS">Joep Mutsaerts</a> builds a LEGO
-Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME
-course Mechatronic System Design II. The lateral stability control is done by
-the concept of &quot;steer into the undesired fall&quot; and comes down to only one line
-of code in the controller: SteerMotorVoltage=8*RearFrameLeanRate.</p>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/o7nSQ2ycGX4" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe><p>Here you can download the design (<a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike-GS%20Design.pdf">NXTbike-GS Design.pdf</a>) and the
-building instructions (<a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike_GS_Building_Instructions.pdf">NXTbike_GS_Building_Instructions.pdf</a>).</p>
-
-    </div>
-  </article>
-  <hr>
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function() {
-      this.page.url = 'https://mechmotum.github.io/blog/lego-bicycle.html';
-      this.page.identifier = 'lego-mindstorms-nxt-based-bicycle-robot';
-    };
-    (function() {
-      var d = document;
-      var s = d.createElement('script');
-      s.src = '//mechmotum.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript class="text-muted">
-    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-  </noscript>
     </div>
   </div>
 
