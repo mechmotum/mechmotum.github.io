@@ -4,7 +4,7 @@ Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning
 
 :date: 2021-01-29
 :status: hidden
-:slug: jobs/msc/bicycle-crash-video-kinematics.rst
+:slug: jobs/msc/bicycle-crash-video-kinematics
 
 .. list-table::
    :class: table

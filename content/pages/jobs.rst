@@ -61,6 +61,9 @@ in finding students for [#]_:
    * - Proposal Title & Info
      - Date posted
      - Partners
+   * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
+     - 2021-02-15
+     -
    * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
      - 2021-02-15
      - Dr. Laura Marchal-Crespo (TU Delft, CoR)
@@ -72,7 +75,7 @@ in finding students for [#]_:
      - Jamaican Bobsleigh and Skeleton Federation
    * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
      - 2020-11-17
-     - Dr. Rene van Paassen
+     - Dr. Rene van Paassen (TU Delft, Aerospace)
    * - `Assessment of Mountain Biking Balance for Physiotherapy Interventions <https://objects-us-east-1.dream.io/mechmotum/lunex-tud-bicycle-physio-msc.pdf>`_
      - 2020-11-11
      - `LUNEX University`_
@@ -106,12 +109,15 @@ in finding students for [#]_:
    * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
      - 2020-09-10
      - USSEA_
+   * - `Squiggly Bicycle Routes <{filename}/pages/jobs/squiggly-bicycle-routes.rst>`_
+     - 2020-09-10
+     - Ted Buehler (Portland, USA)
 
-**Past Projects**
+**Previously Selected Projects**
 
 .. list-table::
    :header-rows: 1
-   :widths: 60 15 20 15
+   :widths: 50 15 20 25
    :class: table table-striped table-bordered
 
    * - Proposal Title & Info
