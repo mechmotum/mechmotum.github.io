@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>  Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning | Bicycle Laboratorium
+  <title>  Design of an Active Tracking Treadmill for Single Track Vehicle Experiments | Bicycle Laboratorium
 </title>
-  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/bicycle-crash-video-kinematics.rst.html">
+  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/active-bicycle-treadmill.html">
 
 
   <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
@@ -20,7 +20,7 @@
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
         href="https://mechmotum.github.io/feeds/all.atom.xml">
   
-  <meta name="description" content="Pose estimation example using OpenPose. Example bicycle crash It is extremely difficult to obtain motion data of bicycle crashes for a number of reasons. But this kind of data would be very useful in understanding why falls and crashes occur during bicycling. Understanding the mechanisms are key to preventing injuries …">
+  <meta name="description" content="Image of Motek Medical's CAREN system providing and actuated measurement treadmill for walking, running, and other human motion. We intended to design something similar for low speed single track vehicles. Description The bicycle lab is interested in developing an actuated treadmill for slow speed single track vehicle (bicycles, scooters, mopeds …">
 
 
 </head>
@@ -53,47 +53,45 @@
 
   <div class="main">
     <div class="container">
-      <h1>  Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning
+      <h1>  Design of an Active Tracking Treadmill for Single Track Vehicle Experiments
 </h1>
       <hr>
 
 <article class="article">
   <div class="content">
-    <table border="1" class="table docutils">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody valign="top">
-<tr><td><img alt="openposegif" src="https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/.github/media/dance_foot.gif" style="width: 400px;" /></td>
-<td><div style="text-align: center;">
-<iframe
-  width="400"
-  height="225"
-  src="https://www.youtube.com/embed/rEzFIQmDJYU"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-</div></td>
-</tr>
-<tr><td>Pose estimation example using OpenPose.</td>
-<td>Example bicycle crash</td>
-</tr>
-</tbody>
-</table>
-<p>It is extremely difficult to obtain motion data of bicycle crashes for a number
-of reasons. But this kind of data would be very useful in understanding why
-falls and crashes occur during bicycling.  Understanding the mechanisms are key
-to preventing injuries and death of bicyclists. It is a bit easier to find and
-collect video data of crashes and there are a number of new technologies that
-make it easier to extract kinematic motion and pose data from videos using
-machine learning (e.g. <a class="reference external" href="http://www.mousemotorlab.org/deeplabcut">DeepLabCut</a>, <a class="reference external" href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a>).  The TU Delft Bicycle lab has a
-reasonably large set of training data of typical (non-crash) bicycling that can
-be used to build the video to kinematics predictive models. The goal of this
-project would be to collect a large set of bicycle crash videos, build a model
-that can extract the kinematics of both the bicycle and the rider, and show
-that accurate kinematics can be acquired.</p>
+    <div class="figure align-center">
+<img alt="" src="https://knowledge.motekmedical.com/wp-content/uploads/2018/12/CAREN-Extended-1.jpg" style="width: 400px;" />
+<p class="caption">Image of Motek Medical's CAREN system providing and actuated measurement
+treadmill for walking, running, and other human motion. We intended to
+design something similar for low speed single track vehicles.</p>
+</div>
+<div class="section" id="description">
+<h2>Description</h2>
+<p>The bicycle lab is interested in developing an actuated treadmill for slow
+speed single track vehicle (bicycles, scooters, mopeds, motorcycles, etc.)
+balance and control experiments. To allow for maneuvers where a change in
+heading occur and measurement of ground reaction forces at each tire contact
+patch active control of a moving base treadmill is required. The desired system
+should have these features:</p>
+<ul class="simple">
+<li>dual, tandem forces plates under the treadmill belts capable of accurate
+lateral, longitudinal, and normal forces at each tire contact patch</li>
+<li>real time heading of the vehicle is accurately measured for use in a heading
+tracking controller</li>
+<li>the treadmill itself can yaw relative the fixed ground atop an actuated turn
+table</li>
+<li>a heading tracking controller that commands the treadmill's yaw angle to
+match that of the rider to an adequate bandwidth and amplitude for typical
+navigational heading changes</li>
+<li>(optionally) the ability to pitch the treadmill for longitudinal
+stabilization and/or for mimicking grade changes of terrain</li>
+</ul>
+<p>The student will be responsible for ensuring that the heading dynamics are
+realistic (for limited heading maneuvers) for the bicycle rider. This will
+likely require limiting yaw accelerations and designing washout algorithms due
+to any machine limitations and mismatches with the actual dynamics of an on
+road experience.</p>
+</div>
 <div class="section" id="how-to-apply">
 <h2>How to Apply</h2>
 <p>Send an email to <a class="reference external" href="mailto:j.k.moore&#64;tudelft.nl">j.k.moore&#64;tudelft.nl</a> with the title of the project in the

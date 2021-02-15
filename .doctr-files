@@ -91,7 +91,8 @@
 ./guide.html
 ./index.html
 ./jobs.html
-./jobs/msc/bicycle-crash-video-kinematics.rst.html
+./jobs/msc/active-bicycle-treadmill.html
+./jobs/msc/bicycle-crash-video-kinematics.html
 ./jobs/msc/bobsleigh-simulator.html
 ./jobs/msc/determining-dynamics-perception-thresholds-of-bicycles.html
 ./jobs/msc/fast-musculoskeletal-simulations.html
@@ -102,6 +103,7 @@
 ./jobs/msc/robustness-of-equivalent-fall-height.html
 ./jobs/msc/rowing-performance-metrics-using-minimal-sensors.html
 ./jobs/msc/skateboarding-learning-safety.html
+./jobs/msc/squiggly-routes.html
 ./jobs/msc/truebike-calibration.html
 ./members.html
 ./products.html
