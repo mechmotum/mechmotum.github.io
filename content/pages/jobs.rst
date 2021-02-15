@@ -41,8 +41,9 @@ MSc tracks in the BME department.
 
 If you would like to work on a project for your Master's thesis in the lab
 please send a letter explaining your interest in the lab, CV or resume, and any
-other relevant information to j.k.moore@tudelft.nl. Include whether you have
-been accepted to the University or have not applied yet.
+other relevant information to j.k.moore@tudelft.nl and a.l.schwab@tudelft.nl.
+Include whether you are a current student, have been accepted to the
+University, or have not applied yet.
 
 MSc Project Proposals and Ideas
 -------------------------------
@@ -50,84 +51,85 @@ MSc Project Proposals and Ideas
 The following list provides the current formal MSc projects we are interested
 in finding students for [#]_:
 
+**Available Projects**
+
+.. list-table::
+   :header-rows: 1
+   :widths: 60 15 35
+   :class: table table-striped table-bordered
+
+   * - Proposal Title & Info
+     - Date posted
+     - Partners
+   * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
+     - 2021-02-15
+     - Dr. Laura Marchal-Crespo (TU Delft, CoR)
+   * - `Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning <{filename}/pages/jobs/bicycle-crash-video-kinematics.rst>`_
+     - 2021-01-29
+     -
+   * - `Development of a Bobsleigh Simulator for Training and Outreach in Jamaica <{filename}/pages/jobs/bobsleigh-simulator.rst>`_
+     - 2020-01-13
+     - Jamaican Bobsleigh and Skeleton Federation
+   * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
+     - 2020-11-17
+     - Dr. Rene van Paassen
+   * - `Assessment of Mountain Biking Balance for Physiotherapy Interventions <https://objects-us-east-1.dream.io/mechmotum/lunex-tud-bicycle-physio-msc.pdf>`_
+     - 2020-11-11
+     - `LUNEX University`_
+   * - `Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions <{filename}/pages/jobs/fast-musculoskeletal-simulations.rst>`_
+     - 2020-09-21
+     -
+   * - `How fast will my open source code break? <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
+     - 2020-09-18
+     -
+   * - `Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology <{filename}/pages/jobs/truebike-calibration.rst>`_
+     - 2020-09-10
+     - TrueKinetix_
+   * - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
+     - 2020-09-10
+     - Dr. Mont Hubbard (University of California, Davis)
+   * - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
+     - 2020-09-10
+     - Dr. Paul Crawford (Hegemony Tech)
+   * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
+     - 2020-09-10
+     - Gazelle_
+   * - `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
+     - 2020-09-10
+     -
+   * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
+     - 2020-09-10
+     - TrueKinetix_
+   * - `Understanding Disc Brake Squeal in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`_
+     - 2020-09-10
+     - Gazelle_
+   * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
+     - 2020-09-10
+     - USSEA_
+
+**Past Projects**
+
 .. list-table::
    :header-rows: 1
    :widths: 60 15 20 15
    :class: table table-striped table-bordered
 
-   * - Project Proposal Title
+   * - Proposal Title & Info
      - Date posted
      - Partners
-     - More information
-   * - Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning
-     - 2021-01-29
-     -
-     - `Web page <{filename}/pages/jobs/bicycle-crash-video-kinematics.rst>`__
-   * - Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety
-     - 2020-09-10
-     - USSEA_
-     - `Web page <{filename}/pages/jobs/skateboarding-learning-safety.rst>`__
-   * - Adaptive Speed Control in Cycling
+     - Student
+   * - `Adaptive Speed Control in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`_
      - 2020-09-10
      - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`__
-   * - Assessment of Mountain Biking Balance for Physiotherapy Interventions
-     - 2020-11-11
-     - `LUNEX University`_
-     - `PDF <https://objects-us-east-1.dream.io/mechmotum/lunex-tud-bicycle-physio-msc.pdf>`__
-   * - Bicycle Design, Dynamics, and Handling
+     - Junda Wu
+   * - `Early Warning and Crash Detection in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc3EarlyWarningCrashDetection.pdf>`_
      - 2020-09-10
      - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc5DesignRulesHandlingQualities.pdf>`__
-   * - Bicycle Load Cases and Road Quality
+     - Joris Kuiper
+   * - `Bicycle Design, Dynamics, and Handling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc5DesignRulesHandlingQualities.pdf>`_
      - 2020-09-10
      - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`__
-   * - Development of a Bobsleigh Simulator for Training and Outreach in Jamaica
-     - 2020-01-13
-     - Jamaican Bobsleigh and Skeleton Federation
-     - `Web page <{filename}/pages/jobs/bobsleigh-simulator.rst>`__
-   * - Determining Dynamics Perception Thresholds of Bicycles
-     - 2020-11-17
-     - Dr. Rene van Paassen
-     - `Web page
-       <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`__
-   * - Early Warning and Crash Detection in Cycling
-     - 2020-09-10
-     - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc3EarlyWarningCrashDetection.pdf>`__
-   * - Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology
-     - 2020-09-10
-     - TrueKinetix_
-     - `Web page <{filename}/pages/jobs/truebike-calibration.rst>`__
-   * - How fast will my open source code break?
-     - 2020-09-18
-     -
-     - `Web page <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
-   * - How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps?
-     - 2020-09-10
-     - Dr. Mont Hubbard
-     - `Web page <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`__
-   * - Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors
-     - 2020-09-10
-     - Dr. Paul Crawford
-     - `Web page <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`__
-   * - Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions
-     - 2020-09-21
-     -
-     - `Web page <{filename}/pages/jobs/fast-musculoskeletal-simulations.rst>`__
-   * - Optimization Based Bicycle Design For Equivalent Dynamics
-     - 2020-09-10
-     -
-     - `Web page <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`__
-   * - Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling
-     - 2020-09-10
-     - TrueKinetix_
-     - `Web page <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`__
-   * - Understanding Disc Brake Squeal in Cycling
-     - 2020-09-10
-     - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`__
+     - Julie van Vlerken
 
 .. _Gazelle: https://www.gazelle.nl/
 .. _LUNEX University: https://www.lunex-university.net/
