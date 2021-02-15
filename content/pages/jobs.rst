@@ -88,27 +88,27 @@ in finding students for [#]_:
    * - `Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology <{filename}/pages/jobs/truebike-calibration.rst>`_
      - 2020-09-10
      - TrueKinetix_
-   * - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
-     - 2020-09-10
-     - Dr. Mont Hubbard (University of California, Davis)
-   * - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
-     - 2020-09-10
-     - Dr. Paul Crawford (Hegemony Tech)
-   * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
-     - 2020-09-10
-     - Gazelle_
-   * - `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
-     - 2020-09-10
-     -
    * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
      - 2020-09-10
      - TrueKinetix_
+   * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
+     - 2020-09-10
+     - Gazelle_
    * - `Understanding Disc Brake Squeal in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`_
      - 2020-09-10
      - Gazelle_
    * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
      - 2020-09-10
      - USSEA_
+   * - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
+     - 2020-09-10
+     - Dr. Mont Hubbard (University of California, Davis)
+   * - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
+     - 2020-09-10
+     - Dr. Paul Crawford (Hegemony Tech)
+   * - `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
+     - 2020-09-10
+     -
    * - `Squiggly Bicycle Routes <{filename}/pages/jobs/squiggly-bicycle-routes.rst>`_
      - 2020-09-10
      - Ted Buehler (Portland, USA)
