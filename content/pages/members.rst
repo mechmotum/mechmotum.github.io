@@ -73,7 +73,7 @@ Masters of Science Students
 
    * - |headshot-wu-junda|
      - Junda Wu [TUD, Jan 2021-present]
-   * - |headshot-missing|
+   * - |headshot-van-de-velde-shannon|
      - Shannon van de Velde [TUD, Dec 2020-present]
    * - |headshot-kuiper-joris|
      - Joris Kuiper [TUD, Sep 2020-present]
@@ -103,6 +103,10 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-haasnoot-jelle| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png
+   :width: 100px
+   :height: 133px
+
+.. |headshot-van-de-velde-shannon| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-de-velde-shannon.jpg
    :width: 100px
    :height: 133px
 
