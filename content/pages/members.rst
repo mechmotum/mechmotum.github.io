@@ -5,14 +5,14 @@ Principal Investigators
 =======================
 
 .. list-table::
-   :class: table table-striped
-   :width: 60%
-   :widths: 20 80
+   :class: table
+   :width: 100%
+   :widths: 10 40 10 40
    :align: center
 
    * - |headshot-arend-schwab|
      - `Arend L. Schwab`_, Associate Professor
-   * - |headshot-moore-jason|
+     - |headshot-moore-jason|
      - `Jason K. Moore`_, Assistant Professor
 
 .. |headshot-arend-schwab| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-arend-schwab.jpg
@@ -30,7 +30,7 @@ Postdoctoral Researchers
 ========================
 
 .. list-table::
-   :class: table table-striped
+   :class: table
    :width: 60%
    :widths: 20 80
    :align: center
@@ -46,14 +46,14 @@ PhD Candidates
 ==============
 
 .. list-table::
-   :class: table table-striped
-   :width: 60%
-   :widths: 20 80
+   :class: table
+   :width: 100%
+   :widths: 10 40 10 40
    :align: center
 
    * - |headshot-missing|
      - `Marco Reijne`_ [TUD, April 2018-present]
-   * - |headshot-dukalski-rado|
+     - |headshot-dukalski-rado|
      - Rado Dukalski [TUD]
 
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
@@ -66,25 +66,30 @@ Masters of Science Students
 ===========================
 
 .. list-table::
-   :class: table table-striped
-   :width: 60%
-   :widths: 20 80
+   :class: table
+   :width: 100%
+   :widths: 10 40 10 40
    :align: center
 
    * - |headshot-wu-junda|
-     - Junda Wu [TUD, Jan 2021-present]
-   * - |headshot-van-de-velde-shannon|
+     - | Junda Wu [TUD, Jan 2021-present]
+       | Adaptive Speed Control in Cycling
+     - |headshot-van-de-velde-shannon|
      - Shannon van de Velde [TUD, Dec 2020-present]
    * - |headshot-kuiper-joris|
-     - Joris Kuiper [TUD, Sep 2020-present]
-   * - |headshot-missing|
-     - Julie van Vlerken [TUD, Sep 2020-present]
+     - | Joris Kuiper [TUD, Sep 2020-present]
+       | Early Warning and Crash Detection in Cycling
+     - |headshot-missing|
+     - | Julie van Vlerken [TUD, Sep 2020-present]
+       | Bicycle Design, Dynamics, and Handling
    * - |headshot-haasnoot-jelle|
      - Jelle Haasnoot [TUD]
-   * - |headshot-groenhuis-jan|
+     - |headshot-groenhuis-jan|
      - Jan Groenhuis [TUD]
    * - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
+     -
+     -
 
 .. |headshot-wu-junda| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-wu-junda.png
    :width: 100px
@@ -114,18 +119,18 @@ Research Assistants
 ===================
 
 .. list-table::
-   :class: table table-striped
-   :width: 60%
-   :widths: 20 80
+   :class: table
+   :width: 100%
+   :widths: 10 40 10 40
    :align: center
 
    * - |headshot-missing|
      - Mandeepika Saini [UCD, Dec 2020-present]
-   * - |headshot-missing|
+     - |headshot-missing|
      - Patrick Mackle [UCD, Dec 2020-present]
    * - |headshot-missing|
      - Tim Stewart [UCD, Dec 2020-present]
-   * - |headshot-missing|
+     - |headshot-missing|
      - Noah Sanders [UCD, Jan 2020-present]
 
 .. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
