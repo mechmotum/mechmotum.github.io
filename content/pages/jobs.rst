@@ -61,6 +61,9 @@ in finding students for [#]_:
    * - Proposal Title & Info
      - Date posted
      - Partners
+   * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
+     - 2021-02-23
+     - Dr. Patrick Forbes @ Erasmus Medical Center
    * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
      - 2021-02-15
      -
