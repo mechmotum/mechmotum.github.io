@@ -22,21 +22,21 @@ muscle's involvement in correcting for vestibular disturbances. If, however, we
 are externally supported during walking, the functional use of these vestibular
 inputs diminishes and vestibular-evoked responses are not observed
 [Tisserand2018]_. In contrast, much less is known about how vestibular signals
-contribute to balance and several questions arise. What muscles are actively
-involved in correcting for balance during bicycling? Is steering control more
-important than upper body stabilizing mechanisms (i.e. inertia) for keeping the
-body upright? Does the vestibular control of balance for biking vary across the
-cycling phase? Does the vestibular input to bike balance change with cycling
-speeds? This project aims to answer these questions (and more!) to establish
-the working principles of the vestibular control of cycling. First, this
-project will quantify the activity of muscles believed to contribute to balance
-control when cycling. Second, a mild electrical stimulus delivered behind the
-ears to manipulate normal vestibular function [Kwan2019]_ will be used to track
-vestibular contributions during cycling. By correlating the stimulus to
-measured muscle activity we will be able to monitor vestibular contributions
-throughout the cycling pattern and across conditions. These results will reveal
-how vestibular signal contribute to our ability to remain upright while
-cycling.
+contribute to balance during biking and several questions arise. What muscles
+are actively involved in correcting for balance during bicycling? Is steering
+control more important than upper body stabilizing mechanisms (i.e. inertia)
+for keeping the body upright? Does the vestibular control of balance for
+bicycling vary across the cycling phase? Does the vestibular input to bike
+balance change with cycling speeds? This project aims to answer these questions
+(and more!) to establish the working principles of the vestibular control of
+cycling. First, this project will quantify the activity of muscles believed to
+contribute to balance control when cycling. Second, a mild electrical stimulus
+delivered behind the ears to manipulate normal vestibular function [Kwan2019]_
+will be used to track vestibular contributions during cycling. By correlating
+the stimulus to measured muscle activity we will be able to monitor vestibular
+contributions throughout the cycling pattern and across conditions. These
+results will reveal how vestibular signal contribute to our ability to remain
+upright while cycling.
 
 Approach
 ========
