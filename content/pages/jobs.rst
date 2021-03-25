@@ -94,6 +94,9 @@ in finding students for [#]_:
    * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
      - 2020-09-10
      - TrueKinetix_
+   * - `Adaptive Speed Control in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`_
+     - 2020-09-10
+     - Gazelle_
    * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
      - 2020-09-10
      - Gazelle_
@@ -127,10 +130,6 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
-   * - `Adaptive Speed Control in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`_
-     - 2020-09-10
-     - Gazelle_
-     - Junda Wu
    * - `Early Warning and Crash Detection in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc3EarlyWarningCrashDetection.pdf>`_
      - 2020-09-10
      - Gazelle_

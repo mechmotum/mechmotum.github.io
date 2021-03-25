@@ -71,29 +71,20 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-wu-junda|
-     - | Junda Wu [TUD, Jan 2021-present]
-       | Adaptive Speed Control in Cycling
-     - |headshot-van-de-velde-shannon|
+   * - |headshot-van-de-velde-shannon|
      - Shannon van de Velde [TUD, Dec 2020-present]
-   * - |headshot-kuiper-joris|
+     - |headshot-kuiper-joris|
      - | Joris Kuiper [TUD, Sep 2020-present]
        | Early Warning and Crash Detection in Cycling
-     - |headshot-missing|
+   * - |headshot-missing|
      - | Julie van Vlerken [TUD, Sep 2020-present]
        | Bicycle Design, Dynamics, and Handling
-   * - |headshot-haasnoot-jelle|
+     - |headshot-haasnoot-jelle|
      - Jelle Haasnoot [TUD]
-     - |headshot-groenhuis-jan|
+   * - |headshot-groenhuis-jan|
      - Jan Groenhuis [TUD]
-   * - |headshot-huiskens-tim|
+     - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
-     -
-     -
-
-.. |headshot-wu-junda| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-wu-junda.png
-   :width: 100px
-   :height: 133px
 
 .. |headshot-kuiper-joris| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg
    :width: 100px
@@ -146,6 +137,7 @@ PhD Candidates
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020]
    - Jodi Kooijman [TUD]
 Masters of Science Students
+   - Junda Wu [TUD, Jan 2021-Mar 2021]
    - van der Niet, A.M. [TUD, Sep 2020], Thesis: `Free-trajectory steady motion
      control optimisation for the descent of elite cyclists
      <http://resolver.tudelft.nl/uuid:47dfe9db-e2ef-4e03-a0d1-1494fd808446>`_
