@@ -22,7 +22,8 @@ a:hover {
 }
 
 blockquote {
-  color: #818a91;
+/* blockquotes are a bit too light */
+/*  color: #818a91; */
   font-style: italic;
 }
 
