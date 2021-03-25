@@ -172,6 +172,14 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
+   * - BioMechanical MSc Guide Review
+     - 2021-03-25
+     - Eline van der Kruk, Jan Groenhuis, & Jason Moore
+     -
+   * - Bicycle-rider perturbations & Bump’em
+     - 2021-03-11
+     - Jelle Haasnoot & Shannon van de Velde
+     -
    * - Data Management
      - 2021-02-11
      - Leila Alizadehsaravi & Rado Dukalski & Marco Reijne
@@ -361,16 +369,20 @@ We regularly participate in several research communities.
 Online
 ------
 
-- The `Biomech-L forum <https://biomch-l.isbweb.org>`_ is a very good way to
-  connect to the international Biomechanics community.
+`Biomech-L forum <https://biomch-l.isbweb.org>`_
+  A 30+ year old public discussion forum to connect to the international
+  Biomechanics community. Lot's of great scientific discussions.
+`Single Track Vehicle Dynamics listserv <https://groups.google.com/g/stvdy>`_
+   Public email based forum for discussing the dynamics and control of single
+   track vehicles.
 
 Conferences
 -----------
 
 - Bicycle and Motorcycle Dynamics Conference: http://bmdconf.org/
+- International Cycling Safety Conference: http://cyclingsafety.net/
 - ECCOMAS Multibody Dynamics Conference
 - EuroSciPy: https://www.euroscipy.org/
-- International Cycling Safety Conference: http://cyclingsafety.net/
 - JupyterCon: https://jupytercon.com/
 - SciPy: https://conference.scipy.org/
 
@@ -381,14 +393,18 @@ Your projects will vary and you'll have to read a variety of different papers
 and resources, but this list provides a general set of papers that it is good
 for all lab members to read.
 
-Bicycle
--------
+Introduction to Bicycle Engineering and Science
+-----------------------------------------------
 
 Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
    Science of competitive cycling.
 David G. Wilson, Bicycling Science, 3rd ed. MIT Press, 2004.
    Bicycling Science is the authorative introduction text to the science and
    engineering of bicycles.
+
+Introduction to Bicycle Dynamics
+--------------------------------
+
 |Astrom2005|
    IEEE control systems magazine article that introduces bicycle dynammics with
    a few different models and nice explanation of important control principles.
@@ -425,6 +441,12 @@ David A. Winter, Biomechanics and Motor Control of Human Movement. John Wiley & 
 Computing and Data
 ------------------
 
+`Software Carpentry Lessons <https://software-carpentry.org/lessons/>`_
+   General introductions to scientific computing and best practices in
+   reproducible computational science.
+`Scipy Lecture Notes <https://scipy-lectures.org/>`_
+   Nice, collaboratively developed, starting point for scientific computing
+   with Python.
 Hadley Wickham, "Tidy Data," Journal of Statistical Software, 2014, http://vita.had.co.nz/papers/tidy-data.pdf.
    Lays out the idea of "tidy data" which is a tabular data format preferred
    and used by a large set of software.
@@ -432,12 +454,16 @@ Hadley Wickham, "Tidy Data," Journal of Statistical Software, 2014, http://vita.
 Academia
 --------
 
-Srinivasan Keshav, "How To Read A Paper," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007, http://ccr.sigcomm.org/online/files/p83-keshavA.pdf.
+Srinivasan Keshav, "`How To Read A Paper <http://ccr.sigcomm.org/online/files/p83-keshavA.pdf>`_," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007.
    Introduces a structured 3 phase method of reading scientific literature.
-Guide to writing a literature review for Science and Technology students, Lancaster University, https://lancaster.libguides.com/engineering/literaturereview
+`Guide to writing a literature review for Science and Technology students <https://lancaster.libguides.com/engineering/literaturereview>`_, Lancaster University
    This is a nice guide that gives starting information for those of you
    working on a literature study.
-"ICMJE | Recommendations | Defining the Role of Authors and Contributors." http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+`Writing a Scientific-Style Thesis: A Guide for Graduate Research Students <https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/Writing-a-Scientific-Thesis.pdf>`_, NUI Galway, Dr. Dermot Burns, 2017
+   A comprehensive guide to writing a thesis.
+"`The Science of Scientific Writing <https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf>`_" by George D. Gopen and Judith A. Swan, 1990
+   Quick read that gives tips to improve your scientific writing style.
+"`ICMJE | Recommendations | Defining the Role of Authors and Contributors <http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html>`_."
    The International Committee of Medical Journal Editors created a basic
    guideline for determining who should be considered an author of an academic
    paper. This is a good starting point for making judgement calls on
