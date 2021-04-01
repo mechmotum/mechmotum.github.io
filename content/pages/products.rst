@@ -69,6 +69,9 @@ Conference Proceedings
 Preprints
 =========
 
+#. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Analysis and Ethical
+   Design of Terrain Park Jumps for Snow Sports," Preprint, Mar. 2021.
+   [Online]. Available: https://doi.org/10.31224/osf.io/sq7u9.
 #. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
    R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
    fusion for estimating competitive rowing kinematic metrics.
