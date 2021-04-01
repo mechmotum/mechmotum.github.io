@@ -134,9 +134,15 @@ hr {
 /*--------------------------------------------------------------------------*/
 /* Edits made for the mechmotum site                                        */
 
+/* Ensures that ..figure:: aligns to the center. */
 .align-center img {
   display: block;
   margin: 0 auto;
+}
+
+/* Ensures that ..figure:: captions align to the center. */
+.align-center .caption {
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
