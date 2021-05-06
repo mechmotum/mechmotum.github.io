@@ -172,6 +172,19 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
+   * - Optimal Control in Biomechanics
+     - 2021-05-03
+     - Joris Ravenhorst, Jan Groenhuis, and Jason Moore
+     - `Slides
+       <https://docs.google.com/presentation/d/e/2PACX-1vRDNSb90BX_Nnd0VK8cZE60mNj0AI8Vo4r5_CPnnKRy15_p25l7XwxULesIyxyhQl0V9eMQCnS5_TkZ/pub?start=false&loop=false&delayms=3000>`_
+   * - Balance and stability in elderly
+     - 2021-04-22
+     - Leila Alizadehsaravi
+     -
+   * - Introduction to Eline's Lab
+     - 2021-04-07
+     - Eline de Kruk
+     -
    * - BioMechanical MSc Guide Review
      - 2021-03-25
      - Eline van der Kruk, Jan Groenhuis, & Jason Moore
