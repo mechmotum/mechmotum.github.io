@@ -2947,7 +2947,7 @@ operation.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/StaticBicycleSimulator.png"&gt;&lt;img alt="static bicycle simulator" src="http://bicycle.tudelft.nl/schwab/Bicycle/StaticBicycleSimulator%20small.png" style="width: 234px; height: 184px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/StaticBicycleSimulator.png"&gt;&lt;img alt="static bicycle simulator" src="http://bicycle.tudelft.nl/schwab/Bicycle/StaticBicycleSimulator%20small.png" style="width: 234px; height: 184px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;iframe width="560" height="315"
 src="https://www.youtube.com/embed/XsQ3_LYgipM" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
@@ -2975,7 +2975,7 @@ Training Network (ITN) on &lt;em&gt;Moto&lt;/em&gt;rcycle &lt;em&gt;R&lt;/em&gt;
 from University of Firenze (UNIFI), Florence, Italy.  More info on this ITN can
 be found at: &lt;a class="reference external" href="http://www.motorist-ptw.eu/"&gt;http://www.motorist-ptw.eu/&lt;/a&gt;&lt;/p&gt;
 &lt;a class="reference external image-reference" href="http://www.motorist-ptw.eu/"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/MOTORISTlogo.jpg" style="width: 115px; height: 76px;" /&gt;&lt;/a&gt;
-</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-01T00:00:00-07:00</published><updated>2013-05-01T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-01:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
+</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-06T00:00:00-07:00</published><updated>2013-05-06T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-06:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
 MODELING THE MECHANICAL PROPERTIES OF BICYCLE TIRES&lt;/em&gt;, PhD thesis, The
 University of Wisconsin-Milwaukee, May 2013.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/dressel2013measuring.pdf"&gt;pdf(30Mb)&lt;/a&gt;&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category><category term="phd"></category></entry><entry><title>Nick Appelman Successfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/appelman-msc-thesis.html" rel="alternate"></link><published>2012-11-27T00:00:00-08:00</published><updated>2012-11-27T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2012-11-27:/blog/appelman-msc-thesis.html</id><summary type="html">&lt;p&gt;Nick Appelman successfully defended his Engineering Dynamics MSc thesis on:
@@ -3078,7 +3078,7 @@ Milliken!&lt;/p&gt;
 &lt;blockquote&gt;
 M.V.C. Evertse, &lt;em&gt;Rider Analysis using a fully instrumented motorcycle&lt;/em&gt;, MSc
 thesis, Delft University of Technology, May 2010.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/evertse2010riderMinApp.pdf"&gt;(pdf 1.9Mb)&lt;/a&gt;&lt;/blockquote&gt;
-</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-01T00:00:00-07:00</published><updated>2010-05-01T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-01:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
+</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-06T00:00:00-07:00</published><updated>2010-05-06T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-06:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
 Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME
 course Mechatronic System Design II. The lateral stability control is done by
 the concept of &amp;quot;steer into the undesired fall&amp;quot; and comes down to only one line
@@ -3092,7 +3092,7 @@ src="https://www.youtube.com/embed/o7nSQ2ycGX4" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;Here you can download the design (&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike-GS%20Design.pdf"&gt;NXTbike-GS Design.pdf&lt;/a&gt;) and the
 building instructions (&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike_GS_Building_Instructions.pdf"&gt;NXTbike_GS_Building_Instructions.pdf&lt;/a&gt;).&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-01T00:00:00-08:00</published><updated>2010-02-01T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-01:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
+</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-06T00:00:00-08:00</published><updated>2010-02-06T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-06:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
 track vehicle dynamics&lt;/a&gt;.&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>VPRO Noorderlicht Nieuws on Our Bicycle Treadmill Experiments</title><link href="https://mechmotum.github.io/blog/vpro-noorderlicht-niews.html" rel="alternate"></link><published>2009-07-16T00:00:00-07:00</published><updated>2009-07-16T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2009-07-16:/blog/vpro-noorderlicht-niews.html</id><content type="html">&lt;p&gt;VPRO Noorderlicht Nieuws made a 5 minute item out of our Bicycle Treadmill
 experiments. The interview is in Dutch:&lt;/p&gt;
@@ -3176,8 +3176,8 @@ the experiments:&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/arendcycling301505.wmv"&gt;&lt;img alt="image17" src="http://bicycle.tudelft.nl/schwab/Bicycle/arendcycling301505_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/arendtowing301505.wmv"&gt;&lt;img alt="image18" src="http://bicycle.tudelft.nl/schwab/Bicycle/arendtowing301505_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/arendcycling301505.wmv"&gt;&lt;img alt="image17" src="http://bicycle.tudelft.nl/schwab/Bicycle/arendcycling301505_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/arendtowing301505.wmv"&gt;&lt;img alt="image18" src="http://bicycle.tudelft.nl/schwab/Bicycle/arendtowing301505_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Normal Cycling&lt;/td&gt;
 &lt;td&gt;Towing&lt;/td&gt;
@@ -3185,7 +3185,7 @@ the experiments:&lt;/p&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/arendcycling301505.wmv"&gt;arendcycling301505.wmv&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/arendtowing301505.wmv"&gt;arendtowing301505.wmv&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/Jasoncyclingperturbing301505.wmv"&gt;&lt;img alt="image19" src="http://bicycle.tudelft.nl/schwab/Bicycle/Jasoncyclingperturbing301505_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/Jasoncyclingperturbing301505.wmv"&gt;&lt;img alt="image19" src="http://bicycle.tudelft.nl/schwab/Bicycle/Jasoncyclingperturbing301505_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&amp;nbsp;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Cycling and Perturbing&lt;/td&gt;
@@ -3217,15 +3217,15 @@ weave speed on the treadmill, as you can see from the three videos below:&lt;/p&
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/test_V12_M4.wmv"&gt;&lt;img alt="image20" src="http://bicycle.tudelft.nl/schwab/Bicycle/test_V12_M4_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V16M5.wmv"&gt;&lt;img alt="image21" src="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V16M5_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/test_V12_M4.wmv"&gt;&lt;img alt="image20" src="http://bicycle.tudelft.nl/schwab/Bicycle/test_V12_M4_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V16M5.wmv"&gt;&lt;img alt="image21" src="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V16M5_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;12 km/h: Unstable &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/test_V12_M4.wmv"&gt;(wmv 5.8
 Mb)&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;16 km/h: Stable &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V16M5.wmv"&gt;(wmv 9.4
 Mb)&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V30M3.wmv"&gt;&lt;img alt="image22" src="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V30M3_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V30M3.wmv"&gt;&lt;img alt="image22" src="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V30M3_0001.jpg" style="width: 320px; height: 240px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&amp;nbsp;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;30 km/h: Very Stable &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/Test_V30M3.wmv"&gt;(wmv 6.5
@@ -3250,8 +3250,8 @@ work visit at the VU, also showed genuine interest in our experiments!&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/arend1.wmv"&gt;&lt;img alt="image23" src="http://bicycle.tudelft.nl/schwab/Bicycle/arend1_0001.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/touwtrekken1.wmv"&gt;&lt;img alt="image24" src="http://bicycle.tudelft.nl/schwab/Bicycle/touwtrekken1_0001.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/arend1.wmv"&gt;&lt;img alt="image23" src="http://bicycle.tudelft.nl/schwab/Bicycle/arend1_0001.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/touwtrekken1.wmv"&gt;&lt;img alt="image24" src="http://bicycle.tudelft.nl/schwab/Bicycle/touwtrekken1_0001.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;My first run on the treadmill
 &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/arend1.wmv"&gt;(wmv 2.6 Mb)&lt;/a&gt;.
@@ -3323,7 +3323,7 @@ Delft MSc student Jodi Kooijman. This is the bike:&lt;/p&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;&lt;img alt="image1" src="http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Still.jpg" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external" href="https://youtu.be/7V1QWY1STi8"&gt;&lt;img alt="image2" src="http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Start.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://youtu.be/7V1QWY1STi8"&gt;&lt;img alt="image2" src="http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Start.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3337,7 +3337,7 @@ Delft MSc student Jodi Kooijman. This is the bike:&lt;/p&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;&lt;img alt="image1" src="http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Still.jpg" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external" href="https://youtu.be/7V1QWY1STi8"&gt;&lt;img alt="image2" src="http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Start.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://youtu.be/7V1QWY1STi8"&gt;&lt;img alt="image2" src="http://bicycle.tudelft.nl/schwab/Bicycle/Bike1Start.jpg" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3352,7 +3352,7 @@ measured data.&lt;/p&gt;
 &lt;p&gt;The final goal is to create a &lt;em&gt;Robot Bicycle&lt;/em&gt; by adding a steering torque
 controller, to stabilize the bike, and a small elector motor to maintain
 forward speed.&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-01T00:00:00-08:00</published><updated>2003-04-01T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-01:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
+</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-06T00:00:00-08:00</published><updated>2003-04-06T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-06:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
 dynamic behavior of a bicycle. For the analysis we used our software system
 SPACAR.  This software has been developed at Delft University of Technology and
 is capable of doing dynamic analysis of flexible multibody systems. The method …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
