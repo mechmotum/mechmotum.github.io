@@ -120,9 +120,35 @@ Tutorials
 Software
 ========
 
-- row_filter: https://gitlab.com/mechmotum/row_filter
-- opty http://github.com/csu-hmc/opty
-- pydy http://pydy.org
-- resonance http://github.com/moorepants/resonance
-- skijumpdesign http://www.skijumpdesign.info
-- sympy http://sympy.org
+#. B. Cloud, J. K. Moore, A. Liu, B. Tarien, T. Shedd, row_filter: Library for
+   rowing kinematic filtering and analysis, 2018
+   https://gitlab.com/mechmotum/row_filter
+#. J. K. Moore, M. Hubbard, and B. Cloud, skijumpdesign: A ski jump design tool
+   for equivalent fall height. 2017. http://www.skijumpdesign.info
+#. J. K. Moore and K. Lyons, resonance: A Python package for mechanical
+   vibration analysis. University of California, Davis, 2017.
+   http://github.com/moorepants/resonance
+#. J. K. Moore and A. J. van den Bogert, opty: A library for using direct
+   collocation in the optimization and identification of dynamic systems.
+   Cleveland State University, 2014. http://github.com/csu-hmc/opty
+#. J. K. Moore, S. K. Hnat, O. Nwanna, M. Overmeyer, and A. J. van den Bogert,
+   GaitAnalysisToolKit: A Python Library for Gait Analysis. Cleveland State
+   University, 2013.
+#. J. K. Moore, P. D. L. de Lange, and S. Yin, BicycleDataProcessor: Data
+   storage and processing library for an instrumented bicycle. University of
+   California, Davis, 2011.
+#. J. K. Moore, C. Dembia, and O. Lee, BicycleParameters: A Python library for
+   bicycle parameter estimation and analysis. 2011.
+#. J. K. Moore, C. Dembia, and O. Lee, DynamicistToolKit: A Python library for
+   dynamcis and controls. 2011.
+#. C. Dembia, J. K. Moore, S. Yin, and O. Lee, Yeadon: A Python Library For
+   Human Inertia Estimation. 2011. https://github.com/chrisdembia/yeadon
+#. J. K. Moore et al., PyDy: A multi-body dynamics analysis package written in
+   Python. PyDy, 2011. http://pydy.org
+#. cyipopt developers, cyipopt: Python Wrapper to IPOPT, 2011,
+   https://github.com/mechmotum/cyipopt.
+#. J. K. Moore, P. D. L. de Lange, and Y. Henneberry, BicycleDAQ: Data
+   aquisition application for an instrumented bicycle. University of
+   California, Davis, 2010.
+#. SymPy Development Team, SymPy: Python library for symbolic mathematics.
+   2006. http://sympy.org
