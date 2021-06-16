@@ -374,6 +374,15 @@ because these typically fill up in 10 minutes and there are large wait lists.
 - 4TU Research Data Training and Events:
   https://data.4tu.nl/info/en/news-events/training-events/
 
+Writing Help
+------------
+
+`TU Delft Writing Center`_
+   Schedule a meeting with a writing coach to get advice on your thesis or
+   other documents.
+
+.. _TU Delft Writing Center: https://www.tudelft.nl/en/tpm/about-the-faculty/departments/staff-departments/centre-for-languages-and-academic-skills/education/writing-centre
+
 Connecting to Research Communities
 ==================================
 
