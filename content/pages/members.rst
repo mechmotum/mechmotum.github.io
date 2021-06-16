@@ -81,20 +81,16 @@ Masters of Science Students
        | Bicycle Design, Dynamics, and Handling
      - |headshot-haasnoot-jelle|
      - Jelle Haasnoot [TUD]
-   * - |headshot-groenhuis-jan|
-     - Jan Groenhuis [TUD]
-     - |headshot-huiskens-tim|
+   * - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
+     -
+     -
 
 .. |headshot-kuiper-joris| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg
    :width: 100px
    :height: 133px
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-groenhuis-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg
    :width: 100px
    :height: 133px
 
@@ -116,10 +112,6 @@ Research Assistants
    :align: center
 
    * - |headshot-missing|
-     - Mandeepika Saini [UCD, Dec 2020-present]
-     - |headshot-missing|
-     - Patrick Mackle [UCD, Dec 2020-present]
-   * - |headshot-missing|
      - Tim Stewart [UCD, Dec 2020-present]
      - |headshot-missing|
      - Noah Sanders [UCD, Jan 2020-present]
@@ -137,6 +129,9 @@ PhD Candidates
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020]
    - Jodi Kooijman [TUD]
 Masters of Science Students
+   - Jan Groenhuis [TUD, -Jun 2021], Thesis: `Experimental data-tracking of the
+     BMX SX gate start using biomechanical modeling and trajectory optimization
+     <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
    - Junda Wu [TUD, Jan 2021-Mar 2021]
    - van der Niet, A.M. [TUD, Sep 2020], Thesis: `Free-trajectory steady motion
      control optimisation for the descent of elite cyclists
@@ -186,6 +181,8 @@ Masters of Science Students
    - S.G.C. De Groot [TUD, May 2010]
    - Jodi Kooijman [TUD, 2008]
 Research Assistants
+   - Mandeepika Saini [UCD, Dec 2020-Jun 2021]
+   - Patrick Mackle [UCD, Dec 2020-Jun 2021]
    - Xinzhi (Richard) Yan [UCD, Sep 2020-Dec 2020]
    - Alex Gao [Jul 2020-Dec 2020]
    - Kevin Rong [UCD, Jun 2020-Dec 2020]
@@ -218,6 +215,7 @@ Research Assistants
    - Braden Tinucci [UCD, Nov 2015-Dec 2015], now at Valcor Engineering
      Corporation
 Teaching Assistants
+   - Jan Groenhuis [TUD, May 2021-Jun 2021]
    - Russell Hawkins [UCD, Mar 2020-Jun 2020]
    - Sergio Guillen [UCD, Jan 2020-Mar 2020]
    - Kevin Mallon [UCD, Sep 2019-present]
