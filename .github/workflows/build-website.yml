@@ -32,10 +32,8 @@ jobs:
         pelican -D -v -s publishconf.py -o output
     - name: Deploy the website
       run: |
-        git config --global user.name 'Github Actions'
+        git config --global user.name "Github Actions"
         git config --global user.email mechmotum@users.noreply.github.com
-        ghp-import -b master -m "Updated via Github Actions" output
-        git branch
-        git checkout master
-        ls -al
-        git status
+        git remote add deploy "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mechmotum/mechmotum.git"
+        git fetch deploy
+        ghp-import -r deploy -b master -m "Updated via Github Actions" output
