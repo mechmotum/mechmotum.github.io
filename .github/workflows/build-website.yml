@@ -38,3 +38,4 @@ jobs:
         git branch
         git checkout master
         ls -al
+        git status
