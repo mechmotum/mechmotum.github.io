@@ -36,4 +36,5 @@ jobs:
         git config --global user.email mechmotum@users.noreply.github.com
         ghp-import -b master -m "Updated via Github Actions" output
         git branch
+        git checkout master
         ls -al
