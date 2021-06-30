@@ -74,6 +74,8 @@ DESCRIPTION = ''
 # pelican-alchemy removed the original theme.css, so bring it back.
 THEME_CSS_OVERRIDES = ['theme/css/origtheme.css']
 REPO_URL = 'https://github.com/mechmotum/mechmotum.github.io'
+# TODO : Fix the template so that if this isn't declared it still builds.
+EXCLUDED_CATEGORIES = []
 
 #GOOGLE_ANALYTICS = ''
 #DISQUS_SITENAME = ''
