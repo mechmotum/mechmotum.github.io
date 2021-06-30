@@ -2,9 +2,9 @@ name: Build Website
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches: source
   pull_request:
-    branches: [ $default-branch ]
+    branches: source
 
 jobs:
   build:
