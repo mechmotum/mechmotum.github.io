@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-06-16T13:08:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jan Groenhuis Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-groenhuis-graduates.html" rel="alternate"></link><published>2021-06-16T13:08:00-07:00</published><updated>2021-06-16T13:08:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-06-16:/blog/jan-groenhuis-graduates.html</id><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-06-30T17:28:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Joris Kuiper Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/joris-kuiper-graduates.html" rel="alternate"></link><published>2021-06-30T17:28:00-07:00</published><updated>2021-06-30T17:28:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-06-30:/blog/joris-kuiper-graduates.html</id><content type="html">&lt;p&gt;Joris Kuiper successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72"&gt;Development of an Integrated Bicycle
+Accident Detection System: Introducing ALARM: Accident Localisation And
+Recognition Method&lt;/a&gt;&amp;quot;.  His
+system is designed for future Gazelle electric bikes. Joris has accepted a
+position at &lt;a class="reference external" href="https://gearboxinnovations.com"&gt;Gearbox&lt;/a&gt; to develop agricultural robots following graduation.
+Congrats to Joris!&lt;/p&gt;
+&lt;table border="1" class="colwidths-given table docutils align-center" style="width: 80%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg" style="width: 200px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-kuiper.png" style="width: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>Jan Groenhuis Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-groenhuis-graduates.html" rel="alternate"></link><published>2021-06-16T13:08:00-07:00</published><updated>2021-06-16T13:08:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-06-16:/blog/jan-groenhuis-graduates.html</id><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg" /&gt;
 &lt;p&gt;Jan Groenhuis successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef"&gt;Experimental data-tracking of the BMX SX
 gate start using biomechanical modeling and trajectory optimization&lt;/a&gt;&amp;quot;.
 Everyone at the bicycle lab is very proud of Jan and will miss him! Jan is off
