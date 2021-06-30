@@ -24,7 +24,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install pelican
+        python -m pip install pelican yaml
         git clone --depth=1 --single-branch --branch mechmotum https://github.com/mechmotum/pelican-alchemy.git
         git clone --depth=1 https://github.com/getpelican/pelican-plugins.git
     - name: Build the website
