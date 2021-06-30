@@ -73,18 +73,13 @@ Masters of Science Students
 
    * - |headshot-van-de-velde-shannon|
      - Shannon van de Velde [TUD, Dec 2020-present]
-     - |headshot-kuiper-joris|
-     - | Joris Kuiper [TUD, Sep 2020-present]
-       | Early Warning and Crash Detection in Cycling
-   * - |headshot-missing|
+     - |headshot-missing|
      - | Julie van Vlerken [TUD, Sep 2020-present]
        | Bicycle Design, Dynamics, and Handling
-     - |headshot-haasnoot-jelle|
+   * - |headshot-haasnoot-jelle|
      - Jelle Haasnoot [TUD]
-   * - |headshot-huiskens-tim|
+     - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
-     -
-     -
 
 .. |headshot-kuiper-joris| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg
    :width: 100px
@@ -129,6 +124,11 @@ PhD Candidates
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020]
    - Jodi Kooijman [TUD]
 Masters of Science Students
+   - Joris Kuiper [TUD, Sep 2020-Jun 2021], Thesis: `Development of an
+     Integrated Bicycle Accident Detection System: Introducing ALARM: Accident
+     Localisation And Recognition Method
+     <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_,
+     now at Gearbox
    - Jan Groenhuis [TUD, -Jun 2021], Thesis: `Experimental data-tracking of the
      BMX SX gate start using biomechanical modeling and trajectory optimization
      <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
