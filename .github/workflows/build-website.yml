@@ -31,6 +31,7 @@ jobs:
       run: |
         pelican -D -v -s publishconf.py -o output
     - name: Deploy the website
+      if: ${{ github.event_name == 'push' }}
       run: |
         git fetch origin
         git checkout master
