@@ -61,6 +61,9 @@ in finding students for [#]_:
    * - Proposal Title & Info
      - Date posted
      - Partners
+   * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
+     - 2021-07-06
+     - `REV'IT! <https://www.revitsport.com>`_
    * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
      - 2021-02-23
      - Dr. Patrick Forbes @ Erasmus Medical Center
