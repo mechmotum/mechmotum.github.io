@@ -4,6 +4,7 @@ Unravelling Vestibular Sensory Contributions to Bicycle Balance Control
 
 :date: 2021-02-23
 :status: hidden
+:slug: jobs/msc/bicycle-balance-vestibular-contributions
 
 .. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/UCI_Indoor_Cycling_World_Championships_2006_LvT_12.jpg/640px-UCI_Indoor_Cycling_World_Championships_2006_LvT_12.jpg
    :target: https://commons.wikimedia.org/wiki/File:UCI_Indoor_Cycling_World_Championships_2006_LvT_12.jpg
