@@ -64,8 +64,6 @@ up-to-date rules if in question. The current lab rules are:
   are needed for time conflicts.
 - No more than 4 people may be in the lab at any given time.
 - 1.5 m distance must be kept between everyone present in the lab.
-- Wear masks when up and about in the lab. When seated you may remove your
-  mask.
 - If you are sick, stay home and get tested.
 - Take the virus seriously and respect everyone's health needs/wishes. Everyone
   should feel comfortable if using the space. Communication is key for this.
