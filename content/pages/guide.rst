@@ -18,10 +18,11 @@ Getting Started
 
   - Ask Jason <j.k.moore@tudelft.nl> or Marco <M.M.Reijne@tudelft.nl> to add
     you to the lab `email list`_.
-  - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's chat room.
+  - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's element/matrix
+    chat room.
 
-- Send an introduction email to the lab email list: who you are, what you will
-  work on, etc.
+- Send an introduction email to the lab email list: who you are, a bit about
+  yourself, what you will work on, etc.
 - Add your name and portrait to the `lab members page`_ by sending a PNG or JPG
   300px x 400px portrait to Jason or by submitting a pull request on Github.
 - Setup regular mentorship meetings with your mentor(s). This should at least
@@ -51,7 +52,7 @@ COVID-Time Lab Rules
 ====================
 
 Use of the bicycle lab for hands-on project work is allowed as long as 3mE
-allows this type of work inside the building. Check with Arend or Jason for the
+allows this type of work inside the building. Check with Jason or Arend for the
 up-to-date rules if in question. The current lab rules are:
 
 - All the `University rules
@@ -101,8 +102,8 @@ Quarterly Blog Posts
    and theses and provide outreach to the public about our work. It is helpful
    to do these on a schedule (quarterly, semi-annually, etc.) so that the get
    done. If your project is of a proprietary nature, you'll need to select
-   aspects of the project or work that can be shared. Discuss these things with
-   your supervisor.
+   aspects of the project or work that can be shared or embargo the blog post
+   to a later date. Discuss these things with your supervisor.
 
 .. _matrix: https://matrix.org/
 .. _clients: https://matrix.org/docs/projects/try-matrix-now/
@@ -110,8 +111,8 @@ Quarterly Blog Posts
 AIO Weekly Emails
 -----------------
 
-Lab members are expected to send out AIOs to the lab group email list and any
-project collaborators each week.
+Lab members are expected to send out AIOs to their supervisor(s) and any
+project collaborators you meet with during your regular meetings.
 
 "AIO" stands for Accomplishments, Issues, and Objectives. This email should
 contain three bullet lists:
@@ -120,20 +121,14 @@ contain three bullet lists:
 - what issues you encountered during that week and would like help with, and finally
 - what your objectives are for the coming week.
 
-You should send it to mechmotum@googlegroups.com and cc anyone not in the lab
-that is involved in your project.
-
-The purpose of these are to share what you are doing with your daily
-supervisor, anyone involved in your project outside the lab, and also to share
-among the lab members. The latter is important, because many of you may be
-solving similar problems and can offer help/tips to other members Doing this
-will hopefully certainly start conversations among the group. Some notes:
+The purpose of these are to share what you are doing with your daily supervisor
+and anyone involved in your project outside the lab. Some notes:
 
 - If you are working in a team you can send out a single AIO for your team.
-- No need to list your hours worked or who did what in teams.
 - The AIOs do not need to be elaborate, concise is best.
+- No need to list your hours worked or who did what in teams.
 - It is ok, and preferred, to reply-all if you want to comment on an AIO with a
-  suggestion so everyone can learn.
+  suggestion so everyone can learn and discuss.
 - The AIOs are not a contest. Your supervisor is not collecting these to judge
   how much you accomplish, but they do care that you are working, attempting to
   make progress, and communicating with your lab members for help. If you had
@@ -142,12 +137,12 @@ will hopefully certainly start conversations among the group. Some notes:
 - If you need help via with issues, you need to provide enough detail for the
   reader to understand the problem.
 
-The AIOs should be sent the day of your meeting with the PI. It can be before
-(we can use it as an agenda) or after if you prefer to work on the issues with
-me and then post outstanding ones and the revised objectives post meeting. Some
-students like to leave the objectives blank and add them after meeting with the
-PI. However you do it, each week the accomplishments should hopefully reflect
-the objectives you wrote the previous week.
+The AIOs should be sent the day of your meeting with the supervisor. It can be
+before (we can use it as an agenda) or after if you prefer to work on the
+issues with me and then post outstanding ones and the revised objectives post
+meeting. Some students like to leave the objectives blank and add them after
+meeting with the supervisor. However you do it, each week the accomplishments
+should hopefully reflect the objectives you wrote the previous week.
 
 Laboratory Meetings
 ===================
@@ -234,18 +229,17 @@ https://github.com/mechmotum/ideas/issues
 Have a look at current and past projects on the `research page
 <{filename}/pages/research/index.rst>`_
 
-
 Open Science
 ============
 
-The default science and engineering practice should be open practices (open
-access publications, open source software, open data, accessible and public
-sharing etc.). If unsure whether to make information public, ask, otherwise
-please default to sharing early and often. We do work with organizations that
-value or require privacy (human subject data, student protected data,
-proprietary company needs). Always check with the involved parties before
-sharing when this is the case. This is something that should be discussed at
-the beginning of all projects.
+The default science and engineering practice from the lab should be open
+practices (open access publications, open source software, open data,
+accessible and public sharing etc.). If unsure whether to make information
+public, ask, otherwise please default to sharing early and often. We do work
+with organizations that value or require privacy (human subject data, student
+protected data, proprietary company needs). Always check with the involved
+parties before sharing when this is the case. This is something that should be
+discussed at the beginning of all projects.
 
 TU Delft offers several resources for open science:
 
@@ -329,9 +323,9 @@ Inventory
 ---------
 
 There is a common spreadsheet on google drive that lab members should use to
-track our non-consumable inventory (tools, devices, expensive stuff,
-computers, 3D printing spools in the EDSC, etc). Anytime you buy something add
-it to the spreadsheet. The spreadsheet can be accessed at this link:
+track our non-consumable inventory (tools, devices, expensive stuff, computers,
+etc). Anytime you buy something add it to the spreadsheet. The spreadsheet can
+be accessed at this link:
 
 https://docs.google.com/spreadsheets/d/1w80SolpcLTbLtuFDIf9-F-sS_pO-1PEHSpSgEGH_SSg/edit?usp=sharing
 
@@ -351,6 +345,9 @@ Useful TU Delft MSc Courses
 - Special Topics Course in Sports Engineering: TU Delft organizes an annual two
   week course to train students in sports engineering. Cycling has been used as
   the motivating topic to learn the methods.
+- Ajay's course
+- Human controller
+- Vehicle dynamics
 
 The Carpentries Trainings
 -------------------------
@@ -419,19 +416,19 @@ Introduction to Bicycle Engineering and Science
 Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
    Science of competitive cycling.
 David G. Wilson, Bicycling Science, 3rd ed. MIT Press, 2004.
-   Bicycling Science is the authorative introduction text to the science and
+   Bicycling Science is the authoritative introduction text to the science and
    engineering of bicycles.
 
 Introduction to Bicycle Dynamics
 --------------------------------
 
 |Astrom2005|
-   IEEE control systems magazine article that introduces bicycle dynammics with
+   IEEE control systems magazine article that introduces bicycle dynamics with
    a few different models and nice explanation of important control principles.
 |Meijaard2007|
    Shows the fundamental bicycle model we typically start with for
    understanding lateral dynamics of single track vehicles. Introduces much of
-   the important terminonlogy and principles.
+   the important terminology and principles.
 |Sharp2008|
    Robin Sharp developed one of the most widely cited motorcycle dynamics
    models in 1970 (also recommended read), but this paper is his take on
@@ -487,7 +484,7 @@ Srinivasan Keshav, "`How To Read A Paper <http://ccr.sigcomm.org/online/files/p8
    The International Committee of Medical Journal Editors created a basic
    guideline for determining who should be considered an author of an academic
    paper. This is a good starting point for making judgement calls on
-   authorship.
+   authorship and is what the lab will strive to follow.
 "Academia Stack Exchange," https://academia.stackexchange.com/
    A Q&A website about academia. You can find discussions on many useful topics
    and also participate in the discussions.
