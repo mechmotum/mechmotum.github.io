@@ -403,6 +403,13 @@ Conferences
 - JupyterCon: https://jupytercon.com/
 - SciPy: https://conference.scipy.org/
 
+Funding Opportunities
+=====================
+
+`Dekker-Padget Internshiup Program: Dutch2USA <https://thenaf.org/dutch2usa-internship-program/>`_
+   Funding for minority or economically disadvantaged college students to do an
+   internship in the USA.
+
 Recommended Reading
 ===================
 
