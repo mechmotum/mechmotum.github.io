@@ -1,6 +1,10 @@
 :title: Guide
 :sortorder: 5
 
+=====
+Guide
+=====
+
 .. contents::
 
 This page is intended to house documentation for lab members that describes the
@@ -341,13 +345,17 @@ efficiently and effectively.
 Useful TU Delft MSc Courses
 ---------------------------
 
-- Multibody Dynamics B
-- Special Topics Course in Sports Engineering: TU Delft organizes an annual two
-  week course to train students in sports engineering. Cycling has been used as
-  the motivating topic to learn the methods.
-- Ajay's course
-- Human controller
-- Vehicle dynamics
+Multibody Dynamics B
+   Core high level dynamics principles that are the foundation for almost every
+   project in the lab.
+Special Topics Course in Sports Engineering
+   TU Delft organizes an annual two week course to train students in sports
+   engineering. Cycling has been used as the motivating topic to learn the
+   methods.
+Musculoskeletal Modelling and Simulation ME41005
+   Learn how to develop and utilized computational neuromuscular models with
+   OpenSim. Many projects in the lab make use of neuromuscular and
+   biomechanical modeling.
 
 The Carpentries Trainings
 -------------------------
@@ -396,12 +404,32 @@ Online
 Conferences
 -----------
 
-- Bicycle and Motorcycle Dynamics Conference: http://bmdconf.org/
-- International Cycling Safety Conference: http://cyclingsafety.net/
-- ECCOMAS Multibody Dynamics Conference
-- EuroSciPy: https://www.euroscipy.org/
-- JupyterCon: https://jupytercon.com/
-- SciPy: https://conference.scipy.org/
+PhDs and Postdocs should submit to and present at conferences each year, if
+possible. MSc and BSc students are also encouraged to do so if resources allow.
+
+`Bicycle and Motorcycle Dynamics Conference <http://bmdconf.org/>`_
+   This conference is the most closely related to the bicycle lab's core
+   research in single track vehicle dynamics, handling, and control. The
+   conference series ordinated with Arend Schwab and his colleagues and was
+   launched in 2010 in Delft. The lab should make a strong effort every three
+   years to submit to and be involved in this conference.
+`International Cycling Safety Conference <http://cyclingsafety.net/>`_
+   This is the next most important conference to be involved in. We should aim
+   to have at least one or two submissions to this conference each year.
+ECCOMAS Multibody Dynamics Conference
+   This is a good conference for presenting topics that focus in multibody
+   dynamics methods.
+`International Sports Engineering Conference <https://www.sportsengineering.org/events/conference/>`_
+   This is the best conference to submit sports engineering topics. It is held
+   every other year. There are likely many other TU Delft participants,
+   especially through the Sports Engineering Institute.
+`International Society of Biomechanics Congresses <https://isbweb.org/activities/congresses>`_
+   Huge annual conference with a broad array of biomechanics topics. Great
+   networking and a catch all for many topics from the lab. Every two years.
+`SciPy <https://conference.scipy.org/>`_ & `EuroSciPY <https://www.euroscipy.org/>`_
+   Annual conferences. If your work involves open source Python software these
+   are a great place to showcase the advances in library development and use of
+   the tools.
 
 Funding Opportunities
 =====================
