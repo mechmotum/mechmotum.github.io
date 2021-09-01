@@ -70,9 +70,6 @@ in finding students for [#]_:
    * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
      - 2021-02-15
      -
-   * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
-     - 2021-02-15
-     - Dr. Laura Marchal-Crespo (TU Delft, CoR)
    * - `Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning <{filename}/pages/jobs/bicycle-crash-video-kinematics.rst>`_
      - 2021-01-29
      -
@@ -97,9 +94,6 @@ in finding students for [#]_:
    * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
      - 2020-09-10
      - TrueKinetix_
-   * - `Adaptive Speed Control in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`_
-     - 2020-09-10
-     - Gazelle_
    * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
      - 2020-09-10
      - Gazelle_
@@ -133,6 +127,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
+     - 2021-02-15
+     - Dr. Laura Marchal-Crespo (TU Delft, CoR)
+     - Simonas Draukšas
+   * - `Adaptive Speed Control in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`_
+     - 2020-09-10
+     - Gazelle_
+     - Daniël Landré
    * - `Early Warning and Crash Detection in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc3EarlyWarningCrashDetection.pdf>`_
      - 2020-09-10
      - Gazelle_
