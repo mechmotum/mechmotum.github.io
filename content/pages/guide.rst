@@ -437,6 +437,14 @@ Funding Opportunities
 `Dekker-Padget Internshiup Program: Dutch2USA <https://thenaf.org/dutch2usa-internship-program/>`_
    Funding for minority or economically disadvantaged college students to do an
    internship in the USA.
+`Veni <https://www.nwo.nl/en/calls/nwo-talent-programme>`_
+   The Veni is part of the NWO's Talent Programme. It is the first of three
+   personal grants. Postdocs in the lab that plan to continue in academia
+   should apply for this. Final year PhDs are also encouraged to apply too. If
+   you get this grant, you will gain a strong advantage in moving your academic
+   career forward in the Netherlands. If you don't, you'll have practiced
+   developing your personal research vision and goals, which is also extremely
+   valuable.
 
 Recommended Reading
 ===================
@@ -523,6 +531,12 @@ Srinivasan Keshav, "`How To Read A Paper <http://ccr.sigcomm.org/online/files/p8
 "Academia Stack Exchange," https://academia.stackexchange.com/
    A Q&A website about academia. You can find discussions on many useful topics
    and also participate in the discussions.
+
+Open Science
+------------
+
+Markowetz, F. Five selfish reasons to work reproducibly. Genome Biol 16, 274 (2015). https://doi.org/10.1186/s13059-015-0850-7
+   Five clear and compelling reasons for making your research reproducible.
 
 Other
 -----
