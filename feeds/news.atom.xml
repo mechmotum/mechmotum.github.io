@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-08-30T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><subtitle>E pur si muove</subtitle><entry><title>Marco Reijne Featured on Hart Van Nederland about Dutch Olympic Track Bike Design</title><link href="https://mechmotum.github.io/blog/marco-olympic-track-bike.html" rel="alternate"></link><published>2021-08-30T00:00:00-07:00</published><updated>2021-08-30T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-08-30:/blog/marco-olympic-track-bike.html</id><content type="html">&lt;p&gt;See this link for the video and article (in Dutch):&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-09-01T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><subtitle>E pur si muove</subtitle><entry><title>CZI Grant Awarded to SymPy Computational Biomechanics Project</title><link href="https://mechmotum.github.io/blog/czi-grant.html" rel="alternate"></link><published>2021-09-01T00:00:00-07:00</published><updated>2021-09-01T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-09-01:/blog/czi-grant.html</id><summary type="html">&lt;table border="1" class="table docutils align-center" style="width: 41%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="sympy-logo" src="https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The TU Delft Bicycle Lab has been awarded approximately one third of a $350k
+grant to the &lt;a class="reference external" href="https://www.sympy.org"&gt;SymPy&lt;/a&gt; project from the Chan-Zuckerberg Foundation as part of
+their &amp;quot;Essential Open Source Software for Science&amp;quot; program. SymPy is joining a
+host of exciting open source software projects in this program. This is …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="table docutils align-center" style="width: 41%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="sympy-logo" src="https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The TU Delft Bicycle Lab has been awarded approximately one third of a $350k
+grant to the &lt;a class="reference external" href="https://www.sympy.org"&gt;SymPy&lt;/a&gt; project from the Chan-Zuckerberg Foundation as part of
+their &amp;quot;Essential Open Source Software for Science&amp;quot; program. SymPy is joining a
+host of exciting open source software projects in this program. This is SymPy's
+first large funding injection in its 15 year history. Here at TU Delft, we'll
+be hiring a postdoctoral researcher in the coming months for a 1 FTE position
+for a year to focus on improving SymPy's code generation tools and
+demonstrating the power of the code generation on an advanced bicycle control
+neuromuscular model.&lt;/p&gt;
+&lt;p&gt;Check back here for the postdoc job posting in the coming months. If you are
+interested in the position, feel free to send a message to &lt;a class="reference external" href="mailto:j.k.moore&amp;#64;tudelft.nl"&gt;j.k.moore&amp;#64;tudelft.nl&lt;/a&gt;
+and we will inform you of the posting.&lt;/p&gt;
+&lt;p&gt;More information:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/"&gt;CZI primary award announcement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://chanzuckerberg.com/eoss/proposals/sympy-improving-foundational-open-source-symbolic-mathematics-for-science/"&gt;CZI SymPy project description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://groups.google.com/g/sympy/c/vYsavewGj1w/m/CQKTSznPAgAJ"&gt;Aaron Meurer's announcement on the SymPy mailing list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="news"></category><category term="sympy"></category><category term="biomechanics"></category><category term="computation"></category><category term="bicycle"></category></entry><entry><title>Marco Reijne Featured on Hart Van Nederland about Dutch Olympic Track Bike Design</title><link href="https://mechmotum.github.io/blog/marco-olympic-track-bike.html" rel="alternate"></link><published>2021-08-30T00:00:00-07:00</published><updated>2021-08-30T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-08-30:/blog/marco-olympic-track-bike.html</id><content type="html">&lt;p&gt;See this link for the video and article (in Dutch):&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://www.hartvannederland.nl/nieuws/olympische-spelen/ontwerper-fiets-baanwielrenners-trots-op-gouden-plak"&gt;https://www.hartvannederland.nl/nieuws/olympische-spelen/ontwerper-fiets-baanwielrenners-trots-op-gouden-plak&lt;/a&gt;&lt;/p&gt;
 </content><category term="news"></category><category term="olympics"></category><category term="bicycle"></category><category term="sports"></category></entry><entry><title>Joris Kuiper Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/joris-kuiper-graduates.html" rel="alternate"></link><published>2021-06-30T17:28:00-07:00</published><updated>2021-06-30T17:28:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-06-30:/blog/joris-kuiper-graduates.html</id><content type="html">&lt;p&gt;Joris Kuiper successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72"&gt;Development of an Integrated Bicycle
 Accident Detection System: Introducing ALARM: Accident Localisation And
@@ -169,7 +212,7 @@ Training Network (ITN) on &lt;em&gt;Moto&lt;/em&gt;rcycle &lt;em&gt;R&lt;/em&gt;
 from University of Firenze (UNIFI), Florence, Italy.  More info on this ITN can
 be found at: &lt;a class="reference external" href="http://www.motorist-ptw.eu/"&gt;http://www.motorist-ptw.eu/&lt;/a&gt;&lt;/p&gt;
 &lt;a class="reference external image-reference" href="http://www.motorist-ptw.eu/"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/MOTORISTlogo.jpg" style="width: 115px; height: 76px;" /&gt;&lt;/a&gt;
-</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-31T00:00:00-07:00</published><updated>2013-05-31T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-31:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
+</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-01T00:00:00-07:00</published><updated>2013-05-01T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-01:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
 MODELING THE MECHANICAL PROPERTIES OF BICYCLE TIRES&lt;/em&gt;, PhD thesis, The
 University of Wisconsin-Milwaukee, May 2013.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/dressel2013measuring.pdf"&gt;pdf(30Mb)&lt;/a&gt;&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category><category term="phd"></category></entry><entry><title>Arend's TEDx Talk</title><link href="https://mechmotum.github.io/blog/schwab-ted-talk.html" rel="alternate"></link><published>2012-11-05T00:00:00-08:00</published><updated>2012-11-05T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2012-11-05:/blog/schwab-ted-talk.html</id><content type="html">&lt;p&gt;TED talk by Arend Schwab at TEDxDelft2012 on &amp;quot;Why bicycles do not fall&amp;quot;:&lt;/p&gt;
@@ -203,7 +246,7 @@ the large glass windows.&lt;/p&gt;
 &lt;blockquote&gt;
 M.V.C. Evertse, &lt;em&gt;Rider Analysis using a fully instrumented motorcycle&lt;/em&gt;, MSc
 thesis, Delft University of Technology, May 2010.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/evertse2010riderMinApp.pdf"&gt;(pdf 1.9Mb)&lt;/a&gt;&lt;/blockquote&gt;
-</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-28T00:00:00-08:00</published><updated>2010-02-28T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-28:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
+</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-01T00:00:00-08:00</published><updated>2010-02-01T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-01:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
 track vehicle dynamics&lt;/a&gt;.&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Jodi Kooijman Sucessfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/kooijman-msc-thesis.html" rel="alternate"></link><published>2006-04-25T00:00:00-07:00</published><updated>2006-04-25T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2006-04-25:/blog/kooijman-msc-thesis.html</id><content type="html">&lt;p&gt;Jodi Kooijman succesfully defended his Engineering Dynamics MSc thesis:&lt;/p&gt;
 &lt;blockquote&gt;
