@@ -124,7 +124,13 @@ https://repository.tudelft.nl.
 
 PhD Candidates
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020]
+
+     - Thesis: `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
+
    - Jodi Kooijman [TUD]
+
+     - Thesis: `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
+
 Masters of Science Students
    - Joris Kuiper [TUD, Sep 2020-Jun 2021], now at Gearbox
 
@@ -158,9 +164,7 @@ Masters of Science Students
    - Chris van Trigt [TUD, April 2019]
    - `Abraham McKay`_ [UCD, Feb 2017-Jun 2018], now at `219 Design <https://www.219design.com>`_
 
-     - Thesis: `The Water Buffalo: Design of a Portable Bicycle Powered
-       Irrigation Pump for Small-Scale African Farmers
-       <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
+     - Thesis: `The Water Buffalo: Design of a Portable Bicycle Powered Irrigation Pump for Small-Scale African Farmers <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
 
    - Govert van der Gun [TUD, Nov 2018]
    - Maarten van den Bosch [TUD, Oct 2018]
@@ -171,25 +175,19 @@ Masters of Science Students
    - Janneke Voordouw [TUD, Apr 2018]
    - P.H. De Jong [TUD, Feb 2017]
 
-     - Thesis: `Rear Wheel Steer Bikes
-       <http://resolver.tudelft.nl/uuid:76f67586-ab15-4c85-9841-544259b3be82>`_
+     - Thesis: `Rear Wheel Steer Bikes <http://resolver.tudelft.nl/uuid:76f67586-ab15-4c85-9841-544259b3be82>`_
 
    - M.M. Reijne [TUD, May 2016]
 
-     - Thesis: `The Next Level in Pole Vaulting
-       <http://resolver.tudelft.nl/uuid:1bd480fc-4368-424f-adef-9d617a70e46f>`_
+     - Thesis: `The Next Level in Pole Vaulting <http://resolver.tudelft.nl/uuid:1bd480fc-4368-424f-adef-9d617a70e46f>`_
 
    - P.M. Baines [TUD, April 2016]
 
-     - Thesis: `The influence of pedalling on the lateral dynamics of cycling:
-       A modelling approach <The influence of pedalling on the lateral dynamics
-       of cycling: A modelling approach>`_
+     - Thesis: `The influence of pedalling on the lateral dynamics of cycling: A modelling approach <http://resolver.tudelft.nl/uuid:f1fd56cd-ad77-4ca2-8635-a75fd9111898>`_
 
    - I.M. Kalsbeek [TUD, Mar 2016]
 
-     - Thesis: `Experimental investigation into the shimmy motion of the
-       bicycle for improving model-based shimmy estimations
-       <http://resolver.tudelft.nl/uuid:a98d51c1-7754-4c29-b883-f130ba05136b>`_
+     - Thesis: `Experimental investigation into the shimmy motion of the bicycle for improving model-based shimmy estimations <http://resolver.tudelft.nl/uuid:a98d51c1-7754-4c29-b883-f130ba05136b>`_
 
    - C.R. Lommers [TUD, Nov 2015]
    - E.M. Van der Meel [TUD, Sep 2013]
