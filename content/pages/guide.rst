@@ -151,10 +151,25 @@ should hopefully reflect the objectives you wrote the previous week.
 Laboratory Meetings
 ===================
 
-We meet every two weeks as a lab. Members are expected to attend and
+We meet every two weeks as a lab, where we will have a designated person (picked in advance at random in our very own weighted raffle) take the proverbial stage and share and teach any topic that can be useful in our academic endeavors. 
+
+The topic can be anything bicycle or research related. It may be content-related, soft-skill related, practical-skill related or harking to your personal interest in bicycles. It might be an expertise or skill you have, but also be a skill or software program you want to learn. Co-presenting is fine (and a great way to meet your peers) provided your topics align. Options galore:
+
+- 10-20 miniature presentation with Q&A 
+- tutorial
+- have us read something (a paper) we could review
+- watch and discuss a video
+- invite a speaker
+- play a game
+- practice your colloquia or conference talks
+- bicycle-themed stand-up
+- etc.
+
+Members are expected to attend and
 participate regularly. It's fine to miss a meeting here and there, but avoid
 making that regular. If the meetings are not useful to you, please be proactive
 about helping us make them useful for all.
+
 
 Past Meeting Topics and Materials
 ---------------------------------
