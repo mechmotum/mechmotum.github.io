@@ -74,7 +74,7 @@ Masters of Science Students
    * - |headshot-missing|
      - | Simonas Draukšas [TUD, Sep 2021-present]
        | Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance
-     - |headshot-missing|
+     - |headshot-landre-daniel|
      - | Daniël Landré [TUD, Sep 2021-present]
        | Adaptive Speed Control in Cycling
    * - |headshot-van-de-velde-shannon|
@@ -96,6 +96,10 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-van-de-velde-shannon| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-de-velde-shannon.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-landre-daniel| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-landre-daniel.png
    :width: 100px
    :height: 133px
 
