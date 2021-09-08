@@ -40,11 +40,11 @@ MSc tracks in the BME department.
 .. _This video: https://collegerama.tudelft.nl/Mediasite/Showcase/public/Presentation/fa73a57026674d3faeed902b0e261ec91d
 
 If you would like to work on a project for your Master's thesis in the lab
-please send a letter explaining your interest in the lab, CV or resume, a list
-of courses you've take, the name of your MSc track, and any other relevant
-information to j.k.moore@tudelft.nl and a.l.schwab@tudelft.nl. Include whether
-you are a current student, have been accepted to the University, or have not
-applied yet.
+please send a letter explaining your interest in the lab and/or project, CV or
+resume, a list of courses you've taken, the name of your MSc track, and any
+other relevant information to j.k.moore@tudelft.nl and a.l.schwab@tudelft.nl.
+Include whether you are a current student, have been accepted to the
+University, or have not applied yet.
 
 MSc Project Proposals and Ideas
 -------------------------------
