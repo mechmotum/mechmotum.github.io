@@ -19,7 +19,7 @@ Jupyter HTML Manager package to the Lab Manager, we are now able to run all
 ipywidget interactive widgets, which greatly expands the possibilities for textbook authors.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
-   :height: 400px
+   :height: 600px
    :align: center
 
    Example of an ipywidget controlling a matplotlib figure in Thebe.
