@@ -44,4 +44,4 @@ For the future, we are planning to develop a Ceph cluster to replace our NFS-cli
 as the storage solution for users on the JupyterHub. We also intend to extend the cluster
 with GPU nodes and provide more specialized computing enviornments. 
 Feel free to use our Binder plugin on `libretexts.org <https://libretexts.org/>`__, and 
-check out our `JupyterHub <https://jupyterhub.ucdavis.edu>`__ if you are a UC Davis member!
+check out our `JupyterHub <https://jupyterhub.ucdavis.edu>`_ if you are a UC Davis member!
