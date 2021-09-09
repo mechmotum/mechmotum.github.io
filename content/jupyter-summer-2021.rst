@@ -1,6 +1,6 @@
 ==============================
 JupyterTeam Progress Summer 2021
-==============================
+================================
 
 :date: 2021-09-08 00:00:00
 :tags: oer, education, jupyter, textbooks, libretexts
