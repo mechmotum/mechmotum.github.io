@@ -23,6 +23,7 @@ ipywidget interactive widgets, which greatly expands the possibilities for textb
    :align: center
 
    Example of an ipywidget controlling a matplotlib figure in Thebe.
+
 In terms of cluster reliability, we have added a second router to be highly 
 available with the already existing one; If the master router fails for any reason,
 then the backup one will take its place until the master comes back online. Furthermore,
