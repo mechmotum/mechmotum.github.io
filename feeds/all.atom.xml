@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-09-01T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><subtitle>E pur si muove</subtitle><entry><title>CZI Grant Awarded to SymPy Computational Biomechanics Project</title><link href="https://mechmotum.github.io/blog/czi-grant.html" rel="alternate"></link><published>2021-09-01T00:00:00-07:00</published><updated>2021-09-01T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-09-01:/blog/czi-grant.html</id><summary type="html">&lt;table border="1" class="table docutils align-center" style="width: 41%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-09-08T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><subtitle>E pur si muove</subtitle><entry><title>JupyterTeam Progress Summer 2021</title><link href="https://mechmotum.github.io/blog/jupyter-summer-2021.html" rel="alternate"></link><published>2021-09-08T00:00:00-07:00</published><updated>2021-09-08T00:00:00-07:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2021-09-08:/blog/jupyter-summer-2021.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the progress made by JupyterTeam since winter 2020 through summer 2021&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="improvements-and-progress"&gt;
+&lt;h2&gt;Improvements and Progress&lt;/h2&gt;
+&lt;p&gt;Since winter quarter of 2020, the JupyterTeam has fixed a long standing issue where Thebe,
+the JavaScript package that we use to display and run code on libretexts.org, would not properly
+work with the entire interactive Jupyter widget ecosystem. By migrating from the
+Jupyter HTML Manager package to the Lab Manager, we are now able to run all
+ipywidget interactive widgets, which greatly expands the possibilities for textbook authors.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 400px;" /&gt;
+&lt;p class="caption"&gt;Example of an ipywidget controlling a matplotlib figure in Thebe.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In terms of cluster reliability, we have added a second router to be highly
+available with the already existing one; If the master router fails for any reason,
+then the backup one will take its place until the master comes back online. Furthermore,
+we configured the routers to act as TFTP servers so that they we may use Ubuntu netboot
+to load Ubuntu on all nodes from scratch. As compared to the previous method, this
+way is more effective and utilizes existing infastructure better.&lt;/p&gt;
+&lt;p&gt;We completed the migration of our default-env computing environment
+to JupyterLab 3.0, which includes new features which are great for widgets
+and their JavaScript extensions. Additionally, we added a new Adapt plugin
+to supplement our already existing Query plugin on libretexts.org.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="in-the-works"&gt;
+&lt;h2&gt;In the Works&lt;/h2&gt;
+&lt;p&gt;For the future, we are planning to develop a Ceph cluster to replace our NFS-client-provisioner
+as the storage solution for users on the JupyterHub. We also intend to extend the cluster
+with GPU nodes and provide more specialized computing enviornments.
+Feel free to use our Binder plugin on &lt;a class="reference external" href="https://libretexts.org/"&gt;libretexts.org&lt;/a&gt;, and
+check out our &lt;a class="reference external" href="https://jupyterhub.ucdavis.edu"&gt;JupyterHub&lt;/a&gt; if you are a UC Davis member!&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="education"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="libretexts"></category></entry><entry><title>CZI Grant Awarded to SymPy Computational Biomechanics Project</title><link href="https://mechmotum.github.io/blog/czi-grant.html" rel="alternate"></link><published>2021-09-01T00:00:00-07:00</published><updated>2021-09-01T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-09-01:/blog/czi-grant.html</id><summary type="html">&lt;table border="1" class="table docutils align-center" style="width: 41%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
@@ -3042,7 +3073,7 @@ Training Network (ITN) on &lt;em&gt;Moto&lt;/em&gt;rcycle &lt;em&gt;R&lt;/em&gt;
 from University of Firenze (UNIFI), Florence, Italy.  More info on this ITN can
 be found at: &lt;a class="reference external" href="http://www.motorist-ptw.eu/"&gt;http://www.motorist-ptw.eu/&lt;/a&gt;&lt;/p&gt;
 &lt;a class="reference external image-reference" href="http://www.motorist-ptw.eu/"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/MOTORISTlogo.jpg" style="width: 115px; height: 76px;" /&gt;&lt;/a&gt;
-</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-08T00:00:00-07:00</published><updated>2013-05-08T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-08:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
+</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-09T00:00:00-07:00</published><updated>2013-05-09T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-09:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
 MODELING THE MECHANICAL PROPERTIES OF BICYCLE TIRES&lt;/em&gt;, PhD thesis, The
 University of Wisconsin-Milwaukee, May 2013.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/dressel2013measuring.pdf"&gt;pdf(30Mb)&lt;/a&gt;&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category><category term="phd"></category></entry><entry><title>Nick Appelman Successfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/appelman-msc-thesis.html" rel="alternate"></link><published>2012-11-27T00:00:00-08:00</published><updated>2012-11-27T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2012-11-27:/blog/appelman-msc-thesis.html</id><summary type="html">&lt;p&gt;Nick Appelman successfully defended his Engineering Dynamics MSc thesis on:
@@ -3145,7 +3176,7 @@ Milliken!&lt;/p&gt;
 &lt;blockquote&gt;
 M.V.C. Evertse, &lt;em&gt;Rider Analysis using a fully instrumented motorcycle&lt;/em&gt;, MSc
 thesis, Delft University of Technology, May 2010.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/evertse2010riderMinApp.pdf"&gt;(pdf 1.9Mb)&lt;/a&gt;&lt;/blockquote&gt;
-</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-08T00:00:00-07:00</published><updated>2010-05-08T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-08:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
+</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-09T00:00:00-07:00</published><updated>2010-05-09T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-09:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
 Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME
 course Mechatronic System Design II. The lateral stability control is done by
 the concept of &amp;quot;steer into the undesired fall&amp;quot; and comes down to only one line
@@ -3159,7 +3190,7 @@ src="https://www.youtube.com/embed/o7nSQ2ycGX4" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;Here you can download the design (&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike-GS%20Design.pdf"&gt;NXTbike-GS Design.pdf&lt;/a&gt;) and the
 building instructions (&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike_GS_Building_Instructions.pdf"&gt;NXTbike_GS_Building_Instructions.pdf&lt;/a&gt;).&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-08T00:00:00-08:00</published><updated>2010-02-08T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-08:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
+</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-09T00:00:00-08:00</published><updated>2010-02-09T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-09:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
 track vehicle dynamics&lt;/a&gt;.&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>VPRO Noorderlicht Nieuws on Our Bicycle Treadmill Experiments</title><link href="https://mechmotum.github.io/blog/vpro-noorderlicht-niews.html" rel="alternate"></link><published>2009-07-16T00:00:00-07:00</published><updated>2009-07-16T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2009-07-16:/blog/vpro-noorderlicht-niews.html</id><content type="html">&lt;p&gt;VPRO Noorderlicht Nieuws made a 5 minute item out of our Bicycle Treadmill
 experiments. The interview is in Dutch:&lt;/p&gt;
@@ -3419,7 +3450,7 @@ measured data.&lt;/p&gt;
 &lt;p&gt;The final goal is to create a &lt;em&gt;Robot Bicycle&lt;/em&gt; by adding a steering torque
 controller, to stabilize the bike, and a small elector motor to maintain
 forward speed.&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-08T00:00:00-07:00</published><updated>2003-04-08T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-08:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
+</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-09T00:00:00-07:00</published><updated>2003-04-09T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-09:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
 dynamic behavior of a bicycle. For the analysis we used our software system
 SPACAR.  This software has been developed at Delft University of Technology and
 is capable of doing dynamic analysis of flexible multibody systems. The method …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the

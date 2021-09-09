@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>  LEGO Mindstorms NXT Based Bicycle Robot | Bicycle Laboratorium
+  <title>  JupyterTeam Progress Summer 2021 | Bicycle Laboratorium
 </title>
-  <link rel="canonical" href="https://mechmotum.github.io/blog/lego-bicycle.html">
+  <link rel="canonical" href="https://mechmotum.github.io/blog/jupyter-summer-2021.html">
 
 
   <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
@@ -20,8 +20,8 @@
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
         href="https://mechmotum.github.io/feeds/all.atom.xml">
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="https://mechmotum.github.io/feeds/research.atom.xml">  
-  <meta name="description" content="Joep Mutsaerts builds a LEGO Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME course Mechatronic System Design II. The lateral stability control is done by the concept of "steer into the undesired fall" and comes down to only one line of code in the controller …">
+        href="https://mechmotum.github.io/feeds/education.atom.xml">  
+  <meta name="description" content="Blog post on the progress made by JupyterTeam since winter 2020 through summer 2021">
 
 
 </head>
@@ -54,41 +54,61 @@
 
   <div class="main">
     <div class="container">
-      <h1>  LEGO Mindstorms NXT Based Bicycle Robot
+      <h1>  JupyterTeam Progress Summer 2021
 </h1>
       <hr>
   <article class="article">
     <header>
       <ul class="list-inline">
-        <li class="list-inline-item text-muted" title="2010-05-09T00:00:00-07:00">
+        <li class="list-inline-item text-muted" title="2021-09-08T00:00:00-07:00">
           <i class="fas fa-clock"></i>
-          Sun 09 May 2010
+          Wed 08 September 2021
         </li>
         <li class="list-inline-item">
           <i class="fas fa-folder-open"></i>
-          <a href="https://mechmotum.github.io/category/research.html">research</a>
+          <a href="https://mechmotum.github.io/category/education.html">education</a>
         </li>
           <li class="list-inline-item">
             <i class="fas fa-user"></i>
-              <a href="https://mechmotum.github.io/author/arend-l-schwab.html">Arend L. Schwab</a>          </li>
+              <a href="https://mechmotum.github.io/author/noah-sanders.html">Noah Sanders</a>,               <a href="https://mechmotum.github.io/author/tim-stewart.html">Tim Stewart</a>          </li>
           <li class="list-inline-item">
             <i class="fas fa-tag"></i>
-              <a href="https://mechmotum.github.io/tag/bicycle.html">#bicycle</a>,               <a href="https://mechmotum.github.io/tag/schwab-blog.html">#schwab blog</a>          </li>
+              <a href="https://mechmotum.github.io/tag/oer.html">#oer</a>,               <a href="https://mechmotum.github.io/tag/education.html">#education</a>,               <a href="https://mechmotum.github.io/tag/jupyter.html">#jupyter</a>,               <a href="https://mechmotum.github.io/tag/textbooks.html">#textbooks</a>,               <a href="https://mechmotum.github.io/tag/libretexts.html">#libretexts</a>          </li>
       </ul>
     </header>
 
 
     <div class="content">
-      <p><a class="reference external" href="mailto:J.T.M.Mutsaerts&#64;student.tudelft.nl?subject=NXTbike-GS">Joep Mutsaerts</a> builds a LEGO
-Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME
-course Mechatronic System Design II. The lateral stability control is done by
-the concept of &quot;steer into the undesired fall&quot; and comes down to only one line
-of code in the controller: SteerMotorVoltage=8*RearFrameLeanRate.</p>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/o7nSQ2ycGX4" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe><p>Here you can download the design (<a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike-GS%20Design.pdf">NXTbike-GS Design.pdf</a>) and the
-building instructions (<a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike_GS_Building_Instructions.pdf">NXTbike_GS_Building_Instructions.pdf</a>).</p>
+      <div class="section" id="improvements-and-progress">
+<h2>Improvements and Progress</h2>
+<p>Since winter quarter of 2020, the JupyterTeam has fixed a long standing issue where Thebe,
+the JavaScript package that we use to display and run code on libretexts.org, would not properly
+work with the entire interactive Jupyter widget ecosystem. By migrating from the
+Jupyter HTML Manager package to the Lab Manager, we are now able to run all
+ipywidget interactive widgets, which greatly expands the possibilities for textbook authors.</p>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 400px;" />
+<p class="caption">Example of an ipywidget controlling a matplotlib figure in Thebe.</p>
+</div>
+<p>In terms of cluster reliability, we have added a second router to be highly
+available with the already existing one; If the master router fails for any reason,
+then the backup one will take its place until the master comes back online. Furthermore,
+we configured the routers to act as TFTP servers so that they we may use Ubuntu netboot
+to load Ubuntu on all nodes from scratch. As compared to the previous method, this
+way is more effective and utilizes existing infastructure better.</p>
+<p>We completed the migration of our default-env computing environment
+to JupyterLab 3.0, which includes new features which are great for widgets
+and their JavaScript extensions. Additionally, we added a new Adapt plugin
+to supplement our already existing Query plugin on libretexts.org.</p>
+</div>
+<div class="section" id="in-the-works">
+<h2>In the Works</h2>
+<p>For the future, we are planning to develop a Ceph cluster to replace our NFS-client-provisioner
+as the storage solution for users on the JupyterHub. We also intend to extend the cluster
+with GPU nodes and provide more specialized computing enviornments.
+Feel free to use our Binder plugin on <a class="reference external" href="https://libretexts.org/">libretexts.org</a>, and
+check out our <a class="reference external" href="https://jupyterhub.ucdavis.edu">JupyterHub</a> if you are a UC Davis member!</p>
+</div>
 
     </div>
   </article>
@@ -96,8 +116,8 @@ building instructions (<a class="reference external" href="http://bicycle.tudelf
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function() {
-      this.page.url = 'https://mechmotum.github.io/blog/lego-bicycle.html';
-      this.page.identifier = 'lego-mindstorms-nxt-based-bicycle-robot';
+      this.page.url = 'https://mechmotum.github.io/blog/jupyter-summer-2021.html';
+      this.page.identifier = 'jupyter-summer-2021';
     };
     (function() {
       var d = document;
