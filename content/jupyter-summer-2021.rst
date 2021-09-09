@@ -36,9 +36,6 @@ to JupyterLab 3.0, which includes new features which are great for widgets
 and their JavaScript extensions. Additionally, we added a new Adapt plugin
 to supplement our already existing Query plugin on libretexts.org.
 
-Finally, after many bitcoining mining attempts on libretexts.org,
-we have successfully implemented measures to mitigate these abuses.
-
 In the Works
 ------------
 
