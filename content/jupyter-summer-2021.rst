@@ -33,11 +33,8 @@ to JupyterLab 3.0, which includes new features which are great for widgets
 and their JavaScript extensions. Additionally, we added a new Adapt plugin
 to supplement our already existing Query plugin on libretexts.org.
 
-Finally, after many bitcoining mining attempts on libretexts.org through our binder.libretexts.org,
-we have implemented successful automated measures in order to deal with these cryptominers
-and prevent them from mining on the cluster. Since then, there have been no major instances
-of bitcoin miners running on the cluster, and we have further ideas if more
-anti-mining measures need to be added in the future.
+Finally, after many bitcoining mining attempts on libretexts.org,
+we have successfully implemented measures to mitigate these abuses.
 
 In the Works
 ------------
