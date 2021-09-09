@@ -19,7 +19,7 @@ Jupyter HTML Manager package to the Lab Manager, we are now able to run all
 ipywidget interactive widgets, which greatly expands the possibilities for textbook authors.
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
-   :height: 200px
+   :height: 400px
    :align: center
 
 In terms of cluster reliability, we have added a second router to be highly 
