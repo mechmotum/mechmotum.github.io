@@ -18,7 +18,7 @@ work with the entire interactive Jupyter widget ecosystem. By migrating from the
 Jupyter HTML Manager package to the Lab Manager, we are now able to run all 
 ipywidget interactive widgets, which greatly expands the possibilities for textbook authors.
 
-.. |thebe-working| image:: https://cdn.discordapp.com/attachments/840776718930411561/885315459560374323/BdXwA3V0Pl.gif
+.. image:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
    :height: 200px
    :align: center
 
