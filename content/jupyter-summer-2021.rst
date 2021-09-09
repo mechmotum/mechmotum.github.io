@@ -18,10 +18,11 @@ work with the entire interactive Jupyter widget ecosystem. By migrating from the
 Jupyter HTML Manager package to the Lab Manager, we are now able to run all 
 ipywidget interactive widgets, which greatly expands the possibilities for textbook authors.
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
    :height: 400px
    :align: center
 
+   Example of an ipywidget controlling a matplotlib figure in Thebe.
 In terms of cluster reliability, we have added a second router to be highly 
 available with the already existing one; If the master router fails for any reason,
 then the backup one will take its place until the master comes back online. Furthermore,
