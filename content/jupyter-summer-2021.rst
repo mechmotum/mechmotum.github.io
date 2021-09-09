@@ -20,6 +20,7 @@ ipywidget interactive widgets, which greatly expands the possibilities for textb
 
 .. |thebe-working| image:: https://cdn.discordapp.com/attachments/840776718930411561/885315459560374323/BdXwA3V0Pl.gif
    :height: 200px
+   :align: center
 
 In terms of cluster reliability, we have added a second router to be highly 
 available with the already existing one; If the master router fails for any reason,
