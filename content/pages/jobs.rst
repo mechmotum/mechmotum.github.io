@@ -56,69 +56,93 @@ in finding students for [#]_:
 
 .. list-table::
    :header-rows: 1
-   :widths: 60 15 35
+   :widths: 45 15 35 15
    :class: table table-striped table-bordered
 
    * - Proposal Title & Info
      - Date posted
      - Partners
+     - Type
+   * - `Novel cadence detection for electric bicycles <https://objects-us-east-1.dream.io/mechmotum/swugo-internship-cadence.pdf>`_
+     - 2021-09-10
+     - `swugo <https://swugo.com/>`_
+     - Internship
    * - `Cycling Material Model Design <https://objects-us-east-1.dream.io/mechmotum/team-dsm-modelling-project.pdf>`_ [Applications due by 2021-09-17]
      - 2021-09-02
      - `Team DSM <https://www.team-dsm.com>`_
+     - Internship & Thesis
    * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
      - 2021-07-06
      - `REV'IT! <https://www.revitsport.com>`_
+     - Thesis
    * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
      - 2021-02-23
      - Dr. Patrick Forbes @ Erasmus Medical Center
+     - Thesis
    * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
      - 2021-02-15
      -
+     - Thesis
    * - `Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning <{filename}/pages/jobs/bicycle-crash-video-kinematics.rst>`_
      - 2021-01-29
      -
+     - Thesis
    * - `Development of a Bobsleigh Simulator for Training and Outreach in Jamaica <{filename}/pages/jobs/bobsleigh-simulator.rst>`_
      - 2020-01-13
      - Jamaican Bobsleigh and Skeleton Federation
+     - Thesis
    * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
      - 2020-11-17
      - Dr. Rene van Paassen (TU Delft, Aerospace)
+     - Thesis
    * - `Assessment of Mountain Biking Balance for Physiotherapy Interventions <https://objects-us-east-1.dream.io/mechmotum/lunex-tud-bicycle-physio-msc.pdf>`_
      - 2020-11-11
      - `LUNEX University`_
+     - Thesis
    * - `Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions <{filename}/pages/jobs/fast-musculoskeletal-simulations.rst>`_
      - 2020-09-21
      -
+     - Thesis
    * - `How fast will my open source code break? <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
      - 2020-09-18
      -
+     - Thesis
    * - `Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology <{filename}/pages/jobs/truebike-calibration.rst>`_
      - 2020-09-10
      - TrueKinetix_
+     - Thesis
    * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
      - 2020-09-10
      - TrueKinetix_
+     - Thesis
    * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
      - 2020-09-10
      - Gazelle_
+     - Thesis
    * - `Understanding Disc Brake Squeal in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`_
      - 2020-09-10
      - Gazelle_
+     - Thesis
    * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
      - 2020-09-10
      - USSEA_
+     - Thesis
    * - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
      - 2020-09-10
      - Dr. Mont Hubbard (University of California, Davis)
+     - Thesis
    * - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
      - 2020-09-10
      - Dr. Paul Crawford (Hegemony Tech)
+     - Thesis
    * - `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
      - 2020-09-10
      -
+     - Thesis
    * - `Squiggly Bicycle Routes <{filename}/pages/jobs/squiggly-bicycle-routes.rst>`_
      - 2020-09-10
      - Ted Buehler (Portland, USA)
+     - Thesis
 
 **Previously Selected Projects**
 
