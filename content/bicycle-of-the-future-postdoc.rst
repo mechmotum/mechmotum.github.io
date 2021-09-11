@@ -81,6 +81,8 @@ position:
 
 https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4015&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
 
+**Applications Due September 30, 2021**
+
 Additional information
 ======================
 
