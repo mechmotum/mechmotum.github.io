@@ -184,10 +184,10 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
-   * - Welcome back 2021 Q1
+   * - Welcome back 2021 Q1, Browser-only Mechmotum website update
      - 2021-09-14
+     - Rado Dukalski
      - 
-     - `Slides
    * - Optimal Control in Biomechanics
      - 2021-05-03
      - Joris Ravenhorst, Jan Groenhuis, and Jason Moore
