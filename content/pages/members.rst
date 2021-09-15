@@ -71,21 +71,26 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-heinen-jan|
+     - | Jan Heinen [TUD, Sep 2021-present]
+       | Skateboarding Biomechanics
+     - |headshot-missing|
      - | Simonas Draukšas [TUD, Sep 2021-present]
        | Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance
-     - |headshot-landre-daniel|
+   * - |headshot-landre-daniel|
      - | Daniël Landré [TUD, Sep 2021-present]
        | Adaptive Speed Control in Cycling
-   * - |headshot-van-de-velde-shannon|
+     - |headshot-van-de-velde-shannon|
      - Shannon van de Velde [TUD, Dec 2020-present]
-     - |headshot-missing|
+   * - |headshot-missing|
      - | Julie van Vlerken [TUD, Sep 2020-present]
        | Bicycle Design, Dynamics, and Handling
-   * - |headshot-haasnoot-jelle|
+     - |headshot-haasnoot-jelle|
      - Jelle Haasnoot [TUD]
-     - |headshot-huiskens-tim|
+   * - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
+     -
+     -
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
@@ -100,6 +105,10 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-landre-daniel| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-landre-daniel.png
+   :width: 100px
+   :height: 133px
+
+.. |headshot-heinen-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg
    :width: 100px
    :height: 133px
 
