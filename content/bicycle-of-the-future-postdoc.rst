@@ -17,9 +17,9 @@ Postdoctoral Researcher Opening:  Bicycle of the Future
 Job description
 ===============
 
-The TU Delft Bicycle Lab is seeking a postdoctoral researcher for a 10 month
-full time contract [1]_ with a starting date before the end of 2021. The
-researcher will develop and execute an engineering research project for the
+The TU Delft Bicycle Lab is seeking a postdoctoral researcher for a **12
+month** full time contract [1]_ with a starting date before the end of 2021.
+The researcher will develop and execute an engineering research project for the
 "Bicycle of the Future" grant which is supported by ClickNL
 (https://www.clicknl.nl) and Royal Dutch Gazelle
 (https://www.gazellebikes.com). The aim of the TU Delft and Gazelle
@@ -44,7 +44,7 @@ from a variety of sensors (accelerometers, gyroscopes, GNSS receiver, torque
 load cells, etc.) to improve transportation safety, efficiency,
 personalization, and many other aspects. This topic should use this technology
 to bring computer intelligence to bicycle transportation with a focus on the
-vehicle’s use of this information.
+vehicle's use of this information.
 
 Advanced transport solutions
 ----------------------------
@@ -93,5 +93,6 @@ Assistant Professor, email: j.k.moore@tudelft.nl. 
 For information about the application procedure, please contact Ms. Anita van
 Vianen, email: application-3me@tudelft.nl.
 
-.. [1] We are currently seeking an extension for the funding duration and there
-   is some likelihood for a 12 month appointment. This is not guaranteed.
+.. [1] We originally advertised a 10 month appointment and the official
+   application page also reflects that, but we have obtained approval for the
+   extra 2 months. The position will be 12 months.
