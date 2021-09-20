@@ -63,13 +63,14 @@ up-to-date rules if in question. The current lab rules are:
   <https://www.tudelft.nl/en/2021/tu-delft/coronavirus/>`_ and `3mE rules
   <https://www.tudelft.nl/en/3me/current/information-coronavirus/>`_ apply and
   the following rules are in addition to those.
-- Indicate on the lab `reservation calendar`_ when you will be present and how
-  many people will be present with your reservation. The reservations work on
-  first come, first serve basis. Talk to your fellow lab members if adjustments
-  are needed for time conflicts.
-- No more than 4 people may be in the lab at any given time.
-- 1.5 m distance must be kept between everyone present in the lab.
-- If you are sick, stay home and get tested.
+- No more than 6 people working in the lab at any given time. If you need to
+  visit the lab briefly and there are 6 people present, ask if the people
+  present are comfortable with you entering when arriving.
+- Still try to maintain 1.5 m distance between everyone present in the lab,
+  unless you've discussed relaxing that between you and the other person.
+- If you are sick, stay home and get tested. Let others you were in contact
+  with know immediately of possible or confirmed COVID infection to prevent
+  spread.
 - Take the virus seriously and respect everyone's health needs/wishes. Everyone
   should feel comfortable if using the space. Communication is key for this.
 
