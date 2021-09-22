@@ -77,6 +77,16 @@ required, as well as excellent communication skills. 
 To Apply
 ========
 
+To apply, please submit (in PDF format) a 1 page cover letter explaining your
+fit for the position and motivation, a C.V., an example peer reviewed
+scientific publication where you are the primary author, and a 1 page project
+proposal by 30 September 2021 via the application button.
+
+The proposal will be reviewed for novelty, feasibility, and alignment with the
+stated project topics. The idea in the proposal will be used as a starting
+point in developing your project with the TU Delft Bicycle Lab and Royal Dutch
+Gazelle if hired.   
+
 Visit TU Delft's website to find more employment details and apply for the
 position (vacancy number: TUD01463):
 
