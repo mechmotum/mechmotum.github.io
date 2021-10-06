@@ -72,14 +72,6 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
-   * - `Novel cadence detection for electric bicycles <https://objects-us-east-1.dream.io/mechmotum/swugo-internship-cadence.pdf>`_
-     - 2021-09-10
-     - `swugo <https://swugo.com/>`_
-     - Internship
-   * - `Cycling Material Model Design <https://objects-us-east-1.dream.io/mechmotum/team-dsm-modelling-project.pdf>`_ [Applications due by 2021-09-17]
-     - 2021-09-02
-     - `Team DSM <https://www.team-dsm.com>`_
-     - Internship & Thesis
    * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
      - 2021-07-06
      - `REV'IT! <https://www.revitsport.com>`_
@@ -164,6 +156,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Cycling Material Model Design <https://objects-us-east-1.dream.io/mechmotum/team-dsm-modelling-project.pdf>`_ [Applications due by 2021-09-17]
+     - 2021-09-02
+     - `Team DSM <https://www.team-dsm.com>`_
+     - Dorus de Boer
+   * - `Novel cadence detection for electric bicycles <https://objects-us-east-1.dream.io/mechmotum/swugo-internship-cadence.pdf>`_
+     - 2021-09-10
+     - `swugo <https://swugo.com/>`_
+     - Simonas Draukšas
    * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
      - 2021-02-15
      - Dr. Laura Marchal-Crespo (TU Delft, CoR)
