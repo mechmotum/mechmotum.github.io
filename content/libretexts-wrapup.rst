@@ -7,22 +7,29 @@ Libretexts Jupyter Integration Wrapup
 :category: education
 :tags: jupyter,libretexts
 
-As of September 30th, we have wrapped up our work intergrating Jupyter tools
-into the Libretexts platform. This work was part of a 3 year $5M grant from the
-U.S. Department of Education to enhance open access textbooks.
+As of September 30th, we have wrapped up our work intergrating Jupyter based
+computing tools into the Libretexts website. This work was part of a three year
+$5M grant from the U.S. Department of Education (DoE) to enhance open access
+textbooks called `Open Textbooks Pilot Program`_ (CFDA No. 84.116T).
 
-Funded by the Open Textbooks Pilot Program (CFDA No. 84.116T) from
+.. _Open Textbooks Pilot Program: https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program
 
-https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program
+This blog post serves as a report on the outcomes from the portion of the grant
+I was responsible for as a Co-Principal Investigator. Overall, I think we were
+quite successful. Libretexts users are creating textbooks with interactive
+computational elements (10+ textbooks), we've served hundreds of students with
+our JupyterHub, and we've trained 12 undergraduate students in full stack
+development, system administration, and site reliability engineering with many
+of them now in professional positions making use of those skills.
 
 Project Goals
 =============
 
-The overall goals of the grant were multifold and we contributed one small
-chunk. We were part of Thrust 3: "Next Generation Technology - Interactive
-Visualizations, Automated Assessment, Annotations, Database Integration, &
-Technological Synergy". Here is the text from the grant proposal for our
-portion of Thrust 3:
+The overall goals of the DoE grant were multifold and we contributed to one
+small chunk. Our project was part of *"Thrust 3: Next Generation Technology -
+Interactive Visualizations, Automated Assessment, Annotations, Database
+Integration, & Technological Synergy"*. Here is what I proposed we would do in
+the grant proposal:
 
    3C: Interactive Figure Editor (Jason K. Moore).
 
@@ -30,82 +37,100 @@ portion of Thrust 3:
    specialized 3D visualizations, many LibreTexts authors also desire arbitrary
    interactive visualizations illustrating concepts in any scientific domain.
    It is known that quality figures enhance learning when adjunct to text
-   regardless if the figures are static, dynamic, or interactive,18,40 but
+   regardless if the figures are static, dynamic, or interactive,[18,40] but
    research demonstrating whether interactivity improves learning is nascent.
    In computer science education, there is evidence that interactive
    visualizations of computer algorithms improve learning when they are self
-   paced and of high quality41–43 but may hamper learning if poorly
-   designed.44,45 There is recent evidence that interactivity is especially
-   beneficial for lower performing students.46 Cutting edge interactive
+   paced and of high quality[41–43] but may hamper learning if poorly
+   designed.[44,45] There is recent evidence that interactivity is especially
+   beneficial for lower performing students.[46] Cutting edge interactive
    visualizations demonstrate how concepts are learned through exploration47
    and modern publishing platforms are adopting interactive figures for high
-   level scientific communication (Authorea)48 as well as for the public (e.g.
-   New York Times). This will enable LibreText to become a platform for
+   level scientific communication (Authorea)[48] as well as for the public
+   (e.g.  New York Times). This will enable LibreText to become a platform for
    research into the benefits of interactive figures in addition to providing
    authors with infinite interactive visualization possibilities to convey
    concepts (see Figure 4 for examples). To do so, we will implement general
    functionality for authors to easily include any type of interactive figure
    through a new "interactive figure editor" that relies on the Jupyter
-   interactive widget system, ipywidgets.49
+   interactive widget system, ipywidgets.[49]
 
    Jupyter is a popular open source web application that allows users to create
    and share interactive documents that contain equations, visualizations,
-   narrative text, and the execution of code.50 LibreTexts authors will be able
-   to write high level code in the Python programming language in the
+   narrative text, and the execution of code.[50] LibreTexts authors will be
+   able to write high level code in the Python programming language in the
    LibreTexts editing interface to generate figures. On page save, the Python
    code will be sent to an external server where it will be executed in a
    secure container using Jupyter to generate an entry in an open access
    database of versioned interactive Javascript figures.
 
-By the time we recieved the money and the grant period started the goals
-solidied into:
+By the time we received the money and the grant period started the specific
+goals solidified into three primary aims and two ancillary aims:
 
-Primary
+**Primary**
 
 1. Allow any reader of a libretexts textbook page to execute code interactively
 2. Allow textbook authors and readers to execute code that produces passive and
    interactive figures
 3. Add Jupyter enabled textbooks and portions of textbooks to LibreTexts
 
-Anscillary
+**Ancillary**
 
 1. Provide a JupyterHub for LibreTexts and UC Davis users
-2. Train students in full stack development and system administration
+2. Train students in full stack development, system administration, and site
+   reliability engineering
 
-We based all of this on the hard work and shared resources of the greater
-Juyter community.
+Below each section describes the various things we produced to meet these
+goals. Developing a system like this from scratch is an enormous task, so it is
+important to note that we built everything off of the inc rebel open source
+foundation of greater Jupyter community and various other essential projects.
 
-Kubernetes Bare Metal Cluster
-=============================
+UC Davis Kubernetes Cluster
+===========================
 
-We decided to build and run our own Kubernetes computing cluster. We chose to
-do this instead of using cloud services because the 5-10 year costs outlook
-seemed to be more favorable. We also had the experise and existing hardware
-available to pilot the system. After two build and test iterations, we now have
-a 19 node cluster that runs JupyterHub and BinderHub for LibreTexts and UC
-Davis users. The cluster has several notable features:
+We decided to build and run our own `bare metal`_ Kubernetes computing cluster.
+We chose to do this instead of using cloud services because the 5-10 year costs
+projection seemed to be more favorable. We also had the expertise and existing
+hardware available to pilot the system. After two build and test iterations, we
+now have a 19 node cluster that runs JupyterHub and BinderHub for UC Davis and
+LibreTexts users. The cluster has several notable features:
 
 - Puppet based deployment (we can tear down and rebuild the cluster with one
   command)
-- Montioring and alerts via Promethesu and Grafana
+- Monitoring and alerts via Promethesu and Grafana
 - ZFS data storage node
+- High availability entry point server pair
+- Custom user abuse sensors and process killers
 
-Custom repo2docker image
-========================
+.. _bare metal: https://en.wikipedia.org/wiki/Bare-metal_server
 
-The default docker image for our our hubs include a large set of software. We
-manage the sofware dependencies using APT and Conda/Mamba, with most packages
-installed via Mamba from the conda-forge channel. Managing an image with a
-large set of software packages in a single environment has been rather
-difficult due to hard to solve version compatibilities, packages that arent'
-kept up-to-date, desire for different versions of some packages, packages not
-being available in conda-forge, slow build times, and large docker image sizes.
-We've wreslted with these issues for three years, but things are resaonably
-smooth at this point. New images are immediately cached on all of our cluster
-nodes so that user load times are snappy and the vast majority of needed
-software is pre-installed.
+Custom Docker Image
+===================
+
+The default repo2docker_ based docker image for our our hub includes a large
+set of software. We manage the software dependencies using APT and Mamba_, with
+most packages installed via Mamba from the conda-forge_ channel. Managing an
+image with a large set of software packages in a single environment has been
+rather difficult due to hard to solve version compatibilities, packages that
+aren't kept up-to-date, user desire for different versions of some packages,
+packages not being available in conda-forge, slow build times, and large docker
+image sizes. We've wrestled with these issues for three years, but things are
+reasonably smooth at this point. New images are immediately cached on all of
+our cluster nodes so that user load times are snappy and the vast majority of
+needed software is pre-installed. We'd like hard pins to work better with Conda
+so that software updates are more easily managed.
+
+Our build specs for the image can be found here:
 
 https://github.com/LibreTexts/default-env
+
+It should be a nice starting image for many scientific computing situations as
+it includes Python, R, Julia, Octave, C++, and Sage in the console and
+notebooks as well as Rstudio server access to R.
+
+.. _repo2docker: https://github.com/jupyterhub/repo2docker
+.. _Mamba: https://github.com/mamba-org/mamba
+.. _conda-forge: https://conda-forge.org/
 
 JupyterHub
 ==========
