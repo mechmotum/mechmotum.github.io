@@ -60,14 +60,14 @@ portion of Thrust 3:
 By the time we recieved the money and the grant period started the goals
 solidied into:
 
-Primary goals
+Primary
 
 1. Allow any reader of a libretexts textbook page to execute code interactively
 2. Allow textbook authors and readers to execute code that produces passive and
    interactive figures
 3. Add Jupyter enabled textbooks and portions of textbooks to LibreTexts
 
-Anscillary goals
+Anscillary
 
 1. Provide a JupyterHub for LibreTexts and UC Davis users
 2. Train students in full stack development and system administration
@@ -175,19 +175,32 @@ Supporting Classes
 ngshare
 -------
 
-https://github.com/LibreTexts/ngshare
+During our efforts to get professors to adopt the hub at UC Davis, we found out
+that many wanted to use nbgrader_ for auto-grading of Jupyter notebooks. But
+nbgrader was only built for servers that had a standard shared user space
+storarge with a UNIX permission model. Thus nbgrader could not function in a
+kubernetes backed JupyterHub. Chris X and I proposed a computer science
+capstone BSC project and attracted a group of students for the project. This
+group evented ngshare, which solves the problem by running a data excahnge
+database on a kubernetes pod that can be swapped out for nbgrader's traditoinal
+shared disk space.
 
+.. _nbgrader: https://github.com/jupyter/nbgrader
+
+https://github.com/LibreTexts/ngshare
+https://github.com/LibreTexts/ngshare_exchange
+https://github.com/LibreTexts/ngshare-helm-repo
 
 LibreTexts Textbooks Using Jupyter Integration
 ==============================================
 
-- `https://geo.libretexts.org/Courses/University_of_California_Davis/GEL_056:_Introduction_to_Geophysics`
-- `https://math.libretexts.org/Bookshelves/Linear_Algebra/Matrix_Algebra_with_Computational_Applications_(Colbry)`
+Introduction to Geophysics
+
 
 R:
 
-- `https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Book:_Visual_Statistics_Use_R_(Shipunov)`
 - `https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics_OLCC_(2019)`
+- `https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Book:_Visual_Statistics_Use_R_(Shipunov)`
 - `https://stats.libretexts.org/Bookshelves/Applied_Statistics/Book:_Answering_Questions_with_Data_-__Introductory_Statistics_for_Psychology_Students_(Crump)`
 
 Julia
@@ -197,6 +210,8 @@ Julia
 Python
 
 - `https://eng.libretexts.org/Courses/Delta_College/Introduction_to_Programming_Concepts_-_Python`
+- `https://geo.libretexts.org/Courses/University_of_California_Davis/GEL_056:_Introduction_to_Geophysics`
+- `https://math.libretexts.org/Bookshelves/Linear_Algebra/Matrix_Algebra_with_Computational_Applications_(Colbry)`
 - `https://eng.libretexts.org/Bookshelves/Introduction_to_Engineering/EGR_1010:_Introduction_to_Engineering_for_Engineers_and_Scientists`
 - `https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Book%3A_Python_for_Everybody_(Severance)`
 
@@ -214,18 +229,35 @@ Other:
 - `https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications`
 
 
-STudents presenting
+Students presenting
+===================
 
+SacPy
+Women in Tech
+
+The Future
+==========
+
+- Hub will continue to run for LIbreTexts and UC Davis
 
 Students getting jobs & grad school
+===================================
 
 Thanks to students and partners
 
 Resources
+=========
 
-metalc
+metalc https://github.com/LibreTexts/metalc/
+   Primary documentation and issue tracker for the project.
 
 https://github.com/LibreTexts/labextension-libretexts-faq
-
+https://github.com/LibreTexts/ckeditor-query-plugin
+https://github.com/LibreTexts/labextension-libretexts-faq
+https://github.com/LibreTexts/jupyterhub-templates
+https://github.com/LibreTexts/protogalaxy
+https://github.com/LibreTexts/jupyterteam_widget
+https://github.com/LibreTexts/widget-testing
 
 Prior blog posts
+================
