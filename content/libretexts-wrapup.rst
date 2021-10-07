@@ -97,10 +97,12 @@ LibreTexts users. The cluster has several notable features:
 
 - Puppet based deployment (we can tear down and rebuild the cluster with one
   command)
-- Monitoring and alerts via Promethesu and Grafana
+- Monitoring and alerts via Prometheus and Grafana
 - ZFS data storage node
 - High availability entry point server pair
 - Custom user abuse sensors and process killers
+
+TODO : Add image of the server rack
 
 .. _bare metal: https://en.wikipedia.org/wiki/Bare-metal_server
 
@@ -120,7 +122,7 @@ our cluster nodes so that user load times are snappy and the vast majority of
 needed software is pre-installed. We'd like hard pins to work better with Conda
 so that software updates are more easily managed.
 
-Our build specs for the image can be found here:
+Our repo2docker build specs for the image can be found here:
 
 https://github.com/LibreTexts/default-env
 
@@ -135,24 +137,36 @@ notebooks as well as Rstudio server access to R.
 JupyterHub
 ==========
 
-The JupyterHub is accessible at https://jupyter.libretexts.org and
-https://jupyterhub.ucdavis.edu.
+We run a JupyterHub on the cluster that defaults to the latest JupyterLab
+interface for interacting with the available programming languages. The
+JupyterHub is accessible at both https://jupyter.libretexts.org and
+https://jupyterhub.ucdavis.edu. Anyone with a UC Davis email address can log in
+and make use of the Hub. We've served over 400 users over the last couple of
+years, most from various UC Davis and LibreTexts courses. We developed a FAQ_
+that provides instructions for more advanced use and questions.
 
-JupyterHub & Rstudio Server Class Support
+TODO: Add image of our JupyterLab launch screen
+
+TODO: Add image of the RStudio interface
+
+.. _FAQ: https://jupyterhub.ucdavis.edu/hub/faq
 
 CKEditor Thebe Plugin
 =====================
 
-Thebe is a javascript application that enables live Jupyter code cells to be
+Thebe_ is a JavaScript application that enables live Jupyter code cells to be
 integrated into an arbitrary HTML page. Viewers of the HTML page can interact
-with the cells by editing and  executing them. Once executed the output can be
-simple text output or advanced javascript based itneractive visualizations.
-Thebe was orginally developed as part of Europe's OpenDreamKit project and ties
-into the Jupyter ecosystem. There are soem alternatives to Thebe, but those did
-not seem to offer anything more than Thebe. Once we settled on using Thebe for
-LIbretexts pages, we developed a plugin for the CKEditor that allows page
-authors to eidt and check code cells. LibreTexts uses the CKEditor for WYSIWYG
-editing of textbook pages.
+with the cells by editing and executing them. Once executed the output can be
+simple text output or advanced Javascript based interactive visualizations.
+Thebe was originally developed as part of Europe's OpenDreamKit_ project and
+ties into the Jupyter ecosystem. There are some alternatives to Thebe, but were
+essentially the same thing. Because of this, we more-or-less flipped a coin and
+chose to make use of Thebe in LibreTexts. Once we settled on using Thebe for
+Libretexts pages, we developed a plugin for CKEditor_ that allows page authors
+to edit and check code cells. LibreTexts uses the CKEditor for WYSIWYG editing
+of textbook pages. The plugin can be found here:
+
+https://github.com/LibreTexts/ckeditor-binder-plugin
 
 The plugin allows authors to:
 
@@ -160,54 +174,68 @@ The plugin allows authors to:
 - Embed the code cell with or without the output of the cell.
 - Embed the code cell with or without the code of the cell displayed to
   readers.
-- Set the cells to uneditable by the LIbretexts readers.
+- Set the cells to uneditable by the Libretexts readers.
 
-https://opendreamkit.org/
+TODO : Add image/gif of plugin.
 
-https://github.com/LibreTexts/ckeditor-binder-plugin
+.. _Thebe: https://github.com/executablebooks/thebe
 
-https://ckeditor.com/
+.. _OpenDreamKit: https://opendreamkit.org/
+.. _CKEditor: https://ckeditor.com/
 
 Thebe Improvements
 ==================
 
 After selecting Thebe and developing the CKEditor plugin we discovered that
-ipywidgets did not fully function with Thebe. We had planned to use ipywidgets
-to offer Libretexts readers interaction with figures and visualization using
-GUI widgets (sliders, buttons, input boxes, etc.). We set out to rememdy this
-and began contributing to THebe. In the fall of 2020 we organized a sprint for
-Thebe during Jupytercon which helped breathe some life into the project, along
-with Executable Books and Curenote project members. We've made three releasese
-of Tehbe since then that have added a number of import new features and bug
-fixes, cinluding fully enabling ipytwidget support.
+ipywidgets_ did not fully function with Thebe. We had planned to use ipywidgets
+to offer LibreTexts readers interaction with figures and visualization using
+GUI widgets (sliders, buttons, input boxes, etc.). We set out to remedy this
+and began contributing to Thebe. In the fall of 2020, we organized a sprint_
+for Thebe during JupyterCon which helped breathe some life into the project.
+With the help of the original Thebe developer, Executable Books project
+members, Curvenote project members, and JupyterCon sprint attendees we knocked
+out a number of outstanding issues, see the `Github project`_. Since the
+sprint, there has been regular contributions to the repository and we've made
+three releases of Thebe that have added a number of import new features and bug
+fixes. Most importantly we recently merged the fix to fully enable ipywidgets
+support. Here are some of the major improvements made during and since the
+sprint:
 
-- Improved the documetnation, cinlding examples of advacned cell outputs
+- Improved the documentation, including examples of more advanced cell outputs
+- Thebe now uses JupyterLab 3.0 APIs
 - Added a configuration for read-only cells
-- Use JupyterLab 3.0 APIs
-- Improved unit testing infrastrcuture
-- Persist binder sessions across pages
-- Restart & Run all
-- Busy indicator
-- Fixed ipywidget interaction
+- Improved unit testing infrastructure
+- Thebe now persists binder sessions across pages on the same domain
+- A "Restart & Run All" buttom is now available on each cell
+- Each cell has a "busy indicator" to give the user feedback from the server
+- Enabled general ipywidget functionality
 
-You can see many of the rich Jupyter outputs on this page:
+You can see examples many of the rich Jupyter outputs on this LibreTexts page:
 
 https://query.libretexts.org/Sandboxes/jupyterteam_at_ucdavis.edu
+
+.. _ipywidgets: https://github.com/jupyter-widgets/ipywidgets
+.. _sprint: https://jupytercon.com/sprint/
+.. _Github project: https://github.com/executablebooks/thebe/projects/1
+
+TODO : Add gif of thebe+ipywidgets working
 
 Supporting Classes
 ==================
 
+TODO : List courses we've supported
+
 ngshare
--------
+=======
 
 During our efforts to get professors to adopt the hub at UC Davis, we found out
 that many wanted to use nbgrader_ for auto-grading of Jupyter notebooks. But
 nbgrader was only built for servers that had a standard shared user space
-storarge with a UNIX permission model. Thus nbgrader could not function in a
+storage with a UNIX permission model. Thus nbgrader could not function in a
 kubernetes backed JupyterHub. Chris X and I proposed a computer science
 capstone BSC project and attracted a group of students for the project. This
-group evented ngshare, which solves the problem by running a data excahnge
-database on a kubernetes pod that can be swapped out for nbgrader's traditoinal
+group evented ngshare, which solves the problem by running a data exchange
+database on a kubernetes pod that can be swapped out for nbgrader's traditional
 shared disk space.
 
 .. _nbgrader: https://github.com/jupyter/nbgrader
@@ -220,7 +248,6 @@ LibreTexts Textbooks Using Jupyter Integration
 ==============================================
 
 Introduction to Geophysics
-
 
 R:
 
@@ -240,7 +267,7 @@ Python
 - `https://eng.libretexts.org/Bookshelves/Introduction_to_Engineering/EGR_1010:_Introduction_to_Engineering_for_Engineers_and_Scientists`
 - `https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Book%3A_Python_for_Everybody_(Severance)`
 
-Shell, Ptyon, R:
+Shell, Python, R:
 
 - `https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things_(2020)`
 
@@ -263,7 +290,7 @@ Women in Tech
 The Future
 ==========
 
-- Hub will continue to run for LIbreTexts and UC Davis
+- Hub will continue to run for LibreTexts and UC Davis
 
 Students getting jobs & grad school
 ===================================
@@ -275,14 +302,19 @@ Resources
 
 metalc https://github.com/LibreTexts/metalc/
    Primary documentation and issue tracker for the project.
-
 https://github.com/LibreTexts/labextension-libretexts-faq
-https://github.com/LibreTexts/ckeditor-query-plugin
-https://github.com/LibreTexts/labextension-libretexts-faq
+   JupyterLab extension that adds an FAQ link in the menu bar.
 https://github.com/LibreTexts/jupyterhub-templates
+   JupyterHub HTML templates that add the About and FAQ pages.
 https://github.com/LibreTexts/protogalaxy
+   First attempt at a puppet based cluster configuration manager.
 https://github.com/LibreTexts/jupyterteam_widget
+   Example Jupyter widget used for learning how Jupyter widgets work.
 https://github.com/LibreTexts/widget-testing
+   Extensive tests for various advanced Jupyter cell outputs in Thebe and
+   LibreTexts.
 
 Prior blog posts
 ================
+
+TODO : List the prior blog posts.
