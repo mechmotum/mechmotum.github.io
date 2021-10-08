@@ -1,5 +1,5 @@
 =====================================
-Libretexts Jupyter Integration Wrapup
+LibreTexts Jupyter Integration Wrapup
 =====================================
 
 :date: 2021-10-01
@@ -7,16 +7,20 @@ Libretexts Jupyter Integration Wrapup
 :category: education
 :tags: jupyter,libretexts
 
-As of September 30th, we have wrapped up our work intergrating Jupyter based
-computing tools into the Libretexts website. This work was part of a three year
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/project-image-jupyter-libretexts.png
+   :align: center
+
+As of September 30th, we have wrapped up our work integrating Jupyter based
+computing tools into the LibreTexts_ website. This work was part of a three year
 $5M grant from the U.S. Department of Education (DoE) to enhance open access
 textbooks called `Open Textbooks Pilot Program`_ (CFDA No. 84.116T).
 
+.. _LibreTexts: https://www.libretexts.org
 .. _Open Textbooks Pilot Program: https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program
 
 This blog post serves as a report on the outcomes from the portion of the grant
 I was responsible for as a Co-Principal Investigator. Overall, I think we were
-quite successful. Libretexts users are creating textbooks with interactive
+quite successful. LibreTexts users are creating textbooks with interactive
 computational elements (10+ textbooks), we've served hundreds of students with
 our JupyterHub, and we've trained 12 undergraduate students in full stack
 development, system administration, and site reliability engineering with many
@@ -165,6 +169,11 @@ specifically for LibreText users and authors.
 
    RStudio Interface
 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png
+   :align: center
+
+   Author construction guide section about Jupyter integration
+
 .. _FAQ: https://jupyterhub.ucdavis.edu/hub/faq
 .. _construction guide: https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements
 
@@ -179,7 +188,7 @@ Thebe was originally developed as part of Europe's OpenDreamKit_ project and
 ties into the Jupyter ecosystem. There are some alternatives to Thebe, but were
 essentially the same thing. Because of this, we more-or-less flipped a coin and
 chose to make use of Thebe in LibreTexts. Once we settled on using Thebe for
-Libretexts pages, we developed a plugin for CKEditor_ that allows page authors
+LibreTexts pages, we developed a plugin for CKEditor_ that allows page authors
 to edit and check code cells. LibreTexts uses the CKEditor for WYSIWYG editing
 of textbook pages. The plugin can be found here:
 
@@ -191,7 +200,7 @@ The plugin allows authors to:
 - Embed the code cell with or without the output of the cell.
 - Embed the code cell with or without the code of the cell displayed to
   readers.
-- Set the cells to uneditable by the Libretexts readers.
+- Set the cells to uneditable by the LibreTexts readers.
 
 .. raw:: html
 
@@ -319,46 +328,61 @@ required to run the service:
 LibreTexts Textbooks Using Jupyter Integration
 ==============================================
 
-Introduction to Geophysics
-
-
-R:
-
-- `https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics_OLCC_(2019)`
-- `https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Book:_Visual_Statistics_Use_R_(Shipunov)`
-- `https://stats.libretexts.org/Bookshelves/Applied_Statistics/Book:_Answering_Questions_with_Data_-__Introductory_Statistics_for_Psychology_Students_(Crump)`
-
-Julia
-
-- `https://math.libretexts.org/Bookshelves/Scientific_Computing_Simulations_and_Modeling/Book:_Scientific_Computing_(Staab)`
+There are at least 10 textbooks on LibreTexts that make use of the Jupyter
+intergration for a variety of different programming languages.
 
 Python
 
-- `https://eng.libretexts.org/Courses/Delta_College/Introduction_to_Programming_Concepts_-_Python`
-- `https://geo.libretexts.org/Courses/University_of_California_Davis/GEL_056:_Introduction_to_Geophysics`
-- `https://math.libretexts.org/Bookshelves/Linear_Algebra/Matrix_Algebra_with_Computational_Applications_(Colbry)`
-- `https://eng.libretexts.org/Bookshelves/Introduction_to_Engineering/EGR_1010:_Introduction_to_Engineering_for_Engineers_and_Scientists`
-- `https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Book%3A_Python_for_Everybody_(Severance)`
+- `Introduction to Geophysics <https://geo.libretexts.org/Courses/University_of_California_Davis/GEL_056:_Introduction_to_Geophysics>`_ (Magali Billen, University of California, Davis)
+- `Introduction to Programming Concepts - Python <https://eng.libretexts.org/Courses/Delta_College/Introduction_to_Programming_Concepts_-_Python>`_ (Chuck Severance, University of Michigan)
+- `Matrix Algebra with Computational Applications <https://math.libretexts.org/Bookshelves/Linear_Algebra/Matrix_Algebra_with_Computational_Applications_(Colbry)>`_ (Dirk Colbry, Michigan State University)
+- `Introduction to Engineering for Engineers and Scientists <https://eng.libretexts.org/Bookshelves/Introduction_to_Engineering/EGR_1010:_Introduction_to_Engineering_for_Engineers_and_Scientists>`_
+- `Python for Everybody <https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Book%3A_Python_for_Everybody_(Severance)>`_ (Chuck Severance, University of Michigan)
+- `Chemistry Interactive Applicatiosn <https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications/Jupyter_Notebooks>`_
 
-Shell, Python, R:
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png
+   :align: center
 
-- `https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things_(2020)`
+   Example interactive robot arm simulator from Matrix Algebra with
+   Computational Applications (Colbry)
+
+R:
+
+- `Cheminformatics <https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics_OLCC_(2019)>`_
+- `Visual Statistics Use R <https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Book:_Visual_Statistics_Use_R_(Shipunov)>`_ (Alexey Shipunov, Minot State University)
+- `Answering Questions with Data - Introductory Statistics for Psychology Students <https://stats.libretexts.org/Bookshelves/Applied_Statistics/Book:_Answering_Questions_with_Data_-__Introductory_Statistics_for_Psychology_Students_(Crump)>`_ (Matthew J. C. Crump, Brooklyn College of CUNY)
+
+Julia
+
+- `Scientific Computing <https://math.libretexts.org/Bookshelves/Scientific_Computing_Simulations_and_Modeling/Book:_Scientific_Computing_(Staab)>`_ (Peter Staab, Fitchburg State University)
 
 Octave
 
-- `https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book:_Introduction_to_Control_Systems_(Iqbal)`
+- `Introduction to Control Systems <https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book:_Introduction_to_Control_Systems_(Iqbal)>`_ (Karmran Iqbal, University of Arkansas at Little Rock)
 
-Other:
+Shell, Python, R:
 
-- `https://query.libretexts.org/Sandboxes/hdagnew@ucdavis.edu/Jupyter_Widgets`
-- `https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications`
+- `Internet of Science Things <https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things_(2020)>`_ (Robert Belford, University of Arkansas at Little Rock)
 
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/gA9s0NQRVzY" title="YouTube video player"
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p>Three of the book authors (Belford, Billen, Iqbal) present their use of
+   Jupyter in LibreTexts.</p>
+   </center>
 
 Outreach
 ========
 
-SacPy
-Women in Data
+We did a number of outreach talks. This was an important for disseminating what
+we have done, but also in helping the students develop their presenting skills
+and connecting them to related networks. We presented at Jupyter Open Studio
+(2019), SacPy (2020),  LibreTexts OpenEd Week (2020), Women in Data (2020), and
+the National Workshop on Data Education (2020).
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg
    :align: center
@@ -366,20 +390,99 @@ Women in Data
 
    Hao, Tannavee, and Celine presenting at the SacPy meetup in 2019.
 
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/l-OVteC4PpA" title="YouTube video player"
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p>OpenEd Week Webinar</p>
+   </center>
+
+The Team
+========
+
+It is important to point out that all of the work to bring Jupyter to
+LibreTexts was done by a group of amazing undergraduate students over the last
+three years. Richard Feltstykket and I mentored the students and couldn't have
+asked for a better group. Overall, we had 12 students work from 2 quarters to a
+whole year on the project. The students developed their teamwork and onboarded
+new students every other quarter. Many of them also did this all during the
+height of the COVID19 pandemic. I have been so impressed with each student.
+They also came in with minimal to no knowledge about the assortment of tools
+and skills we were going to trick them into learning. The skillset needed for
+this to succeed was very broad, from building servers all the way up the stack
+to frontend Javascript app development. The students vacuumed up the knowledge,
+learned the skills, and it wasn't before long that they all knew way more than
+their two mentors (which is the agenda of all good mentors). As far as I can
+tell, this has paid off for many of the students. Some have taken positions
+doing very similar work to what they did in this project. And outside of the
+work, the students led us through an assortment of online games during our
+quarterly social breaks. I'll have nightmares about Jackbox Trivia Murder Party
+for some time to come :). Without further ado, here is it the team that made
+all of this magic happen:
+
+.. list-table::
+   :class: table
+   :width: 48%
+   :align: center
+
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-celine.png
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-hao.jpg
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-henry.jpg
+   * - Celine Liang (now @ Facebook)
+     - Hao Huang (now @ Zillow)
+     - Henry Agnew (now @ UC Irvine)
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-k.png
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-r.png
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-mandeepika.jpg
+   * - Kevin Krausse (now @ Ekata)
+     - Kevin Rong (now @ Zoox)
+     - Mandeepika Sani (UC Davis)
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-noah.png
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-patrick.jpg
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tannavee.png
+   * - Noah Sanders (UC Davis)
+     - Patrick Mackle (now @ DocuSign)
+     - Tannavee Kumar (now @ Tempus Labs)
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tim.png
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-xiaochen.png
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-luigi.png
+   * - Tim Stewart (UC Davis)
+     - Xiaochen Zeng (now @ Tencent)
+     - Xin Luigi Chen (now @ VMware)
+
+|
+|
+
+We also had tons of help from a number of folks. Special thanks goes out to:
+
+- Chris Holdgraf
+- Christopher Nitta
+- Delmar Larsen
+- Michael Casper Lewis
+- Min Ragan-Kelley
+- Steve Purves
+- Tom Neubarth
+
+TODO : Add image of the pizza social or us playing an online game
+
 The Future
 ==========
 
-- Hub will continue to run for LibreTexts and UC Davis
-
-Students getting jobs & grad school
-===================================
-
-Thanks to students and partners
-
-Tom, Casper, Min, Steve Purves, Chris Holdgraf, Chris Nitta
+The future for the system and tools we've developed as a part of this grant
+look good. Richard Feltstykket is taking the project into the future with
+LibreText's support. The cluster, JupyterHub, and LibreTexts page integration
+will continue to support a variety of instructors, courses, and students. The
+next big step is to scale up use for courses at UC Davis and LibreTexts
+participating universities. I certainly hope to see things grow now that it is
+all running smoothly.
 
 Resources
 =========
+
+`Lab project page <{filename}/pages/research/libretexts-jupyter.rst>`_
 
 Code repositories
 -----------------
