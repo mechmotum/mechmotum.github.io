@@ -68,7 +68,7 @@ the grant proposal:
    secure container using Jupyter to generate an entry in an open access
    database of versioned interactive Javascript figures.
 
-By the time the grant period started the specific goals solidified into three
+By the time the grant period started, the specific goals solidified into three
 primary aims and two ancillary aims:
 
 **Primary**
@@ -149,7 +149,7 @@ The default repo2docker_ based docker image for our our hub includes a large
 set of software. We manage the software dependencies using APT and Mamba_, with
 most packages installed via Mamba from the conda-forge_ channel. Managing an
 image with a large set of software packages in a single environment has been
-rather difficult due to hard-to-solve version compatibilities, relyin on
+rather difficult due to hard-to-solve version compatibilities, relying on
 packages that languish in maintenance, user desire for different versions of
 some packages, packages not being available in conda-forge, slow build times,
 and large docker image sizes. We've wrestled with these issues for three years,
@@ -409,23 +409,23 @@ The Team
 
 It is important to point out that all of the work to bring Jupyter to
 LibreTexts was done by a group of amazing undergraduate students over the last
-three years. Richard Feltstykket and I mentored the students and couldn't have
-asked for a better group. Overall, we had 12 students work from 2 quarters to a
-whole year on the project. The students developed their teamwork process and
-onboarded new students every other quarter. Many of the the students
-particpated during the height of the COVID 19 pandemic. I have been thoroughly
-impressed with the students.  They came to the project with minimal to no
-knowledge about the assortment of tools and skills that they needed to solve
-the presented problems. The skillset needed for them to succeed was very broad,
-from building servers all the way up the stack to frontend Javascript app
-development. The students vacuumed up the knowledge, learned the skills, and it
-wasn't before long that they all knew way more than their two mentors (which is
-the agenda of all good mentors). As far as I can tell, this has paid off for
-many of the students. Some have taken positions doing very similar work to what
-they did in this project. And outside of the work, the students led us through
-an assortment of online games during our quarterly social breaks. I'll have
-nightmares about Jackbox Trivia Murder Party for some time to come :). Without
-further ado, here is it the team that made all of this magic happen:
+three years. Richard Feltstykket and I mentored them and couldn't have asked
+for a better group. Overall, we had 12 students work from 2 quarters to a whole
+year on the project. They developed their teamwork process and onboarded new
+students every other quarter. Many of the the students particpated during the
+height of the COVID 19 pandemic. I have been thoroughly impressed with them and
+their work. They came to the project with minimal to no knowledge about the
+assortment of tools and skills that they needed to solve the presented
+problems. The skillset needed for them to succeed was very broad, from building
+servers all the way up the stack to frontend Javascript app development. The
+students vacuumed up the knowledge, learned the skills, and it wasn't before
+long that they all knew way more than their two mentors (which is the agenda of
+all good mentors). As far as I can tell, this has paid off for many of them.
+Some have taken positions doing very similar work to what they did in this
+project. And outside of the work, the students led us through an assortment of
+online games during our quarterly social breaks. I'll have nightmares about
+Jackbox Trivia Murder Party for some time to come :). Without further ado, here
+is it the team that made all of this magic happen:
 
 .. list-table::
    :class: table
@@ -475,7 +475,7 @@ partner in this project. We couldn't have pulled it off without his extensive
 knowledge and resources regarding the cluster development and system
 administration. Richard had some major things to deal with outside of work
 during these three years but he never showed any slowing down or loss of
-enthusiasm. He has my full admiration. I'll miss working with your Richard,
+enthusiasm. He has my full admiration. I'll miss working with you Richard,
 hopefully we can start up something new in the future! The project is in great
 hands.
 
@@ -520,6 +520,12 @@ Code repositories
    JupyterLab extension that adds an FAQ link in the menu bar.
 `metalc <https://github.com/LibreTexts/metalc/>`_
    Primary documentation and issue tracker for the project.
+`ngshare <https://github.com/LibreTexts/ngshare>`_
+   Primary repository containing the ngshare application.
+`ngshare_exchange <https://github.com/LibreTexts/ngshare_exchange>`_
+   Exchange used to run ngshare on single user space systems (non distributed
+`ngshare-helm-repo <https://github.com/LibreTexts/ngshare-helm-repo>`_
+   A ready made Helm chart for deploying to kubernetes.
 `protogalaxy <https://github.com/LibreTexts/protogalaxy>`_
    Puppet module bootstrapping highly available Kubernetes cluster using
    kubeadm, keepalived and HAProxy
