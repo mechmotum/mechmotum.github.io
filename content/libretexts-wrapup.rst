@@ -342,7 +342,7 @@ Python
 - `Matrix Algebra with Computational Applications <https://math.libretexts.org/Bookshelves/Linear_Algebra/Matrix_Algebra_with_Computational_Applications_(Colbry)>`_ (Dirk Colbry, Michigan State University)
 - `Introduction to Engineering for Engineers and Scientists <https://eng.libretexts.org/Bookshelves/Introduction_to_Engineering/EGR_1010:_Introduction_to_Engineering_for_Engineers_and_Scientists>`_
 - `Python for Everybody <https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Book%3A_Python_for_Everybody_(Severance)>`_ (Chuck Severance, University of Michigan)
-- `Chemistry Interactive Applicatiosn <https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications/Jupyter_Notebooks>`_
+- `Chemistry Interactive Applications <https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications/Jupyter_Notebooks>`_
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png
    :align: center
