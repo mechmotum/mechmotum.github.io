@@ -48,7 +48,7 @@ the grant proposal:
    paced and of high quality[41–43] but may hamper learning if poorly
    designed.[44,45] There is recent evidence that interactivity is especially
    beneficial for lower performing students.[46] Cutting edge interactive
-   visualizations demonstrate how concepts are learned through exploration47
+   visualizations demonstrate how concepts are learned through exploration [47]
    and modern publishing platforms are adopting interactive figures for high
    level scientific communication (Authorea)[48] as well as for the public
    (e.g.  New York Times). This will enable LibreText to become a platform for
@@ -73,7 +73,7 @@ goals solidified into three primary aims and two ancillary aims:
 
 **Primary**
 
-1. Allow any reader of a libretexts textbook page to execute code interactively
+1. Allow any reader of a LibreTexts textbook page to execute code interactively
 2. Allow textbook authors and readers to execute code that produces passive and
    interactive figures
 3. Add Jupyter enabled textbooks and portions of textbooks to LibreTexts
@@ -113,6 +113,32 @@ LibreTexts users. The cluster has several notable features:
 
 .. _bare metal: https://en.wikipedia.org/wiki/Bare-metal_server
 
+JupyterHub
+==========
+
+We run a JupyterHub on the cluster that defaults to the latest JupyterLab
+interface for interacting with the available programming languages. The
+JupyterHub is accessible at both https://jupyter.libretexts.org and
+https://jupyterhub.ucdavis.edu. Anyone with a UC Davis email address can log in
+and make use of the Hub. We've served over 400 users over the last couple of
+years, most from various UC Davis and LibreTexts courses. We developed a FAQ_
+that provides instructions for more advanced use and questions. We also created
+a section in the LibreTexts `construction guide`_ that provides guidance
+specifically for LibreTexts users and authors.
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png
+   :align: center
+
+   LibreTexts UC Davis JupyterHub Login Screen
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png
+   :align: center
+
+   Author construction guide section about Jupyter integration
+
+.. _FAQ: https://jupyterhub.ucdavis.edu/hub/faq
+.. _construction guide: https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements
+
 Custom Docker Image
 ===================
 
@@ -135,29 +161,7 @@ https://github.com/LibreTexts/default-env
 
 It should be a nice starting image for many scientific computing situations as
 it includes Python, R, Julia, Octave, C++, and Sage in the console and
-notebooks as well as Rstudio server access to R.
-
-.. _repo2docker: https://github.com/jupyterhub/repo2docker
-.. _Mamba: https://github.com/mamba-org/mamba
-.. _conda-forge: https://conda-forge.org/
-
-JupyterHub
-==========
-
-We run a JupyterHub on the cluster that defaults to the latest JupyterLab
-interface for interacting with the available programming languages. The
-JupyterHub is accessible at both https://jupyter.libretexts.org and
-https://jupyterhub.ucdavis.edu. Anyone with a UC Davis email address can log in
-and make use of the Hub. We've served over 400 users over the last couple of
-years, most from various UC Davis and LibreTexts courses. We developed a FAQ_
-that provides instructions for more advanced use and questions. We also created
-a section in the LibreTexts `construction guide`_ that provides guidance
-specifically for LibreText users and authors.
-
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png
-   :align: center
-
-   LibreTexts UC Davis JupyterHub Login Screen
+notebooks as well as RStudio server access to R.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png
    :align: center
@@ -169,13 +173,9 @@ specifically for LibreText users and authors.
 
    RStudio Interface
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png
-   :align: center
-
-   Author construction guide section about Jupyter integration
-
-.. _FAQ: https://jupyterhub.ucdavis.edu/hub/faq
-.. _construction guide: https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements
+.. _repo2docker: https://github.com/jupyterhub/repo2docker
+.. _Mamba: https://github.com/mamba-org/mamba
+.. _conda-forge: https://conda-forge.org/
 
 CKEditor Thebe Plugin
 =====================
@@ -245,9 +245,9 @@ sprint:
 - Added a configuration for read-only cells
 - Improved unit testing infrastructure
 - Thebe now persists binder sessions across pages on the same domain
-- A "Restart & Run All" buttom is now available on each cell
+- A "Restart & Run All" button is now available on each cell
 - Each cell has a "busy indicator" to give the user feedback from the server
-- Enabled general ipywidget functionality
+- Enabled general ipywidgets functionality
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
    :height: 600px
@@ -329,7 +329,7 @@ LibreTexts Textbooks Using Jupyter Integration
 ==============================================
 
 There are at least 10 textbooks on LibreTexts that make use of the Jupyter
-intergration for a variety of different programming languages.
+integration for a variety of different programming languages.
 
 Python
 
@@ -346,7 +346,7 @@ Python
    Example interactive robot arm simulator from Matrix Algebra with
    Computational Applications (Colbry)
 
-R:
+R
 
 - `Cheminformatics <https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics_OLCC_(2019)>`_
 - `Visual Statistics Use R <https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Book:_Visual_Statistics_Use_R_(Shipunov)>`_ (Alexey Shipunov, Minot State University)
@@ -360,7 +360,7 @@ Octave
 
 - `Introduction to Control Systems <https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book:_Introduction_to_Control_Systems_(Iqbal)>`_ (Karmran Iqbal, University of Arkansas at Little Rock)
 
-Shell, Python, R:
+Shell, Python, R
 
 - `Internet of Science Things <https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things_(2020)>`_ (Robert Belford, University of Arkansas at Little Rock)
 
@@ -381,7 +381,7 @@ Outreach
 We did a number of outreach talks. This was an important for disseminating what
 we have done, but also in helping the students develop their presenting skills
 and connecting them to related networks. We presented at Jupyter Open Studio
-(2019), SacPy (2020),  LibreTexts OpenEd Week (2020), Women in Data (2020), and
+(2019), SacPy (2020), LibreTexts OpenEd Week (2020), Women in Data (2020), and
 the National Workshop on Data Education (2020).
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg
@@ -465,6 +465,14 @@ We also had tons of help from a number of folks. Special thanks goes out to:
 - Min Ragan-Kelley
 - Steve Purves
 - Tom Neubarth
+
+And the most special thanks to Richard Feltstykket for being an amazing partner
+in this project. We couldn't have pulled it off without his extensive knowledge
+and resources regarding the cluster development and system administration.
+Richard had some major things to deal with outside of work during these three
+years but he never showed any slowing down or loss of enthusiasm. He has my
+full admiration. I'll miss working with your Richard, hopefully we can start up
+something new in the future! The project is in great hands.
 
 TODO : Add image of the pizza social or us playing an online game
 
