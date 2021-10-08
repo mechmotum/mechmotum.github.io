@@ -437,7 +437,7 @@ is it the team that made all of this magic happen:
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-henry.jpg
    * - Celine Liang (now @ Facebook)
      - Hao Huang (now @ Zillow)
-     - Henry Agnew (now @ UC Irvine)
+     - Henry Agnew (now @ UC San Diego)
    * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-k.png
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-r.png
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-mandeepika.jpg
