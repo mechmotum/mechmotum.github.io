@@ -5,7 +5,7 @@ LibreTexts Jupyter Integration Wrapup
 :date: 2021-10-01
 :authors: Jason K. Moore
 :category: education
-:tags: jupyter,libretexts
+:tags: jupyter,libretexts,computation,education,oer,textbooks
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png
    :align: center
