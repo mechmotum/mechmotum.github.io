@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  LibreTexts Jupyter Integration Wrapup | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/blog/libretexts-wrapup.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://mechmotum.github.io/feeds/education.atom.xml">  
+  <meta name="description" content="As of September 30th we have wrapped up our work integrating Jupyter based computing tools into the LibreTexts platform. This work was part of a three year $5M grant from the U.S. Department of Education (DoE) to enhance open access textbooks called Open Textbooks Pilot Program (CFDA No. 84 …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  LibreTexts Jupyter Integration Wrapup
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2021-10-08T00:00:00-07:00">
+          <i class="fas fa-clock"></i>
+          Fri 08 October 2021
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://mechmotum.github.io/category/education.html">education</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user"></i>
+              <a href="https://mechmotum.github.io/author/jason-k-moore.html">Jason K. Moore</a>          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-tag"></i>
+              <a href="https://mechmotum.github.io/tag/jupyter.html">#jupyter</a>,               <a href="https://mechmotum.github.io/tag/libretexts.html">#libretexts</a>,               <a href="https://mechmotum.github.io/tag/computation.html">#computation</a>,               <a href="https://mechmotum.github.io/tag/education.html">#education</a>,               <a href="https://mechmotum.github.io/tag/oer.html">#oer</a>,               <a href="https://mechmotum.github.io/tag/textbooks.html">#textbooks</a>          </li>
+      </ul>
+    </header>
+
+
+    <div class="content">
+      <div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" />
+</div>
+<p>As of September 30th we have wrapped up our work integrating Jupyter based
+computing tools into the <a class="reference external" href="https://www.libretexts.org">LibreTexts</a> platform. This work was part of a three
+year $5M grant from the U.S. Department of Education (DoE) to enhance open
+access textbooks called <a class="reference external" href="https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program">Open Textbooks Pilot Program</a> (CFDA No. 84.116T).</p>
+<p>This blog post serves as a report on the outcomes from the portion of the grant
+I was responsible for as a co-principal investigator. Overall, I think we were
+quite successful. LibreTexts users are creating textbooks with interactive
+computational elements (10+ textbooks), we've served hundreds of students with
+our JupyterHub, and we've trained 12 undergraduate students in full stack
+development, system administration, and site reliability engineering with many
+of them now in professional positions making use of those skills.</p>
+<div class="section" id="project-goals">
+<h2>Project Goals</h2>
+<p>The overall goals of the DoE grant were multifold and we contributed to one
+small chunk. Our project was part of <em>&quot;Thrust 3: Next Generation Technology -
+Interactive Visualizations, Automated Assessment, Annotations, Database
+Integration, &amp; Technological Synergy&quot;</em>. Here is what I proposed we would do in
+the grant proposal:</p>
+<blockquote>
+<p>3C: Interactive Figure Editor (Jason K. Moore).</p>
+<p>While the CalcPlot3D application provides powerful, simple-to-use,
+specialized 3D visualizations, many LibreTexts authors also desire arbitrary
+interactive visualizations illustrating concepts in any scientific domain.
+It is known that quality figures enhance learning when adjunct to text
+regardless if the figures are static, dynamic, or interactive,[18,40] but
+research demonstrating whether interactivity improves learning is nascent.
+In computer science education, there is evidence that interactive
+visualizations of computer algorithms improve learning when they are self
+paced and of high quality[41–43] but may hamper learning if poorly
+designed.[44,45] There is recent evidence that interactivity is especially
+beneficial for lower performing students.[46] Cutting edge interactive
+visualizations demonstrate how concepts are learned through exploration [47]
+and modern publishing platforms are adopting interactive figures for high
+level scientific communication (Authorea)[48] as well as for the public
+(e.g.  New York Times). This will enable LibreText to become a platform for
+research into the benefits of interactive figures in addition to providing
+authors with infinite interactive visualization possibilities to convey
+concepts (see Figure 4 for examples). To do so, we will implement general
+functionality for authors to easily include any type of interactive figure
+through a new &quot;interactive figure editor&quot; that relies on the Jupyter
+interactive widget system, ipywidgets.[49]</p>
+<p>Jupyter is a popular open source web application that allows users to create
+and share interactive documents that contain equations, visualizations,
+narrative text, and the execution of code.[50] LibreTexts authors will be
+able to write high level code in the Python programming language in the
+LibreTexts editing interface to generate figures. On page save, the Python
+code will be sent to an external server where it will be executed in a
+secure container using Jupyter to generate an entry in an open access
+database of versioned interactive Javascript figures.</p>
+</blockquote>
+<p>By the time the grant period started, the specific goals solidified into three
+primary aims and two ancillary aims:</p>
+<p><strong>Primary</strong></p>
+<ol class="arabic simple">
+<li>Allow textbook authors and readers to execute code that produces passive and
+interactive figures</li>
+<li>Allow any reader of a LibreTexts textbook page to execute code interactively</li>
+<li>Add Jupyter enabled textbooks and portions of textbooks to LibreTexts</li>
+</ol>
+<p><strong>Ancillary</strong></p>
+<ol class="arabic simple">
+<li>Provide a JupyterHub for LibreTexts and UC Davis users</li>
+<li>Train students in full stack development, system administration, and site
+reliability engineering</li>
+</ol>
+<p>Below, each section describes the various things we produced to meet these
+goals. Developing a system like this from scratch is an enormous task, so it is
+important to note that we built everything off of the strong open source
+foundation of the greater Jupyter community and various other connected
+projects.</p>
+</div>
+<div class="section" id="uc-davis-kubernetes-cluster">
+<h2>UC Davis Kubernetes Cluster</h2>
+<p>We decided to build and run our own <a class="reference external" href="https://en.wikipedia.org/wiki/Bare-metal_server">bare metal</a> <a class="reference external" href="https://kubernetes.io/">Kubernetes</a> computing
+cluster.  We chose to do this instead of using cloud services because the 5-10
+year cost projection seemed to be more favorable. We also had the expertise and
+existing hardware available to pilot the system. After two build and test
+iterations, we now have a 19 node cluster that runs JupyterHub and BinderHub on
+top of Kubernetes for UC Davis and LibreTexts users. The cluster has several
+notable features:</p>
+<ul class="simple">
+<li>Puppet based deployment that allows us to  tear down and rebuild the cluster
+with one command</li>
+<li>Monitoring and alerts via Prometheus and Grafana</li>
+<li>Large redundant ZFS data storage node</li>
+<li>High availability entry point server pair</li>
+<li>Custom user abuse sensors and process killers</li>
+</ul>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png" />
+<p class="caption">The cluster humming away in the server room.</p>
+</div>
+</div>
+<div class="section" id="jupyterhub">
+<h2>JupyterHub</h2>
+<p>We run JupyterHub on the cluster that defaults to the latest JupyterLab
+interface for interacting with the available programming languages. The
+JupyterHub is accessible at both <a class="reference external" href="https://jupyter.libretexts.org">https://jupyter.libretexts.org</a> and
+<a class="reference external" href="https://jupyterhub.ucdavis.edu">https://jupyterhub.ucdavis.edu</a>. Anyone with a UC Davis email address can log in
+and make use of the hub. We've served over 400 users over the last couple of
+years, most from various UC Davis and LibreTexts courses. We developed a <a class="reference external" href="https://jupyterhub.ucdavis.edu/hub/faq">FAQ</a>
+that provides instructions for more advanced use. We also created a section in
+the LibreTexts <a class="reference external" href="https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements">construction guide</a> that provides guidance specifically for
+LibreTexts users and authors.</p>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png" />
+<p class="caption">LibreTexts UC Davis JupyterHub Login Screen</p>
+</div>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png" />
+<p class="caption">Author construction guide section about Jupyter integration</p>
+</div>
+</div>
+<div class="section" id="custom-docker-image">
+<h2>Custom Docker Image</h2>
+<p>The default <a class="reference external" href="https://github.com/jupyterhub/repo2docker">repo2docker</a> based docker image for our our hub includes a large
+set of software. We manage the software dependencies using APT and <a class="reference external" href="https://github.com/mamba-org/mamba">Mamba</a>, with
+most packages installed via Mamba from the <a class="reference external" href="https://conda-forge.org/">conda-forge</a> channel. Managing an
+image with a large set of software packages in a single environment has been
+rather difficult due to hard-to-solve version compatibilities, relying on
+packages that languish in maintenance, user desire for different versions of
+some packages, packages not being available in conda-forge, slow build times,
+and large docker image sizes. We've wrestled with these issues for three years,
+but things are reasonably smooth at this point. New images are immediately
+cached on all of our cluster nodes so that user load times are snappy and the
+vast majority of needed software is pre-installed.</p>
+<p>Our repo2docker build specs for the image can be found here:</p>
+<p><a class="reference external" href="https://github.com/LibreTexts/default-env">https://github.com/LibreTexts/default-env</a></p>
+<p>This image is a nice starting image for many scientific computing situations as
+it includes Python, R, Julia, Octave, C++, and Sage in the console and
+notebooks as well as RStudio server access to R.</p>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png" />
+<p class="caption">JupyterLab Interface</p>
+</div>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png" />
+<p class="caption">RStudio Interface</p>
+</div>
+</div>
+<div class="section" id="ckeditor-thebe-plugin">
+<h2>CKEditor Thebe Plugin</h2>
+<p><a class="reference external" href="https://github.com/executablebooks/thebe">Thebe</a> is a JavaScript application that enables live Jupyter code cells to be
+integrated into an arbitrary HTML page. Viewers of the HTML page can interact
+with the cells by editing and executing them. Once executed the output can be
+simple text output or advanced Javascript based interactive visualizations.
+Thebe was originally developed as part of Europe's <a class="reference external" href="https://opendreamkit.org/">OpenDreamKit</a> project and
+ties into the Jupyter ecosystem. There are some alternatives to Thebe, but they
+offered essentially the same features. Because of this we more-or-less flipped
+a coin and chose to make use of Thebe in LibreTexts. LibreTexts uses the
+CKEditor for WYSIWYG editing of textbook pages. Once we settled on using Thebe
+for LibreTexts pages, we developed a plugin for <a class="reference external" href="https://ckeditor.com/">CKEditor</a> that allows page
+authors to edit and execute code cells. The plugin can be found here:</p>
+<p><a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin">https://github.com/LibreTexts/ckeditor-binder-plugin</a></p>
+<p>The plugin allows authors to:</p>
+<ul class="simple">
+<li>Insert code cells and run them from CKEditor to check their execution.</li>
+<li>Embed the code cell with or without the output of the cell.</li>
+<li>Embed the code cell with or without the code of the cell displayed to
+readers.</li>
+<li>Set the cells to uneditable by the LibreTexts readers.</li>
+</ul>
+<center>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/dIwZ-QQ8xSs" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Video showing how to use the plugin on LibreTexts</p>
+</center><p>LibreTexts page authors can get started with the above video and the
+<a class="reference external" href="https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements/5.02%3A_Jupyter_Notebooks_(Executable_Programming_Code_and_Figures)">instructions</a> in the guide.</p>
+</div>
+<div class="section" id="thebe-improvements">
+<h2>Thebe Improvements</h2>
+<p>After selecting Thebe and developing the CKEditor plugin we discovered that
+<a class="reference external" href="https://github.com/jupyter-widgets/ipywidgets">ipywidgets</a> did not fully function with Thebe. We had planned to use ipywidgets
+to offer LibreTexts readers interaction with figures and visualization using
+GUI widgets (sliders, buttons, input boxes, etc.). We set out to remedy this
+and began contributing to Thebe. In the fall of 2020, we organized a <a class="reference external" href="https://jupytercon.com/sprint/">sprint</a>
+for Thebe during JupyterCon which helped breathe some life into the project.
+With the help of the original Thebe developer, <a class="reference external" href="https://executablebooks.org">Executable Book Project</a>
+members, <a class="reference external" href="https://curvenote.com/">Curvenote</a> project members, and JupyterCon sprint attendees we knocked
+out a number of outstanding issues (see the <a class="reference external" href="https://github.com/executablebooks/thebe/projects/1">Github project</a> for details).
+Since the sprint, there have been regular contributions to the repository and
+we've made three releases of Thebe that have added a number of import new
+features and bug fixes. Most importantly we recently merged the fix to fully
+enable ipywidgets support. Here are some of the major improvements made during
+and since the sprint:</p>
+<ul class="simple">
+<li>Improved the documentation, including examples of more advanced cell outputs</li>
+<li>Thebe now uses JupyterLab 3.0 APIs</li>
+<li>Added a configuration for read-only cells</li>
+<li>Improved unit testing infrastructure</li>
+<li>Thebe now persists binder sessions across pages on the same domain</li>
+<li>A &quot;Restart &amp; Run All&quot; button is now available on each cell</li>
+<li>Each cell has a &quot;busy indicator&quot; to give the user feedback from the server</li>
+<li>Enabled general ipywidgets functionality</li>
+</ul>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" />
+<p class="caption">Example of an ipywidget controlling a matplotlib figure in Thebe.</p>
+</div>
+<p>You can see examples many of the rich Jupyter outputs on this LibreTexts page:</p>
+<p><a class="reference external" href="https://query.libretexts.org/Sandboxes/jupyterteam_at_ucdavis.edu">https://query.libretexts.org/Sandboxes/jupyterteam_at_ucdavis.edu</a></p>
+</div>
+<div class="section" id="supporting-classes">
+<h2>Supporting Classes</h2>
+<p>We piloted the JupyterHub and LibreTexts in several courses over the last three
+years:</p>
+<ul class="simple">
+<li>GEL 56: Introduction to Geophysics, GEL 161: Geophysical Field Methods (Prof.
+Magali Billen, UC Davis)</li>
+<li>GEL 160: Geological Data Analysis (Prof. Max Rudolph, UC Davis)</li>
+<li>GEL 298 (Profs. Sarah Stewart &amp; Max Rudolph, UC Davis)</li>
+<li>STS 101: Introduction to Data Studies (Prof. Lindsay Nicole Poirier)</li>
+<li>ENG 122: Introduction to Mechanical Vibrations, MAE 223: Multibody Dynamics
+(Prof. Jason K. Moore, UC Davis)</li>
+<li>Cheminformatics OLCC (Prof. Robert Belford et al., University of Arkansas at
+Little Rock)</li>
+</ul>
+<p>The cheminformatics course was a collaboration among several universities and
+partners. This published paper details more about that effort:</p>
+<blockquote>
+Kim et al. (2020), Teaching Cheminformatics through a Collaborative
+Intercollegiate Online Chemistry Course (OLCC), Journal of Chemical
+Education, <a class="reference external" href="https://doi.org/10.1021/acs.jchemed.0c01035">https://doi.org/10.1021/acs.jchemed.0c01035</a></blockquote>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png" />
+<p class="caption">Conference poster about the cheminformatics project.</p>
+</div>
+</div>
+<div class="section" id="ngshare">
+<h2>ngshare</h2>
+<p>During our efforts to get professors to adopt the hub at UC Davis, we found out
+that many wanted to use <a class="reference external" href="https://github.com/jupyter/nbgrader">nbgrader</a> for auto-grading of Jupyter notebooks. But
+nbgrader was only built for servers that had a standard shared user space
+storage with a UNIX permission model. Thus, nbgrader could not function in a
+JupyterHub running on a distributed system like Kubernetes. Computer science
+professor, Christopher Nitta, and I proposed a computer science capstone BSc
+project and attracted a talented group of students. This group invented
+<strong>ngshare</strong>, which solves the problem by running a data exchange database on a
+Kubernetes pod that can be swapped out for nbgrader's traditional shared disk
+space. This resulted in three code repositories with the software required to
+run the service:</p>
+<dl class="docutils">
+<dt><a class="reference external" href="https://github.com/LibreTexts/ngshare">ngshare</a></dt>
+<dd>Primary repository containing the ngshare application.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/ngshare-helm-repo">ngshare-helm-repo</a></dt>
+<dd>A ready made Helm chart for deploying to kubernetes.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/ngshare_exchange">ngshare_exchange</a></dt>
+<dd>Exchange used to run ngshare on single user space systems (non distributed
+systems).</dd>
+</dl>
+<center>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/SEJCaqD7xXQ" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Demo video of ngshare</p>
+</center></div>
+<div class="section" id="libretexts-textbooks-using-jupyter-integration">
+<h2>LibreTexts Textbooks Using Jupyter Integration</h2>
+<p>There are at least 10 textbooks now on LibreTexts that make use of the Jupyter
+integration for a variety of different programming languages.</p>
+<p>Python</p>
+<ul class="simple">
+<li><a class="reference external" href="https://geo.libretexts.org/Courses/University_of_California_Davis/GEL_056:_Introduction_to_Geophysics">Introduction to Geophysics</a> (Magali Billen, University of California, Davis)</li>
+<li><a class="reference external" href="https://eng.libretexts.org/Courses/Delta_College/Introduction_to_Programming_Concepts_-_Python">Introduction to Programming Concepts - Python</a> (Chuck Severance, University of Michigan)</li>
+<li><a class="reference external" href="https://math.libretexts.org/Bookshelves/Linear_Algebra/Matrix_Algebra_with_Computational_Applications_(Colbry)">Matrix Algebra with Computational Applications</a> (Dirk Colbry, Michigan State University)</li>
+<li><a class="reference external" href="https://eng.libretexts.org/Bookshelves/Introduction_to_Engineering/EGR_1010:_Introduction_to_Engineering_for_Engineers_and_Scientists">Introduction to Engineering for Engineers and Scientists</a></li>
+<li><a class="reference external" href="https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Book%3A_Python_for_Everybody_(Severance)">Python for Everybody</a> (Chuck Severance, University of Michigan)</li>
+<li><a class="reference external" href="https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications/Jupyter_Notebooks">Chemistry Interactive Applicatiosn</a></li>
+</ul>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png" />
+<p class="caption">Example interactive robot arm simulator from Matrix Algebra with
+Computational Applications (Colbry)</p>
+</div>
+<p>R</p>
+<ul class="simple">
+<li><a class="reference external" href="https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics_OLCC_(2019)">Cheminformatics</a></li>
+<li><a class="reference external" href="https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Book:_Visual_Statistics_Use_R_(Shipunov)">Visual Statistics Use R</a> (Alexey Shipunov, Minot State University)</li>
+<li><a class="reference external" href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Book:_Answering_Questions_with_Data_-__Introductory_Statistics_for_Psychology_Students_(Crump)">Answering Questions with Data - Introductory Statistics for Psychology Students</a> (Matthew J. C. Crump, Brooklyn College of CUNY)</li>
+</ul>
+<p>Julia</p>
+<ul class="simple">
+<li><a class="reference external" href="https://math.libretexts.org/Bookshelves/Scientific_Computing_Simulations_and_Modeling/Book:_Scientific_Computing_(Staab)">Scientific Computing</a> (Peter Staab, Fitchburg State University)</li>
+</ul>
+<p>Octave</p>
+<ul class="simple">
+<li><a class="reference external" href="https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book:_Introduction_to_Control_Systems_(Iqbal)">Introduction to Control Systems</a> (Karmran Iqbal, University of Arkansas at Little Rock)</li>
+</ul>
+<p>Shell, Python, R</p>
+<ul class="simple">
+<li><a class="reference external" href="https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things_(2020)">Internet of Science Things</a> (Robert Belford, University of Arkansas at Little Rock)</li>
+</ul>
+<center>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/gA9s0NQRVzY" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Three of the book authors (Belford, Billen, Iqbal) present their use of
+Jupyter in LibreTexts.</p>
+</center></div>
+<div class="section" id="outreach">
+<h2>Outreach</h2>
+<p>We did a number of outreach talks. This was important for disseminating what we
+had done, but also in helping the students develop their presenting skills and
+connecting them to the communities of practice. We presented at Jupyter Open
+Studio (2019), SacPy (2020), OpenEd Week (2020), Women in Data (2020), and the
+National Workshop on Data Education (2020).</p>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg" style="width: 600px;" />
+<p class="caption">Hao, Tannavee, and Celine presenting at the SacPy meetup in 2019.</p>
+</div>
+<center>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/l-OVteC4PpA" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>OpenEd Week Webinar</p>
+</center></div>
+<div class="section" id="the-team">
+<h2>The Team</h2>
+<p>It is important to point out that all of the work to bring Jupyter to
+LibreTexts was done by a group of amazing undergraduate students over the last
+three years. Richard Feltstykket and I mentored them and couldn't have asked
+for a better group. Overall, we had 12 students work from 2 quarters to a whole
+year on the project. They developed their teamwork process and onboarded new
+students every other quarter. Many of the the students particpated during the
+height of the COVID 19 pandemic. I have been thoroughly impressed with them and
+their work. They came to the project with minimal to no knowledge about the
+assortment of tools and skills that they needed to solve the presented
+problems. The skillset needed for them to succeed was very broad, from building
+servers all the way up the stack to frontend Javascript app development. The
+students vacuumed up the knowledge, learned the skills, and it wasn't before
+long that they all knew way more than their two mentors (which is the agenda of
+all good mentors). As far as I can tell, this has paid off for many of them.
+Some have taken positions doing very similar work to what they did in this
+project. And outside of the work, the students led us through an assortment of
+online games during our quarterly social breaks. I'll have nightmares about
+Jackbox Trivia Murder Party for some time to come :). Without further ado, here
+is it the team that made all of this magic happen:</p>
+<table border="1" class="table docutils align-center" style="width: 48%">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-celine.png" />
+</td>
+<td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-hao.jpg" />
+</td>
+<td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-henry.jpg" />
+</td>
+</tr>
+<tr><td>Celine Liang (now &#64; Facebook)</td>
+<td>Hao Huang (now &#64; Zillow)</td>
+<td>Henry Agnew (now &#64; UC Irvine)</td>
+</tr>
+<tr><td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-k.png" />
+</td>
+<td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-r.png" />
+</td>
+<td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-mandeepika.jpg" />
+</td>
+</tr>
+<tr><td>Kevin Krausse (now &#64; Ekata)</td>
+<td>Kevin Rong (now &#64; Zoox)</td>
+<td>Mandeepika Sani (UC Davis)</td>
+</tr>
+<tr><td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-noah.png" />
+</td>
+<td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-patrick.jpg" />
+</td>
+<td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tannavee.png" />
+</td>
+</tr>
+<tr><td>Noah Sanders (UC Davis)</td>
+<td>Patrick Mackle (now &#64; DocuSign)</td>
+<td>Tannavee Kumar (now &#64; Tempus Labs)</td>
+</tr>
+<tr><td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tim.png" />
+</td>
+<td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-xiaochen.png" />
+</td>
+<td><img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-luigi.png" />
+</td>
+</tr>
+<tr><td>Tim Stewart (UC Davis)</td>
+<td>Xiaochen Zeng (now &#64; Tencent)</td>
+<td>Xin Luigi Chen (now &#64; VMware)</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p>Additionally, students Kevin Rong, Lawrence Lee, Eric Li, Abigail Almanza
+co-developed ngshare.</p>
+<p>Congratulations on a job well done!</p>
+<p>We also had tons of help and support from a number of folks. Special thanks
+goes out to: Bob Belford &amp; team, Chris Holdgraf, Christopher Nitta, Delmar
+Larsen, Hongfei Wang, Lindsay Nicole Poirier, Max Rudolph, Michael Casper
+Lewis, Magali Billen, Min Ragan-Kelley, Paul Ivanov, Sarah Stewart, Steve
+Purves, Tim Head, Tom Neubarth, Yuvi Panda, and likely others that I am
+forgetting.</p>
+<p>And I give the most special thanks to Richard Feltstykket for being an amazing
+partner in this project. We couldn't have pulled it off without his extensive
+knowledge and resources regarding the cluster development and system
+administration. Richard had some major things to deal with outside of work
+during these three years but he never showed any slowing down or loss of
+enthusiasm. He has my full admiration. I'll miss working with you Richard,
+hopefully we can start up something new in the future! The project is in great
+hands.</p>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/lab-pizza-outing.png" />
+<p class="caption">Pre-pandemic pizza social with the team. From the left around the table:
+Celine, Michael, Trevor, Henry, Jason, Hao, Luigi, Tannavee.</p>
+</div>
+</div>
+<div class="section" id="the-future">
+<h2>The Future</h2>
+<p>The future for the system and tools we've developed as a part of this grant
+look good. Richard Feltstykket is taking the project forward with LibreText's
+support. The cluster, JupyterHub, and LibreTexts page integration will continue
+to support a variety of instructors, courses, and students. The next big step
+is to scale up use for courses at UC Davis and LibreTexts participating
+universities. I certainly hope to see things grow now that it is all running
+smoothly.</p>
+</div>
+<div class="section" id="resources">
+<h2>Resources</h2>
+<p><a class="reference external" href="https://mechmotum.github.io/research/librtexts-jupyter.html">Lab project page</a></p>
+<div class="section" id="code-repositories">
+<h3>Code repositories</h3>
+<dl class="docutils">
+<dt><a class="reference external" href="https://github.com/LibreTexts/ckeditor-binder-plugin">ckeditor-binder-plugin</a></dt>
+<dd>CKEditor plugin that adds a button to add Jupyter code cells via Thebe.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/ckeditor-query-plugin">ckeditor-query-plugin</a></dt>
+<dd>CKEditor plugin to add buttons for LibreTexts' Query and Adapt systems.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/default-env">default-env</a></dt>
+<dd>Our custom JupyterHub repo2docker spec.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/galaxy-vagrant">galaxy-vagrant</a></dt>
+<dd>Vagrant setup for testing our galaxy cluster</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/jupyterhub-templates">jupyterhub-templates</a></dt>
+<dd>JupyterHub HTML templates that add the About and FAQ pages.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/jupyterteam_widget">jupyterteam_widget</a></dt>
+<dd>Example Jupyter widget used for learning how Jupyter widgets work.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/labextension-libretexts-faq">labextension-libretexts-faq</a></dt>
+<dd>JupyterLab extension that adds an FAQ link in the menu bar.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/metalc/">metalc</a></dt>
+<dd>Primary documentation and issue tracker for the project.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/ngshare">ngshare</a></dt>
+<dd>Primary repository containing the ngshare application.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/ngshare_exchange">ngshare_exchange</a></dt>
+<dd>Exchange used to run ngshare on single user space systems (non distributed</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/ngshare-helm-repo">ngshare-helm-repo</a></dt>
+<dd>A ready made Helm chart for deploying to kubernetes.</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/protogalaxy">protogalaxy</a></dt>
+<dd>Puppet module bootstrapping highly available Kubernetes cluster using
+kubeadm, keepalived and HAProxy</dd>
+<dt><a class="reference external" href="https://github.com/LibreTexts/widget-testing">widget-testing</a></dt>
+<dd>Extensive tests for various advanced Jupyter cell outputs in Thebe and
+LibreTexts.</dd>
+</dl>
+</div>
+<div class="section" id="prior-blog-posts">
+<h3>Prior blog posts</h3>
+<p>The students wrote (almost-)quarterly blog posts throughout the project
+duration. These have more details on the various topics discussed above. Here
+are all of the prior posts:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://mechmotum.github.io/blog/libretexts-grant.html">Grant Award Announcement</a></li>
+<li><a class="reference external" href="https://mechmotum.github.io/blog/jupyter-winter-2019.html">Winter 2019 Update</a></li>
+<li><a class="reference external" href="https://mechmotum.github.io/blog/jupyter-summer-2019.html">Summer 2019 Update</a></li>
+<li><a class="reference external" href="{filename}/sacpy-slidedeck-2019.rst">SacPy Talk</a></li>
+<li><a class="reference external" href="https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html">Spring 2020 Update</a></li>
+<li><a class="reference external" href="https://mechmotum.github.io/blog/jupyter-summer-2020.html">Summer 2020 Update</a></li>
+<li><a class="reference external" href="https://mechmotum.github.io/blog/jupyter-fall-2020.html">Fall 2020 Update</a></li>
+<li><a class="reference external" href="https://mechmotum.github.io/blog/jupyter-summer-2021.html">Summer 2021 Update</a></li>
+</ul>
+</div>
+</div>
+
+    </div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://mechmotum.github.io/blog/libretexts-wrapup.html';
+      this.page.identifier = 'libretexts-jupyter-integration-wrapup';
+    };
+    (function() {
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//mechmotum.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy"
+         target="_blank">&#x2728;</a>
+    | Edit on <a href="https://github.com/mechmotum/mechmotum.github.io" target="_blank"><i class="fab fa-github"></i></a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
