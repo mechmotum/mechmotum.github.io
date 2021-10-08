@@ -456,15 +456,19 @@ further ado, here is it the team that made all of this magic happen:
    * - Tim Stewart (UC Davis)
      - Xiaochen Zeng (now @ Tencent)
      - Xin Luigi Chen (now @ VMware)
+
 |
 |
+
+Additionally, students Kevin Rong, Lawrence Lee, Eric Li, Abigail Almanza
+co-developed ngshare.
 
 Congratulations on a job well done!
 
 We also had tons of help and support from a number of folks. Special thanks
 goes out to: Chris Holdgraf, Christopher Nitta, Delmar Larsen, Hongfei Wang,
-Michael Casper Lewis, Min Ragan-Kelley, Steve Purves, Tom Neubarth, and Yuvi
-Panda.
+Michael Casper Lewis, Min Ragan-Kelley, Paul Ivanov, Steve Purves, Tim Head,
+Tom Neubarth, and Yuvi Panda.
 
 And I give the most special thanks to Richard Feltstykket for being an amazing
 partner in this project. We couldn't have pulled it off without his extensive
