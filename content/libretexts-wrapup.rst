@@ -102,7 +102,10 @@ LibreTexts users. The cluster has several notable features:
 - High availability entry point server pair
 - Custom user abuse sensors and process killers
 
-TODO : Add image of the server rack
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png
+   :align: center
+
+   The cluster humming away in the server room.
 
 .. _bare metal: https://en.wikipedia.org/wiki/Bare-metal_server
 
@@ -143,13 +146,27 @@ JupyterHub is accessible at both https://jupyter.libretexts.org and
 https://jupyterhub.ucdavis.edu. Anyone with a UC Davis email address can log in
 and make use of the Hub. We've served over 400 users over the last couple of
 years, most from various UC Davis and LibreTexts courses. We developed a FAQ_
-that provides instructions for more advanced use and questions.
+that provides instructions for more advanced use and questions. We also created
+a section in the LibreTexts `construction guide`_ that provides guidance
+specifically for LibreText users and authors.
 
-TODO: Add image of our JupyterLab launch screen
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png
+   :align: center
 
-TODO: Add image of the RStudio interface
+   LibreTexts UC Davis JupyterHub Login Screen
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png
+   :align: center
+
+   JupyterLab Interface
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png
+   :align: center
+
+   RStudio Interface
 
 .. _FAQ: https://jupyterhub.ucdavis.edu/hub/faq
+.. _construction guide: https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements
 
 CKEditor Thebe Plugin
 =====================
@@ -176,7 +193,20 @@ The plugin allows authors to:
   readers.
 - Set the cells to uneditable by the Libretexts readers.
 
-TODO : Add image/gif of plugin.
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/dIwZ-QQ8xSs" title="YouTube video player"
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p>Video showing how to use the plugin on LibreTexts</p>
+   </center>
+
+LibreTexts page authors can get started with the above video and the
+instructions_ in the guide.
+
+.. _instructions: https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements/5.02%3A_Jupyter_Notebooks_(Executable_Programming_Code_and_Figures)
 
 .. _Thebe: https://github.com/executablebooks/thebe
 
@@ -210,6 +240,12 @@ sprint:
 - Each cell has a "busy indicator" to give the user feedback from the server
 - Enabled general ipywidget functionality
 
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
+   :height: 600px
+   :align: center
+
+   Example of an ipywidget controlling a matplotlib figure in Thebe.
+
 You can see examples many of the rich Jupyter outputs on this LibreTexts page:
 
 https://query.libretexts.org/Sandboxes/jupyterteam_at_ucdavis.edu
@@ -218,12 +254,33 @@ https://query.libretexts.org/Sandboxes/jupyterteam_at_ucdavis.edu
 .. _sprint: https://jupytercon.com/sprint/
 .. _Github project: https://github.com/executablebooks/thebe/projects/1
 
-TODO : Add gif of thebe+ipywidgets working
-
 Supporting Classes
 ==================
 
-TODO : List courses we've supported
+We piloted the JupyterHub and LibreTexts in several courses over the last three
+years.
+
+- GEL 56: Introduction to Geophysics, GEL 161: Geophysical Field Methods (Prof.
+  Magali Billen, UC Davis)
+- GEL 160: Geological Data Analysis (Prof. Max Rudolph, UC Davis)
+- GEL 298 (Profs. Sarah Stewart & Max Rudolph, UC Davis)
+- STS 101: Introduction to Data Studies (Prof. Lindsay Nicole Poirier)
+- ENG 122: Introduction to Mechanical Vibrations, MAE 223: Multibody Dynamics
+  (Prof. Jason K. Moore, UC Davis)
+- Cheminformatics OLCC (Prof. Robert Belford et al., University of Arkansas at
+  Little Rock)
+
+The cheminformatics course was a collaboration among several universities and
+partners. This published paper details more about the effort:
+
+   Kim et al. (2020), Teaching Cheminformatics through a Collaborative
+   Intercollegiate Online Chemistry Course (OLCC), Journal of Chemical
+   Education, https://doi.org/10.1021/acs.jchemed.0c01035
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png
+   :align: center
+
+   Conference poster about the cheminformatics project.
 
 ngshare
 =======
@@ -232,22 +289,38 @@ During our efforts to get professors to adopt the hub at UC Davis, we found out
 that many wanted to use nbgrader_ for auto-grading of Jupyter notebooks. But
 nbgrader was only built for servers that had a standard shared user space
 storage with a UNIX permission model. Thus nbgrader could not function in a
-kubernetes backed JupyterHub. Chris X and I proposed a computer science
+kubernetes backed JupyterHub. Christopher Nitta and I proposed a computer science
 capstone BSC project and attracted a group of students for the project. This
-group evented ngshare, which solves the problem by running a data exchange
+group invented ngshare, which solves the problem by running a data exchange
 database on a kubernetes pod that can be swapped out for nbgrader's traditional
-shared disk space.
+shared disk space. This resulted in three code repositories with the software
+required to run the service:
+
+`ngshare <https://github.com/LibreTexts/ngshare>`_
+   Primary repository containing the ngshare application.
+`ngshare-helm-repo <https://github.com/LibreTexts/ngshare-helm-repo>`_
+   A ready made Helm chart for deploying to kubernetes.
+`ngshare_exchange <https://github.com/LibreTexts/ngshare_exchange>`_
+   Exchange used to run ngshare on single user space systems (non distributed
+   systems).
+
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/SEJCaqD7xXQ" title="YouTube video player"
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p>Demo video of ngshare</p>
+   </center>
 
 .. _nbgrader: https://github.com/jupyter/nbgrader
-
-https://github.com/LibreTexts/ngshare
-https://github.com/LibreTexts/ngshare_exchange
-https://github.com/LibreTexts/ngshare-helm-repo
 
 LibreTexts Textbooks Using Jupyter Integration
 ==============================================
 
 Introduction to Geophysics
+
 
 R:
 
@@ -281,11 +354,17 @@ Other:
 - `https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications`
 
 
-Students presenting
-===================
+Outreach
+========
 
 SacPy
-Women in Tech
+Women in Data
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg
+   :align: center
+   :width: 600px
+
+   Hao, Tannavee, and Celine presenting at the SacPy meetup in 2019.
 
 The Future
 ==========
@@ -297,24 +376,40 @@ Students getting jobs & grad school
 
 Thanks to students and partners
 
+Tom, Casper, Min, Steve Purves, Chris Holdgraf, Chris Nitta
+
 Resources
 =========
 
-metalc https://github.com/LibreTexts/metalc/
+Code repositories
+-----------------
+
+`metalc <https://github.com/LibreTexts/metalc/>`_
    Primary documentation and issue tracker for the project.
-https://github.com/LibreTexts/labextension-libretexts-faq
+`labextension-libretexts-faq <https://github.com/LibreTexts/labextension-libretexts-faq>`_
    JupyterLab extension that adds an FAQ link in the menu bar.
-https://github.com/LibreTexts/jupyterhub-templates
+`jupyterhub-templates <https://github.com/LibreTexts/jupyterhub-templates>`_
    JupyterHub HTML templates that add the About and FAQ pages.
-https://github.com/LibreTexts/protogalaxy
+`protogalaxy <https://github.com/LibreTexts/protogalaxy>`_
    First attempt at a puppet based cluster configuration manager.
-https://github.com/LibreTexts/jupyterteam_widget
+`jupyterteam_widget <https://github.com/LibreTexts/jupyterteam_widget>`_
    Example Jupyter widget used for learning how Jupyter widgets work.
-https://github.com/LibreTexts/widget-testing
+`widget-testing <https://github.com/LibreTexts/widget-testing>`_
    Extensive tests for various advanced Jupyter cell outputs in Thebe and
    LibreTexts.
 
 Prior blog posts
-================
+----------------
 
-TODO : List the prior blog posts.
+The students wrote (almost-)quarterly blog posts throughout the project
+duration. These have more details on the various topics discussed above. Here
+are all of the prior posts:
+
+- `Grant Award Announcement <{filename}/libretexts-grant.rst>`_
+- `Winter 2019 Update <{filename}/jupyter-winter-2019.rst>`_
+- `Summer 2019 Update <{filename}/jupyter-summer-2019.rst>`_
+- `SacPy Talk <{filename}/sacpy-slidedeck-2019.rst>`_
+- `Spring 2020 Update <{filename}/libretexts-jupyter-plugin.rst>`_
+- `Summer 2020 Update <{filename}/jupyter-summer-2020.rst>`_
+- `Fall 2020 Update <{filename}/jupyter-fall-2020.rst>`_
+- `Summer 2021 Update <{filename}/jupyter-summer-2021.rst>`_
