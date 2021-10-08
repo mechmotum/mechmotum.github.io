@@ -466,9 +466,11 @@ co-developed ngshare.
 Congratulations on a job well done!
 
 We also had tons of help and support from a number of folks. Special thanks
-goes out to: Chris Holdgraf, Christopher Nitta, Delmar Larsen, Hongfei Wang,
-Michael Casper Lewis, Min Ragan-Kelley, Paul Ivanov, Steve Purves, Tim Head,
-Tom Neubarth, and Yuvi Panda.
+goes out to: Bob Belford & team, Chris Holdgraf, Christopher Nitta, Delmar
+Larsen, Hongfei Wang, Lindsay Nicole Poirier, Max Rudolph, Michael Casper
+Lewis, Magali Billen, Min Ragan-Kelley, Paul Ivanov, Sarah Stewart, Steve
+Purves, Tim Head, Tom Neubarth, Yuvi Panda, and likely others that I am
+forgetting.
 
 And I give the most special thanks to Richard Feltstykket for being an amazing
 partner in this project. We couldn't have pulled it off without his extensive
