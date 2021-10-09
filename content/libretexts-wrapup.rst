@@ -362,7 +362,7 @@ Julia
 
 Octave
 
-- `Introduction to Control Systems <https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book:_Introduction_to_Control_Systems_(Iqbal)>`_ (Karmran Iqbal, University of Arkansas at Little Rock)
+- `Introduction to Control Systems <https://eng.libretexts.org/Bookshelves/Industrial_and_Systems_Engineering/Book:_Introduction_to_Control_Systems_(Iqbal)>`_ (Kamran Iqbal, University of Arkansas at Little Rock)
 
 Shell, Python, R
 
