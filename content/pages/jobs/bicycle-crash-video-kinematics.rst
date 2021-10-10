@@ -36,15 +36,16 @@ falls and crashes occur during bicycling.  Understanding the mechanisms are key
 to preventing injuries and death of bicyclists. It is a bit easier to find and
 collect video data of crashes and there are a number of new technologies that
 make it easier to extract kinematic motion and pose data from videos using
-machine learning (e.g. DeepLabCut_, OpenPose_).  The TU Delft Bicycle lab has a
-reasonably large set of training data of typical (non-crash) bicycling that can
-be used to build the video to kinematics predictive models. The goal of this
-project would be to collect a large set of bicycle crash videos, build a model
-that can extract the kinematics of both the bicycle and the rider, and show
-that accurate kinematics can be acquired.
+machine learning (e.g. DeepLabCut_, OpenPose_, Anipose_). The TU Delft Bicycle
+lab has a reasonably large set of training data of typical (non-crash)
+bicycling that can be used to build the video to kinematics predictive models.
+The goal of this project would be to collect a large set of bicycle crash
+videos, build a model that can extract the kinematics of both the bicycle and
+the rider, and show that accurate kinematics can be acquired.
 
 .. _OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
 .. _DeepLabCut:  http://www.mousemotorlab.org/deeplabcut
+.. _Anipose: https://anipose.readthedocs.io
 
 How to Apply
 ============

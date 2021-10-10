@@ -71,26 +71,27 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-heinen-jan|
+   * - |headshot-missing|
+     - | Dorus de Boer [TUD, Oct 2021-present]
+       | Cycling Material Model Design
+     - |headshot-heinen-jan|
      - | Jan Heinen [TUD, Sep 2021-present]
        | Skateboarding Biomechanics
-     - |headshot-missing|
+   * - |headshot-missing|
      - | Simonas Draukšas [TUD, Sep 2021-present]
        | Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance
-   * - |headshot-landre-daniel|
+     - |headshot-landre-daniel|
      - | Daniël Landré [TUD, Sep 2021-present]
        | Adaptive Speed Control in Cycling
-     - |headshot-van-de-velde-shannon|
+   * - |headshot-van-de-velde-shannon|
      - Shannon van de Velde [TUD, Dec 2020-present]
-   * - |headshot-missing|
+     - |headshot-missing|
      - | Julie van Vlerken [TUD, Sep 2020-present]
        | Bicycle Design, Dynamics, and Handling
-     - |headshot-haasnoot-jelle|
+   * - |headshot-haasnoot-jelle|
      - Jelle Haasnoot [TUD]
-   * - |headshot-huiskens-tim|
+     - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
-     -
-     -
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px

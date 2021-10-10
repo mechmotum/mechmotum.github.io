@@ -124,10 +124,6 @@ in finding students for [#]_:
      - 2020-09-10
      - Gazelle_
      - Thesis
-   * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
-     - 2020-09-10
-     - USSEA_
-     - Thesis
    * - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
      - 2020-09-10
      - Dr. Mont Hubbard (University of California, Davis)
@@ -164,6 +160,10 @@ in finding students for [#]_:
      - 2021-09-10
      - `swugo <https://swugo.com/>`_
      - Simonas Draukšas
+   * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
+     - 2020-09-10
+     - USSEA_
+     - Jan Heinen
    * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
      - 2021-02-15
      - Dr. Laura Marchal-Crespo (TU Delft, CoR)
