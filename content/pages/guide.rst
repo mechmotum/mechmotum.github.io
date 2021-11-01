@@ -32,25 +32,72 @@ Getting Started
 - Setup regular mentorship meetings with your mentor(s). This should at least
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
-- Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a
-  lab member for the calendar invite with the video chat link. Add your ideas
-  and votes for meeting topics to the google document (ask Marco for
-  permissions to edit).
+- Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
+  the calendar invite with the video chat link. Add your ideas and votes for
+  meeting topics to the google document (ask Marco for permissions to edit).
 - Send out an AIO (see below) before your regular mentor meetings.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
-  needed). These can be requested from Arend or Jason. Ask for a tour of the
+  needed). These can be requested from Jason or Arend. Ask for a tour of the
   space from a current lab member before you start working there.
+- See the `recommended reading list <#recommended-reading>`_ below for some
+  reading materials to get you started.
+
+.. _email list: https://groups.google.com/g/mechmotum
+.. _lab members page: {filename}/pages/members.rst
+
+Internship
+----------
+
+After you have found an internship, typically on your own but sometimes through
+postings via the lab, here are some things you need to do:
+
+- Review the Study Guide explanation of your internship, for example:
+
+  - BMD: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59456
+  - BME: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59534
+
+- Review the assessment rubric for the internship and the associated report:
+  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf
+- Fill out the MSc internship initiation form with your project description and
+  other relevant information. Develop this project idea with your internship
+  company contacts. If you think this aligns with Jason's research interests or
+  the internship came through the bike lab you can send the form to Jason and
+  ask him to be your TUD advisor. If he agrees, then you can obtain his
+  signature on the form and forward it to your respective MSc coordinator.
+- Make all of your internship arrangements yourself with the company (travel,
+  stipend, housing, etc.)
+- To receive academic credit for your internship at the end you need to write a
+  report and have it assessed by your TUD internship supervisor. The report
+  will be assessed based on the above linked rubric.
+- Note that your TUD supervisor is typically not involved in your internship
+  other than the signing the initial form and assessing and providing a grade
+  at the end.
+
+Getting Started on the Literature Study
+---------------------------------------
+
+- Review the `Literature Study learning objectives and rubric
+  <https://d2k0ddhflgrk1i.cloudfront.net/Studentenportal/Faculteitspecifiek/3ME/Onderwijs/GERELATEERD/Formulieren/Rubric%20MSc%20Literature%20Review.pdf>`_
+- Read "`How to read a paper`_" and "`Guide to writing a literature review for Science and Technology students`_"
+- Choose and learn a tool/method to organize your papers and notes (e.g.
+  Zotero, Mendeley, Endnote, Excel)
+- First goal is to read a large quantity of paper abstracts (phase 1 in "How to
+  Read a Paper") to get a broad sense of what people are researching about the
+  topics of interest
+- Second goal is to formulate a research question(s) that you can answer with
+  your literature study
+- Third goal is to delve deeper into papers that are closely related to your
+  research question
+
+MSc Thesis
+----------
+
 - If your project is with a company or institution and/or requires transfer of
   sensitive information you will need to arrange the "Graduation Agreement at a
   Company" that abides by the TUD Graduation Conditions. You can find the forms
   here here:
   https://www.tudelft.nl/studenten/faculteiten/3me-studentenportal/onderwijs/gerelateerd/formulieren/msc-formulieren/.
   Discuss this with your supervisor(s) before you start.
-- See the `recommended reading list <#recommended-reading>`_ below for some
-  reading materials to get you started.
-
-.. _email list: https://groups.google.com/g/mechmotum
-.. _lab members page: {filename}/pages/members.rst
 
 COVID-Time Lab Rules
 ====================
@@ -534,9 +581,9 @@ Hadley Wickham, "Tidy Data," Journal of Statistical Software, 2014, http://vita.
 Academia
 --------
 
-Srinivasan Keshav, "`How To Read A Paper <http://ccr.sigcomm.org/online/files/p83-keshavA.pdf>`_," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007.
+Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007.
    Introduces a structured 3 phase method of reading scientific literature.
-`Guide to writing a literature review for Science and Technology students <https://lancaster.libguides.com/engineering/literaturereview>`_, Lancaster University
+`Guide to writing a literature review for Science and Technology students`_, Lancaster University
    This is a nice guide that gives starting information for those of you
    working on a literature study.
 `Writing a Scientific-Style Thesis: A Guide for Graduate Research Students <https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/Writing-a-Scientific-Thesis.pdf>`_, NUI Galway, Dr. Dermot Burns, 2017
@@ -551,6 +598,9 @@ Srinivasan Keshav, "`How To Read A Paper <http://ccr.sigcomm.org/online/files/p8
 "Academia Stack Exchange," https://academia.stackexchange.com/
    A Q&A website about academia. You can find discussions on many useful topics
    and also participate in the discussions.
+
+.. _How To Read A Paper:  http://ccr.sigcomm.org/online/files/p83-keshavA.pdf
+.. _Guide to Writing a Literature Review for Science and Technology Students: https://lancaster.libguides.com/engineering/literaturereview
 
 Open Science
 ------------

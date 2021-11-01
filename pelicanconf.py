@@ -54,7 +54,7 @@ DEFAULT_PAGINATION = False
 
 try:
     with open('config.yml', 'r') as config_file:
-        config_data = yaml.load(config_file)
+        config_data = yaml.load(config_file, Loader=yaml.FullLoader)
 except IOError:
     THEME = ''
     PLUGIN_PATHS = ''
