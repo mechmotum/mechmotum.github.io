@@ -501,7 +501,7 @@ Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;div class="section" id="job-description"&gt;
 &lt;h2&gt;Job description&lt;/h2&gt;
 &lt;p&gt;The TU Delft Bicycle Lab is seeking a postdoctoral researcher for a &lt;strong&gt;12
-month&lt;/strong&gt; full time contract &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; with a starting date before the end of 2021.
+month&lt;/strong&gt; full time contract &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; with a starting date before the end of 2021.
 The researcher will develop and …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="figure align-center"&gt;
 &lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
@@ -510,7 +510,7 @@ Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;div class="section" id="job-description"&gt;
 &lt;h2&gt;Job description&lt;/h2&gt;
 &lt;p&gt;The TU Delft Bicycle Lab is seeking a postdoctoral researcher for a &lt;strong&gt;12
-month&lt;/strong&gt; full time contract &lt;a class="footnote-reference" href="#id2" id="id1"&gt;[1]&lt;/a&gt; with a starting date before the end of 2021.
+month&lt;/strong&gt; full time contract &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; with a starting date before the end of 2021.
 The researcher will develop and execute an engineering research project for the
 &amp;quot;Bicycle of the Future&amp;quot; grant which is supported by ClickNL
 (&lt;a class="reference external" href="https://www.clicknl.nl"&gt;https://www.clicknl.nl&lt;/a&gt;) and Royal Dutch Gazelle
@@ -579,10 +579,10 @@ position (vacancy number: TUD01463):&lt;/p&gt;
 Assistant Professor, email: &lt;a class="reference external" href="mailto:j.k.moore&amp;#64;tudelft.nl"&gt;j.k.moore&amp;#64;tudelft.nl&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For information about the application procedure, please contact Ms. Anita van
 Vianen, email: &lt;a class="reference external" href="mailto:application-3me&amp;#64;tudelft.nl"&gt;application-3me&amp;#64;tudelft.nl&lt;/a&gt;.&lt;/p&gt;
-&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;We originally advertised a 10 month appointment and the official
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;We originally advertised a 10 month appointment and the official
 application page also reflects that, but we have obtained approval for the
 extra 2 months. The position will be 12 months.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
@@ -670,7 +670,7 @@ Recognition Method&lt;/a&gt;&amp;quot;.  His
 system is designed for future Gazelle electric bikes. Joris has accepted a
 position at &lt;a class="reference external" href="https://gearboxinnovations.com"&gt;Gearbox&lt;/a&gt; to develop agricultural robots following graduation.
 Congrats to Joris!&lt;/p&gt;
-&lt;table border="1" class="colwidths-given table docutils align-center" style="width: 80%"&gt;
+&lt;table border="1" class="table docutils align-center" style="width: 80%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
@@ -1014,7 +1014,7 @@ nature, the words &amp;quot;wobble&amp;quot; and &amp;quot;shimmy&amp;quot; are 
 and popular literature without a unique or definitive definition. Both terms
 are used to describe higher frequency oscillations that single track vehicles
 (bicycles, motorcycles, and similar vehicles) sometimes exhibit
-&lt;a class="citation-reference" href="#wikipedia2020" id="id1"&gt;[Wikipedia2020]&lt;/a&gt;. In this case, &amp;quot;higher frequencies&amp;quot; refers to being higher
+&lt;a class="citation-reference" href="#wikipedia2020" id="citation-reference-1"&gt;[Wikipedia2020]&lt;/a&gt;. In this case, &amp;quot;higher frequencies&amp;quot; refers to being higher
 than the vehicle's weave oscillation frequency. Weave is the fundamental steer
 and roll oscillation that occurs in the 0 to 4 Hz bandwidth for bicycles
 traveling at speeds below 20 m/s (72 km/h, 45 mph). In addition to the
@@ -1029,7 +1029,7 @@ present even if the bicycle and tires are infinitely stiff, i.e. weave is a
 function purely of the assembly of rigid bodies (wheels, fork, frame, ground)
 and the nature of their connections.&lt;/p&gt;
 &lt;p&gt;Advanced dynamics models of bicycles are able to predict the wobble/shimmy
-oscillation (&lt;a class="citation-reference" href="#plochl2012" id="id2"&gt;[Plöchl2012]&lt;/a&gt;, &lt;a class="citation-reference" href="#klinger2014" id="id3"&gt;[Klinger2014]&lt;/a&gt;) and, at least in these papers,
+oscillation (&lt;a class="citation-reference" href="#plochl2012" id="citation-reference-2"&gt;[Plöchl2012]&lt;/a&gt;, &lt;a class="citation-reference" href="#klinger2014" id="citation-reference-3"&gt;[Klinger2014]&lt;/a&gt;) and, at least in these papers,
 wobble &lt;em&gt;is&lt;/em&gt; specifically defined. These models show that:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;at speeds &amp;gt; 13 m/s (45 km/h) the wobble frequency of oscillation is between 8
@@ -1105,7 +1105,7 @@ rider's pelvis is firmly connected to the seat in the models. With Dygert's
 pelvis disconnected from the seat, that bicycle-rider system is thus different
 than these models. The interactions of the rider's flexible body with the
 bicycle in Dygert's riding position may very well destabilize the weave
-oscillation. For example, &lt;a class="citation-reference" href="#moore2012a" id="id4"&gt;[Moore2012a]&lt;/a&gt; shows that simply adding the inertial
+oscillation. For example, &lt;a class="citation-reference" href="#moore2012a" id="citation-reference-4"&gt;[Moore2012a]&lt;/a&gt; shows that simply adding the inertial
 effects of the rider's arms to the handlebars can have a destabilizing effect.&lt;/p&gt;
 &lt;p&gt;A second important assumption in the models in the academic literature is that
 the nominal roll angle of the bicycle is zero. At a roll angle of 30 degrees,
@@ -1140,13 +1140,13 @@ Yumiko Henneberry contributed copy editing.&lt;/p&gt;
 &lt;table class="docutils citation" frame="void" id="wikipedia2020" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[Wikipedia2020]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble"&gt;https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-1"&gt;[Wikipedia2020]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble"&gt;https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="plochl2012" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[Plöchl2012]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id2"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id5"&gt;2&lt;/a&gt;)&lt;/em&gt; Plöchl, Manfred, Johannes Edelmann, Bernhard Angrosch, and
+&lt;tr&gt;&lt;td class="label"&gt;[Plöchl2012]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#citation-reference-2"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#citation-reference-5"&gt;2&lt;/a&gt;)&lt;/em&gt; Plöchl, Manfred, Johannes Edelmann, Bernhard Angrosch, and
 Christoph Ott. “On the Wobble Mode of a Bicycle.” Vehicle System Dynamics
 50, no. 3 (March 1, 2012): 415–29. &lt;a class="reference external" href="https://doi.org/10.1080/00423114.2011.594164"&gt;https://doi.org/10.1080/00423114.2011.594164&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
@@ -1154,7 +1154,7 @@ Christoph Ott. “On the Wobble Mode of a Bicycle.” Vehicle System Dynamics
 &lt;table class="docutils citation" frame="void" id="klinger2014" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[Klinger2014]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id3"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id6"&gt;2&lt;/a&gt;)&lt;/em&gt; Klinger, Florian, Julia Nusime, Johannes Edelmann, and Manfred
+&lt;tr&gt;&lt;td class="label"&gt;[Klinger2014]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#citation-reference-3"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#citation-reference-6"&gt;2&lt;/a&gt;)&lt;/em&gt; Klinger, Florian, Julia Nusime, Johannes Edelmann, and Manfred
 Plöchl. “Wobble of a Racing Bicycle with a Rider Hands on and Hands off the
 Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
 &lt;a class="reference external" href="https://doi.org/10.1080/00423114.2013.877592"&gt;https://doi.org/10.1080/00423114.2013.877592&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
@@ -1163,13 +1163,13 @@ Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
 &lt;table class="docutils citation" frame="void" id="moore2012a" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id4"&gt;[Moore2012a]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/extensions.html#rider-arms"&gt;http://moorepants.github.io/dissertation/extensions.html#rider-arms&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-4"&gt;[Moore2012a]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/extensions.html#rider-arms"&gt;http://moorepants.github.io/dissertation/extensions.html#rider-arms&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="moore2012b" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id7"&gt;[Moore2012b]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders"&gt;http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-7"&gt;[Moore2012b]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders"&gt;http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -1178,12 +1178,12 @@ Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
 &lt;ul class="simple"&gt;
 &lt;li&gt;Women time trial-ers average about 45 km/h (12.5 m/s), so she should have
 been going faster than this going down hill (but she isn't pedaling).&lt;/li&gt;
-&lt;li&gt;&lt;a class="citation-reference" href="#plochl2012" id="id5"&gt;[Plöchl2012]&lt;/a&gt; shows wobble frequencies between 6 and 9 Hz for 0 to 20 m/s in
+&lt;li&gt;&lt;a class="citation-reference" href="#plochl2012" id="citation-reference-5"&gt;[Plöchl2012]&lt;/a&gt; shows wobble frequencies between 6 and 9 Hz for 0 to 20 m/s in
 Figure 4. Same figure shows the wobble mode unstable from about 4 to 20 m/s.
 This is for a model with rider lean and the but attached to the seat.&lt;/li&gt;
-&lt;li&gt;&lt;a class="citation-reference" href="#klinger2014" id="id6"&gt;[Klinger2014]&lt;/a&gt; shows wobble between 8 and 12 Hz for 0 to 20 m/s for leaned
+&lt;li&gt;&lt;a class="citation-reference" href="#klinger2014" id="citation-reference-6"&gt;[Klinger2014]&lt;/a&gt; shows wobble between 8 and 12 Hz for 0 to 20 m/s for leaned
 over hands on handlebars (no rider lean DOF).&lt;/li&gt;
-&lt;li&gt;Figure 6.10 in &lt;a class="citation-reference" href="#moore2012b" id="id7"&gt;[Moore2012b]&lt;/a&gt; shows that the weave frequency for a bicycle
+&lt;li&gt;Figure 6.10 in &lt;a class="citation-reference" href="#moore2012b" id="citation-reference-7"&gt;[Moore2012b]&lt;/a&gt; shows that the weave frequency for a bicycle
 without a rider can get higher 10 rad/s (1.6 Hz) at 7 m/s, maybe it would be
 close to 4 Hz at 13 m/s?? But weave should be damped and stable at these
 speeds.&lt;/li&gt;
@@ -1570,7 +1570,7 @@ PID controller on an instrumented ebike which can be&lt;/em&gt; &lt;a class="ref
 throttle relay and minor fixes throughout.&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class="section" id="introduction"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;1.0 Introduction&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;1.0 Introduction&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The overall goal of this project is to design and implement a cruise control
 system for an instrumented ebike used for conducting bicycle handling
 experiments. A previous blog post &lt;a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-design.html"&gt;(found here)&lt;/a&gt; outlines the design and analysis of a
@@ -1581,7 +1581,7 @@ into the ebike cruise control system that was developed to make functional use
 of the PID controller.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="system-operation-functionality"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The implementation of the cruise control system on the electric bike was
 fundamentally informed by the interactions the user would have with the system.
 A typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
@@ -1594,9 +1594,9 @@ of implementing the cruise control system and sculpt the concepts for the
 hardware and software portions of the cruise control system.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="system-architecture"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id4"&gt;3.0 System Architecture&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;3.0 System Architecture&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="control-architecture"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id5"&gt;3.1 Control Architecture&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;3.1 Control Architecture&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The control architecture is a simple negative feedback design that computes the
 error between a user defined setpoint and the actual speed of the ebike. Figure
 2 graphically shows how the control architecture is implemented on the ebike.&lt;/p&gt;
@@ -1606,7 +1606,7 @@ error between a user defined setpoint and the actual speed of the ebike. Figure
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="physical-architecture"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id6"&gt;3.2 Physical Architecture&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;3.2 Physical Architecture&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;At the heart of the cruise control system’s physical architecture is its
 integration into the instrumented ebike’s powertrain. Figure 3 shows this
 integration by highlighting the input/output and geometric relationships
@@ -1642,7 +1642,7 @@ blog post.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="software"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id7"&gt;4.0 Software&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-6"&gt;4.0 Software&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The cruise control system software was written in C using the Arduino IDE.
 Based on user inputs from two momentary pushbuttons, the software decides
 whether or not to pass the throttle signal as an output or compute a throttle
@@ -1657,7 +1657,7 @@ SD card.&lt;/p&gt;
 &lt;p&gt;Source code, and more details about it, can be found on the Laboratorium’s
 Github repository &lt;a class="reference external" href="https://github.com/mechmotum/eBikeSpdController"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="code-libraries"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id8"&gt;4.1 Code Libraries&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-7"&gt;4.1 Code Libraries&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The continuous time PID controller derived in part one of this blog post series
 was digitized on the Arduino Nano using Brett Beauregard’s PID_v1 library
 &lt;a class="reference external" href="https://github.com/br3ttb/Arduino-PID-Library"&gt;(found here)&lt;/a&gt;. This library
@@ -1679,9 +1679,9 @@ estate for the many components that are wired up to the Arduino.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="hardware-hook-up-and-design"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id9"&gt;5.0 Hardware Hook Up and Design&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-8"&gt;5.0 Hardware Hook Up and Design&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="instrumented-ebike-platform"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id10"&gt;5.1 Instrumented Ebike Platform&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-9"&gt;5.1 Instrumented Ebike Platform&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Jason Moore, the lab’s PI, originally began constructing the instrumented ebike
 platform in 2009 from a large Surly single speed off road steel frame bicycle
 converted to an ebike with a conversion kit sold by Amped Bikes. The Amped
@@ -1695,12 +1695,12 @@ and the bike’s instrumentation system can be found in Jason’s dissertation
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="electrical-hook-up"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id11"&gt;5.2 Electrical Hook Up&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-10"&gt;5.2 Electrical Hook Up&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The electrical components of the control system revolve around an Arduino Nano
 which is the central processor for the hardware and logic of the cruise control
 system. Table 1, below, shows a complete list of the hardware used in this
 build.&lt;/p&gt;
-&lt;table border="1" class="colwidths-given docutils"&gt;
+&lt;table border="1" class="docutils"&gt;
 &lt;caption&gt;&lt;em&gt;Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in section 6.0.&lt;/em&gt;&lt;/caption&gt;
 &lt;colgroup&gt;
 &lt;col width="40%"/&gt;
@@ -1769,7 +1769,7 @@ near the bottom bracket.&lt;/p&gt;
 laboratorium’s github &lt;a class="reference external" href="https://github.com/mechmotum/eBikeSpdController"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="electronics-housings"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id12"&gt;5.3 Electronics Housings&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-11"&gt;5.3 Electronics Housings&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Housings for the Arduino Nano, pushbuttons and LCD were designed and 3D printed
 to enclose the electrical components and mount them to the ebike. Figure 8
 shows the CAD model design of the Arduino housing. The housing’s design
@@ -1814,7 +1814,7 @@ handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="dead-mans-switch"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id13"&gt;5.4 Dead Man’s Switch&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-12"&gt;5.4 Dead Man’s Switch&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;For safety reasons, a dead man’s switch was added to the cruise control system.
 The dead man’s switch works by cutting power from the Li+ battery through a
 mechanical relay. The relay’s coil is connected to a power circuit having a
@@ -1826,7 +1826,7 @@ electrical schematic shows how the switch is wired up to the ebike’s
 powertrain.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="throttle-relay-planned"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id14"&gt;5.5 Throttle Relay (Planned)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-13"&gt;5.5 Throttle Relay (Planned)&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Currently, when cruise control is disengaged, the time it takes the Arduino to
 read the throttle signal and then write it to the motor controller is leading
 to a jerky ride. This is likely due to the intermittency in the throttle signal
@@ -1845,7 +1845,7 @@ mounted to the bike’s top tube,inside the upper head tube triangle.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id15"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-14"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
@@ -1853,7 +1853,7 @@ purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="suggested-improvements"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id16"&gt;7.0 Suggested Improvements&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-15"&gt;7.0 Suggested Improvements&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Throughout the implementation of this design, I've made note of some
 improvements to the system's hardware design that could be made to address
 known issues. I have listed these below:&lt;/p&gt;
@@ -1875,7 +1875,7 @@ output surging while cruise control is engaged&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="acknowledgements"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id17"&gt;8.0 Acknowledgements&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-16"&gt;8.0 Acknowledgements&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I would like to thank &lt;a class="reference external" href="https://github.com/ngchan"&gt;Nicholas Chan&lt;/a&gt; for writing
 the camera gimbal software that my speed control software is based off of. I’d
 also like to thank &lt;a class="reference external" href="https://github.com/br3ttb"&gt;Brett Beuaregard&lt;/a&gt; for writing
@@ -2249,7 +2249,7 @@ and guides the users through correct implementation.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="calculating-equivalent-fall-height"&gt;
 &lt;h2&gt;Calculating Equivalent Fall Height&lt;/h2&gt;
-&lt;p&gt;The theory of equivalent fall height calculations has been discussed by &lt;a class="citation-reference" href="#levy" id="id1"&gt;[Levy]&lt;/a&gt;.
+&lt;p&gt;The theory of equivalent fall height calculations has been discussed by &lt;a class="citation-reference" href="#levy" id="citation-reference-1"&gt;[Levy]&lt;/a&gt;.
 EFH can be expressed as follows:&lt;/p&gt;
 &lt;div class="math"&gt;
 \begin{equation*}
@@ -2358,7 +2358,7 @@ the new web app user friendly.&lt;/p&gt;
 &lt;table class="docutils citation" frame="void" id="levy" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[Levy]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Levy, D., Hubbard, M., McNeil, J.A. et al. Sports Eng (2015) 18: 227.
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-1"&gt;[Levy]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Levy, D., Hubbard, M., McNeil, J.A. et al. Sports Eng (2015) 18: 227.
 &lt;a class="reference external" href="https://doi.org/10.1007/s12283-015-0182-6"&gt;https://doi.org/10.1007/s12283-015-0182-6&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2447,7 +2447,7 @@ instrumented ebike&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;em&gt;This blog post has been updated in a newer blog post. Please see the updated version of this blog post for the most up to date information.&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class="section" id="introduction"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;1.0 Introduction&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;1.0 Introduction&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The overall goal of this project is to design and implement a control system
 for an instrumented ebike used in bicycle handling experimentation. A previous
 blog post found &lt;a class="reference external" href="ebike-controller-design"&gt;here&lt;/a&gt;&lt;/p&gt;
@@ -2457,7 +2457,7 @@ designed PID controller was implemented on the instrumented ebike using an
 Arduino Nano.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="system-operation-functionality"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The implementation of the PID controller on the electric bike was fundamentally
 informed by the interactions that the user would have with the system. A
 typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
@@ -2470,9 +2470,9 @@ and sculpt the concept for the hardware and software design of the speed
 control system.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="system-architecture"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;3.0 System Architecture&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;3.0 System Architecture&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="control-architecture"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id4"&gt;3.1 Control Architecture&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;3.1 Control Architecture&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The control architecture is a simple feedback design that computes the error
 between a user defined setpoint and compares it to the speed of the ebike as
 measured via a DC generator wheel speed sensor (more on this in section 5.2).
@@ -2485,7 +2485,7 @@ the ebike.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="physical-architecture"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id5"&gt;3.2 Physical Architecture&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;3.2 Physical Architecture&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;At the heart of the control system’s physical architecture is its integration
 into the existing instrumented ebike platform.  Figure 3, below, shows this
 integration by highlighting the input/output and geometric relationships
@@ -2514,7 +2514,7 @@ controller.  Figure 4, below, graphically shows this interaction.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="software"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id6"&gt;4.0 Software&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-6"&gt;4.0 Software&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The control system software was written in C using the Arduino IDE. Based on
 user inputs from two momentary pushbuttons, the software decides whether or not
 to pass the throttle signal as an output or compute a throttle output based on
@@ -2528,7 +2528,7 @@ the system via an LCD and logs diagnostic information to an SD card.&lt;/p&gt;
 &lt;p&gt;The software, and more details about it, can be found on the Laboratorium’s
 Github repository &lt;a class="reference external" href="https://github.com/mechmotum/eBikeSpdController"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="code-libraries"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id7"&gt;4.1 Code Libraries&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-7"&gt;4.1 Code Libraries&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The continuous time PID controller derived in part one of this blog post series
 was digitized on the Arduino Nano using Brett Beauregard’s PID_v1 library
 &lt;a class="reference external" href="https://github.com/br3ttb/Arduino-PID-Library"&gt;(found here)&lt;/a&gt;. This library
@@ -2550,9 +2550,9 @@ estate for the many components that are wired up to the Arduino.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="hardware-hook-up-and-design"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id8"&gt;5.0 Hardware Hook Up and Design&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-8"&gt;5.0 Hardware Hook Up and Design&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="instrumented-ebike-platform"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id9"&gt;5.1 Instrumented Ebike Platform&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-9"&gt;5.1 Instrumented Ebike Platform&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Jason Moore, the lab’s PI, originally began constructing the instrumented ebike
 platform in 2009 from a large Surly single speed off road steel frame bicycle
 converted to an ebike with a conversion kit sold by Amped Bikes. The Amped
@@ -2565,12 +2565,12 @@ bike’s instrumentation system can be found in Jason’s dissertation &lt;a cla
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="electrical-hook-up"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id10"&gt;5.2 Electrical Hook Up&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-10"&gt;5.2 Electrical Hook Up&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The electrical components of the control system revolve around an Arduino Nano
 which is used to process inputs and outputs to human interface hardware,
 actuators, and logging hardware. Table 1, below, shows a complete list of the
 hardware used in this build.&lt;/p&gt;
-&lt;table border="1" class="colwidths-given docutils"&gt;
+&lt;table border="1" class="docutils"&gt;
 &lt;caption&gt;&lt;em&gt;Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in section 6.0.&lt;/em&gt;&lt;/caption&gt;
 &lt;colgroup&gt;
 &lt;col width="40%"/&gt;
@@ -2644,7 +2644,7 @@ signals from the NiCd battery above the Arduino near the top tube and from the
 wheel speed sensor near the bottom bracket.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="electronics-housings"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id11"&gt;5.3 Electronics Housings&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-11"&gt;5.3 Electronics Housings&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Housings for the Arduino Nano, pushbuttons and LCD were designed and 3D printed
 to enclose the electrical components and mount them to the ebike. Figure 9,
 below, shows the CAD model design of the Arduino housing. The housing’s design
@@ -2690,7 +2690,7 @@ handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id12"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-12"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;"/&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
@@ -2698,7 +2698,7 @@ purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="lessons-learned-and-suggested-improvements"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id13"&gt;7.0 Lessons Learned and Suggested Improvements&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-13"&gt;7.0 Lessons Learned and Suggested Improvements&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Throughout the process of implementing this controller, I learned some helpful
 lessons when it comes to designing electronics  housings and doing electrical
 hookups.&lt;/p&gt;
@@ -2725,7 +2725,7 @@ board&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="acknowledgements"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id14"&gt;8.0 Acknowledgements&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-14"&gt;8.0 Acknowledgements&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I would like to thank &lt;a class="reference external" href="https://github.com/ngchan"&gt;Nicholas Chan&lt;/a&gt; for writing
 the camera gimbal software that my speed control software is based off of. I’d
 also like to thank &lt;a class="reference external" href="https://github.com/br3ttb"&gt;Brett Beuaregard&lt;/a&gt; for writing
@@ -3086,9 +3086,9 @@ International Development Enterprises (IDE), treadle pumps helped farmers in
 Bangladesh increase their income by an average of $100 a year. This increase in
 profit allowed farmers to invest in larger, more expensive irrigation machines
 that further increased crop yields and helped create financial stability
-&lt;a class="citation-reference" href="#polak" id="id1"&gt;[Polak]&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="citation-reference" href="#polak" id="citation-reference-1"&gt;[Polak]&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A prototype pedal-powered centrifugal water pump was tested by Abe McKay during
-his Master’s studies &lt;a class="citation-reference" href="#mckay" id="id2"&gt;[McKay]&lt;/a&gt;. Mckay’s tests suggested that this pump’s
+his Master’s studies &lt;a class="citation-reference" href="#mckay" id="citation-reference-2"&gt;[McKay]&lt;/a&gt;. Mckay’s tests suggested that this pump’s
 efficiency was comparable to that of the commercially available Xylem and Money
 Maker treadle pumps. Detailed efficiency data for these treadle pumps are not
 available and thus an accurate comparison could not be made until now.&lt;/p&gt;
@@ -3284,7 +3284,7 @@ between two treadle style pumps and a centrifugal-type water pump.&lt;/p&gt;
 &lt;table class="docutils citation" frame="void" id="polak" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[Polak]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;P. Polak, &amp;quot;How IDE Installed 1.5 Million Treadle Pumps in
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-1"&gt;[Polak]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;P. Polak, &amp;quot;How IDE Installed 1.5 Million Treadle Pumps in
 Bangladesh by Activating the Private Secotr: The Practical Steps,&amp;quot;
 International Development Enterprises (IDE), 2000.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3292,7 +3292,7 @@ International Development Enterprises (IDE), 2000.&lt;/td&gt;&lt;/tr&gt;
 &lt;table class="docutils citation" frame="void" id="mckay" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[McKay]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;A. Mckay. (2018), &amp;quot;The Water Buffalo: Design of a Portable Bicycle
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-2"&gt;[McKay]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;A. Mckay. (2018), &amp;quot;The Water Buffalo: Design of a Portable Bicycle
 Powered Irrigation Pump for Small-Scale African Farmers&amp;quot; UC Davis, Davis,
 California&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3394,7 +3394,7 @@ circuit with resistance &lt;span class="math"&gt;\(R\)&lt;/span&gt;, inductance 
 correspond to motor torque and wheel propulsion torque respectively. The
 rotational dynamics of the drivetrain are defined by Euler’s rotation equation.&lt;/p&gt;
 &lt;p&gt;A simple equation of motion for the bicycle, modeled as a point mass, is
-derived using Newton’s 2nd Law of Motion in the horizontal direction &lt;a class="citation-reference" href="#wilson" id="id1"&gt;[Wilson]&lt;/a&gt;.&lt;/p&gt;
+derived using Newton’s 2nd Law of Motion in the horizontal direction &lt;a class="citation-reference" href="#wilson" id="citation-reference-1"&gt;[Wilson]&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Free Body Diagram of Bicycle." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg" style="width: 20%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa, Fr
@@ -3419,8 +3419,8 @@ based on measured time response data from the ebike was used.&lt;/p&gt;
 &lt;p&gt;To begin the process of system identification, the values of the ebike
 drivetrain model parameters and bicycle drag and tire rolling resistance
 coefficients were initialized using reasonable approximations found from
-internet searches, previous knowledge of the instrumented ebike &lt;a class="citation-reference" href="#moore" id="id2"&gt;[Moore]&lt;/a&gt; and
-textbook resources &lt;a class="citation-reference" href="#wilson" id="id3"&gt;[Wilson]&lt;/a&gt;.&lt;/p&gt;
+internet searches, previous knowledge of the instrumented ebike &lt;a class="citation-reference" href="#moore" id="citation-reference-2"&gt;[Moore]&lt;/a&gt; and
+textbook resources &lt;a class="citation-reference" href="#wilson" id="citation-reference-3"&gt;[Wilson]&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In MATLAB, a nonlinear least-squares solver was used to optimize the constants
 in the derived plant model of the ebike to match a speed time response measured
 from the instrumented ebike. Figure 4, below, shows the curve fitting result.&lt;/p&gt;
@@ -3489,14 +3489,14 @@ Implementing a PID Controller on an Instrumented Ebike.&lt;/p&gt;
 &lt;table class="docutils citation" frame="void" id="wilson" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[Wilson]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id1"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id3"&gt;2&lt;/a&gt;)&lt;/em&gt; Wilson, D., Papadopoulos, J. and Whitt, F. (2004). Bicycling science.
+&lt;tr&gt;&lt;td class="label"&gt;[Wilson]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#citation-reference-1"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#citation-reference-3"&gt;2&lt;/a&gt;)&lt;/em&gt; Wilson, D., Papadopoulos, J. and Whitt, F. (2004). Bicycling science.
 Cambridge, Mass.: MIT Press.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="moore" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[Moore]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Moore, J. (2012). Human Control of a Bicycle.
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-2"&gt;[Moore]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Moore, J. (2012). Human Control of a Bicycle.
 Available at: &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;http://moorepants.github.io/dissertation/davisbicycle.html&lt;/a&gt;
 [Accessed 12 Dec. 2018].&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3662,7 +3662,7 @@ Training Network (ITN) on &lt;em&gt;Moto&lt;/em&gt;rcycle &lt;em&gt;R&lt;/em&gt;
 from University of Firenze (UNIFI), Florence, Italy.  More info on this ITN can
 be found at: &lt;a class="reference external" href="http://www.motorist-ptw.eu/"&gt;http://www.motorist-ptw.eu/&lt;/a&gt;&lt;/p&gt;
 &lt;a class="reference external image-reference" href="http://www.motorist-ptw.eu/"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/MOTORISTlogo.jpg" style="width: 115px; height: 76px;" /&gt;&lt;/a&gt;
-</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-10T00:00:00-07:00</published><updated>2013-05-10T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-10:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
+</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-01T00:00:00-07:00</published><updated>2013-05-01T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-01:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
 MODELING THE MECHANICAL PROPERTIES OF BICYCLE TIRES&lt;/em&gt;, PhD thesis, The
 University of Wisconsin-Milwaukee, May 2013.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/dressel2013measuring.pdf"&gt;pdf(30Mb)&lt;/a&gt;&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category><category term="phd"></category></entry><entry><title>Nick Appelman Successfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/appelman-msc-thesis.html" rel="alternate"></link><published>2012-11-27T00:00:00-08:00</published><updated>2012-11-27T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2012-11-27:/blog/appelman-msc-thesis.html</id><summary type="html">&lt;p&gt;Nick Appelman successfully defended his Engineering Dynamics MSc thesis on:
@@ -3765,7 +3765,7 @@ Milliken!&lt;/p&gt;
 &lt;blockquote&gt;
 M.V.C. Evertse, &lt;em&gt;Rider Analysis using a fully instrumented motorcycle&lt;/em&gt;, MSc
 thesis, Delft University of Technology, May 2010.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/evertse2010riderMinApp.pdf"&gt;(pdf 1.9Mb)&lt;/a&gt;&lt;/blockquote&gt;
-</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-10T00:00:00-07:00</published><updated>2010-05-10T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-10:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
+</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>LEGO Mindstorms NXT Based Bicycle Robot</title><link href="https://mechmotum.github.io/blog/lego-bicycle.html" rel="alternate"></link><published>2010-05-01T00:00:00-07:00</published><updated>2010-05-01T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-05-01:/blog/lego-bicycle.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="mailto:J.T.M.Mutsaerts&amp;#64;student.tudelft.nl?subject=NXTbike-GS"&gt;Joep Mutsaerts&lt;/a&gt; builds a LEGO
 Mindstorms NXT based bicycle robot in an assignment for the TUDelft 3mE/PME
 course Mechatronic System Design II. The lateral stability control is done by
 the concept of &amp;quot;steer into the undesired fall&amp;quot; and comes down to only one line
@@ -3779,7 +3779,7 @@ src="https://www.youtube.com/embed/o7nSQ2ycGX4" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;Here you can download the design (&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike-GS%20Design.pdf"&gt;NXTbike-GS Design.pdf&lt;/a&gt;) and the
 building instructions (&lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/NXTbike_GS_Building_Instructions.pdf"&gt;NXTbike_GS_Building_Instructions.pdf&lt;/a&gt;).&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-10T00:00:00-08:00</published><updated>2010-02-10T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-10:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
+</content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-01T00:00:00-08:00</published><updated>2010-02-01T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-01:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
 track vehicle dynamics&lt;/a&gt;.&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>VPRO Noorderlicht Nieuws on Our Bicycle Treadmill Experiments</title><link href="https://mechmotum.github.io/blog/vpro-noorderlicht-niews.html" rel="alternate"></link><published>2009-07-16T00:00:00-07:00</published><updated>2009-07-16T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2009-07-16:/blog/vpro-noorderlicht-niews.html</id><content type="html">&lt;p&gt;VPRO Noorderlicht Nieuws made a 5 minute item out of our Bicycle Treadmill
 experiments. The interview is in Dutch:&lt;/p&gt;
@@ -4039,7 +4039,7 @@ measured data.&lt;/p&gt;
 &lt;p&gt;The final goal is to create a &lt;em&gt;Robot Bicycle&lt;/em&gt; by adding a steering torque
 controller, to stabilize the bike, and a small elector motor to maintain
 forward speed.&lt;/p&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-10T00:00:00-07:00</published><updated>2003-04-10T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-10:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
+</content><category term="research"></category><category term="bicycle"></category><category term="experiment"></category><category term="schwab blog"></category></entry><entry><title>(Spring 2003)</title><link href="https://mechmotum.github.io/blog/spring-2003.html" rel="alternate"></link><published>2003-04-01T00:00:00-08:00</published><updated>2003-04-01T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2003-04-01:/blog/spring-2003.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the
 dynamic behavior of a bicycle. For the analysis we used our software system
 SPACAR.  This software has been developed at Delft University of Technology and
 is capable of doing dynamic analysis of flexible multibody systems. The method …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Here are some of my preliminary results on the analysis of the

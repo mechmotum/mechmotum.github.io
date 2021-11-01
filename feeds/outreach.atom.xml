@@ -25,7 +25,7 @@ nature, the words &amp;quot;wobble&amp;quot; and &amp;quot;shimmy&amp;quot; are 
 and popular literature without a unique or definitive definition. Both terms
 are used to describe higher frequency oscillations that single track vehicles
 (bicycles, motorcycles, and similar vehicles) sometimes exhibit
-&lt;a class="citation-reference" href="#wikipedia2020" id="id1"&gt;[Wikipedia2020]&lt;/a&gt;. In this case, &amp;quot;higher frequencies&amp;quot; refers to being higher
+&lt;a class="citation-reference" href="#wikipedia2020" id="citation-reference-1"&gt;[Wikipedia2020]&lt;/a&gt;. In this case, &amp;quot;higher frequencies&amp;quot; refers to being higher
 than the vehicle's weave oscillation frequency. Weave is the fundamental steer
 and roll oscillation that occurs in the 0 to 4 Hz bandwidth for bicycles
 traveling at speeds below 20 m/s (72 km/h, 45 mph). In addition to the
@@ -40,7 +40,7 @@ present even if the bicycle and tires are infinitely stiff, i.e. weave is a
 function purely of the assembly of rigid bodies (wheels, fork, frame, ground)
 and the nature of their connections.&lt;/p&gt;
 &lt;p&gt;Advanced dynamics models of bicycles are able to predict the wobble/shimmy
-oscillation (&lt;a class="citation-reference" href="#plochl2012" id="id2"&gt;[Plöchl2012]&lt;/a&gt;, &lt;a class="citation-reference" href="#klinger2014" id="id3"&gt;[Klinger2014]&lt;/a&gt;) and, at least in these papers,
+oscillation (&lt;a class="citation-reference" href="#plochl2012" id="citation-reference-2"&gt;[Plöchl2012]&lt;/a&gt;, &lt;a class="citation-reference" href="#klinger2014" id="citation-reference-3"&gt;[Klinger2014]&lt;/a&gt;) and, at least in these papers,
 wobble &lt;em&gt;is&lt;/em&gt; specifically defined. These models show that:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;at speeds &amp;gt; 13 m/s (45 km/h) the wobble frequency of oscillation is between 8
@@ -116,7 +116,7 @@ rider's pelvis is firmly connected to the seat in the models. With Dygert's
 pelvis disconnected from the seat, that bicycle-rider system is thus different
 than these models. The interactions of the rider's flexible body with the
 bicycle in Dygert's riding position may very well destabilize the weave
-oscillation. For example, &lt;a class="citation-reference" href="#moore2012a" id="id4"&gt;[Moore2012a]&lt;/a&gt; shows that simply adding the inertial
+oscillation. For example, &lt;a class="citation-reference" href="#moore2012a" id="citation-reference-4"&gt;[Moore2012a]&lt;/a&gt; shows that simply adding the inertial
 effects of the rider's arms to the handlebars can have a destabilizing effect.&lt;/p&gt;
 &lt;p&gt;A second important assumption in the models in the academic literature is that
 the nominal roll angle of the bicycle is zero. At a roll angle of 30 degrees,
@@ -151,13 +151,13 @@ Yumiko Henneberry contributed copy editing.&lt;/p&gt;
 &lt;table class="docutils citation" frame="void" id="wikipedia2020" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[Wikipedia2020]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble"&gt;https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-1"&gt;[Wikipedia2020]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble"&gt;https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_dynamics#Wobble&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="plochl2012" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[Plöchl2012]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id2"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id5"&gt;2&lt;/a&gt;)&lt;/em&gt; Plöchl, Manfred, Johannes Edelmann, Bernhard Angrosch, and
+&lt;tr&gt;&lt;td class="label"&gt;[Plöchl2012]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#citation-reference-2"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#citation-reference-5"&gt;2&lt;/a&gt;)&lt;/em&gt; Plöchl, Manfred, Johannes Edelmann, Bernhard Angrosch, and
 Christoph Ott. “On the Wobble Mode of a Bicycle.” Vehicle System Dynamics
 50, no. 3 (March 1, 2012): 415–29. &lt;a class="reference external" href="https://doi.org/10.1080/00423114.2011.594164"&gt;https://doi.org/10.1080/00423114.2011.594164&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
@@ -165,7 +165,7 @@ Christoph Ott. “On the Wobble Mode of a Bicycle.” Vehicle System Dynamics
 &lt;table class="docutils citation" frame="void" id="klinger2014" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[Klinger2014]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id3"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id6"&gt;2&lt;/a&gt;)&lt;/em&gt; Klinger, Florian, Julia Nusime, Johannes Edelmann, and Manfred
+&lt;tr&gt;&lt;td class="label"&gt;[Klinger2014]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#citation-reference-3"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#citation-reference-6"&gt;2&lt;/a&gt;)&lt;/em&gt; Klinger, Florian, Julia Nusime, Johannes Edelmann, and Manfred
 Plöchl. “Wobble of a Racing Bicycle with a Rider Hands on and Hands off the
 Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
 &lt;a class="reference external" href="https://doi.org/10.1080/00423114.2013.877592"&gt;https://doi.org/10.1080/00423114.2013.877592&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
@@ -174,13 +174,13 @@ Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
 &lt;table class="docutils citation" frame="void" id="moore2012a" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id4"&gt;[Moore2012a]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/extensions.html#rider-arms"&gt;http://moorepants.github.io/dissertation/extensions.html#rider-arms&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-4"&gt;[Moore2012a]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/extensions.html#rider-arms"&gt;http://moorepants.github.io/dissertation/extensions.html#rider-arms&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="moore2012b" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id7"&gt;[Moore2012b]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders"&gt;http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-7"&gt;[Moore2012b]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders"&gt;http://moorepants.github.io/dissertation/parameterstudy.html#bicycles-with-riders&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -189,12 +189,12 @@ Handlebar.” Vehicle System Dynamics 52, no. sup1 (May 30, 2014): 51–68.
 &lt;ul class="simple"&gt;
 &lt;li&gt;Women time trial-ers average about 45 km/h (12.5 m/s), so she should have
 been going faster than this going down hill (but she isn't pedaling).&lt;/li&gt;
-&lt;li&gt;&lt;a class="citation-reference" href="#plochl2012" id="id5"&gt;[Plöchl2012]&lt;/a&gt; shows wobble frequencies between 6 and 9 Hz for 0 to 20 m/s in
+&lt;li&gt;&lt;a class="citation-reference" href="#plochl2012" id="citation-reference-5"&gt;[Plöchl2012]&lt;/a&gt; shows wobble frequencies between 6 and 9 Hz for 0 to 20 m/s in
 Figure 4. Same figure shows the wobble mode unstable from about 4 to 20 m/s.
 This is for a model with rider lean and the but attached to the seat.&lt;/li&gt;
-&lt;li&gt;&lt;a class="citation-reference" href="#klinger2014" id="id6"&gt;[Klinger2014]&lt;/a&gt; shows wobble between 8 and 12 Hz for 0 to 20 m/s for leaned
+&lt;li&gt;&lt;a class="citation-reference" href="#klinger2014" id="citation-reference-6"&gt;[Klinger2014]&lt;/a&gt; shows wobble between 8 and 12 Hz for 0 to 20 m/s for leaned
 over hands on handlebars (no rider lean DOF).&lt;/li&gt;
-&lt;li&gt;Figure 6.10 in &lt;a class="citation-reference" href="#moore2012b" id="id7"&gt;[Moore2012b]&lt;/a&gt; shows that the weave frequency for a bicycle
+&lt;li&gt;Figure 6.10 in &lt;a class="citation-reference" href="#moore2012b" id="citation-reference-7"&gt;[Moore2012b]&lt;/a&gt; shows that the weave frequency for a bicycle
 without a rider can get higher 10 rad/s (1.6 Hz) at 7 m/s, maybe it would be
 close to 4 Hz at 13 m/s?? But weave should be damped and stable at these
 speeds.&lt;/li&gt;

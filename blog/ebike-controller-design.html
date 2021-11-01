@@ -113,7 +113,7 @@ circuit with resistance <span class="math">\(R\)</span>, inductance <span class=
 correspond to motor torque and wheel propulsion torque respectively. The
 rotational dynamics of the drivetrain are defined by Euler’s rotation equation.</p>
 <p>A simple equation of motion for the bicycle, modeled as a point mass, is
-derived using Newton’s 2nd Law of Motion in the horizontal direction <a class="citation-reference" href="#wilson" id="id1">[Wilson]</a>.</p>
+derived using Newton’s 2nd Law of Motion in the horizontal direction <a class="citation-reference" href="#wilson" id="citation-reference-1">[Wilson]</a>.</p>
 <div class="figure align-center">
 <img alt="Free Body Diagram of Bicycle." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg" style="width: 20%;" />
 <p class="caption"><em>Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa, Fr
@@ -138,8 +138,8 @@ based on measured time response data from the ebike was used.</p>
 <p>To begin the process of system identification, the values of the ebike
 drivetrain model parameters and bicycle drag and tire rolling resistance
 coefficients were initialized using reasonable approximations found from
-internet searches, previous knowledge of the instrumented ebike <a class="citation-reference" href="#moore" id="id2">[Moore]</a> and
-textbook resources <a class="citation-reference" href="#wilson" id="id3">[Wilson]</a>.</p>
+internet searches, previous knowledge of the instrumented ebike <a class="citation-reference" href="#moore" id="citation-reference-2">[Moore]</a> and
+textbook resources <a class="citation-reference" href="#wilson" id="citation-reference-3">[Wilson]</a>.</p>
 <p>In MATLAB, a nonlinear least-squares solver was used to optimize the constants
 in the derived plant model of the ebike to match a speed time response measured
 from the instrumented ebike. Figure 4, below, shows the curve fitting result.</p>
@@ -208,14 +208,14 @@ Implementing a PID Controller on an Instrumented Ebike.</p>
 <table class="docutils citation" frame="void" id="wilson" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label">[Wilson]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id3">2</a>)</em> Wilson, D., Papadopoulos, J. and Whitt, F. (2004). Bicycling science.
+<tr><td class="label">[Wilson]</td><td><em>(<a class="fn-backref" href="#citation-reference-1">1</a>, <a class="fn-backref" href="#citation-reference-3">2</a>)</em> Wilson, D., Papadopoulos, J. and Whitt, F. (2004). Bicycling science.
 Cambridge, Mass.: MIT Press.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="moore" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id2">[Moore]</a></td><td>Moore, J. (2012). Human Control of a Bicycle.
+<tr><td class="label"><a class="fn-backref" href="#citation-reference-2">[Moore]</a></td><td>Moore, J. (2012). Human Control of a Bicycle.
 Available at: <a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html">http://moorepants.github.io/dissertation/davisbicycle.html</a>
 [Accessed 12 Dec. 2018].</td></tr>
 </tbody>

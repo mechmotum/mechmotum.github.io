@@ -82,28 +82,28 @@
       <div class="toc" id="">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#introduction" id="id2">1.0 Introduction</a></li>
-<li><a class="reference internal" href="#system-operation-functionality" id="id3">2.0 System Operation &amp; Functionality</a></li>
-<li><a class="reference internal" href="#system-architecture" id="id4">3.0 System Architecture</a><ul>
-<li><a class="reference internal" href="#control-architecture" id="id5">3.1 Control Architecture</a></li>
-<li><a class="reference internal" href="#physical-architecture" id="id6">3.2 Physical Architecture</a></li>
+<li><a class="reference internal" href="#introduction" id="toc-entry-1">1.0 Introduction</a></li>
+<li><a class="reference internal" href="#system-operation-functionality" id="toc-entry-2">2.0 System Operation &amp; Functionality</a></li>
+<li><a class="reference internal" href="#system-architecture" id="toc-entry-3">3.0 System Architecture</a><ul>
+<li><a class="reference internal" href="#control-architecture" id="toc-entry-4">3.1 Control Architecture</a></li>
+<li><a class="reference internal" href="#physical-architecture" id="toc-entry-5">3.2 Physical Architecture</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#software" id="id7">4.0 Software</a><ul>
-<li><a class="reference internal" href="#code-libraries" id="id8">4.1 Code Libraries</a></li>
+<li><a class="reference internal" href="#software" id="toc-entry-6">4.0 Software</a><ul>
+<li><a class="reference internal" href="#code-libraries" id="toc-entry-7">4.1 Code Libraries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#hardware-hook-up-and-design" id="id9">5.0 Hardware Hook Up and Design</a><ul>
-<li><a class="reference internal" href="#instrumented-ebike-platform" id="id10">5.1 Instrumented Ebike Platform</a></li>
-<li><a class="reference internal" href="#electrical-hook-up" id="id11">5.2 Electrical Hook Up</a></li>
-<li><a class="reference internal" href="#electronics-housings" id="id12">5.3 Electronics Housings</a></li>
-<li><a class="reference internal" href="#dead-mans-switch" id="id13">5.4 Dead Man’s Switch</a></li>
-<li><a class="reference internal" href="#throttle-relay-planned" id="id14">5.5 Throttle Relay (Planned)</a></li>
+<li><a class="reference internal" href="#hardware-hook-up-and-design" id="toc-entry-8">5.0 Hardware Hook Up and Design</a><ul>
+<li><a class="reference internal" href="#instrumented-ebike-platform" id="toc-entry-9">5.1 Instrumented Ebike Platform</a></li>
+<li><a class="reference internal" href="#electrical-hook-up" id="toc-entry-10">5.2 Electrical Hook Up</a></li>
+<li><a class="reference internal" href="#electronics-housings" id="toc-entry-11">5.3 Electronics Housings</a></li>
+<li><a class="reference internal" href="#dead-mans-switch" id="toc-entry-12">5.4 Dead Man’s Switch</a></li>
+<li><a class="reference internal" href="#throttle-relay-planned" id="toc-entry-13">5.5 Throttle Relay (Planned)</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#bill-of-materials" id="id15">6.0 Bill of Materials</a></li>
-<li><a class="reference internal" href="#suggested-improvements" id="id16">7.0 Suggested Improvements</a></li>
-<li><a class="reference internal" href="#acknowledgements" id="id17">8.0 Acknowledgements</a></li>
+<li><a class="reference internal" href="#bill-of-materials" id="toc-entry-14">6.0 Bill of Materials</a></li>
+<li><a class="reference internal" href="#suggested-improvements" id="toc-entry-15">7.0 Suggested Improvements</a></li>
+<li><a class="reference internal" href="#acknowledgements" id="toc-entry-16">8.0 Acknowledgements</a></li>
 </ul>
 </div>
     </div>
@@ -115,7 +115,7 @@ PID controller on an instrumented ebike which can be</em> <a class="reference ex
 throttle relay and minor fixes throughout.</em></p>
 
 <div class="section" id="introduction">
-<h2><a class="toc-backref" href="#id2">1.0 Introduction</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">1.0 Introduction</a></h2>
 <p>The overall goal of this project is to design and implement a cruise control
 system for an instrumented ebike used for conducting bicycle handling
 experiments. A previous blog post <a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-design.html">(found here)</a> outlines the design and analysis of a
@@ -126,7 +126,7 @@ into the ebike cruise control system that was developed to make functional use
 of the PID controller.</p>
 </div>
 <div class="section" id="system-operation-functionality">
-<h2><a class="toc-backref" href="#id3">2.0 System Operation &amp; Functionality</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">2.0 System Operation &amp; Functionality</a></h2>
 <p>The implementation of the cruise control system on the electric bike was
 fundamentally informed by the interactions the user would have with the system.
 A typical user interaction with the system is outlined in Figure 1 below.</p>
@@ -139,9 +139,9 @@ of implementing the cruise control system and sculpt the concepts for the
 hardware and software portions of the cruise control system.</p>
 </div>
 <div class="section" id="system-architecture">
-<h2><a class="toc-backref" href="#id4">3.0 System Architecture</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">3.0 System Architecture</a></h2>
 <div class="section" id="control-architecture">
-<h3><a class="toc-backref" href="#id5">3.1 Control Architecture</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-4">3.1 Control Architecture</a></h3>
 <p>The control architecture is a simple negative feedback design that computes the
 error between a user defined setpoint and the actual speed of the ebike. Figure
 2 graphically shows how the control architecture is implemented on the ebike.</p>
@@ -151,7 +151,7 @@ error between a user defined setpoint and the actual speed of the ebike. Figure
 </div>
 </div>
 <div class="section" id="physical-architecture">
-<h3><a class="toc-backref" href="#id6">3.2 Physical Architecture</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-5">3.2 Physical Architecture</a></h3>
 <p>At the heart of the cruise control system’s physical architecture is its
 integration into the instrumented ebike’s powertrain. Figure 3 shows this
 integration by highlighting the input/output and geometric relationships
@@ -187,7 +187,7 @@ blog post.</em></p>
 </div>
 </div>
 <div class="section" id="software">
-<h2><a class="toc-backref" href="#id7">4.0 Software</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">4.0 Software</a></h2>
 <p>The cruise control system software was written in C using the Arduino IDE.
 Based on user inputs from two momentary pushbuttons, the software decides
 whether or not to pass the throttle signal as an output or compute a throttle
@@ -202,7 +202,7 @@ SD card.</p>
 <p>Source code, and more details about it, can be found on the Laboratorium’s
 Github repository <a class="reference external" href="https://github.com/mechmotum/eBikeSpdController">found here</a>.</p>
 <div class="section" id="code-libraries">
-<h3><a class="toc-backref" href="#id8">4.1 Code Libraries</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-7">4.1 Code Libraries</a></h3>
 <p>The continuous time PID controller derived in part one of this blog post series
 was digitized on the Arduino Nano using Brett Beauregard’s PID_v1 library
 <a class="reference external" href="https://github.com/br3ttb/Arduino-PID-Library">(found here)</a>. This library
@@ -224,9 +224,9 @@ estate for the many components that are wired up to the Arduino.</p>
 </div>
 </div>
 <div class="section" id="hardware-hook-up-and-design">
-<h2><a class="toc-backref" href="#id9">5.0 Hardware Hook Up and Design</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-8">5.0 Hardware Hook Up and Design</a></h2>
 <div class="section" id="instrumented-ebike-platform">
-<h3><a class="toc-backref" href="#id10">5.1 Instrumented Ebike Platform</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-9">5.1 Instrumented Ebike Platform</a></h3>
 <p>Jason Moore, the lab’s PI, originally began constructing the instrumented ebike
 platform in 2009 from a large Surly single speed off road steel frame bicycle
 converted to an ebike with a conversion kit sold by Amped Bikes. The Amped
@@ -240,12 +240,12 @@ and the bike’s instrumentation system can be found in Jason’s dissertation
 </div>
 </div>
 <div class="section" id="electrical-hook-up">
-<h3><a class="toc-backref" href="#id11">5.2 Electrical Hook Up</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-10">5.2 Electrical Hook Up</a></h3>
 <p>The electrical components of the control system revolve around an Arduino Nano
 which is the central processor for the hardware and logic of the cruise control
 system. Table 1, below, shows a complete list of the hardware used in this
 build.</p>
-<table border="1" class="colwidths-given docutils">
+<table border="1" class="docutils">
 <caption><em>Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in section 6.0.</em></caption>
 <colgroup>
 <col width="40%"/>
@@ -314,7 +314,7 @@ near the bottom bracket.</p>
 laboratorium’s github <a class="reference external" href="https://github.com/mechmotum/eBikeSpdController">here</a>.</p>
 </div>
 <div class="section" id="electronics-housings">
-<h3><a class="toc-backref" href="#id12">5.3 Electronics Housings</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-11">5.3 Electronics Housings</a></h3>
 <p>Housings for the Arduino Nano, pushbuttons and LCD were designed and 3D printed
 to enclose the electrical components and mount them to the ebike. Figure 8
 shows the CAD model design of the Arduino housing. The housing’s design
@@ -359,7 +359,7 @@ handlebars near the throttle and brake lever for convenient access.</p>
 </div>
 </div>
 <div class="section" id="dead-mans-switch">
-<h3><a class="toc-backref" href="#id13">5.4 Dead Man’s Switch</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-12">5.4 Dead Man’s Switch</a></h3>
 <p>For safety reasons, a dead man’s switch was added to the cruise control system.
 The dead man’s switch works by cutting power from the Li+ battery through a
 mechanical relay. The relay’s coil is connected to a power circuit having a
@@ -371,7 +371,7 @@ electrical schematic shows how the switch is wired up to the ebike’s
 powertrain.</p>
 </div>
 <div class="section" id="throttle-relay-planned">
-<h3><a class="toc-backref" href="#id14">5.5 Throttle Relay (Planned)</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-13">5.5 Throttle Relay (Planned)</a></h3>
 <p>Currently, when cruise control is disengaged, the time it takes the Arduino to
 read the throttle signal and then write it to the motor controller is leading
 to a jerky ride. This is likely due to the intermittency in the throttle signal
@@ -390,7 +390,7 @@ mounted to the bike’s top tube,inside the upper head tube triangle.</p>
 </div>
 </div>
 <div class="section" id="bill-of-materials">
-<h2><a class="toc-backref" href="#id15">6.0 Bill of Materials</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-14">6.0 Bill of Materials</a></h2>
 <div class="figure align-center">
 <img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;"/>
 <p class="caption"><em>Table 2. Bill of materials (BOM) showing each part of project, where it was
@@ -398,7 +398,7 @@ purchased, what quantity was purchased and its cost.</em></p>
 </div>
 </div>
 <div class="section" id="suggested-improvements">
-<h2><a class="toc-backref" href="#id16">7.0 Suggested Improvements</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-15">7.0 Suggested Improvements</a></h2>
 <p>Throughout the implementation of this design, I've made note of some
 improvements to the system's hardware design that could be made to address
 known issues. I have listed these below:</p>
@@ -420,7 +420,7 @@ output surging while cruise control is engaged</li>
 </ul>
 </div>
 <div class="section" id="acknowledgements">
-<h2><a class="toc-backref" href="#id17">8.0 Acknowledgements</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-16">8.0 Acknowledgements</a></h2>
 <p>I would like to thank <a class="reference external" href="https://github.com/ngchan">Nicholas Chan</a> for writing
 the camera gimbal software that my speed control software is based off of. I’d
 also like to thank <a class="reference external" href="https://github.com/br3ttb">Brett Beuaregard</a> for writing
