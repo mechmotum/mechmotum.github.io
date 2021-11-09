@@ -241,11 +241,11 @@ Past Meeting Topics and Materials
    * - Learning to stand with unexpected sensorimotor delays
      - 2021-09-28
      - Patrick Forbes
-     - `Article <https://elifesciences.org/articles/65085>`_
+     - https://elifesciences.org/articles/65085
    * - Robot bicycle overview
      - 2021-09-28
      - Tim Huiskens
-     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vR9to8aUenTDWF5itr4jkDdxH2QkmeCKOpXZSELLh1NLxmAhTObmtFJExezldrO8xbdfySUhGt2OrKb/pub?start=false&loop=false&delayms=3000>`_
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vR9to8aUenTDWF5itr4jkDdxH2QkmeCKOpXZSELLh1NLxmAhTObmtFJExezldrO8xbdfySUhGt2OrKb/pub?start=false&loop=false&delayms=3000>`__
    * - Welcome back 2021 Q1, Browser-only Mechmotum website update
      - 2021-09-14
      - Rado Dukalski
