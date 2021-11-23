@@ -7,9 +7,9 @@
 
 The TU Delft Bicycle Lab is a research lab in the `Biomechatronics &
 Human-Machine Control Group`_ of the `BioMechanical Engineering Department`_ at
-`Delft University of Technology`_ led by `Jason K. Moore`_ and `Arend L.
-Schwab`_. Our research is centered around the science and engineering of
-bicycles and spans the following themes:
+`Delft University of Technology`_ led by `Jason K. Moore`_. Our research is
+centered around the science and engineering of bicycles and spans the following
+themes:
 
 - single track vehicle dynamics, handling, and control
 - improving design of bicycles and other human powered vehicles
@@ -18,6 +18,12 @@ bicycles and spans the following themes:
 - human powered appropriate technology
 - engineering and scientific software design and development
 - teaching and learning in engineering education
+
+The TU Delft lab started in the mid 2000's at TU Delft under the direction of
+`Arend L. Schwab`_. Dr. Schwab retired in 2021 and Jason K. Moore took over the
+lab and research program. In Delft, Dr. Moore merged his University of
+California, Davis based research program with TU Delft's, defining what exists
+today.
 
 .. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering

@@ -6,18 +6,13 @@ Principal Investigators
 
 .. list-table::
    :class: table
-   :width: 100%
-   :widths: 10 40 10 40
+   :width: 60%
+   :widths: 20 80
    :align: center
 
    * - |headshot-moore-jason|
      - `Jason K. Moore`_, Assistant Professor
-     - |headshot-arend-schwab|
-     - `Arend L. Schwab`_, Associate Professor
 
-.. |headshot-arend-schwab| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-arend-schwab.jpg
-   :width: 100px
-   :height: 133px
 
 .. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.png
    :width: 100px
@@ -84,14 +79,15 @@ Masters of Science Students
      - | Daniël Landré [TUD, Sep 2021-present]
        | Adaptive Speed Control in Cycling
    * - |headshot-van-de-velde-shannon|
-     - Shannon van de Velde [TUD, Dec 2020-present]
+     - | Shannon van de Velde [TUD, Dec 2020-present]
+       | During cycling, which external forces result in loss of balance?
      - |headshot-missing|
      - | Julie van Vlerken [TUD, Sep 2020-present]
-       | Bicycle Design, Dynamics, and Handling
-   * - |headshot-haasnoot-jelle|
-     - Jelle Haasnoot [TUD]
-     - |headshot-huiskens-tim|
+       | Design rules for handling qualities
+   * - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
+     -
+     -
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
@@ -116,16 +112,7 @@ Masters of Science Students
 Research Assistants
 ===================
 
-.. list-table::
-   :class: table
-   :width: 100%
-   :widths: 10 40 10 40
-   :align: center
-
-   * - |headshot-missing|
-     - Tim Stewart [UCD, Dec 2020-present]
-     - |headshot-missing|
-     - Noah Sanders [UCD, Jan 2020-present]
+None
 
 .. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
    :width: 100px
@@ -146,6 +133,7 @@ PhD Candidates
      - Thesis: `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
 
 Masters of Science Students
+   - Jelle Haasnoot [TUD, -Nov 2021], now at Tacx
    - Joris Kuiper [TUD, Sep 2020-Jun 2021], now at Gearbox
 
      - Thesis: `Development of an Integrated Bicycle Accident Detection System:
@@ -215,6 +203,8 @@ Masters of Science Students
    - S.G.C. De Groot [TUD, May 2010]
    - Jodi Kooijman [TUD, 2008]
 Research Assistants
+   - Tim Stewart [UCD, Dec 2020-Sep 2021]
+   - Noah Sanders [UCD, Jan 2020-Sep 2021]
    - Mandeepika Saini [UCD, Dec 2020-Jun 2021]
    - Patrick Mackle [UCD, Dec 2020-Jun 2021]
    - Xinzhi (Richard) Yan [UCD, Sep 2020-Dec 2020]
@@ -265,12 +255,13 @@ Teaching Assistants
    - Farhad Gadhamli [UCD, Jan 2016-Jun 2016], now at DM3D
    - Matthew Lefort [UCD, Sep 2015-Jun 2016], now at Yolo Robotics
 Google Summer of Code and Season of Docs Participants
+   - Sudeep Sidhu [May 2021-Aug 2021]
    - Naman Gera [May 2020-Aug 2020]
    - Lauren Glattly [Aug 2019-Nov 2019]
    - Jashanpreet Singh [May 2018-Aug 2018]
    - Nikhil Pappu [May 2018-Aug 2018]
    - James Brandon Milam [May 2016-Aug 2016]
-   - Sampad Saha May [2016-Aug 2016], now at Yahoo! Japan
+   - Sampad Saha [May 2016-Aug 2016], now at Yahoo! Japan
    - Sahil Shekhawat [May 2015-Aug 2015], now at `Media.net <http://media.net>`_
    - James Crist [May 2014-Aug 2014], now at `Anaconda <http://anaconda.com>`_
    - Tarun Gaba [May 2014-Aug 2014, May 2013-Aug 2013], now at `Plotly <http://plot.ly>`_
