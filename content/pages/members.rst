@@ -78,16 +78,17 @@ Masters of Science Students
      - |headshot-landre-daniel|
      - | Daniël Landré [TUD, Sep 2021-present]
        | Adaptive Speed Control in Cycling
-   * - |headshot-van-de-velde-shannon|
+   * - |headshot-singh-ajaypal|
+     - | Ajaypal Singh [TUD, Jul 2021-present]
+       | Brake Squeal in Disc Brakes
+     - |headshot-van-de-velde-shannon|
      - | Shannon van de Velde [TUD, Dec 2020-present]
        | During cycling, which external forces result in loss of balance?
-     - |headshot-missing|
+   * - |headshot-missing|
      - | Julie van Vlerken [TUD, Sep 2020-present]
        | Design rules for handling qualities
-   * - |headshot-huiskens-tim|
+     - |headshot-huiskens-tim|
      - Tim Huiskens [TUD]
-     -
-     -
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
@@ -106,6 +107,10 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-heinen-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-singh-ajaypal| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-singh-ajaypal.jpg
    :width: 100px
    :height: 133px
 
