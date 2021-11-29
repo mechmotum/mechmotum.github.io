@@ -119,10 +119,6 @@ in finding students for [#]_:
      - 2020-09-10
      - Gazelle_
      - Thesis
-   * - `Understanding Disc Brake Squeal in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`_
-     - 2020-09-10
-     - Gazelle_
-     - Thesis
    * - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
      - 2020-09-10
      - Dr. Mont Hubbard (University of California, Davis)
@@ -171,6 +167,10 @@ in finding students for [#]_:
      - 2020-09-10
      - Gazelle_
      - Daniël Landré
+   * - `Understanding Disc Brake Squeal in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`_
+     - 2020-09-10
+     - Gazelle_
+     - Ajaypal Singh
    * - `Early Warning and Crash Detection in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc3EarlyWarningCrashDetection.pdf>`_
      - 2020-09-10
      - Gazelle_

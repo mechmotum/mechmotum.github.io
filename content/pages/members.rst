@@ -88,7 +88,8 @@ Masters of Science Students
      - | Julie van Vlerken [TUD, Sep 2020-present]
        | Design rules for handling qualities
      - |headshot-huiskens-tim|
-     - Tim Huiskens [TUD]
+     - | Tim Huiskens [TUD]
+       | Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
