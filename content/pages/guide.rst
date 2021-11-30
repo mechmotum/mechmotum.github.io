@@ -103,7 +103,7 @@ COVID-Time Lab Rules
 ====================
 
 Use of the bicycle lab for hands-on project work is allowed as long as 3mE
-allows this type of work inside the building. Check with Jason or Arend for the
+allows this type of work inside the building. Check with Jason for the
 up-to-date rules if in question. The current lab rules are:
 
 - All the `University rules
@@ -113,8 +113,8 @@ up-to-date rules if in question. The current lab rules are:
 - No more than 6 people working in the lab at any given time. If you need to
   visit the lab briefly and there are 6 people present, ask if the people
   present are comfortable with you entering when arriving.
-- Still try to maintain 1.5 m distance between everyone present in the lab,
-  unless you've discussed relaxing that between you and the other person.
+- You are expected to maintain 1.5 m distance between everyone present in the
+  lab and use face masks when you are not seated.
 - If you are sick, stay home and get tested. Let others you were in contact
   with know immediately of possible or confirmed COVID infection to prevent
   spread.
