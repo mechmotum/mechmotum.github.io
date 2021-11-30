@@ -20,8 +20,7 @@ Getting Started
 
 - Join the lab communication channels:
 
-  - Ask Jason <j.k.moore@tudelft.nl> or Marco <M.M.Reijne@tudelft.nl> to add
-    you to the lab `email list`_.
+  - Ask Jason <j.k.moore@tudelft.nl> to add you to the lab `email list`_.
   - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's element/matrix
     chat room.
 
@@ -37,8 +36,8 @@ Getting Started
   meeting topics to the google document (ask Marco for permissions to edit).
 - Send out an AIO (see below) before your regular mentor meetings.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
-  needed). These can be requested from Jason or Arend. Ask for a tour of the
-  space from a current lab member before you start working there.
+  needed). These can be requested from Jason. Ask for a tour of the space from
+  a current lab member before you start working there.
 - See the `recommended reading list <#recommended-reading>`_ below for some
   reading materials to get you started.
 
