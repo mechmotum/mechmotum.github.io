@@ -20,7 +20,7 @@ Getting Here
 
 The 3mE building is a 20 minute walk from Delft's central train station or a
 short bus ride. This map shows the building and a marker at the approximate
-location the lab is in the building. The lab is on the ground floow in the F
+location the lab is in the building. The lab is on the ground floor in the F
 wing with room number: `34 F-0-010`.
 
 .. raw:: html
