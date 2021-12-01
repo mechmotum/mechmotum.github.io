@@ -1,5 +1,8 @@
-:title: Design and Analysis of Ski Jumps
-:collaborators: Bryn Cloud, Mont Hubbard, Chris Brown
+================================
+Design and Analysis of Ski Jumps
+================================
+
+:collaborators: Bryn Cloud, Mont Hubbard, Chris Brown, Nicola Petrone
 :current_researchers:
 :date: 2020-08
 :past_researchers: Bryn Cloud, Britt Tarien

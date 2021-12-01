@@ -12,6 +12,7 @@ Measuring Vertical Stiffness and Damping of Bicycle Tires
    :width: 276px
    :height: 105px
    :target: http://bicycletire.eu.pn/
+   :alt: Flat Bicycle Tire
 
 A group of TU Delft BSc students (Jibbe Knuit, Frans Kok, Philip Raaphorst and
 Arne Spek) did a project on measuring vertical stiffness and damping of bicycle

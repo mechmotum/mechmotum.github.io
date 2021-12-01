@@ -22,11 +22,13 @@ The model of the bicycle is an ordinary Dutch city bike, like this one:
 
 .. image:: http://bicycle.tudelft.nl/schwab/Bicycle/fiets2small.jpg
    :align: center
+   :alt: Dutch Bicycle
 
 This is a sketch of the SPACAR model, with all the element and node numbers:
 
 .. image:: http://bicycle.tudelft.nl/schwab/Bicycle/bike2small.jpg
    :align: center
+   :alt: Model Sketch
 
 Finally the input file, which contains the complete definition of the bike,
 looks like this:

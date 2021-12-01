@@ -9,6 +9,7 @@ LibreTexts Jupyter Integration Wrapup
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png
    :align: center
+   :alt: LibreTexts and Jupyter Logos
 
 As of September 30th we have wrapped up our work integrating Jupyter based
 computing tools into the LibreTexts_ platform. This work was part of a three
@@ -391,6 +392,7 @@ National Workshop on Data Education (2020).
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg
    :align: center
    :width: 600px
+   :alt: Celine Presenting at SacPy
 
    Hao, Tannavee, and Celine presenting at the SacPy meetup in 2019.
 
@@ -545,7 +547,7 @@ are all of the prior posts:
 - `Grant Award Announcement <{filename}/libretexts-grant.rst>`_
 - `Winter 2019 Update <{filename}/jupyter-winter-2019.rst>`_
 - `Summer 2019 Update <{filename}/jupyter-summer-2019.rst>`_
-- `SacPy Talk <{filename}/sacpy-slidedeck-2019.rst>`_
+- `SacPy Talk <{filename}/sacpy-slideck-2019.rst>`_
 - `Spring 2020 Update <{filename}/libretexts-jupyter-plugin.rst>`_
 - `Summer 2020 Update <{filename}/jupyter-summer-2020.rst>`_
 - `Fall 2020 Update <{filename}/jupyter-fall-2020.rst>`_

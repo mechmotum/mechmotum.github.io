@@ -1,4 +1,7 @@
-:title: Interactive Jupyter-Enabled LibreTexts Pages
+============================================
+Interactive Jupyter-Enabled LibreTexts Pages
+============================================
+
 :status: hidden
 :date: 2020-08
 :collaborators: Delmar Larsen, Richard Feltstykket, Henry Agnew
@@ -111,7 +114,7 @@ Media
    <iframe width="560" height="315"
    src="https://www.youtube.com/embed/dIwZ-QQ8xSs" frameborder="0"
    allow="accelerometer; autoplay; encrypted-media; gyroscope;
-   picture-in-picture" allowfullscreen></iframe> 
+   picture-in-picture" allowfullscreen></iframe>
    <br>
    Video tutorial on using the CKeditor Binder plugin.
    <br>

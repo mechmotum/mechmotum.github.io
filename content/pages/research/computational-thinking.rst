@@ -1,4 +1,7 @@
-:title: Computational Thinking
+======================
+Computational Thinking
+======================
+
 :collaborators: Allen Downey
 :current_researchers:
 :date: 2019-01-05

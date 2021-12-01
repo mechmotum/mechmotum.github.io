@@ -1,4 +1,7 @@
-:title: Inexpensive Open Source and Open Hardware Bicycle Data Logger
+=============================================================
+Inexpensive Open Source and Open Hardware Bicycle Data Logger
+=============================================================
+
 :collaborators: Marco Dozza (Chalmers University), Christian-Nils Åkerberg Boda (Chalmers University)
 :current_researchers:
 :date: 2018-10

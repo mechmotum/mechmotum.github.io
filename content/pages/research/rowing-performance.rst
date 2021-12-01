@@ -1,4 +1,7 @@
-:title: Estimation of Rower Kinematics in Competitive Rowing
+====================================================
+Estimation of Rower Kinematics in Competitive Rowing
+====================================================
+
 :collaborators: Mont Hubbard, Paul Crawford, Xinfan Lin, Seth Weil
 :current_researchers:
 :date: 2019-12-05

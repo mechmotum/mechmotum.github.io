@@ -1,4 +1,7 @@
-:title: About
+=====
+About
+=====
+
 :url:
 :save_as: index.html
 :sortorder: 0

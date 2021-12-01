@@ -1,9 +1,8 @@
-:title: Guide
-:sortorder: 5
-
 =====
 Guide
 =====
+
+:sortorder: 5
 
 .. contents::
 

@@ -1,4 +1,7 @@
-:title: Members
+=======
+Members
+=======
+
 :sortorder: 1
 
 Principal Investigators

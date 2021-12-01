@@ -1,4 +1,7 @@
-:title: Contact
+=======
+Contact
+=======
+
 :sortorder: 6
 
 Email

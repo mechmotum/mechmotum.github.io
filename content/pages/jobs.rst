@@ -1,4 +1,7 @@
-:title: Jobs
+====
+Jobs
+====
+
 :sortorder: 4
 
 .. contents::

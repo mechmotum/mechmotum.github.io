@@ -1,4 +1,7 @@
-:title: Efficiency and Use of Human Powered Irrigation Pumps
+====================================================
+Efficiency and Use of Human Powered Irrigation Pumps
+====================================================
+
 :collaborators: Andrew Hall
 :current_researchers:
 :date: 2018-12-27
