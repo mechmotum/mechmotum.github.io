@@ -31,6 +31,21 @@ lab and research program. In Delft, Dr. Moore merged his University of
 California, Davis based research program with TU Delft's, defining what exists
 today.
 
+Current Partners
+================
+
+.. list-table::
+   :class: borderless
+   :align: center
+   :width: 100%
+
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-gazelle.png
+          :width: 100%
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-bosch-ebike.jpg
+          :width: 100%
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-team-dsm.jpg
+          :width: 100%
+
 .. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering
 .. _Delft University of Technology: https://www.tudelft.nl
