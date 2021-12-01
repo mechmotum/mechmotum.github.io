@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-09-01T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>CZI Grant Awarded to SymPy Computational Biomechanics Project</title><link href="https://mechmotum.github.io/blog/czi-grant.html" rel="alternate"></link><published>2021-09-01T00:00:00-07:00</published><updated>2021-09-01T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-09-01:/blog/czi-grant.html</id><summary type="html">&lt;table border="1" class="table docutils align-center" style="width: 41%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-11-08T11:30:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jelle Haasnoot Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jelle-haasnoot-graduates.html" rel="alternate"></link><published>2021-11-08T11:30:00-08:00</published><updated>2021-11-08T11:30:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-11-08:/blog/jelle-haasnoot-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haasnoot.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Jelle Haasnoot successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:39e7c31e-2b00-4ea6-908c-a18019b863f5"&gt;Design and Validation of Steer, Roll,
+Yaw and Sway Motion of a Kinematics-Based Bicycle Simulator&lt;/a&gt;.
+Everyone at the bicycle lab is very proud of Jelle and wishes him the best!
+Jelle will move into a full time position at &lt;a class="reference external" href="https://www.garmin.com/nl-NL/tacx/"&gt;Tacx&lt;/a&gt; and will likely mentor some
+future …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haasnoot.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Jelle Haasnoot successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:39e7c31e-2b00-4ea6-908c-a18019b863f5"&gt;Design and Validation of Steer, Roll,
+Yaw and Sway Motion of a Kinematics-Based Bicycle Simulator&lt;/a&gt;.
+Everyone at the bicycle lab is very proud of Jelle and wishes him the best!
+Jelle will move into a full time position at &lt;a class="reference external" href="https://www.garmin.com/nl-NL/tacx/"&gt;Tacx&lt;/a&gt; and will likely mentor some
+future TU Delft interns in the near future.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>CZI Grant Awarded to SymPy Computational Biomechanics Project</title><link href="https://mechmotum.github.io/blog/czi-grant.html" rel="alternate"></link><published>2021-09-01T00:00:00-07:00</published><updated>2021-09-01T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-09-01:/blog/czi-grant.html</id><summary type="html">&lt;table border="1" class="table docutils align-center" style="width: 41%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
