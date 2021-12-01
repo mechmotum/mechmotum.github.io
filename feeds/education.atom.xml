@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - education</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/education.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2021-10-08T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>LibreTexts Jupyter Integration Wrapup</title><link href="https://mechmotum.github.io/blog/libretexts-wrapup.html" rel="alternate"></link><published>2021-10-08T00:00:00-07:00</published><updated>2021-10-08T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-10-08:/blog/libretexts-wrapup.html</id><summary type="html">&lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" /&gt;
+&lt;img alt="LibreTexts and Jupyter Logos" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;As of September 30th we have wrapped up our work integrating Jupyter based
 computing tools into the &lt;a class="reference external" href="https://www.libretexts.org"&gt;LibreTexts&lt;/a&gt; platform. This work was part of a three
 year $5M grant from the U.S. Department of Education (DoE) to enhance open
 access textbooks called &lt;a class="reference external" href="https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program"&gt;Open Textbooks Pilot Program&lt;/a&gt; (CFDA No. 84 …&lt;/p&gt;</summary><content type="html">&lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" /&gt;
+&lt;img alt="LibreTexts and Jupyter Logos" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;As of September 30th we have wrapped up our work integrating Jupyter based
 computing tools into the &lt;a class="reference external" href="https://www.libretexts.org"&gt;LibreTexts&lt;/a&gt; platform. This work was part of a three
@@ -319,7 +319,7 @@ connecting them to the communities of practice. We presented at Jupyter Open
 Studio (2019), SacPy (2020), OpenEd Week (2020), Women in Data (2020), and the
 National Workshop on Data Education (2020).&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg" style="width: 600px;" /&gt;
+&lt;img alt="Celine Presenting at SacPy" src="https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Hao, Tannavee, and Celine presenting at the SacPy meetup in 2019.&lt;/p&gt;
 &lt;/div&gt;
 &lt;center&gt;
@@ -485,7 +485,7 @@ are all of the prior posts:&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://mechmotum.github.io/blog/libretexts-grant.html"&gt;Grant Award Announcement&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://mechmotum.github.io/blog/jupyter-winter-2019.html"&gt;Winter 2019 Update&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://mechmotum.github.io/blog/jupyter-summer-2019.html"&gt;Summer 2019 Update&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="{filename}/sacpy-slidedeck-2019.rst"&gt;SacPy Talk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://mechmotum.github.io/blog/sacpy-slideck-2019.html"&gt;SacPy Talk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html"&gt;Spring 2020 Update&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://mechmotum.github.io/blog/jupyter-summer-2020.html"&gt;Summer 2020 Update&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://mechmotum.github.io/blog/jupyter-fall-2020.html"&gt;Fall 2020 Update&lt;/a&gt;&lt;/li&gt;
@@ -496,33 +496,34 @@ are all of the prior posts:&lt;/p&gt;
 </content><category term="education"></category><category term="jupyter"></category><category term="libretexts"></category><category term="computation"></category><category term="education"></category><category term="oer"></category><category term="textbooks"></category></entry><entry><title>JupyterTeam Progress Summer 2021</title><link href="https://mechmotum.github.io/blog/jupyter-summer-2021.html" rel="alternate"></link><published>2021-09-08T00:00:00-07:00</published><updated>2021-09-08T00:00:00-07:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2021-09-08:/blog/jupyter-summer-2021.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the progress made by JupyterTeam since winter 2020 through summer 2021&lt;/p&gt;
 </summary><content type="html">&lt;div class="section" id="improvements-and-progress"&gt;
 &lt;h2&gt;Improvements and Progress&lt;/h2&gt;
-&lt;p&gt;Since winter quarter of 2020, the JupyterTeam has fixed a long standing issue where Thebe,
-the JavaScript package that we use to display and run code on libretexts.org, would not properly
-work with the entire interactive Jupyter widget ecosystem. By migrating from the
-Jupyter HTML Manager package to the Lab Manager, we are now able to run all
-ipywidget interactive widgets, which greatly expands the possibilities for textbook authors.&lt;/p&gt;
+&lt;p&gt;Since winter quarter of 2020, the JupyterTeam has fixed a long standing issue
+where Thebe, the JavaScript package that we use to display and run code on
+libretexts.org, would not properly work with the entire interactive Jupyter
+widget ecosystem. By migrating from the Jupyter HTML Manager package to the Lab
+Manager, we are now able to run all ipywidget interactive widgets, which
+greatly expands the possibilities for textbook authors.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
+&lt;img alt="IPyWidgets Used in Thebe" src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
 &lt;p class="caption"&gt;Example of an ipywidget controlling a matplotlib figure in Thebe.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;In terms of cluster reliability, we have added a second router to be highly
-available with the already existing one; If the master router fails for any reason,
-then the backup one will take its place until the master comes back online. Furthermore,
-we configured the routers to act as TFTP servers so that they we may use Ubuntu netboot
-to load Ubuntu on all nodes from scratch. As compared to the previous method, this
-way is more effective and utilizes existing infastructure better.&lt;/p&gt;
-&lt;p&gt;We completed the migration of our default-env computing environment
-to JupyterLab 3.0, which includes new features which are great for widgets
-and their JavaScript extensions. Additionally, we added a new Adapt plugin
-to supplement our already existing Query plugin on libretexts.org.&lt;/p&gt;
+available with the already existing one; If the master router fails for any
+reason, then the backup one will take its place until the master comes back
+online. Furthermore, we configured the routers to act as TFTP servers so that
+they we may use Ubuntu netboot to load Ubuntu on all nodes from scratch. As
+compared to the previous method, this way is more effective and utilizes
+existing infastructure better.&lt;/p&gt;
+&lt;p&gt;We completed the migration of our default-env computing environment to
+JupyterLab 3.0, which includes new features which are great for widgets and
+their JavaScript extensions. Additionally, we added a new Adapt plugin to
+supplement our already existing Query plugin on libretexts.org.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="in-the-works"&gt;
 &lt;h2&gt;In the Works&lt;/h2&gt;
-&lt;p&gt;For the future, we are planning to develop a Ceph cluster to replace our NFS-client-provisioner
-as the storage solution for users on the JupyterHub. We also intend to extend the cluster
-with GPU nodes and provide more specialized computing enviornments.
-Feel free to use our Binder plugin on &lt;a class="reference external" href="https://libretexts.org/"&gt;libretexts.org&lt;/a&gt;, and
-check out our &lt;a class="reference external" href="https://jupyterhub.ucdavis.edu"&gt;JupyterHub&lt;/a&gt; if you are a UC Davis member!&lt;/p&gt;
+&lt;p&gt;For the future, we are planning to develop a Ceph cluster to replace our
+NFS-client-provisioner as the storage solution for users on the JupyterHub. We
+also intend to extend the cluster with GPU nodes and provide more specialized
+computing enviornments.  Feel free to use our Binder plugin on &lt;a class="reference external" href="https://libretexts.org/"&gt;libretexts.org&lt;/a&gt;, and check out our &lt;a class="reference external" href="https://jupyterhub.ucdavis.edu"&gt;JupyterHub&lt;/a&gt; if you are a UC Davis member!&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="education"></category><category term="oer"></category><category term="education"></category><category term="jupyter"></category><category term="textbooks"></category><category term="libretexts"></category></entry><entry><title>JupyterTeam Progress Fall 2020</title><link href="https://mechmotum.github.io/blog/jupyter-fall-2020.html" rel="alternate"></link><published>2021-01-14T00:00:00-08:00</published><updated>2021-01-14T00:00:00-08:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2021-01-14:/blog/jupyter-fall-2020.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the progress made by JupyterTeam over the fall of 2020&lt;/p&gt;
 </summary><content type="html">&lt;div class="section" id="summary"&gt;

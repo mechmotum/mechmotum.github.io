@@ -125,12 +125,12 @@ our filters can perform well on both, then we know they are robust.&lt;/p&gt;
 smartphone GPS, complementary filter, and Kalman filter through the relative
 error with respect to the the distance per stroke computed from the
 differential GPS measurements.&lt;/p&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/dps.png" style="width: 50%;" /&gt;
+&lt;img alt="Distance Per Stroke Figure" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/dps.png" style="width: 50%;" /&gt;
 &lt;p&gt;Example boat speed estimates over 30 seconds during a typical trial comparing
 smartphone GPS derived speed and the complementary filter and Kalman filter
 outputs against the differential GPS is shown in Figure 2.  RMSE is calculated
 with respect to the sampling rate of the accelerometer, 100 Hz.&lt;/p&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/speed-example.png" style="width: 50%;" /&gt;
+&lt;img alt="Speed Estimation" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/speed-example.png" style="width: 50%;" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="discussion"&gt;
 &lt;h2&gt;Discussion&lt;/h2&gt;

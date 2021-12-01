@@ -1552,11 +1552,11 @@ picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><category term="research"></category><category term="bicycle"></category><category term="simulator"></category><category term="schwab blog"></category></entry><entry><title>Measuring Vertical Stiffness and Damping of Bicycle Tires</title><link href="https://mechmotum.github.io/blog/bicycle-tire-stiffness-damping.html" rel="alternate"></link><published>2015-01-17T00:00:00-08:00</published><updated>2015-01-17T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2015-01-17:/blog/bicycle-tire-stiffness-damping.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://bicycletire.eu.pn/"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/flat%20tire2.jpg" style="width: 276px; height: 105px;" /&gt;&lt;/a&gt;
+</content><category term="research"></category><category term="bicycle"></category><category term="simulator"></category><category term="schwab blog"></category></entry><entry><title>Measuring Vertical Stiffness and Damping of Bicycle Tires</title><link href="https://mechmotum.github.io/blog/bicycle-tire-stiffness-damping.html" rel="alternate"></link><published>2015-01-17T00:00:00-08:00</published><updated>2015-01-17T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2015-01-17:/blog/bicycle-tire-stiffness-damping.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://bicycletire.eu.pn/"&gt;&lt;img alt="Flat Bicycle Tire" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/flat%20tire2.jpg" style="width: 276px; height: 105px;" /&gt;&lt;/a&gt;
 &lt;p&gt;A group of TU Delft BSc students (Jibbe Knuit, Frans Kok, Philip Raaphorst and
 Arne Spek) did a project on measuring vertical stiffness and damping of bicycle
 tires. A total of 11 tires were measured at 3 normal loads and 3 internal
-pressures. The setup, data and results can be …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="http://bicycletire.eu.pn/"&gt;&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/flat%20tire2.jpg" style="width: 276px; height: 105px;" /&gt;&lt;/a&gt;
+pressures. The setup, data and results can be …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="http://bicycletire.eu.pn/"&gt;&lt;img alt="Flat Bicycle Tire" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/flat%20tire2.jpg" style="width: 276px; height: 105px;" /&gt;&lt;/a&gt;
 &lt;p&gt;A group of TU Delft BSc students (Jibbe Knuit, Frans Kok, Philip Raaphorst and
 Arne Spek) did a project on measuring vertical stiffness and damping of bicycle
 tires. A total of 11 tires were measured at 3 normal loads and 3 internal
@@ -1859,7 +1859,7 @@ connect to the bike we first went to shop and bought some nice pink and lilac
 paint (her choice), &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/Stage3a.jpg"&gt;painted the bike&lt;/a&gt; and mounted the
 pedals. On Sunday we went out on the street walk and after an initial push of
 she &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/Stage3b.jpg"&gt;rode of all by herself&lt;/a&gt;!&lt;/p&gt;
-&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/Stage3bsmall.jpg" /&gt;
+&lt;img alt="Salome Riding a Bicycle" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/Stage3bsmall.jpg" /&gt;
 </content><category term="research"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>First Measurement Data from the Instrumented Bicycle</title><link href="https://mechmotum.github.io/blog/first-data-instrumed-bicycle.html" rel="alternate"></link><published>2005-03-11T00:00:00-08:00</published><updated>2005-03-11T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2005-03-11:/blog/first-data-instrumed-bicycle.html</id><summary type="html">&lt;p&gt;First measurement data from the instrumented bicycle. This work is done by my
 Delft MSc student Jodi Kooijman. This is the bike:&lt;/p&gt;
 &lt;table border="1" class="table docutils"&gt;
@@ -1911,9 +1911,9 @@ systems. Pure rolling is be modeled by zero generalized slips. The equations of
 motion are expressed in terms of independent generalized coordinates this to
 facilitate the numerical integration of the equations of motion.&lt;/p&gt;
 &lt;p&gt;The model of the bicycle is an ordinary Dutch city bike, like this one:&lt;/p&gt;
-&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/fiets2small.jpg" /&gt;
+&lt;img alt="Dutch Bicycle" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/fiets2small.jpg" /&gt;
 &lt;p&gt;This is a sketch of the SPACAR model, with all the element and node numbers:&lt;/p&gt;
-&lt;img alt="" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/bike2small.jpg" /&gt;
+&lt;img alt="Model Sketch" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/bike2small.jpg" /&gt;
 &lt;p&gt;Finally the input file, which contains the complete definition of the bike,
 looks like this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* bike3
