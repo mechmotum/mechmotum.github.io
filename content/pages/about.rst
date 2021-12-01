@@ -19,6 +19,9 @@ themes:
 - engineering and scientific software design and development
 - teaching and learning in engineering education
 
+History
+=======
+
 The TU Delft lab started in the mid 2000's at TU Delft under the direction of
 `Arend L. Schwab`_. Dr. Schwab retired in 2021 and Jason K. Moore took over the
 lab and research program. In Delft, Dr. Moore merged his University of
