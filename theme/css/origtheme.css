@@ -195,3 +195,18 @@ h6 {
 dd {
   padding-left: 2em;
 }
+
+/* Sets up a class to make tables borderless */
+.borderless {
+  border: none;
+}
+
+.borderless tr {
+  border: none;
+  padding: 4px;
+}
+
+.borderless td {
+  border: none;
+  padding: 4px;
+}
