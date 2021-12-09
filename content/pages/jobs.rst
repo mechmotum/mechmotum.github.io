@@ -33,10 +33,10 @@ Bicycle of the Future Postdoctoral Position
 -------------------------------------------
 
 | TU Delft Vacancy Number: TUD01463
-| Posted: September 10, 2021
-| Applications due by: **September 30, 2021**.
-| `Lab news post <{filename}/bicycle-of-the-future-postdoc.rst>`_
-| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4015&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
+| Posted: December 8, 2021
+| Applications due by: **January 7, 2021**.
+| `Lab news post <{filename}/bicycle-of-the-future-postdoc-2.rst>`_
+| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4904&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
 
 Master's Students
 =================
