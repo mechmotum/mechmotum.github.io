@@ -68,10 +68,10 @@ and grant writing.
 Requirements
 ============
 
-You have a PhD degree in engineering in mechanical or biomechanical or related
-discipline by the start date of the position. If a related discipline please
-justify in your cover letter. Excellent command of the English language is
-required, as well as excellent communication skills. 
+You have a PhD degree in engineering or relevant discipline by the start date
+of the position. If a relevant discipline, please justify in your cover letter.
+Academic command of the English language is required, as well as strong
+communication skills.
 
 To Apply
 ========
