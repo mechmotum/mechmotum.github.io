@@ -602,6 +602,9 @@ Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication 
    A comprehensive guide to writing a thesis.
 "`The Science of Scientific Writing <https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf>`_" by George D. Gopen and Judith A. Swan, 1990
    Quick read that gives tips to improve your scientific writing style.
+"`How to write a good (enough) report <http://ruina.tam.cornell.edu/research/joining/Practical_Writing_advice.html>`_ by Andy Ruina
+   Prof. Ruina's pragmatic take on writing with a goal of clear communication
+   of your ideas.
 "`ICMJE | Recommendations | Defining the Role of Authors and Contributors <http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html>`_."
    The International Committee of Medical Journal Editors created a basic
    guideline for determining who should be considered an author of an academic
