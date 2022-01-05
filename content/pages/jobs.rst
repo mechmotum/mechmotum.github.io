@@ -110,10 +110,6 @@ in finding students for [#]_:
      - 2020-09-18
      -
      - Thesis
-   * - `Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology <{filename}/pages/jobs/truebike-calibration.rst>`_
-     - 2020-09-10
-     - TrueKinetix_
-     - Thesis
    * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
      - 2020-09-10
      - TrueKinetix_
