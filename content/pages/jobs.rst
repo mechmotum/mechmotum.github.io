@@ -74,6 +74,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
+     - 2022-01-11
+     - `Ictech <https://ictech.se/>`_
+     - Internship and Thesis
    * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
      - 2021-07-06
      - `REV'IT! <https://www.revitsport.com>`_
