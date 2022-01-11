@@ -61,3 +61,13 @@ possibility to follow with a literature study and thesis project focusing on
 developing and validating a robust control system for the bicycle.
 
 .. _Ictech: https://ictech.se/
+
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/Pbe6hCk6Eno" title="YouTube video player"
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p>Recent Honda demonstration of zero speed balancing</p>
+   </center>
