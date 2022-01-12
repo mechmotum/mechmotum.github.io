@@ -66,7 +66,10 @@ postings via the lab, here are some things you need to do:
   stipend, housing, etc.)
 - To receive academic credit for your internship at the end you need to write a
   report and have it assessed by your TUD internship supervisor. The report
-  will be assessed based on the above linked rubric.
+  will be assessed based on the above linked rubric. You also need your
+  external internship supervisor to fill out the form "INTERNSHIP ASSESSMENT
+  FORM FOR EXTERNAL PARTIES" and submit the completed version to your TUD
+  supervisor.
 - Note that your TUD supervisor is typically not involved in your internship
   other than the signing the initial form and assessing and providing a grade
   at the end.
@@ -331,6 +334,7 @@ TU Delft offers several resources for open science:
 - `TU Delft 2020-2024 Open Science Strategic Plan <https://doi.org/10.4233/uuid:f2faff07-408f-4cec-bd87-0919c9e4c26f>`_
 - `You Share, We Take Care! <https://www.tudelft.nl/en/library/library-for-researchers/library-for-researchers/publishing-outreach/you-share-we-take-care/>`_
 - `Open Science Community Delft <https://osc-delft.github.io/>`_
+- `TU Delft Open Science Portal <https://www.tudelft.nl/library/actuele-themas/openscience>`_
 
 Research Tools Contributions
 ----------------------------
