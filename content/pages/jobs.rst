@@ -74,6 +74,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
+     - 2022-01-11
+     - `Ictech <https://ictech.se/>`_
+     - Internship and Thesis
    * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
      - 2021-07-06
      - `REV'IT! <https://www.revitsport.com>`_
@@ -109,10 +113,6 @@ in finding students for [#]_:
    * - `How fast will my open source code break? <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
      - 2020-09-18
      -
-     - Thesis
-   * - `Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology <{filename}/pages/jobs/truebike-calibration.rst>`_
-     - 2020-09-10
-     - TrueKinetix_
      - Thesis
    * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
      - 2020-09-10

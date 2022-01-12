@@ -580,6 +580,9 @@ Biomechanics
 
 David A. Winter, Biomechanics and Motor Control of Human Movement. John Wiley & Sons, 2009.
    The longtime best introductory textbook to biomechanics of human movement.
+`Awesome Biomechanics <https://github.com/modenaxe/awesome-biomechanics>`_
+   Community curated collection of biomechanics resources with a focus on
+   computational biomechanics.
 
 Computing and Data
 ------------------
