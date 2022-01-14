@@ -17,13 +17,13 @@ Description
 
 *Equivalent fall height* has been proposed as an important measure to minimize
 for the design of safer ski and snowboard jumps [Hubbard2009]_. The equivalent
-fall height is a proxy measure for the impact velocity of a human against a
+fall height is a proxy measure for the impact energy of a human against a
 surface. It provides better context for a layperson to perceive the associated
 danger, i.e. people have a strong experiential sense of the danger associated
-with falling from a given height. Snow terrain park jumps can be designed with
-a specified equivalent fall height by simulating a particle model of a jumper
-[Levy2015]_ and this model has been used to develop jump design tools that
-minimize equivalent fall height [Moore2018]_.
+with falling from a given height. Snow terrain park jump landing shapes can be
+designed with a specified equivalent fall height by using a simulation of a
+particle model of a jumper [Levy2015]_ and this model has been used to develop
+jump design tools that minimize equivalent fall height [Moore2018]_.
 
 Prinoth_ develops snow groomers that are used to build public use and
 professional level terrain parks. They have computer aided design and
@@ -53,7 +53,7 @@ that focuses on impact data analysis and interpretation, jumper model
 validation, and model improvement incorporation into the `ski jump design web
 application <https://www.skijumpdesign.info>`_ and Prinoth's simulation models.
 
-The X camp terrain park is available to test on is between August and October,
+The X camp terrain park is available to test on between August and October,
 thus the internship will need to start in at least by July to prepare for data
 collection in August.
 
