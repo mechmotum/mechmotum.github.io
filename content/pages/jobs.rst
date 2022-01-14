@@ -74,6 +74,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
+     - 2022-01-14
+     - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
+     - Internship & Thesis
    * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
      - 2022-01-11
      - `Ictech <https://ictech.se/>`_
