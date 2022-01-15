@@ -57,6 +57,9 @@ The X camp terrain park is available to test on between August and October,
 thus the internship will need to start in at least by July to prepare for data
 collection in August.
 
+More information on past research in on this topic can be found on the `ski
+jump research page <{filename}/pages/research/ski-jump-safety.rst>`_.
+
 .. _Prinoth: https://www.prinoth.com
 
 References
