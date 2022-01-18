@@ -260,7 +260,7 @@ Past Meeting Topics and Materials
      - 2021-10-12
      - Leila Alizadehsaravi 
      - 
-* - Learning to stand with unexpected sensorimotor delays
+   * - Learning to stand with unexpected sensorimotor delays
      - 2021-09-28
      - Patrick Forbes
      - https://elifesciences.org/articles/65085
