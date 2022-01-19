@@ -5,6 +5,7 @@ Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic
 :date: 2020-09-21
 :status: hidden
 :slug: jobs/msc/fast-musculoskeletal-simulations
+:template: msc-project
 
 Increasingly, musculoskeletal models are being used with optimization tools to
 answer a variety of research questions. When these optimization problems
@@ -78,11 +79,3 @@ Numeric mulitbody dynamics codes:
 
 Papers that may be useful to this project in our Zotero group:
 https://www.zotero.org/groups/966974/mechmotum/collections/GB9UR7YK
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project along with your current
-resume or C.V.

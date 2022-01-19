@@ -5,6 +5,7 @@ Personalized Virtual Non-round Bicycle Chain-rings using Live Optimization While
 :date: 2020-09-10
 :status: hidden
 :slug: jobs/msc/personalized-non-round-chainrings
+:template: msc-project
 
 .. figure:: https://truekinetix.com/wp-content/themes/truekinetix/images/truebike-animation-overview.png
    :align: center
@@ -26,11 +27,3 @@ optimization of the shape of a (virtual) chainring
 - Develop a measurement protocol to find the optimal chainring for an
   individual. The form of the chainring will influence fatigue and muscle
   contraction speed, leading to new optimal chainrings
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project along with your current
-resume or C.V.

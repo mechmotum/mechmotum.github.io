@@ -5,6 +5,7 @@ Unravelling Vestibular Sensory Contributions to Bicycle Balance Control
 :date: 2021-02-23
 :status: hidden
 :slug: jobs/msc/bicycle-balance-vestibular-contributions
+:template: msc-project
 
 .. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/UCI_Indoor_Cycling_World_Championships_2006_LvT_12.jpg/640px-UCI_Indoor_Cycling_World_Championships_2006_LvT_12.jpg
    :target: https://commons.wikimedia.org/wiki/File:UCI_Indoor_Cycling_World_Championships_2006_LvT_12.jpg
@@ -72,12 +73,3 @@ References
 .. [Kwan2019] Kwan A., Forbes P.A., Mitchell D.E., Blouin J.S., Cullen K.E.
    (2019), Neural substrates, dynamics and thresholds of galvanic vestibular
    stimulation in the behaving primate, Nature Communications
-
-How to Apply
-============
-
-Send an email to Dr. Jason K. Moore (j.k.moore@tudelft.nl) and Dr. Patrick
-Forbes (p.forbes@erasmusmc.nl) with the title of the project in the subject
-line. Include an approximately half-page motivation letter explaining why you
-want to work on this project, what relevant skills you have, and your current
-resume or C.V.

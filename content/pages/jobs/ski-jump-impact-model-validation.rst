@@ -5,6 +5,7 @@ Validation of Ski & Snowboarding Low Impact Jump Design
 :date: 2022-01-12
 :status: hidden
 :slug: jobs/msc/ski-jump-impact-model-validation
+:template: msc-project
 
 Description
 ===========

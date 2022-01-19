@@ -5,6 +5,7 @@ Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorith
 :date: 2021-07-06
 :status: hidden
 :slug: jobs/msc/revit-sim
+:template: msc-project
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/petrucci.jpg
    :align: center

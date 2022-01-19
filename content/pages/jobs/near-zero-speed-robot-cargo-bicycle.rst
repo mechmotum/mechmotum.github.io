@@ -5,6 +5,7 @@ Near Zero Speed Robotically Balanced Cargo Bicycles
 :date: 2022-01-11
 :status: hidden
 :slug: jobs/msc/near-zero-speed-robot-cargo-bicycle
+:template: msc-project
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/cargo-bike-balance-examples.png
    :width: 600px

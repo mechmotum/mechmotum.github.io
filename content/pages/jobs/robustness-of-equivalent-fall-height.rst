@@ -5,6 +5,7 @@ How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jump
 :date: 2020-09-09
 :status: hidden
 :slug: jobs/msc/robustness-of-equivalent-fall-height
+:template: msc-project
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png
    :width: 600px
@@ -103,11 +104,3 @@ See Also
 
 - `Lab research page on ski jumps <https://mechmotum.github.io/research/ski-jump-safety.html>`_
 - skijumpdesign web application: http://www.skijumpdesign.info
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project along with your current
-resume or C.V.

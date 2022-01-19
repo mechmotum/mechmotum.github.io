@@ -5,6 +5,7 @@ Determining Dynamics Perception Thresholds of Bicycles
 :date: 2021-01-04
 :status: hidden
 :slug: jobs/msc/determining-dynamics-perception-thresholds-of-bicycles
+:template: msc-project
 
 The "handling qualities", or ease of control, of human controlled vehicles are
 difficult to objectively characterize. The subjective nature of human
@@ -54,14 +55,6 @@ trial will need to be implemented.
 
 We will collaborate with Rene van Paassen in Human Machine Systems in Aerospace
 Engineering.
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project along with your current
-resume or C.V.
 
 References
 ==========
