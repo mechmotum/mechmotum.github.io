@@ -27,10 +27,9 @@ jump design tools that minimize equivalent fall height [Moore2018]_.
 
 Prinoth_ develops snow groomers that are used to build public use and
 professional level terrain parks. They have computer aided design and
-construction tools that allow allow computer aided designed jumps to be built
-at centimeter level precision. The landing area of the jumps (the sweet spot)
-are designed to minimize impact forces. The following video demonstrates the
-approach and capabilities:
+construction tools that allow jumps to be built at centimeter level precision.
+The landing area of the jumps (the sweet spot) are designed to minimize impact
+forces. The following video demonstrates the approach and capabilities:
 
 .. raw:: html
 
@@ -43,15 +42,17 @@ approach and capabilities:
 
 The goal of this project will be to measure impact on a variety of terrain park
 jumps using mobile sensor technologies and a selection of skiers and
-snowboarders to validate the effectiveness of the low impact jump designs.
+snowboarders to validate the effectiveness of the low impact jump designs and
+then transfer those findings into the simulation system.
 
 This project will start as an internship where you will work with Prinoth
 employees in Sterzing, Italy to collect impact data in real jumps and learn
 about their design methodologies. You will be advised by Drs. Jason K. Moore
-(TU Delft) and Mont Hubbard (UC Davis). This will be followed by an MSc project
-that focuses on impact data analysis and interpretation, jumper model
-validation, and model improvement incorporation into the `ski jump design web
-application <https://www.skijumpdesign.info>`_ and Prinoth's simulation models.
+(TU Delft) and Mont Hubbard (UC Davis). This will be followed by an MSc
+graduation project that focuses on impact data analysis and interpretation,
+jumper model validation, and model improvement incorporation into the `ski jump
+design web application <https://www.skijumpdesign.info>`_ and Prinoth's
+simulation system.
 
 The X camp terrain park is available to test on between August and October,
 thus the internship will need to start in at least by July to prepare for data
