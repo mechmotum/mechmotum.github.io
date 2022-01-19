@@ -54,28 +54,29 @@ postings via the lab, here are some things you need to do:
   - BMD: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59456
   - BME: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59534
 
-- Review the assessment rubric for the internship and the associated report:
-  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf
 - Fill out the MSc internship initiation form with your project description and
   other relevant information. Develop this project idea with your internship
-  company contacts. If you think this aligns with Jason's research interests or
+  company/org contacts. If you think this aligns with Jason's research interests or
   the internship came through the bike lab you can send the form to Jason and
   ask him to be your TUD advisor. If he agrees, then you can obtain his
   signature on the form and forward it to your respective MSc coordinator.
 - Make all of your internship arrangements yourself with the company (travel,
   stipend, housing, etc.)
 - To receive academic credit for your internship at the end you need to write a
-  report and have it assessed by your TUD internship supervisor. The report
-  will be assessed based on the above linked rubric. You also need your
-  external internship supervisor to fill out the form "INTERNSHIP ASSESSMENT
-  FORM FOR EXTERNAL PARTIES" and submit the completed version to your TUD
-  supervisor.
+  report and have it assessed by your TUD internship supervisor. The short report
+  should contain aspects aligned with those described in this rubric:
+  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf.
+  This rubric will not be used to determine your grade, it is simply pass/fail
+  based on the supervisor's review.
+- You also need your external internship supervisor to fill out the form
+  "INTERNSHIP ASSESSMENT FORM FOR EXTERNAL PARTIES" and submit the completed
+  version to your TUD supervisor.
 - Note that your TUD supervisor is typically not involved in your internship
   other than the signing the initial form and assessing and providing a grade
   at the end.
 
-Getting Started on the Literature Study
----------------------------------------
+Literature Study
+----------------
 
 - Review the `Literature Study learning objectives and rubric
   <https://d2k0ddhflgrk1i.cloudfront.net/Studentenportal/Faculteitspecifiek/3ME/Onderwijs/GERELATEERD/Formulieren/Rubric%20MSc%20Literature%20Review.pdf>`_
@@ -89,6 +90,10 @@ Getting Started on the Literature Study
   your literature study
 - Third goal is to delve deeper into papers that are closely related to your
   research question
+- Lastly, write up your findings in a way that answers your research question.
+- As you approach the finish of your literature study you should schedule your
+  colloquium, where you will present the results of your literature study and
+  possible some of your thesis plan.
 
 MSc Thesis
 ----------
@@ -239,6 +244,11 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
+   * - Computationally Reproducible Papers
+     - 2021-01-18
+     - Jason K. Moore
+     - `Slides
+       <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
    * - Learning to stand with unexpected sensorimotor delays
      - 2021-09-28
      - Patrick Forbes
