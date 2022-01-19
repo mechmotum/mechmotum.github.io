@@ -74,6 +74,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Validation of Ski & Snowboarding Low Impact Jump Design <{filename}/pages/jobs/ski-jump-impact-model-validation.rst>`_
+     - 2022-01-19
+     - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
+     - Internship and Thesis
    * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
      - 2022-01-14
      - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
@@ -125,10 +129,6 @@ in finding students for [#]_:
    * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
      - 2020-09-10
      - Gazelle_
-     - Thesis
-   * - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
-     - 2020-09-10
-     - Dr. Mont Hubbard (University of California, Davis)
      - Thesis
    * - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
      - 2020-09-10
