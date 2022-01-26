@@ -41,12 +41,16 @@ Current Funders and Partners
 
    * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-gazelle.png
           :width: 100%
+          :target: https://www.gazellebikes.com
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-bosch-ebike.jpg
           :width: 100%
+          :target: https://www.bosch-ebike.com
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
           :width: 100%
+          :target: https://chanzuckerberg.com
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-team-dsm.jpg
           :width: 100%
+          :target: https://www.team-dsm.com
 
 .. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering
