@@ -34,13 +34,13 @@ Lab Meeting
 - prepare a question to ask, either to get the question ball rolling or to avoid a silence
 - ask audience for questions, otherwise shoot first
 - thank the speaker again
-- accounce social activity
+- announce social activity
 
 2. Prepare agenda for the next meeting
 ---------------------------------
 - on Google Drive, sign in, find the last agenda file
-	- (if needed, acquire priviledges from last MC)
-	- (if needed, give priviledges to the next MC)
+	- (if needed, acquire privileges from last MC)
+	- (if needed, give privileges to the next MC)
 - 'File/Make a Copy', 
 - rename to the appropriate date, 
 - folder: 'lab meetings'
@@ -78,7 +78,7 @@ Lab Meeting
 
 6. Message the last speaker asking for the slides
 ---------------------------------
-- inform the past speaker the slides will be shared publically on the `MechMotum website <https://mechmotum.github.io/>`_
+- inform the past speaker the slides will be shared publicly on the `MechMotum website <https://mechmotum.github.io/>`_
 - there's a shared folder where we deposit the slides (SurfDrive or g-tudelft Google Drive), ask your last MC
 	- (once received, update repeat step 5 to include a public link to the slides)
 
