@@ -62,14 +62,14 @@ Lab Meeting
 	- or 'x reminders + agenda for 2022-xx-xx-bicycle-lab-meeting'
 	- (consistent titles help make the emails easy to find)
 
-4. Update the whosnext.py (https://github.com/mechmotum/whosnext)
+4. Update the `whosnext.py <https://github.com/mechmotum/whosnext>`_
 ---------------------------------
 - check and update the list of lab members
 - update the list of past presentations
 - add the future presentation slot already
 - submit a pull request
 
-5. Update the `MechMotum website <https://mechmotum.github.io/>` over at `our github <https://github.com/mechmotum/mechmotum.github.io>`,
+5. Update the `MechMotum website <https://mechmotum.github.io/>`_ over at `our github <https://github.com/mechmotum/mechmotum.github.io>`_,
 ---------------------------------
 - go to / content / pages / guide.rst
 - edit (pencil icon) (log in if necessary)
@@ -78,13 +78,13 @@ Lab Meeting
 
 6. Message the last speaker asking for the slides
 ---------------------------------
-- inform the past speaker the slides will be shared publically on the `MechMotum website <https://mechmotum.github.io/>`
+- inform the past speaker the slides will be shared publically on the `MechMotum website <https://mechmotum.github.io/>`_
 - there's a shared folder where we deposit the slides (SurfDrive or g-tudelft Google Drive), ask your last MC
 	- (once received, update repeat step 5 to include a public link to the slides)
 
 7. Check in with the next host with preparing a presentation, ideas on what to present
 ---------------------------------
-- point them to `past presentations <https://github.com/mechmotum/mechmotum.github.io/blob/source/content/pages/guide.rst#past-meeting-topics-and-materials>` for inspiration
+- point them to `past presentations <https://github.com/mechmotum/mechmotum.github.io/blob/source/content/pages/guide.rst#past-meeting-topics-and-materials>`_ for inspiration
 - point them to the Google Doc with presentation ideas
 
 
