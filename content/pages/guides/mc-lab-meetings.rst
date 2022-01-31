@@ -16,76 +16,76 @@ Lab Meeting
 ===============
 1. Host the Zoom call
 ---------------------------------
-	- send an email with a reminder, a link to the Zoom call (create a personal link if first time hosting)
-	- start the Zoom call a bit early
-	- welcome people
-	- assign co-host to presenter
+  - send an email with a reminder, a link to the Zoom call (create a personal link if first time hosting)
+  - start the Zoom call a bit early
+  - welcome participants
+  - assign co-host to presenter
   - introduce new lab members (remind Jason to add them to the mailing list, and Rado to invite them to the element/matrix server)
-	- full screen the agenda
-	- start off the AOIs
-	- decide on the moment to start
-	- monitor the time
-	- run the agenda
-	- run whosnext.py (separate instructions needed)
-	- announce the keynote speaker
-	- jot down links from presentation slides or the chat section, paste into the agenda notes
-	- help the speaker keep to the time
-	- thank the keynote speaker
-	- prepare a question to ask, either to get the question ball rolling or to avoid a silence
-	- ask audience for questions, otherwise shoot first
-	- thank the speaker again
-	- accounce social activity
+  - full screen the agenda
+  - start off the AOIs
+  - decide on the moment to start
+  - monitor the time
+  - run the agenda
+  - run whosnext.py (separate instructions needed)
+  - announce the keynote speaker
+  - jot down links from presentation slides or the chat section, paste into the agenda notes
+  - help the speaker keep to the time
+  - thank the keynote speaker
+  - prepare a question to ask, either to get the question ball rolling or to avoid a silence
+  - ask audience for questions, otherwise shoot first
+  - thank the speaker again
+  - accounce social activity
 
 2. Prepare agenda for the next meeting
 ---------------------------------
-	- on Google Drive, sign in, find the last agenda file
-  - (if needed, acquire priviledges from last MC)
-  - (if needed, give priviledges to the next MC)
-	- 'File/Make a Copy', 
-	- rename to the appropriate date, 
-	- folder: 'lab meetings'
-	- tick 'Share it with the same people'
-	- in the new file, change the date
-	- update the agenda based on what's been discussed
-	- 'Share/Get Link' (ensure: Anyone with a link / Anyone on the Internet with this link can edit)
-	- Copy Link (for the email message in the next step)
+  - on Google Drive, sign in, find the last agenda file
+	- (if needed, acquire priviledges from last MC)
+	- (if needed, give priviledges to the next MC)
+  - 'File/Make a Copy', 
+  - rename to the appropriate date, 
+  - folder: 'lab meetings'
+  - tick 'Share it with the same people'
+  - in the new file, change the date
+  - update the agenda based on what's been discussed
+  - 'Share/Get Link' (ensure: Anyone with a link / Anyone on the Internet with this link can edit)
+  - Copy Link (for the email message in the next step)
 
 3. Send an email to the lab with the link to the new agenda file
 ---------------------------------
-	- copy paste the last email message with the agenda as a template\
-	- adjust as necessary
-	- replace a link to the new agenda file
-	- update the Zoom link call (when changing MCs)
-  - (a good moment to update the calendar invite to include the new Zoom call link as well)
-	- to: mechmotum@googlegroups.com
-	- title: agenda for 2022-xx-xx-bicycle-lab-meeting
+  - copy paste the last email message with the agenda as a template
+  - adjust as necessary
+  - replace a link to the new agenda file
+  - update the Zoom link call (when changing MCs)
+	- (a good moment to update the calendar invite to include the new Zoom call link as well)
+  - to: mechmotum@googlegroups.com
+  - title: agenda for 2022-xx-xx-bicycle-lab-meeting
 	- or 'x reminders + agenda for 2022-xx-xx-bicycle-lab-meeting'
-  - (consistent titles help make the emails easy to find)
+	- (consistent titles help make the emails easy to find)
 
 4. Update the whosnext.py (https://github.com/mechmotum/whosnext)
 ---------------------------------
-	- check and update the list of lab members
-	- update the list of past presentations
-	- add the future presentation slot already
-	- submit a pull request
+  - check and update the list of lab members
+  - update the list of past presentations
+  - add the future presentation slot already
+  - submit a pull request
 
 5. Update the MechMotum website (https://mechmotum.github.io/) over at https://github.com/mechmotum/mechmotum.github.io,
 ---------------------------------
-	- content / pages / guide.rst
-	- edit (pencil icon) (log in if necessary)
-	- make changes
+  - go to / content / pages / guide.rst
+  - edit (pencil icon) (log in if necessary)
+  - make changes
 	- submit a pull request
 
 6. Message the last speaker asking for the slides
 ---------------------------------
   - inform the past speaker the slides will be shared publically on the MechMotum website (https://mechmotum.github.io)
   - there's a shared folder where we deposit the slides (SurfDrive or g-tudelft Google Drive), ask your last MC
-  - (once received, update repeat step 5 to include a public link to the slides)
+	- (once received, update repeat step 5 to include a public link to the slides)
 
 7. Check in with the next host with preparing a presentation, ideas on what to present
 ---------------------------------
-	- point them to past presentations for inspiration (https://github.com/mechmotum/mechmotum.github.io/blob/source/content/pages/guide.rst#past-meeting-topics-and-materials)
-	- point them to the Google Doc with presentation ideas
+  - point them to past presentations for inspiration (https://github.com/mechmotum/mechmotum.github.io/blob/source/content/pages/guide.rst#past-meeting-topics-and-materials)
+  - point them to the Google Doc with presentation ideas
 
 
 Social activity
@@ -95,8 +95,8 @@ Until we have a designated committee for this said task will fall under MC dutie
 
 8. Prepare social activity
 ---------------------------------
-	- come up with a new name for the VrijMiBo edition
-	- decide on location
-	- announce it at least a week in advance (best done multiple times, including during the preceding biweekly-twice-monthly meeting)
-	- send a calendar invite to mechmotum@googlegroups.com (group members can respond individually)
-	- remind people on the day
+  - come up with a new name for the VrijMiBo edition
+  - decide on location
+  - announce it at least a week in advance (best done multiple times, including during the preceding biweekly-twice-monthly meeting)
+  - send a calendar invite to mechmotum@googlegroups.com (group members can respond individually)
+  - remind people on the day
