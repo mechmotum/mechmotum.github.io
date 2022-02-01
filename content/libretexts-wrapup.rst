@@ -111,6 +111,7 @@ notable features:
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png
    :align: center
+   :alt: UCD cluster racks.
 
    The cluster humming away in the server room.
 
@@ -132,11 +133,13 @@ LibreTexts users and authors.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png
    :align: center
+   :alt: LibreTexts UC Davis JupyterHub Login Screen
 
    LibreTexts UC Davis JupyterHub Login Screen
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png
    :align: center
+   :alt: Author construction guide section about Jupyter integration
 
    Author construction guide section about Jupyter integration
 
@@ -168,11 +171,13 @@ notebooks as well as RStudio server access to R.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png
    :align: center
+   :alt: JupyterLab Interface
 
    JupyterLab Interface
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png
    :align: center
+   :alt: RStudio Interface
 
    RStudio Interface
 
@@ -254,6 +259,7 @@ and since the sprint:
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
    :height: 600px
    :align: center
+   :alt: Example of an ipywidget controlling a matplotlib figure in Thebe.
 
    Example of an ipywidget controlling a matplotlib figure in Thebe.
 
@@ -292,6 +298,7 @@ partners. This published paper details more about that effort:
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png
    :align: center
+   :alt: Conference poster about the cheminformatics project.
 
    Conference poster about the cheminformatics project.
 
@@ -347,6 +354,7 @@ Python
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png
    :align: center
+   :alt: Example interactive robot arm simulator from Matrix Algebra with Computational Applications (Colbry)
 
    Example interactive robot arm simulator from Matrix Algebra with
    Computational Applications (Colbry)
@@ -485,6 +493,7 @@ hands.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/lab-pizza-outing.png
    :align: center
+   :alt: Lab pizza social
 
    Pre-pandemic pizza social with the team. From the left around the table:
    Celine, Michael, Trevor, Henry, Jason, Hao, Luigi, Tannavee.

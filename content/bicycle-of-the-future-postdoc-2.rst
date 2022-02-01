@@ -1,6 +1,6 @@
-=======================================================
-Postdoctoral Researcher Opening:  Bicycle of the Future
-=======================================================
+======================================================
+Postdoctoral Researcher Opening: Bicycle of the Future
+======================================================
 
 :date: 2021-12-08
 :authors: Jason K. Moore

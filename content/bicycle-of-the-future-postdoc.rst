@@ -1,6 +1,6 @@
-=======================================================
-Postdoctoral Researcher Opening:  Bicycle of the Future
-=======================================================
+======================================================
+Postdoctoral Researcher Opening: Bicycle of the Future
+======================================================
 
 :date: 2021-09-10
 :authors: Jason K. Moore
@@ -17,6 +17,7 @@ Postdoctoral Researcher Opening:  Bicycle of the Future
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg
    :width: 600px
    :align: center
+   :alt: TU Delft & Gazelle Steer Assist Bicycle
 
    Steer Assist Bicycle: an example bicycle technology developed at the TU
    Delft Bicycle lab with Gazelle.
