@@ -57,10 +57,12 @@ try:
         config_data = yaml.load(config_file, Loader=yaml.FullLoader)
 except IOError:
     THEME = ''
-    PLUGIN_PATHS = ''
+    PLUGIN_PATHS = ['']
 else:
     THEME = config_data['THEME_PATH']
     PLUGIN_PATHS = config_data['PLUGIN_PATHS']
+    if isinstance(PLUGIN_PATHS, type('')):
+        PLUGIN_PATHS = [PLUGIN_PATHS]
 
 ## THEME
 
