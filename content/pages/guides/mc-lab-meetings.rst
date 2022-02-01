@@ -1,6 +1,6 @@
 =====
 Guide: How to MC Lab Meetings
-=====
+=============================
 
 Being an MC of a Bicycle Lab Meeting is a great opportunity to contribute and play an active role in the lab, 
 but also to learn how to host similar meetings in your future career. 
