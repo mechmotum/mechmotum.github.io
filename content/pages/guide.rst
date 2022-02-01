@@ -219,7 +219,7 @@ galore:
 
 - 10-20 minute presentation with Q & A
 - tutorial
-- have us read something (a paper) we could review
+- have us read something (a paper) we could review (journal club)
 - watch and discuss a video
 - invite a speaker
 - play a game
@@ -230,6 +230,11 @@ galore:
 Members are expected to attend and participate regularly. It's fine to miss a
 meeting here and there, but avoid making that regular. If the meetings are not
 useful to you, please be proactive about helping us make them useful for all.
+
+The MC position rotates approximately every quarter. See the `MC Guide`_ for
+instructions on being the MC.
+
+.. _MC Guide: {filename}/pages/guide-mc-lab-meetings.rst
 
 Past Meeting Topics and Materials
 ---------------------------------
