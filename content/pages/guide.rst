@@ -416,17 +416,12 @@ you'd like to share something that is set to private.
 Lab Space
 =========
 
-Inventory
----------
+Using equipment & consumables
+-----------------------------
 
-There is a common spreadsheet on google drive that lab members should use to
-track our non-consumable inventory (tools, devices, expensive stuff, computers,
-etc). Anytime you buy something add it to the spreadsheet. The spreadsheet can
-be accessed at this link:
-
-https://docs.google.com/spreadsheets/d/1w80SolpcLTbLtuFDIf9-F-sS_pO-1PEHSpSgEGH_SSg/edit?usp=sharing
-
-Ask Jason if you don't have permissions for this file.
+If you find something in the lab you would like to use, post a note to the
+Element chat or email asking if anyone else is using it or plans to use it. If
+noone is using it, then you can!
 
 Training
 ========
