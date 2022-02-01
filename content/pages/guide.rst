@@ -250,10 +250,26 @@ Past Meeting Topics and Materials
      - Presenters
      - Materials
    * - Computationally Reproducible Papers
-     - 2021-01-18
+     - 2022-01-18
      - Jason K. Moore
      - `Slides
        <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
+   * - 
+     - 2021-12-07
+     - Dorus de Boer
+     - 
+   * - 
+     - 2021-11-09
+     - Marco Reijne
+     - 
+   * - 
+     - 2021-10-26
+     - Jan Heinen
+     - 
+   * - 
+     - 2021-10-12
+     - Leila Alizadehsaravi 
+     - 
    * - Learning to stand with unexpected sensorimotor delays
      - 2021-09-28
      - Patrick Forbes
