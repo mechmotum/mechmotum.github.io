@@ -1,6 +1,7 @@
-=====
+=============================
 Guide: How to MC Lab Meetings
 =============================
+:status: hidden
 
 Being an MC of a Bicycle Lab Meeting is a great opportunity to contribute and play an active role in the lab, 
 but also to learn how to host similar meetings in your future career. 
@@ -21,6 +22,7 @@ Lab Meeting
 - welcome participants
 - assign co-host to presenter
 - introduce new lab members (remind Jason to add them to the mailing list, and Rado to invite them to the element/matrix server)
+- ask new member for a short intro, (optional) ask current members to introduce themselves in return
 - full screen the agenda
 - start off the AOIs
 - decide on the moment to start
@@ -35,6 +37,7 @@ Lab Meeting
 - ask audience for questions, otherwise shoot first
 - thank the speaker again
 - announce social activity
+- store any links from the Zoom's chat for inclusion in the upcoming email
 
 2. Prepare agenda for the next meeting
 ---------------------------------
@@ -54,13 +57,15 @@ Lab Meeting
 ---------------------------------
 - copy paste the last email message with the agenda as a template
 - adjust as necessary
+- attach links shared in the chat during the last Zoom call
 - replace a link to the new agenda file
-- update the Zoom link call (when changing MCs)
+- (optional) update the Zoom link call (when changing MCs)
 	- (a good moment to update the calendar invite to include the new Zoom call link as well)
-- to: mechmotum@googlegroups.com
+- to: mechmotum@googlegroups.com (and anyone else who is not on the mailing list yet)
 - title: agenda for 2022-xx-xx-bicycle-lab-meeting
 	- or 'x reminders + agenda for 2022-xx-xx-bicycle-lab-meeting'
 	- (consistent titles help make the emails easy to find)
+- (optional, when changing MCs) send a new calendar invite to the mechmotum group address with the updated Zoom link, delete old one
 
 4. Update the `whosnext.py <https://github.com/mechmotum/whosnext>`_
 ---------------------------------
@@ -95,7 +100,7 @@ Until we have a designated committee for this said task will fall under MC dutie
 
 8. Prepare social activity
 ---------------------------------
-- come up with a new name for the VrijMiBo edition
+- (optional) come up with a new name for the next VrijMiBo edition
 - decide on location
 - announce it at least a week in advance (best done multiple times, including during the preceding biweekly-twice-monthly meeting)
 - send a calendar invite to mechmotum@googlegroups.com (group members can respond individually)
