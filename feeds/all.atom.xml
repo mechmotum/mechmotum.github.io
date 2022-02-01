@@ -300,7 +300,7 @@ with one command&lt;/li&gt;
 &lt;li&gt;Custom user abuse sensors and process killers&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png" /&gt;
+&lt;img alt="UCD cluster racks." src="https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png" /&gt;
 &lt;p class="caption"&gt;The cluster humming away in the server room.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -316,11 +316,11 @@ that provides instructions for more advanced use. We also created a section in
 the LibreTexts &lt;a class="reference external" href="https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements"&gt;construction guide&lt;/a&gt; that provides guidance specifically for
 LibreTexts users and authors.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png" /&gt;
+&lt;img alt="LibreTexts UC Davis JupyterHub Login Screen" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png" /&gt;
 &lt;p class="caption"&gt;LibreTexts UC Davis JupyterHub Login Screen&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png" /&gt;
+&lt;img alt="Author construction guide section about Jupyter integration" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png" /&gt;
 &lt;p class="caption"&gt;Author construction guide section about Jupyter integration&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -343,11 +343,11 @@ vast majority of needed software is pre-installed.&lt;/p&gt;
 it includes Python, R, Julia, Octave, C++, and Sage in the console and
 notebooks as well as RStudio server access to R.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png" /&gt;
+&lt;img alt="JupyterLab Interface" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png" /&gt;
 &lt;p class="caption"&gt;JupyterLab Interface&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png" /&gt;
+&lt;img alt="RStudio Interface" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png" /&gt;
 &lt;p class="caption"&gt;RStudio Interface&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -409,7 +409,7 @@ and since the sprint:&lt;/p&gt;
 &lt;li&gt;Enabled general ipywidgets functionality&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
+&lt;img alt="Example of an ipywidget controlling a matplotlib figure in Thebe." src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
 &lt;p class="caption"&gt;Example of an ipywidget controlling a matplotlib figure in Thebe.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;You can see examples many of the rich Jupyter outputs on this LibreTexts page:&lt;/p&gt;
@@ -437,7 +437,7 @@ Kim et al. (2020), Teaching Cheminformatics through a Collaborative
 Intercollegiate Online Chemistry Course (OLCC), Journal of Chemical
 Education, &lt;a class="reference external" href="https://doi.org/10.1021/acs.jchemed.0c01035"&gt;https://doi.org/10.1021/acs.jchemed.0c01035&lt;/a&gt;&lt;/blockquote&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png" /&gt;
+&lt;img alt="Conference poster about the cheminformatics project." src="https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png" /&gt;
 &lt;p class="caption"&gt;Conference poster about the cheminformatics project.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -484,7 +484,7 @@ integration for a variety of different programming languages.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications/Jupyter_Notebooks"&gt;Chemistry Interactive Applications&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png" /&gt;
+&lt;img alt="Example interactive robot arm simulator from Matrix Algebra with Computational Applications (Colbry)" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png" /&gt;
 &lt;p class="caption"&gt;Example interactive robot arm simulator from Matrix Algebra with
 Computational Applications (Colbry)&lt;/p&gt;
 &lt;/div&gt;
@@ -628,7 +628,7 @@ enthusiasm. He has my full admiration. I'll miss working with you Richard,
 hopefully we can start up something new in the future! The project is in great
 hands.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/lab-pizza-outing.png" /&gt;
+&lt;img alt="Lab pizza social" src="https://objects-us-east-1.dream.io/mechmotum/lab-pizza-outing.png" /&gt;
 &lt;p class="caption"&gt;Pre-pandemic pizza social with the team. From the left around the table:
 Celine, Michael, Trevor, Henry, Jason, Hao, Luigi, Tannavee.&lt;/p&gt;
 &lt;/div&gt;
@@ -702,7 +702,7 @@ are all of the prior posts:&lt;/p&gt;
 See the &lt;a class="reference external" href="https://mechmotum.github.io/blog/bicycle-of-the-future-postdoc-2.html"&gt;new posting&lt;/a&gt; for information.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -714,7 +714,7 @@ Delft Bicycle lab with Gazelle.&lt;/p&gt;
 See the &lt;a class="reference external" href="https://mechmotum.github.io/blog/bicycle-of-the-future-postdoc-2.html"&gt;new posting&lt;/a&gt; for information.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -805,7 +805,7 @@ extra 2 months. The position will be 12 months.&lt;/td&gt;&lt;/tr&gt;
 See the &lt;a class="reference external" href="https://mechmotum.github.io/blog/bicycle-of-the-future-postdoc-2.html"&gt;new posting&lt;/a&gt; for information.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -817,7 +817,7 @@ Delft Bicycle lab with Gazelle.&lt;/p&gt;
 See the &lt;a class="reference external" href="https://mechmotum.github.io/blog/bicycle-of-the-future-postdoc-2.html"&gt;new posting&lt;/a&gt; for information.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
