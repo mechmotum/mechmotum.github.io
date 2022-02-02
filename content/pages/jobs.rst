@@ -29,13 +29,22 @@ page`_, `Academic Transfer`_ [#]_, and/or this lab website.
 .. [#] All academic jobs in the Netherlands are (and have to be) posted to
    Academic Transfer.
 
+CZI SymPy Postdoctoral Position
+-------------------------------
+
+| TU Delft Vacancy Number: TUD01994
+| Posted: February 2, 2022
+| Applications due by: **February 28, 2022**.
+| `Lab news post <{filename}/sympy-czi-postdoc.rst>`__
+| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=2261&nPostingTargetId=5624&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&mask=external
+
 Bicycle of the Future Postdoctoral Position
 -------------------------------------------
 
 | TU Delft Vacancy Number: TUD01463
 | Posted: December 8, 2021
 | Applications due by: **January 7, 2021**.
-| `Lab news post <{filename}/bicycle-of-the-future-postdoc-2.rst>`_
+| `Lab news post <{filename}/bicycle-of-the-future-postdoc-2.rst>`__
 | Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4904&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
 
 Master's Students
