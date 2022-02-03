@@ -4,6 +4,7 @@ Information for Collaborating Companies and Organizations
 
 :date: 2022-02-03
 :status: hidden
+:slug: company
 
 How can a company or organization collaborate with the lab?
 ===========================================================
@@ -55,18 +56,20 @@ MSc Graduation Project (Literature Study + Research or Design Thesis)
 3mE students are required to do a literature study worth 10 ECs (~270 hours, 7
 weeks) and an MSc thesis project worth 35 ECs (~945 hours, 24 weeks). These two
 things are typically, and ideally, aligned on the same topic. This research or
-design oriented engineering work should be driven by the student.
+design oriented engineering work should be driven by the student under the
+supervision of the TU Delft supervisor(s).
 
 Companies and organizations can sponsor a graduation project. At the minimum,
 you provide a research or design problem for the student to work on under the
-supervision of TU Delft supervisors. But you can also provide co-supervision
+supervision of TU Delft supervisor(s). But you can also provide co-supervision
 and access to company resources. Providing the later makes for a more enriching
-experience.
+experience. If the project requires resources that TU Delft cannot provide, the
+company is expected to provide those resources (travel costs, equipment, etc.).
 
 The company/organization, student, and TU Delft must agree to TU Delft's
-standard agreement for graduation projects. You may add additional terms to the
-agreement that do not invalidate the standard terms. Any additions will be
-reviewed by TU Delft's contract specialists.
+standard agreement for graduation projects (see below). You may add additional
+terms to the agreement that do not invalidate the standard terms. Any additions
+will be reviewed by TU Delft's contract specialists.
 
 Resources
 =========
@@ -78,7 +81,7 @@ https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related
 There are forms and documents relevant to companies and organizations in the
 "MSc forms" and "Internships" sections. In particular:
 
-`Guidelines internship constracts for 3mE students <https://wbmt2.tudelft.nl/ORGANISATIE/formulieren/Internships/3mE_Internship-guidelines-students.pdf>`_
+`Guidelines internship contracts for 3mE students <https://wbmt2.tudelft.nl/ORGANISATIE/formulieren/Internships/3mE_Internship-guidelines-students.pdf>`_
    Guidelines for the student to read when making agreements with a company.
 `Guideline for Internship and/or Graduation aggreements (Companies) <https://wbmt2.tudelft.nl/ORGANISATIE/formulieren/Internships/3mE_Internship-guidelines-external.pdf>`_
    Guidelines for companies to read to understand TU Delft's terms.
