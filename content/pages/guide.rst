@@ -510,6 +510,14 @@ Online
    Public email based forum for discussing the dynamics and control of single
    track vehicles.
 
+Software
+--------
+
+R-Ladies Rotterdam
+   https://www.meetup.com/rladies-rotterdam/
+Pythonistas-NL
+   https://www.meetup.com/Pythonistas-NL/
+
 Conferences
 -----------
 
@@ -539,6 +547,8 @@ ECCOMAS Multibody Dynamics Conference
    Annual conferences. If your work involves open source Python software these
    are a great place to showcase the advances in library development and use of
    the tools.
+Dutch Bio-Medical Engineering Conference
+   Nice way to connect with Dutch local researchers.
 
 Funding Opportunities
 =====================
