@@ -4,7 +4,7 @@ Information for Collaborating Companies and Organizations
 
 :date: 2022-02-03
 :status: hidden
-:slug: company
+:slug: company-organization-collaboration
 
 How can a company or organization collaborate with the lab?
 ===========================================================
