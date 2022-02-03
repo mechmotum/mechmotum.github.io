@@ -1,4 +1,7 @@
-:title: Design of a Quadriplegic Friendly Tricycle
+==========================================
+Design of a Quadriplegic Friendly Tricycle
+==========================================
+
 :status: hidden
 :date: 2018-08
 :collaborators: Greg Tanner (Disability Reports), Tommy Ausherman (Outrider USA)

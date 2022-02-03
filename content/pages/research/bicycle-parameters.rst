@@ -1,9 +1,12 @@
-:title: Measurement and Estimation of Bicycle and Rider Physical Parameters
+===================================================================
+Measurement and Estimation of Bicycle and Rider Physical Parameters
+===================================================================
+
 :status: hidden
 :date: 2020-08
 :collaborators: Mont Hubbard, Ronald Hess, Chris Dembia, Arend Schwab, Jodi
                 Kooijman
-:current_researchers:
+:current_researchers: Julie van Vlerken
 :past_researchers: Noah Sanders, Chris Dembia
 :research_theme: Bicycle Engineering
 :template: project

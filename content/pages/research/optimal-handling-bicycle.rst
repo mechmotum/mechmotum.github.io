@@ -1,4 +1,7 @@
-:title: Optimal Handling Bicycles
+=========================
+Optimal Handling Bicycles
+=========================
+
 :collaborators: Mont Hubbard, Ronald Hess
 :current_researchers:
 :date: 2019-09

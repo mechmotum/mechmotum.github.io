@@ -1,9 +1,8 @@
-:title: Guide
-:sortorder: 5
-
 =====
 Guide
 =====
+
+:sortorder: 5
 
 .. contents::
 
@@ -55,25 +54,29 @@ postings via the lab, here are some things you need to do:
   - BMD: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59456
   - BME: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59534
 
-- Review the assessment rubric for the internship and the associated report:
-  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf
 - Fill out the MSc internship initiation form with your project description and
   other relevant information. Develop this project idea with your internship
-  company contacts. If you think this aligns with Jason's research interests or
+  company/org contacts. If you think this aligns with Jason's research interests or
   the internship came through the bike lab you can send the form to Jason and
   ask him to be your TUD advisor. If he agrees, then you can obtain his
   signature on the form and forward it to your respective MSc coordinator.
 - Make all of your internship arrangements yourself with the company (travel,
   stipend, housing, etc.)
 - To receive academic credit for your internship at the end you need to write a
-  report and have it assessed by your TUD internship supervisor. The report
-  will be assessed based on the above linked rubric.
+  report and have it assessed by your TUD internship supervisor. The short report
+  should contain aspects aligned with those described in this rubric:
+  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf.
+  This rubric will not be used to determine your grade, it is simply pass/fail
+  based on the supervisor's review.
+- You also need your external internship supervisor to fill out the form
+  "INTERNSHIP ASSESSMENT FORM FOR EXTERNAL PARTIES" and submit the completed
+  version to your TUD supervisor.
 - Note that your TUD supervisor is typically not involved in your internship
   other than the signing the initial form and assessing and providing a grade
   at the end.
 
-Getting Started on the Literature Study
----------------------------------------
+Literature Study
+----------------
 
 - Review the `Literature Study learning objectives and rubric
   <https://d2k0ddhflgrk1i.cloudfront.net/Studentenportal/Faculteitspecifiek/3ME/Onderwijs/GERELATEERD/Formulieren/Rubric%20MSc%20Literature%20Review.pdf>`_
@@ -87,6 +90,10 @@ Getting Started on the Literature Study
   your literature study
 - Third goal is to delve deeper into papers that are closely related to your
   research question
+- Lastly, write up your findings in a way that answers your research question.
+- As you approach the finish of your literature study you should schedule your
+  colloquium, where you will present the results of your literature study and
+  possible some of your thesis plan.
 
 MSc Thesis
 ----------
@@ -212,7 +219,7 @@ galore:
 
 - 10-20 minute presentation with Q & A
 - tutorial
-- have us read something (a paper) we could review
+- have us read something (a paper) we could review (journal club)
 - watch and discuss a video
 - invite a speaker
 - play a game
@@ -223,6 +230,11 @@ galore:
 Members are expected to attend and participate regularly. It's fine to miss a
 meeting here and there, but avoid making that regular. If the meetings are not
 useful to you, please be proactive about helping us make them useful for all.
+
+The MC position rotates approximately every quarter. See the `MC Guide`_ for
+instructions on being the MC.
+
+.. _MC Guide: {filename}/pages/guide-mc-lab-meetings.rst
 
 Past Meeting Topics and Materials
 ---------------------------------
@@ -237,6 +249,27 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
+   * - Computationally Reproducible Papers
+     - 2022-01-18
+     - Jason K. Moore
+     - `Slides
+       <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
+   * - 
+     - 2021-12-07
+     - Dorus de Boer
+     - 
+   * - 
+     - 2021-11-09
+     - Marco Reijne
+     - 
+   * - 
+     - 2021-10-26
+     - Jan Heinen
+     - 
+   * - 
+     - 2021-10-12
+     - Leila Alizadehsaravi 
+     - 
    * - Learning to stand with unexpected sensorimotor delays
      - 2021-09-28
      - Patrick Forbes
@@ -332,6 +365,7 @@ TU Delft offers several resources for open science:
 - `TU Delft 2020-2024 Open Science Strategic Plan <https://doi.org/10.4233/uuid:f2faff07-408f-4cec-bd87-0919c9e4c26f>`_
 - `You Share, We Take Care! <https://www.tudelft.nl/en/library/library-for-researchers/library-for-researchers/publishing-outreach/you-share-we-take-care/>`_
 - `Open Science Community Delft <https://osc-delft.github.io/>`_
+- `TU Delft Open Science Portal <https://www.tudelft.nl/library/actuele-themas/openscience>`_
 
 Research Tools Contributions
 ----------------------------
@@ -403,17 +437,12 @@ you'd like to share something that is set to private.
 Lab Space
 =========
 
-Inventory
----------
+Using equipment & consumables
+-----------------------------
 
-There is a common spreadsheet on google drive that lab members should use to
-track our non-consumable inventory (tools, devices, expensive stuff, computers,
-etc). Anytime you buy something add it to the spreadsheet. The spreadsheet can
-be accessed at this link:
-
-https://docs.google.com/spreadsheets/d/1w80SolpcLTbLtuFDIf9-F-sS_pO-1PEHSpSgEGH_SSg/edit?usp=sharing
-
-Ask Jason if you don't have permissions for this file.
+If you find something in the lab you would like to use, post a note to the
+Element chat or email asking if anyone else is using it or plans to use it. If
+noone is using it, then you can!
 
 Training
 ========
@@ -577,6 +606,9 @@ Biomechanics
 
 David A. Winter, Biomechanics and Motor Control of Human Movement. John Wiley & Sons, 2009.
    The longtime best introductory textbook to biomechanics of human movement.
+`Awesome Biomechanics <https://github.com/modenaxe/awesome-biomechanics>`_
+   Community curated collection of biomechanics resources with a focus on
+   computational biomechanics.
 
 Computing and Data
 ------------------
@@ -603,6 +635,9 @@ Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication 
    A comprehensive guide to writing a thesis.
 "`The Science of Scientific Writing <https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf>`_" by George D. Gopen and Judith A. Swan, 1990
    Quick read that gives tips to improve your scientific writing style.
+"`How to write a good (enough) report <http://ruina.tam.cornell.edu/research/joining/Practical_Writing_advice.html>`_ by Andy Ruina
+   Prof. Ruina's pragmatic take on writing with a goal of clear communication
+   of your ideas.
 "`ICMJE | Recommendations | Defining the Role of Authors and Contributors <http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html>`_."
    The International Committee of Medical Journal Editors created a basic
    guideline for determining who should be considered an author of an academic

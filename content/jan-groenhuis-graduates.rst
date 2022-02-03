@@ -10,6 +10,7 @@ Jan Groenhuis Successfully Defends His MSc Thesis
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg
    :align: center
+   :alt: Jan Groenhuis Headshot
 
 Jan Groenhuis successfully defended "`Experimental data-tracking of the BMX SX
 gate start using biomechanical modeling and trajectory optimization

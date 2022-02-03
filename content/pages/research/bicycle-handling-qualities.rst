@@ -1,4 +1,7 @@
-:title: Experimental Validation of Bicycle Handling Prediction
+======================================================
+Experimental Validation of Bicycle Handling Prediction
+======================================================
+
 :status: hidden
 :date: 2019-12-10
 :collaborators: Mont Hubbard, Ronald Hess

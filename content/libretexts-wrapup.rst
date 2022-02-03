@@ -9,6 +9,7 @@ LibreTexts Jupyter Integration Wrapup
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png
    :align: center
+   :alt: LibreTexts and Jupyter Logos
 
 As of September 30th we have wrapped up our work integrating Jupyter based
 computing tools into the LibreTexts_ platform. This work was part of a three
@@ -110,6 +111,7 @@ notable features:
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png
    :align: center
+   :alt: UCD cluster racks.
 
    The cluster humming away in the server room.
 
@@ -131,11 +133,13 @@ LibreTexts users and authors.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png
    :align: center
+   :alt: LibreTexts UC Davis JupyterHub Login Screen
 
    LibreTexts UC Davis JupyterHub Login Screen
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png
    :align: center
+   :alt: Author construction guide section about Jupyter integration
 
    Author construction guide section about Jupyter integration
 
@@ -167,11 +171,13 @@ notebooks as well as RStudio server access to R.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png
    :align: center
+   :alt: JupyterLab Interface
 
    JupyterLab Interface
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png
    :align: center
+   :alt: RStudio Interface
 
    RStudio Interface
 
@@ -253,6 +259,7 @@ and since the sprint:
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
    :height: 600px
    :align: center
+   :alt: Example of an ipywidget controlling a matplotlib figure in Thebe.
 
    Example of an ipywidget controlling a matplotlib figure in Thebe.
 
@@ -291,6 +298,7 @@ partners. This published paper details more about that effort:
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png
    :align: center
+   :alt: Conference poster about the cheminformatics project.
 
    Conference poster about the cheminformatics project.
 
@@ -346,6 +354,7 @@ Python
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png
    :align: center
+   :alt: Example interactive robot arm simulator from Matrix Algebra with Computational Applications (Colbry)
 
    Example interactive robot arm simulator from Matrix Algebra with
    Computational Applications (Colbry)
@@ -391,6 +400,7 @@ National Workshop on Data Education (2020).
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg
    :align: center
    :width: 600px
+   :alt: Celine Presenting at SacPy
 
    Hao, Tannavee, and Celine presenting at the SacPy meetup in 2019.
 
@@ -483,6 +493,7 @@ hands.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/lab-pizza-outing.png
    :align: center
+   :alt: Lab pizza social
 
    Pre-pandemic pizza social with the team. From the left around the table:
    Celine, Michael, Trevor, Henry, Jason, Hao, Luigi, Tannavee.
@@ -545,7 +556,7 @@ are all of the prior posts:
 - `Grant Award Announcement <{filename}/libretexts-grant.rst>`_
 - `Winter 2019 Update <{filename}/jupyter-winter-2019.rst>`_
 - `Summer 2019 Update <{filename}/jupyter-summer-2019.rst>`_
-- `SacPy Talk <{filename}/sacpy-slidedeck-2019.rst>`_
+- `SacPy Talk <{filename}/sacpy-slideck-2019.rst>`_
 - `Spring 2020 Update <{filename}/libretexts-jupyter-plugin.rst>`_
 - `Summer 2020 Update <{filename}/jupyter-summer-2020.rst>`_
 - `Fall 2020 Update <{filename}/jupyter-fall-2020.rst>`_

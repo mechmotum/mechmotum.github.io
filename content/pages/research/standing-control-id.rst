@@ -1,4 +1,7 @@
-:title: Control Identification of Human Standing
+========================================
+Control Identification of Human Standing
+========================================
+
 :status: hidden
 :date: 2019-02
 :collaborators: Ton van den Bogert (Cleveland State University)

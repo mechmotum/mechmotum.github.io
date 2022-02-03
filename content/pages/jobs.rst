@@ -1,4 +1,7 @@
-:title: Jobs
+====
+Jobs
+====
+
 :sortorder: 4
 
 .. contents::
@@ -26,14 +29,23 @@ page`_, `Academic Transfer`_ [#]_, and/or this lab website.
 .. [#] All academic jobs in the Netherlands are (and have to be) posted to
    Academic Transfer.
 
+CZI SymPy Postdoctoral Position
+-------------------------------
+
+| TU Delft Vacancy Number: TUD01994
+| Posted: February 2, 2022
+| Applications due by: **February 28, 2022**.
+| `Lab news post <{filename}/sympy-czi-postdoc.rst>`__
+| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=2261&nPostingTargetId=5624&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&mask=external
+
 Bicycle of the Future Postdoctoral Position
 -------------------------------------------
 
 | TU Delft Vacancy Number: TUD01463
-| Posted: September 10, 2021
-| Applications due by: **September 30, 2021**.
-| `Lab news post <{filename}/bicycle-of-the-future-postdoc.rst>`_
-| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4015&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
+| Posted: December 8, 2021
+| Applications due by: **January 7, 2021**.
+| `Lab news post <{filename}/bicycle-of-the-future-postdoc-2.rst>`__
+| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4904&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
 
 Master's Students
 =================
@@ -71,6 +83,18 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Validation of Ski & Snowboarding Low Impact Jump Design <{filename}/pages/jobs/ski-jump-impact-model-validation.rst>`_
+     - 2022-01-19
+     - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
+     - Internship and Thesis
+   * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
+     - 2022-01-14
+     - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
+     - Internship & Thesis
+   * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
+     - 2022-01-11
+     - `Ictech <https://ictech.se/>`_
+     - Internship and Thesis
    * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
      - 2021-07-06
      - `REV'IT! <https://www.revitsport.com>`_
@@ -107,10 +131,6 @@ in finding students for [#]_:
      - 2020-09-18
      -
      - Thesis
-   * - `Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology <{filename}/pages/jobs/truebike-calibration.rst>`_
-     - 2020-09-10
-     - TrueKinetix_
-     - Thesis
    * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
      - 2020-09-10
      - TrueKinetix_
@@ -118,10 +138,6 @@ in finding students for [#]_:
    * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
      - 2020-09-10
      - Gazelle_
-     - Thesis
-   * - `How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps? <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`_
-     - 2020-09-10
-     - Dr. Mont Hubbard (University of California, Davis)
      - Thesis
    * - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
      - 2020-09-10

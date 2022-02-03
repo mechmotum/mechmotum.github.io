@@ -107,6 +107,7 @@ differential GPS measurements.
 .. image:: https://objects-us-east-1.dream.io/mechmotum/dps.png
    :width: 50%
    :align: center
+   :alt: Distance Per Stroke Figure
 
 Example boat speed estimates over 30 seconds during a typical trial comparing
 smartphone GPS derived speed and the complementary filter and Kalman filter
@@ -116,6 +117,7 @@ with respect to the sampling rate of the accelerometer, 100 Hz.
 .. image:: https://objects-us-east-1.dream.io/mechmotum/speed-example.png
    :width: 50%
    :align: center
+   :alt: Speed Estimation
 
 Discussion
 ----------

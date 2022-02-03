@@ -5,6 +5,7 @@ Squiggly Bicycle Routes
 :date: 2020-09-10
 :status: hidden
 :slug: jobs/msc/squiggly-routes
+:template: msc-project
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/direct-vs-squiggly.png
    :width: 600px
@@ -85,11 +86,3 @@ Some preliminary work from the lab has been done that should be built upon:
 - `2012 Velocity Presentation Slides <https://docs.google.com/presentation/d/e/2PACX-1vQtgEHSrHu0HobIaReFllvckTnCiYCkpZS-kqQx5jhJXQu3nz907JDoO3UGckoiT5_1nAFsW6K0fEtq/pub?start=false&loop=false&delayms=3000>`_
 - Software from the 2012 work: https://github.com/moorepants/EfficientRoutes
 - `2019 Squiggly Routes COSMOS Workshop Slides <https://tinyurl.com/squiggly-cosmos2019>`_
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project, what relevant skills
-you have, and your current resume or C.V.

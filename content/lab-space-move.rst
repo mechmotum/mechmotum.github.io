@@ -10,6 +10,7 @@ Moved to the New Lab Space
 .. image:: http://bicycle.tudelft.nl/schwab/Bicycle/BicycleLabSmall.JPG
    :align: center
    :target: http://bicycle.tudelft.nl/schwab/Bicycle/BicycleLab.JPG
+   :alt: New Lab Space
 
 This month the bicycle lab moved to the new lab space (room `4A-1-04
 <http://bicycle.tudelft.nl/schwab/Bicycle/OCP-plattegrond_2009.jpg>`__) which

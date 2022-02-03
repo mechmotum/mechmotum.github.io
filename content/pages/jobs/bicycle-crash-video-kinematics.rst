@@ -5,6 +5,7 @@ Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning
 :date: 2021-01-29
 :status: hidden
 :slug: jobs/msc/bicycle-crash-video-kinematics
+:template: msc-project
 
 .. list-table::
    :class: table
@@ -46,11 +47,3 @@ the rider, and show that accurate kinematics can be acquired.
 .. _OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
 .. _DeepLabCut:  http://www.mousemotorlab.org/deeplabcut
 .. _Anipose: https://anipose.readthedocs.io
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project, what relevant skills
-you have, and your current resume or C.V.

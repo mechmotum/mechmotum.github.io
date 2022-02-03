@@ -2,22 +2,14 @@
 Postdoctoral Researcher Opening: Bicycle of the Future
 ======================================================
 
-:date: 2021-09-10
+:date: 2021-12-08
 :authors: Jason K. Moore
 :category: jobs
 :tags: bicycle,postdoc,engineering
 
-.. topic:: Expired, see new posting!
-   :class: alert alert-warning
-
-   This job posting is reoponed with a January 7, 2022 application due date.
-   See the `new posting
-   <{filename}/bicycle-of-the-future-postdoc-2.rst>`_ for information.
-
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg
    :width: 600px
    :align: center
-   :alt: TU Delft & Gazelle Steer Assist Bicycle
 
    Steer Assist Bicycle: an example bicycle technology developed at the TU
    Delft Bicycle lab with Gazelle.
@@ -26,10 +18,9 @@ Job description
 ===============
 
 The TU Delft Bicycle Lab is seeking a postdoctoral researcher for a **12
-month** full time contract [1]_ with a starting date before the end of 2021.
-The researcher will develop and execute an engineering research project for the
-"Bicycle of the Future" grant which is supported by ClickNL
-(https://www.clicknl.nl) and Royal Dutch Gazelle
+month** full time contract. The researcher will develop and execute an
+engineering research project for the "Bicycle of the Future" grant which is
+supported by ClickNL (https://www.clicknl.nl) and Royal Dutch Gazelle
 (https://www.gazellebikes.com). The aim of the TU Delft and Gazelle
 collaboration is to arrive at design solutions that make the bicycle both safer
 and more employable in society.
@@ -66,9 +57,9 @@ Development of proof-of-concept prototype vehicles and vehicle technologies is
 a desired outcome of the proposed research projects.
 
 You will work at TU Delft in the 3ME Faculty, mostly in the TU Delft Bicycle
-Laboratory. You will work closely with and be mentored by Jason K. Moore and
-Arend L. Schwab. You will also work with and collaborate with Gazelle
-employees. Lastly, you will work with BSc, MSc, and PhD candidates of the lab.
+Laboratory. You will work closely with and be mentored by Jason K. Moore. You
+will also work with and collaborate with Gazelle employees. Lastly, you will
+work with BSc, MSc, and PhD candidates of the lab.
 
 Opportunities for growing your academic career will be available, such as
 mentoring BSc/Students and PhD candidates, conference presentation, networking,
@@ -77,10 +68,10 @@ and grant writing.
 Requirements
 ============
 
-You have a PhD degree in engineering in mechanical or biomechanical or related
-discipline by the start date of the position. If a related discipline please
-justify in your cover letter. Excellent command of the English language is
-required, as well as excellent communication skills. 
+You have a PhD degree in engineering or relevant discipline by the start date
+of the position. If a relevant discipline, please justify in your cover letter.
+Academic command of the English language is required, as well as strong
+communication skills.
 
 To Apply
 ========
@@ -88,7 +79,7 @@ To Apply
 To apply, please submit (in PDF format) a 1 page cover letter explaining your
 fit for the position and motivation, a C.V., an example peer reviewed
 scientific publication where you are the primary author, and a 1 page project
-proposal by 30 September 2021 via the application button.
+proposal by 7 January 2022 via the application button.
 
 The proposal will be reviewed for novelty, feasibility, and alignment with the
 stated project topics. The idea in the proposal will be used as a starting
@@ -98,9 +89,9 @@ Gazelle if hired.   
 Visit TU Delft's website to find more employment details and apply for the
 position (vacancy number: TUD01463):
 
-https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4015&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
+https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4904&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
 
-**Applications Due September 30, 2021**
+**Applications Due January 7, 2022**
 
 Additional information
 ======================
@@ -110,7 +101,3 @@ Assistant Professor, email: j.k.moore@tudelft.nl. 
 
 For information about the application procedure, please contact Ms. Anita van
 Vianen, email: application-3me@tudelft.nl.
-
-.. [1] We originally advertised a 10 month appointment and the official
-   application page also reflects that, but we have obtained approval for the
-   extra 2 months. The position will be 12 months.

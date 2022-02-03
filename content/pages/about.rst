@@ -1,4 +1,7 @@
-:title: About
+=====
+About
+=====
+
 :url:
 :save_as: index.html
 :sortorder: 0
@@ -27,6 +30,33 @@ The TU Delft lab started in the mid 2000's at TU Delft under the direction of
 lab and research program. In Delft, Dr. Moore merged his University of
 California, Davis based research program with TU Delft's, defining what exists
 today.
+
+Current Funders and Partners
+============================
+
+.. list-table::
+   :class: borderless
+   :align: center
+   :width: 100%
+
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-nwo.jpg
+          :height: 200px
+          :target: https://www.nwo.nl
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-gazelle.png
+          :width: 100%
+          :target: https://www.gazellebikes.com
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
+          :width: 100%
+          :target: https://chanzuckerberg.com
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-bosch-ebike.jpg
+          :width: 100%
+          :target: https://www.bosch-ebike.com
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-team-dsm.jpg
+          :width: 100%
+          :target: https://www.team-dsm.com
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/ictech-logo.png
+          :width: 100%
+          :target: https://www.ictech.se
 
 .. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering

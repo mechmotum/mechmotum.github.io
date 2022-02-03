@@ -1,37 +1,38 @@
-:title: Members
+=======
+Members
+=======
+
 :sortorder: 1
 
 Principal Investigators
 =======================
 
 .. list-table::
-   :class: table
+   :class: borderless
    :width: 60%
    :widths: 20 80
    :align: center
 
    * - |headshot-moore-jason|
-     - `Jason K. Moore`_, Assistant Professor
+     - **Jason K. Moore**, Assistant Professor
 
 
 .. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.png
    :width: 100px
    :height: 133px
 
-.. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
-.. _Jason K. Moore: https://www.moorepants.info
-
 Postdoctoral Researchers
 ========================
 
 .. list-table::
-   :class: table
+   :class: borderless
    :width: 60%
    :widths: 20 80
    :align: center
 
    * - |headshot-alizadehsaravi-leila|
-     - Leila Alizadehsaravi, PhD [TUD, Feb 2020-present]
+     - | **Leila Alizadehsaravi**, PhD [TUD, Feb 2020-present]
+       | *Safety Evaluation of a Steer Assist Bicycle*
 
 .. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
    :width: 100px
@@ -41,55 +42,53 @@ PhD Candidates
 ==============
 
 .. list-table::
-   :class: table
+   :class: borderless
    :width: 100%
    :widths: 10 40 10 40
    :align: center
 
    * - |headshot-missing|
-     - `Marco Reijne`_ [TUD, April 2018-present]
+     - **Marco Reijne** [TUD, April 2018-present]
      - |headshot-dukalski-rado|
-     - Rado Dukalski [TUD]
+     - **Rado Dukalski** [TUD]
 
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
    :width: 100px
    :height: 133px
 
-.. _Marco Reijne: https://www.linkedin.com/in/marco-reijne-2331401a
-
 Masters of Science Students
 ===========================
 
 .. list-table::
-   :class: table
+   :class: borderless
    :width: 100%
    :widths: 10 40 10 40
    :align: center
 
    * - |headshot-missing|
-     - | Dorus de Boer [TUD, Oct 2021-present]
-       | Cycling Material Model Design
+     - | **Dorus de Boer** [TUD, Oct 2021-present]
+       | *Cycling Material Model Design*
      - |headshot-heinen-jan|
-     - | Jan Heinen [TUD, Sep 2021-present]
-       | Skateboarding Biomechanics
+     - | **Jan Heinen** [TUD, Sep 2021-present]
+       | *Skateboarding Biomechanics*
    * - |headshot-missing|
-     - | Simonas Draukšas [TUD, Sep 2021-present]
-       | Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance
+     - | **Simonas Draukšas** [TUD, Sep 2021-present]
+       | *Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance*
      - |headshot-landre-daniel|
-     - | Daniël Landré [TUD, Sep 2021-present]
-       | Adaptive Speed Control in Cycling
+     - | **Daniël Landré** [TUD, Sep 2021-present]
+       | *Adaptive Speed Control in Cycling*
    * - |headshot-singh-ajaypal|
-     - | Ajaypal Singh [TUD, Jul 2021-present]
-       | Brake Squeal in Disc Brakes
+     - | **Ajaypal Singh** [TUD, Jul 2021-present]
+       | *Brake Squeal in Disc Brakes*
      - |headshot-van-de-velde-shannon|
-     - | Shannon van de Velde [TUD, Dec 2020-present]
-       | During cycling, which external forces result in loss of balance?
+     - | **Shannon van de Velde** [TUD, Dec 2020-present]
+       | *During cycling, which external forces result in loss of balance?*
    * - |headshot-missing|
-     - | Julie van Vlerken [TUD, Sep 2020-present]
-       | Design rules for handling qualities
+     - | **Julie van Vlerken** [TUD, Sep 2020-present]
+       | *Design rules for handling qualities*
      - |headshot-huiskens-tim|
-     - | Tim Huiskens [TUD]
-       | Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle
+     - | **Tim Huiskens** [TUD]
+       | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px

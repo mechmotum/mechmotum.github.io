@@ -18,3 +18,4 @@ be found at: http://www.motorist-ptw.eu/
    :width: 115px
    :height: 76px
    :target: http://www.motorist-ptw.eu/
+   :alt: MOTORIST Logo

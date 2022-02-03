@@ -5,6 +5,7 @@ Development of a Bobsleigh Simulator for Training and Outreach in Jamaica
 :date: 2021-01-13
 :status: hidden
 :slug: jobs/msc/bobsleigh-simulator
+:template: msc-project
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/jamaican-bobsleigh.jpg
    :align: center
@@ -35,11 +36,3 @@ prototype of the simulator.
 .. _The Jamaican Bobsleigh and Skeleton Federation: https://www.facebook.com/JBSFED/
 .. _Jamaican National Bobsleigh Team: https://en.wikipedia.org/wiki/Jamaica_national_bobsleigh_team
 .. _The University of Technology, Jamaica: http://www.utech.edu.jm/
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project along with your current
-resume or C.V.

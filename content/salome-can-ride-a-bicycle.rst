@@ -35,3 +35,4 @@ she `rode of all by herself
 
 .. image:: http://bicycle.tudelft.nl/schwab/Bicycle/Stage3bsmall.jpg
    :align: center
+   :alt: Salome Riding a Bicycle

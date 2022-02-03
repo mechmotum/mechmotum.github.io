@@ -5,6 +5,7 @@ Design of an Active Tracking Treadmill for Single Track Vehicle Experiments
 :date: 2021-02-15
 :status: hidden
 :slug: jobs/msc/active-bicycle-treadmill
+:template: msc-project
 
 .. figure:: https://knowledge.motekmedical.com/wp-content/uploads/2018/12/CAREN-Extended-1.jpg
    :width: 400px
@@ -41,11 +42,3 @@ realistic (for limited heading maneuvers) for the bicycle rider. This will
 likely require limiting yaw accelerations and designing washout algorithms due
 to any machine limitations and mismatches with the actual dynamics of an on
 road experience.
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project, what relevant skills
-you have, and your current resume or C.V.
