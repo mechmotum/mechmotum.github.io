@@ -13,7 +13,7 @@ These are the typical ways to work with us:
 
 - You host an MSc student intern from TU Delft for a 10 week engineering
   internship.
-- You sponsor a ~6 month MSc graduation project. "Sponsoring" entails providing
+- You sponsor a ~8 month MSc graduation project. "Sponsoring" entails providing
   a research problem and ideally co-supervision and access to your resources.
 - You (co-)sponsor a PhD (4 years, ~65k/yr) or postdoc (1-3 years, ~75k/yr) for
   a long term research project. This would typically be tied to a grant
