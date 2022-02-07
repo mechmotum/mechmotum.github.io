@@ -437,12 +437,26 @@ you'd like to share something that is set to private.
 Lab Space
 =========
 
-Using equipment & consumables
------------------------------
+Using, removing, loaning equipment & consumables
+------------------------------------------------
 
 If you find something in the lab you would like to use, post a note to the
-Element chat or email asking if anyone else is using it or plans to use it. If
-noone is using it, then you can!
+Element/matrix chat or lab email asking if anyone else is using it or plans to
+use it. If no one is using it, then you can!
+
+If a TU Delft student or staff that is not a lab member would like to borrow
+equipment from the lab, find out if anyone is using it (as noted above), and
+then make sure they fill out the checkout sheet (by the lab door) with their
+name, email, and date before the item leaves the lab. When they return the
+item, indicate the return date on the sheet.
+
+If you take things from the lab to use elsewhere for **more than one day** you
+also need to sign the equipment checkout sheet. Note your name and the date you
+took the item. Once the item is returned to the lab, note the date returned.
+
+If you damage or lose equipment you are responsible for fixing or finding a
+replacement. Please let your supervisor know if this occurs so you all can
+figure out a solution.
 
 Training
 ========
