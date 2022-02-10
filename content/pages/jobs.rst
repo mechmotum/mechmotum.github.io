@@ -91,10 +91,6 @@ in finding students for [#]_:
      - 2022-01-14
      - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
      - Internship & Thesis
-   * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
-     - 2022-01-11
-     - `Ictech <https://ictech.se/>`_
-     - Internship and Thesis
    * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
      - 2021-07-06
      - `REV'IT! <https://www.revitsport.com>`_
@@ -163,6 +159,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
+     - 2022-01-11
+     - `Ictech <https://ictech.se/>`_
+     - Jeswin Koshy Cherian
    * - `Cycling Material Model Design <https://objects-us-east-1.dream.io/mechmotum/team-dsm-modelling-project.pdf>`_ [Applications due by 2021-09-17]
      - 2021-09-02
      - `Team DSM <https://www.team-dsm.com>`_
