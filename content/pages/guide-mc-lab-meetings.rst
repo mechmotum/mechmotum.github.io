@@ -11,7 +11,7 @@ in your future career.
 
 Whether you hold the MC position for an extended period or temporarily through
 a raffle or as a replacement, this guide will hopefully help you in this task.
-Worst case, talk to your past MC.
+Worst case, talk to your past MC, ask for help.
 
 It's advised, as it's easiest, to just run through the whole list in one go on
 the day of the lab meeting, while it's still fresh.
@@ -39,7 +39,7 @@ Lab Meeting
 - decide on the moment to start
 - monitor the time
 - run the agenda
-- run whosnext.py (separate instructions needed)
+- run whosnext.py (separate instructions needed) (you could delegate this until you get set up, ask for help setting up afterwards)
 - announce the keynote speaker
 - jot down links from presentation slides or the chat section, paste into the
   agenda notes
