@@ -58,6 +58,15 @@ Current Funders and Partners
           :width: 100%
           :target: https://www.ictech.se
 
+.. raw:: html
+
+   <br>
+   <p style="text-align:center;">
+   <strong>
+   <a href="{filename}/pages/company-organization-collaboration.rst">Learn how you can collaborate with us too!</a>
+   </strong>
+   </p>
+
 .. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering
 .. _Delft University of Technology: https://www.tudelft.nl
