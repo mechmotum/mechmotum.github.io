@@ -416,6 +416,7 @@ of text based sources (software, text, etc):
 
 - https://gitlab.com/mechmotum
 - https://github.com/mechmotum
+- https://gitlab.tudelft.nl/bicyclelab
 
 The services are more or less interchangeable. We used Gitlab in the past
 because it provided free unrestricted private repositories, but Github does now
