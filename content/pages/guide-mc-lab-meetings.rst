@@ -39,7 +39,8 @@ Lab Meeting
 - decide on the moment to start
 - monitor the time
 - run the agenda
-- run whosnext.py (separate instructions needed) (you could delegate this until you get set up, ask for help setting up afterwards)
+- run whosnext.py (`instructions 
+     <https://github.com/mechmotum/whosnext>`__) (you could delegate this until you get set up, ask for help setting up afterwards)
 - announce the keynote speaker
 - jot down links from presentation slides or the chat section, paste into the
   agenda notes
@@ -98,7 +99,8 @@ Lab Meeting
 - check and update the list of lab members
 - update the list of past presentations
 - add the future presentation slot already
-- submit a pull request
+- submit a pull request (`browser-only instructions 
+     <https://drive.google.com/file/d/1L1Qfd2kNhHlpAuMeJeTlB455mZNxAXVJ/view?usp=sharing>`__)
 
 5. Update the `MechMotum website <https://mechmotum.github.io/>`_ over at `our github <https://github.com/mechmotum/mechmotum.github.io>`_,
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -107,7 +109,8 @@ Lab Meeting
 - edit (pencil icon) (log in if necessary)
 - make changes
 
-  - submit a pull request
+  - submit a pull request (`browser-only instructions 
+     <https://drive.google.com/file/d/1L1Qfd2kNhHlpAuMeJeTlB455mZNxAXVJ/view?usp=sharing>`__)
 
 6. Message the last speaker asking for the slides
 -------------------------------------------------
