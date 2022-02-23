@@ -249,6 +249,15 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
+   * - 
+     - 2022-02-15
+     - Jan Heinen
+     - 
+   * - Bicycle Lab Journal Club
+     - 2022-02-01
+     - Leila Alizadehsaravi
+     - `Bicycle crash contributory factors: A systematic review 
+     <https://www.sciencedirect.com/science/article/pii/S0925753521003544>`__
    * - Computationally Reproducible Papers
      - 2022-01-18
      - Jason K. Moore
@@ -266,24 +275,33 @@ Past Meeting Topics and Materials
      - 2021-10-26
      - Jan Heinen
      - 
-   * - 
+   * - Steer-assist Bicycle
      - 2021-10-12
      - Leila Alizadehsaravi 
-     - 
+     - `Slides 
+     <https://drive.google.com/file/d/1V-NL3dBGg8gWIR3ibsKjyFQqwSg2TBvx/view?usp=sharing>`__
    * - Learning to stand with unexpected sensorimotor delays
      - 2021-09-28
      - Patrick Forbes
-     - https://elifesciences.org/articles/65085
+     - `Paper 
+     <https://elifesciences.org/articles/65085>`__
    * - Robot bicycle overview
      - 2021-09-28
      - Tim Huiskens
-     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vR9to8aUenTDWF5itr4jkDdxH2QkmeCKOpXZSELLh1NLxmAhTObmtFJExezldrO8xbdfySUhGt2OrKb/pub?start=false&loop=false&delayms=3000>`__
+     - `Slides 
+     <https://drive.google.com/file/d/1LuXFunPcUUO6wbQ1d55NYCb1U1qD7e-m/view?usp=sharing>`__
    * - Welcome back 2021 Q1, Browser-only Mechmotum website update
      - 2021-09-14
      - Rado Dukalski
-     -
+     - `Slides 
+     <https://drive.google.com/file/d/1L1Qfd2kNhHlpAuMeJeTlB455mZNxAXVJ/view?usp=sharing>`__
+   * - IMUs
+     - 2021-05-20
+     - Marco Reijne
+     - `Slides 
+     <https://drive.google.com/file/d/12VhfjdT6-1vZihfIhK0VSKIHOt9I-nhA/view?usp=sharing>`__
    * - Optimal Control in Biomechanics
-     - 2021-05-03
+     - 2021-05-06
      - Joris Ravenhorst, Jan Groenhuis, and Jason Moore
      - `Slides
        <https://docs.google.com/presentation/d/e/2PACX-1vRDNSb90BX_Nnd0VK8cZE60mNj0AI8Vo4r5_CPnnKRy15_p25l7XwxULesIyxyhQl0V9eMQCnS5_TkZ/pub?start=false&loop=false&delayms=3000>`_
@@ -306,11 +324,13 @@ Past Meeting Topics and Materials
    * - Data Management
      - 2021-02-11
      - Leila Alizadehsaravi & Rado Dukalski & Marco Reijne
-     -
+     - `Slides 
+     <https://drive.google.com/file/d/1tf_q6wiG847G-5r7pOWCus9KXs8E08wz/view?usp=sharing>`__
    * - Bicycle Handling Qualities
      - 2021-01-28
      - Julie van Vlerken & Jason Moore
-     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vR9ylhGLUg2wYq7f7QHym6U5vmpG8V6ylZlrvdpk851vsfdPbZDv_XhkBBWslHAAtsX1NPOcfOKjDF1/pub?start=false&loop=false&delayms=3000>`__
+     - `Slides 
+     <https://docs.google.com/presentation/d/e/2PACX-1vR9ylhGLUg2wYq7f7QHym6U5vmpG8V6ylZlrvdpk851vsfdPbZDv_XhkBBWslHAAtsX1NPOcfOKjDF1/pub?start=false&loop=false&delayms=3000>`__
    * - Bicycle Accidents and Crashes
      - 2021-01-14
      - Joris Kuiper & Marco Reijne
@@ -318,11 +338,13 @@ Past Meeting Topics and Materials
    * - Bicycle Trainers
      - 2020-12-17
      - Jelle Haasnoot & Rado Dukalski
-     -
+     - `Slides 
+     <https://drive.google.com/file/d/1X3-QCoQ2_vreVhRHLJES6gn2K0TU-x6U/view?usp=sharing>`__
    * - Introduction to Git and Github
      - 2020-12-03
      - Tim Huiskens & Jason Moore
-     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQ92Mu3StO7JqIzcQGlR6--37gjGG4UNfCpR26RKhO3exIT7GW9BEAki7G43bm18g/pub?start=false&loop=false&delayms=3000>`__
+     - `Slides 
+     <https://docs.google.com/presentation/d/e/2PACX-1vQ92Mu3StO7JqIzcQGlR6--37gjGG4UNfCpR26RKhO3exIT7GW9BEAki7G43bm18g/pub?start=false&loop=false&delayms=3000>`__
    * - BMX Racing
      - 2020-11-19
      - Jan Groenhuis & Marco Reijne
