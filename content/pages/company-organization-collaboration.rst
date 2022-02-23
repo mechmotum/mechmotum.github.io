@@ -22,8 +22,8 @@ These are the typical ways to work with us:
   tech research grants require co-financing from companies) and be partners in
   the subsequent project which would fund PhD, Postdoc, and MSc projects.
 - We provide consulting for a fee paid to TU Delft.
-- We provide pro bono consulting. This is typically minor Q & A as time
-  permits.
+- We provide pro bono consulting. This is typically minor Q & A as time and
+  interest permits.
 
 MSc Internship
 ==============
@@ -57,7 +57,7 @@ MSc Graduation Project (Literature Study + Research or Design Thesis)
 weeks) and an MSc thesis project worth 35 ECs (~945 hours, 24 weeks). These two
 things are typically, and ideally, aligned on the same topic. This research or
 design oriented engineering work should be driven by the student under the
-supervision of the TU Delft supervisor(s).
+primary supervision of the TU Delft supervisor(s).
 
 Companies and organizations can sponsor a graduation project. At the minimum,
 you provide a research or design problem for the student to work on under the
