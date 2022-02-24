@@ -17,6 +17,9 @@ desires to change any of the guidelines.
 Getting Started
 ===============
 
+The Lab Community
+-----------------
+
 - Join the lab communication channels:
 
   - Ask Jason <j.k.moore@tudelft.nl> to add you to the lab `email list`_.
@@ -33,7 +36,8 @@ Getting Started
 - Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
   the calendar invite with the video chat link. Add your ideas and votes for
   meeting topics to the google document (ask Marco for permissions to edit).
-- Send out an AIO (see below) before your regular mentor meetings.
+- Send out an AIO (see below) before your regular mentor meetings if requested
+  by your supervisors.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Jason. Ask for a tour of the space from
   a current lab member before you start working there.
@@ -53,7 +57,10 @@ postings via the lab, here are some things you need to do:
 
   - BMD: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59456
   - BME: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59534
+  - Robotics: ?
 
+- Review the internship forms and guidelines:
+  https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related/student-forms/internship-forms
 - Fill out the MSc internship initiation form with your project description and
   other relevant information. Develop this project idea with your internship
   company/org contacts. If you think this aligns with Jason's research interests or
@@ -61,7 +68,7 @@ postings via the lab, here are some things you need to do:
   ask him to be your TUD advisor. If he agrees, then you can obtain his
   signature on the form and forward it to your respective MSc coordinator.
 - Make all of your internship arrangements yourself with the company (travel,
-  stipend, housing, etc.)
+  stipend, housing, IP, NDA, etc.)
 - To receive academic credit for your internship at the end you need to write a
   report and have it assessed by your TUD internship supervisor. The short report
   should contain aspects aligned with those described in this rubric:
@@ -81,22 +88,43 @@ Literature Study
 - Review the `Literature Study learning objectives and rubric
   <https://d2k0ddhflgrk1i.cloudfront.net/Studentenportal/Faculteitspecifiek/3ME/Onderwijs/GERELATEERD/Formulieren/Rubric%20MSc%20Literature%20Review.pdf>`_
 - Read "`How to read a paper`_" and "`Guide to writing a literature review for Science and Technology students`_"
+- If you are a BME student, read the relevant guidance docs found on
+  Brightspace "Biomedical Engineering Page".
 - Choose and learn a tool/method to organize your papers and notes (e.g.
-  Zotero, Mendeley, Endnote, Excel)
-- First goal is to read a large quantity of paper abstracts (phase 1 in "How to
-  Read a Paper") to get a broad sense of what people are researching about the
-  topics of interest
-- Second goal is to formulate a research question(s) that you can answer with
-  your literature study
-- Third goal is to delve deeper into papers that are closely related to your
-  research question
-- Lastly, write up your findings in a way that answers your research question.
+  Zotero, Mendeley, Endnote, Excel).
+- The first goal is to read a large quantity of paper abstracts (phase 1 in
+  "How to Read a Paper") to get a broad sense of what people are researching
+  about the topics of interest.
+- The second goal is to formulate a research question(s) that you can likley
+  answer with the papers you read.
+- Third goal is to delve deep into papers that are closely related to your
+  research question, analyze and critique them, and synthize the knowledge you
+  obtain from them into a coherent answer to you research question.
+- Lastly, write up your findings for a technical audience in a way that answers
+  your research question.
+- Once you have a first full draft of the literature study, request feedback
+  from your supervisors. This usually takes a week. Use the feedback to improve
+  your document and then submit it to your supervisors for their official
+  assessment and grade.
 - As you approach the finish of your literature study you should schedule your
-  colloquium, where you will present the results of your literature study and
-  possible some of your thesis plan.
+  colloquium, where you will present the results of your literature study to
+  your peers and possibly some of your thesis plan.
 
 MSc Thesis
 ----------
+
+Basic Steps:
+
+- Formulate a research question or hypothesis that you'd like address in
+  consultation with your supervisors (usually in the later portion of your
+  literature study period).
+- Develop a project plan: timeline, milestones, resources, etc.
+- Organize a kickoff meeting with all of your supervisors to present your
+  research project and project plan.
+- Work on the project with your daily supervisor's guidance.
+- Present your progress at a midterm meeting with all of your supervisors.
+- Work on the project with your daily supervisor's guidance.
+- Send your draft thesis to your supervisors and arrange a Go/No-Go meeting.
 
 - If your project is with a company or institution and/or requires transfer of
   sensitive information you will need to arrange the "Graduation Agreement at a
