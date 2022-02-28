@@ -402,7 +402,7 @@ Shared Cloud Space
 We have a directory named "Fietslab Commons" on Google Drive. To access this,
 request that it be shared with you by your supervisor. This folder and it's
 contents should only be shared with other ``<netid>@g-tudelft.nl>`` addresses
-that are members of the lab. `<netid>@g-tudelft.nl>` is also the login
+that are members of the lab. ``<netid>@g-tudelft.nl>`` is also the login
 username/email that you will need to use when logging into
 https://drive.google.com. Read the "README" files present in the Google Drive
 directories to learn how to use the space. Please avoid using the "Share"
