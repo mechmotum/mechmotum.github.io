@@ -47,6 +47,18 @@ The Lab Community
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
 
+General
+-------
+
+- We expect you to take the lead in your project. Your supervisors are here to
+  advise and guide you, but it is up to you to manage your time, relationships,
+  work, etc.
+- BME MSc students now have some new excellent guidance documents with
+  flowcharts available on the "Master Biomedical Engineering" Brightspace
+  course under "ALL STUDENTS - Flowcharts & Guidance Docs".
+- BMD & BME students are encouraged to join the "Graduation Community Program"
+  for get togethers and workshops on topics to help you move through your MSc.
+
 Internship
 ----------
 
@@ -57,9 +69,8 @@ postings via the lab, here are some things you need to do:
 
   - BMD: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59456
   - BME: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=59534
-  - Robotics: ?
 
-- Review the internship forms and guidelines:
+- Review the internship forms and guidelines (always use up-to-date forms):
   https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related/student-forms/internship-forms
 - Fill out the MSc internship initiation form with your project description and
   other relevant information. Develop this project idea with your internship
@@ -98,7 +109,7 @@ Literature Study
 - The second goal is to formulate a research question(s) that you can likley
   answer with the papers you read.
 - Third goal is to delve deep into papers that are closely related to your
-  research question, analyze and critique them, and synthize the knowledge you
+  research question, analyze and critique them, and synthesize the knowledge you
   obtain from them into a coherent answer to you research question.
 - Lastly, write up your findings for a technical audience in a way that answers
   your research question.
@@ -115,23 +126,34 @@ MSc Thesis
 
 Basic Steps:
 
+- (CoR based MSc tracks only) Submit MSc initiation form.
 - Formulate a research question or hypothesis that you'd like address in
   consultation with your supervisors (usually in the later portion of your
   literature study period).
-- Develop a project plan: timeline, milestones, resources, etc.
+- Develop a written project plan (2-3 pages): research question/aim/goals, your
+  basic technical approach, timeline, milestones, resources, etc.
 - Organize a kickoff meeting with all of your supervisors to present your
   research project and project plan.
 - Work on the project with your daily supervisor's guidance.
 - Present your progress at a midterm meeting with all of your supervisors.
 - Work on the project with your daily supervisor's guidance.
 - Send your draft thesis to your supervisors and arrange a Go/No-Go meeting.
+- Arrange your MSc defense.
+- Edit your thesis and send the final version to your supervisors two weeks
+  before the defense.
 
+Other:
+
+- Always use up-to-date forms from here:
+  https://www.tudelft.nl/en/student/faculties/3me%E2%80%90student%E2%80%90portal/education/related/student%E2%80%90forms/msc%E2%80%90forms/
 - If your project is with a company or institution and/or requires transfer of
   sensitive information you will need to arrange the "Graduation Agreement at a
   Company" that abides by the TUD Graduation Conditions. You can find the forms
   here here:
   https://www.tudelft.nl/studenten/faculteiten/3me-studentenportal/onderwijs/gerelateerd/formulieren/msc-formulieren/.
   Discuss this with your supervisor(s) before you start.
+- Read the articles about writing reports and theses in the recommended reading
+  later in this guide.
 
 COVID-Time Lab Rules
 ====================
@@ -688,7 +710,7 @@ Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication 
 `Guide to writing a literature review for Science and Technology students`_, Lancaster University
    This is a nice guide that gives starting information for those of you
    working on a literature study.
-`Writing a Scientific-Style Thesis: A Guide for Graduate Research Students <https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/Writing-a-Scientific-Thesis.pdf>`_, NUI Galway, Dr. Dermot Burns, 2017
+`Writing a Scientific-Style Thesis`_: A Guide for Graduate Research Students, NUI Galway, Dr. Dermot Burns, 2017
    A comprehensive guide to writing a thesis.
 "`The Science of Scientific Writing <https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf>`_" by George D. Gopen and Judith A. Swan, 1990
    Quick read that gives tips to improve your scientific writing style.
@@ -705,6 +727,8 @@ Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication 
    and also participate in the discussions.
 
 .. _How To Read A Paper:  http://ccr.sigcomm.org/online/files/p83-keshavA.pdf
+.. _Writing a Scientific-Style Thesis: https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/Writing-a-Scientific-Thesis.pdf
+
 .. _Guide to Writing a Literature Review for Science and Technology Students: https://lancaster.libguides.com/engineering/literaturereview
 
 Open Science
