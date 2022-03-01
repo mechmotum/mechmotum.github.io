@@ -404,12 +404,13 @@ request that it be shared with you by your supervisor. This folder and it's
 contents should only be shared with other ``<netid>@g-tudelft.nl>`` addresses
 that are members of the lab. ``<netid>@g-tudelft.nl>`` is also the login
 username/email that you will need to use when logging into
-https://drive.google.com. Read the "README" files present in the Google Drive
-directories to learn how to use the space. Please avoid using the "Share"
-button to share with non-TUD accounts, until we determine best practices for
-this. If you want to add large amounts of data (>50 Gb), inform your supervisor
-first because there may be a more appropriate long term storage solution for
-certain types of data.
+https://drive.google.com. Please avoid using the "Share" button to share with
+non-TUD accounts, until we determine best practices for this. Read and update
+the README files present in the Google Drive directories to learn how to use
+the space. If you create new directories, add a README file to explain what the
+purpose of the folder is. If you want to add large amounts of data (>10 Gb),
+inform your supervisor first because there may be a more appropriate long term
+storage solution for certain types of data.
 
 Reference Management
 --------------------
