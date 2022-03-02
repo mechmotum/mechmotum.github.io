@@ -249,7 +249,7 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
-   * - 
+   * - Learning skateboarding with feedback used in sports
      - 2022-02-15
      - Jan Heinen
      - 
