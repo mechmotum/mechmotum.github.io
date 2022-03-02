@@ -45,7 +45,6 @@ The Lab Community
   reading materials to get you started.
 
 .. _email list: https://groups.google.com/g/mechmotum
-.. _lab members page: {filename}/pages/members.rst
 
 General
 -------
