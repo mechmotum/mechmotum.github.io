@@ -256,8 +256,7 @@ Past Meeting Topics and Materials
    * - Bicycle Lab Journal Club
      - 2022-02-01
      - Leila Alizadehsaravi
-     - `Bicycle crash contributory factors: A systematic review 
-     <https://www.sciencedirect.com/science/article/pii/S0925753521003544>`__
+     - `Bicycle crash contributory factors: A systematic review <https://www.sciencedirect.com/science/article/pii/S0925753521003544>`__
    * - Computationally Reproducible Papers
      - 2022-01-18
      - Jason K. Moore
