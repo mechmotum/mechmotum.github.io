@@ -743,7 +743,7 @@ Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication 
    and also participate in the discussions.
 
 .. _How To Read A Paper:  http://ccr.sigcomm.org/online/files/p83-keshavA.pdf
-.. _Writing a Scientific-Style Thesis: https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/Writing-a-Scientific-Thesis.pdf
+.. _Writing a Scientific-Style Thesis: https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/writing_a_scientific_thesis.pdf
 
 .. _Guide to Writing a Literature Review for Science and Technology Students: https://lancaster.libguides.com/engineering/literaturereview
 
