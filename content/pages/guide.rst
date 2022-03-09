@@ -166,11 +166,6 @@ up-to-date rules if in question. The current lab rules are:
   <https://www.tudelft.nl/en/2021/tu-delft/coronavirus/>`_ and `3mE rules
   <https://www.tudelft.nl/en/3me/current/information-coronavirus/>`_ apply and
   the following rules are in addition to those.
-- No more than 6 people working in the lab at any given time. If you need to
-  visit the lab briefly and there are 6 people present, ask if the people
-  present are comfortable with you entering when arriving.
-- You are expected to maintain 1.5 m distance between everyone present in the
-  lab and use face masks when you are not seated.
 - If you are sick, stay home and get tested. Let others you were in contact
   with know immediately of possible or confirmed COVID infection to prevent
   spread.
@@ -528,6 +523,19 @@ took the item. Once the item is returned to the lab, note the date returned.
 If you damage or lose equipment you are responsible for fixing or finding a
 replacement. Please let your supervisor know if this occurs so you all can
 figure out a solution.
+
+Purchasing
+----------
+
+If the lab needs basic office supplies or computer supplies, a request should
+be made to the secretary. Don't purchase these yourself, because they should be
+purchased through the university vendors.
+
+If you need some lab supplies or equipment for your project, talk with your
+supervisor about it and they can order what you need if there are funds
+available.
+
+TU Delft 3mE VAT number: NL 001569569B01
 
 Training
 ========
