@@ -1,5 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - jobs</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/jobs.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-02-02T00:00:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Postdoctoral Researcher Opening: Advancing Biomechanical Modeling By Improving SymPy Code Generation (x/f/m)</title><link href="https://mechmotum.github.io/blog/sympy-czi-postdoc.html" rel="alternate"></link><published>2022-02-02T00:00:00-08:00</published><updated>2022-02-02T00:00:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-02-02:/blog/sympy-czi-postdoc.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 50%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - jobs</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/jobs.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-03-16T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>PhD Researcher Opening: Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated Vehicles</title><link href="https://mechmotum.github.io/blog/connected-bikes-avs.html" rel="alternate"></link><published>2022-03-16T00:00:00-07:00</published><updated>2022-03-16T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-03-16:/blog/connected-bikes-avs.html</id><summary type="html">&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;We are seeking a PhD researcher for a 4-year contract in a multidisciplinary
+research project to improve the safety of bicyclists and automated vehicles.&lt;/p&gt;
+&lt;p&gt;Transportation of the future will include a mixture of automated vehicles (AVs)
+and vulnerable road users (VRUs), like bicyclists and pedestrians. Unregulated
+mixing of automated …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="description"&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;We are seeking a PhD researcher for a 4-year contract in a multidisciplinary
+research project to improve the safety of bicyclists and automated vehicles.&lt;/p&gt;
+&lt;p&gt;Transportation of the future will include a mixture of automated vehicles (AVs)
+and vulnerable road users (VRUs), like bicyclists and pedestrians. Unregulated
+mixing of automated vehicles into urban areas has the potential to cause a rise
+in transportation related death and injury. This mixing also exacerbates safety
+concerns for vulnerable road users. Current VRU detection and its associated
+trajectory planning are based on information that is collected solely from AV
+sensors which is not sufficient to accurately predict the near-future behavior
+of vulnerable road users. We want to validate the hypothesis that digital
+information sharing among all road users combined with physiologically and
+dynamically realistic predictive models can guarantee overall safety. Our
+project goal is to achieve safe and socially acceptable interactions among
+automated vehicles and vulnerable bicyclists in dense urban environments by
+leveraging information shared in a two-way vehicle↔bicycle (V2B/B2V)
+communication system.&lt;/p&gt;
+&lt;p&gt;You will be supervised by Dr. Jason K. Moore, Dr. Azita Dabiri, Dr. Frederik
+Schulte, and Dr. Ir. Riender Happee. You will work with BSc, MSc, and PhD
+candidates in the involved research groups that span the BioMechanical
+Engineering, Cognitive Robotics, Delft Center for Systems and Control, and
+Maritime and Transport Technology departments. Specifically, the PhD candidate
+will have the opportunity to collaborate with others for human in the loop
+evaluation in terms of acceptance and perceived safety.&lt;/p&gt;
+&lt;p&gt;Opportunities for growing your academic career will be available, such as
+mentoring BSc/MSc Students, conference presentations, networking, and teaching.&lt;/p&gt;
+&lt;p&gt;We are looking for candidates that can start during the summer of 2022.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="requirements"&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;You should have:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;MSc in engineering or similar discipline by the start date of the position&lt;/li&gt;
+&lt;li&gt;Experience with simulation&lt;/li&gt;
+&lt;li&gt;Experience with a programming language (e.g., Python, Java, Matlab, etc.)&lt;/li&gt;
+&lt;li&gt;Good written and oral communication skills in English&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following aspects will help you stand out:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Thriving in multidisciplinary environments&lt;/li&gt;
+&lt;li&gt;Self-motivation&lt;/li&gt;
+&lt;li&gt;Curiosity-driven working attitude&lt;/li&gt;
+&lt;li&gt;Knowledge of control theory, transportation systems, machine learning, or
+vehicle dynamics&lt;/li&gt;
+&lt;li&gt;Prior experience with SUMO (&lt;a class="reference external" href="https://www.eclipse.org/sumo/"&gt;https://www.eclipse.org/sumo/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Keep in mind that this describes the background we imagine would best fit the
+role. Even if you do not meet all the requirements and feel that you are up for
+the task, we absolutely want to see your application!&lt;/p&gt;
+&lt;p&gt;Doing a PhD at TU Delft requires English proficiency at a certain level to
+ensure that the candidate is able to communicate and interact well, participate
+in English-taught Doctoral Education courses, and write scientific articles and
+a final thesis. For more details please check the Graduate Schools Admission
+Requirements.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="to-apply"&gt;
+&lt;h2&gt;To Apply&lt;/h2&gt;
+&lt;p&gt;Submit:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Motivation and CV.&lt;/li&gt;
+&lt;li&gt;A 1-page original research proposal with your ideas for addressing the
+problems described in the description.&lt;/li&gt;
+&lt;li&gt;Abstract of your MSc thesis&lt;/li&gt;
+&lt;li&gt;Contact information for up to 3 references&lt;/li&gt;
+&lt;li&gt;List of grades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;to the TU Delft website application portal linked below. We will not process
+applications sent by email and/or post.&lt;/p&gt;
+&lt;p&gt;Visit TU Delft's website to find more employment details and apply for the
+position (vacancy number: TUD02119):&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=2394&amp;amp;nPostingTargetId=6126&amp;amp;id=QEZFK026203F3VBQBLO6G68W9&amp;amp;LG=UK&amp;amp;mask=external"&gt;https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=2394&amp;amp;nPostingTargetId=6126&amp;amp;id=QEZFK026203F3VBQBLO6G68W9&amp;amp;LG=UK&amp;amp;mask=external&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Applications Due April 14, 2022&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="additional-information"&gt;
+&lt;h2&gt;Additional information&lt;/h2&gt;
+&lt;p&gt;For more information about this vacancy, please contact Jason Moore, email:
+&lt;a class="reference external" href="mailto:j.k.moore&amp;#64;tudelft.nl"&gt;j.k.moore&amp;#64;tudelft.nl&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For information about the selection procedure, please contact Anita van Vianen,
+HR Advisor, email: &lt;a class="reference external" href="mailto:application-3mE&amp;#64;tudelft.nl"&gt;application-3mE&amp;#64;tudelft.nl&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="jobs"></category><category term="bicycle"></category><category term="postdoc"></category><category term="engineering"></category></entry><entry><title>Postdoctoral Researcher Opening: Advancing Biomechanical Modeling By Improving SymPy Code Generation (x/f/m)</title><link href="https://mechmotum.github.io/blog/sympy-czi-postdoc.html" rel="alternate"></link><published>2022-02-02T00:00:00-08:00</published><updated>2022-02-02T00:00:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-02-02:/blog/sympy-czi-postdoc.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 50%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
