@@ -57,6 +57,24 @@ Current Funders and Partners
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/ictech-logo.png
           :width: 100%
           :target: https://www.ictech.se
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-swov.png
+          :width: 100%
+          :target: https://www.swov.nl
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png
+          :width: 100%
+          :target: https://www.sympy.org
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-prinoth.png
+          :width: 100%
+          :target: https://www.prinoth.com/
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-quantsight.png
+          :width: 100%
+          :target: https://www.quansight.com
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-clicknl.png
+          :height: 200px
+          :target: https://www.clicknl.nl
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/
+          :width: 100%
+          :target: none
 
 .. raw:: html
 
