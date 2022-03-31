@@ -14,7 +14,7 @@ Principal Investigators
    :align: center
 
    * - |headshot-moore-jason|
-     - **Jason K. Moore**, Assistant Professor
+     - **Dr. Jason K. Moore**, Assistant Professor
 
 
 .. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.png
@@ -26,12 +26,15 @@ Postdoctoral Researchers
 
 .. list-table::
    :class: borderless
-   :width: 60%
-   :widths: 20 80
+   :width: 100%
+   :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-alizadehsaravi-leila|
-     - | **Leila Alizadehsaravi**, PhD [TUD, Feb 2020-present]
+   * - |headshot-missing|
+     - | **Dr. Andrew Dressel** [TUD, Apr 2022-present]
+       |
+     - |headshot-alizadehsaravi-leila|
+     - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2020-present]
        | *Safety Evaluation of a Steer Assist Bicycle*
 
 .. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
@@ -66,26 +69,26 @@ Masters of Science Students
    :align: center
 
    * - |headshot-missing|
+     - | **Evelijn Verboom** [TUD, Feb 2022-present]
+       |
+     - |headshot-missing|
      - | **Jeswin Koshy Cherian** [TUD, Jan 2022-present]
        | *Near Zero Speed Self-Balancing Cargo Bicycle*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Dorus de Boer** [TUD, Oct 2021-present]
        | *Cycling Material Model Design*
-   * - |headshot-heinen-jan|
+     - |headshot-heinen-jan|
      - | **Jan Heinen** [TUD, Sep 2021-present]
        | *Skateboarding Biomechanics*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Simonas Draukšas** [TUD, Sep 2021-present]
        | *Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance*
-   * - |headshot-landre-daniel|
+     - |headshot-landre-daniel|
      - | **Daniël Landré** [TUD, Sep 2021-present]
        | *Adaptive Speed Control in Cycling*
-     - |headshot-singh-ajaypal|
+   * - |headshot-singh-ajaypal|
      - | **Ajaypal Singh** [TUD, Jul 2021-present]
        | *Brake Squeal in Disc Brakes*
-   * - |headshot-van-de-velde-shannon|
-     - | **Shannon van de Velde** [TUD, Dec 2020-present]
-       | *During cycling, which external forces result in loss of balance?*
      - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
@@ -100,10 +103,6 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-haasnoot-jelle| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png
-   :width: 100px
-   :height: 133px
-
-.. |headshot-van-de-velde-shannon| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-de-velde-shannon.jpg
    :width: 100px
    :height: 133px
 
@@ -143,26 +142,24 @@ PhD Candidates
      - Thesis: `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
 
 Masters of Science Students
-   - Jelle Haasnoot [TUD, -Nov 2021], now at Tacx
-   - Joris Kuiper [TUD, Sep 2020-Jun 2021], now at Gearbox
-
-     - Thesis: `Development of an Integrated Bicycle Accident Detection System:
-       Introducing ALARM: Accident Localisation And Recognition Method
-       <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_
-
-   - Jan Groenhuis [TUD, -Jun 2021]
-
-     - Thesis: `Experimental data-tracking of the BMX SX gate start using
-       biomechanical modeling and trajectory optimization
-       <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
-
+   - Shannon van de Velde [TUD, Dec 2020-Mar 2022], `Design of a setup for
+     experimental research on stability of a bicycle-rider system subject to
+     large perturbations
+     <http://resolver.tudelft.nl/uuid:4571c00e-3bfc-4d9c-a46a-30a3b30b932a>`_
+   - Jelle Haasnoot [TUD, -Nov 2021], now at Tacx, `Design and Validation of
+     Steer, Roll, Yaw and Sway Motion of a Kinematics-Based Bicycle Simulator
+     <http://resolver.tudelft.nl/uuid:39e7c31e-2b00-4ea6-908c-a18019b863f5>`_
+   - Joris Kuiper [TUD, Sep 2020-Jun 2021], now at Gearbox, `Development of an
+     Integrated Bicycle Accident Detection System: Introducing ALARM: Accident
+     Localisation And Recognition Method
+     <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_
+   - Jan Groenhuis [TUD, -Jun 2021], `Experimental data-tracking of the BMX SX
+     gate start using biomechanical modeling and trajectory optimization
+     <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
    - Junda Wu [TUD, Jan 2021-Mar 2021]
-   - van der Niet, A.M. [TUD, Sep 2020]
-
-     - Thesis: `Free-trajectory steady motion control optimisation for the
-       descent of elite cyclists
-       <http://resolver.tudelft.nl/uuid:47dfe9db-e2ef-4e03-a0d1-1494fd808446>`_
-
+   - van der Niet, A.M. [TUD, Sep 2020], `Free-trajectory steady motion control
+     optimisation for the descent of elite cyclists
+     <http://resolver.tudelft.nl/uuid:47dfe9db-e2ef-4e03-a0d1-1494fd808446>`_
    - Koen Wendel [TUD, Jul 2020]
    - Sterre Kuipers [TUD, May 2020]
    - Wouter Tel [TUD, April 2020]
@@ -174,10 +171,10 @@ Masters of Science Students
    - Robbin Walhout [TUD, May 2019]
    - Niels Baltus [TUD, May 2019]
    - Chris van Trigt [TUD, April 2019]
-   - `Abraham McKay`_ [UCD, Feb 2017-Jun 2018], now at `219 Design <https://www.219design.com>`_
-
-     - Thesis: `The Water Buffalo: Design of a Portable Bicycle Powered Irrigation Pump for Small-Scale African Farmers <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
-
+   - `Abraham McKay`_ [UCD, Feb 2017-Jun 2018], now at `219 Design
+     <https://www.219design.com>`_, `The Water Buffalo: Design of a Portable
+     Bicycle Powered Irrigation Pump for Small-Scale African Farmers
+     <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
    - Govert van der Gun [TUD, Nov 2018]
    - Maarten van den Bosch [TUD, Oct 2018]
    - Bernhard Westerhof [TUD, Aug 2018]
@@ -185,22 +182,16 @@ Masters of Science Students
    - Carlijn Sluiter [TUD, Jul 2018]
    - Jelte Doeksen [TUD, Apr 2018]
    - Janneke Voordouw [TUD, Apr 2018]
-   - P.H. De Jong [TUD, Feb 2017]
-
-     - Thesis: `Rear Wheel Steer Bikes <http://resolver.tudelft.nl/uuid:76f67586-ab15-4c85-9841-544259b3be82>`_
-
-   - M.M. Reijne [TUD, May 2016]
-
-     - Thesis: `The Next Level in Pole Vaulting <http://resolver.tudelft.nl/uuid:1bd480fc-4368-424f-adef-9d617a70e46f>`_
-
-   - P.M. Baines [TUD, April 2016]
-
-     - Thesis: `The influence of pedalling on the lateral dynamics of cycling: A modelling approach <http://resolver.tudelft.nl/uuid:f1fd56cd-ad77-4ca2-8635-a75fd9111898>`_
-
-   - I.M. Kalsbeek [TUD, Mar 2016]
-
-     - Thesis: `Experimental investigation into the shimmy motion of the bicycle for improving model-based shimmy estimations <http://resolver.tudelft.nl/uuid:a98d51c1-7754-4c29-b883-f130ba05136b>`_
-
+   - P.H. De Jong [TUD, Feb 2017], `Rear Wheel Steer Bikes
+     <http://resolver.tudelft.nl/uuid:76f67586-ab15-4c85-9841-544259b3be82>`_
+   - M.M. Reijne [TUD, May 2016], `The Next Level in Pole Vaulting
+     <http://resolver.tudelft.nl/uuid:1bd480fc-4368-424f-adef-9d617a70e46f>`_
+   - P.M. Baines [TUD, April 2016], `The influence of pedalling on the lateral
+     dynamics of cycling: A modelling approach
+     <http://resolver.tudelft.nl/uuid:f1fd56cd-ad77-4ca2-8635-a75fd9111898>`_
+   - I.M. Kalsbeek [TUD, Mar 2016], `Experimental investigation into the shimmy
+     motion of the bicycle for improving model-based shimmy estimations
+     <http://resolver.tudelft.nl/uuid:a98d51c1-7754-4c29-b883-f130ba05136b>`_
    - C.R. Lommers [TUD, Nov 2015]
    - E.M. Van der Meel [TUD, Sep 2013]
    - Eline van der Kruk [TUD, Oct 2013]
