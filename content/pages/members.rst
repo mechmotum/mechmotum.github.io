@@ -90,13 +90,14 @@ Masters of Science Students
      - | **Ajaypal Singh** [TUD, Jul 2021-present]
        | *Brake Squeal in Disc Brakes*
      - |headshot-missing|
+     - | **Francesca Andretta** [TUD, Feb 2021-present]
+       |
+   * - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-   * - |headshot-huiskens-tim|
+     - |headshot-huiskens-tim|
      - | **Tim Huiskens** [TUD]
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
-     -
-     -
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
