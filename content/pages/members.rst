@@ -32,9 +32,9 @@ Postdoctoral Researchers
 
    * - |headshot-missing|
      - | **Dr. Andrew Dressel** [TUD, Apr 2022-present]
-       |
+       | *Bicycle of the Future*
      - |headshot-alizadehsaravi-leila|
-     - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2020-present]
+     - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-present]
        | *Safety Evaluation of a Steer Assist Bicycle*
 
 .. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg

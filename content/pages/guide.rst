@@ -47,8 +47,8 @@ The Lab Community
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
 
-General
--------
+MSc General
+-----------
 
 - We expect you to take the lead in your project. Your supervisors are here to
   advise and guide you, but it is up to you to manage your time, relationships,
@@ -74,12 +74,14 @@ postings via the lab, here are some things you need to do:
   https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related/student-forms/internship-forms
 - Fill out the MSc internship initiation form with your project description and
   other relevant information. Develop this project idea with your internship
-  company/org contacts. If you think this aligns with Jason's research interests or
-  the internship came through the bike lab you can send the form to Jason and
-  ask him to be your TUD advisor. If he agrees, then you can obtain his
-  signature on the form and forward it to your respective MSc coordinator.
+  company/org contacts. If you think this aligns with Jason's research
+  interests or the internship came through the bike lab you can send the form
+  to Jason and ask him to be your TUD advisor. If he agrees, then you can
+  obtain his signature on the form and forward it to your respective MSc
+  coordinator.
 - Make all of your internship arrangements yourself with the company (travel,
-  stipend, housing, IP, NDA, etc.)
+  stipend, housing, IP, NDA, etc.). Reach out to your TUD supervisor if you
+  need help in any of these aspects.
 - To receive academic credit for your internship at the end you need to write a
   report and have it assessed by your TUD internship supervisor. The short report
   should contain aspects aligned with those described in this rubric:
@@ -91,7 +93,8 @@ postings via the lab, here are some things you need to do:
   version to your TUD supervisor.
 - Note that your TUD supervisor is typically not involved in your internship
   other than the signing the initial form and assessing and providing a grade
-  at the end.
+  at the end. The purpose of the internship is for you to get some non-academic
+  experience in engineering.
 
 Literature Study
 ----------------
