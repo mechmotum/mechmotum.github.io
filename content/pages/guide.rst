@@ -302,22 +302,22 @@ Past Meeting Topics and Materials
      - Jason K. Moore
      - `Slides
        <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
-   * - 
+   * -
      - 2021-12-07
      - Dorus de Boer
-     - 
-   * - 
+     -
+   * -
      - 2021-11-09
      - Marco Reijne
-     - 
-   * - 
+     -
+   * -
      - 2021-10-26
      - Jan Heinen
-     - 
-   * - 
+     -
+   * -
      - 2021-10-12
-     - Leila Alizadehsaravi 
-     - 
+     - Leila Alizadehsaravi
+     -
    * - Learning to stand with unexpected sensorimotor delays
      - 2021-09-28
      - Patrick Forbes
@@ -400,11 +400,11 @@ Open Science
 The default science and engineering practice from the lab should be open
 practices (open access publications, open source software, open data,
 accessible and public sharing etc.). If unsure whether to make information
-public, ask, otherwise please default to sharing early and often. We do work
-with organizations that value or require privacy (human subject data, student
-protected data, proprietary company needs). Always check with the involved
-parties before sharing when this is the case. This is something that should be
-discussed at the beginning of all projects.
+public ask you supervisor, otherwise please default to sharing early and often.
+We do work with organizations that value or require privacy (human subject
+data, student protected data, proprietary company needs). Always check with the
+involved parties before sharing when this is the case. This is something that
+should be discussed at the beginning of all projects.
 
 TU Delft offers several resources for open science:
 
