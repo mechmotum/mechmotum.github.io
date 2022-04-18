@@ -3,6 +3,7 @@ Products
 ========
 
 :sortorder: 3
+:template: bibliography
 
 Journal Articles
 ================
