@@ -558,9 +558,12 @@ than ~250 EUR. The basic steps are:
   documentation in the container.
 - Permanently mark the item(s) and container with "TU Delft Bicycle Lab" (use a
   paint pen, inscribing tool, etc.)
-- As you learn the device, leave any documentation you create in the Google
-  Drive folder or in a lab owned Git repository so that future users can learn
-  from your work.
+- As you learn the device, leave any relevant documentation you obtain or
+  create in the Google Drive folder so that future users can learn from your
+  work. Include the manufacturer's documents as well as your personal tips and
+  explanations on using the equipment. If any documentation is more appropriate
+  for storing and tracking with version control, then add that to a lab owned
+  Git repository.
 
 Training
 ========
