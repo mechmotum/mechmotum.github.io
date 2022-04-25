@@ -540,6 +540,28 @@ available.
 
 TU Delft 3mE VAT number: NL 001569569B01
 
+Equipment Inventory
+-------------------
+
+When new equipment arrives in the lab, the receiver is responsible for
+inventorying the equipment. This only needs to be done for items that cost more
+than ~250 EUR. The basic steps are:
+
+- Log the equipment in the inventory spreadsheet on the shared Google Drive.
+  This should include product name, manufacturer, serial number, manufacturer
+  contact info, value, etc. (fill out the existing columns or make new ones if
+  needed).
+- Make a folder in the Google Drive for the product and deposit any
+  documentation.
+- If the item doesn't have a storage container, obtain one so that it can
+  neatly be stored in the lab and things don't get lost. Leave paper
+  documentation in the container.
+- Permanently mark the item(s) and container with "TU Delft Bicycle Lab" (use a
+  paint pen, inscribing tool, etc.)
+- As you learn the device, leave any documentation you create in the Google
+  Drive folder or in a lab owned Git repository so that future users can learn
+  from your work.
+
 Training
 ========
 
