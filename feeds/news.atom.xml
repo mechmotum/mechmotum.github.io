@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-03-31T12:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Shannon van de Velde Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/shannon-van-de-velde-graduates.html" rel="alternate"></link><published>2022-03-31T12:00:00-07:00</published><updated>2022-03-31T12:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-03-31:/blog/shannon-van-de-velde-graduates.html</id><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/headshot-van-de-velde-shannon.jpg" style="height: 400px;" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-04-30T15:13:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Francesca Andretta Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/francesca-andretta-graduates.html" rel="alternate"></link><published>2022-04-30T15:13:00-07:00</published><updated>2022-04-30T15:13:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-04-30:/blog/francesca-andretta-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-andretta-francesca.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/portrait-andretta-francesca.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://nl.linkedin.com/in/francesca-andretta-4175b3173"&gt;Francesca Andretta&lt;/a&gt; successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc"&gt;Learning cycling styles using
+experimental trajectory data with Inverse Reinforcement Learning&lt;/a&gt;&amp;quot;. She
+developed methods to characterize whether a bicyclist was behaving more
+cautiously or more aggressively in their riding style based on GPS positioning
+data. Francesca was co-supervised by Azita Dabiri in the Delft Center for …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-andretta-francesca.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/portrait-andretta-francesca.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://nl.linkedin.com/in/francesca-andretta-4175b3173"&gt;Francesca Andretta&lt;/a&gt; successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc"&gt;Learning cycling styles using
+experimental trajectory data with Inverse Reinforcement Learning&lt;/a&gt;&amp;quot;. She
+developed methods to characterize whether a bicyclist was behaving more
+cautiously or more aggressively in their riding style based on GPS positioning
+data. Francesca was co-supervised by Azita Dabiri in the Delft Center for
+Systems and Control and Jason K. Moore in BioMechanical Engineering. Everyone
+at the bicycle lab is very proud of Francesca and wishes her the best!
+Francesca will move into a full time position at &lt;a class="reference external" href="https://visionhealth.gmbh"&gt;VisionHealth&lt;/a&gt; in Munich.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>Shannon van de Velde Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/shannon-van-de-velde-graduates.html" rel="alternate"></link><published>2022-03-31T12:00:00-07:00</published><updated>2022-03-31T12:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-03-31:/blog/shannon-van-de-velde-graduates.html</id><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/headshot-van-de-velde-shannon.jpg" style="height: 400px;" /&gt;
 &lt;p&gt;Shannon van de Velde has successfully defeneded &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:4571c00e-3bfc-4d9c-a46a-30a3b30b932a"&gt;Design of a setup for
 experimental research on stability of a bicycle-rider system subject to large
 perturbations&lt;/a&gt;&amp;quot;&lt;/p&gt;
@@ -249,7 +283,7 @@ Training Network (ITN) on &lt;em&gt;Moto&lt;/em&gt;rcycle &lt;em&gt;R&lt;/em&gt;
 from University of Firenze (UNIFI), Florence, Italy.  More info on this ITN can
 be found at: &lt;a class="reference external" href="http://www.motorist-ptw.eu/"&gt;http://www.motorist-ptw.eu/&lt;/a&gt;&lt;/p&gt;
 &lt;a class="reference external image-reference" href="http://www.motorist-ptw.eu/"&gt;&lt;img alt="MOTORIST Logo" class="align-center" src="http://bicycle.tudelft.nl/schwab/Bicycle/MOTORISTlogo.jpg" style="width: 115px; height: 76px;" /&gt;&lt;/a&gt;
-</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-25T00:00:00-07:00</published><updated>2013-05-25T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-25:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
+</content><category term="news"></category><category term="schwab blog"></category></entry><entry><title>Andrew Dressel Successfully Defended His PhD Thesis</title><link href="https://mechmotum.github.io/blog/dressel-phd-thesis.html" rel="alternate"></link><published>2013-05-30T00:00:00-07:00</published><updated>2013-05-30T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2013-05-30:/blog/dressel-phd-thesis.html</id><content type="html">&lt;p&gt;Andrew Dressel successfully defended his PhD thesis entitled: &lt;em&gt;MEASURING AND
 MODELING THE MECHANICAL PROPERTIES OF BICYCLE TIRES&lt;/em&gt;, PhD thesis, The
 University of Wisconsin-Milwaukee, May 2013.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/dressel2013measuring.pdf"&gt;pdf(30Mb)&lt;/a&gt;&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category><category term="phd"></category></entry><entry><title>Arend's TEDx Talk</title><link href="https://mechmotum.github.io/blog/schwab-ted-talk.html" rel="alternate"></link><published>2012-11-05T00:00:00-08:00</published><updated>2012-11-05T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2012-11-05:/blog/schwab-ted-talk.html</id><content type="html">&lt;p&gt;TED talk by Arend Schwab at TEDxDelft2012 on &amp;quot;Why bicycles do not fall&amp;quot;:&lt;/p&gt;
@@ -283,7 +317,7 @@ the large glass windows.&lt;/p&gt;
 &lt;blockquote&gt;
 M.V.C. Evertse, &lt;em&gt;Rider Analysis using a fully instrumented motorcycle&lt;/em&gt;, MSc
 thesis, Delft University of Technology, May 2010.  &lt;a class="reference external" href="http://bicycle.tudelft.nl/schwab/Bicycle/evertse2010riderMinApp.pdf"&gt;(pdf 1.9Mb)&lt;/a&gt;&lt;/blockquote&gt;
-</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-25T00:00:00-08:00</published><updated>2010-02-25T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-25:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
+</content><category term="news"></category><category term="msc"></category><category term="schwab blog"></category></entry><entry><title>Single Track Vehicle Dynamics Google Group</title><link href="https://mechmotum.github.io/blog/stvdy-google-group.html" rel="alternate"></link><published>2010-02-28T00:00:00-08:00</published><updated>2010-02-28T00:00:00-08:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2010-02-28:/blog/stvdy-google-group.html</id><content type="html">&lt;p&gt;Recently Jason Moore from UCDavis started a &lt;a class="reference external" href="http://groups.google.com/group/stvdy"&gt;google discussion group on single
 track vehicle dynamics&lt;/a&gt;.&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="schwab blog"></category></entry><entry><title>Jodi Kooijman Sucessfully Defended His MSc Thesis</title><link href="https://mechmotum.github.io/blog/kooijman-msc-thesis.html" rel="alternate"></link><published>2006-04-25T00:00:00-07:00</published><updated>2006-04-25T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2006-04-25:/blog/kooijman-msc-thesis.html</id><content type="html">&lt;p&gt;Jodi Kooijman succesfully defended his Engineering Dynamics MSc thesis:&lt;/p&gt;
 &lt;blockquote&gt;
