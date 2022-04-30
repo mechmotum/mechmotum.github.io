@@ -90,14 +90,13 @@ Masters of Science Students
      - | **Ajaypal Singh** [TUD, Jul 2021-present]
        | *Brake Squeal in Disc Brakes*
      - |headshot-missing|
-     - | **Francesca Andretta** [TUD, Feb 2021-present]
-       |
-   * - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-     - |headshot-huiskens-tim|
+   * - |headshot-huiskens-tim|
      - | **Tim Huiskens** [TUD]
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
+     -
+     -
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
@@ -143,6 +142,9 @@ PhD Candidates
      - Thesis: `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
 
 Masters of Science Students
+   - Francesca Andretta [TUD, Feb 2021-Apr 2022], `Learning cycling styles
+     using experimental trajectory data with Inverse Reinforcement Learning
+     <http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc>`_
    - Shannon van de Velde [TUD, Dec 2020-Mar 2022], `Design of a setup for
      experimental research on stability of a bicycle-rider system subject to
      large perturbations
