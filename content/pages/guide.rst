@@ -101,7 +101,7 @@ Literature Study
 
 - Review the `Literature Study learning objectives and rubric
   <https://d2k0ddhflgrk1i.cloudfront.net/Studentenportal/Faculteitspecifiek/3ME/Onderwijs/GERELATEERD/Formulieren/Rubric%20MSc%20Literature%20Review.pdf>`_
-- Read "`How to read a paper`_" and "`Guide to writing a literature review for Science and Technology students`_"
+- Read "`How to read a paper`_" and "Ten Simple Rules for Writing a Literature Review"
 - If you are a BME student, read the relevant guidance docs found on
   Brightspace "Biomedical Engineering Page".
 - Choose and learn a tool/method to organize your papers and notes (e.g.
@@ -759,9 +759,8 @@ Academia
 
 Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007.
    Introduces a structured 3 phase method of reading scientific literature.
-`Guide to writing a literature review for Science and Technology students`_, Lancaster University
-   This is a nice guide that gives starting information for those of you
-   working on a literature study.
+Ten Simple Rules for Writing a Literature Review, Philip E. Bourne, 2013, https://dx.doi.org/10.1371%2Fjournal.pcbi.1003149
+   High level tips for writing a literature review.
 `Writing a Scientific-Style Thesis`_: A Guide for Graduate Research Students, NUI Galway, Dr. Dermot Burns, 2017
    A comprehensive guide to writing a thesis.
 "`The Science of Scientific Writing <https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf>`_" by George D. Gopen and Judith A. Swan, 1990
