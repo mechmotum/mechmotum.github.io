@@ -761,6 +761,9 @@ Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication 
    Introduces a structured 3 phase method of reading scientific literature.
 Ten Simple Rules for Writing a Literature Review, Philip E. Bourne, 2013, https://dx.doi.org/10.1371%2Fjournal.pcbi.1003149
    High level tips for writing a literature review.
+Engineering: The Literature Review Process https://libguides.asu.edu/engineeringlitreview/start
+   A guide from Arizone State University on writing and engineering literature
+   review.
 `Writing a Scientific-Style Thesis`_: A Guide for Graduate Research Students, NUI Galway, Dr. Dermot Burns, 2017
    A comprehensive guide to writing a thesis.
 "`The Science of Scientific Writing <https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf>`_" by George D. Gopen and Judith A. Swan, 1990
