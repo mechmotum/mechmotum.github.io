@@ -83,14 +83,6 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
-   * - `Validation of Ski & Snowboarding Low Impact Jump Design <{filename}/pages/jobs/ski-jump-impact-model-validation.rst>`_
-     - 2022-01-19
-     - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
-     - Internship and Thesis
-   * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
-     - 2022-01-14
-     - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
-     - Internship & Thesis
    * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
      - 2021-07-06
      - `REV'IT! <https://www.revitsport.com>`_
@@ -159,6 +151,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Validation of Ski & Snowboarding Low Impact Jump Design <{filename}/pages/jobs/ski-jump-impact-model-validation.rst>`_
+     - 2022-01-19
+     - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
+     - Jan van der Schot
+   * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
+     - 2022-01-14
+     - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
+     - Jens Keijser
    * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
      - 2022-01-11
      - `Ictech <https://ictech.se/>`_
