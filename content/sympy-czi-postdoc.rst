@@ -7,6 +7,11 @@ Postdoctoral Researcher Opening: Advancing Biomechanical Modeling By Improving S
 :category: jobs
 :tags: bicycle,postdoc,engineering,software
 
+.. topic:: Filled
+   :class: alert alert-warning
+
+   This job has been filled and is no longer open.
+
 .. list-table::
    :class: borderless
    :width: 50%

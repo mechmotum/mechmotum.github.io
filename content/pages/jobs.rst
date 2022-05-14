@@ -38,15 +38,6 @@ PhD: Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated
 | `Lab news post <{filename}/connected-bikes-avs.rst>`__
 | Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=2394&nPostingTargetId=6126&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&mask=external
 
-CZI SymPy Postdoctoral Position
--------------------------------
-
-| TU Delft Vacancy Number: TUD01994
-| Posted: February 2, 2022
-| Applications due by: **February 28, 2022**.
-| `Lab news post <{filename}/sympy-czi-postdoc.rst>`__
-| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=2261&nPostingTargetId=5624&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&mask=external
-
 Master's Students
 =================
 
@@ -173,15 +164,15 @@ in finding students for [#]_:
      - Simonas Draukšas
    * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
      - 2020-09-10
-     - USSEA_
+     - Eline van der Kruk (TU Delft, BioMech), Raymund ten Broek (USPC)
      - Jan Heinen
    * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
      - 2021-02-15
-     - Dr. Laura Marchal-Crespo (TU Delft, CoR)
+     - Dr. Laura Marchal-Crespo (TU Delft, CoR), Riender Happee (TU Delft, CoR), Leila Alizadehsaravi (TU Delft, BioMech)
      - Simonas Draukšas
    * - `Adaptive Speed Control in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`_
      - 2020-09-10
-     - Gazelle_
+     - Gazelle_, Victor Knoop (TU Delft, Civil Engr)
      - Daniël Landré
    * - `Understanding Disc Brake Squeal in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`_
      - 2020-09-10
