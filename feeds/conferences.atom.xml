@@ -65,37 +65,4 @@ me. &lt;a class="reference external" href="https://objects-us-east-1.dream.io/me
 &lt;/ul&gt;
 &lt;p&gt;We are crossing our fingers for acceptance! Thanks for all the hard work from
 the students!&lt;/p&gt;
-</content><category term="conferences"></category><category term="sports"></category><category term="biomechanics"></category><category term="bicycles"></category><category term="handling"></category><category term="optimization"></category><category term="design"></category><category term="mechatronics"></category><category term="ski"></category></entry><entry><title>Oliver Lee Presents Results on the State Bicycle Simulator</title><link href="https://mechmotum.github.io/blog/static-bicycle-simulator.html" rel="alternate"></link><published>2015-09-15T00:00:00-07:00</published><updated>2015-09-15T00:00:00-07:00</updated><author><name>Arend L. Schwab</name></author><id>tag:mechmotum.github.io,2015-09-15:/blog/static-bicycle-simulator.html</id><summary type="html">&lt;p&gt;Oliver Lee successfully presented some results on the usage of our static
-bicycle simulator at the International Cycle Safety Conference in Hannover,
-Germany (&lt;a class="reference external" href="http://www.icsc2015.eu/"&gt;ICSC2015&lt;/a&gt;). One of the characteristics of
-the Static Bicycle Simulator is haptic feedback on the handlebars driven by the
-bicycle simulation model. Another aspect is that it …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Oliver Lee successfully presented some results on the usage of our static
-bicycle simulator at the International Cycle Safety Conference in Hannover,
-Germany (&lt;a class="reference external" href="http://www.icsc2015.eu/"&gt;ICSC2015&lt;/a&gt;). One of the characteristics of
-the Static Bicycle Simulator is haptic feedback on the handlebars driven by the
-bicycle simulation model. Another aspect is that it does not roll, therefore we
-call it the &lt;em&gt;static&lt;/em&gt; bicycle simulator. For visual feedback a simple screen
-with third person view is used, but a head mounted display (HMD, such as the
-&lt;a class="reference external" href="https://www.oculus.com/en-us/rift/"&gt;oculus rift&lt;/a&gt;) can be used.&lt;/p&gt;
-&lt;p&gt;Applications for this simulator are: traffic and environmental interaction
-simulation and training, balance and maneuver assessment, balance training.
-Below is a short youtube video to see the static bicycle simulator in
-operation.&lt;/p&gt;
-&lt;table border="1" class="table docutils"&gt;
-&lt;colgroup&gt;
-&lt;col width="50%" /&gt;
-&lt;col width="50%" /&gt;
-&lt;/colgroup&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="http://bicycle.tudelft.nl/schwab/Bicycle/StaticBicycleSimulator.png"&gt;&lt;img alt="static bicycle simulator" src="http://bicycle.tudelft.nl/schwab/Bicycle/StaticBicycleSimulator%20small.png" style="width: 234px; height: 184px;" /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;iframe width="560" height="315"
-src="https://www.youtube.com/embed/XsQ3_LYgipM" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Static Bicycle Simulator&lt;/td&gt;
-&lt;td&gt;Static Bicycle Simulator on YouTube&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</content><category term="conferences"></category><category term="schwab blog"></category><category term="icsc2015"></category></entry></feed>
+</content><category term="conferences"></category><category term="sports"></category><category term="biomechanics"></category><category term="bicycles"></category><category term="handling"></category><category term="optimization"></category><category term="design"></category><category term="mechatronics"></category><category term="ski"></category></entry></feed>
