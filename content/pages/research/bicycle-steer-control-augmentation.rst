@@ -21,4 +21,11 @@ Bicycle Steering Control Augmentation
 
 Steering is the primary and most effective control input for balancing and
 directing a bicycle along the desired path. It is possible to introduce
-acutators that manipulate the steering.
+acutators that manipulate the steering in conjunction with the rider. The
+acuators' behavior can be driven by sensor measurements. We are interested in
+augmenting the rider's steering behavior when the rider's own actions are
+deficient for the event at hand. For example, if the rider steers the bicycle
+such that it looses traction and the rider will likely fall an acutator can
+take over an attempt to prevent the fall. Motor control placed into or
+alongside the human-vehicle control loop can also alter the dynamics of the
+vehicle to make it easier to control. This is standard practive in aircraft.
