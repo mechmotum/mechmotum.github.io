@@ -69,34 +69,35 @@ Masters of Science Students
    :align: center
 
    * - |headshot-missing|
+     - | **Jens Keijser** [TUD, May 2022-present]
+       | *Outdoor Cycling Propulsion Simulation*
+     - |headshot-missing|
      - | **Evelijn Verboom** [TUD, Feb 2022-present]
        |
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Jeswin Koshy Cherian** [TUD, Jan 2022-present]
        | *Near Zero Speed Self-Balancing Cargo Bicycle*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Dorus de Boer** [TUD, Oct 2021-present]
        | *Cycling Material Model Design*
-     - |headshot-heinen-jan|
+   * - |headshot-heinen-jan|
      - | **Jan Heinen** [TUD, Sep 2021-present]
        | *Skateboarding Biomechanics*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Simonas Draukšas** [TUD, Sep 2021-present]
        | *Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance*
-     - |headshot-landre-daniel|
+   * - |headshot-landre-daniel|
      - | **Daniël Landré** [TUD, Sep 2021-present]
        | *Adaptive Speed Control in Cycling*
-   * - |headshot-singh-ajaypal|
+     - |headshot-singh-ajaypal|
      - | **Ajaypal Singh** [TUD, Jul 2021-present]
        | *Brake Squeal in Disc Brakes*
-     - |headshot-missing|
+   *  - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-   * - |headshot-huiskens-tim|
+     - |headshot-huiskens-tim|
      - | **Tim Huiskens** [TUD]
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
-     -
-     -
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
