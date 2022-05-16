@@ -92,7 +92,7 @@ Masters of Science Students
      - |headshot-singh-ajaypal|
      - | **Ajaypal Singh** [TUD, Jul 2021-present]
        | *Brake Squeal in Disc Brakes*
-   *  - |headshot-missing|
+   * - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
      - |headshot-huiskens-tim|
