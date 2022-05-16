@@ -99,30 +99,39 @@ postings via the lab, here are some things you need to do:
 Literature Study
 ----------------
 
-- Review the `Literature Study learning objectives and rubric
-  <https://d2k0ddhflgrk1i.cloudfront.net/Studentenportal/Faculteitspecifiek/3ME/Onderwijs/GERELATEERD/Formulieren/Rubric%20MSc%20Literature%20Review.pdf>`_
-- Read "`How to read a paper`_" and "Ten Simple Rules for Writing a Literature Review"
 - If you are a BME student, read the relevant guidance docs found on
   Brightspace "Biomedical Engineering Page".
+- Review the "MSc Literature Review Assessment Rubric" on the `3mE MSc Forms`_
+  page.
+- Read "How to read a paper" and "Ten Simple Rules for Writing a Literature
+  Review" and review the "The Literature Review Process" website in the
+  recommended reading section below.
 - Choose and learn a tool/method to organize your papers and notes (e.g.
   Zotero, Mendeley, Endnote, Excel).
 - The first goal is to read a large quantity of paper abstracts (phase 1 in
   "How to Read a Paper") to get a broad sense of what people are researching
   about the topics of interest.
-- The second goal is to formulate a research question(s) that you can likley
+- The second goal is to formulate a research question(s) that you can likely
   answer with the papers you read.
-- Third goal is to delve deep into papers that are closely related to your
-  research question, analyze and critique them, and synthesize the knowledge you
-  obtain from them into a coherent answer to you research question.
+- Once you have a research question in mind, arrange a meeting with your
+  supervisors to present the question and receive feedback.
+- The third goal is to delve deep into papers that are closely related to your
+  research question, analyze and critique them, and synthesize the knowledge
+  you obtain from them into a coherent answer to you research question.
+- Before writing your report read "The Science of Scientific Writing" and "How
+  to write a good (enough) report" in the recommend reading section below.
 - Lastly, write up your findings for a technical audience in a way that answers
   your research question.
 - Once you have a first full draft of the literature study, request feedback
-  from your supervisors. This usually takes a week. Use the feedback to improve
-  your document and then submit it to your supervisors for their official
-  assessment and grade.
+  from your supervisors. This usually takes a week. You can arrange a meeting
+  to receive verbal feedback also. Use the feedback to improve your document
+  and then submit it to your supervisors for their official assessment and
+  grade.
 - As you approach the finish of your literature study you should schedule your
   colloquium, where you will present the results of your literature study to
-  your peers and possibly some of your thesis plan.
+  your peers.
+
+.. _3mE MSc Forms: https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related/student-forms/msc-forms/
 
 MSc Thesis
 ----------
