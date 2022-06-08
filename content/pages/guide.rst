@@ -62,6 +62,8 @@ MSc General
 Internship
 ----------
 
+15 ECs (~400 hours, 10 weeks full time)
+
 After you have found an internship, typically on your own but sometimes through
 postings via the lab, here are some things you need to do:
 
@@ -99,6 +101,8 @@ postings via the lab, here are some things you need to do:
 Literature Study
 ----------------
 
+10 ECs (~270 hours, 7 weeks)
+
 - If you are a BME student, read the relevant guidance docs found on
   Brightspace "Biomedical Engineering Page".
 - Review the "MSc Literature Review Assessment Rubric" on the `3mE MSc Forms`_
@@ -135,6 +139,8 @@ Literature Study
 
 MSc Thesis
 ----------
+
+35 ECs (~945 hours, 24 weeks)
 
 Basic Steps:
 
