@@ -55,14 +55,15 @@ MSc General
   work, etc.
 - BME MSc students now have some new excellent guidance documents with
   flowcharts available on the "Master Biomedical Engineering" Brightspace
-  course under "ALL STUDENTS - Flowcharts & Guidance Docs".
+  course under "ALL STUDENTS - Flowcharts & Guidance Docs". Please read these
+  and reference them regularly.
 - BMD & BME students are encouraged to join the "Graduation Community Program"
   for get togethers and workshops on topics to help you move through your MSc.
 
 Internship
 ----------
 
-15 ECs (~400 hours, 10 weeks full time)
+15 ECs (420 hours, ~10 weeks full time)
 
 After you have found an internship, typically on your own but sometimes through
 postings via the lab, here are some things you need to do:
@@ -87,9 +88,10 @@ postings via the lab, here are some things you need to do:
 - To receive academic credit for your internship at the end you need to write a
   report and have it assessed by your TUD internship supervisor. The short report
   should contain aspects aligned with those described in this rubric:
-  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf.
-  This rubric will not be used to determine your grade, it is simply pass/fail
-  based on the supervisor's review.
+  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf
+  and the direction and needs of your external internship supervisor. This rubric
+  will not be used to determine your grade, it is simply pass/fail based on the
+  supervisor's review.
 - You also need your external internship supervisor to fill out the form
   "INTERNSHIP ASSESSMENT FORM FOR EXTERNAL PARTIES" and submit the completed
   version to your TUD supervisor.
@@ -101,10 +103,13 @@ postings via the lab, here are some things you need to do:
 Literature Study
 ----------------
 
-10 ECs (~270 hours, 7 weeks)
+10 ECs (280 hours, ~7 weeks full time)
 
 - If you are a BME student, read the relevant guidance docs found on
   Brightspace "Biomedical Engineering Page".
+- Arrange an initial meeting with your supervisor(s) to discuss how to get
+  started on the literature study and to discuss the general topic area of the
+  study.
 - Review the "MSc Literature Review Assessment Rubric" on the `3mE MSc Forms`_
   page.
 - Read "How to read a paper" and "Ten Simple Rules for Writing a Literature
@@ -118,7 +123,8 @@ Literature Study
 - The second goal is to formulate a research question(s) that you can likely
   answer with the papers you read.
 - Once you have a research question in mind, arrange a meeting with your
-  supervisors to present the question and receive feedback.
+  supervisors to present the question and receive feedback (this should occur
+  within the first two weeks of work).
 - The third goal is to delve deep into papers that are closely related to your
   research question, analyze and critique them, and synthesize the knowledge
   you obtain from them into a coherent answer to you research question.
@@ -140,25 +146,38 @@ Literature Study
 MSc Thesis
 ----------
 
-35 ECs (~945 hours, 24 weeks)
+35 ECs (980 hours, ~25 weeks full time)
 
 Basic Steps:
 
 - (CoR based MSc tracks only) Submit MSc initiation form.
 - Formulate a research question or hypothesis that you'd like address in
-  consultation with your supervisors (usually in the later portion of your
-  literature study period).
-- Develop a written project plan (2-3 pages): research question/aim/goals, your
-  basic technical approach, timeline, milestones, resources, etc.
+  consultation with your supervisors (this usually occurs in the later portion
+  of your literature study period).
+- Develop a written project plan (3 pages): research question/aim/goals,
+  your basic technical approach, timeline, milestones, resources, etc.
 - Organize a kickoff meeting with all of your supervisors to present your
   research project and project plan.
+- Adjust your project plan based on the feedback at the kickoff meeting.
 - Work on the project with your daily supervisor's guidance.
-- Present your progress at a midterm meeting with all of your supervisors.
+- Present your progress at a midterm meeting with all of your supervisors. The
+  midterm should occur after you have significant preliminary results that
+  demonstrate you can succeed in the final project execution.
 - Work on the project with your daily supervisor's guidance.
-- Send your draft thesis to your supervisors and arrange a Go/No-Go meeting.
-- Arrange your MSc defense.
-- Edit your thesis and send the final version to your supervisors two weeks
-  before the defense.
+- Once you are getting close to a draft thesis arrange a Go/No-Go meeting. This
+  meeting should include all members of your defense committee. Typically
+  give the supervisors one week to read and comment on the draft before the
+  meeting.
+- If you get a "Go" at the Go/No-Go meeting then you should initiate the
+  arrangement of your defense by submitting the correct forms to your track
+  coordinators and department secretaries.
+- If you get a "No-Go", at the Go/No-Go meeting then take the supervisors'
+  feedback and improve your work until you are ready for another Go/No-Go
+  meeting.
+- When you have a "Go", edit your thesis based on the supervisors' feedback.
+  When you have a final version of your thesis, send it to your supervisors two
+  weeks before the defense and submit it to the TU Delft Education Repository.
+  Make sure to add an embargo if your work requires one.
 
 Other:
 
@@ -186,7 +205,7 @@ up-to-date rules if in question. The current lab rules are:
   the following rules are in addition to those.
 - If you are sick, stay home and get tested. Let others you were in contact
   with know immediately of possible or confirmed COVID infection to prevent
-  spread.
+  spread. Follow the Dutch government recommendations and regulations.
 - Take the virus seriously and respect everyone's health needs/wishes. Everyone
   should feel comfortable if using the space. Communication is key for this.
 
@@ -540,7 +559,9 @@ took the item. Once the item is returned to the lab, note the date returned.
 
 If you damage or lose equipment you are responsible for fixing or finding a
 replacement. Please let your supervisor know if this occurs so you all can
-figure out a solution.
+figure out a solution. Your caution and carefulness should be proportionate to
+the cost of the lab equipment. Treat things as if they were your own and you
+paid for it.
 
 Purchasing
 ----------
@@ -560,7 +581,7 @@ Equipment Inventory
 
 When new equipment arrives in the lab, the receiver is responsible for
 inventorying the equipment. This only needs to be done for items that cost more
-than ~250 EUR. The basic steps are:
+than 250 EUR. The basic steps are:
 
 - Log the equipment in the inventory spreadsheet on the shared Google Drive.
   This should include product name, manufacturer, serial number, manufacturer
