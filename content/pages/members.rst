@@ -164,17 +164,36 @@ Masters of Science Students
    - van der Niet, A.M. [TUD, Sep 2020], `Free-trajectory steady motion control
      optimisation for the descent of elite cyclists
      <http://resolver.tudelft.nl/uuid:47dfe9db-e2ef-4e03-a0d1-1494fd808446>`_
-   - Koen Wendel [TUD, Jul 2020]
-   - Sterre Kuipers [TUD, May 2020]
-   - Wouter Tel [TUD, April 2020]
-   - Camilo Rochello [TUD, Dec 2019]
-   - Sanjit Shankar [TUD, Dec 2019]
-   - Christos Cristoforidis [TUD, Dec 2019]
-   - Helke van Grieken [TUD, Nov 2019]
-   - Jelle Waling de Haan [TUD, June 2019]
-   - Robbin Walhout [TUD, May 2019]
-   - Niels Baltus [TUD, May 2019]
-   - Chris van Trigt [TUD, April 2019]
+   - Koen Wendel [TUD, Jul 2020], `Bicycle-rider control identification
+     <http://resolver.tudelft.nl/uuid:02add62a-cd2f-4476-9ec9-bf102c0aec88>`_
+   - Sterre Kuipers [TUD, May 2020], `The Stability of a Bicycle-Rider System:
+     Basin of Attraction Identification and its Sensivity to Neural Time Delay
+     <http://resolver.tudelft.nl/uuid:ed13a3b7-0bd6-4739-ab72-45cad9b98e85>`_
+   - Wouter Tel [TUD, April 2020], `Team time trial strategy optimization:
+     Model development and optimization for the team time trial in road cycling
+     <http://resolver.tudelft.nl/uuid:00e8745f-41b9-4fdf-a51a-d9f538016baf>`_
+   - Camilo Rochello [TUD, Dec 2019], `Instrumentation of a Skeleton Sled:
+     Novel Tactile Steering Force Sensors
+     <http://resolver.tudelft.nl/uuid:85aa19e0-a3c4-4a6b-9d25-dbf0c2f6c8bd>`_
+   - Sanjit Shankar [TUD, Dec 2019], `A Real-time Simulator for the Sport of
+     Skeleton <http://resolver.tudelft.nl/uuid:e2c6c533-bb66-4bff-8e49-70fce4968763>`_
+   - Christos Cristoforidis [TUD, Dec 2019], `Rider control identification in
+     cycling taking into account steer torque feedback and sensorial delays
+     <http://resolver.tudelft.nl/uuid:2dbf0e15-a419-4267-ab6c-735409067d1a>`_
+   - Helke van Grieken [TUD, Nov 2019], `Pedalling performance in the BMX
+     supercross gate start: A field-based observational study
+     <http://resolver.tudelft.nl/uuid:80645a1b-be23-48a9-86d9-61a3dbe76989>`_
+   - Jelle Waling de Haan [TUD, June 2019], `The apparent mass and
+     transmissibility of a bicycle-rider system
+     <http://resolver.tudelft.nl/uuid:a2d801b0-e65b-41c4-9dd8-8dab5e6bc29b>`_
+   - Robbin Walhout [TUD, May 2019], `Brake squeal: A fundamental study on
+     bicycle brake squeal
+     <http://resolver.tudelft.nl/uuid:5730ee26-2935-4158-a8cc-62c0c68761a5>`_
+   - Niels Baltus [TUD, May 2019], `About the mechanical properties of bicycle
+     tyres <http://resolver.tudelft.nl/uuid:e79300a2-ff69-4d32-b1db-798a76aea0ca>`_
+   - Chris van Trigt [TUD, April 2019], `Exploring bicycle braking during a
+     descent
+     <http://resolver.tudelft.nl/uuid:eaea188b-0a81-4987-95fa-c30c9cf99724>`_
    - `Abraham McKay`_ [UCD, Feb 2017-Jun 2018], now at `219 Design
      <https://www.219design.com>`_, `The Water Buffalo: Design of a Portable
      Bicycle Powered Irrigation Pump for Small-Scale African Farmers
