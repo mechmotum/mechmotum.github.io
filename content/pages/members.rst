@@ -16,7 +16,6 @@ Principal Investigators
    * - |headshot-moore-jason|
      - **Dr. Jason K. Moore**, Assistant Professor
 
-
 .. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.png
    :width: 100px
    :height: 133px
@@ -68,15 +67,15 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-van-der-schot-jan|
+     - | **Jan van der Schot** [TUD, Jul 2022-present]
+       | *Ski Jump Safety Assessment*
+     - |headshot-missing|
      - | **Jens Keijser** [TUD, May 2022-present]
        | *Outdoor Cycling Propulsion Simulation*
-     - |headshot-missing|
-     - | **Evelijn Verboom** [TUD, Feb 2022-present]
-       |
    * - |headshot-missing|
-     - | **Jeswin Koshy Cherian** [TUD, Jan 2022-present]
-       | *Near Zero Speed Self-Balancing Cargo Bicycle*
+     - | **Evelijn Verboom** [TUD, Feb 2022-present]
+       | *Human Intention Detection for Bicycle Steer Assist*
      - |headshot-missing|
      - | **Dorus de Boer** [TUD, Oct 2021-present]
        | *Cycling Material Model Design*
@@ -98,6 +97,10 @@ Masters of Science Students
      - |headshot-huiskens-tim|
      - | **Tim Huiskens** [TUD]
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
+
+.. |headshot-van-der-schot-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
@@ -143,6 +146,8 @@ PhD Candidates
      - Thesis: `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
 
 Masters of Science Students
+   - Jeswin Koshy Cherian [TUD, Jan 2022-Jun 2022], Near Zero Speed
+     Self-Balancing Cargo Bicycle, MSc Honors Project
    - Francesca Andretta [TUD, Feb 2021-Apr 2022], `Learning cycling styles
      using experimental trajectory data with Inverse Reinforcement Learning
      <http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc>`_
