@@ -11,8 +11,8 @@ nuts and bolts of how the lab functions. It's primary purpose is for
 on-boarding new members, but is also a reference for current members. For this
 page to be useful, all lab members will need to provide their collective
 knowledge and experiences. It is up to all of us to make this guide useful. You
-are expected to contribute to the guide and edit it. Discuss with the lab any
-desires to change any of the guidelines.
+are expected to contribute to the guide and edit it to do so. Discuss with the
+lab any desires to change any of the guidelines.
 
 Getting Started
 ===============
@@ -26,8 +26,9 @@ The Lab Community
   - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's element/matrix
     chat room.
 
-- Send an introduction email to the lab email list: who you are, a bit about
-  yourself, what you will work on, etc.
+- Send an introduction email to the lab email list
+  (mechmotum@googlegroups.com): who you are, a bit about yourself, what you
+  will work on, etc.
 - Add your name and portrait to the `lab members page`_ by sending a PNG or JPG
   300px x 400px portrait to Jason or by submitting a pull request on Github.
 - Setup regular mentorship meetings with your mentor(s). This should at least
@@ -41,6 +42,7 @@ The Lab Community
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Jason. Ask for a tour of the space from
   a current lab member before you start working there.
+- Request access to the lab's shared Google Drive.
 - See the `recommended reading list <#recommended-reading>`_ below for some
   reading materials to get you started.
 
