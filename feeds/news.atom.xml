@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-05-14T17:40:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Steer Assist Bicycle Featured on German Tech Website Heise Online</title><link href="https://mechmotum.github.io/blog/heise-online-article.html" rel="alternate"></link><published>2022-05-14T17:40:00-07:00</published><updated>2022-05-14T17:40:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-05-14:/blog/heise-online-article.html</id><content type="html">&lt;p&gt;Hans Dorsch, from Heise Online visited the Bicycle Lab to interview us and test
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-08-24T11:15:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Ajaypal Singh Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/ajaypal-singh-graduates.html" rel="alternate"></link><published>2022-08-24T11:15:00-07:00</published><updated>2022-08-24T11:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-08-24:/blog/ajaypal-singh-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-singh-ajaypal.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-singh-ajaypal.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.linkedin.com/in/singhajaypal2018/"&gt;Ajaypal Singh&lt;/a&gt; successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:dd809802-ea24-48b2-b63c-150611f612c9"&gt;Investigation of the chatter and
+squeal phenomenon in bicycle disc brakes&lt;/a&gt;&amp;quot;. He
+developed methods to experimentally determine combinations of bicycle
+components that cause disc brake noise, developed an FEA model that can predict
+disc brake squeal frequencies, and introduced simple countermeasures that
+reduce unwanted squealing noises …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-singh-ajaypal.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-singh-ajaypal.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.linkedin.com/in/singhajaypal2018/"&gt;Ajaypal Singh&lt;/a&gt; successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:dd809802-ea24-48b2-b63c-150611f612c9"&gt;Investigation of the chatter and
+squeal phenomenon in bicycle disc brakes&lt;/a&gt;&amp;quot;. He
+developed methods to experimentally determine combinations of bicycle
+components that cause disc brake noise, developed an FEA model that can predict
+disc brake squeal frequencies, and introduced simple countermeasures that
+reduce unwanted squealing noises. Ajaypal was co-supervised by Hans Vreman
+(Gazelle), Andrew Dressel (TU Delft), and Jason Moore (TU Delft). Everyone at
+the bicycle lab is very proud of Ajaypal and wishes him the best in his next
+step in his career.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>Steer Assist Bicycle Featured on German Tech Website Heise Online</title><link href="https://mechmotum.github.io/blog/heise-online-article.html" rel="alternate"></link><published>2022-05-14T17:40:00-07:00</published><updated>2022-05-14T17:40:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-05-14:/blog/heise-online-article.html</id><content type="html">&lt;p&gt;Hans Dorsch, from Heise Online visited the Bicycle Lab to interview us and test
 out the steer assist prototype. His article can be found here:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://www.heise.de/hintergrund/Assistierte-Radtour-Selbstlenkendes-E-Bike-im-Test-7074981.html"&gt;https://www.heise.de/hintergrund/Assistierte-Radtour-Selbstlenkendes-E-Bike-im-Test-7074981.html&lt;/a&gt;&lt;/p&gt;
 </content><category term="news"></category></entry><entry><title>Bicycle Lab Featured on BBC CrowdScience Podcast</title><link href="https://mechmotum.github.io/blog/crowdscience-podcast.html" rel="alternate"></link><published>2022-04-30T15:53:00-07:00</published><updated>2022-04-30T15:53:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-04-30:/blog/crowdscience-podcast.html</id><summary type="html">&lt;p&gt;BBC World Service sent two reporters to interview us and try out some bicycles
