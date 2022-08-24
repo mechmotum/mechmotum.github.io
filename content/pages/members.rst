@@ -57,7 +57,8 @@ PhD Candidates
    * - |headshot-dukalski-rado|
      - **Rado Dukalski** [TUD, March 2018-present]
      - |headshot-missing|
-     - **Christoph Schmidt** [TUD, October 2022-present]
+     - | **Christoph Schmidt** [TUD, October 2022-present]
+       | *Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated Vehicles*
 
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
    :width: 100px
