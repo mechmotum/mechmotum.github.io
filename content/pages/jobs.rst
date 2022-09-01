@@ -17,7 +17,8 @@ options:
 
 All paid positions associated with the lab will be posted to the `TU Delft
 vacancies website`_, the `BioMechanical Engineering Department vacancies web
-page`_, `Academic Transfer`_ [#]_, and/or this lab website.
+page`_, `Academic Transfer`_ [#]_, and/or `this lab website
+</category/jobs.html>`_.
 
 .. _Academic Transfer: http://www.academictransfer.com
 .. _TU Delft vacancies website: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/
@@ -28,15 +29,6 @@ page`_, `Academic Transfer`_ [#]_, and/or this lab website.
    also required to have a Master's degree to start a PhD.
 .. [#] All academic jobs in the Netherlands are (and have to be) posted to
    Academic Transfer.
-
-PhD: Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated Vehicles
------------------------------------------------------------------------------------------
-
-| TU Delft Vacancy Number: TUD02119
-| Posted: March 16, 2022
-| Applications due by: **April 14, 2022**.
-| `Lab news post <{filename}/connected-bikes-avs.rst>`__
-| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=2394&nPostingTargetId=6126&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&mask=external
 
 Master's Students
 =================
@@ -109,10 +101,6 @@ in finding students for [#]_:
    * - `How fast will my open source code break? <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
      - 2020-09-18
      -
-     - Thesis
-   * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
-     - 2020-09-10
-     - TrueKinetix_
      - Thesis
    * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
      - 2020-09-10
