@@ -29,7 +29,7 @@ Postdoctoral Researchers
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-brockie-sam|
      - | **Dr. Sam Brockie** [TUD, Sep 2022-present]
        | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
      - |headshot-missing|
@@ -42,6 +42,10 @@ Postdoctoral Researchers
      -
 
 .. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-brockie-sam| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-brockie-sam.jpg
    :width: 100px
    :height: 133px
 
