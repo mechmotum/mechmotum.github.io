@@ -229,6 +229,8 @@ Text, Audio, Video Chat Room
    any other supported clients_. This is used for quick chats, meetings, etc.
    We'll keep the chat histories around, but its best to treat the data as
    transient. Lab members can use as needed for lab related communication.
+   There are a number of rooms that you can join where we share papers,
+   conference announcements, etc.
 Issue Trackers
    We make heavy use of issue trackers on Github and Gitlab to communication.
    This is good for topic oriented, long form discussion that needs permanency,
