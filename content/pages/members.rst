@@ -77,35 +77,40 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-van-der-schot-jan|
+   * - |headshot-floris-van-willigen|
+     - | **Floris van Willigen** [TUD, Sep 2022-present]
+       | *Titling Tricycle Geometry*
+     - |headshot-van-der-schot-jan|
      - | **Jan van der Schot** [TUD, Jul 2022-present]
        | *Ski Jump Safety Assessment*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Jens Keijser** [TUD, May 2022-present]
        | *Outdoor Cycling Propulsion Simulation*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Evelijn Verboom** [TUD, Feb 2022-present]
        | *Human Intention Detection for Bicycle Steer Assist*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Dorus de Boer** [TUD, Oct 2021-present]
        | *Cycling Material Model Design*
-   * - |headshot-heinen-jan|
+     - |headshot-heinen-jan|
      - | **Jan Heinen** [TUD, Sep 2021-present]
        | *Skateboarding Biomechanics*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Simonas Draukšas** [TUD, Sep 2021-present]
        | *Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance*
-   * - |headshot-landre-daniel|
+     - |headshot-landre-daniel|
      - | **Daniël Landré** [TUD, Sep 2021-present]
        | *Adaptive Speed Control in Cycling*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-   * - |headshot-huiskens-tim|
+     - |headshot-huiskens-tim|
      - | **Tim Huiskens** [TUD]
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
-     -
-     -
+
+.. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-van-der-schot-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg
    :width: 100px
