@@ -84,29 +84,34 @@ Masters of Science Students
      - | **Jan van der Schot** [TUD, Jul 2022-present]
        | *Ski Jump Safety Assessment*
    * - |headshot-missing|
+     - | **Timo Stienstra** [TUD, Jun 2022-present]
+       | *Improving SymPy's Joints Framework*
+     - |headshot-missing|
      - | **Jens Keijser** [TUD, May 2022-present]
        | *Outdoor Cycling Propulsion Simulation*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Evelijn Verboom** [TUD, Feb 2022-present]
        | *Human Intention Detection for Bicycle Steer Assist*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Dorus de Boer** [TUD, Oct 2021-present]
        | *Cycling Material Model Design*
-     - |headshot-heinen-jan|
+   * - |headshot-heinen-jan|
      - | **Jan Heinen** [TUD, Sep 2021-present]
        | *Skateboarding Biomechanics*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Simonas Draukšas** [TUD, Sep 2021-present]
        | *Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance*
-     - |headshot-landre-daniel|
+   * - |headshot-landre-daniel|
      - | **Daniël Landré** [TUD, Sep 2021-present]
        | *Adaptive Speed Control in Cycling*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-     - |headshot-huiskens-tim|
+   * - |headshot-huiskens-tim|
      - | **Tim Huiskens** [TUD]
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
+     -
+     -
 
 .. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
    :width: 100px
