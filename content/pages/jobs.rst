@@ -86,10 +86,6 @@ in finding students for [#]_:
      - 2021-01-29
      -
      - Thesis
-   * - `Development of a Bobsleigh Simulator for Training and Outreach in Jamaica <{filename}/pages/jobs/bobsleigh-simulator.rst>`_
-     - 2020-01-13
-     - Jamaican Bobsleigh and Skeleton Federation
-     - Thesis
    * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
      - 2020-11-17
      - Dr. Rene van Paassen (TU Delft, Aerospace)
