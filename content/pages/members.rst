@@ -32,7 +32,7 @@ Postdoctoral Researchers
    * - |headshot-brockie-sam|
      - | **Dr. Sam Brockie** [TUD, Sep 2022-present]
        | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
-     - |headshot-missing|
+     - |headshot-dressel-andrew|
      - | **Dr. Andrew Dressel** [TUD, Apr 2022-present]
        | *Bicycle of the Future*
    * - |headshot-alizadehsaravi-leila|
@@ -112,6 +112,10 @@ Masters of Science Students
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
      -
      -
+
+.. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
    :width: 100px
