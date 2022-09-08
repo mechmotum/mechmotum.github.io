@@ -14,7 +14,7 @@ Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors
    <https://creativecommons.org/licenses/by-sa/4.0>`_, via Wikimedia Commons
 
 The force between a bicycle tire and the road is difficult to measure and
-predict. If we were able to accurately estimate these force in real-time from
+predict. If we were able to accurately estimate these forces in real-time from
 simple inexpensive sensors, such as inertial measurement units, we could use
 these force estimates to drastically improve traction control systems for
 robotically augmented bicycles, scooters, and motorcycles. The challenge of
