@@ -66,6 +66,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors <{filename}/pages/jobs/bicycle-tire-force-estimation.rst>`_
+     - 2022-09-08
+     -
+     - Thesis
    * - `Getting to the Bottom of Bicycle Rolling Resistance  <{filename}/pages/jobs/bicycle-tire-rolling-resistance.rst>`_
      - 2022-09-07
      -
