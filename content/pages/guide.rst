@@ -335,6 +335,10 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
+   * - Bicycle Lab Round Up
+     - 2022-09-13
+     - Jason K. Moore
+     -
    * - Computationally Reproducible Papers
      - 2022-01-18
      - Jason K. Moore
