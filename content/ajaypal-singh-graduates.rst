@@ -29,8 +29,9 @@ developed methods to experimentally determine combinations of bicycle
 components that cause disc brake noise, developed an FEA model that can predict
 disc brake squeal frequencies, and introduced simple countermeasures that
 reduce unwanted squealing noises. Ajaypal was co-supervised by Hans Vreman
-(Gazelle), Andrew Dressel (TU Delft), and Jason Moore (TU Delft). Everyone at
-the bicycle lab is very proud of Ajaypal and wishes him the best in his next
-step in his career.
+(Gazelle), Andrew Dressel (TU Delft), and Jason Moore (TU Delft). This project
+was part of the ClickNL funded Fiets van de Toekomst grant. Everyone at the
+bicycle lab is very proud of Ajaypal and wishes him the best in his next step
+in his career.
 
 .. _Ajaypal Singh: https://www.linkedin.com/in/singhajaypal2018/

@@ -102,17 +102,12 @@ Masters of Science Students
      - |headshot-missing|
      - | **Simonas Draukšas** [TUD, Sep 2021-present]
        | *Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance*
-   * - |headshot-landre-daniel|
-     - | **Daniël Landré** [TUD, Sep 2021-present]
-       | *Adaptive Speed Control in Cycling*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-   * - |headshot-huiskens-tim|
+     - |headshot-huiskens-tim|
      - | **Tim Huiskens** [TUD]
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
-     -
-     -
 
 .. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
    :width: 100px
@@ -134,9 +129,6 @@ Masters of Science Students
    :width: 100px
    :height: 133px
 
-.. |headshot-landre-daniel| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-landre-daniel.png
-   :width: 100px
-   :height: 133px
 
 .. |headshot-heinen-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg
    :width: 100px
@@ -160,6 +152,9 @@ PhD Candidates
    - Marco Reijne [TUD, April 2018-April 2022]
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
 Masters of Science Students
+   - Daniël Landré [TUD, Sep 2021-Sep 2022], `Predicting cycling risk at
+     intersections with natural cycling data for speed-controlled e-bikes
+     <http://resolver.tudelft.nl/uuid:4996f53f-e493-4ddb-9924-c4110965fb48>`_
    - Ajaypal Singh [TUD, Jul 2021-Aug 2022], `Investigation of the chatter and
      squeal phenomenon in bicycle disc brakes
      <http://resolver.tudelft.nl/uuid:dd809802-ea24-48b2-b63c-150611f612c9>`_
