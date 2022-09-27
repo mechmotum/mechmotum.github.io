@@ -100,14 +100,13 @@ Masters of Science Students
      - | **Jan Heinen** [TUD, Sep 2021-present]
        | *Skateboarding Biomechanics*
      - |headshot-missing|
-     - | **Simonas Draukšas** [TUD, Sep 2021-present]
-       | *Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance*
-   * - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-     - |headshot-huiskens-tim|
+   * - |headshot-huiskens-tim|
      - | **Tim Huiskens** [TUD]
        | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
+     -
+     -
 
 .. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
    :width: 100px
@@ -152,6 +151,9 @@ PhD Candidates
    - Marco Reijne [TUD, April 2018-April 2022]
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
 Masters of Science Students
+   - Simonas Draukšas [TUD, Sep 2021-Sep 2022], `Using Model Predictive Control
+     on a Steer-by-Wire Bicycle for Performance Assistance
+     <http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40>`_
    - Daniël Landré [TUD, Sep 2021-Sep 2022], `Predicting cycling risk at
      intersections with natural cycling data for speed-controlled e-bikes
      <http://resolver.tudelft.nl/uuid:4996f53f-e493-4ddb-9924-c4110965fb48>`_
