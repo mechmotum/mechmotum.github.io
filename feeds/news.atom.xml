@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-09-20T14:46:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Daniël Landré Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/daniel-landre-graduates.html" rel="alternate"></link><published>2022-09-20T14:46:00-07:00</published><updated>2022-09-20T14:46:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-09-20:/blog/daniel-landre-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-09-27T14:58:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Simonas Draukšas Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/simonas-drauksas-graduates.html" rel="alternate"></link><published>2022-09-27T14:58:00-07:00</published><updated>2022-09-27T14:58:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-09-27:/blog/simonas-drauksas-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-drauksas.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-drauksas-simonas.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.linkedin.com/in/simonas-drauksas/"&gt;Simonas Draukšas&lt;/a&gt; successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40"&gt;Using Model Predictive Control on a
+Steer-by-Wire Bicycle for Performance Assistance&lt;/a&gt;&amp;quot;.
+Simonas developed a real-time MPC controller to assist a bicyclist in making
+lane change maneuvers on a treadmill in a semi virtual environment. His goal
+was to determine if adding MPC control from the steer …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-drauksas.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-drauksas-simonas.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.linkedin.com/in/simonas-drauksas/"&gt;Simonas Draukšas&lt;/a&gt; successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40"&gt;Using Model Predictive Control on a
+Steer-by-Wire Bicycle for Performance Assistance&lt;/a&gt;&amp;quot;.
+Simonas developed a real-time MPC controller to assist a bicyclist in making
+lane change maneuvers on a treadmill in a semi virtual environment. His goal
+was to determine if adding MPC control from the steer motor improve performance
+in hitting the virtual targets. His controller could accurately hit the targets
+when the rider rode without hands and, with hands on, he discovered that the
+rider's skill and task difficulty likely influence the performance gain or
+loss. He was not able to show that the MPC control conclusively improved
+performance, but we hope that once we apply all of his recommendations it will.
+Simonas was co-supervised by Leila Alizadehsaravi (TU Delft), Laura
+Marchal-Crespo (TU Delft), Jason Moore (TU Delft), and Riender Happee (TU
+Delft). Everyone at the bicycle lab is very proud of Simonas and wishes him the
+best in his new job as a control and embedded systems engineer.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>Daniël Landré Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/daniel-landre-graduates.html" rel="alternate"></link><published>2022-09-20T14:46:00-07:00</published><updated>2022-09-20T14:46:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-09-20:/blog/daniel-landre-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
