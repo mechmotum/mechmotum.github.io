@@ -347,8 +347,7 @@ Past Meeting Topics and Materials
    * - Computationally Reproducible Papers
      - 2022-01-18
      - Jason K. Moore
-     - `Slides
-       <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
    * -
      - 2021-12-07
      - Dorus de Boer
@@ -380,12 +379,11 @@ Past Meeting Topics and Materials
    * - Optimal Control in Biomechanics
      - 2021-05-03
      - Joris Ravenhorst, Jan Groenhuis, and Jason Moore
-     - `Slides
-       <https://docs.google.com/presentation/d/e/2PACX-1vRDNSb90BX_Nnd0VK8cZE60mNj0AI8Vo4r5_CPnnKRy15_p25l7XwxULesIyxyhQl0V9eMQCnS5_TkZ/pub?start=false&loop=false&delayms=3000>`_
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vRDNSb90BX_Nnd0VK8cZE60mNj0AI8Vo4r5_CPnnKRy15_p25l7XwxULesIyxyhQl0V9eMQCnS5_TkZ/pub?start=false&loop=false&delayms=3000>`__
    * - Balance and stability in elderly
      - 2021-04-22
      - Leila Alizadehsaravi
-     -
+     - `Slides <https://drive.google.com/file/d/199ValVa8w0ckkfSDF2PNeb9-BJYmMJ1w/view?usp=sharing>`__
    * - Introduction to Eline's Lab
      - 2021-04-07
      - Eline de Kruk
