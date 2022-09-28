@@ -17,7 +17,8 @@ options:
 
 All paid positions associated with the lab will be posted to the `TU Delft
 vacancies website`_, the `BioMechanical Engineering Department vacancies web
-page`_, `Academic Transfer`_ [#]_, and/or this lab website.
+page`_, `Academic Transfer`_ [#]_, and/or `this lab website
+</category/jobs.html>`_.
 
 .. _Academic Transfer: http://www.academictransfer.com
 .. _TU Delft vacancies website: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/
@@ -28,24 +29,6 @@ page`_, `Academic Transfer`_ [#]_, and/or this lab website.
    also required to have a Master's degree to start a PhD.
 .. [#] All academic jobs in the Netherlands are (and have to be) posted to
    Academic Transfer.
-
-CZI SymPy Postdoctoral Position
--------------------------------
-
-| TU Delft Vacancy Number: TUD01994
-| Posted: February 2, 2022
-| Applications due by: **February 28, 2022**.
-| `Lab news post <{filename}/sympy-czi-postdoc.rst>`__
-| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=2261&nPostingTargetId=5624&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&mask=external
-
-Bicycle of the Future Postdoctoral Position
--------------------------------------------
-
-| TU Delft Vacancy Number: TUD01463
-| Posted: December 8, 2021
-| Applications due by: **January 7, 2021**.
-| `Lab news post <{filename}/bicycle-of-the-future-postdoc-2.rst>`__
-| Application link: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=4904&jobTitle=Postdoctoral%20Researcher%20Bicycle%20of%20the%20Future
 
 Master's Students
 =================
@@ -83,14 +66,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
-   * - `Validation of Ski & Snowboarding Low Impact Jump Design <{filename}/pages/jobs/ski-jump-impact-model-validation.rst>`_
-     - 2022-01-19
-     - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
-     - Internship and Thesis
-   * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
-     - 2022-01-14
-     - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
-     - Internship & Thesis
+   * - `Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors <{filename}/pages/jobs/bicycle-tire-force-estimation.rst>`_
+     - 2022-09-08
+     -
+     - Thesis
+   * - `Getting to the Bottom of Bicycle Rolling Resistance  <{filename}/pages/jobs/bicycle-tire-rolling-resistance.rst>`_
+     - 2022-09-07
+     -
+     - Thesis
    * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
      - 2021-07-06
      - `REV'IT! <https://www.revitsport.com>`_
@@ -107,10 +90,6 @@ in finding students for [#]_:
      - 2021-01-29
      -
      - Thesis
-   * - `Development of a Bobsleigh Simulator for Training and Outreach in Jamaica <{filename}/pages/jobs/bobsleigh-simulator.rst>`_
-     - 2020-01-13
-     - Jamaican Bobsleigh and Skeleton Federation
-     - Thesis
    * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
      - 2020-11-17
      - Dr. Rene van Paassen (TU Delft, Aerospace)
@@ -126,10 +105,6 @@ in finding students for [#]_:
    * - `How fast will my open source code break? <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
      - 2020-09-18
      -
-     - Thesis
-   * - `Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`_
-     - 2020-09-10
-     - TrueKinetix_
      - Thesis
    * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
      - 2020-09-10
@@ -159,6 +134,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Validation of Ski & Snowboarding Low Impact Jump Design <{filename}/pages/jobs/ski-jump-impact-model-validation.rst>`_
+     - 2022-01-19
+     - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
+     - Jan van der Schot
+   * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
+     - 2022-01-14
+     - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
+     - Jens Keijser
    * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
      - 2022-01-11
      - `Ictech <https://ictech.se/>`_
@@ -173,15 +156,15 @@ in finding students for [#]_:
      - Simonas Draukšas
    * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
      - 2020-09-10
-     - USSEA_
+     - Eline van der Kruk (TU Delft, BioMech), Raymund ten Broek (USPC)
      - Jan Heinen
    * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
      - 2021-02-15
-     - Dr. Laura Marchal-Crespo (TU Delft, CoR)
+     - Dr. Laura Marchal-Crespo (TU Delft, CoR), Riender Happee (TU Delft, CoR), Leila Alizadehsaravi (TU Delft, BioMech)
      - Simonas Draukšas
    * - `Adaptive Speed Control in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`_
      - 2020-09-10
-     - Gazelle_
+     - Gazelle_, Victor Knoop (TU Delft, Civil Engr)
      - Daniël Landré
    * - `Understanding Disc Brake Squeal in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`_
      - 2020-09-10

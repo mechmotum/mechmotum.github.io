@@ -11,8 +11,8 @@ nuts and bolts of how the lab functions. It's primary purpose is for
 on-boarding new members, but is also a reference for current members. For this
 page to be useful, all lab members will need to provide their collective
 knowledge and experiences. It is up to all of us to make this guide useful. You
-are expected to contribute to the guide and edit it. Discuss with the lab any
-desires to change any of the guidelines.
+are expected to contribute to the guide and edit it to do so. Discuss with the
+lab any desires to change any of the guidelines.
 
 Getting Started
 ===============
@@ -26,8 +26,9 @@ The Lab Community
   - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's element/matrix
     chat room.
 
-- Send an introduction email to the lab email list: who you are, a bit about
-  yourself, what you will work on, etc.
+- Send an introduction email to the lab email list
+  (mechmotum@googlegroups.com): who you are, a bit about yourself, what you
+  will work on, etc.
 - Add your name and portrait to the `lab members page`_ by sending a PNG or JPG
   300px x 400px portrait to Jason or by submitting a pull request on Github.
 - Setup regular mentorship meetings with your mentor(s). This should at least
@@ -41,26 +42,32 @@ The Lab Community
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Jason. Ask for a tour of the space from
   a current lab member before you start working there.
+- Request access to the lab's shared Google Drive.
 - See the `recommended reading list <#recommended-reading>`_ below for some
   reading materials to get you started.
 
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
 
-General
--------
+MSc General
+-----------
 
 - We expect you to take the lead in your project. Your supervisors are here to
   advise and guide you, but it is up to you to manage your time, relationships,
   work, etc.
 - BME MSc students now have some new excellent guidance documents with
   flowcharts available on the "Master Biomedical Engineering" Brightspace
-  course under "ALL STUDENTS - Flowcharts & Guidance Docs".
+  course under "ALL STUDENTS - Flowcharts & Guidance Docs". Please read these
+  and reference them regularly.
 - BMD & BME students are encouraged to join the "Graduation Community Program"
   for get togethers and workshops on topics to help you move through your MSc.
+- Review the `Data Management Guide
+  <{filename}/pages/guide-data-management.rst>`_.
 
 Internship
 ----------
+
+15 ECs (420 hours, ~10 weeks full time)
 
 After you have found an internship, typically on your own but sometimes through
 postings via the lab, here are some things you need to do:
@@ -74,73 +81,110 @@ postings via the lab, here are some things you need to do:
   https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related/student-forms/internship-forms
 - Fill out the MSc internship initiation form with your project description and
   other relevant information. Develop this project idea with your internship
-  company/org contacts. If you think this aligns with Jason's research interests or
-  the internship came through the bike lab you can send the form to Jason and
-  ask him to be your TUD advisor. If he agrees, then you can obtain his
-  signature on the form and forward it to your respective MSc coordinator.
+  company/org contacts. If you think this aligns with Jason's research
+  interests or the internship came through the bike lab you can send the form
+  to Jason and ask him to be your TUD advisor. If he agrees, then you can
+  obtain his signature on the form and forward it to your respective MSc
+  coordinator.
 - Make all of your internship arrangements yourself with the company (travel,
-  stipend, housing, IP, NDA, etc.)
+  stipend, housing, IP, NDA, etc.). Reach out to your TUD supervisor if you
+  need help in any of these aspects.
 - To receive academic credit for your internship at the end you need to write a
   report and have it assessed by your TUD internship supervisor. The short report
   should contain aspects aligned with those described in this rubric:
-  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf.
-  This rubric will not be used to determine your grade, it is simply pass/fail
-  based on the supervisor's review.
+  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf
+  and the direction and needs of your external internship supervisor. This rubric
+  will not be used to determine your grade, it is simply pass/fail based on the
+  supervisor's review.
 - You also need your external internship supervisor to fill out the form
   "INTERNSHIP ASSESSMENT FORM FOR EXTERNAL PARTIES" and submit the completed
   version to your TUD supervisor.
 - Note that your TUD supervisor is typically not involved in your internship
   other than the signing the initial form and assessing and providing a grade
-  at the end.
+  at the end. The purpose of the internship is for you to get some non-academic
+  experience in engineering.
 
 Literature Study
 ----------------
 
-- Review the `Literature Study learning objectives and rubric
-  <https://d2k0ddhflgrk1i.cloudfront.net/Studentenportal/Faculteitspecifiek/3ME/Onderwijs/GERELATEERD/Formulieren/Rubric%20MSc%20Literature%20Review.pdf>`_
-- Read "`How to read a paper`_" and "`Guide to writing a literature review for Science and Technology students`_"
+10 ECs (280 hours, ~7 weeks full time)
+
 - If you are a BME student, read the relevant guidance docs found on
   Brightspace "Biomedical Engineering Page".
+- Arrange an initial meeting with your supervisor(s) to discuss how to get
+  started on the literature study and to discuss the general topic area of the
+  study.
+- Review the "MSc Literature Review Assessment Rubric" on the `3mE MSc Forms`_
+  page.
+- Read "How to read a paper" and "Ten Simple Rules for Writing a Literature
+  Review" and review the "The Literature Review Process" website in the
+  recommended reading section below.
 - Choose and learn a tool/method to organize your papers and notes (e.g.
   Zotero, Mendeley, Endnote, Excel).
 - The first goal is to read a large quantity of paper abstracts (phase 1 in
   "How to Read a Paper") to get a broad sense of what people are researching
   about the topics of interest.
-- The second goal is to formulate a research question(s) that you can likley
+- The second goal is to formulate a research question(s) that you can likely
   answer with the papers you read.
-- Third goal is to delve deep into papers that are closely related to your
-  research question, analyze and critique them, and synthesize the knowledge you
-  obtain from them into a coherent answer to you research question.
+- Once you have a research question in mind, arrange a meeting with your
+  supervisors to present the question and receive feedback (this should occur
+  within the first two weeks of work).
+- The third goal is to delve deep into papers that are closely related to your
+  research question, analyze and critique them, and synthesize the knowledge
+  you obtain from them into a coherent answer to you research question.
+- Before writing your report read "The Science of Scientific Writing" and "How
+  to write a good (enough) report" in the recommend reading section below.
 - Lastly, write up your findings for a technical audience in a way that answers
   your research question.
 - Once you have a first full draft of the literature study, request feedback
-  from your supervisors. This usually takes a week. Use the feedback to improve
-  your document and then submit it to your supervisors for their official
-  assessment and grade.
+  from your supervisors. This usually takes a week. You can arrange a meeting
+  to receive verbal feedback also. Use the feedback to improve your document
+  and then submit it to your supervisors for their official assessment and
+  grade.
 - As you approach the finish of your literature study you should schedule your
   colloquium, where you will present the results of your literature study to
-  your peers and possibly some of your thesis plan.
+  your peers.
+
+.. _3mE MSc Forms: https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related/student-forms/msc-forms/
 
 MSc Thesis
 ----------
+
+35 ECs (980 hours, ~25 weeks full time)
 
 Basic Steps:
 
 - (CoR based MSc tracks only) Submit MSc initiation form.
 - Formulate a research question or hypothesis that you'd like address in
-  consultation with your supervisors (usually in the later portion of your
-  literature study period).
-- Develop a written project plan (2-3 pages): research question/aim/goals, your
-  basic technical approach, timeline, milestones, resources, etc.
+  consultation with your supervisors (this usually occurs in the later portion
+  of your literature study period).
+- Develop a written project plan (3 pages): research question/aim/goals,
+  your basic technical approach, timeline, milestones, resources, etc.
 - Organize a kickoff meeting with all of your supervisors to present your
   research project and project plan.
+- Adjust your project plan based on the feedback at the kickoff meeting.
 - Work on the project with your daily supervisor's guidance.
-- Present your progress at a midterm meeting with all of your supervisors.
+- Present your progress at a midterm meeting with all of your supervisors. The
+  midterm should occur after you have significant preliminary results that
+  demonstrate you can succeed in the final project execution.
 - Work on the project with your daily supervisor's guidance.
-- Send your draft thesis to your supervisors and arrange a Go/No-Go meeting.
-- Arrange your MSc defense.
-- Edit your thesis and send the final version to your supervisors two weeks
-  before the defense.
+- Once you are getting close to a draft thesis arrange a Go/No-Go meeting. This
+  meeting should include all members of your defense committee. Typically
+  give the supervisors one week to read and comment on the draft before the
+  meeting.
+- If you get a "Go" at the Go/No-Go meeting then you should initiate the
+  arrangement of your defense by submitting the correct forms to your track
+  coordinators and department secretaries.
+- If you get a "No-Go", at the Go/No-Go meeting then take the supervisors'
+  feedback and improve your work until you are ready for another Go/No-Go
+  meeting.
+- When you have a "Go", edit your thesis based on the supervisors' feedback.
+  When you have a final version of your thesis, send it to your supervisors two
+  weeks before the defense and submit it to the TU Delft Education Repository.
+  Make sure to add an embargo if your work requires one.
+- Follow the `Data Management Guide
+  <{filename}/pages/guide-data-management.rst>`_ and deliver your project
+  assets to the lab principle investigator.
 
 Other:
 
@@ -166,14 +210,9 @@ up-to-date rules if in question. The current lab rules are:
   <https://www.tudelft.nl/en/2021/tu-delft/coronavirus/>`_ and `3mE rules
   <https://www.tudelft.nl/en/3me/current/information-coronavirus/>`_ apply and
   the following rules are in addition to those.
-- No more than 6 people working in the lab at any given time. If you need to
-  visit the lab briefly and there are 6 people present, ask if the people
-  present are comfortable with you entering when arriving.
-- You are expected to maintain 1.5 m distance between everyone present in the
-  lab and use face masks when you are not seated.
 - If you are sick, stay home and get tested. Let others you were in contact
   with know immediately of possible or confirmed COVID infection to prevent
-  spread.
+  spread. Follow the Dutch government recommendations and regulations.
 - Take the virus seriously and respect everyone's health needs/wishes. Everyone
   should feel comfortable if using the space. Communication is key for this.
 
@@ -195,6 +234,8 @@ Text, Audio, Video Chat Room
    any other supported clients_. This is used for quick chats, meetings, etc.
    We'll keep the chat histories around, but its best to treat the data as
    transient. Lab members can use as needed for lab related communication.
+   There are a number of rooms that you can join where we share papers,
+   conference announcements, etc.
 Issue Trackers
    We make heavy use of issue trackers on Github and Gitlab to communication.
    This is good for topic oriented, long form discussion that needs permanency,
@@ -299,26 +340,30 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
+   * - Bicycle Lab Round Up
+     - 2022-09-13
+     - Jason K. Moore
+     -
    * - Computationally Reproducible Papers
      - 2022-01-18
      - Jason K. Moore
      - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
-   * - 
+   * -
      - 2021-12-07
      - Dorus de Boer
-     - 
-   * - 
+     -
+   * -
      - 2021-11-09
      - Marco Reijne
-     - 
-   * - 
+     -
+   * -
      - 2021-10-26
      - Jan Heinen
-     - 
-   * - 
+     -
+   * -
      - 2021-10-12
-     - Leila Alizadehsaravi 
-     - 
+     - Leila Alizadehsaravi
+     -
    * - Learning to stand with unexpected sensorimotor delays
      - 2021-09-28
      - Patrick Forbes
@@ -400,11 +445,11 @@ Open Science
 The default science and engineering practice from the lab should be open
 practices (open access publications, open source software, open data,
 accessible and public sharing etc.). If unsure whether to make information
-public, ask, otherwise please default to sharing early and often. We do work
-with organizations that value or require privacy (human subject data, student
-protected data, proprietary company needs). Always check with the involved
-parties before sharing when this is the case. This is something that should be
-discussed at the beginning of all projects.
+public ask you supervisor, otherwise please default to sharing early and often.
+We do work with organizations that value or require privacy (human subject
+data, student protected data, proprietary company needs). Always check with the
+involved parties before sharing when this is the case. This is something that
+should be discussed at the beginning of all projects.
 
 TU Delft offers several resources for open science:
 
@@ -449,8 +494,8 @@ Shared Cloud Space
 
 We have a directory named "Fietslab Commons" on Google Drive. To access this,
 request that it be shared with you by your supervisor. This folder and it's
-contents should only be shared with other ``<netid>@g-tudelft.nl>`` addresses
-that are members of the lab. ``<netid>@g-tudelft.nl>`` is also the login
+contents should only be shared with other ``<netid>@g-tudelft.nl`` addresses
+that are members of the lab. ``<netid>@g-tudelft.nl`` is also the login
 username/email that you will need to use when logging into
 https://drive.google.com. Please avoid using the "Share" button to share with
 non-TUD accounts, until we determine best practices for this. Read and update
@@ -525,7 +570,47 @@ took the item. Once the item is returned to the lab, note the date returned.
 
 If you damage or lose equipment you are responsible for fixing or finding a
 replacement. Please let your supervisor know if this occurs so you all can
-figure out a solution.
+figure out a solution. Your caution and carefulness should be proportionate to
+the cost of the lab equipment. Treat things as if they were your own and you
+paid for it.
+
+Purchasing
+----------
+
+If the lab needs basic office supplies or computer supplies, a request should
+be made to the secretary. Don't purchase these yourself, because they should be
+purchased through the university vendors.
+
+If you need some lab supplies or equipment for your project, talk with your
+supervisor about it and they can order what you need if there are funds
+available.
+
+TU Delft 3mE VAT number: NL 001569569B01
+
+Equipment Inventory
+-------------------
+
+When new equipment arrives in the lab, the receiver is responsible for
+inventorying the equipment. This only needs to be done for items that cost more
+than 250 EUR. The basic steps are:
+
+- Log the equipment in the inventory spreadsheet on the shared Google Drive.
+  This should include product name, manufacturer, serial number, manufacturer
+  contact info, value, etc. (fill out the existing columns or make new ones if
+  needed).
+- Make a folder in the Google Drive for the product and deposit any
+  documentation.
+- If the item doesn't have a storage container, obtain one so that it can
+  neatly be stored in the lab and things don't get lost. Leave paper
+  documentation in the container.
+- Permanently mark the item(s) and container with "TU Delft Bicycle Lab" (use a
+  paint pen, inscribing tool, etc.)
+- As you learn the device, leave any relevant documentation you obtain or
+  create in the Google Drive folder so that future users can learn from your
+  work. Include the manufacturer's documents as well as your personal tips and
+  explanations on using the equipment. If any documentation is more appropriate
+  for storing and tracking with version control, then add that to a lab owned
+  Git repository.
 
 Training
 ========
@@ -721,9 +806,11 @@ Academia
 
 Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007.
    Introduces a structured 3 phase method of reading scientific literature.
-`Guide to writing a literature review for Science and Technology students`_, Lancaster University
-   This is a nice guide that gives starting information for those of you
-   working on a literature study.
+Ten Simple Rules for Writing a Literature Review, Philip E. Bourne, 2013, https://dx.doi.org/10.1371%2Fjournal.pcbi.1003149
+   High level tips for writing a literature review.
+Engineering: The Literature Review Process https://libguides.asu.edu/engineeringlitreview/start
+   A guide from Arizone State University on writing and engineering literature
+   review.
 `Writing a Scientific-Style Thesis`_: A Guide for Graduate Research Students, NUI Galway, Dr. Dermot Burns, 2017
    A comprehensive guide to writing a thesis.
 "`The Science of Scientific Writing <https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf>`_" by George D. Gopen and Judith A. Swan, 1990
@@ -741,8 +828,7 @@ Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication 
    and also participate in the discussions.
 
 .. _How To Read A Paper:  http://ccr.sigcomm.org/online/files/p83-keshavA.pdf
-.. _Writing a Scientific-Style Thesis: https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/Writing-a-Scientific-Thesis.pdf
-
+.. _Writing a Scientific-Style Thesis: https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/writing_a_scientific_thesis.pdf
 .. _Guide to Writing a Literature Review for Science and Technology Students: https://lancaster.libguides.com/engineering/literaturereview
 
 Open Science

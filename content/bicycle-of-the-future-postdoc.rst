@@ -7,12 +7,10 @@ Postdoctoral Researcher Opening: Bicycle of the Future
 :category: jobs
 :tags: bicycle,postdoc,engineering
 
-.. topic:: Expired, see new posting!
+.. topic:: Filled
    :class: alert alert-warning
 
-   This job posting is reoponed with a January 7, 2022 application due date.
-   See the `new posting
-   <{filename}/bicycle-of-the-future-postdoc-2.rst>`_ for information.
+   This job has been filled and is no longer open.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg
    :width: 600px
