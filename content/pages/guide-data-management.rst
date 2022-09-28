@@ -29,6 +29,10 @@ months, see
 https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-plans
 for more info.
 
+Read "The FAIR Guiding Principles for scientific data management and
+stewardship" https://doi.org/10.1038/sdata.2016.18 to learn more about managing
+your research outputs.
+
 The following information details more specific tips, tools, and practices we
 can follow to standardize as much as possible.
 
@@ -123,7 +127,6 @@ Use TU Delft supplied data storage for non-public data. Here are some options:
 - Project network drive (UL), 5 TB, can create as many as you need for a shared
   project space. webdata.tudelft.nl
 
-
 Closing Out a Project
 =====================
 
@@ -131,3 +134,19 @@ Closing Out a Project
 - Provide Jason access to archive.
 - Deposit your digital artifacts.
 - Make clear if any data has privacy encumbrances.
+
+Example Minimum for an MSc Project
+==================================
+
+- Request access to a Surfdrive folder from Jason.
+- Collect and organize all of your digital artifacts with informative file
+  names and/or folder names.
+- The digital artifacts should include at least: raw data files, processed data
+  files, processing scripts or spreadsheets, input files to data processing
+  software, CAD files, production drawings, written document source files (e.g.
+  LaTeX or MS Word), results figures, thesis presentation, equipment use
+  explanations, experiment protocols, and human subject and equipment
+  approvals.
+- Write up READMEs for your digital artifacts so that someone can understand
+  what is there.
+- Upload your digital files to the Surfdrive folder.
