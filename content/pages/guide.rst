@@ -61,6 +61,8 @@ MSc General
   and reference them regularly.
 - BMD & BME students are encouraged to join the "Graduation Community Program"
   for get togethers and workshops on topics to help you move through your MSc.
+- Review the `Data Management Guide
+  <{filename}/pages/guide-data-management.rst>`_.
 
 Internship
 ----------
@@ -180,6 +182,9 @@ Basic Steps:
   When you have a final version of your thesis, send it to your supervisors two
   weeks before the defense and submit it to the TU Delft Education Repository.
   Make sure to add an embargo if your work requires one.
+- Follow the `Data Management Guide
+  <{filename}/pages/guide-data-management.rst>`_ and deliver your project
+  assets to the lab principle investigator.
 
 Other:
 
