@@ -629,10 +629,22 @@ Special Topics Course in Sports Engineering
    TU Delft organizes an annual two week course to train students in sports
    engineering. Cycling has been used as the motivating topic to learn the
    methods.
-Musculoskeletal Modelling and Simulation ME41005
+Musculoskeletal Modelling and Simulation (ME41005)
    Learn how to develop and utilized computational neuromuscular models with
    OpenSim. Many projects in the lab make use of neuromuscular and
    biomechanical modeling.
+Vehicle Dynamics and Control (RO47017)
+   Provides various fundamentals for understanding vehicle motion and how to
+   control it. Focused on automobiles but many concepts transfer to single
+   track vehicles.
+System Identification and Parameter Estimation (ME41065)
+   We often make use system identification and parameter estimation for both
+   vehicle and human control models.
+Automatic Flight Control System Design (AE4301)
+   There are many similarities in single track vehicle control and aircraft
+   control. This course also covers some topics on aircraft handling qualities
+   which we make use of in understanding single track vehicle handling
+   qualities.
 
 The Carpentries Trainings
 -------------------------
