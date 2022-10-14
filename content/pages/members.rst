@@ -98,7 +98,7 @@ Masters of Science Students
        | *Cycling Material Model Design*
    * - |headshot-heinen-jan|
      - | **Jan Heinen** [TUD, Sep 2021-present]
-       | *Skateboarding Biomechanics*
+       | *Optimal Skateboard Design for the Highest Ollie*
      - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
@@ -238,6 +238,7 @@ Teaching Assistants
    - Farhad Gadhamli [UCD, Jan 2016-Jun 2016], now at DM3D
    - Matthew Lefort [UCD, Sep 2015-Jun 2016], now at Yolo Robotics
 Google Summer of Code and Season of Docs Participants
+   - Timo Stienstra [Jun 2022-Oct 2022]
    - Sudeep Sidhu [May 2021-Aug 2021]
    - Naman Gera [May 2020-Aug 2020]
    - Lauren Glattly [Aug 2019-Nov 2019]
@@ -256,6 +257,9 @@ Google Summer of Code and Season of Docs Participants
 
 TU Delft Bicycle Lab Students Prior to August 2020
 ==================================================
+
+These students graduated under the supervision of Dr. Arend Schwab prior to Dr.
+Moore's involvement with the lab and are here for reference.
 
 PhD Candidates
    - Jodi Kooijman [TUD], `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
@@ -294,13 +298,21 @@ Masters of Science Students
    - Chris van Trigt [TUD, April 2019], `Exploring bicycle braking during a
      descent
      <http://resolver.tudelft.nl/uuid:eaea188b-0a81-4987-95fa-c30c9cf99724>`_
-   - Govert van der Gun [TUD, Nov 2018]
-   - Maarten van den Bosch [TUD, Oct 2018]
-   - Bernhard Westerhof [TUD, Aug 2018]
-   - Diwakar Harsh [TUD, Aug 2018]
-   - Carlijn Sluiter [TUD, Jul 2018]
-   - Jelte Doeksen [TUD, Apr 2018]
-   - Janneke Voordouw [TUD, Apr 2018]
+   - Govert van der Gun [TUD, Nov 2018], `Phase-Specific Stiffness of Sprinting
+     Prostheses <http://resolver.tudelft.nl/uuid:12e8e182-6d6c-4e9d-b749-d76c7da86368>`_
+   - Maarten van den Bosch [TUD, Oct 2018], `Explore Pole Vaulting Strategies
+     by control optimization
+     <http://resolver.tudelft.nl/uuid:98fd5f38-41d7-44b8-85e8-c54e5aeb9c40>`_
+   - Bernhard Westerhof [TUD, Aug 2018], `Evaluation of the Cruden Motorcycle
+     Simulator
+     <http://resolver.tudelft.nl/uuid:05a77692-ed92-4d85-8bc1-0f0038babf12>`_
+   - Carlijn Sluiter [TUD, Jul 2018], `Bicycle Handling Qualities
+     <http://resolver.tudelft.nl/uuid:d8f74cbd-0326-4908-8e84-0b85d9d80a0b>`_
+   - Jelte Doeksen [TUD, Apr 2018], `Synchronization in Rowing
+     <http://resolver.tudelft.nl/uuid:892ba3af-d89d-4666-a5eb-5c0786926940>`_
+   - Janneke Voordouw [TUD, Apr 2018], `Forward dynamic model for rowing
+     performance; driven by rower specific data and variable rigging setup
+     <http://resolver.tudelft.nl/uuid:ddfe8888-3142-4f92-ac78-b66d9c3feca3>`_
    - P.H. De Jong [TUD, Feb 2017], `Rear Wheel Steer Bikes
      <http://resolver.tudelft.nl/uuid:76f67586-ab15-4c85-9841-544259b3be82>`_
    - M.M. Reijne [TUD, May 2016], `The Next Level in Pole Vaulting
@@ -311,14 +323,21 @@ Masters of Science Students
    - I.M. Kalsbeek [TUD, Mar 2016], `Experimental investigation into the shimmy
      motion of the bicycle for improving model-based shimmy estimations
      <http://resolver.tudelft.nl/uuid:a98d51c1-7754-4c29-b883-f130ba05136b>`_
-   - C.R. Lommers [TUD, Nov 2015]
-   - E.M. Van der Meel [TUD, Sep 2013]
-   - Eline van der Kruk [TUD, Oct 2013]
-   - Mats Overtoom [TUD, Jan 2013]
-   - Nick Appelman [TUD, Nov 2012]
-   - Joop van Gerwen [TUD, Apr 2012]
-   - Peter de Lange [TUD, Nov 2011]
-   - J.H. Van den Ouden [TUD, Feb 2011]
+   - C.R. Lommers [TUD, Nov 2015], `Descending: Measuring and comparing
+     descending technique and performance in professional road cycling
+     <http://resolver.tudelft.nl/uuid:437a6090-1e62-44fd-8426-9024efc4bd05>`_
+   - Eline van der Kruk [TUD, Oct 2013], `Modelling and measuring 3D movements
+     of a speed skater
+     <http://resolver.tudelft.nl/uuid:2a54e547-0a5a-468b-be80-a41a656cacc1>`_
+   - Mats Overtoom [TUD, Jan 2013], `Optimal Team Time Trial Strategy in Road
+     Cycling <http://resolver.tudelft.nl/uuid:3ebc484b-e219-450d-b44c-c785c3f28f4f>`_
+   - Nick Appelman [TUD, Nov 2012], `Dynamics and Control of a Steer-by-Wire
+     Bicycle
+     <http://resolver.tudelft.nl/uuid:373f1f52-f149-4a47-b744-3050a2608f0d>`_
+   - Peter de Lange [TUD, Nov 2011], `Rider Control Identification in Bicycling
+     <http://resolver.tudelft.nl/uuid:ca7120a8-8fb4-415e-a286-66101990b426>`_
+   - J.H. Van den Ouden [TUD, Feb 2011], `Inventory of Bicycle Motion for the
+     Design of a Bicycle Simulator
+     <http://resolver.tudelft.nl/uuid:ec31182d-8063-41a3-89ec-799be901cb6e>`_
    - Danique Fintelman [TUD, 2011]
-   - S.G.C. De Groot [TUD, May 2010]
    - Jodi Kooijman [TUD, 2008]
