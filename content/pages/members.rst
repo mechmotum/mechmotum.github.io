@@ -78,21 +78,21 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-floris-van-willigen|
+   * - |headshot-missing|
+     - | **Kenneth Pasma** [TUD, Oct 2022-present]
+       | *Robotic Bicycle Control*
+     - |headshot-floris-van-willigen|
      - | **Floris van Willigen** [TUD, Sep 2022-present]
        | *Titling Tricycle Geometry*
-     - |headshot-van-der-schot-jan|
+   * - |headshot-van-der-schot-jan|
      - | **Jan van der Schot** [TUD, Jul 2022-present]
        | *Ski Jump Safety Assessment*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Timo Stienstra** [TUD, Jun 2022-present]
        | *Improving SymPy's Joints Framework*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Jens Keijser** [TUD, May 2022-present]
        | *Outdoor Cycling Propulsion Simulation*
-   * - |headshot-missing|
-     - | **Evelijn Verboom** [TUD, Feb 2022-present]
-       | *Human Intention Detection for Bicycle Steer Assist*
      - |headshot-missing|
      - | **Dorus de Boer** [TUD, Oct 2021-present]
        | *Cycling Material Model Design*
@@ -102,11 +102,6 @@ Masters of Science Students
      - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-   * - |headshot-huiskens-tim|
-     - | **Tim Huiskens** [TUD]
-       | *Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle*
-     -
-     -
 
 .. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
    :width: 100px
@@ -151,6 +146,10 @@ PhD Candidates
    - Marco Reijne [TUD, April 2018-April 2022]
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
 Masters of Science Students
+   - Evelijn Verboom [TUD, Feb 2022-Oct 2022], *Human Intention Detection for
+     Bicycle Steer Assist*
+   - Tim Huiskens [TUD, -Sep 2022], *Validating the Whipple-Carvallo Bicycle
+     Model Using a Robot Bicycle*
    - Simonas Draukšas [TUD, Sep 2021-Sep 2022], `Using Model Predictive Control
      on a Steer-by-Wire Bicycle for Performance Assistance
      <http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40>`_
