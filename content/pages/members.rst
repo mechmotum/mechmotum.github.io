@@ -58,12 +58,12 @@ PhD Candidates
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-dukalski-rado|
-     - | **Rado Dukalski** [TUD, March 2018-present]
-       | *Augmented Reality in Cycling for Safety and Peformance*
-     - |headshot-schmidt-christoph|
+   * - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
        | *Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated Vehicles*
+     - |headshot-dukalski-rado|
+     - | **Rado Dukalski** [TUD, March 2018-present]
+       | *Augmented Reality in Cycling for Safety and Peformance*
 
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
    :width: 100px
