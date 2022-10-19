@@ -102,7 +102,9 @@ postings via the lab, here are some things you need to do:
 - Note that your TUD supervisor is typically not involved in your internship
   other than the signing the initial form and assessing and providing a grade
   at the end. The purpose of the internship is for you to get some non-academic
-  experience in engineering.
+  experience in engineering. The internship should also be distinct from your
+  MSc literature study and thesis project in the sense that a standalone report
+  for the internship work is required.
 
 Literature Study
 ----------------
@@ -157,7 +159,8 @@ Basic Steps:
 - (CoR based MSc tracks only) Submit MSc initiation form.
 - Formulate a research question or hypothesis that you'd like address in
   consultation with your supervisors (this usually occurs in the later portion
-  of your literature study period).
+  of your literature study period and is informed by your literature study
+  findings).
 - Develop a written project plan (3 pages): research question/aim/goals,
   your basic technical approach, timeline, milestones, resources, etc.
 - Organize a kickoff meeting with all of your supervisors to present your
@@ -169,9 +172,9 @@ Basic Steps:
   demonstrate you can succeed in the final project execution.
 - Work on the project with your daily supervisor's guidance.
 - Once you are getting close to a draft thesis arrange a Go/No-Go meeting. This
-  meeting should include all members of your defense committee. Typically
-  give the supervisors one week to read and comment on the draft before the
-  meeting.
+  meeting should likely include all members of your defense committee.
+  Typically give the supervisors one week to read and comment on the draft
+  before the meeting.
 - If you get a "Go" at the Go/No-Go meeting then you should initiate the
   arrangement of your defense by submitting the correct forms to your track
   coordinators and department secretaries.
@@ -216,8 +219,6 @@ up-to-date rules if in question. The current lab rules are:
 - Take the virus seriously and respect everyone's health needs/wishes. Everyone
   should feel comfortable if using the space. Communication is key for this.
 
-.. _reservation calendar: https://calendar.google.com/calendar/u/0?cid=amcwaG9nMnZxaWRxMXI0dGdmdmlzcWEwazhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
-
 Communication
 =============
 
@@ -228,7 +229,8 @@ Lab Email List
 
    This can both be used by everyone as both an announcement list and a
    discussion list. All lab members need to join and pay attention to this list
-   for announcements and are welcome to use if for discussion.
+   for announcements and are welcome to use if for discussion. Write to the
+   email list by sending a message to mechmotum@googlegroups.com.
 Text, Audio, Video Chat Room
    We host a matrix_ server which can be accessed using https://element.io or
    any other supported clients_. This is used for quick chats, meetings, etc.
@@ -237,7 +239,7 @@ Text, Audio, Video Chat Room
    There are a number of rooms that you can join where we share papers,
    conference announcements, etc.
 Issue Trackers
-   We make heavy use of issue trackers on Github and Gitlab to communication.
+   We make heavy use of issue trackers on Github and Gitlab to communicate.
    This is good for topic oriented, long form discussion that needs permanency,
    organization, and/or task control. General lab issues can be tracked in this
    repository (in addition to the website issues):
@@ -245,14 +247,14 @@ Issue Trackers
    https://github.com/mechmotum/mechmotum.github.io
 
 Quarterly Blog Posts
-   In general, we would like each project to write regular blog posts for the
-   lab website. These posts should describe updates on project progress and
-   results. This writing exercise will help build the content for future papers
-   and theses and provide outreach to the public about our work. It is helpful
-   to do these on a schedule (quarterly, semi-annually, etc.) so that the get
-   done. If your project is of a proprietary nature, you'll need to select
-   aspects of the project or work that can be shared or embargo the blog post
-   to a later date. Discuss these things with your supervisor.
+   In general, we would like each project to write at least one blog post for
+   the lab website. This post should at least describe project results. This
+   writing exercise will help build the content for future papers and theses
+   and provide outreach to the public about our work. If you write more than
+   one blog post, it is helpful to do these on a schedule (quarterly,
+   semi-annually, etc.). If your project is of a proprietary nature, you'll
+   need to select aspects of the project or work that can be shared or embargo
+   the blog post to a later date. Discuss these things with your supervisor.
 
 .. _matrix: https://matrix.org/
 .. _clients: https://matrix.org/docs/projects/try-matrix-now/
@@ -261,7 +263,8 @@ AIO Weekly Emails
 -----------------
 
 Lab members are expected to send out AIOs to their supervisor(s) and any
-project collaborators you meet with during your regular meetings.
+project collaborators you meet with during your regular meetings if agreed upon
+with your supervisor.
 
 "AIO" stands for Accomplishments, Issues, and Objectives. This email should
 contain three bullet lists:
@@ -557,12 +560,12 @@ use it. If no one is using it, then you can!
 If a TU Delft student or staff that is not a lab member would like to borrow
 equipment from the lab, find out if anyone is using it (as noted above), and
 then make sure they fill out the checkout sheet (by the lab door) with their
-name, email, and date before the item leaves the lab. When they return the
-item, indicate the return date on the sheet. Keep in mind that non-lab member
-students should look to the more general shared equipment resources available
-in 3mE before borrowing from us and we don't generally loan common things like
-screwdrivers and bike pumps but can loan specialized equipment that only we
-have.
+name, email, date, and your name (as the responsible person) before the item
+leaves the lab. When they return the item, indicate the return date on the
+sheet. Keep in mind that non-lab member students should look to the more
+general shared equipment resources available in 3mE before borrowing from us
+and we don't generally loan common things like screwdrivers and bike pumps but
+can loan specialized equipment that only we have.
 
 If you take things from the lab to use elsewhere for **more than one day** you
 also need to sign the equipment checkout sheet. Note your name and the date you
