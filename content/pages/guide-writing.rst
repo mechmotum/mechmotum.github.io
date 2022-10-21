@@ -8,6 +8,26 @@ Guide: Writing
 Common Issues
 =============
 
+Creating figures
+----------------
+
+Students often create figures that are saved from figure creation software
+without any adjustements to the default settings. The default settings are
+never appropriate.
+
+Look up how to make publication quality figures with your preferred software.
+
+Python
+
+- https://atchen.me/research/code/data-viz/2022/01/04/plotting-matplotlib-reference.html
+- https://github.com/jbmouret/matplotlib_for_papers
+
+Matlab
+
+- https://www.mathworks.com/matlabcentral/fileexchange/47921-plotpub-publication-quality-graphs-in-matlab
+
+Font sizes too small.
+
 When to use a figure
 --------------------
 
@@ -47,6 +67,22 @@ options:
    criticism or review", and "Use for the purpose of research or private
    study". https://en.wikipedia.org/wiki/Copyright_law_of_the_Netherlands
 
+Math
+----
+
+Do not use :math:`a*b` or :math:`a\times b` to indicate scalar multiplication,
+:math:`ab` is clear and more than sufficient.
+
+LaTeX
+-----
+
+This is how you do quotes in LaTeX!
+
+::
+
+   `single quoted stuff`
+   ``double quoted stuff''
+
 Style
 =====
 
@@ -55,3 +91,6 @@ Allen has some nice style notes: https://sites.google.com/site/allendowney/style
 active voice vs passive voice
 -----------------------------
 
+https://allendowney.com/essays/passive.html
+
+https://www.allendowney.com/blog/2019/12/18/please-stop-teaching-people-to-write-about-science-in-the-passive-voice/
