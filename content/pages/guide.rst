@@ -106,6 +106,11 @@ postings via the lab, here are some things you need to do:
   MSc literature study and thesis project in the sense that a standalone report
   for the internship work is required.
 
+Here are some companies that have hosted internships with us in the past:
+Gazelle, Prinoth, Garmin/Tacx, Swugo, B-Cells, Team DSM, SymPy,
+Bikefitting.com, TrueKinetix, velolab.de, TU Delft Sports Engineering
+Institute, Aalborg University Sports Sciences.
+
 Literature Study
 ----------------
 
