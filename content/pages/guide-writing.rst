@@ -109,6 +109,20 @@ proper file formats and then cited in your thesis. It is appropriate to include
 code if you want the reader to read it. For example you may demonstrate an
 algorithm by showing a short snippet of code.
 
+Appendices
+----------
+
+Appendices are not just a clearing house to dump all the extra figures and
+tables you generated. Appendices are ancillary chapters and sections of your
+work. They provide supporting, but not necessary, information for the story in
+your main chapters. For example, if you say in a main chapter "We measured the
+stiffness of 10 bicycle tires and use those values in the model, see Appendix
+A." then appendix A should be a new section with written content that explains
+this measurement procedure. If it was in the main text it would distract the
+reader from your main points, e.g. model description, but if the reader
+questions your stiffness values they can then read the appendix to see how you
+arrived at the values.
+
 Style
 =====
 
