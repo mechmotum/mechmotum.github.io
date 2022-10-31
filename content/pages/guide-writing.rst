@@ -8,26 +8,6 @@ Guide: Writing
 Common Issues
 =============
 
-Creating figures
-----------------
-
-Students often create figures that are saved from figure creation software
-without any adjustements to the default settings. The default settings are
-never appropriate.
-
-Look up how to make publication quality figures with your preferred software.
-
-Python
-
-- https://atchen.me/research/code/data-viz/2022/01/04/plotting-matplotlib-reference.html
-- https://github.com/jbmouret/matplotlib_for_papers
-
-Matlab
-
-- https://www.mathworks.com/matlabcentral/fileexchange/47921-plotpub-publication-quality-graphs-in-matlab
-
-Font sizes too small.
-
 When to use a figure
 --------------------
 
@@ -50,8 +30,37 @@ Anything that isn't obvious from teh figure's design should be include, e.g.
 fifth eigenmode." The caption should not include discussion or interpretation
 of the figure, that belongs in your primary text.
 
-Copyright
----------
+Creating figures
+----------------
+
+Students often create figures that are saved from figure creation software
+without any adjustements to the default settings. The default settings are
+never appropriate. Search the internet for how to make publication quality
+figures with your preferred software. For example here are some
+
+Python
+
+- https://atchen.me/research/code/data-viz/2022/01/04/plotting-matplotlib-reference.html
+- https://github.com/jbmouret/matplotlib_for_papers
+
+Matlab
+
+- https://www.mathworks.com/matlabcentral/fileexchange/47921-plotpub-publication-quality-graphs-in-matlab
+
+Common issues:
+
+- The figure is poorly scaled for actual paper sizes.
+- Bitmap images have either too high or too low resolution. Make your
+  resolutions 300 dpi (dot per inch).
+- Font sizes are too small on axis labels and legends, for example.
+- Grey backgrounds are left in the figure (common for Matlab).
+- Readers cannot discern indivisual lines or dots in the plot. For example, you
+  may have a time series line plot of an acceleromter over 30 minutes. Showing
+  all 30 minutes is simply a blob of color that is not useful. Show only 1
+  minute or 30 seconds so that the reader can see the data in a useful way.
+
+Figure Copyright
+----------------
 
 In general, you cannot include figures you did not create draw yourself in your
 document. If you want to include the figure there are essentially three
@@ -60,7 +69,8 @@ options:
 1. Ask the copyright holder for written permission to use their figure.
 2. If the copyright holder has licensed their figure with a Creative Commons
    license (or similar) then you can use the figure if you abide by the
-   license's rules.
+   license's rules. This usually means displaying the reference to the license
+   and the authors.
 3. It may be possible to use the figure without permission if the use falls
    under an exception in your jurisdiction. Dutch Law seems to have exceptions
    for "Illustration for teaching or scientific research", "Quotation for
@@ -69,6 +79,10 @@ options:
 
 Math
 ----
+
+Take time to typeset your math equations and number each equation for
+referencing in the text. Follow mathematical notation standards to make it easy
+for the readers.
 
 Do not use :math:`a*b` or :math:`a\times b` to indicate scalar multiplication,
 :math:`ab` is clear and more than sufficient.
@@ -83,8 +97,31 @@ This is how you do quotes in LaTeX!
    `single quoted stuff`
    ``double quoted stuff''
 
+Backticks on the left qutoes are necessary to obtain correctly formatted
+quotation marks.
+
+Code
+----
+
+There is no reason to include long scripts and programs in your thesis. If a
+product of your thesis project is code, it is best to archive your code in the
+proper file formats and then cited in your thesis. It is appropriate to include
+code if you want the reader to read it. For example you may demonstrate an
+algorithm by showing a short snippet of code.
+
 Style
 =====
+
+There are many writing styles; some styles fit with the norms in scientific
+writing and some do not. It is extremely important to make your academmic
+reports and papers as easy to understand as possible. Some style choices will
+help you write more clearly.
+
+Here are some recommendations:
+
+- Write in active voice unless the context really needs passive voice to make
+  things clearer.
+- Write in present tense unless necessary to write in other tenses.
 
 Allen has some nice style notes: https://sites.google.com/site/allendowney/style-guide
 
