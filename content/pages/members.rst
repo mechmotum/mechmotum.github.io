@@ -68,7 +68,7 @@ PhD Candidates
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
    :width: 100px
    :height: 133px
-   
+
 .. |headshot-schmidt-christoph| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schmidt-christoph.jpg
    :width: 100px
    :height: 133px
@@ -135,7 +135,16 @@ Masters of Science Students
 Research Assistants
 ===================
 
-None
+.. list-table::
+   :class: borderless
+   :width: 100%
+   :widths: 10 40 10 40
+   :align: center
+
+   * - |headshot-missing|
+     - **Zhengyang Lu** [TUD, Nov 2022-present]
+     -
+     -
 
 .. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
    :width: 100px
