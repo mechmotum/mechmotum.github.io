@@ -207,6 +207,17 @@ Other:
 - Read the articles about writing reports and theses in the recommended reading
   later in this guide.
 
+Employees
+=========
+
+- If you need to take sick leave report this to your immediate supervisor and
+  the secretariat. Log your sick leave hours in TIM.
+- You may holiday days up to 2 days without informing your supervisor. If
+  longer than two days please inform your supervisor so they are aware you are
+  unavailable. If you want to take more than one week at a time, please inform
+  your supervisor well in advance for planning purposes. All holiday time
+  has to be requested via TIM and approved by the department manager.
+
 COVID-Time Lab Rules
 ====================
 
