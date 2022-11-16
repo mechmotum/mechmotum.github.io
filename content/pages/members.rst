@@ -155,47 +155,70 @@ Past
 All TU Delft theses can be obtained (after any embargo period) at:
 https://repository.tudelft.nl.
 
-PhD Candidates
-   - Marco Reijne [TUD, April 2018-April 2022]
-   - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
-Masters of Science Students
-   - Evelijn Verboom [TUD, Feb 2022-Oct 2022], *Human Intention Detection for
-     Bicycle Steer Assist*
-   - Tim Huiskens [TUD, -Sep 2022], *Validating the Whipple-Carvallo Bicycle
-     Model Using a Robot Bicycle*
-   - Simonas Draukšas [TUD, Sep 2021-Sep 2022], `Using Model Predictive Control
-     on a Steer-by-Wire Bicycle for Performance Assistance
-     <http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40>`_
-   - Daniël Landré [TUD, Sep 2021-Sep 2022], `Predicting cycling risk at
-     intersections with natural cycling data for speed-controlled e-bikes
-     <http://resolver.tudelft.nl/uuid:4996f53f-e493-4ddb-9924-c4110965fb48>`_
-   - Ajaypal Singh [TUD, Jul 2021-Aug 2022], `Investigation of the chatter and
-     squeal phenomenon in bicycle disc brakes
-     <http://resolver.tudelft.nl/uuid:dd809802-ea24-48b2-b63c-150611f612c9>`_
-   - Jeswin Koshy Cherian [TUD, Jan 2022-Jun 2022], Near Zero Speed
-     Self-Balancing Cargo Bicycle, MSc Honors Project
-   - Francesca Andretta [TUD, Feb 2021-Apr 2022], `Learning cycling styles
-     using experimental trajectory data with Inverse Reinforcement Learning
-     <http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc>`_
-   - Shannon van de Velde [TUD, Dec 2020-Mar 2022], `Design of a setup for
-     experimental research on stability of a bicycle-rider system subject to
-     large perturbations
-     <http://resolver.tudelft.nl/uuid:4571c00e-3bfc-4d9c-a46a-30a3b30b932a>`_
-   - Jelle Haasnoot [TUD, -Nov 2021], now at Tacx, `Design and Validation of
-     Steer, Roll, Yaw and Sway Motion of a Kinematics-Based Bicycle Simulator
-     <http://resolver.tudelft.nl/uuid:39e7c31e-2b00-4ea6-908c-a18019b863f5>`_
-   - Joris Kuiper [TUD, Sep 2020-Jun 2021], now at Gearbox, `Development of an
-     Integrated Bicycle Accident Detection System: Introducing ALARM: Accident
-     Localisation And Recognition Method
-     <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_
-   - Jan Groenhuis [TUD, -Jun 2021], `Experimental data-tracking of the BMX SX
-     gate start using biomechanical modeling and trajectory optimization
-     <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
-   - Junda Wu [TUD, Jan 2021-Mar 2021]
-   - `Abraham McKay`_ [UCD, Feb 2017-Jun 2018], now at `219 Design
-     <https://www.219design.com>`_, `The Water Buffalo: Design of a Portable
-     Bicycle Powered Irrigation Pump for Small-Scale African Farmers
-     <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
+
+.. list-table:: Masters of Science Students
+   :class: table table-striped
+   :width: 100%
+   :widths: 15 5 20 40 10
+   :align: center
+   :header-rows: 1
+
+   * - Name
+     - University
+     - Dates
+     - Project
+     - Now at
+   * - Evelijn Verboom
+     - TUD
+     - Feb 2022-Oct 2022
+     - Human Intention Detection for Bicycle Steer Assist
+     -
+   * - Tim Huiskens
+     - TUD
+     - ?-Sep 2022
+     - Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle
+     -
+   * - Simonas Draukšas
+     - TUD
+     - Sep 2021-Sep 2022
+     - `Using Model Predictive Control on a Steer-by-Wire Bicycle for
+       Performance Assistance
+       <http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40>`_
+     -
+   * - Daniël Landré
+     - TUD
+     - Sep 2021-Sep 2022
+     - `Predicting cycling risk at intersections with natural cycling data for
+       speed-controlled e-bikes
+       <http://resolver.tudelft.nl/uuid:4996f53f-e493-4ddb-9924-c4110965fb48>`_
+     -
+   * - Ajaypal Singh
+     - TUD
+     - Jul 2021-Aug 2022
+     - `Investigation of the chatter and squeal phenomenon in bicycle disc
+       brakes
+       <http://resolver.tudelft.nl/uuid:dd809802-ea24-48b2-b63c-150611f612c9>`_
+     -
+   * - Jeswin Koshy Cherian
+     - TUD
+     - Jan 2022-Jun 2022
+     - Near Zero Speed Self-Balancing Cargo Bicycle, MSc Honors Project
+     -
+   * - Francesca Andretta
+     - TUD
+     - Feb 2021-Apr 2022
+     - `Learning cycling styles using experimental trajectory data with Inverse
+       Reinforcement Learning
+       <http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc>`_
+     -
+   * - `Abraham McKay`_
+     - UCD
+     - Feb 2017-Jun 2018
+     - `The Water Buffalo: Design of a Portable Bicycle Powered Irrigation Pump
+       for Small-Scale African Farmers
+       <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
+     - `219 Design <https://www.219design.com>`_
+
 Research Assistants
    - Tim Stewart [UCD, Dec 2020-Sep 2021]
    - Noah Sanders [UCD, Jan 2020-Sep 2021]
@@ -272,13 +295,29 @@ TU Delft Bicycle Lab Students Prior to August 2020
 ==================================================
 
 These students graduated under the supervision of Dr. Arend Schwab prior to Dr.
-Moore's involvement with the lab and are here for reference.
+Moore's leadership of the lab and are here for reference.
 
 PhD Candidates
+   - Marco Reijne [TUD, April 2018-April 2022]
+   - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
    - Eline van der Kruk [TUD]
    - Jodi Kooijman [TUD], `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
-
 Masters of Science Students
+   - Shannon van de Velde [TUD, Dec 2020-Mar 2022], `Design of a setup for
+     experimental research on stability of a bicycle-rider system subject to
+     large perturbations
+     <http://resolver.tudelft.nl/uuid:4571c00e-3bfc-4d9c-a46a-30a3b30b932a>`_
+   - Jelle Haasnoot [TUD, -Nov 2021], now at Tacx, `Design and Validation of
+     Steer, Roll, Yaw and Sway Motion of a Kinematics-Based Bicycle Simulator
+     <http://resolver.tudelft.nl/uuid:39e7c31e-2b00-4ea6-908c-a18019b863f5>`_
+   - Joris Kuiper [TUD, Sep 2020-Jun 2021], now at Gearbox, `Development of an
+     Integrated Bicycle Accident Detection System: Introducing ALARM: Accident
+     Localisation And Recognition Method
+     <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_
+   - Jan Groenhuis [TUD, -Jun 2021], `Experimental data-tracking of the BMX SX
+     gate start using biomechanical modeling and trajectory optimization
+     <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
+   - Junda Wu [TUD, Jan 2021-Mar 2021]
    - van der Niet, A.M. [TUD, Sep 2020], `Free-trajectory steady motion control
      optimisation for the descent of elite cyclists
      <http://resolver.tudelft.nl/uuid:47dfe9db-e2ef-4e03-a0d1-1494fd808446>`_
