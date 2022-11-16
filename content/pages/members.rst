@@ -266,6 +266,7 @@ These students graduated under the supervision of Dr. Arend Schwab prior to Dr.
 Moore's involvement with the lab and are here for reference.
 
 PhD Candidates
+   - Eline van der Kruk [TUD]
    - Jodi Kooijman [TUD], `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
 
 Masters of Science Students
@@ -344,4 +345,5 @@ Masters of Science Students
      Design of a Bicycle Simulator
      <http://resolver.tudelft.nl/uuid:ec31182d-8063-41a3-89ec-799be901cb6e>`_
    - Danique Fintelman [TUD, 2011]
+   - M. V. C. Evertse [TUD, 2010], Rider analysis using a fully instrumented motorcycle.
    - Jodi Kooijman [TUD, 2008]
