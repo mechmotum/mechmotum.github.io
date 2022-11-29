@@ -97,15 +97,14 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Jens Keijser** [TUD, May 2022-present]
        | *Outdoor Cycling Propulsion Simulation*
-     - |headshot-missing|
-     - | **Dorus de Boer** [TUD, Oct 2021-present]
-       | *Cycling Material Model Design*
-   * - |headshot-heinen-jan|
+     - |headshot-heinen-jan|
      - | **Jan Heinen** [TUD, Sep 2021-present]
        | *Optimal Skateboard Design for the Highest Ollie*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
+     -
+     -
 
 .. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
    :width: 100px
@@ -159,6 +158,9 @@ PhD Candidates
    - Marco Reijne [TUD, April 2018-April 2022]
    - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
 Masters of Science Students
+   - Dorus de Boer [TUD, Oct 2021-Nov 2022], `Modeling a Professional Road
+     Cycling Race To Determine the Fastest Wheel-Tire Combination
+     <http://resolver.tudelft.nl/uuid:cc610be1-3aa2-4658-8584-2b1e7075f75a>`_
    - Evelijn Verboom [TUD, Feb 2022-Oct 2022], *Human Intention Detection for
      Bicycle Steer Assist*
    - Tim Huiskens [TUD, -Sep 2022], *Validating the Whipple-Carvallo Bicycle
