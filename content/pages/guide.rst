@@ -217,6 +217,12 @@ Employees
   unavailable. If you want to take more than one week at a time, please inform
   your supervisor well in advance for planning purposes. All holiday time
   has to be requested via TIM and approved by the department manager.
+- You may work from home or other locations at any time you choose. You do not
+  need to inform your supervisor of this (in general). At least half your time
+  should be on campus, on average, and during typical working hours 8-6 so that
+  you can interact with the lab members. Just inform me if it disrupts some in
+  person work at the campus.  Also, when you work from home I except that I can
+  reach you if needed via element, teams, phone etc.
 
 COVID-Time Lab Rules
 ====================
