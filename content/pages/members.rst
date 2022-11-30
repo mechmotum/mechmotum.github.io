@@ -97,15 +97,14 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Jens Keijser** [TUD, May 2022-present]
        | *Outdoor Cycling Propulsion Simulation*
-     - |headshot-missing|
-     - | **Dorus de Boer** [TUD, Oct 2021-present]
-       | *Cycling Material Model Design*
-   * - |headshot-heinen-jan|
+     - |headshot-heinen-jan|
      - | **Jan Heinen** [TUD, Sep 2021-present]
        | *Optimal Skateboard Design for the Highest Ollie*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
+     -
+     -
 
 .. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
    :width: 100px
@@ -122,11 +121,6 @@ Masters of Science Students
 .. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
    :width: 100px
    :height: 133px
-
-.. |headshot-haasnoot-jelle| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png
-   :width: 100px
-   :height: 133px
-
 
 .. |headshot-heinen-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg
    :width: 100px
@@ -155,11 +149,12 @@ Past
 All TU Delft theses can be obtained (after any embargo period) at:
 https://repository.tudelft.nl.
 
+**Masters of Science Students**
 
-.. list-table:: Masters of Science Students
+.. list-table::
    :class: table table-striped
    :width: 100%
-   :widths: 15 5 20 40 10
+   :widths: 15 5 20 30 20
    :align: center
    :header-rows: 1
 
@@ -167,57 +162,76 @@ https://repository.tudelft.nl.
      - University
      - Dates
      - Project
-     - Now at
+     - Supervisors
+   * - `Dorus de Boer <https://www.linkedin.com/in/dorusdeboer/>`_
+     - TUD
+     - Oct 2021-Nov 2022
+     - `Modeling a Professional Road Cycling Race To Determine the Fastest
+       Wheel-Tire Combination
+       <http://resolver.tudelft.nl/uuid:cc610be1-3aa2-4658-8584-2b1e7075f75a>`_
+     - `J. K. Moore, P. Rooijakkers, H. Ubbens`
    * - Evelijn Verboom
      - TUD
      - Feb 2022-Oct 2022
      - Human Intention Detection for Bicycle Steer Assist
-     -
+     - `L. Alizadehsarvi, J. K. Moore`
    * - Tim Huiskens
      - TUD
      - ?-Sep 2022
      - Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle
-     -
-   * - Simonas Draukšas
+     - `L. Alizadehsarvi, J. K. Moore`
+   * - `Simonas Draukšas <https://www.linkedin.com/in/simonas-drauksas/>`_
      - TUD
      - Sep 2021-Sep 2022
      - `Using Model Predictive Control on a Steer-by-Wire Bicycle for
        Performance Assistance
        <http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40>`_
-     -
-   * - Daniël Landré
+     - `L. Alizadehsarvi, R. Happee, L. Marchal-Crespo J. K. Moore`
+   * - `Daniël Landré <https://www.linkedin.com/in/daniel-landre/>`_
      - TUD
      - Sep 2021-Sep 2022
      - `Predicting cycling risk at intersections with natural cycling data for
        speed-controlled e-bikes
        <http://resolver.tudelft.nl/uuid:4996f53f-e493-4ddb-9924-c4110965fb48>`_
-     -
-   * - Ajaypal Singh
+     - `V. L. Knoop, J. K. Moore, B. Oor`
+   * - `Ajaypal Singh <https://www.linkedin.com/in/singhajaypal2018/>`_
      - TUD
      - Jul 2021-Aug 2022
      - `Investigation of the chatter and squeal phenomenon in bicycle disc
        brakes
        <http://resolver.tudelft.nl/uuid:dd809802-ea24-48b2-b63c-150611f612c9>`_
-     -
-   * - Jeswin Koshy Cherian
+     - `A. Dressel, J. K. Moore, H. Vreman`
+   * - `Jeswin Koshy Cherian <https://www.linkedin.com/in/jeswin-koshy-cherian/>`_
      - TUD
      - Jan 2022-Jun 2022
      - Near Zero Speed Self-Balancing Cargo Bicycle, MSc Honors Project
-     -
-   * - Francesca Andretta
+     - `B. Andersson, O. Lee, J. K. Moore, A, Ranheim`
+   * - `Francesca Andretta <https://www.linkedin.com/in/francesca-andretta-4175b3173/>`_
      - TUD
      - Feb 2021-Apr 2022
      - `Learning cycling styles using experimental trajectory data with Inverse
        Reinforcement Learning
        <http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc>`_
+     - `A. Dabiri, J. K. Moore`
+   * - Joris Kuiper
+     - TUD
+     - Sep 2020-Jun 2021
+     - `Development of an Integrated Bicycle Accident Detection System:
+       Introducing ALARM: Accident Localisation And Recognition Method
+       <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_
+     - `J. K. Moore, A. L. Schwab`
+   * - Junda Wu
+     - TUD
+     - Jan 2021-Mar 2021
      -
+     - `J. K. Moore, A. L. Schwab`
    * - `Abraham McKay`_
      - UCD
      - Feb 2017-Jun 2018
      - `The Water Buffalo: Design of a Portable Bicycle Powered Irrigation Pump
        for Small-Scale African Farmers
        <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
-     - `219 Design <https://www.219design.com>`_
+     - `J. K. Moore`
 
 Research Assistants
    - Tim Stewart [UCD, Dec 2020-Sep 2021]
@@ -291,11 +305,11 @@ Google Summer of Code and Season of Docs Participants
 .. _Kenneth Lyons: https://ixjlyons.com
 .. _Bryn Cloud: https://www.linkedin.com/in/bryn-cloud/
 
-TU Delft Bicycle Lab Students Prior to August 2020
-==================================================
+TU Delft Bicycle Lab Students Prior to Transition
+=================================================
 
-These students graduated under the supervision of Dr. Arend Schwab prior to Dr.
-Moore's leadership of the lab and are here for reference.
+These students graduated under the primary supervision of Dr. Arend Schwab
+prior to Dr. Moore's leadership of the lab and are here for reference.
 
 PhD Candidates
    - Marco Reijne [TUD, April 2018-April 2022]
@@ -310,10 +324,6 @@ Masters of Science Students
    - Jelle Haasnoot [TUD, -Nov 2021], now at Tacx, `Design and Validation of
      Steer, Roll, Yaw and Sway Motion of a Kinematics-Based Bicycle Simulator
      <http://resolver.tudelft.nl/uuid:39e7c31e-2b00-4ea6-908c-a18019b863f5>`_
-   - Joris Kuiper [TUD, Sep 2020-Jun 2021], now at Gearbox, `Development of an
-     Integrated Bicycle Accident Detection System: Introducing ALARM: Accident
-     Localisation And Recognition Method
-     <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_
    - Jan Groenhuis [TUD, -Jun 2021], `Experimental data-tracking of the BMX SX
      gate start using biomechanical modeling and trajectory optimization
      <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
