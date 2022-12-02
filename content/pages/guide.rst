@@ -4,7 +4,9 @@ Guide
 
 :sortorder: 5
 
-.. contents::
+.. contents:: Table of Contents
+   :local:
+   :class: floatcon
 
 This page is intended to house documentation for lab members that describes the
 nuts and bolts of how the lab functions. It's primary purpose is for
@@ -555,8 +557,8 @@ you'd like to share something that is set to private.
 Lab Space
 =========
 
-Using, removing, loaning equipment & consumables
-------------------------------------------------
+Equipment & Consumables
+-----------------------
 
 If you find something in the lab you would like to use, post a note to the
 Element/matrix chat or lab email asking if anyone else is using it or plans to
@@ -760,8 +762,8 @@ Your projects will vary and you'll have to read a variety of different papers
 and resources, but this list provides a general set of papers that it is good
 for all lab members to read.
 
-Introduction to Bicycle Engineering and Science
------------------------------------------------
+Introduction to Bicycle Science
+-------------------------------
 
 Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
    Science of competitive cycling.
