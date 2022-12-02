@@ -218,3 +218,23 @@ dd {
   margin-right: auto;
   max-height: 270px;
 }
+
+/* Class for a right floating table of contents */
+/* Works best with: */
+/* .. contents: Table of Contents */
+/*    :local: */
+/*    :class: floatcon */
+@media (min-width: 768px) {
+  .floatcon {
+    float: right;
+    border-style: solid none solid none;
+    padding: 5px;
+    margin: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .floatcon {
+    border-style: solid none solid none;
+    padding: 5px;
+  }
+}

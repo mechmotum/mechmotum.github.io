@@ -2331,7 +2331,33 @@ instrumented ebike&lt;/p&gt;
 PID controller on an instrumented ebike which can be&lt;/em&gt; &lt;a class="reference external" href="https://mechmotum.github.io/blog/ebike-controller-implementation.html"&gt;found here&lt;/a&gt;.
 &lt;em&gt;Updates include sections 5.4-5.5 discussing the added dead man's switch and
 throttle relay and minor fixes throughout.&lt;/em&gt;&lt;/p&gt;
-
+&lt;div class="contents floatcon local topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#introduction" id="toc-entry-1"&gt;1.0 Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#system-operation-functionality" id="toc-entry-2"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#system-architecture" id="toc-entry-3"&gt;3.0 System Architecture&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#control-architecture" id="toc-entry-4"&gt;3.1 Control Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#physical-architecture" id="toc-entry-5"&gt;3.2 Physical Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#software" id="toc-entry-6"&gt;4.0 Software&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#code-libraries" id="toc-entry-7"&gt;4.1 Code Libraries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#hardware-hook-up-and-design" id="toc-entry-8"&gt;5.0 Hardware Hook Up and Design&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#instrumented-ebike-platform" id="toc-entry-9"&gt;5.1 Instrumented Ebike Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#electrical-hook-up" id="toc-entry-10"&gt;5.2 Electrical Hook Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#electronics-housings" id="toc-entry-11"&gt;5.3 Electronics Housings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#dead-mans-switch" id="toc-entry-12"&gt;5.4 Dead Man’s Switch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#throttle-relay-planned" id="toc-entry-13"&gt;5.5 Throttle Relay (Planned)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#bill-of-materials" id="toc-entry-14"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#suggested-improvements" id="toc-entry-15"&gt;7.0 Suggested Improvements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#acknowledgements" id="toc-entry-16"&gt;8.0 Acknowledgements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;1.0 Introduction&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The overall goal of this project is to design and implement a cruise control
@@ -2349,7 +2375,7 @@ of the PID controller.&lt;/p&gt;
 fundamentally informed by the interactions the user would have with the system.
 A typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;"/&gt;
+&lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A typical user interaction with the system.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This user interaction flowchart was used to help better understand the problem
@@ -2364,7 +2390,7 @@ hardware and software portions of the cruise control system.&lt;/p&gt;
 error between a user defined setpoint and the actual speed of the ebike. Figure
 2 graphically shows how the control architecture is implemented on the ebike.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;"/&gt;
+&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Control architecture as implemented on the ebike.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2376,7 +2402,7 @@ integration by highlighting the input/output and geometric relationships
 between existing components of the ebike and the additional components needed
 to implement the cruise control system.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;"/&gt;
+&lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Geometric layout of the system components showing relative size,
 location, information flow, and type of each component. Components called
 out with a triangle are existing components on the ebike. Components called
@@ -2393,7 +2419,7 @@ control is disengaged, the Arduino simply reads the user commanded throttle
 position and passes it directly to the motor controller. Figure 4, below,
 graphically shows this interaction.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;"/&gt;
+&lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Schematic showing the Arduino’s function as a throttle emulator.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Note: Testing of the cruise control system has shown the implementation method
@@ -2414,7 +2440,7 @@ current status of the system via an LCD and logs diagnostic information to an
 SD card.&lt;/p&gt;
 &lt;p&gt;Figure 5, below, shows a high level view of the logic flow of the code.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;"/&gt;
+&lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Basic logic flowchart of the cruise control software.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Source code, and more details about it, can be found on the Laboratorium’s
@@ -2453,7 +2479,7 @@ controller and powered by a 36V Li ion battery. More information on the build
 and the bike’s instrumentation system can be found in Jason’s dissertation
 &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;"/&gt;
+&lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. The instrumented ebike today.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2466,9 +2492,9 @@ build.&lt;/p&gt;
 &lt;table border="1" class="docutils"&gt;
 &lt;caption&gt;&lt;em&gt;Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in section 6.0.&lt;/em&gt;&lt;/caption&gt;
 &lt;colgroup&gt;
-&lt;col width="40%"/&gt;
-&lt;col width="40%"/&gt;
-&lt;col width="20%"/&gt;
+&lt;col width="40%" /&gt;
+&lt;col width="40%" /&gt;
+&lt;col width="20%" /&gt;
 &lt;/colgroup&gt;
 &lt;thead valign="bottom"&gt;
 &lt;tr&gt;&lt;th class="head"&gt;Component Name&lt;/th&gt;
@@ -2511,12 +2537,12 @@ build.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;The Arduino Nano and the voltage divider circuits were soldered to a small 3" x
-1" piece of protoboard. Wires (22 AWG) were soldered to the protoboard to
+&lt;p&gt;The Arduino Nano and the voltage divider circuits were soldered to a small 3&amp;quot; x
+1&amp;quot; piece of protoboard. Wires (22 AWG) were soldered to the protoboard to
 connect the external components to the Nano. Figure 7 shows the completed
 Arduino board.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;"/&gt;
+&lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 7. The Arduino board with wires attached.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;With many of the components located on the handlebars, a majority of these
@@ -2541,22 +2567,22 @@ the sides and top of the housing allow for wires to exit towards their
 destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;"/&gt;
+&lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8. Arduino housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The Arduino housing is clamped to the downtube of the ebike by a socket head
 screw as shown in Figure 9.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;"/&gt;
+&lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9. Arduino housing mounting point.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Both the LCD and button housings were 3D printed and designed to mount to the
 handlebars using a clamshell style mount used for securing GoPro cameras to
-bikes. Each mount had a pair of “bunny ears" designed to interface with the
+bikes. Each mount had a pair of “bunny ears&amp;quot; designed to interface with the
 GoPro style mount. The LCD housing, shown in Figure 10 below, is a simple
 rectangular two-piece enclosure joined by button head screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;"/&gt;
+&lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 10. LCD housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Similar to the LCD housing, the button housing is a two-piece, enclosure joined
@@ -2566,13 +2592,13 @@ more convenient for the user, larger button parts were 3D printed and offset
 from each mini momentary pushbutton using a compression spring as shown in
 Figure 11 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;"/&gt;
+&lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 11. Button housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;As shown in Figure 12, the button housing is mounted on the right side of the
 handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;"/&gt;
+&lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 12. Button housing position on the handlebars.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2610,7 +2636,7 @@ mounted to the bike’s top tube,inside the upper head tube triangle.&lt;/p&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-14"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;"/&gt;
+&lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
 purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -3190,7 +3216,31 @@ the new web app user friendly.&lt;/p&gt;
 &lt;/script&gt;</content><category term="research"></category><category term="ski"></category><category term="sports"></category><category term="engineering"></category><category term="safety"></category></entry><entry><title>Implementation of a PID Controller for Controlling The Speed of an Instrumented Ebike</title><link href="https://mechmotum.github.io/blog/ebike-controller-implementation.html" rel="alternate"></link><published>2019-04-05T00:00:00-07:00</published><updated>2019-04-05T00:00:00-07:00</updated><author><name>Trevor Metz</name></author><id>tag:mechmotum.github.io,2019-04-05:/blog/ebike-controller-implementation.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on the implementation of a PID controller on an
 instrumented ebike&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;em&gt;This blog post has been updated in a newer blog post. Please see the updated version of this blog post for the most up to date information.&lt;/em&gt;&lt;/p&gt;
-
+&lt;div class="contents floatcon local topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#introduction" id="toc-entry-1"&gt;1.0 Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#system-operation-functionality" id="toc-entry-2"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#system-architecture" id="toc-entry-3"&gt;3.0 System Architecture&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#control-architecture" id="toc-entry-4"&gt;3.1 Control Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#physical-architecture" id="toc-entry-5"&gt;3.2 Physical Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#software" id="toc-entry-6"&gt;4.0 Software&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#code-libraries" id="toc-entry-7"&gt;4.1 Code Libraries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#hardware-hook-up-and-design" id="toc-entry-8"&gt;5.0 Hardware Hook Up and Design&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#instrumented-ebike-platform" id="toc-entry-9"&gt;5.1 Instrumented Ebike Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#electrical-hook-up" id="toc-entry-10"&gt;5.2 Electrical Hook Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#electronics-housings" id="toc-entry-11"&gt;5.3 Electronics Housings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#bill-of-materials" id="toc-entry-12"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#lessons-learned-and-suggested-improvements" id="toc-entry-13"&gt;7.0 Lessons Learned and Suggested Improvements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#acknowledgements" id="toc-entry-14"&gt;8.0 Acknowledgements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;1.0 Introduction&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The overall goal of this project is to design and implement a control system
@@ -3207,7 +3257,7 @@ Arduino Nano.&lt;/p&gt;
 informed by the interactions that the user would have with the system. A
 typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;"/&gt;
+&lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A typical user interaction with the system.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This user interaction flowchart was used to help better understand the problem
@@ -3225,7 +3275,7 @@ Figure 2, shows how this error is inputted to the control algorithm encoded in
 the Arduino Nano resulting in an output variable used to control the speed of
 the ebike.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;"/&gt;
+&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Control architecture.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3237,7 +3287,7 @@ integration by highlighting the input/output and geometric relationships
 between existing components of the ebike and the additional control system
 components.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;"/&gt;
+&lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Geometric layout of the system components showing relative size,
 location, information flow, and type of each component. Components called
 out with a triangle are existing components on the ebike. Components called
@@ -3253,7 +3303,7 @@ controller. When the cruise control is disengaged, the Arduino simply reads the
 user commanded throttle position and passes it directly to the motor
 controller.  Figure 4, below, graphically shows this interaction.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;"/&gt;
+&lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Schematic showing the Arduino’s function as a throttle emulator.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3267,7 +3317,7 @@ the PID controller. The software also updates the user on the current status of
 the system via an LCD and logs diagnostic information to an SD card.&lt;/p&gt;
 &lt;p&gt;Figure 5, below, shows the logic flow of the code.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;"/&gt;
+&lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Code logic flowchart.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The software, and more details about it, can be found on the Laboratorium’s
@@ -3305,7 +3355,7 @@ Bikes kit consists of a brushless direct drive hub motor driven by a motor
 controller and a 36V Li ion battery. More information on the build and the
 bike’s instrumentation system can be found in Jason’s dissertation &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;"/&gt;
+&lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. The instrumented ebike today.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3318,9 +3368,9 @@ hardware used in this build.&lt;/p&gt;
 &lt;table border="1" class="docutils"&gt;
 &lt;caption&gt;&lt;em&gt;Table 1. Table of components used in the control system. Prices and sources for each component can be found in the Bill of Materials in section 6.0.&lt;/em&gt;&lt;/caption&gt;
 &lt;colgroup&gt;
-&lt;col width="40%"/&gt;
-&lt;col width="40%"/&gt;
-&lt;col width="20%"/&gt;
+&lt;col width="40%" /&gt;
+&lt;col width="40%" /&gt;
+&lt;col width="20%" /&gt;
 &lt;/colgroup&gt;
 &lt;thead valign="bottom"&gt;
 &lt;tr&gt;&lt;th class="head"&gt;Component Name&lt;/th&gt;
@@ -3365,17 +3415,17 @@ hardware used in this build.&lt;/p&gt;
 &lt;/table&gt;
 &lt;p&gt;Figure 7, below, shows a Fritzing diagram of the electrical system.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Electrical Hookup." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg" style="width: 60%;"/&gt;
+&lt;img alt="Electrical Hookup." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 7. Fritzing diagram of control system electronics. Note that the
 motor controller is represented by a DC motor and the 7.2V NiCd battery is
 represented by a 1S LiPo battery.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;The Arduino Nano and the voltage divider circuits were soldered to a small 3" x
-1.1" piece of stripboard. Wires, braided 22AWG, were soldered to the stripboard
+&lt;p&gt;The Arduino Nano and the voltage divider circuits were soldered to a small 3&amp;quot; x
+1.1&amp;quot; piece of stripboard. Wires, braided 22AWG, were soldered to the stripboard
 to connect the external components to the Nano. Figure 8, below, shows the
 completed Arduino board.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;"/&gt;
+&lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8. The Arduino board with wires attached.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;With many of the components located on the handlebars, a majority of these
@@ -3398,22 +3448,22 @@ the sides and top of the housing allow for wires to exit towards their
 destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;"/&gt;
+&lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9.  Arduino housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This housing is clamped to the downtube of the ebike by a socket head screw as
 shown in Figure 10.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;"/&gt;
+&lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 10. Arduino housing mounting point.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Both the LCD and button housings were 3D printed and designed to mount to the
 handlebars using a clamshell style mount used for securing GoPro cameras to
-bikes. Each mount had a pair of “bunny ears" designed to interface with the
+bikes. Each mount had a pair of “bunny ears&amp;quot; designed to interface with the
 GoPro style mount. The LCD housing, shown in Figure 11 below, is a simple
 rectangular two-piece enclosure joined by button head screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;"/&gt;
+&lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 11. LCD housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Similar to the LCD housing, the button housing is a two-piece, enclosure joined
@@ -3423,13 +3473,13 @@ more convenient for the user, larger button parts were 3D printed and offset
 from each mini momentary pushbutton using a compression spring as shown in
 Figure 12 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;"/&gt;
+&lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 12. Button housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;As shown in Figure 13, the button housing is mounted on right side of the
 handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;"/&gt;
+&lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 13. Button housing position on the handlebars.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3437,7 +3487,7 @@ handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-12"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;"/&gt;
+&lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
 purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
