@@ -210,19 +210,21 @@ Other:
 Employees
 =========
 
-- If you need to take sick leave report this to your immediate supervisor and
-  the secretariat. Log your sick leave hours in TIM.
-- You may holiday days up to 2 days without informing your supervisor. If
-  longer than two days please inform your supervisor so they are aware you are
-  unavailable. If you want to take more than one week at a time, please inform
-  your supervisor well in advance for planning purposes. All holiday time
-  has to be requested via TIM and approved by the department manager.
+- If you need to take sick leave, report this to your immediate supervisor and
+  the secretariat when you become sick. When you return, also inform your
+  immediate supervisor and secretariat. Log your sick leave hours in TIM.
+- All holiday time has to be requested via TIM and approved by the department
+  manager. You must sell (up to 32 hrs/year via IKA) or take your holiday time before the end of your
+  contract. You may take up to 2 holiday days without informing your supervisor.
+  If longer than two days please inform your supervisor so they are aware you
+  are unavailable. If you want to take more than one week at a time, please
+  inform your supervisor well in advance for planning purposes.
 - You may work from home or other locations at any time you choose. You do not
-  need to inform your supervisor of this (in general). At least half your time
+  need to inform your supervisor of this in general. At least half your time
   should be on campus, on average, and during typical working hours 8-6 so that
   you can interact with the lab members. Just inform me if it disrupts some in
-  person work at the campus.  Also, when you work from home I except that I can
-  reach you if needed via element, teams, phone etc.
+  person work at the campus. Also, when you work from home I except that I can
+  reach you if needed via element, teams, phone, etc.
 
 COVID-Time Lab Rules
 ====================
