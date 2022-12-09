@@ -84,5 +84,13 @@ EXCLUDED_CATEGORIES = []
 
 ## PLUGINS
 
-PLUGINS = ['render_math', 'extract_toc', 'pelican.plugins.bibliography']
+PLUGINS = [
+    'render_math',
+    #'extract_toc',
+    'pelican.plugins.bibliography']
 THEME_TEMPLATES_OVERRIDES = ['templates']
+
+# pelican-bibliography
+BIBLIOGRAPHY_TEMPLATES = 'templates'
+BIBLIOGRAPHY_PATHS = ['bibliography']
+BIBLIOGRAPHY_EXTENSIONS = ["bib"]
