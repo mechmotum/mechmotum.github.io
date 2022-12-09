@@ -748,6 +748,8 @@ ECCOMAS Multibody Dynamics Conference
    the tools.
 Dutch Bio-Medical Engineering Conference
    Nice way to connect with Dutch local researchers.
+`Science & Cycling <https://science-cycling.org>`_
+   Annual European conference focused on performance and cycling as a sport.
 
 Funding Opportunities
 =====================
