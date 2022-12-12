@@ -15,6 +15,7 @@ Mailing Address
 | TU Delft Bicycle Lab
 | c/o Jason K. Moore
 | 3mE Faculty, BioMechanical Engineering Department
+| Delft University of Technology
 | Mekelweg 2
 | 2628 CD Delft
 
