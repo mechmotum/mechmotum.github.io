@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-11-29T14:51:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Dorus de Boer Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/dorus-de-boer-graduates.html" rel="alternate"></link><published>2022-11-29T14:51:00-08:00</published><updated>2022-11-29T14:51:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-11-29:/blog/dorus-de-boer-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-12-21T08:08:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jan Heinen Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-heinen-graduates.html" rel="alternate"></link><published>2022-12-21T08:08:00-08:00</published><updated>2022-12-21T08:08:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-12-21:/blog/jan-heinen-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-heinen.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Jan Heinen successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc"&gt;Optimal Skateboard Geometry for Maximizing
+Ollie Height&lt;/a&gt;&amp;quot;. He
+developed a skateboard and skateboarder model capable of performing an &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Ollie_(skateboarding)"&gt;ollie&lt;/a&gt;.
+He used trajectory optimization to maximize the height of the skateboard ollie
+under physiological and dynamic constraints. Then he used his solver to
+optimize the skateboard's geometry …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-heinen.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Jan Heinen successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc"&gt;Optimal Skateboard Geometry for Maximizing
+Ollie Height&lt;/a&gt;&amp;quot;. He
+developed a skateboard and skateboarder model capable of performing an &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Ollie_(skateboarding)"&gt;ollie&lt;/a&gt;.
+He used trajectory optimization to maximize the height of the skateboard ollie
+under physiological and dynamic constraints. Then he used his solver to
+optimize the skateboard's geometry to increase the height of the ollie. He
+found a variety of board designs that could be ollied higher than a typical
+board design with the best gaining 10 cm in height. The video below shows
+animations of the results:&lt;/p&gt;
+&lt;center&gt;
+&lt;iframe width="560" height="315"
+src="https://www.youtube.com/embed/jw5DmNnvD7c" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;p&gt;Jan was co-supervised by Raymund ten Broek (Urban Sports Performance Center),
+Eline van der Kruk (TU Delft), and Jason K. Moore (TU Delft). Sam Brockie (TU
+Delft) also provided mentorship. Everyone at the bicycle lab is very proud of
+Jan and wishes him the best in his next adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="skateboard"></category><category term="engineering"></category><category term="optimization"></category></entry><entry><title>Dorus de Boer Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/dorus-de-boer-graduates.html" rel="alternate"></link><published>2022-11-29T14:51:00-08:00</published><updated>2022-11-29T14:51:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-11-29:/blog/dorus-de-boer-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
