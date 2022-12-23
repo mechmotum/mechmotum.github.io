@@ -8,11 +8,12 @@ Guide: Experimentation
 If your project involves doing physical experiments, you will need to develop a
 plan, assemble the resources and equipment needed, recruit assistants, possibly
 recruit human subjects, and execute your experiment. It is of utmost importance
-to plan your experiments in mutinously detail and practice it before executing.
+to plan your experiments in meticulous detail and practice it before executing.
 Doing experiments have a higher resource cost (money, people's time, loaned
 equipment, etc.) than theoretical and simulation studies and you want to
-minimize the chances that those resources are wasted in any way. A well
-designed and written plan will make it easy for others to help you succeed.
+minimize the chances that those resources are wasted in any way. You absolutely
+do not want to have to redo a human subjects experiment. A well designed and
+written plan will make it easy for others to help you succeed.
 
 This is general process we recommend following to ensure a successful
 experiment:
@@ -48,19 +49,19 @@ Design your experiments
    scientific field called `Design of Experiments`_ dedicated to designing
    experiments that can be evaluated in a statistically sound way and provides
    methods on deciding variables, number of trials, repetitions, etc. Books
-   like [Anderson2018]_. Many of the other things to figure out now are
-   specific to the nature of the experiment and involve figuring out
-   logistics.
+   like [Anderson2018]_ give an introduction to the ideas. Many of the other
+   things to figure out at this stage are specific to the nature of the
+   experiment and involve attending to various logistics.
 Write a experimental plan
    Once you know what you want to do (in a precise scientific and engineering
    sense), you should draft an experimental plan document. The purpose of this
-   document is two-fold: 1) to organize your plans for yourself and 2) to
-   communicate your plans to others. The document should include an objective
-   for the experiments and introduction, description of the experimental
-   methods, resources you will use and/or need, a budget, time planning,
-   location information, safety concerns and how you can address them, and a
-   protocol_ for the experiment (step-by-step recipe of the experiment). See
-   `this document
+   document is two-fold: 1) to organize your ideas and plans for yourself and
+   2) to communicate your plans to others. The document should include an
+   objective for the experiments and introduction, description of the
+   experimental methods, resources you will use and/or need, a budget, time
+   planning, location information, safety concerns and how you can address
+   them, and a protocol_ for the experiment (step-by-step recipe of the
+   experiment). See `this document
    <https://depts.washington.edu/wildfire/resources/protckl.pdf>`_ for ideas
    about what can be in a protocol. Share this document with your advisors to
    get feedback and to initiate their support in obtaining resources for your
@@ -68,10 +69,10 @@ Write a experimental plan
 Minimal viable measurement setup
    Once you have a plan you need to try out elements of your methods to make
    sure they actually work as you think they will. This usually involves a
-   series of mini-tests and experiments to get all of your measurements
+   series of mini-tests and mini-experiments to get all of your measurements
    working. It may also involve creating new sensors and measurement
    techniques. Try to make use of existing equipment to validate you ability to
-   measure what you want.
+   measure what you want before purchasing or creating new equipment.
 Pilot experiment
    Once you have your measurement system working you will need to pilot your
    protocol. If your experiment involves human subjects this typically involves
@@ -83,13 +84,13 @@ Pilot experiment
    experiments.
 Analyze pilot data
    It is critical that you analyze your pilot data to ensure your measurements
-   provide sufficient information to guaranteed that your study data analysis
-   can succeed. Many times this means ensuring that you can calculate all
-   summary statistics reliably and accurately. You don't want to find out after
-   doing the final experiments that you have missed a critical measurement or
-   that a measurement is too noisy to be useful. Once again, the experiment
-   piloting process is iterative. You have to iterative until you know your
-   experiment functions and provides adequate data.
+   provide sufficient information to guaranteed that your study's overall data
+   analysis can succeed. Much of the time this means ensuring that you can
+   calculate all summary statistics reliably and accurately. You don't want to
+   find out after doing the final experiments that you have missed a critical
+   measurement or that a measurement is too noisy to be useful. Once again, the
+   experiment piloting process is iterative. You have to iterative until you
+   know your experiment functions and provides adequate data.
 Finalize the protocol
    Once you know your experiment is sound, write up the finalized protocol.
    Make sure it has all details necessary for another person to execute the
