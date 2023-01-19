@@ -566,6 +566,32 @@ you'd like to share something that is set to private.
 Lab Space
 =========
 
+Safety
+------
+
+Our goal is to have ZERO injuries in the lab. Safety should be taken seriously
+and always prioritized. Some key things:
+
+- Wear safety glasses and other appropriate personal protective equipment (PPE)
+  when using tools. These are available in the lab or can be borrowed from the
+  workshop. Contact your supervisor if we need more PPE.
+- Do not use tools that you are not familiar with. Always ask someone to show
+  you proper use.
+- Any activities that have potential to cause injury performed outside of the
+  8:00-17:00 weekday (non-holiday) times should always have two people present.
+  During the workday period it is recommended to have a buddy present when
+  doing anything can cause injury, but the number of people in the halls and
+  glass walls make this optional.
+- The large treadmill **always** has to have two people for operation. When the
+  treadmill is operating the walker/rider must be wearing the harness properly
+  and the operator must have their hand on the kill switch. Ensure that objects
+  cannot fly off the back of the treadmill.
+- Human subject experiments must have an HREC plan and protocol (always for
+  PhD, Postdoc and at minimum approval from your supervisors for MSc).
+- If you are ever asking yourself "should I do this?", that's probably a good
+  signal that you shouldn't. Get help, advice, training, etc. so that you do
+  your activity safely.
+
 Equipment & Consumables
 -----------------------
 
