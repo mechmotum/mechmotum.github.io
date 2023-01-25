@@ -106,14 +106,9 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Jens Keijser** [TUD, May 2022-present]
        | *Outdoor Cycling Propulsion Simulation*
-     - |headshot-heinen-jan|
-     - | **Jan Heinen** [TUD, Sep 2021-present]
-       | *Optimal Skateboard Design for the Highest Ollie*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-     -
-     -
 
 .. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
    :width: 100px
@@ -172,6 +167,12 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Jan Heinen
+     - TUD
+     - Sep 2021-December 2022
+     - `Optimal Skateboard Geometry for Maximizing Ollie Height
+       <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_
+     - `J. K. Moore,  R. ten Broek, E. van der Kruk`
    * - `Dorus de Boer <https://www.linkedin.com/in/dorusdeboer/>`_
      - TUD
      - Oct 2021-Nov 2022
@@ -412,5 +413,5 @@ Masters of Science Students
      Design of a Bicycle Simulator
      <http://resolver.tudelft.nl/uuid:ec31182d-8063-41a3-89ec-799be901cb6e>`_
    - Danique Fintelman [TUD, 2011]
-   - M. V. C. Evertse [TUD, 2010], Rider analysis using a fully instrumented motorcycle.
+   - M.V.C. Evertse [TUD, 2010], Rider analysis using a fully instrumented motorcycle.
    - Jodi Kooijman [TUD, 2008]
