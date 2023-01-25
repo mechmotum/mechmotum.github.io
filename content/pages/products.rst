@@ -10,8 +10,8 @@ Journal Articles
 2020
 ----
 
-#. X. Qian, J. K. Moore, and D. Niemeier, “Predicting Bicycle Pavement Ride
-   Quality: Sensor-based Statistical Model,” Journal of Infrastructure Systems,
+#. X. Qian, J. K. Moore, and D. Niemeier, "Predicting Bicycle Pavement Ride
+   Quality: Sensor-based Statistical Model," Journal of Infrastructure Systems,
    vol. 26, no. 3, p. 04020033, 2020, doi: 10.1061/(ASCE)IS.1943-555X.0000571.
 
 2019
@@ -48,31 +48,33 @@ Theses
 2022
 ----
 
-#. D. de Boer, “Modeling a Professional Road Cycling Race To Determine the
-   Fastest Wheel-Tire Combination,” 2022. Accessed: Dec. 07, 2022. [Online].
+#. Heinen, J., "Optimal Skateboard Geometry for Maximizing Ollie Height," 2022,
+   http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc
+#. D. de Boer, "Modeling a Professional Road Cycling Race To Determine the
+   Fastest Wheel-Tire Combination," 2022. Accessed: Dec. 07, 2022. [Online].
    Available:
    https://repository.tudelft.nl/islandora/object/uuid%3Acc610be1-3aa2-4658-8584-2b1e7075f75a
-#. S. Draukšas, “Using Model Predictive Control on a Steer-by-Wire Bicycle for
-   Performance Assistance,” MSc, Delft University of Technology, Delft, The
+#. S. Draukšas, "Using Model Predictive Control on a Steer-by-Wire Bicycle for
+   Performance Assistance," MSc, Delft University of Technology, Delft, The
    Netherlands, 2022. Accessed: Oct. 13, 2022. [Online]. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3Aece71f4a-c26b-470a-b09e-3b16686eee40
-#. D. Landré, “Predicting cycling risk at intersections with natural cycling
-   data for speed-controlled e-bikes,” MSc, Delft University of Technology,
+#. D. Landré, "Predicting cycling risk at intersections with natural cycling
+   data for speed-controlled e-bikes," MSc, Delft University of Technology,
    Delft, The Netherlands, 2022. Accessed: Oct. 13, 2022. [Online]. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3A4996f53f-e493-4ddb-9924-c4110965fb48
-#. A. Singh, “Investigation of the chatter and squeal phenomenon in bicycle
-   disc brakes,” 2022. Accessed: Dec. 07, 2022. [Online]. Available:
+#. A. Singh, "Investigation of the chatter and squeal phenomenon in bicycle
+   disc brakes," 2022. Accessed: Dec. 07, 2022. [Online]. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3Add809802-ea24-48b2-b63c-150611f612c9
-#. F. Andretta, “Learning cycling styles using experimental trajectory data
-   with Inverse Reinforcement Learning,” 2022. Accessed: Oct. 13, 2022.
+#. F. Andretta, "Learning cycling styles using experimental trajectory data
+   with Inverse Reinforcement Learning," 2022. Accessed: Oct. 13, 2022.
    [Online]. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3A41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc
 
 2021
 ----
 
-#. J. Kuiper, “Development of an Integrated Bicycle Accident Detection System:
-   Introducing ALARM: Accident Localisation And Recognition Method,” MSc, Delft
+#. J. Kuiper, "Development of an Integrated Bicycle Accident Detection System:
+   Introducing ALARM: Accident Localisation And Recognition Method," MSc, Delft
    University of Technology, Delft, The Netherlands, 2021. Accessed: Oct. 13,
    2022. [Online]. Available: https://repository.tudelft.nl/islandora/object/uuid%3A171087f3-4ff5-458c-9065-334958ca7b72
 
@@ -205,15 +207,15 @@ Presentations
 2022
 ----
 
-#. L. Alizadehsaravi and J. K. Moore, “The effects of a steer assist system on
-   bicycle postural control in real-life safety challenges,” presented at the
+#. L. Alizadehsaravi and J. K. Moore, "The effects of a steer assist system on
+   bicycle postural control in real-life safety challenges," presented at the
    International Cycling Safety Conference, Dresden, Germany, Nov. 10, 2022.
-#. A. Dressel and J. K. Moore, “Measuring the Mechanical Properties of Bicycle
-   Tyres to Help Predict and Minimize Wobble for Enhanced Safety,” presented at
+#. A. Dressel and J. K. Moore, "Measuring the Mechanical Properties of Bicycle
+   Tyres to Help Predict and Minimize Wobble for Enhanced Safety," presented at
    the International Cycling Safety Conference, Dresden, Germany, Nov. 10,
    2022.
-#. A. Dressel and J. K. Moore, “A Tilting Trike with Rider Tuneable Stability
-   and Handling for Improved Safety,” presented at the International Cycling
+#. A. Dressel and J. K. Moore, "A Tilting Trike with Rider Tuneable Stability
+   and Handling for Improved Safety," presented at the International Cycling
    Safety Conference, Dresden, Germany, Nov. 10, 2022.
 
 2019
