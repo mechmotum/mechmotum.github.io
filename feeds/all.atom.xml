@@ -2122,9 +2122,9 @@ Department of Biomechatronics &amp;amp; Human-Machine Control&lt;/p&gt;
 </content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category></entry><entry><title>A Web Application for Analyzing Bicycle Dynamics</title><link href="https://mechmotum.github.io/blog/bicycle-dynamics-web-application.html" rel="alternate"></link><published>2020-07-03T00:00:00-07:00</published><updated>2020-07-03T00:00:00-07:00</updated><author><name>Noah Sanders</name></author><id>tag:mechmotum.github.io,2020-07-03:/blog/bicycle-dynamics-web-application.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on creating a web application to serve as a GUI for bicycle
 dynamics.&lt;/p&gt;
 </summary><content type="html">&lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="https://bicycleparameters.herokuapp.com"&gt;&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://bicycle-dynamics.onrender.com"&gt;&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Screenshot of the bicycle dynamics web app. Click the image to go to the app
-at &lt;a class="reference external" href="https://bicycleparameters.herokuapp.com"&gt;https://bicycleparameters.herokuapp.com&lt;/a&gt;.&lt;/p&gt;
+at &lt;a class="reference external" href="https://bicycle-dynamics.onrender.com"&gt;https://bicycle-dynamics.onrender.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="background"&gt;
 &lt;h2&gt;Background&lt;/h2&gt;
@@ -2161,9 +2161,9 @@ adjust the speed range for the eigenvalue plot.&lt;/p&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;The Bicycle Dynamics Web App is currently deployed at
-&lt;a class="reference external" href="https://bicycleparameters.herokuapp.com/"&gt;https://bicycleparameters.herokuapp.com/&lt;/a&gt; and its github repository is located
-at &lt;a class="reference external" href="https://github.com/moorepants/BicycleParameters"&gt;https://github.com/moorepants/BicycleParameters&lt;/a&gt;. Feel free to play around
-with the app and provide suggestions or feedback!&lt;/p&gt;
+&lt;a class="reference external" href="https://bicycle-dynamics.onrender.com"&gt;https://bicycle-dynamics.onrender.com&lt;/a&gt; and its github repository is located at
+&lt;a class="reference external" href="https://github.com/moorepants/BicycleParameters"&gt;https://github.com/moorepants/BicycleParameters&lt;/a&gt;. Feel free to play around with
+the app and provide suggestions or feedback!&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="research"></category><category term="bicycle"></category><category term="web application"></category></entry><entry><title>Developing a LibreTexts Editor Plugin For Inserting Executable Code Blocks</title><link href="https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html" rel="alternate"></link><published>2020-06-22T00:00:00-07:00</published><updated>2020-06-22T00:00:00-07:00</updated><author><name>Hao Huang</name></author><id>tag:mechmotum.github.io,2020-06-22:/blog/libretexts-jupyter-plugin.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on creating a CKEditor plugin which could insert
 executable code blocks&lt;/p&gt;
