@@ -165,6 +165,13 @@ Presentations
    presented at the SacPy, Sacramento, CA, USA, Nov. 14, 2019. [Online].
    Available: https://tinyurl.com/sacpy-jupy
 
+2018
+----
+
+#. K. Lyons and J. K. Moore, “Resonance: Learning Mechanical Vibrations Through
+   Computational Thinking,” presented at the SciPy 2018, Austin, Texas, USA,
+   Jul. 13, 2018. [Online]. Available: https://youtu.be/3QWKDGe528c
+
 2017
 ----
 
