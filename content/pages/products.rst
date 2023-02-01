@@ -78,54 +78,6 @@ Theses
    University of Technology, Delft, The Netherlands, 2021. Accessed: Oct. 13,
    2022. [Online]. Available: https://repository.tudelft.nl/islandora/object/uuid%3A171087f3-4ff5-458c-9065-334958ca7b72
 
-2020
-----
-
-#. G. Dialynas, "An experimental approach into the quantification of steering
-   and balance behaviour of bicyclists," Delft University of Technology, Delft,
-   Netherlands, 2020. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A3c6817fd-9d04-4461-9253-f02f0ca78a6a
-#. S. Kuipers, "The Stability of a Bicycle-Rider System: Basin of Attraction
-   Identification and its Sensivity to Neural Time Delay," Delft University of
-   Technology, 2020. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Aed13a3b7-0bd6-4739-ab72-45cad9b98e85
-#. W. Tel, "Team time trial strategy optimization: Model development and
-   optimization for the team time trial in road cycling," Delft University of
-   Technology, 2020. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A00e8745f-41b9-4fdf-a51a-d9f538016baf
-#. K. Wendel, "Bicycle-rider control identification," Delft University of
-   Technology, 2020. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A02add62a-cd2f-4476-9ec9-bf102c0aec88
-
-2019
-----
-
-#. N. Baltus, "About the mechanical properties of bicycle tyres," Delft
-   University of Technology, 2019. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Ae79300a2-ff69-4d32-b1db-798a76aea0ca
-#. C. Christoforidis, "Rider control identification in cycling taking into
-   account steer torque feedback and sensorial delays," Delft University of
-   Technology, 2019. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A2dbf0e15-a419-4267-ab6c-735409067d1a
-#. D. Haan, "The apparent mass and transmissibility of a bicycle-rider system,"
-   Delft University of Technology, 2019. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Aa2d801b0-e65b-41c4-9dd8-8dab5e6bc29b
-#. H. van Grieken, "Pedalling performance in the BMX supercross gate start: A
-   field-based observational study," Delft University of Technology, 2019.
-   Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A80645a1b-be23-48a9-86d9-61a3dbe76989
-#. C. Rachello, "Instrumentation of a Skeleton Sled: Novel Tactile Steering
-   Force Sensors," Delft University of Technology, 2019. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A85aa19e0-a3c4-4a6b-9d25-dbf0c2f6c8bd
-#. S. Shankar, "A Real-time Simulator for the Sport of Skeleton," Delft
-   University of Technology, 2019. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Ae2c6c533-bb66-4bff-8e49-70fce4968763
-#. C. Van Trigt, "Exploring bicycle braking during a descent," Delft University
-   of Technology, 2019. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Aeaea188b-0a81-4987-95fa-c30c9cf99724
-#. R. Walhout, "Brake squeal: A fundamental study on bicycle brake squeal,"
-   Delft University of Technology, 2019. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A5730ee26-2935-4158-a8cc-62c0c68761a5
 
 2018
 ----
@@ -133,33 +85,6 @@ Theses
 #. Mckay, Abraham B., "The Water Buffalo: Design of a Portable Bicycle Powered
    Irrigation Pump for Small-Scale African Farmers", MSc Thesis, University of
    California, Davis, 2018. https://doi.org/10.6084/m9.figshare.6378401.v2
-#. M. van den Bosch, "Explore Pole Vaulting Strategies by control optimization:
-   A biomechanical model based exploration," Delft University of Technology,
-   2018. Available: https://repository.tudelft.nl/islandora/object/uuid%3A98fd5f38-41d7-44b8-85e8-c54e5aeb9c40
-#. J. Doeksen, "Synchronization in Rowing: Thesis on the effect of crew
-   synchronization on rowing performance," Delft University of Technology,
-   2018. Available: https://repository.tudelft.nl/islandora/object/uuid%3A892ba3af-d89d-4666-a5eb-5c0786926940
-#. G. van der Gun, "Phase-Specific Stiffness of Sprinting Prostheses:
-   Performance Enhancement of Amputee Sprinting: A Modelling Approach," Delft
-   University of Technology, 2018. Available: https://repository.tudelft.nl/islandora/object/uuid%3A12e8e182-6d6c-4e9d-b749-d76c7da86368
-#. C. Sluiter, "Bicycle Handling Qualities: finding objective measures for
-   subjective handling qualities," Master of Science, Delft University of
-   Technology, Delft, Netherlands, 2018. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Ad8f74cbd-0326-4908-8e84-0b85d9d80a0b
-#. J. Voordouw, "Forward dynamic model for rowing performance; driven by rower
-   specific data and variable rigging setup," Delft University of Technology,
-   2018. Available: https://repository.tudelft.nl/islandora/object/uuid%3Addfe8888-3142-4f92-ac78-b66d9c3feca3
-#. B. Westerhof, "Evaluation of the Cruden Motorcycle Simulator," Delft
-   University of Technology, 2018. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A05a77692-ed92-4d85-8bc1-0f0038babf12
-
-2013
-----
-
-#. M. Overtoom, "Optimal Team Time Trial Strategy in Road Cycling: Optimisation
-   of Changing Strategy using a Mathematical Performance model," Delft
-   University of Technology, 2013. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A3ebc484b-e219-450d-b44c-c785c3f28f4f
 
 Books
 =====
