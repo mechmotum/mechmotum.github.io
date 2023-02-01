@@ -204,6 +204,16 @@ Conference Proceedings
 Presentations
 =============
 
+2023
+----
+
+#. J. Heinen, E. van der Kruk, R. ten Broek, and J. K. Moore, “Optimal
+   Skateboard Geometry For Maximizing Ollie Height,” presented at the Dutch
+   Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
+#. L. Alizadehsaravi and J. K. Moore, “The Effects of a Steer Assist System on
+   Bicycle Postural Control in Real-Like Safety Challenges,” presented at the
+   Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
+
 2022
 ----
 
@@ -225,6 +235,10 @@ Presentations
    competitive rowing kinematic metrics," submitted to the XXVII Congress of
    the International Society of Biomechanics & 43rd Annual Meeting of the
    American Society of Biomechanics, Calgary, Canada, 2019.
+#. C. Liang, X. L. Chen, T. Kumar, H. Huang, and J. K. Moore, “What to do when
+   chicks go bad in your flock: JupyterHub on Bare Metal with Kubernetes,”
+   presented at the SacPy, Sacramento, CA, USA, Nov. 14, 2019. [Online].
+   Available: https://tinyurl.com/sacpy-jupy
 
 2017
 ----
