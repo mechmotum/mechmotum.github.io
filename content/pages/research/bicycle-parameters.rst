@@ -34,10 +34,10 @@ application:
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png
    :width: 800px
    :align: center
-   :target: https://bicycleparameters.herokuapp.com
+   :target: https://bicycle-dynamics.onrender.com
 
    Screenshot of the bicycle dynamics web app. Click the image to go to the app
-   at https://bicycleparameters.herokuapp.com.
+   at https://bicycle-dynamics.onrender.com.
 
 Funding
 =======
