@@ -690,6 +690,10 @@ Automatic Flight Control System Design (AE4301)
    control. This course also covers some topics on aircraft handling qualities
    which we make use of in understanding single track vehicle handling
    qualities.
+Writing a Master's Thesis in English (TPM305A)
+   If you would like help and motivation on your writing assignments during
+   your MSc, this course can be helpful to give structure, guidance, and others
+   to discuss your thesis with.
 
 The Carpentries Trainings
 -------------------------
