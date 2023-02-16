@@ -182,6 +182,13 @@ Presentations
 Preprints
 =========
 
+#. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
+   motion for young and old bicyclists during real-life safety challenges",
+   Feb. 2023. https://doi.org/10.31224/2825
+#. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, “Model Predictive Control-based haptic steering assistance
+   to enhance motor learning of a bicycling task: A pilot study.” Engineering
+   Archive, Feb. 04, 2023. doi: 10.31224/2811.
 #. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
    of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
    2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
