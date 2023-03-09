@@ -70,6 +70,8 @@ MSc General
   especially helpful if you are struggling in your MSc.
 - Review the `Data Management Guide
   <{filename}/pages/guide-data-management.rst>`_.
+- If you are doing experiments, review the `Experimentation Guide
+  <{filename}/pages/guide-experimentation.rst>`_.
 
 Internship
 ----------
@@ -656,6 +658,11 @@ than 250 EUR. The basic steps are:
   explanations on using the equipment. If any documentation is more appropriate
   for storing and tracking with version control, then add that to a lab owned
   Git repository.
+
+Experiments
+===========
+
+See the `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_.
 
 Training
 ========
