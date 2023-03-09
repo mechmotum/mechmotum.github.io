@@ -238,3 +238,7 @@ dd {
     padding: 5px;
   }
 }
+
+.strike {
+  text-decoration: line-through;
+}
