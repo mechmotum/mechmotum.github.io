@@ -7,17 +7,29 @@ Contact
 Email
 =====
 
-Contact Jason K. Moore <j.k.moore@tudelft.nl> to get in touch with the lab.
+Contact Jason K. Moore at j.k.moore@tudelft.nl or +31 (0) 15 278 3556 to get in
+touch with the lab.
 
 Mailing Address
 ===============
 
-| TU Delft Bicycle Lab
-| c/o Jason K. Moore
+| TU Delft Bicycle Lab c/o Jason K. Moore
 | 3mE Faculty, BioMechanical Engineering Department
 | Delft University of Technology
 | Mekelweg 2
 | 2628 CD Delft
+
+Shipping Address
+================
+
+This is the address to the 3mE Logistiek Punt IO-3mE. They can receive packages
+8 to 5 Monday through Friday.
+
+| TU Delft Bicycle Lab c/o Jason K. Moore
+| 3mE Faculty, BioMechanical Engineering Department
+| Delft University of Technology
+| Leeghwaterstraat 15
+| 2628 CA Delft
 
 Getting Here
 ============
