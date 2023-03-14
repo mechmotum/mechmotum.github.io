@@ -132,26 +132,31 @@ Presentations
 2023
 ----
 
-#. J. Heinen, E. van der Kruk, R. ten Broek, and J. K. Moore, “Optimal
+#. A. Singh, H. Verman, **A. Dressel**, J. K. Moore, " Using a Scanning Laser
+   Doppler Vibrometer to Investigate Causes and Possible Mitigations of Bicycle
+   Disc Brake Noise", presented at the Measuring By Light Conference, Delft,
+   Mar. 28, 2023.
+#. **J. Heinen**, E. van der Kruk, R. ten Broek, and J. K. Moore, “Optimal
    Skateboard Geometry For Maximizing Ollie Height,” presented at the Dutch
    Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
-#. L. Alizadehsaravi and J. K. Moore, “The Effects of a Steer Assist System on
-   Bicycle Postural Control in Real-Like Safety Challenges,” presented at the
-   Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
+#. **L. Alizadehsaravi** and J. K. Moore, “The Effects of a Steer Assist System
+   on Bicycle Postural Control in Real-Like Safety Challenges,” presented at
+   the Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
 
 2022
 ----
 
-#. L. Alizadehsaravi and J. K. Moore, "The effects of a steer assist system on
-   bicycle postural control in real-life safety challenges," presented at the
-   International Cycling Safety Conference, Dresden, Germany, Nov. 10, 2022.
-#. A. Dressel and J. K. Moore, "Measuring the Mechanical Properties of Bicycle
-   Tyres to Help Predict and Minimize Wobble for Enhanced Safety," presented at
+#. **L. Alizadehsaravi** and J. K. Moore, "The effects of a steer assist system
+   on bicycle postural control in real-life safety challenges," presented at
    the International Cycling Safety Conference, Dresden, Germany, Nov. 10,
    2022.
-#. A. Dressel and J. K. Moore, "A Tilting Trike with Rider Tuneable Stability
-   and Handling for Improved Safety," presented at the International Cycling
-   Safety Conference, Dresden, Germany, Nov. 10, 2022.
+#. **A. Dressel** and J. K. Moore, "Measuring the Mechanical Properties of
+   Bicycle Tyres to Help Predict and Minimize Wobble for Enhanced Safety,"
+   presented at the International Cycling Safety Conference, Dresden, Germany,
+   Nov. 10, 2022.
+#. **A. Dressel** and J. K. Moore, "A Tilting Trike with Rider Tuneable
+   Stability and Handling for Improved Safety," presented at the International
+   Cycling Safety Conference, Dresden, Germany, Nov. 10, 2022.
 
 2019
 ----
@@ -168,14 +173,14 @@ Presentations
 2018
 ----
 
-#. K. Lyons and J. K. Moore, “Resonance: Learning Mechanical Vibrations Through
-   Computational Thinking,” presented at the SciPy 2018, Austin, Texas, USA,
-   Jul. 13, 2018. [Online]. Available: https://youtu.be/3QWKDGe528c
+#. **K. Lyons** and J. K. Moore, “Resonance: Learning Mechanical Vibrations
+   Through Computational Thinking,” presented at the SciPy 2018, Austin, Texas,
+   USA, Jul. 13, 2018. [Online]. Available: https://youtu.be/3QWKDGe528c
 
 2017
 ----
 
-#. Kresie, Scott W., Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
+#. **Kresie, Scott W.**, Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
    "Experimental Validation of Bicycle Handling Prediction," September 13,
    2017. https://doi.org/10.6084/m9.figshare.5405233.v1
 
