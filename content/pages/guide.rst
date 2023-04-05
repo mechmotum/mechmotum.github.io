@@ -913,3 +913,10 @@ Other
 Greg Wilson, "Meetings," The Third Bit, May 11, 2018. https://third-bit.com/2018/05/11/meetings/
    Some nice simple guidelines for making meetings actually useful for the
    participants.
+
+Random TU Delft Tips
+====================
+
+- You can print documents by uploading files to https://linuxprint.tudelft.nl
+  and then swiping your campus ID card at any printer in the buildings.
+- Shared data network drives can be accessed at https://webdata.tudelft.nl.
