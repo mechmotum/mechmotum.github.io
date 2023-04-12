@@ -361,7 +361,6 @@ Masters of Science Students
    - Jan Groenhuis [TUD, -Jun 2021], `Experimental data-tracking of the BMX SX
      gate start using biomechanical modeling and trajectory optimization
      <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
-   - Junda Wu [TUD, Jan 2021-Mar 2021]
    - van der Niet, A.M. [TUD, Sep 2020], `Free-trajectory steady motion control
      optimisation for the descent of elite cyclists
      <http://resolver.tudelft.nl/uuid:47dfe9db-e2ef-4e03-a0d1-1494fd808446>`_
