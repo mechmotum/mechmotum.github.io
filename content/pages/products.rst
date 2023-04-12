@@ -78,7 +78,6 @@ Theses
    University of Technology, Delft, The Netherlands, 2021. Accessed: Oct. 13,
    2022. [Online]. Available: https://repository.tudelft.nl/islandora/object/uuid%3A171087f3-4ff5-458c-9065-334958ca7b72
 
-
 2018
 ----
 
@@ -132,7 +131,10 @@ Presentations
 2023
 ----
 
-#. A. Singh, H. Verman, **A. Dressel**, J. K. Moore, " Using a Scanning Laser
+#. **C. M. Schmidt**, “Connected Traffic of Vulnerable Bicyclists and Automated
+   Vehicles,” presented at the SUMO User Conference, Berlin, Germany, Berlin,
+   Germany, May 02, 2023.
+#. A. Singh, H. Verman, **A. Dressel**, J. K. Moore, "Using a Scanning Laser
    Doppler Vibrometer to Investigate Causes and Possible Mitigations of Bicycle
    Disc Brake Noise", presented at the Measuring By Light Conference, Delft,
    Mar. 28, 2023.
