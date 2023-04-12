@@ -104,11 +104,10 @@ Masters of Science Students
      - | **Timo Stienstra** [TUD, Jun 2022-present]
        | *Improving SymPy's Joints Framework*
    * - |headshot-missing|
-     - | **Jens Keijser** [TUD, May 2022-present]
-       | *Outdoor Cycling Propulsion Simulation*
-     - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
+     -
+     -
 
 .. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
    :width: 100px
@@ -126,10 +125,6 @@ Masters of Science Students
    :width: 100px
    :height: 133px
 
-.. |headshot-heinen-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg
-   :width: 100px
-   :height: 133px
-
 Research Assistants
 ===================
 
@@ -143,7 +138,6 @@ Research Assistants
      - **Zhengyang Lu** [TUD, Nov 2022-present]
      -
      -
-
 .. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
    :width: 100px
 
@@ -167,6 +161,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Jens Keijser
+     - TUD
+     - May 2022-Apr 2023
+     - `Investigating the Theoretical Feasibility of Longitudinal Motion
+       Control in Indoor Cycling Trainers
+       <http://resolver.tudelft.nl/uuid:d48c5066-0c44-40a7-9f7e-4bebd3756dcd>`_
+     - `J. Haasnsoot, J. K. Moore`
    * - Jan Heinen
      - TUD
      - Sep 2021-December 2022
@@ -189,7 +190,7 @@ https://repository.tudelft.nl.
      - TUD
      - ?-Sep 2022
      - Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle
-     - `L. Alizadehsarvi, J. K. Moore`
+     - `L. Alizadehsarvi, J. K. Moore, A. L. Schwab`
    * - `Simonas Draukšas <https://www.linkedin.com/in/simonas-drauksas/>`_
      - TUD
      - Sep 2021-Sep 2022
