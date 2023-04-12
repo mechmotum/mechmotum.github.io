@@ -45,29 +45,35 @@ Journal Articles
 Theses
 ======
 
+2023
+----
+
+#. J. Keijser, “Investigating the Theoretical Feasibility of Longitudinal
+   Motion Control in Indoor Cycling Trainers,” MSc, Delft University of
+   Technology, 2023. Available:
+   https://repository.tudelft.nl/islandora/object/uuid%3Ad48c5066-0c44-40a7-9f7e-4bebd3756dcd
+
 2022
 ----
 
 #. Heinen, J., "Optimal Skateboard Geometry for Maximizing Ollie Height," 2022,
    http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc
 #. D. de Boer, "Modeling a Professional Road Cycling Race To Determine the
-   Fastest Wheel-Tire Combination," 2022. Accessed: Dec. 07, 2022. [Online].
-   Available:
+   Fastest Wheel-Tire Combination," 2022. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3Acc610be1-3aa2-4658-8584-2b1e7075f75a
 #. S. Draukšas, "Using Model Predictive Control on a Steer-by-Wire Bicycle for
    Performance Assistance," MSc, Delft University of Technology, Delft, The
-   Netherlands, 2022. Accessed: Oct. 13, 2022. [Online]. Available:
+   Netherlands, 2022. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3Aece71f4a-c26b-470a-b09e-3b16686eee40
 #. D. Landré, "Predicting cycling risk at intersections with natural cycling
    data for speed-controlled e-bikes," MSc, Delft University of Technology,
-   Delft, The Netherlands, 2022. Accessed: Oct. 13, 2022. [Online]. Available:
+   Delft, The Netherlands, 2022. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3A4996f53f-e493-4ddb-9924-c4110965fb48
 #. A. Singh, "Investigation of the chatter and squeal phenomenon in bicycle
-   disc brakes," 2022. Accessed: Dec. 07, 2022. [Online]. Available:
+   disc brakes," 2022. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3Add809802-ea24-48b2-b63c-150611f612c9
 #. F. Andretta, "Learning cycling styles using experimental trajectory data
-   with Inverse Reinforcement Learning," 2022. Accessed: Oct. 13, 2022.
-   [Online]. Available:
+   with Inverse Reinforcement Learning," 2022. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3A41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc
 
 2021
@@ -88,12 +94,13 @@ Theses
 Books
 =====
 
-#. Moore, Jason K., "Learn Multibody Dynamics", 2022 *--Draft*
-#. Barba, Lorena A., et. al, "Teaching and Learning with Jupyter" (2018)
-   https://jupyter4edu.github.io/jupyter-edu-book/ *--Draft*
+#. Moore, Jason K., "Learn Multibody Dynamics", 2022,
+   https://moorepants.github.io/learn-multibody-dynamics, *--Draft*
+#. Barba, Lorena A., et. al, "Teaching and Learning with Jupyter", 2018,
+   https://jupyter4edu.github.io/jupyter-edu-book *--Draft*
 #. Moore, Jason K. and Kenneth Lyons. "Resonance: Learning Mechanical Vibration
    Engineering Through Computation" (2018)
-   https://moorepants.github.io/resonance/ *--Draft*
+   https://moorepants.github.io/resonance *--Draft*
 
 Conference Proceedings
 ======================
