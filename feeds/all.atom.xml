@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2022-12-21T08:08:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jan Heinen Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-heinen-graduates.html" rel="alternate"></link><published>2022-12-21T08:08:00-08:00</published><updated>2022-12-21T08:08:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-12-21:/blog/jan-heinen-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-04-05T13:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jens Keijser Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jens-keijser-graduates.html" rel="alternate"></link><published>2023-04-05T13:00:00-07:00</published><updated>2023-04-05T13:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-04-05:/blog/jens-keijser-graduates.html</id><summary type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-jens-keijser.png" style="height: 400px;" /&gt;
+&lt;p&gt;Jens Keijser successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:d48c5066-0c44-40a7-9f7e-4bebd3756dcd"&gt;Investigating the Theoretical Feasibility
+of Longitudinal Motion Control in Indoor Cycling Trainers&lt;/a&gt;&amp;quot;. He
+developed a simulation of an indoor cycling trainer that itself simulated
+longitudinal motion with only cadence and crank torque as inputs. He verified
+that the simulator had similar motion behavior as the cyclist …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-jens-keijser.png" style="height: 400px;" /&gt;
+&lt;p&gt;Jens Keijser successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:d48c5066-0c44-40a7-9f7e-4bebd3756dcd"&gt;Investigating the Theoretical Feasibility
+of Longitudinal Motion Control in Indoor Cycling Trainers&lt;/a&gt;&amp;quot;. He
+developed a simulation of an indoor cycling trainer that itself simulated
+longitudinal motion with only cadence and crank torque as inputs. He verified
+that the simulator had similar motion behavior as the cyclist would experience
+riding on a treadmill by comparing to motion capture data.&lt;/p&gt;
+&lt;p&gt;Jens was co-supervised by Jelle Hassnoot (Tacx/Garmin) and Jason K. Moore (TU
+Delft). Everyone at the bicycle lab is very proud of Jens and wishes him the
+best in his next adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="cycling"></category><category term="engineering"></category><category term="simulator"></category></entry><entry><title>Jan Heinen Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-heinen-graduates.html" rel="alternate"></link><published>2022-12-21T08:08:00-08:00</published><updated>2022-12-21T08:08:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-12-21:/blog/jan-heinen-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
