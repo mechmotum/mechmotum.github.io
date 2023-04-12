@@ -152,7 +152,7 @@ Past
 
    * - |headshot-dressel-andrew|
      - | **Dr. Andrew Dressel** [TUD, Apr 2022-Apr 2023]
-       | *Stable Tiling Tricycle & Next Gen Tire Tester*
+       | *Stable Tilting Tricycle & Next Gen Tire Tester*
      -
      -
 
