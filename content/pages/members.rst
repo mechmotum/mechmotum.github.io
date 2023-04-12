@@ -32,14 +32,9 @@ Postdoctoral Researchers
    * - |headshot-brockie-sam|
      - | **Dr. Sam Brockie** [TUD, Sep 2022-present]
        | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
-     - |headshot-dressel-andrew|
-     - | **Dr. Andrew Dressel** [TUD, Apr 2022-present]
-       | *Bicycle of the Future*
-   * - |headshot-alizadehsaravi-leila|
+     - |headshot-alizadehsaravi-leila|
      - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-present]
        | *Safety Evaluation of a Steer Assist Bicycle*
-     -
-     -
 
 .. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
    :width: 100px
@@ -92,6 +87,12 @@ Masters of Science Students
    :align: center
 
    * - |headshot-missing|
+     - | **Marten Haitjema** [TUD, Jan 2023-present]
+       | *Quantifying Fall Reduction with a Balance Assist Bicycle*
+     - |headshot-missing|
+     - | **Kirsten Dijkman** [TUD, Dec 2022-present]
+       | *Measuring Rolling Impedance in Road Cycling*
+   * - |headshot-missing|
      - | **Kenneth Pasma** [TUD, Oct 2022-present]
        | *Robotic Bicycle Control*
      - |headshot-floris-van-willigen|
@@ -108,10 +109,6 @@ Masters of Science Students
        | *Design rules for handling qualities*
      -
      -
-
-.. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
-   :width: 100px
-   :height: 133px
 
 .. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
    :width: 100px
@@ -134,20 +131,40 @@ Research Assistants
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
-     - **Zhengyang Lu** [TUD, Nov 2022-present]
+   * -
      -
      -
+     -
+
 .. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
    :width: 100px
 
 Past
 ====
 
-All TU Delft theses can be obtained (after any embargo period) at:
-https://repository.tudelft.nl.
+**Postdoctoral Researchers**
+
+.. list-table::
+   :class: borderless
+   :width: 100%
+   :widths: 10 40 10 40
+   :align: center
+
+   * - |headshot-dressel-andrew|
+     - | **Dr. Andrew Dressel** [TUD, Apr 2022-Apr 2023]
+       | *Stable Tiling Tricycle & Next Gen Tire Tester*
+     -
+     -
+
+.. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
+   :width: 100px
+   :height: 133px
+
 
 **Masters of Science Students**
+
+All TU Delft theses can be obtained (after any embargo period) at:
+https://repository.tudelft.nl.
 
 .. list-table::
    :class: table table-striped
@@ -245,6 +262,7 @@ https://repository.tudelft.nl.
      - `J. K. Moore`
 
 Research Assistants
+   - Zhengyang Lu [TUD, Nov 2022-Feb 2023]
    - Tim Stewart [UCD, Dec 2020-Sep 2021]
    - Noah Sanders [UCD, Jan 2020-Sep 2021]
    - Mandeepika Saini [UCD, Dec 2020-Jun 2021]
@@ -281,8 +299,13 @@ Research Assistants
    - Braden Tinucci [UCD, Nov 2015-Dec 2015], now at Valcor Engineering
      Corporation
 Teaching Assistants
-   - Akshath Ram Veeravalli Hari [TUD, Jan 2022-present]
-   - Zofia Tyczyńska [TUD, Jan 2022-present]
+   - Eoinlee Bley [TUD, Jan 2023-present]
+   - Robbert den Butter [TUD, Jan 2023-present]
+   - Timo Stienstra [TUD, Jan 2023-present]
+   - Marjolein Scheffers [TUD, Jun 2022-Jul 2022]
+   - Alessia De Biasi [TUD, Mar 2022-Jun 2022]
+   - Akshath Ram Veeravalli Hari [TUD, Jan 2022-Jun 2022]
+   - Zofia Tyczyńska [TUD, Jan 2022-Jun 2022]
    - Jan Groenhuis [TUD, May 2021-Jun 2021]
    - Russell Hawkins [UCD, Mar 2020-Jun 2020]
    - Sergio Guillen [UCD, Jan 2020-Mar 2020]
