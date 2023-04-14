@@ -4,7 +4,9 @@ Guide
 
 :sortorder: 5
 
-.. contents::
+.. contents:: Table of Contents
+   :local:
+   :class: floatcon
 
 This page is intended to house documentation for lab members that describes the
 nuts and bolts of how the lab functions. It's primary purpose is for
@@ -16,9 +18,6 @@ lab any desires to change any of the guidelines.
 
 Getting Started
 ===============
-
-The Lab Community
------------------
 
 - Join the lab communication channels:
 
@@ -35,19 +34,25 @@ The Lab Community
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
 - Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
-  the calendar invite with the video chat link. Add your ideas and votes for
-  meeting topics to the google document (ask Marco for permissions to edit).
+  the calendar invite with the video chat link.
 - Send out an AIO (see below) before your regular mentor meetings if requested
   by your supervisors.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Jason. Ask for a tour of the space from
   a current lab member before you start working there.
-- Request access to the lab's shared Google Drive.
+- Request access to the lab's shared Google Drive from Jason.
+- We have the optional "Cheese for Thought" lunch every Thursday at 12:00, meet
+  at the lab. This is a chance to discuss topics informally.
+- Every other week (opposite lab meeting weeks) we go for snacks and drinks in
+  Delft on Fridays @ 17:00.
 - See the `recommended reading list <#recommended-reading>`_ below for some
   reading materials to get you started.
 
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
+
+Masters Students
+================
 
 MSc General
 -----------
@@ -55,14 +60,18 @@ MSc General
 - We expect you to take the lead in your project. Your supervisors are here to
   advise and guide you, but it is up to you to manage your time, relationships,
   work, etc.
-- BME MSc students now have some new excellent guidance documents with
-  flowcharts available on the "Master Biomedical Engineering" Brightspace
-  course under "ALL STUDENTS - Flowcharts & Guidance Docs". Please read these
-  and reference them regularly.
-- BMD & BME students are encouraged to join the "Graduation Community Program"
-  for get togethers and workshops on topics to help you move through your MSc.
+- BME and BMD MSc students now have some new excellent guidance documents with
+  flowcharts available on the "Master Biomedical Engineering" and "Master
+  Biomechanical Design" Brightspace courses under "Flowcharts & Guidance Docs".
+  Please read these and reference them regularly. The guide here is a
+  compliment to those documents.
+- You are encouraged to join the "Graduation Community Program" for get
+  togethers and workshops on topics to help you move through your MSc. This is
+  especially helpful if you are struggling in your MSc.
 - Review the `Data Management Guide
   <{filename}/pages/guide-data-management.rst>`_.
+- If you are doing experiments, review the `Experimentation Guide
+  <{filename}/pages/guide-experimentation.rst>`_.
 
 Internship
 ----------
@@ -106,8 +115,8 @@ postings via the lab, here are some things you need to do:
   MSc literature study and thesis project in the sense that a standalone report
   for the internship work is required.
 
-Here are some companies that have hosted internships with us in the past:
-Gazelle, Prinoth, Garmin/Tacx, Swugo, B-Cells, Team DSM, SymPy,
+Here are some companies and organizations that have hosted internships with us
+in the past: Gazelle, Prinoth, Garmin/Tacx, Swugo, B-Cells, Team DSM, SymPy,
 Bikefitting.com, TrueKinetix, velolab.de, TU Delft Sports Engineering
 Institute, Aalborg University Sports Sciences.
 
@@ -116,8 +125,8 @@ Literature Study
 
 10 ECs (280 hours, ~7 weeks full time)
 
-- If you are a BME student, read the relevant guidance docs found on
-  Brightspace "Biomedical Engineering Page".
+- If you are a BMD or BME student, read the relevant guidance docs found on
+  Brightspace.
 - Arrange an initial meeting with your supervisor(s) to discuss how to get
   started on the literature study and to discuss the general topic area of the
   study.
@@ -134,8 +143,9 @@ Literature Study
 - The second goal is to formulate a research question(s) that you can likely
   answer with the papers you read.
 - Once you have a research question in mind, arrange a meeting with your
-  supervisors to present the question and receive feedback (this should occur
-  within the first two weeks of work).
+  supervisors to formally present the question and receive feedback (this
+  should occur within the first two weeks of work). You should prepare a slide
+  presentation or similar.
 - The third goal is to delve deep into papers that are closely related to your
   research question, analyze and critique them, and synthesize the knowledge
   you obtain from them into a coherent answer to you research question.
@@ -150,7 +160,9 @@ Literature Study
   grade.
 - As you approach the finish of your literature study you should schedule your
   colloquium, where you will present the results of your literature study to
-  your peers.
+  your peers. We encourage you to practice your colloquia with an ad hoc group
+  from the lab or at a lab meeting. Send an invite to your colloquia to the
+  lab.
 
 .. _3mE MSc Forms: https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related/student-forms/msc-forms/
 
@@ -161,15 +173,17 @@ MSc Thesis
 
 Basic Steps:
 
-- (CoR based MSc tracks only) Submit MSc initiation form.
+- Submit MSc initiation form (BME/BMD form 4, other tracks may have a different
+  form. You may do this at the start of your literature study, if appropriate.
 - Formulate a research question or hypothesis that you'd like address in
   consultation with your supervisors (this usually occurs in the later portion
   of your literature study period and is informed by your literature study
   findings).
 - Develop a written project plan (3 pages): research question/aim/goals,
   your basic technical approach, timeline, milestones, resources, etc.
-- Organize a kickoff meeting with all of your supervisors to present your
-  research project and project plan.
+- Organize a kickoff meeting with all of your supervisors to formally present
+  your research project and project plan. This should be slide presentation or
+  similar.
 - Adjust your project plan based on the feedback at the kickoff meeting.
 - Work on the project with your daily supervisor's guidance.
 - Present your progress at a midterm meeting with all of your supervisors. The
@@ -177,9 +191,10 @@ Basic Steps:
   demonstrate you can succeed in the final project execution.
 - Work on the project with your daily supervisor's guidance.
 - Once you are getting close to a draft thesis arrange a Go/No-Go meeting. This
-  meeting should likely include all members of your defense committee.
-  Typically give the supervisors one week to read and comment on the draft
-  before the meeting.
+  meeting should include all of your supervisors that will be on your defense
+  committee. Typically give the supervisors one week to read and comment on the
+  draft before the meeting. Prepare a (strictly) 10 minute slide presentation
+  to get everyone up to speed at the beginning of the meeting.
 - If you get a "Go" at the Go/No-Go meeting then you should initiate the
   arrangement of your defense by submitting the correct forms to your track
   coordinators and department secretaries.
@@ -192,7 +207,7 @@ Basic Steps:
   Make sure to add an embargo if your work requires one.
 - Follow the `Data Management Guide
   <{filename}/pages/guide-data-management.rst>`_ and deliver your project
-  assets to the lab principle investigator.
+  assets to the lab principle investigator and any partner organizations.
 
 Other:
 
@@ -248,10 +263,8 @@ Use of the bicycle lab for hands-on project work is allowed as long as 3mE
 allows this type of work inside the building. Check with Jason for the
 up-to-date rules if in question. The current lab rules are:
 
-- All the `University rules
-  <https://www.tudelft.nl/en/2021/tu-delft/coronavirus/>`_ and `3mE rules
-  <https://www.tudelft.nl/en/3me/current/information-coronavirus/>`_ apply and
-  the following rules are in addition to those.
+- All the University rules and 3mE rules apply and the following rules are in
+  addition to those.
 - If you are sick, stay home and get tested. Let others you were in contact
   with know immediately of possible or confirmed COVID infection to prevent
   spread. Follow the Dutch government recommendations and regulations.
@@ -589,8 +602,34 @@ you'd like to share something that is set to private.
 Lab Space
 =========
 
-Using, removing, loaning equipment & consumables
-------------------------------------------------
+Safety
+------
+
+Our goal is to have ZERO injuries in the lab. Safety should be taken seriously
+and always prioritized. Some key things:
+
+- Wear safety glasses and other appropriate personal protective equipment (PPE)
+  when using tools. These are available in the lab or can be borrowed from the
+  workshop. Contact your supervisor if we need more PPE.
+- Do not use tools that you are not familiar with. Always ask someone to show
+  you proper use.
+- Any activities that have potential to cause injury performed outside of the
+  8:00-17:00 weekday (non-holiday) times should always have two people present.
+  During the workday period it is recommended to have a buddy present when
+  doing anything can cause injury, but the number of people in the halls and
+  glass walls make this optional.
+- The large treadmill **always** has to have two people for operation. When the
+  treadmill is operating the walker/rider must be wearing the harness properly
+  and the operator must have their hand on the kill switch. Ensure that objects
+  cannot fly off the back of the treadmill.
+- Human subject experiments must have an HREC plan and protocol (always for
+  PhD, Postdoc and at minimum approval from your supervisors for MSc).
+- If you are ever asking yourself "should I do this?", that's probably a good
+  signal that you shouldn't. Get help, advice, training, etc. so that you do
+  your activity safely.
+
+Equipment & Consumables
+-----------------------
 
 If you find something in the lab you would like to use, post a note to the
 Element/matrix chat or lab email asking if anyone else is using it or plans to
@@ -654,6 +693,11 @@ than 250 EUR. The basic steps are:
   for storing and tracking with version control, then add that to a lab owned
   Git repository.
 
+Experiments
+===========
+
+See the `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_.
+
 Training
 ========
 
@@ -687,6 +731,10 @@ Automatic Flight Control System Design (AE4301)
    control. This course also covers some topics on aircraft handling qualities
    which we make use of in understanding single track vehicle handling
    qualities.
+Writing a Master's Thesis in English (TPM305A)
+   If you would like help and motivation on your writing assignments during
+   your MSc, this course can be helpful to give structure, guidance, and others
+   to discuss your thesis with.
 
 The Carpentries Trainings
 -------------------------
@@ -771,6 +819,8 @@ ECCOMAS Multibody Dynamics Conference
    the tools.
 Dutch Bio-Medical Engineering Conference
    Nice way to connect with Dutch local researchers.
+`Science & Cycling <https://science-cycling.org>`_
+   Annual European conference focused on performance and cycling as a sport.
 
 Funding Opportunities
 =====================
@@ -794,8 +844,8 @@ Your projects will vary and you'll have to read a variety of different papers
 and resources, but this list provides a general set of papers that it is good
 for all lab members to read.
 
-Introduction to Bicycle Engineering and Science
------------------------------------------------
+Introduction to Bicycle Science
+-------------------------------
 
 Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
    Science of competitive cycling.
@@ -897,3 +947,10 @@ Other
 Greg Wilson, "Meetings," The Third Bit, May 11, 2018. https://third-bit.com/2018/05/11/meetings/
    Some nice simple guidelines for making meetings actually useful for the
    participants.
+
+Random TU Delft Tips
+====================
+
+- You can print documents by uploading files to https://linuxprint.tudelft.nl
+  and then swiping your campus ID card at any printer in the buildings.
+- Shared data network drives can be accessed at https://webdata.tudelft.nl.

@@ -4,7 +4,9 @@ Jobs
 
 :sortorder: 4
 
-.. contents::
+.. contents:: Table of Contents
+   :local:
+   :class: floatcon
 
 PhD & Postdoctoral Researchers
 ==============================

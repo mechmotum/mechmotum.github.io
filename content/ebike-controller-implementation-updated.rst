@@ -15,7 +15,9 @@ PID controller on an instrumented ebike which can be* `found here
 *Updates include sections 5.4-5.5 discussing the added dead man's switch and
 throttle relay and minor fixes throughout.*
 
-.. contents::
+.. contents:: Table of Contents
+   :local:
+   :class: floatcon
 
 1.0 Introduction
 ^^^^^^^^^^^^^^^^

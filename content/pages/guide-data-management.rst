@@ -144,9 +144,9 @@ Example Minimum for an MSc Project
 - The digital artifacts should include at least: raw data files, processed data
   files, processing scripts or spreadsheets, input files to data processing
   software, CAD files, production drawings, written document source files (e.g.
-  LaTeX or MS Word), results figures, thesis presentation, equipment use
-  explanations, experiment protocols, and human subject and equipment
-  approvals.
+  LaTeX or MS Word), papers that you cited read in your documents, results
+  figures, thesis presentation, equipment use explanations, experiment
+  protocols, and human subject and equipment approvals.
 - Write up READMEs for your digital artifacts so that someone can understand
   what is there.
 - Upload your digital files to the Surfdrive folder.

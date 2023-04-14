@@ -32,14 +32,9 @@ Postdoctoral Researchers
    * - |headshot-brockie-sam|
      - | **Dr. Sam Brockie** [TUD, Sep 2022-present]
        | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
-     - |headshot-dressel-andrew|
-     - | **Dr. Andrew Dressel** [TUD, Apr 2022-present]
-       | *Bicycle of the Future*
-   * - |headshot-alizadehsaravi-leila|
+     - |headshot-alizadehsaravi-leila|
      - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-present]
        | *Safety Evaluation of a Steer Assist Bicycle*
-     -
-     -
 
 .. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
    :width: 100px
@@ -58,18 +53,27 @@ PhD Candidates
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-schmidt-christoph|
+   * - |headshot-dell-orto-gabriele|
+     - | **Gabriele Dell'Orto** [TUD, January 2023-present]
+       |
+     - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
        | *Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated Vehicles*
-     - |headshot-dukalski-rado|
+   * - |headshot-dukalski-rado|
      - | **Rado Dukalski** [TUD, March 2018-present]
        | *Augmented Reality in Cycling for Safety and Peformance*
+     -
+     -
 
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
    :width: 100px
    :height: 133px
 
 .. |headshot-schmidt-christoph| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schmidt-christoph.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-dell-orto-gabriele| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
    :width: 100px
    :height: 133px
 
@@ -83,6 +87,12 @@ Masters of Science Students
    :align: center
 
    * - |headshot-missing|
+     - | **Marten Haitjema** [TUD, Jan 2023-present]
+       | *Quantifying Fall Reduction with a Balance Assist Bicycle*
+     - |headshot-missing|
+     - | **Kirsten Dijkman** [TUD, Dec 2022-present]
+       | *Measuring Rolling Impedance in Road Cycling*
+   * - |headshot-missing|
      - | **Kenneth Pasma** [TUD, Oct 2022-present]
        | *Robotic Bicycle Control*
      - |headshot-floris-van-willigen|
@@ -95,21 +105,10 @@ Masters of Science Students
      - | **Timo Stienstra** [TUD, Jun 2022-present]
        | *Improving SymPy's Joints Framework*
    * - |headshot-missing|
-     - | **Jens Keijser** [TUD, May 2022-present]
-       | *Outdoor Cycling Propulsion Simulation*
-     - |headshot-missing|
-     - | **Dorus de Boer** [TUD, Oct 2021-present]
-       | *Cycling Material Model Design*
-   * - |headshot-heinen-jan|
-     - | **Jan Heinen** [TUD, Sep 2021-present]
-       | *Optimal Skateboard Design for the Highest Ollie*
-     - |headshot-missing|
      - | **Julie van Vlerken** [TUD, Sep 2020-present]
        | *Design rules for handling qualities*
-
-.. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
-   :width: 100px
-   :height: 133px
+     -
+     -
 
 .. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
    :width: 100px
@@ -123,15 +122,6 @@ Masters of Science Students
    :width: 100px
    :height: 133px
 
-.. |headshot-haasnoot-jelle| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png
-   :width: 100px
-   :height: 133px
-
-
-.. |headshot-heinen-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg
-   :width: 100px
-   :height: 133px
-
 Research Assistants
 ===================
 
@@ -141,8 +131,8 @@ Research Assistants
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
-     - **Zhengyang Lu** [TUD, Nov 2022-present]
+   * -
+     -
      -
      -
 
@@ -152,51 +142,127 @@ Research Assistants
 Past
 ====
 
+**Postdoctoral Researchers**
+
+.. list-table::
+   :class: borderless
+   :width: 100%
+   :widths: 10 40 10 40
+   :align: center
+
+   * - |headshot-dressel-andrew|
+     - | **Dr. Andrew Dressel** [TUD, Apr 2022-Apr 2023]
+       | *Stable Tilting Tricycle & Next Gen Tire Tester*
+     -
+     -
+
+.. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
+   :width: 100px
+   :height: 133px
+
+
+**Masters of Science Students**
+
 All TU Delft theses can be obtained (after any embargo period) at:
 https://repository.tudelft.nl.
 
-PhD Candidates
-   - Marco Reijne [TUD, April 2018-April 2022]
-   - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
-Masters of Science Students
-   - Evelijn Verboom [TUD, Feb 2022-Oct 2022], *Human Intention Detection for
-     Bicycle Steer Assist*
-   - Tim Huiskens [TUD, -Sep 2022], *Validating the Whipple-Carvallo Bicycle
-     Model Using a Robot Bicycle*
-   - Simonas Draukšas [TUD, Sep 2021-Sep 2022], `Using Model Predictive Control
-     on a Steer-by-Wire Bicycle for Performance Assistance
-     <http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40>`_
-   - Daniël Landré [TUD, Sep 2021-Sep 2022], `Predicting cycling risk at
-     intersections with natural cycling data for speed-controlled e-bikes
-     <http://resolver.tudelft.nl/uuid:4996f53f-e493-4ddb-9924-c4110965fb48>`_
-   - Ajaypal Singh [TUD, Jul 2021-Aug 2022], `Investigation of the chatter and
-     squeal phenomenon in bicycle disc brakes
-     <http://resolver.tudelft.nl/uuid:dd809802-ea24-48b2-b63c-150611f612c9>`_
-   - Jeswin Koshy Cherian [TUD, Jan 2022-Jun 2022], Near Zero Speed
-     Self-Balancing Cargo Bicycle, MSc Honors Project
-   - Francesca Andretta [TUD, Feb 2021-Apr 2022], `Learning cycling styles
-     using experimental trajectory data with Inverse Reinforcement Learning
-     <http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc>`_
-   - Shannon van de Velde [TUD, Dec 2020-Mar 2022], `Design of a setup for
-     experimental research on stability of a bicycle-rider system subject to
-     large perturbations
-     <http://resolver.tudelft.nl/uuid:4571c00e-3bfc-4d9c-a46a-30a3b30b932a>`_
-   - Jelle Haasnoot [TUD, -Nov 2021], now at Tacx, `Design and Validation of
-     Steer, Roll, Yaw and Sway Motion of a Kinematics-Based Bicycle Simulator
-     <http://resolver.tudelft.nl/uuid:39e7c31e-2b00-4ea6-908c-a18019b863f5>`_
-   - Joris Kuiper [TUD, Sep 2020-Jun 2021], now at Gearbox, `Development of an
-     Integrated Bicycle Accident Detection System: Introducing ALARM: Accident
-     Localisation And Recognition Method
-     <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_
-   - Jan Groenhuis [TUD, -Jun 2021], `Experimental data-tracking of the BMX SX
-     gate start using biomechanical modeling and trajectory optimization
-     <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
-   - Junda Wu [TUD, Jan 2021-Mar 2021]
-   - `Abraham McKay`_ [UCD, Feb 2017-Jun 2018], now at `219 Design
-     <https://www.219design.com>`_, `The Water Buffalo: Design of a Portable
-     Bicycle Powered Irrigation Pump for Small-Scale African Farmers
-     <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
+.. list-table::
+   :class: table table-striped
+   :width: 100%
+   :widths: 15 5 20 30 20
+   :align: center
+   :header-rows: 1
+
+   * - Name
+     - University
+     - Dates
+     - Project
+     - Supervisors
+   * - Jens Keijser
+     - TUD
+     - May 2022-Apr 2023
+     - `Investigating the Theoretical Feasibility of Longitudinal Motion
+       Control in Indoor Cycling Trainers
+       <http://resolver.tudelft.nl/uuid:d48c5066-0c44-40a7-9f7e-4bebd3756dcd>`_
+     - `J. Haasnsoot, J. K. Moore`
+   * - Jan Heinen
+     - TUD
+     - Sep 2021-December 2022
+     - `Optimal Skateboard Geometry for Maximizing Ollie Height
+       <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_
+     - `J. K. Moore,  R. ten Broek, E. van der Kruk`
+   * - `Dorus de Boer <https://www.linkedin.com/in/dorusdeboer/>`_
+     - TUD
+     - Oct 2021-Nov 2022
+     - `Modeling a Professional Road Cycling Race To Determine the Fastest
+       Wheel-Tire Combination
+       <http://resolver.tudelft.nl/uuid:cc610be1-3aa2-4658-8584-2b1e7075f75a>`_
+     - `J. K. Moore, P. Rooijakkers, H. Ubbens`
+   * - Evelijn Verboom
+     - TUD
+     - Feb 2022-Oct 2022
+     - Human Intention Detection for Bicycle Steer Assist
+     - `L. Alizadehsarvi, J. K. Moore`
+   * - Tim Huiskens
+     - TUD
+     - ?-Sep 2022
+     - Validating the Whipple-Carvallo Bicycle Model Using a Robot Bicycle
+     - `L. Alizadehsarvi, J. K. Moore, A. L. Schwab`
+   * - `Simonas Draukšas <https://www.linkedin.com/in/simonas-drauksas/>`_
+     - TUD
+     - Sep 2021-Sep 2022
+     - `Using Model Predictive Control on a Steer-by-Wire Bicycle for
+       Performance Assistance
+       <http://resolver.tudelft.nl/uuid:ece71f4a-c26b-470a-b09e-3b16686eee40>`_
+     - `L. Alizadehsarvi, R. Happee, L. Marchal-Crespo J. K. Moore`
+   * - `Daniël Landré <https://www.linkedin.com/in/daniel-landre/>`_
+     - TUD
+     - Sep 2021-Sep 2022
+     - `Predicting cycling risk at intersections with natural cycling data for
+       speed-controlled e-bikes
+       <http://resolver.tudelft.nl/uuid:4996f53f-e493-4ddb-9924-c4110965fb48>`_
+     - `V. L. Knoop, J. K. Moore, B. Oor`
+   * - `Ajaypal Singh <https://www.linkedin.com/in/singhajaypal2018/>`_
+     - TUD
+     - Jul 2021-Aug 2022
+     - `Investigation of the chatter and squeal phenomenon in bicycle disc
+       brakes
+       <http://resolver.tudelft.nl/uuid:dd809802-ea24-48b2-b63c-150611f612c9>`_
+     - `A. Dressel, J. K. Moore, H. Vreman`
+   * - `Jeswin Koshy Cherian <https://www.linkedin.com/in/jeswin-koshy-cherian/>`_
+     - TUD
+     - Jan 2022-Jun 2022
+     - Near Zero Speed Self-Balancing Cargo Bicycle, MSc Honors Project
+     - `B. Andersson, O. Lee, J. K. Moore, A, Ranheim`
+   * - `Francesca Andretta <https://www.linkedin.com/in/francesca-andretta-4175b3173/>`_
+     - TUD
+     - Feb 2021-Apr 2022
+     - `Learning cycling styles using experimental trajectory data with Inverse
+       Reinforcement Learning
+       <http://resolver.tudelft.nl/uuid:41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc>`_
+     - `A. Dabiri, J. K. Moore`
+   * - Joris Kuiper
+     - TUD
+     - Sep 2020-Jun 2021
+     - `Development of an Integrated Bicycle Accident Detection System:
+       Introducing ALARM: Accident Localisation And Recognition Method
+       <http://resolver.tudelft.nl/uuid:171087f3-4ff5-458c-9065-334958ca7b72>`_
+     - `J. K. Moore, A. L. Schwab`
+   * - Junda Wu
+     - TUD
+     - Jan 2021-Mar 2021
+     -
+     - `J. K. Moore, A. L. Schwab`
+   * - `Abraham McKay`_
+     - UCD
+     - Feb 2017-Jun 2018
+     - `The Water Buffalo: Design of a Portable Bicycle Powered Irrigation Pump
+       for Small-Scale African Farmers
+       <https://doi.org/10.6084/m9.figshare.6378401.v2>`_
+     - `J. K. Moore`
+
 Research Assistants
+   - Zhengyang Lu [TUD, Nov 2022-Feb 2023]
    - Tim Stewart [UCD, Dec 2020-Sep 2021]
    - Noah Sanders [UCD, Jan 2020-Sep 2021]
    - Mandeepika Saini [UCD, Dec 2020-Jun 2021]
@@ -233,8 +299,13 @@ Research Assistants
    - Braden Tinucci [UCD, Nov 2015-Dec 2015], now at Valcor Engineering
      Corporation
 Teaching Assistants
-   - Akshath Ram Veeravalli Hari [TUD, Jan 2022-present]
-   - Zofia Tyczyńska [TUD, Jan 2022-present]
+   - Eoinlee Bley [TUD, Jan 2023-present]
+   - Robbert den Butter [TUD, Jan 2023-present]
+   - Timo Stienstra [TUD, Jan 2023-present]
+   - Marjolein Scheffers [TUD, Jun 2022-Jul 2022]
+   - Alessia De Biasi [TUD, Mar 2022-Jun 2022]
+   - Akshath Ram Veeravalli Hari [TUD, Jan 2022-Jun 2022]
+   - Zofia Tyczyńska [TUD, Jan 2022-Jun 2022]
    - Jan Groenhuis [TUD, May 2021-Jun 2021]
    - Russell Hawkins [UCD, Mar 2020-Jun 2020]
    - Sergio Guillen [UCD, Jan 2020-Mar 2020]
@@ -268,17 +339,28 @@ Google Summer of Code and Season of Docs Participants
 .. _Kenneth Lyons: https://ixjlyons.com
 .. _Bryn Cloud: https://www.linkedin.com/in/bryn-cloud/
 
-TU Delft Bicycle Lab Students Prior to August 2020
-==================================================
+TU Delft Bicycle Lab Students Prior to Transition
+=================================================
 
-These students graduated under the supervision of Dr. Arend Schwab prior to Dr.
-Moore's involvement with the lab and are here for reference.
+These students graduated under the primary supervision of Dr. Arend Schwab
+prior to Dr. Moore's leadership of the lab and are here for reference.
 
 PhD Candidates
+   - Marco Reijne [TUD, April 2018-April 2022]
+   - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
    - Eline van der Kruk [TUD]
    - Jodi Kooijman [TUD], `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
-
 Masters of Science Students
+   - Shannon van de Velde [TUD, Dec 2020-Mar 2022], `Design of a setup for
+     experimental research on stability of a bicycle-rider system subject to
+     large perturbations
+     <http://resolver.tudelft.nl/uuid:4571c00e-3bfc-4d9c-a46a-30a3b30b932a>`_
+   - Jelle Haasnoot [TUD, -Nov 2021], now at Tacx, `Design and Validation of
+     Steer, Roll, Yaw and Sway Motion of a Kinematics-Based Bicycle Simulator
+     <http://resolver.tudelft.nl/uuid:39e7c31e-2b00-4ea6-908c-a18019b863f5>`_
+   - Jan Groenhuis [TUD, -Jun 2021], `Experimental data-tracking of the BMX SX
+     gate start using biomechanical modeling and trajectory optimization
+     <http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef>`_
    - van der Niet, A.M. [TUD, Sep 2020], `Free-trajectory steady motion control
      optimisation for the descent of elite cyclists
      <http://resolver.tudelft.nl/uuid:47dfe9db-e2ef-4e03-a0d1-1494fd808446>`_
@@ -354,5 +436,5 @@ Masters of Science Students
      Design of a Bicycle Simulator
      <http://resolver.tudelft.nl/uuid:ec31182d-8063-41a3-89ec-799be901cb6e>`_
    - Danique Fintelman [TUD, 2011]
-   - M. V. C. Evertse [TUD, 2010], Rider analysis using a fully instrumented motorcycle.
+   - M.V.C. Evertse [TUD, 2010], Rider analysis using a fully instrumented motorcycle.
    - Jodi Kooijman [TUD, 2008]
