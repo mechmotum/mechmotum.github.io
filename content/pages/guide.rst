@@ -210,21 +210,36 @@ Other:
 Employees
 =========
 
+Postdocs, PhDs, and other staff
+
 - If you need to take sick leave, report this to your immediate supervisor and
   the secretariat when you become sick. When you return, also inform your
   immediate supervisor and secretariat. Log your sick leave hours in TIM.
 - All holiday time has to be requested via TIM and approved by the department
-  manager. You must sell (up to 32 hrs/year via IKA) or take your holiday time before the end of your
-  contract. You may take up to 2 holiday days without informing your supervisor.
-  If longer than two days please inform your supervisor so they are aware you
-  are unavailable. If you want to take more than one week at a time, please
-  inform your supervisor well in advance for planning purposes.
-- You may work from home or other locations at any time you choose. You do not
-  need to inform your supervisor of this in general. At least half your time
-  should be on campus, on average, and during typical working hours 8-6 so that
-  you can interact with the lab members. Just inform me if it disrupts some in
-  person work at the campus. Also, when you work from home I except that I can
-  reach you if needed via element, teams, phone, etc.
+  manager. You must  take your holiday time before the end of your contract.
+  Note that you can sell some holiday time (up to 32 hrs/year via IKA). You may
+  take 2 consecutive holidays without informing your immediate supervisor.  If
+  longer than two days please inform your supervisor by email so they are aware
+  you are unavailable. If you want to take more than one week at a time, please
+  inform your supervisor in advance for planning purposes.
+- You may work from home or other locations at any time you choose. In general,
+  you do not need to inform your supervisor of this. TU Delft's policy is that
+  you can work from home 2 days per week if your supervisor approves. The other
+  3 days should be on campus. You should generally work during typical working
+  hours 8-6 so that you can interact with the lab members. Inform your
+  immediate supervisor of your general work from home plans. Also, when you
+  work from home you should be reachable by email, phone, or video chat, etc.
+- You likely have a budget associated with your position or projects. Ask your
+  supervisor to tell you this budget. You can mange your own budget and don't
+  need to ask permission for purchasing things < 250 EUR. If you need to spend
+  more than that, then inform your immediate supervisor of the purchase before
+  purchasing so there are no surprises. The secretariat can purchase items for
+  you or you can purchase items and request reimbursement.
+- Work related travel outside of the Netherlands must be pre approved via
+  Digiforms.
+- You will have an annual review with your supervisors (R&O). These should
+  occur in the first quarter of the year. PhDs will not, as they follow the
+  graduate school review process.
 
 COVID-Time Lab Rules
 ====================
