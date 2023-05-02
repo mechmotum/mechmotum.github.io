@@ -912,7 +912,9 @@ Other
 
 Greg Wilson, "Meetings," The Third Bit, May 11, 2018. https://third-bit.com/2018/05/11/meetings/
    Some nice simple guidelines for making meetings actually useful for the
-   participants.
+   participants. There is a `video <https://youtu.be/qYh6Nzv3RWs>`_ and `slide
+   deck
+   <https://docs.google.com/presentation/d/1HSdgVQjq0d3UYh-aA4uWHXxYYpySn_xXwfn_M4Ms8Ts/edit#slide=id.g8d106d1eab_0_8>`_.
 
 Random TU Delft Tips
 ====================
