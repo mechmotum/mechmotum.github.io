@@ -36,7 +36,7 @@ dynamics and control in a traffic environment:
    https://doi.org/10.24404/63fe3f96e46cae666e6d2463
 
 PhD student Gabriele Dell'Orto will present the tire measurements of a small
-bicycle tire used for the front whell of many bakfiets:
+bicycle tire used for the front wheel of many bakfiets:
 
    Dell'Orto, G., Ballo, F. & Mastinu, G. (2023). Indoor measurement of the
    lateral characteristics of a cargo bicycle tyre. The Evolving Scholar - BMD
