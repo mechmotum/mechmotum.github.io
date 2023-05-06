@@ -50,7 +50,7 @@ tricycle:
    Evolving Scholar - BMD 2023, 5th Edition.
    https://doi.org/10.24404/63fe2c902f198c184a58ee9b
 
-Lastly, I will present on our work developing a automatically stabilized bakfiets:
+Lastly, I will present on our work developing an automatically stabilized bakfiets:
 
    Moore, J., Koshy Cherian, J., Andersson, B., Lee, O. & Ranheim, A. (2023).
    Modeling and Implementation of a Reaction Wheel Stabilization System for Low
