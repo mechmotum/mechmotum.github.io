@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-04-12T11:16:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Balance Assist Bicycle Featured on Radio 1</title><link href="https://mechmotum.github.io/blog/radio-1-balance-assist.html" rel="alternate"></link><published>2023-04-12T11:16:00-07:00</published><updated>2023-04-12T11:16:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-04-12:/blog/radio-1-balance-assist.html</id><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://www.nporadio1.nl/"&gt;NPO Radio 1&lt;/a&gt; interviewed Frans van der Helm about our balance assisting
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-05-06T11:15:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Six Abstracts Accepted to BMD 2023</title><link href="https://mechmotum.github.io/blog/bmd-2023-abstracts.html" rel="alternate"></link><published>2023-05-06T11:15:00-07:00</published><updated>2023-05-06T11:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-05-06:/blog/bmd-2023-abstracts.html</id><summary type="html">&lt;p&gt;All six of the Bicycle Lab's submissions to the 2023 Bicycle and Motorcycle
+Dynamics conference were accepted. We have had a very productive past year and
+are excited to show off some of the research. You can read the abstracts and
+the scientific committee's reviews on Orvium.&lt;/p&gt;
+&lt;p&gt;MSc student Timo …&lt;/p&gt;</summary><content type="html">&lt;p&gt;All six of the Bicycle Lab's submissions to the 2023 Bicycle and Motorcycle
+Dynamics conference were accepted. We have had a very productive past year and
+are excited to show off some of the research. You can read the abstracts and
+the scientific committee's reviews on Orvium.&lt;/p&gt;
+&lt;p&gt;MSc student Timo Stienstra will present about his new bicycle and rider
+modeling software package:&lt;/p&gt;
+&lt;blockquote&gt;
+Stienstra, T., Brockie, S. &amp;amp; Moore, J. (2023). BRiM: A Modular and
+Extensible Open-Source Framework for Creating Bicycle-Rider Models. The
+Evolving Scholar - BMD 2023, 5th Edition.
+&lt;a class="reference external" href="https://doi.org/10.24404/63fdfcdc01e65b9d95005943"&gt;https://doi.org/10.24404/63fdfcdc01e65b9d95005943&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;MSc student Floris van Willigen will present about his handling measurements of
+our new tilting tricycle:&lt;/p&gt;
+&lt;blockquote&gt;
+Dressel, A., van Willigen, F. &amp;amp; Moore, J. (2023). Evaluating the handling of
+a tilting tricycle with variable stability. The Evolving Scholar - BMD 2023,
+5th Edition. &lt;a class="reference external" href="https://doi.org/10.24404/63fe2e2127799c0b2d1600b8"&gt;https://doi.org/10.24404/63fe2e2127799c0b2d1600b8&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;PhD student Christoph Schmidt will introduce his work modelling bicycle
+dynamics and control in a traffic environment:&lt;/p&gt;
+&lt;blockquote&gt;
+Schmidt, C., Dabiri, A., Schulte, F., Happee, R. &amp;amp; Moore, J. (2023).
+Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example
+Using the Social Force Model. The Evolving Scholar - BMD 2023, 5th Edition.
+&lt;a class="reference external" href="https://doi.org/10.24404/63fe3f96e46cae666e6d2463"&gt;https://doi.org/10.24404/63fe3f96e46cae666e6d2463&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;PhD student Gabriele Dell'Orto will present the tire measurements of a small
+bicycle tire used for the front whell of many bakfiets:&lt;/p&gt;
+&lt;blockquote&gt;
+Dell'Orto, G., Ballo, F. &amp;amp; Mastinu, G. (2023). Indoor measurement of the
+lateral characteristics of a cargo bicycle tyre. The Evolving Scholar - BMD
+2023, 5th Edition. &lt;a class="reference external" href="https://doi.org/10.24404/63fb250be96b4c5fc016a363"&gt;https://doi.org/10.24404/63fb250be96b4c5fc016a363&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;(Past) Postdoc Andrew Dressel will present on the design of our new tilting
+tricycle:&lt;/p&gt;
+&lt;blockquote&gt;
+Dressel, A. &amp;amp; Moore, J. (2023). Adapting a variable stability mechanism for
+a tilting tricycle from the delta to the tadpole wheel configuration. The
+Evolving Scholar - BMD 2023, 5th Edition.
+&lt;a class="reference external" href="https://doi.org/10.24404/63fe2c902f198c184a58ee9b"&gt;https://doi.org/10.24404/63fe2c902f198c184a58ee9b&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Lastly, I will present on our work developing a automatically stabilized bakfiets:&lt;/p&gt;
+&lt;blockquote&gt;
+Moore, J., Koshy Cherian, J., Andersson, B., Lee, O. &amp;amp; Ranheim, A. (2023).
+Modeling and Implementation of a Reaction Wheel Stabilization System for Low
+Speed Balance of a Cargo Bicycle. The Evolving Scholar - BMD 2023, 5th
+Edition. &lt;a class="reference external" href="https://doi.org/10.24404/63ff23b478f53b9c419075b9"&gt;https://doi.org/10.24404/63ff23b478f53b9c419075b9&lt;/a&gt;&lt;/blockquote&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category><category term="conference"></category><category term="abstract"></category></entry><entry><title>Balance Assist Bicycle Featured on Radio 1</title><link href="https://mechmotum.github.io/blog/radio-1-balance-assist.html" rel="alternate"></link><published>2023-04-12T11:16:00-07:00</published><updated>2023-04-12T11:16:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-04-12:/blog/radio-1-balance-assist.html</id><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://www.nporadio1.nl/"&gt;NPO Radio 1&lt;/a&gt; interviewed Frans van der Helm about our balance assisting
 bicycle. Find the recording here:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://www.nporadio1.nl/fragmenten/langs-de-lijn-en-omstreken/ecde8e18-8537-44e6-a5f4-e7632386a04e/2023-03-30-tu-delft-maakt-fiets-waarmee-je-niet-kan-vallen"&gt;https://www.nporadio1.nl/fragmenten/langs-de-lijn-en-omstreken/ecde8e18-8537-44e6-a5f4-e7632386a04e/2023-03-30-tu-delft-maakt-fiets-waarmee-je-niet-kan-vallen&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width=600px height=400px src="https://start-player.npo.nl/embed/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaGFyZSI6IjAiLCJlbmRzY3JlZW4iOiIwIiwiaGFzU2V0dGluZ3MiOiIwIiwiaGFzQWRDb25zZW50IjoiMCIsIm5vQWRzIjoxLCJhdXRvcGxheSI6IjAiLCJzdHlsZXNoZWV0IjoiaHR0cHM6XC9cL2FwaS5ucG9yYWRpby5ubFwvYXNzZXRzXC9ucG9wbGF5ZXItc3R5bGluZy5jc3MiLCJhc3NldFVybCI6IiIsIm92ZXJsYXkiOiJodHRwczpcL1wvYnJvYWRjYXN0LWltYWdlcy5ucG9yYWRpby5ubFwvd18xMjgwLGhfNzIwXC9zMy1ucG9yYWRpbzFcLzZxYjV2YXVzc2gzLW5wb3JhZGlvMS12c3ItMjAyMzAzMzAtMTkzODAzLTAwOHdhbC5qcGciLCJzbWFydHRhZyI6eyJzaXRlSWQiOiI1In0sImlkIjoiRlJBR01FTlRfRUxFTUVOVF9JRCIsImVsZW1lbnRJZCI6IkZSQUdNRU5UX0VMRU1FTlRfSUQiLCJpYXQiOjE2ODEyODc1MTAsIm5iZiI6MTY4MTI4NzUxMCwiZXhwIjoxNjgxMzE2MzEwLCJjb25zdW1lcklkIjoiYmJlNzIxMmQtNDNlNS00Y2JhLTgyM2ItOTc4ZDVmNzJmOWEyIiwibWVkaWFJZCI6IlBSRVBSX1JBMV8xNzI1NzM5OSIsImlzUGxheWxpc3QiOmZhbHNlLCJyZWZlcnJlclVybCI6bnVsbCwic2tpcENhdGFsb2ciOjAsInJlY29tbWVuZGF0aW9ucyI6MSwiaXNzIjoiZXlKcGRpSTZJaXRjTDA1NE5EWjVaM1V3YkdoUVdEbGliRTF6Wm5CQlBUMGlMQ0oyWVd4MVpTSTZJbTVQYUU1Skswa3JhRTFOZUhKTFZtdElNVGhNZWpadVlWcEliREZHYUhGMFdGUk9abFpoZVVWTmJVTlNiV0YyUzB0VU4wSkNZVkE1TUZsNVpYSnNjVmNpTENKdFlXTWlPaUkxTldFeU4yRTBNamxsT0RZMllUUmhNV0ZqWldJd01EQmtOR0V6WVRNM09EVTFPRGhpWmpFd1pXSTNZalptWkRrME16SmpaVFkzT0Roa01UTmtabVU1SW4wPSJ9.LJQV7V8zV-6GK89O8-8DpSF6PD4VpvfSPJgukd8hqvo"&gt;
