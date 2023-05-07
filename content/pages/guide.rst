@@ -745,6 +745,13 @@ Online
 `Single Track Vehicle Dynamics listserv <https://groups.google.com/g/stvdy>`_
    Public email based forum for discussing the dynamics and control of single
    track vehicles.
+`International Human Powered Vehicle Assocation <http://ihpva.org>`_
+   This group hosts the annual bicycle speed challenge in Battle Mountain
+   Nevada.
+`World Human Powered Vehicle Assocation <http://www.whpva.org/>`_
+   Umbrella org for many associations around the world.
+`Ligfiets Vereniging <https://ligfiets.net>`_
+   Dutch recumbent bicycle organization.
 
 Software
 --------
@@ -779,6 +786,7 @@ ECCOMAS Multibody Dynamics Conference
 `International Society of Biomechanics Congresses <https://isbweb.org/activities/congresses>`_
    Huge annual conference with a broad array of biomechanics topics. Great
    networking and a catch all for many topics from the lab. Every two years.
+   The Technical Group in Computer Simulation holds a parallel symposium.
 `SciPy <https://conference.scipy.org/>`_ & `EuroSciPY <https://www.euroscipy.org/>`_
    Annual conferences. If your work involves open source Python software these
    are a great place to showcase the advances in library development and use of
@@ -787,6 +795,15 @@ Dutch Bio-Medical Engineering Conference
    Nice way to connect with Dutch local researchers.
 `Science & Cycling <https://science-cycling.org>`_
    Annual European conference focused on performance and cycling as a sport.
+
+Journals
+========
+
+`Human Power eJournal <https://hupi.org/HPeJ/index.htm>`_
+   Modern incarnation of the journal Human Power. Not necessarily an academic
+   journal, but useful articles none-the-less.
+`Human Power: the technical journal of the IHPVA <http://ihpva.org/hparchive.htm>`_
+   Started by David Gordon Wilson; ran from 1977 to 2004.
 
 Funding Opportunities
 =====================
