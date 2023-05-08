@@ -42,6 +42,10 @@ bicycle tire used for the front wheel of many bakfiets:
    lateral characteristics of a cargo bicycle tyre. The Evolving Scholar - BMD
    2023, 5th Edition. https://doi.org/10.24404/63fb250be96b4c5fc016a363
 
+Gabriele also contributed to the following abstract. In cooperation with University of Naples, he is interested in developing a thermal model for bicycle tires.
+
+   Farroni, F., Napolitano Dell'Annunziata, G., Ruffini, M., Dell'Orto, G. & Mastinu, G. (2023). Thermal model for bicycle tire internal temperature evaluation in        various contact conditions. The Evolving Scholar - BMD 2023, 5th Edition. https://doi.org/10.24404/63fe327a6cf80479c0db7f83
+
 (Past) Postdoc Andrew Dressel will present on the design of our new tilting
 tricycle:
 
