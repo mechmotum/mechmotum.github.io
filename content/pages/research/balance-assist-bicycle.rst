@@ -37,6 +37,19 @@ Below is a video that demonstrates the bicycle's ability to stabilize itself:
    <iframe width="560" height="315" src="https://www.youtube.com/embed/pjKYDhkBMX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </center>
 
+Funding
+=======
+
+This project is funded under the `Citius Altius Sanius`_ Perspectief grant from
+the `NWO`_ (Dutch Research Council) with financial and in-kind support from
+`Royal Dutch Gazelle`_, `Bosch eBike Systems`_, and `SWOV`_.
+
+.. _Citius Altius Sanius: https://www.citiusaltiussanius.nl/
+.. _NWO: https://www.nwo.nl/
+.. _Royal Dutch Gazelle: https://www.gazelle.nl/
+.. _Bosch eBike Systems: https://www.bosch-ebike.com
+.. _SWOV: https://www.swov.nl
+
 References
 ==========
 
