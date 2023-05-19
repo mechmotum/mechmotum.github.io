@@ -179,6 +179,7 @@ Presentations
 #. **J. Heinen**, E. van der Kruk, R. ten Broek, and J. K. Moore, “Optimal
    Skateboard Geometry For Maximizing Ollie Height,” presented at the Dutch
    Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
+   https://doi.org/10.6084/m9.figshare.22958357.v2
 #. **L. Alizadehsaravi** and J. K. Moore, “The Effects of a Steer Assist System
    on Bicycle Postural Control in Real-Like Safety Challenges,” presented at
    the Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
