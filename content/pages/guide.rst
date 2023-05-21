@@ -16,6 +16,14 @@ knowledge and experiences. It is up to all of us to make this guide useful. You
 are expected to contribute to the guide and edit it to do so. Discuss with the
 lab any desires to change any of the guidelines.
 
+Sub-Guides
+==========
+
+- `Writing Guide <{filename}/pages/guide-writing.rst>`_
+- `Data Management Guide <{filename}/pages/guide-data-management.rst>`_
+- `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_
+- `Lab Meeting MC Guide <{filename}/pages/guide-mc-lab-meetings.rst>`_
+
 Getting Started
 ===============
 
@@ -60,6 +68,12 @@ MSc General
 - We expect you to take the lead in your project. Your supervisors are here to
   advise and guide you, but it is up to you to manage your time, relationships,
   work, etc.
+- BME MSc students now have some new excellent guidance documents with
+  flowcharts available on the "Master Biomedical Engineering" Brightspace
+  course under "ALL STUDENTS - Flowcharts & Guidance Docs". Please read these
+  and reference them regularly.
+- BMD & BME students are encouraged to join the "Graduation Community Program"
+  for get togethers and workshops on topics to help you move through your MSc.
 - BME and BMD MSc students now have some new excellent guidance documents with
   flowcharts available on the "Master Biomedical Engineering" and "Master
   Biomechanical Design" Brightspace courses under "Flowcharts & Guidance Docs".
@@ -68,6 +82,9 @@ MSc General
 - You are encouraged to join the "Graduation Community Program" for get
   togethers and workshops on topics to help you move through your MSc. This is
   especially helpful if you are struggling in your MSc.
+- You have to write at least three documents for your MSc. Read the `writing
+  guide <{filename}/pages/guide-writing.rst>`_ for tips and read the recommended
+  papers below for even better tips!
 - Review the `Data Management Guide
   <{filename}/pages/guide-data-management.rst>`_.
 - If you are doing experiments, review the `Experimentation Guide
