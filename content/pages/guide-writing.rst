@@ -2,7 +2,7 @@
 Guide: Writing
 ==============
 
-:date: 2022-10-19
+:date: 2023-05-21
 :status: hidden
 
 What to Read
@@ -33,6 +33,9 @@ Scientific Writing
 "`How to write a good (enough) report <http://ruina.tam.cornell.edu/research/joining/Practical_Writing_advice.html>`_ by Andy Ruina
    Prof. Ruina's pragmatic take on writing with a goal of clear communication
    of your ideas.
+
+.. _Writing a Scientific-Style Thesis: https://www.nuigalway.ie/media/graduatestudies/files/writingascientificstylethesis/writing_a_scientific_thesis.pdf
+.. _Guide to Writing a Literature Review for Science and Technology Students: https://lancaster.libguides.com/engineering/literaturereview
 
 Common Issues
 =============
@@ -187,6 +190,11 @@ good starting point to learn about the differences in active and passive and
 style recommendations. Allen Downey also has a couple quick reads that may help
 convince you of the merit of using active voice in scientific writing:
 
+- https://allendowney.com/essays/passive.html
+- https://www.allendowney.com/blog/2019/12/18/please-stop-teaching-people-to-write-about-science-in-the-passive-voice/
+
+.. _English passive voice: https://en.wikipedia.org/wiki/English_passive_voice
+
 Initialisms and Acronyms
 ------------------------
 
@@ -202,8 +210,3 @@ others invented) on the first use of the phrase. If your sentences have more
 than one or two acronyms or initialisms present, you should likely write the
 phrases out to ease reading. Initialisms and acronyms make it easier for the
 writer but not the reader.
-
-- https://allendowney.com/essays/passive.html
-- https://www.allendowney.com/blog/2019/12/18/please-stop-teaching-people-to-write-about-science-in-the-passive-voice/
-
-.. _English passive voice: https://en.wikipedia.org/wiki/English_passive_voice

@@ -75,7 +75,7 @@ MSc General
   togethers and workshops on topics to help you move through your MSc. This is
   especially helpful if you are struggling in your MSc.
 - You have to write at least three documents for your MSc. Read the `writing
-  guide <{filename}/pages/guide-writing.rst`_ for tips and read the recommended
+  guide <{filename}/pages/guide-writing.rst>`_ for tips and read the recommended
   papers below for even better tips!
 - Review the `Data Management Guide
   <{filename}/pages/guide-data-management.rst>`_.
