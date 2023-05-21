@@ -16,6 +16,14 @@ knowledge and experiences. It is up to all of us to make this guide useful. You
 are expected to contribute to the guide and edit it to do so. Discuss with the
 lab any desires to change any of the guidelines.
 
+Sub-Guides
+==========
+
+- `Writing Guide <{filename}/pages/guide-writing.rst>`_
+- `Data Management Guide <{filename}/pages/guide-data-management.rst>`_
+- `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_
+- `Lab Meeting MC Guide <{filename}/pages/guide-mc-lab-meetings.rst>`_
+
 Getting Started
 ===============
 
