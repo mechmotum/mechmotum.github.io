@@ -61,6 +61,9 @@ MSc General
   and reference them regularly.
 - BMD & BME students are encouraged to join the "Graduation Community Program"
   for get togethers and workshops on topics to help you move through your MSc.
+- You have to write at least three documents for your MSc. Read the `writing
+  guide <{filename}/pages/guide-writing.rst`_ for tips and read the recommended
+  papers below for even better tips!
 - Review the `Data Management Guide
   <{filename}/pages/guide-data-management.rst>`_.
 
