@@ -104,11 +104,6 @@ Masters of Science Students
      - |headshot-missing|
      - | **Timo Stienstra** [TUD, Jun 2022-present]
        | *Improving SymPy's Joints Framework*
-   * - |headshot-missing|
-     - | **Julie van Vlerken** [TUD, Sep 2020-present]
-       | *Design rules for handling qualities*
-     -
-     -
 
 .. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
    :width: 100px
@@ -178,6 +173,12 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Julie van Vlerken
+     - TUD
+     - Sep 2020-May 2023
+     - `The influence of posture and stature on bicycle handling qualities
+       <http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786>`_
+     - `L. Alizadehsarvi, J. K. Moore, A. L. Schwab`
    * - Jens Keijser
      - TUD
      - May 2022-Apr 2023
