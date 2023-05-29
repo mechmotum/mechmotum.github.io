@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-05-06T11:15:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Six Abstracts Accepted to BMD 2023</title><link href="https://mechmotum.github.io/blog/bmd-2023-abstracts.html" rel="alternate"></link><published>2023-05-06T11:15:00-07:00</published><updated>2023-05-06T11:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-05-06:/blog/bmd-2023-abstracts.html</id><summary type="html">&lt;p&gt;All six of the Bicycle Lab's submissions to the 2023 Bicycle and Motorcycle
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-05-29T08:22:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Julie van Vlerken Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/julie-van-vlerken-graduates.html" rel="alternate"></link><published>2023-05-29T08:22:00-07:00</published><updated>2023-05-29T08:22:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-05-29:/blog/julie-van-vlerken-graduates.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png" style="height: 400px;" /&gt;&lt;/a&gt;
+&lt;p&gt;Julie van Vlerken successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;The influence of posture and stature
+on bicycle handling qualities&lt;/a&gt;&amp;quot;.
+Julie added rider forward lean and arm inertial effects to the Carvallo-Whipple
+bicycle model, the later of which is known to remove a bicycle's
+self-stabilization property. She then calculated a task independent handling
+quality metric …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png" style="height: 400px;" /&gt;&lt;/a&gt;
+&lt;p&gt;Julie van Vlerken successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;The influence of posture and stature
+on bicycle handling qualities&lt;/a&gt;&amp;quot;.
+Julie added rider forward lean and arm inertial effects to the Carvallo-Whipple
+bicycle model, the later of which is known to remove a bicycle's
+self-stabilization property. She then calculated a task independent handling
+quality metric based on a human steering control model and assessed different
+sized Gazelle bicycles with different rider size and posture for positive and
+negative effects to lateral handling. She discovered that it is more difficult
+for smaller riders to steer than larger riders and that postures that lean
+forward also make it more difficult to steer. Her model and findings can be
+used in the design phase to improve handling of new bicycle designs. Julie also
+gave our bicycle dynamics web application a make over with new aesthetics and
+new features:&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://bicycle-dynamics.onrender.com/"&gt;&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-web-app.png" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p&gt;Julie was co-supervised by Leila Alizadehsaravi (TU Delft), Jason K. Moore (TU
+Delft), and Arend Schwab (TU Delft). Engineers Jan Siksma, Hans Vreman, and
+Sierd Heida at Gazelle also provided support and assistance with the project.
+Everyone at the bicycle lab is very proud of Julie and wishes her the best her
+path forward.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category><category term="handling"></category></entry><entry><title>Six Abstracts Accepted to BMD 2023</title><link href="https://mechmotum.github.io/blog/bmd-2023-abstracts.html" rel="alternate"></link><published>2023-05-06T11:15:00-07:00</published><updated>2023-05-06T11:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-05-06:/blog/bmd-2023-abstracts.html</id><summary type="html">&lt;p&gt;All six of the Bicycle Lab's submissions to the 2023 Bicycle and Motorcycle
 Dynamics conference were accepted. We have had a very productive past year and
 are excited to show off some of the research. You can read the abstracts and
 the scientific committee's reviews on Orvium.&lt;/p&gt;
