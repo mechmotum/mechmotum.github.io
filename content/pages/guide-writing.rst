@@ -163,6 +163,12 @@ distract the reader from your main points, e.g. model description, but if the
 reader questions your stiffness values they can then read the appendix to see
 how you arrived at the values.
 
+Referencing commerical equipment
+--------------------------------
+
+I applied a 6 hz Butterworth low pass filter to the signal using the
+``butter()`` function avaialble in Matlab 2019a (Natick, USA).
+
 Style
 =====
 
