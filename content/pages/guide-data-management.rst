@@ -150,3 +150,6 @@ Example Minimum for an MSc Project
 - Write up READMEs for your digital artifacts so that someone can understand
   what is there.
 - Upload your digital files to the Surfdrive folder.
+- Absolutely make sure to transfer ownership to any files you deposited in the
+  Lab Google Drive to Jason, otherwise the files will be automatically deleted
+  when TU Delft removes your account post graduation/employment!
