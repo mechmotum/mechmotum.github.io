@@ -112,7 +112,9 @@ Data Storage Options
 Use TU Delft supplied data storage for non-public data. Here are some options:
 
 - TU Delft Google Drive. Ideally use a sub-folder in the "Fietslab Commons"
-  folder for your work.
+  folder for your work. Do not store human subject data or privacy laden data
+  here. Before you graduate or end employment you must transfer ownership of
+  these files to Jason or they will be deleted!
 - TU Delft provides 500 Gb of Surfdrive space for every employee. Employee's
   can share a folder directly with a student for digital artifact deposition.
   Probably best for project archives < 2 Gb or so.
@@ -123,9 +125,9 @@ Use TU Delft supplied data storage for non-public data. Here are some options:
   confidential data.
 - Staff group network drive (M:), 5 TB, used for having multiple staff use one
   shared network drive, don't use for confidential data (cause all staff see
-  it). webdata.tudelft.nl
+  it). https://webdata.tudelft.nl
 - Project network drive (UL), 5 TB, can create as many as you need for a shared
-  project space. webdata.tudelft.nl
+  project space. https://webdata.tudelft.nl
 
 Closing Out a Project
 =====================
