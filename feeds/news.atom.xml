@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-05-29T08:22:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Julie van Vlerken Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/julie-van-vlerken-graduates.html" rel="alternate"></link><published>2023-05-29T08:22:00-07:00</published><updated>2023-05-29T08:22:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-05-29:/blog/julie-van-vlerken-graduates.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png" style="height: 400px;" /&gt;&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-06-09T11:40:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>First Lab Bicycle Tour!</title><link href="https://mechmotum.github.io/blog/wortel-tour.html" rel="alternate"></link><published>2023-06-09T11:40:00-07:00</published><updated>2023-06-09T11:40:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-06-09:/blog/wortel-tour.html</id><summary type="html">&lt;p&gt;Several members of the Bicycle Laboratorium went on our first bicycle tour,
+which we hope to make an annual tradition! We bicycled from Delft to the
+&lt;a class="reference external" href="https://nl.wikipedia.org/wiki/Wortel-Kolonie"&gt;Wortel-Kolonie&lt;/a&gt; in Belgium. Belgium hosts free camping spots &amp;quot;&lt;a class="reference external" href="https://bivakzone.be/"&gt;bivakzone&lt;/a&gt;&amp;quot; for
+through hikers and bikers around the country and we stayed at the one located …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Several members of the Bicycle Laboratorium went on our first bicycle tour,
+which we hope to make an annual tradition! We bicycled from Delft to the
+&lt;a class="reference external" href="https://nl.wikipedia.org/wiki/Wortel-Kolonie"&gt;Wortel-Kolonie&lt;/a&gt; in Belgium. Belgium hosts free camping spots &amp;quot;&lt;a class="reference external" href="https://bivakzone.be/"&gt;bivakzone&lt;/a&gt;&amp;quot; for
+through hikers and bikers around the country and we stayed at the one located
+in the Wortel-Kolonie.&lt;/p&gt;
+&lt;p&gt;Those that started in Delft did about 260 km over the two days and I did about
+220 km due to the route passing through Rotterdam.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/wortel-tour-route.png" style="width: 60%;" /&gt;
+&lt;p class="caption"&gt;The approximate route we took from Delft to the Wortel-Kolonie and back.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/wortel-tour-02.jpg" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Here we are at the beginning about to descend into the Maastunnel.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/wortel-tour-01.jpg" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;On our way back on a beautiful Limburg road.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="social"></category></entry><entry><title>Julie van Vlerken Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/julie-van-vlerken-graduates.html" rel="alternate"></link><published>2023-05-29T08:22:00-07:00</published><updated>2023-05-29T08:22:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-05-29:/blog/julie-van-vlerken-graduates.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png" style="height: 400px;" /&gt;&lt;/a&gt;
 &lt;p&gt;Julie van Vlerken successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;The influence of posture and stature
 on bicycle handling qualities&lt;/a&gt;&amp;quot;.
 Julie added rider forward lean and arm inertial effects to the Carvallo-Whipple
