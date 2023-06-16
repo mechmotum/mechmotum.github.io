@@ -61,6 +61,10 @@ Example of two repositories from a single MSc project:
 - https://github.com/mechmotum/TUDelft-SbW-Bicycle
 - https://github.com/mechmotum/TUDelft_Bicycle_Handling_Test
 
+Have a look at `TU Delft's Research Software Policy
+<https://doi.org/10.5281/zenodo.4629635>`_ for basic rules on sharing the
+software we create.
+
 Open Data
 =========
 
@@ -103,7 +107,7 @@ GDPR Protected Data
 
 If you collect privacy laden human subject data, then any personal information
 about subjects should be stored via hard copy in the locked cabinet in Jason's
-office. The data you work with on your computes should be anonymized with
+office. The data you work with on your computers should be anonymized with
 respect to personal information.
 
 Data Storage Options
