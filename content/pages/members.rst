@@ -193,7 +193,7 @@ https://repository.tudelft.nl.
      - `J. Haasnsoot, J. K. Moore`
    * - Jan Heinen
      - TUD
-     - Sep 2021-December 2022
+     - Sep 2021-Dec 2022
      - `Optimal Skateboard Geometry for Maximizing Ollie Height
        <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_
      - `J. K. Moore,  R. ten Broek, E. van der Kruk`
