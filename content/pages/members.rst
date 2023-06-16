@@ -95,15 +95,14 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Kenneth Pasma** [TUD, Oct 2022-present]
        | *Robotic Bicycle Control*
-     - |headshot-floris-van-willigen|
-     - | **Floris van Willigen** [TUD, Sep 2022-present]
-       | *Titling Tricycle Geometry*
-   * - |headshot-van-der-schot-jan|
+     - |headshot-van-der-schot-jan|
      - | **Jan van der Schot** [TUD, Jul 2022-present]
        | *Ski Jump Safety Assessment*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Timo Stienstra** [TUD, Jun 2022-present]
        | *Improving SymPy's Joints Framework*
+     -
+     -
 
 .. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
    :width: 100px
@@ -173,6 +172,12 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Floris van Willigen
+     - TUD
+     - Sep 2022-Jun 2023
+     - `Evaluation of the handling of a variable dynamics tilting tricycle
+       <http://resolver.tudelft.nl/uuid:3e68f4f0-80f0-4be5-9914-ba2fccefe631>`_
+     - `A. Dressel, J. K. Moore`
    * - Julie van Vlerken
      - TUD
      - Sep 2020-May 2023
