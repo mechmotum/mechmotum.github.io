@@ -6,7 +6,7 @@ A Web Application for Analyzing Bicycle Dynamics
 :tags: bicycle, web application
 :category: research
 :slug: bicycle-dynamics-web-application
-:authors: Noah Sanders
+:authors: Lyla Sanders
 :summary: Blog post on creating a web application to serve as a GUI for bicycle
           dynamics.
 

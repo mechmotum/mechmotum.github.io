@@ -270,7 +270,7 @@ https://repository.tudelft.nl.
 Research Assistants
    - Zhengyang Lu [TUD, Nov 2022-Feb 2023]
    - Tim Stewart [UCD, Dec 2020-Sep 2021]
-   - Noah Sanders [UCD, Jan 2020-Sep 2021]
+   - Lyla Sanders [UCD, Jan 2020-Sep 2021]
    - Mandeepika Saini [UCD, Dec 2020-Jun 2021]
    - Patrick Mackle [UCD, Dec 2020-Jun 2021]
    - Xinzhi (Richard) Yan [UCD, Sep 2020-Dec 2020]
