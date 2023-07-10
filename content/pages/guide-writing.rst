@@ -130,9 +130,9 @@ LaTeX
 
 This is how you do quotes in LaTeX!
 
-::
+.. code-block:: latex
 
-   `single quoted stuff`
+   `single quoted stuff'
    ``double quoted stuff''
 
 Backticks on the left quotes are necessary to obtain correctly formatted
