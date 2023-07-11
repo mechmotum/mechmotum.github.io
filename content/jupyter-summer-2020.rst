@@ -5,7 +5,7 @@ JupyterTeam Progress Summer 2020
 :tags: oer, education, jupyter, textbooks, engineering, libretexts
 :category: education
 :slug: jupyter-summer-2020
-:authors: Noah Sanders, Kevin Rong
+:authors: Lyla Sanders, Kevin Rong
 :summary: Blog post on the progress made by JupyterTeam over the summer of 2020
 
 Summary

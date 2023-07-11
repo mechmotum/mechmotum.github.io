@@ -5,7 +5,7 @@ Interactive Jupyter-Enabled LibreTexts Pages
 :status: hidden
 :date: 2020-08
 :collaborators: Delmar Larsen, Richard Feltstykket, Henry Agnew
-:current_researchers: Kevin Rong, Noah Sanders
+:current_researchers: Kevin Rong, Lyla Sanders
 :past_researchers: Abigail Alamanza, Lawrence Lee, Eric Li, Celine Liang,
                    Xiaochen Zang, Xin Luigi Chen, Kevin Krausse, Henry Agnew
 :research_theme: Engineering Education

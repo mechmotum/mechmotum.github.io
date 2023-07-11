@@ -6,7 +6,7 @@ JupyterTeam Progress Summer 2021
 :tags: oer, education, jupyter, textbooks, libretexts
 :category: education
 :slug: jupyter-summer-2021
-:authors: Noah Sanders, Tim Stewart
+:authors: Lyla Sanders, Tim Stewart
 :summary: Blog post on the progress made by JupyterTeam since winter 2020 through summer 2021
 
 Improvements and Progress

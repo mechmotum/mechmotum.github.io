@@ -457,7 +457,7 @@ is it the team that made all of this magic happen:
    * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-noah.png
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-patrick.jpg
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tannavee.png
-   * - Noah Sanders (UC Davis)
+   * - Lyla Sanders (UC Davis)
      - Patrick Mackle (now @ DocuSign)
      - Tannavee Kumar (now @ Tempus Labs)
    * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tim.png
