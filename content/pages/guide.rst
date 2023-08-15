@@ -16,6 +16,14 @@ knowledge and experiences. It is up to all of us to make this guide useful. You
 are expected to contribute to the guide and edit it to do so. Discuss with the
 lab any desires to change any of the guidelines.
 
+Sub-Guides
+==========
+
+- `Writing Guide <{filename}/pages/guide-writing.rst>`_
+- `Data Management Guide <{filename}/pages/guide-data-management.rst>`_
+- `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_
+- `Lab Meeting MC Guide <{filename}/pages/guide-mc-lab-meetings.rst>`_
+
 Getting Started
 ===============
 
@@ -60,6 +68,12 @@ MSc General
 - We expect you to take the lead in your project. Your supervisors are here to
   advise and guide you, but it is up to you to manage your time, relationships,
   work, etc.
+- BME MSc students now have some new excellent guidance documents with
+  flowcharts available on the "Master Biomedical Engineering" Brightspace
+  course under "ALL STUDENTS - Flowcharts & Guidance Docs". Please read these
+  and reference them regularly.
+- BMD & BME students are encouraged to join the "Graduation Community Program"
+  for get togethers and workshops on topics to help you move through your MSc.
 - BME and BMD MSc students now have some new excellent guidance documents with
   flowcharts available on the "Master Biomedical Engineering" and "Master
   Biomechanical Design" Brightspace courses under "Flowcharts & Guidance Docs".
@@ -68,6 +82,9 @@ MSc General
 - You are encouraged to join the "Graduation Community Program" for get
   togethers and workshops on topics to help you move through your MSc. This is
   especially helpful if you are struggling in your MSc.
+- You have to write at least three documents for your MSc. Read the `writing
+  guide <{filename}/pages/guide-writing.rst>`_ for tips and read the recommended
+  papers below for even better tips!
 - Review the `Data Management Guide
   <{filename}/pages/guide-data-management.rst>`_.
 - If you are doing experiments, review the `Experimentation Guide
@@ -789,6 +806,13 @@ Online
 `Single Track Vehicle Dynamics listserv <https://groups.google.com/g/stvdy>`_
    Public email based forum for discussing the dynamics and control of single
    track vehicles.
+`International Human Powered Vehicle Assocation <http://ihpva.org>`_
+   This group hosts the annual bicycle speed challenge in Battle Mountain
+   Nevada.
+`World Human Powered Vehicle Assocation <http://www.whpva.org/>`_
+   Umbrella org for many associations around the world.
+`Ligfiets Vereniging <https://ligfiets.net>`_
+   Dutch recumbent bicycle organization.
 
 Software
 --------
@@ -823,6 +847,7 @@ ECCOMAS Multibody Dynamics Conference
 `International Society of Biomechanics Congresses <https://isbweb.org/activities/congresses>`_
    Huge annual conference with a broad array of biomechanics topics. Great
    networking and a catch all for many topics from the lab. Every two years.
+   The Technical Group in Computer Simulation holds a parallel symposium.
 `SciPy <https://conference.scipy.org/>`_ & `EuroSciPY <https://www.euroscipy.org/>`_
    Annual conferences. If your work involves open source Python software these
    are a great place to showcase the advances in library development and use of
@@ -831,6 +856,15 @@ Dutch Bio-Medical Engineering Conference
    Nice way to connect with Dutch local researchers.
 `Science & Cycling <https://science-cycling.org>`_
    Annual European conference focused on performance and cycling as a sport.
+
+Journals
+========
+
+`Human Power eJournal <https://hupi.org/HPeJ/index.htm>`_
+   Modern incarnation of the journal Human Power. Not necessarily an academic
+   journal, but useful articles none-the-less.
+`Human Power: the technical journal of the IHPVA <http://ihpva.org/hparchive.htm>`_
+   Started by David Gordon Wilson; ran from 1977 to 2004.
 
 Funding Opportunities
 =====================
@@ -956,7 +990,9 @@ Other
 
 Greg Wilson, "Meetings," The Third Bit, May 11, 2018. https://third-bit.com/2018/05/11/meetings/
    Some nice simple guidelines for making meetings actually useful for the
-   participants.
+   participants. There is a `video <https://youtu.be/qYh6Nzv3RWs>`_ and `slide
+   deck
+   <https://docs.google.com/presentation/d/1HSdgVQjq0d3UYh-aA4uWHXxYYpySn_xXwfn_M4Ms8Ts/edit#slide=id.g8d106d1eab_0_8>`_.
 
 Random TU Delft Tips
 ====================

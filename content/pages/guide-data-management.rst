@@ -61,6 +61,10 @@ Example of two repositories from a single MSc project:
 - https://github.com/mechmotum/TUDelft-SbW-Bicycle
 - https://github.com/mechmotum/TUDelft_Bicycle_Handling_Test
 
+Have a look at `TU Delft's Research Software Policy
+<https://doi.org/10.5281/zenodo.4629635>`_ for basic rules on sharing the
+software we create.
+
 Open Data
 =========
 
@@ -103,7 +107,7 @@ GDPR Protected Data
 
 If you collect privacy laden human subject data, then any personal information
 about subjects should be stored via hard copy in the locked cabinet in Jason's
-office. The data you work with on your computes should be anonymized with
+office. The data you work with on your computers should be anonymized with
 respect to personal information.
 
 Data Storage Options
@@ -112,7 +116,9 @@ Data Storage Options
 Use TU Delft supplied data storage for non-public data. Here are some options:
 
 - TU Delft Google Drive. Ideally use a sub-folder in the "Fietslab Commons"
-  folder for your work.
+  folder for your work. Do not store human subject data or privacy laden data
+  here. Before you graduate or end employment you must transfer ownership of
+  these files to Jason or they will be deleted!
 - TU Delft provides 500 Gb of Surfdrive space for every employee. Employee's
   can share a folder directly with a student for digital artifact deposition.
   Probably best for project archives < 2 Gb or so.
@@ -123,9 +129,9 @@ Use TU Delft supplied data storage for non-public data. Here are some options:
   confidential data.
 - Staff group network drive (M:), 5 TB, used for having multiple staff use one
   shared network drive, don't use for confidential data (cause all staff see
-  it). webdata.tudelft.nl
+  it). https://webdata.tudelft.nl
 - Project network drive (UL), 5 TB, can create as many as you need for a shared
-  project space. webdata.tudelft.nl
+  project space. https://webdata.tudelft.nl
 
 Closing Out a Project
 =====================
@@ -150,3 +156,6 @@ Example Minimum for an MSc Project
 - Write up READMEs for your digital artifacts so that someone can understand
   what is there.
 - Upload your digital files to the Surfdrive folder.
+- Absolutely make sure to transfer ownership to any files you deposited in the
+  Lab Google Drive to Jason, otherwise the files will be automatically deleted
+  when TU Delft removes your account post graduation/employment!

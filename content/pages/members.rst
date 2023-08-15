@@ -95,18 +95,12 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Kenneth Pasma** [TUD, Oct 2022-present]
        | *Robotic Bicycle Control*
-     - |headshot-floris-van-willigen|
-     - | **Floris van Willigen** [TUD, Sep 2022-present]
-       | *Titling Tricycle Geometry*
-   * - |headshot-van-der-schot-jan|
+     - |headshot-van-der-schot-jan|
      - | **Jan van der Schot** [TUD, Jul 2022-present]
        | *Ski Jump Safety Assessment*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Timo Stienstra** [TUD, Jun 2022-present]
        | *Improving SymPy's Joints Framework*
-   * - |headshot-missing|
-     - | **Julie van Vlerken** [TUD, Sep 2020-present]
-       | *Design rules for handling qualities*
      -
      -
 
@@ -178,6 +172,18 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Floris van Willigen
+     - TUD
+     - Sep 2022-Jun 2023
+     - `Evaluation of the handling of a variable dynamics tilting tricycle
+       <http://resolver.tudelft.nl/uuid:3e68f4f0-80f0-4be5-9914-ba2fccefe631>`_
+     - `A. Dressel, J. K. Moore`
+   * - Julie van Vlerken
+     - TUD
+     - Sep 2020-May 2023
+     - `The influence of posture and stature on bicycle handling qualities
+       <http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786>`_
+     - `L. Alizadehsarvi, J. K. Moore, A. L. Schwab`
    * - Jens Keijser
      - TUD
      - May 2022-Apr 2023
@@ -187,7 +193,7 @@ https://repository.tudelft.nl.
      - `J. Haasnsoot, J. K. Moore`
    * - Jan Heinen
      - TUD
-     - Sep 2021-December 2022
+     - Sep 2021-Dec 2022
      - `Optimal Skateboard Geometry for Maximizing Ollie Height
        <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_
      - `J. K. Moore,  R. ten Broek, E. van der Kruk`
@@ -264,7 +270,7 @@ https://repository.tudelft.nl.
 Research Assistants
    - Zhengyang Lu [TUD, Nov 2022-Feb 2023]
    - Tim Stewart [UCD, Dec 2020-Sep 2021]
-   - Noah Sanders [UCD, Jan 2020-Sep 2021]
+   - Lyla Sanders [UCD, Jan 2020-Sep 2021]
    - Mandeepika Saini [UCD, Dec 2020-Jun 2021]
    - Patrick Mackle [UCD, Dec 2020-Jun 2021]
    - Xinzhi (Richard) Yan [UCD, Sep 2020-Dec 2020]

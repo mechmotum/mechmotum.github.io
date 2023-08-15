@@ -4,6 +4,10 @@ Products
 
 :sortorder: 3
 
+.. contents:: Table of Contents
+   :local:
+   :class: floatcon
+
 Journal Articles
 ================
 
@@ -41,6 +45,63 @@ Journal Articles
    B. Kirpichev, Matthew Rocklin, AMiT Kumar, et al. "SymPy: Symbolic Computing
    in Python." PeerJ Computer Science 3 (January 2, 2017): e103.
    https://doi.org/10.7717/peerj-cs.103.
+
+Conference Proceedings
+======================
+
+2019
+----
+
+#. Metz, Trevor; Moore, Jason K. (2019): Design of an Electric Bicycle Speed
+   Controller. Symposium on the Dynamics and Control of Single Track Vehicles.
+   Conference contribution. https://doi.org/10.6084/m9.figshare.9937091.v1
+#. Moore, Jason K.; Hubbard, Mont (2019): Expanded Optimization for Discovering
+   Optimal Lateral Handling Bicycles. Symposium on the Dynamics and Control of
+   Single Track Vehicles. Conference contribution.
+   https://doi.org/10.6084/m9.figshare.9942938.v1
+#. Gilboa, Roy; Kubicki, Anastasia; Toribio, Anthony; Hubbard, Mont; Moore,
+   Jason K. (2019): Practical Realization of a Theoretical Optimal-Handling
+   Bicycle. Symposium on the Dynamics and Control of Single Track Vehicles.
+   Conference contribution. https://doi.org/10.6084/m9.figshare.9883328.v1
+
+2017
+----
+
+#. Moore, Jason K., Mont Hubbard, and Ronald A. Hess. "Optimal Bicycle Design
+   to Maximize Handling and Safety," September 13, 2017.
+   https://doi.org/10.6084/m9.figshare.5405242.v1
+
+2016
+----
+
+#. Moore, Jason, Mont Hubbard, and Ronald A. Hess. "An Optimal Handling Bicycle."
+   In Proceedings of the 2016 Bicycle and Motorcycle Dynamics Conference.
+   Figshare, 2016. https://doi.org/10.6084/m9.figshare.3806310.v1
+
+Preprints
+=========
+
+#. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
+   motion for young and old bicyclists during real-life safety challenges",
+   Feb. 2023. https://doi.org/10.31224/2825
+#. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, “Model Predictive Control-based haptic steering assistance
+   to enhance motor learning of a bicycling task: A pilot study.” Engineering
+   Archive, Feb. 04, 2023. doi: 10.31224/2811.
+#. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
+   of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
+   2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
+#. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
+   R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
+   fusion for estimating competitive rowing kinematic metrics.
+   https://doi.org/10.31224/osf.io/nykuh
+
+Reports
+=======
+
+#. Moritzburke, Molly; Toribio, Anthony; Yang, Shizhao; Kubicki, Stasia (2020):
+   Optimal Handling Bicycle: Final Design. figshare. Preprint.
+   https://doi.org/10.6084/m9.figshare.12833933.v1
 
 Theses
 ======
@@ -102,36 +163,6 @@ Books
    Engineering Through Computation" (2018)
    https://moorepants.github.io/resonance *--Draft*
 
-Conference Proceedings
-======================
-
-2019
-----
-
-#. T. Metz and J. K. Moore, "Design of an Electric Bicycle Speed Controller,"
-   submitted to the Bicycle and Motorcycle Dynamics 2019, Padova, Italy, 2019,
-   p. 2.
-#. J. K. Moore, M. Hubbard, and R. A. Hess, "Expanded Optimization for
-   Discovering Optimal Lateral Handling Bicycles," submitted to the Bicycle and
-   Motorcycle Dynamics 2019, 2019, p. 2.
-#. R. Gilboa, J. K. Moore, M. Hubbard, and R. A. Hess, "Practical Realization
-   of a Theoretical Optimal-Handling Bicycle," submitted to the Bicycle and
-   Motorcycle Dynamics 2019, 2019, p. 2.
-
-2017
-----
-
-#. Moore, Jason K., Mont Hubbard, and Ronald A. Hess. "Optimal Bicycle Design
-   to Maximize Handling and Safety," September 13, 2017.
-   https://doi.org/10.6084/m9.figshare.5405242.v1
-
-2016
-----
-
-#. Moore, Jason, Mont Hubbard, and Ronald A. Hess. "An Optimal Handling Bicycle."
-   In Proceedings of the 2016 Bicycle and Motorcycle Dynamics Conference.
-   Figshare, 2016. https://doi.org/10.6084/m9.figshare.3806310.v1
-
 Presentations
 =============
 
@@ -148,6 +179,7 @@ Presentations
 #. **J. Heinen**, E. van der Kruk, R. ten Broek, and J. K. Moore, “Optimal
    Skateboard Geometry For Maximizing Ollie Height,” presented at the Dutch
    Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
+   https://doi.org/10.6084/m9.figshare.22958357.v2
 #. **L. Alizadehsaravi** and J. K. Moore, “The Effects of a Steer Assist System
    on Bicycle Postural Control in Real-Like Safety Challenges,” presented at
    the Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
@@ -178,6 +210,9 @@ Presentations
    chicks go bad in your flock: JupyterHub on Bare Metal with Kubernetes,”
    presented at the SacPy, Sacramento, CA, USA, Nov. 14, 2019. [Online].
    Available: https://tinyurl.com/sacpy-jupy
+#. Metz, Trevor; Moore, Jason K. (2019): Design of an Electric Bicycle Speed
+   Controller. Symposium on the Dynamics and Control of Single Track Vehicles.
+   Poster. https://doi.org/10.6084/m9.figshare.9883154.v1
 
 2018
 ----
@@ -192,24 +227,6 @@ Presentations
 #. **Kresie, Scott W.**, Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
    "Experimental Validation of Bicycle Handling Prediction," September 13,
    2017. https://doi.org/10.6084/m9.figshare.5405233.v1
-
-Preprints
-=========
-
-#. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
-   motion for young and old bicyclists during real-life safety challenges",
-   Feb. 2023. https://doi.org/10.31224/2825
-#. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, “Model Predictive Control-based haptic steering assistance
-   to enhance motor learning of a bicycling task: A pilot study.” Engineering
-   Archive, Feb. 04, 2023. doi: 10.31224/2811.
-#. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
-   of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
-   2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
-#. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
-   R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
-   fusion for estimating competitive rowing kinematic metrics.
-   https://doi.org/10.31224/osf.io/nykuh
 
 Web Articles
 ============
@@ -286,3 +303,58 @@ Software
    California, Davis, 2010.
 #. SymPy Development Team, SymPy: Python library for symbolic mathematics.
    2006. http://sympy.org
+
+Data
+====
+
+#. G. Dell’Orto, J. K. Moore, G. Mastinu, and R. Happee, “Magic Formula
+   Parameters - Bicycle Tyres.” Zenodo, May 10, 2023. doi:
+   10.5281/zenodo.7920415.
+#. G. Dell’Orto, J. K. Moore, G. Mastinu, and R. Happee, “Bicycle Tyre Data -
+   Lateral Characteristics.” Zenodo, Apr. 26, 2023. doi:
+   10.5281/zenodo.7866646.
+#. Moore, Jason K.; Hubbard, Mont (2019): Accompanying Raw Data for the Paper:
+   Adaptive smartphone-based sensor fusion for estimating competitive rowing
+   kinematic metrics. figshare. Dataset.
+   https://doi.org/10.6084/m9.figshare.7963643.v2
+#. Moore, Jason K.; Hubbard, Mont (2014): Davis Instrumented Bicycle Experiment
+   Raw Data. figshare. Dataset. https://doi.org/10.6084/m9.figshare.1164632.v1
+#. Moore, Jason K.; Hubbard, Mont (2014): Instrumented Bicycle Raw Data HDF5.
+   figshare. Dataset. https://doi.org/10.6084/m9.figshare.1198518.v1
+#. Moore, Jason K.; Hubbard, Mont (2014): Davis Instrumented Bicycle
+   Calibration Raw Data. figshare. Dataset.
+   https://doi.org/10.6084/m9.figshare.1164630.v1
+#. Moore, Jason K.; Hubbard, Mont (2014): Davis Instrumented Bicycle Corrupt
+   Trial Log. figshare. Dataset. https://doi.org/10.6084/m9.figshare.1187092.v1
+#. Moore, Jason K.; Hubbard, Mont; D. G. Kooijman, J.; L. Schwab, A. (2014):
+   Bicycle Parameters. figshare. Dataset.
+   https://doi.org/10.6084/m9.figshare.1198429.v2
+#. Moore, Jason K.; Hubbard, Mont; L. Peterson, Dale (2014): Bicycle Steer
+   Torque Magnitude Measurement Dataset. figshare. Dataset.
+   https://doi.org/10.6084/m9.figshare.1167497.v1
+#. Moore, Jason K.; D. G. Kooijman, J.; L. Schwab, A. (2014): Motion Capture of
+   Bicycling on a Treadmill. figshare. Dataset.
+   https://doi.org/10.6084/m9.figshare.1082512.v1
+#. Moore, Jason K.; de Lange, P.D.L (2013): Bicycle Rider Control
+   Identification. figshare. Dataset.
+   https://doi.org/10.6084/m9.figshare.659465.v4
+
+Grant Proposals
+===============
+
+#. Meurer, Aaron; Moore, Jason K.; Benjamin, Oscar (2021): SymPy CZI EOSS Round
+   4 Application.pdf. figshare. Online resource.
+   https://doi.org/10.6084/m9.figshare.16590053.v1
+#. Moore, Jason K. (2017): Influence of Culture on  Mechanical Design: A
+   Proposal For an Undergraduate Exchange and Design Competition Between
+   Japanese and American Students. figshare. Journal contribution.
+   https://doi.org/10.6084/m9.figshare.5656105.v1
+#. Moore, Jason K.; Lyons, Kenneth (2017): Development of an Interactive
+   Textbook Backed by Cloud Infrastructure to Pilot Active Computational
+   Learning in an Upper Level Mechanical Vibrations Engineering Course.
+   figshare. Journal contribution.
+   https://doi.org/10.6084/m9.figshare.5229886.v1
+#. Moore, Jason K. (2014): Identification of closed-loop human locomotion
+   control with perturbed walking and running data under the constraints of a
+   biologically actuated plant. figshare. Journal contribution.
+   https://doi.org/10.6084/m9.figshare.1137192.v2
