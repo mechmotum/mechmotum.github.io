@@ -267,9 +267,10 @@ Postdocs, PhDs, and other staff
   supervisor approves. The other 3 days should be on campus. You have Jason's
   blanket permission to work from home or other locations the equivalent of 2
   days per week. If you want to work from home more that this, discuss with
-  Jason. You should, in general, work during typical working hours 8-6 so that
-  you can interact with the lab members. When you work from home you should be
-  easily reachable by email, phone, or video chat, etc.
+  Jason. You should, in general, complete your contracted work hours during
+  typical working hours 8-6 so that you can interact with the lab members. When
+  you work from home you should be easily reachable by email, phone, or video
+  chat, etc.
 - You likely have a budget associated with your position or projects. Ask Jason
   or the relevant supervisor to tell you this budget. You can mange your own
   budget and don't need to ask permission for purchasing things < 250 EUR. If
