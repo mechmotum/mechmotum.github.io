@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Experiments with Cyclist Social Forces for Microscopic Traffic Simulation | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/cyclist-social-force-experiments.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="The social force model in action. SUMO Cyclists driven by social forces. Microscopic traffic simulation is an important tool that traffic engineers and researchers use to assess the performances of existing and new transport innovations. Historically being designed for car traffic, current simulation frameworks (e.g. SUMO, VISSIM) still only …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="site-image img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Jobs</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/contact.html">Contact</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Experiments with Cyclist Social Forces for Microscopic Traffic Simulation
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <table border="1" class="table docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><img alt="socialforcesim" src="https://objects-us-east-1.dream.io/mechmotum/sfm-intersection.png" style="width: 100%;" /></td>
+<td><img alt="sumosnapshot" src="https://objects-us-east-1.dream.io/mechmotum/sfm-intersection-sumo.png" style="width: 100%;" /></td>
+</tr>
+<tr><td>The social force model in action.</td>
+<td>SUMO Cyclists driven by social forces.</td>
+</tr>
+</tbody>
+</table>
+<p>Microscopic traffic simulation is an important tool that traffic engineers and
+researchers use to assess the performances of existing and new transport
+innovations. Historically being designed for car traffic, current simulation
+frameworks (e.g. SUMO, VISSIM) still only provide rudimentary models for the
+simulation of cyclists with strong limitations regarding the interaction of
+cyclists and other road users.  At the bike lab, we are working on new models
+for the microscopic simulation of cyclists. A new adaption of the social force
+model introduces physics-based bicycle dynamics <a class="citation-reference" href="#schmidt2023" id="citation-reference-1">[Schmidt2023]</a> to an
+established microscopic model <a class="citation-reference" href="#helbing1995" id="citation-reference-2">[Helbing1995]</a>, aiming to improve simulated
+interactions. In this model, a cyclist's motivation to act is described by
+imaginary forces. The summation of these forces becomes the input of a dynamic
+bicycle model and drives the simulated movements. In this framework, we are
+currently offering two options for Master’s projects.</p>
+<div class="section" id="option-1-modelling-and-simulation">
+<h2>Option 1: Modelling and Simulation:</h2>
+<p>With the fundamental framework set, many features have to be added to the model
+to enable a full simulation of bicycle traffic. Think for example about the
+transition between riding and stopping, path planning to execute complex riding
+maneuvers, or taking and giving priority.  In a modeling and simulation
+Master’s project, you may choose a relevant feature, identify the desired
+cyclist behavior from the literature, develop a suitable model, implement the
+model in Python, calibrate its parameters, and validate its performance.</p>
+</div>
+<div class="section" id="option-2-validation-experiments">
+<h2>Option 2: Validation Experiments:</h2>
+<p>Many aspects of our current model are derived heuristically and require
+validation with real-world data.  So, how do cyclists actually interact? How do
+they perform evasive maneuvers? How much space do they leave each other? How
+closely do they overtake? In an experimental master’s project, you may run
+experiments on cyclist interactions, measure interaction profiles in terms of
+relative position, speed, acceleration, or orientation, and identify typical
+behavioral patterns. This requires designing and setting up experiments,
+selecting suitable performance measures, choosing and calibrating a sensor
+setup, and post-processing the collected data. The post-processed data may then
+be used to calibrate and validate parts of the cyclist social force model.</p>
+</div>
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils citation" frame="void" id="helbing1995" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#citation-reference-2">[Helbing1995]</a></td><td>Helbing, D., &amp; Molnár, P. (1995). Social force model for
+pedestrian dynamics.  Physical Review E, 51(5), 4282–4286.
+<a class="reference external" href="https://doi.org/10.1103/PhysRevE.51.4282">https://doi.org/10.1103/PhysRevE.51.4282</a></td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="schmidt2023" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#citation-reference-1">[Schmidt2023]</a></td><td>Schmidt, C., Dabiri, A., Schulte, F., Happee, R. &amp; Moore, J.
+(2023). Essential Bicycle Dynamics for Microscopic Traffic Simulation: An
+Example Using the Social Force Model.  The Evolving Scholar - BMD 2023, 5th
+Edition. <a class="reference external" href="https://doi.org/10.59490/649d4037c2c818c6824899bd">https://doi.org/10.59490/649d4037c2c818c6824899bd</a></td></tr>
+</tbody>
+</table>
+<p>Current implementation of the model: <a class="reference external" href="https://github.com/chrismo-schmidt/cyclistsocialforce">https://github.com/chrismo-schmidt/cyclistsocialforce</a></p>
+</div>
+
+    <h2>How To Apply</h2>
+    <p>If you would like to apply for this project, please send an
+    approximately half page letter explaining your motivations and interest in
+    the lab and project, CV or resume, a list of courses you've taken, the name
+    of your MSc track, and any other relevant information to
+    <a href='mailto:j.k.moore@tudelft.nl'>j.k.moore@tudelft.nl</a>.</p>
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy"
+         target="_blank">&#x2728;</a>
+    | Edit on <a href="https://github.com/mechmotum/mechmotum.github.io" target="_blank"><i class="fab fa-github"></i></a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
