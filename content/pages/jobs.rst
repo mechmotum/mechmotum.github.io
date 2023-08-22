@@ -68,6 +68,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
+     - 2023-08-22
+     -
+     - Thesis
    * - `Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors <{filename}/pages/jobs/bicycle-tire-force-estimation.rst>`_
      - 2022-09-08
      -
