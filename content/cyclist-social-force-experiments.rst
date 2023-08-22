@@ -17,7 +17,7 @@ Experiments with Cyclist Social Forces for Microscopic Traffic Simulation
 
 .. |socialforcesim| image:: https://objects-us-east-1.dream.io/mechmotum/sfm-intersection.png
 
-.. |dygertvideo| image::
+.. |sumosnapshot| image:: https://objects-us-east-1.dream.io/mechmotum/sfm-intersection-sumo.png
 
 Microscopic traffic simulation is an important tool that traffic engineers and researchers use to 
 assess the performances of existing and new transport innovations. Historically being designed 
