@@ -290,6 +290,9 @@ Postdocs, PhDs, and other staff
   not able to take advantage of this as you desire and we will do our best to
   make this possible, but this is mostly dependent on your ability to be
   efficient with your primary research tasks.
+- If you supervise BSc, MSc, or PhD students that regularly use the lab
+  resources and/or Jason is the main supervisor of, those students need to
+  follow join the Bicycle Lab and follow the expectations in this guide.
 
 COVID-Time Lab Rules
 ====================
