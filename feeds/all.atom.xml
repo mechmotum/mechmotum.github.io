@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-06-28T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Balance Assist Bicycle Featured in CAS Project Video</title><link href="https://mechmotum.github.io/blog/cas-final-video.html" rel="alternate"></link><published>2023-06-28T00:00:00-07:00</published><updated>2023-06-28T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-06-28:/blog/cas-final-video.html</id><summary type="html">&lt;p class="first last"&gt;Dr. Leila Alizadehsaravi and Dr. Felix Dauer are featured in the
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-08-22T09:31:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jan van der Schot Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-van-der-schot-graduates.html" rel="alternate"></link><published>2023-08-22T09:31:00-07:00</published><updated>2023-08-22T09:31:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-08-22:/blog/jan-van-der-schot-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-der-schot.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Jan van der Schot successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:98476791-40be-4ee5-ab3a-3f1a9d5e63cb"&gt;The Relationship between Equivalent
+Fall Height and Ground Reaction Force in Freestyle Ski Jumping&lt;/a&gt;&amp;quot;. Jan
+measured both the trajectories of ski jump flight and the shape of the landing
+surface with high accuracy differential GPS for over 100 jumps. Using these
+measures he calculated …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-der-schot.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Jan van der Schot successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:98476791-40be-4ee5-ab3a-3f1a9d5e63cb"&gt;The Relationship between Equivalent
+Fall Height and Ground Reaction Force in Freestyle Ski Jumping&lt;/a&gt;&amp;quot;. Jan
+measured both the trajectories of ski jump flight and the shape of the landing
+surface with high accuracy differential GPS for over 100 jumps. Using these
+measures he calculated the equivalent fall height at the landing location to
+compare to peak ground reaction force using data from chest and back mounted
+accelerometers. Jan found that ground reaction force increases with equivalent
+fall height but that it is difficult to predict the ground reaction force from
+equivalent fall height alone, likely due to landing strategy and environment
+differences.&lt;/p&gt;
+&lt;p&gt;Jan was co-supervised by Daniel Röck (Prinoth AG), Mont Hubbard (University of
+California, Davis), and Jason K. Moore (TU Delft). Everyone at the bicycle lab
+is very proud of Jan and wishes him the best in his next adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="skiing"></category><category term="jump"></category><category term="freestyle"></category><category term="engineering"></category><category term="experiment"></category></entry><entry><title>Balance Assist Bicycle Featured in CAS Project Video</title><link href="https://mechmotum.github.io/blog/cas-final-video.html" rel="alternate"></link><published>2023-06-28T00:00:00-07:00</published><updated>2023-06-28T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-06-28:/blog/cas-final-video.html</id><summary type="html">&lt;p class="first last"&gt;Dr. Leila Alizadehsaravi and Dr. Felix Dauer are featured in the
 final CAS project video with the balance assist bicycle.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;The &lt;a class="reference external" href="https://www.citiusaltiussanius.nl/"&gt;Citius-Altius-Sanius&lt;/a&gt; project is beginning to wrap up and recently a video
 was produced highlighting the projects. Check out Dr. Leila Alizadehsaravi and
