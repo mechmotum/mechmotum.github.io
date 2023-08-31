@@ -27,15 +27,17 @@ new joint types, and including high quality figures in the documentation. You
 can read about the GSoC work on `his blog`_ and you can see how the joints are
 used to model a four-bar linkage `in the SymPy documentation`_. Timo also
 developed new load components and new system object and demystified a long
-standing bug associated with solving linear systems symbolically. Timo created
-a matplotlib-based 3D plotting and animation tool for SymPy mechanics objects
-called symmeplot_ that simplifies visualizing your models. With all of these
-tools he brought his bicycle-rider simulations to life with BRiM_. Here are
-some example animations of his simulations:
+standing bug associated with solving linear systems symbolically among a `whole
+host of other fixes`_ to SymPy mechanics. Timo created a matplotlib-based 3D
+plotting and animation tool for SymPy mechanics objects called symmeplot_ that
+simplifies visualizing your models. With all of these tools he brought his
+bicycle-rider simulations to life with BRiM_. Here are some example animations
+of his simulations:
 
 .. _SymPy: https://sympy.org
 .. _his blog: https://tjstienstra.github.io/gsoc/2022/2022/10/03/final-overview.html
 .. _in the SymPy documentation: https://docs.sympy.org/dev/modules/physics/mechanics/examples/four_bar_linkage_example.html
+.. _whole host of other fixes: https://github.com/sympy/sympy/pulls/TJStienstra
 .. _symmeplot: https://github.com/TJStienstra/symmeplot
 .. _BRiM: https://github.com/TJStienstra/brim/
 
