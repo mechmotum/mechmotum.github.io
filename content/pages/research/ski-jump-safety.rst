@@ -5,7 +5,7 @@ Design and Analysis of Ski Jumps
 :collaborators: Bryn Cloud, Mont Hubbard, Chris Brown, Nicola Petrone, Danial
                 Roeck
 :current_researchers:
-:date: 2022-12
+:date: 2023-08
 :past_researchers: Jan van der Schot, Bryn Cloud, Britt Tarien
 :research_theme: Sports Engineering
 :status: hidden
