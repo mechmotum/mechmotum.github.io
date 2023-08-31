@@ -76,14 +76,6 @@ in finding students for [#]_:
      - 2022-09-08
      -
      - Thesis
-   * - `Getting to the Bottom of Bicycle Rolling Resistance  <{filename}/pages/jobs/bicycle-tire-rolling-resistance.rst>`_
-     - 2022-09-07
-     -
-     - Thesis
-   * - `Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorithms <{filename}/pages/jobs/revit-sim.rst>`_
-     - 2021-07-06
-     - `REV'IT! <https://www.revitsport.com>`_
-     - Thesis
    * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
      - 2021-02-23
      - Dr. Patrick Forbes @ Erasmus Medical Center
@@ -100,10 +92,6 @@ in finding students for [#]_:
      - 2020-11-17
      - Dr. Rene van Paassen (TU Delft, Aerospace)
      - Thesis
-   * - `Assessment of Mountain Biking Balance for Physiotherapy Interventions <https://objects-us-east-1.dream.io/mechmotum/lunex-tud-bicycle-physio-msc.pdf>`_
-     - 2020-11-11
-     - `LUNEX University`_
-     - Thesis
    * - `Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions <{filename}/pages/jobs/fast-musculoskeletal-simulations.rst>`_
      - 2020-09-21
      -
@@ -112,10 +100,6 @@ in finding students for [#]_:
      - 2020-09-18
      -
      - Thesis
-   * - `Bicycle Load Cases and Road Quality <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`_
-     - 2020-09-10
-     - Gazelle_
-     - Thesis
    * - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
      - 2020-09-10
      - Dr. Paul Crawford (Hegemony Tech)
@@ -123,10 +107,6 @@ in finding students for [#]_:
    * - `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
      - 2020-09-10
      -
-     - Thesis
-   * - `Squiggly Bicycle Routes <{filename}/pages/jobs/squiggly-bicycle-routes.rst>`_
-     - 2020-09-10
-     - Ted Buehler (Portland, USA)
      - Thesis
 
 **Previously Selected Projects**
@@ -140,6 +120,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Squiggly Bicycle Routes <{filename}/pages/jobs/squiggly-bicycle-routes.rst>`_
+     - 2020-09-10
+     - Ted Buehler (Portland, USA)
+     - Sietse Soethout
+   * - `Getting to the Bottom of Bicycle Rolling Resistance  <{filename}/pages/jobs/bicycle-tire-rolling-resistance.rst>`_
+     - 2022-09-07
+     - Team DSM
+     - Kirsten Dijkman
    * - `Validation of Ski & Snowboarding Low Impact Jump Design <{filename}/pages/jobs/ski-jump-impact-model-validation.rst>`_
      - 2022-01-19
      - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
