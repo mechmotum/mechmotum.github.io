@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-08-22T09:31:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jan van der Schot Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-van-der-schot-graduates.html" rel="alternate"></link><published>2023-08-22T09:31:00-07:00</published><updated>2023-08-22T09:31:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-08-22:/blog/jan-van-der-schot-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2023-08-30T16:58:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Timo Stienstra Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/timo-stienstra-graduates.html" rel="alternate"></link><published>2023-08-30T16:58:00-07:00</published><updated>2023-08-30T16:58:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-08-30:/blog/timo-stienstra-graduates.html</id><summary type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-stienstra.png" style="height: 400px;" /&gt;
+&lt;p&gt;Timo Stienstra successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:a2b132e9-8d38-4553-8587-0c9e3341b202"&gt;BRiM: A Modular Bicycle-Rider Modeling
+Framework&lt;/a&gt;&amp;quot;. Timo
+developed a multibody dynamics modeling tool that makes it much easier to build
+and change bicycle-rider models. It nicely allows you to modularly construct
+these models from components yet still have a minimal coordinate formulation of
+the dynamics that …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-stienstra.png" style="height: 400px;" /&gt;
+&lt;p&gt;Timo Stienstra successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:a2b132e9-8d38-4553-8587-0c9e3341b202"&gt;BRiM: A Modular Bicycle-Rider Modeling
+Framework&lt;/a&gt;&amp;quot;. Timo
+developed a multibody dynamics modeling tool that makes it much easier to build
+and change bicycle-rider models. It nicely allows you to modularly construct
+these models from components yet still have a minimal coordinate formulation of
+the dynamics that precisely evaluates the equations of motion of the system. We
+plan to use Timo's work as a basis for our bicycle-rider models, which we use
+in most of the lab's projects. Timo also made significant contributions to
+&lt;a class="reference external" href="https://sympy.org"&gt;SymPy&lt;/a&gt; during his Google Summer of Code internship and during his thesis
+project. He improved the joints module by making important corrections, adding
+new joint types, and including high quality figures in the documentation. You
+can read about the GSoC work on &lt;a class="reference external" href="https://tjstienstra.github.io/gsoc/2022/2022/10/03/final-overview.html"&gt;his blog&lt;/a&gt; and you can see how the joints are
+used to model a four-bar linkage &lt;a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/examples/four_bar_linkage_example.html"&gt;in the SymPy documentation&lt;/a&gt;. Timo also
+developed new load components and new system object and demystified a long
+standing bug associated with solving linear systems symbolically. Timo created
+a matplotlib-based 3D plotting and animation tool for SymPy mechanics objects
+called &lt;a class="reference external" href="https://github.com/TJStienstra/symmeplot"&gt;symmeplot&lt;/a&gt; that simplifies visualizing your models. With all of these
+tools he brought his bicycle-rider simulations to life with &lt;a class="reference external" href="https://github.com/TJStienstra/brim/"&gt;BRiM&lt;/a&gt;. Here are
+some example animations of his simulations:&lt;/p&gt;
+&lt;table border="1" class="borderless docutils align-center" style="width: 100%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="bike-circle" src="https://objects-us-east-1.dream.io/mechmotum/timo-bike-circle.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="bike-large-turns" src="https://objects-us-east-1.dream.io/mechmotum/timo-bike-large-turns.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="bike-rider" src="https://objects-us-east-1.dream.io/mechmotum/timo-bike-rider.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="one-bike" src="https://objects-us-east-1.dream.io/mechmotum/timo-one-bike.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="two-bikes" src="https://objects-us-east-1.dream.io/mechmotum/timo-two-bikes.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="rolling-disc" src="https://objects-us-east-1.dream.io/mechmotum/timo-rolling-disc.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Timo was co-supervised by Sam Brockie (TU Delft) and Jason K. Moore (TU Delft).
+Everyone at the bicycle lab is very proud of Jan and wishes him the best in his
+next adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="modeling"></category><category term="software"></category><category term="engineering"></category><category term="sympy"></category></entry><entry><title>Jan van der Schot Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-van-der-schot-graduates.html" rel="alternate"></link><published>2023-08-22T09:31:00-07:00</published><updated>2023-08-22T09:31:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-08-22:/blog/jan-van-der-schot-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
