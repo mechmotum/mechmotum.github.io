@@ -72,5 +72,5 @@ of his simulations:
    :height: 400px
 
 Timo was co-supervised by Sam Brockie (TU Delft) and Jason K. Moore (TU Delft).
-Everyone at the bicycle lab is very proud of Jan and wishes him the best in his
-next adventures.
+Everyone at the bicycle lab is very proud of Timo and wishes him the best in
+his next adventures.
