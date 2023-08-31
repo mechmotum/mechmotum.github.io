@@ -4,9 +4,9 @@ Design and Analysis of Ski Jumps
 
 :collaborators: Bryn Cloud, Mont Hubbard, Chris Brown, Nicola Petrone, Danial
                 Roeck
-:current_researchers: Jan van der Schot
+:current_researchers:
 :date: 2022-12
-:past_researchers: Bryn Cloud, Britt Tarien
+:past_researchers: Jan van der Schot, Bryn Cloud, Britt Tarien
 :research_theme: Sports Engineering
 :status: hidden
 :template: project
@@ -28,17 +28,24 @@ Design and Analysis of Ski Jumps
 Associated Research Products
 ============================
 
-Preprints
-
-- Moore, J., Cloud, B., Hubbard, M., & Brown, C. A. (2021, March 31).
-  Safety-Conscious Design of Terrain Park Jumps: Ethical Issues and Online
-  Software. https://doi.org/10.31224/osf.io/sq7u9
-
 Journal Articles:
 
 - J. K. Moore and M. Hubbard, "skijumpdesign: A Ski Jump Design Tool for
   Specified Equivalent Fall Height," The Journal of Open Source Software, vol.
   3, no. 28, p. 818, Aug. 2018, https://doi.org/10.21105/joss.00818.
+
+Theses
+
+- J. van der Schot, "`The Relationship between Equivalent
+  Fall Height and Ground Reaction Force in Freestyle Ski Jumping
+  <http://resolver.tudelft.nl/uuid:98476791-40be-4ee5-ab3a-3f1a9d5e63cb>`_",
+  MSc Thesis, Delft Unversity of Technology, 2023.
+
+Preprints
+
+- Moore, J., Cloud, B., Hubbard, M., & Brown, C. A. (2021, March 31).
+  Safety-Conscious Design of Terrain Park Jumps: Ethical Issues and Online
+  Software. https://doi.org/10.31224/osf.io/sq7u9
 
 Conference Presentations:
 
