@@ -87,9 +87,15 @@ Masters of Science Students
    :align: center
 
    * - |headshot-missing|
+     - | **Sietse Soethout** [TUD, Jul 2023-present]
+       | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
+     - |headshot-missing|
+     - | **Thomas Habing** [TUD, May 2023-present]
+       | *Muscle Vibration Effects in Indoor Cycling*
+   * - |headshot-missing|
      - | **Marten Haitjema** [TUD, Jan 2023-present]
        | *Quantifying Fall Reduction with a Balance Assist Bicycle*
-     - |headshot-missing|
+     - |headshot-dijkman-kirsten|
      - | **Kirsten Dijkman** [TUD, Dec 2022-present]
        | *Measuring Rolling Impedance in Road Cycling*
    * - |headshot-missing|
@@ -98,15 +104,7 @@ Masters of Science Students
      -
      -
 
-.. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-van-der-schot-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
+.. |headshot-dijkman-kirsten| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dijkman-kirsten.jpg
    :width: 100px
    :height: 133px
 
