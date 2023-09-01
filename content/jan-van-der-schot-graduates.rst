@@ -2,7 +2,7 @@
 Jan van der Schot Successfully Defends His MSc Thesis
 =====================================================
 
-:date: 2023-08-22 09:31:00
+:date: 2023-08-29 09:31:00
 :tags: skiing, jump, freestyle, engineering, experiment
 :category: news
 :slug: jan-van-der-schot-graduates
