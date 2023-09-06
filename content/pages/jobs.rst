@@ -32,6 +32,14 @@ page`_, `Academic Transfer`_ [#]_, and/or `this lab website
 .. [#] All academic jobs in the Netherlands are (and have to be) posted to
    Academic Transfer.
 
+Current openings
+----------------
+
+- `PhD Opening: Discovering the Mechanisms that Cause Bicycle Crashes Through
+  The Merger of Video and Computational Modeling
+  <{filename}/bicycle-crashes-phd-ad.rst>`_, **Applications due October
+  20, 2023**
+
 Master's Students
 =================
 

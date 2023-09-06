@@ -5,7 +5,7 @@ PhD Researcher Opening: Safe and Efficient Traffic of Connected Vulnerable Bicyc
 :date: 2022-03-16
 :authors: Jason K. Moore
 :category: jobs
-:tags: bicycle,postdoc,engineering
+:tags: bicycle,phd,engineering
 
 .. topic:: Filled
    :class: alert alert-warning
