@@ -103,6 +103,9 @@ Masters of Science Students
        | *Improving SymPy's Joints Framework*
      -
      -
+.. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
    :width: 100px
