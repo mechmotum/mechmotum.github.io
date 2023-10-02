@@ -86,7 +86,7 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-soethout-sietse|
      - | **Sietse Soethout** [TUD, Jul 2023-present]
        | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
      - |headshot-missing|
