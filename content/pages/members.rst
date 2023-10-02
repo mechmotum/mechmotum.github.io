@@ -87,35 +87,27 @@ Masters of Science Students
    :align: center
 
    * - |headshot-missing|
+     - | **Sietse Soethout** [TUD, Jul 2023-present]
+       | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
+     - |headshot-missing|
+     - | **Thomas Habing** [TUD, May 2023-present]
+       | *Muscle Vibration Effects in Indoor Cycling*
+   * - |headshot-missing|
      - | **Marten Haitjema** [TUD, Jan 2023-present]
        | *Quantifying Fall Reduction with a Balance Assist Bicycle*
-     - |headshot-missing|
+     - |headshot-dijkman-kirsten|
      - | **Kirsten Dijkman** [TUD, Dec 2022-present]
        | *Measuring Rolling Impedance in Road Cycling*
    * - |headshot-missing|
      - | **Kenneth Pasma** [TUD, Oct 2022-present]
        | *Robotic Bicycle Control*
-     - |headshot-van-der-schot-jan|
-     - | **Jan van der Schot** [TUD, Jul 2022-present]
-       | *Ski Jump Safety Assessment*
-   * - |headshot-missing|
-     - | **Timo Stienstra** [TUD, Jun 2022-present]
-       | *Improving SymPy's Joints Framework*
      -
      -
 .. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-floris-van-willigen| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-van-der-schot-jan| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-huiskens-tim| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huiskens-tim.jpg
+.. |headshot-dijkman-kirsten| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dijkman-kirsten.jpg
    :width: 100px
    :height: 133px
 
@@ -175,6 +167,16 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Timo Stienstra
+     - TUD
+     - Jun 2022-Aug 2023
+     - `BRiM: A Modular Bicycle-Rider Modeling Framework <http://resolver.tudelft.nl/uuid:a2b132e9-8d38-4553-8587-0c9e3341b202>`_
+     - `S. Brockie, J. K. Moore`
+   * - Jan van der Schot
+     - TUD
+     - Jul 2022-Aug 2023
+     - `The Relationship between Equivalent Fall Height and Ground Reaction Force in Freestyle Ski Jumping <http://resolver.tudelft.nl/uuid:98476791-40be-4ee5-ab3a-3f1a9d5e63cb>`_
+     - `D. Roeck, M. Hubbard, J. K. Moore`
    * - Floris van Willigen
      - TUD
      - Sep 2022-Jun 2023
@@ -308,9 +310,10 @@ Research Assistants
    - Braden Tinucci [UCD, Nov 2015-Dec 2015], now at Valcor Engineering
      Corporation
 Teaching Assistants
-   - Eoinlee Bley [TUD, Jan 2023-present]
-   - Robbert den Butter [TUD, Jan 2023-present]
-   - Timo Stienstra [TUD, Jan 2023-present]
+   - Ragnhild Maarleveld [TUD, Mar 2023-Aug 2023]
+   - Eoinlee Bley [TUD, Jan 2023-Jul 2023]
+   - Robbert den Butter [TUD, Jan 2023-Jul 2023]
+   - Timo Stienstra [TUD, Jan 2023-Jul 2023]
    - Marjolein Scheffers [TUD, Jun 2022-Jul 2022]
    - Alessia De Biasi [TUD, Mar 2022-Jun 2022]
    - Akshath Ram Veeravalli Hari [TUD, Jan 2022-Jun 2022]
