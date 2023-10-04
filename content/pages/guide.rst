@@ -1011,3 +1011,7 @@ Random TU Delft Tips
 - You can print documents by uploading files to https://linuxprint.tudelft.nl
   and then swiping your campus ID card at any printer in the buildings.
 - Shared data network drives can be accessed at https://webdata.tudelft.nl.
+- To add the "print anywhere" printers on Linux, you can add a printer and use:
+
+  - URI found on https://linuxprint.tudelft.nl/driverprint.cfm which looks like ipps://linuxprint.tudelft.nl:443/ipp/r/...
+  - And then download this PPD file: https://webprint.tudelft.nl/install/linux/xrxC8035.ppd
