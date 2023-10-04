@@ -62,11 +62,31 @@ to fix a test that had been failing for almost 10 years.
 
 .. code-block:: python
 
-   A = MatrixSymbol('A', 4, 4)
-   b = MatrixSymbol('b', 4, 2)
+   A = MatrixSymbol('A', 2, 2)
+   b = MatrixSymbol('b', 2, 1)
    x = Inverse(A) @ b
-   result = x[0, 0] + x[1, 0] + x[2, 0] + x[3, 0]
+   result = x[0, 0] + x[1, 0]
    eval_x = lambdify((A, b), result)
+
+The above works but the linear solve is handled symbolically::
+
+   Signature: f(A, b)
+   Docstring:
+   Created with lambdify. Signature:
+
+   func(A, b)
+
+   Expression:
+
+   A[0, 0]*b[1, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) - A[0, 1]*b[1, 0]/(A[0,...
+
+   Source code:
+
+   def _lambdifygenerated(A, b):
+       return A[0, 0]*b[1, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) - A[0, 1]*b[1, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) - A[1, 0]*b[0, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) + A[1, 1]*b[0, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0])
+
+
+   Imported modules:
 
 We'd like lambdify to generate code that looks like:
 
@@ -74,7 +94,7 @@ We'd like lambdify to generate code that looks like:
 
    def eval_x(A, b):
       x = numpy.linalg.solve(A, b)
-      return x[0, 0] + x[1, 0] + x[2, 0] + x[3, 0]
+      return x[0, 0] + x[1, 0]
 
 which allows NumPy (or actually lapack) to use the best algorithm given the
 numerical values used for A and b. The expression `Inverse(A) @ b` would need
