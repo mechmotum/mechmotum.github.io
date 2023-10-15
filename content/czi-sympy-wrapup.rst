@@ -9,31 +9,63 @@ SymPy CZI Code Generation & Biomechanics Outcomes
 :authors: Jason K. Moore, Sam Brockie
 :summary: TODO
 
-We were awarded a two year grant from CZI to improve SymPy. There were three
+We were awarded a two year grant from CZI to improve SymPy_. There were three
 themes associated with each of the three co-principal investigators:
 
-- Improve SymPy's documentation (Meuer)
+- Improve SymPy's Documentation (Meuer)
 - Improve SymPy's Performance (Benjamin)
-- Improve SymPy's Code Generation to Support Biomechanical Modeling (Moore)
+- Improve SymPy's Code Generation for Biomechanical Modeling (Moore)
 
 We were in charge of the last one.
 
-An overarching goal is to make SymPy usuable to generate symbolic models of
-biomechanical systems, i.e. multibody systems actuated by muscles. Our target
-system is the bicycle and its rider. The nonlinear and linear equations of
-motion of a bicycle are traditionally a challenging system to derive correctly
-full symbolic form. Including a model of a human rider increases its complexity
-further. This model is made up of many thousands of arthemtic and transcendtal
+Our overarching goal is to use SymPy to generate symbolic dynamical models of
+biomechanical systems, i.e. multibody systems actuated by muscles. This
+involves formulating the Newton-Euler equations of motion, possibly with
+additional kinematical constraints, and the differential equations that
+describe the relationship between neurological activation and generated muscles
+forces.
+
+We selected a complex human-machine system as a benchmark problem: the bicycle
+and its rider. The nonlinear and linear equations of motion of a riderless
+bicycle are traditionally a very challenging system to derive correctly in full
+symbolic form ( [BasuMandal2007]_, [Meijaard2007]_). Including a model of a
+human rider with muscle activation increases its complexity even further. This
+model is made up of hundreds of thousands of arithmetic and transcendental
 operations, making it a challenging system to differentiate and evaluate. We
 want SymPy to be able to handle models of this and more complexity with ease.
-Formulating and solving optimal control problems with the bicyle-rider system
-currently tests the limits of SymPy's abilities.
+To test SymPy's ability to correctly derive, differentiate, and evaluate the
+bicycle-rider's governing equations we choose to formulate and solve an optimal
+control problem via direct collocation. The bicycle-rider optimal control
+problem would test SymPy's limits.
 
-We worked on numerous areas in SymPy and downstream packages to reach the goal
-of solving a bicycle-rider biomechanical optimal control problem.
+To do this, we worked on numerous areas in SymPy and downstream packages to
+reach this goal. The work herein was primarily done by Timo Steinstra, Jan
+Heinen, Sam Brockie, and Jason Moore.
+
+.. _SymPy: https://www.sympy.org
+
+.. [BasuMandal2007] TODO
+.. [Meijaard2007] TODO
 
 General Improvements to SymPy Mechanics
 =======================================
+
+Joints Package
+--------------
+
+Timo Steinstra began with the project through a 2022 Google Summer of Code
+internship where he improved the SymPy Mechanics Joints package with
+documentation improvements, by reworking the fundamental definition of a joint,
+and adding cylindrical, planar, and spherical joints. These were key early
+updates to enable the joints package's use in constructing a bicycle-rider
+model. See the details of Timo's work in his `GSoC Report`_. This project lead
+Timo to do a TU Delft Biomechanical Design MSc project on bicycle-rider
+modeling using SymPy. Sam was the primary supervisor of Timo.
+
+.. _GSoC Report: https://github.com/sympy/sympy/wiki/GSoC-2022-Report-Timo-Stienstra-:-Enhancing-the-Joints-Framework
+
+TODO: Maybe add a figure showing one of Timo's nice joints figures from the
+SymPy docs.
 
 Symbolic Solutions to Linear Equations
 --------------------------------------
@@ -42,15 +74,15 @@ Kane's Method relies on solving three sets of linear equations:
 
 1. putting the kinematical differential equations in explicit form
 2. putting the dynamical differential equations in explicit form
-3. solving the dependent generalized speeds in terms of the indepdent
-  generalised speeds
+3. solving the dependent generalized speeds in terms of the independent
+   generalised speeds
 
 If these equations are symbolic, it is impossible to determine a zero-pivot in
-Gaussian elimination and the solutions can easily aquire divide-by-zero
-operattions for ranges of numerical values for the variables involved.
+Gaussian elimination and the solutions can easily acquire divide-by-zero
+operations for ranges of numerical values for the variables involved.
 
 There are two ways to deal with this 1) only do these solves numerically and 2)
-ensure there are no zero-divisions with careful choice of algorthm or variable
+ensure there are no zero-divisions with careful choice of algorithm or variable
 choice. 1. is easy to manage if you set q' = u.
 
 In ?2014?, we switched to using ``LUsolve()`` for all of these linear solves,
