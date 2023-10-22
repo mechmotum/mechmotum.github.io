@@ -9,16 +9,34 @@ SymPy CZI Code Generation & Biomechanics Outcomes
 :authors: Jason K. Moore, Sam Brockie
 :summary: TODO
 
+.. list-table::
+   :class: borderless
+   :width: 60%
+   :align: center
+
+   * - |czi-logo|
+     - |sympy-logo|
+
+.. |sympy-logo| image:: https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png
+
+.. |czi-logo| image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
+
+.. contents::
+   :local:
+   :class: floatcon
+
 Introduction
 ============
 
-We were awarded a two year grant from CZI to improve SymPy_. There were three
-themes associated with each of the three co-principal investigators:
+We were awarded a `two year grant`_ from CZI to improve SymPy_. There were
+three themes associated with each of the three co-principal investigators:
 
 - Improve SymPy's Documentation (Aaron Meuer, Quantsight)
 - Improve SymPy's Performance (Oscar Benjamin, University of Bristol)
 - Improve SymPy's Code Generation for Biomechanical Modeling (Jason K. Moore,
   Delft University of Technology)
+
+.. _two year grant: https://doi.org/10.6084/m9.figshare.16590053.v1
 
 We were in charge of the last one and hired Dr. Sam Brockie to work on the
 project as a postdoctoral researcher. Jan Heinen and Timo Stienstra worked on
@@ -48,9 +66,6 @@ limits, forcing us to make significant improvements to SymPy. To do this, we
 worked on numerous areas in SymPy and downstream packages to reach this goal.
 
 .. _SymPy: https://www.sympy.org
-
-.. [BasuMandal2007] TODO
-.. [Meijaard2007] TODO
 
 General Improvements to SymPy Mechanics
 =======================================
@@ -86,22 +101,22 @@ SymPy docs. SVG scaling with "width" seems to crop not scale.
      - |joint6|
 
 .. |joint1| image:: https://docs.sympy.org/dev/_images/PinJoint.svg
-   :width: 300px
+   :height: 200px
 
 .. |joint2| image:: https://docs.sympy.org/dev/_images/PrismaticJoint.svg
-   :width: 300px
+   :height: 200px
 
 .. |joint3| image:: https://docs.sympy.org/dev/_images/CylindricalJoint.svg
-   :width: 300px
+   :height: 200px
 
 .. |joint4| image:: https://docs.sympy.org/dev/_images/PlanarJoint.svg
-   :width: 300px
+   :height: 200px
 
 .. |joint5| image:: https://docs.sympy.org/dev/_images/SphericalJoint.svg
-   :width: 300px
+   :height: 200px
 
 .. |joint6| image:: https://docs.sympy.org/dev/_images/WeldJoint.svg
-   :width: 300px
+   :height: 200px
 
 Symbolic Solutions to Linear Equations
 --------------------------------------
@@ -151,6 +166,8 @@ added support to ``KanesMethod`` and ``Linearizer`` for using linear solvers
 other than ``LUSolve()`` including the new Cramer's rule-based solver. With
 this we closed the `9 year old bug`_ and allowed out base bicycle model to
 build both in non-linear and linear forms.
+
+- Cramer Solve: https://github.com/sympy/sympy/pull/25179
 
 .. _much sleuthing and discussion: https://github.com/sympy/sympy/issues/24780
 .. _Cramer's rule: https://en.wikipedia.org/wiki/Cramer%27s_rule
@@ -219,8 +236,8 @@ An Actuator describes the equal and opposite pair of forces or torques.
 System
 ------
 
-Introduction of SymPy Biomechanics
-==================================
+SymPy Biomechanics
+==================
 
 We've developed a new sub-package sympy.physics.biomechanics_ that enables
 including musculotendon force actuators in multibody dynamics models created
@@ -249,20 +266,34 @@ tutorial.
 
 .. _sympy.physics.biomechanics: https://docs.sympy.org/dev/modules/physics/biomechanics/index.html
 
-SymPy Code Generation
-=====================
+Code Generation
+===============
 
-lambdify should handle large expressions (didn't handle bike model before,
-point to pydy PR)
+``lambdify()`` is the primary interface for converting SymPy expressions into
+NumPy-backed Python functions for numerical evaluation. ``lamdify()`` has not
+been able to code generate large mechanics' models in the past. We proposed
+adding common subexpression elmination support to help with that. ``cse()``
+support was added to ``lambdify()`` before we started the CZI work in
+https://github.com/sympy/sympy/pull/21546. ``lambdify()`` was still quite slow
+for our benchmark problems and Sam sped up lambdify's code generation by
+disabling the docstring generation for large expressions in
+https://github.com/sympy/sympy/pull/24754.
 
-- code gen
+It is commonly needed to evaluate both a function and its Jacobian. SymPy is
+capable of taking the analytical derivatives but it can be prohibitly slow for
+large expressions. If common subexpressions are extracted from a SymPy
+expression, all operations are represented as a directed acyclic graph. Taking
+the derivative of a directed acyclic graph instead of a tree graph, as SymPy
+stores expressions, can provide exponential speedups to differentiation. If the
+code generation for the function and its Jacobian uses common subexpression
+elinimation, then it makes sense to call ``cse()`` on the function, then take
+the partial derivatives, and the Jacobian will be in a DAG form for easy code
+generation. Sam has introduced a major code generation speed up for
+lambdifying large SymPy expressions if you desire the Jacobian.
 
-  - lambdify docstring speed up
-  - MatrixSolve
-  - cse jacobian
-
-- dagify
-- cse jacobian
+- forward_jacobian: https://github.com/sympy/sympy/pull/25801
+- https://github.com/sympy/sympy/pull/24649
+- https://github.com/sympy/sympy/pull/25797
 
 Demonstration
 =============
@@ -351,16 +382,41 @@ results.
 Optimal Bicycle-Rider Trajectories
 ----------------------------------
 
-The premise of the motivating hard-to-solve example is given a multibody model
-of the Carvallo-Whipple bicycle model
+With all of the above work, we were able to solve a muscle-driven optimal
+control problem of the bicycle and rider. This is the problem we posed:
 
-Given a desired path on the ground, follow the path as closely as possible
-while minimizing the activation of the arm muscles.
+   Given a multibody model of the Carvallo-Whipple bicycle model extended with
+   a rider that has muscle acutated movable arms and given a desired path on
+   the ground, can we find muscle activations that cause the bicycle-rder to
+   follow the path as closely as possible while minimizing the effort from the
+   the representative bicep and tricep muscles?
+
+The objective of this optimal control problem takes the form:
+
+.. math::
+
+   J = (1 - w)\int_{t_0}^{t_f} (x_s(t) - x_d(t))^2 dt + w\int_{t_0}^{t_f} e(t)^2 dt
+
+where :math:`x_s` are a subset of the model's state trajectories and
+:math:`x_d` are some desired trajectories and :math:`e` are the muscle
+excittions.
+
+Forming the constraints that represent the equations of motion (set of
+differential algebraic equations) involves computing a very large sparse
+Jacobian. When we first attempted this differentiation of the discretized
+bicycle-rider model, SymPy bogged down on the Jacobian calculation. We let the
+computation run for **over 3 hours** and killed the execution before the
+Jacobian completed. SymPy's differentation is untenable for large equations of
+motion.  Since we already cse the functions before code generation in opty, Sam
+implemented a forward Jacobian on the cse'd expressions in:
 
 https://github.com/csu-hmc/opty/pull/102
 
-- opty improvements
-- muscle driven bicycle model
+This allowed the equations to be differentiated and the differentiation occurs
+in less that a few minutes, showing the drastic improvements such an approach
+can have. With that improvement, we were able to solve the muscle driven
+bicycle-rider path tracking problem with opty. Once this fix was applied we
+could solve the trajectory optimization problem with opty_.
 
 Other
 =====
@@ -372,3 +428,24 @@ Lessons Learned
 
 - 6 months to negotiate a contract
 - 6 months to hire someone
+
+Conclusion
+==========
+
+We completed almost all of the goals set out in the original proposal along
+with as many more unplanned outcomes. Primarliy we have improved SymPy such
+that it can be used to solve non-trivial biomechanical optimal control
+problems.
+
+References
+==========
+
+.. [Meijaard2007] J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L.
+   Schwab, “Linearized dynamics equations for the balance and steer of a
+   bicycle: A benchmark and review,” Proceedings of the Royal Society A:
+   Mathematical, Physical and Engineering Sciences, vol. 463, no. 2084, pp.
+   1955–1982, Aug. 2007.
+.. [BasuMandal2007] P. Basu-Mandal, A. Chatterjee, and J. M. Papadopoulos,
+   "Hands-free circular motions of a benchmark bicycle," Proceedings of the
+   Royal Society A: Mathematical, Physical and Engineering Sciences, vol. 463,
+   no. 2084, pp. 1983–2003, Aug. 2007.
