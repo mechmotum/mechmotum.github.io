@@ -9,6 +9,9 @@ SymPy CZI Code Generation & Biomechanics Outcomes
 :authors: Jason K. Moore, Sam Brockie
 :summary: TODO
 
+Introduction
+============
+
 We were awarded a two year grant from CZI to improve SymPy_. There were three
 themes associated with each of the three co-principal investigators:
 
@@ -240,6 +243,7 @@ tutorial.
 
 .. figure:: https://docs.sympy.org/dev/_images/biomechanics-steerer.svg
    :align: center
+   :width: 80%
 
    Muscle driven arm pushing and pulling a lever taken from the new tutorial.
 
@@ -252,9 +256,11 @@ lambdify should handle large expressions (didn't handle bike model before,
 point to pydy PR)
 
 - code gen
+
   - lambdify docstring speed up
   - MatrixSolve
   - cse jacobian
+
 - dagify
 - cse jacobian
 
@@ -279,19 +285,20 @@ problems based on SymPy expressions: opty_ and pycollo_.
 Optimal Skateboard Ollie
 -------------------------
 
-As a first demonstration that SymPy can be used to help solve complex optimal
-control problems, TU Delft MSc student Jan Heinen began working on developing a
-model of a skateboarder performing an ollie, the fundamental jumping trick in
-the sport. Jan used SymPy to formulate the equations of motion of this
-biomechanical human-machine system and used pycollo to solve the multi-phase
-trajectory optimization and parameter identification optimal control problem.
-Jan succeeded and produced an MSc thesis and a preprint that is currently udner
-review at Sports Engineering:
+As a first demonstration that SymPy can be used to solve research grade complex
+optimal control problems, TU Delft MSc student Jan Heinen began working on
+developing a model of a skateboarder performing an ollie, the fundamental
+jumping trick in the sport. Jan used SymPy to formulate the equations of motion
+of this biomechanical human-machine system and used pycollo to solve the
+multi-phase trajectory optimization and parameter identification optimal
+control problem.  Jan succeeded and produced an MSc thesis and a preprint that
+is currently udner review at Sports Engineering:
 
-- `Optimal Skateboard Geometry for Maximizing Ollie Height
-  <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_"
-- `Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
-  Geometry Using Direct Collocation <https://doi.org/10.31224/3171>`_
+- TU Delft MSc thesis: `Optimal Skateboard Geometry for Maximizing Ollie Height
+  <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_
+- engrXiv preprint: `Maximizing Ollie Height by Optimizing Control Strategy and
+  Skateboard Geometry Using Direct Collocation
+  <https://doi.org/10.31224/3171>`_
 
 This video shows the simulations of the problem solutions:
 
@@ -317,9 +324,29 @@ project with the following pull requests:
 BRiM
 ----
 
-- BMD paper & Timo's thesis
+All of our prior bicycle-rider human-machine system models were one-off
+derivations that were repurposed for each new model variation. These had
+varying accessiblity for easy use by other users. Timo came up with the idea to
+develop a software package that allows you to build bicycle-rider models from
+modular elements, yet still retain a minimial coorindate derivation of the
+equations of motion. His MSc thesis, "`BRiM: A Modular Bicycle-Rider Modeling
+Framework
+<http://resolver.tudelft.nl/uuid:a2b132e9-8d38-4553-8587-0c9e3341b202>`__",
+details the design, implementation, and use of BRiM. We also wrote a paper,
+"`BRiM: A Modular Bicycle-Rider Modeling Framework
+<https://doi.org/10.59490/6504c5a765e8118fc7b106c3>`__", for the Bicycle and
+Motorcycle Dynamics 2023 conference that gives a more concise overview of the
+package as well as demonstrating easily swapping models for optimal control
+results.
 
-  doi.org/10.59490/6504c5a765e8118fc7b106c3
+.. figure:: https://tjstienstra.github.io/brim/_images/lane_change.gif
+   :align: center
+   :width: 80%
+
+   Lane change simulation created with BRiM showing without and without a rider
+
+- BRiM source code: https://github.com/TJStienstra/brim/
+- BRiM documentation: https://tjstienstra.github.io/brim/
 
 Optimal Bicycle-Rider Trajectories
 ----------------------------------
