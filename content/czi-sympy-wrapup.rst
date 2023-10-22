@@ -65,7 +65,38 @@ modeling using SymPy. Sam was the primary supervisor of Timo.
 .. _GSoC Report: https://github.com/sympy/sympy/wiki/GSoC-2022-Report-Timo-Stienstra-:-Enhancing-the-Joints-Framework
 
 TODO: Maybe add a figure showing one of Timo's nice joints figures from the
-SymPy docs.
+SymPy docs. SVG scaling with "width" seems to crop not scale.
+
+.. list-table::
+   :class: borderless
+   :align: center
+   :width: 100%
+   :widths: 50 50
+
+   * - |joint1|
+     - |joint2|
+   * - |joint3|
+     - |joint4|
+   * - |joint5|
+     - |joint6|
+
+.. |joint1| image:: https://docs.sympy.org/dev/_images/PinJoint.svg
+   :width: 300px
+
+.. |joint2| image:: https://docs.sympy.org/dev/_images/PrismaticJoint.svg
+   :width: 300px
+
+.. |joint3| image:: https://docs.sympy.org/dev/_images/CylindricalJoint.svg
+   :width: 300px
+
+.. |joint4| image:: https://docs.sympy.org/dev/_images/PlanarJoint.svg
+   :width: 300px
+
+.. |joint5| image:: https://docs.sympy.org/dev/_images/SphericalJoint.svg
+   :width: 300px
+
+.. |joint6| image:: https://docs.sympy.org/dev/_images/WeldJoint.svg
+   :width: 300px
 
 Symbolic Solutions to Linear Equations
 --------------------------------------
@@ -73,24 +104,56 @@ Symbolic Solutions to Linear Equations
 Kane's Method relies on solving three sets of linear equations:
 
 1. putting the kinematical differential equations in explicit form
+   :math:`\dot{\mathbf{q}} = \mathbf{M}_k^{-1}\mathbf{u}`
 2. putting the dynamical differential equations in explicit form
+   :math:`\dot{\mathbf{u}} = \mathbf{M}_d^{-1}\mathbf{f}(\mathbf{u}, \mathbf{q}, t)`
 3. solving the dependent generalized speeds in terms of the independent
    generalised speeds
+   :math:`\mathbf{u}_s = \mathbf{A}^{-1}\mathbf{u}_r`
 
 If these equations are symbolic, it is impossible to determine a zero-pivot in
-Gaussian elimination and the solutions can easily acquire divide-by-zero
+Gaussian elimination and the solutions are suseptible to divide-by-zero
 operations for ranges of numerical values for the variables involved.
 
-There are two ways to deal with this 1) only do these solves numerically and 2)
-ensure there are no zero-divisions with careful choice of algorithm or variable
-choice. 1. is easy to manage if you set q' = u.
+There are three ways to deal with this:
 
-In ?2014?, we switched to using ``LUsolve()`` for all of these linear solves,
-which resulted in divide-by-zero issues for complex problems. We introduced a
-new solver that uses Cramer's method, which can eliinate divide-by-zero
-operations in many situations. ``KanesMethod`` and ``Linearizer`` now support
-selecting the linear solver, including the new Cramer solver. This allowed us
-to fix a test that had been failing for almost 10 years.
+1. select the generalized coordinates, generalized speeds, and constants such
+   that divide-by-zero cannot occur for the numerical values of interest
+2. select Gaussian elimination algorithm that does not put the solutions in a
+   form that have divide-by-zero for the numerical values of interest
+3. use a zero-division free Gaussian elimination algorithm
+4. do the Gaussian elimination numerically for any specific set of numerical
+   values
+
+Alternative Symbolic Solvers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In 2014, we switched to using ``LUsolve()`` for all of the linear solves in
+Mechanics in `PR 7581`_, which resulted in divide-by-zero issues for complex
+problems. That change broke a test that solved the linear Carvallo-Whipple
+bicycle model to a machine precision match against published benchmarks as well
+as the corresponding `documentation page
+<https://docs.sympy.org/latest/modules/physics/mechanics/examples/bicycle_example.html>`_.
+This bug has hounded us for 9 years (see https://github.com/pydy/pydy/pull/122,
+https://github.com/sympy/sympy/issues/9641).
+
+.. _PR 7581: https://github.com/sympy/sympy/pull/7581
+
+Timo discovered the fundamental divide-by-zero issue after `much sleuthing and
+discussion`_. He then introduced a new linear solver that uses `Cramer's
+rule`_, which can eliminate divide-by-zero operations in many cases. We then
+added support to ``KanesMethod`` and ``Linearizer`` for using linear solvers
+other than ``LUSolve()`` including the new Cramer's rule-based solver. With
+this we closed the `9 year old bug`_ and allowed out base bicycle model to
+build both in non-linear and linear forms.
+
+.. _much sleuthing and discussion: https://github.com/sympy/sympy/issues/24780
+.. _Cramer's rule: https://en.wikipedia.org/wiki/Cramer%27s_rule
+.. _new linear solver: https://github.com/sympy/sympy/pull/25179
+.. _9 year old bug: https://github.com/sympy/sympy/issues/9641
+
+Delayed Numerical Solves
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: python
 
@@ -190,6 +253,7 @@ point to pydy PR)
   - MatrixSolve
   - cse jacobian
 - dagify
+- cse jacobian
 
 Demonstration
 =============
