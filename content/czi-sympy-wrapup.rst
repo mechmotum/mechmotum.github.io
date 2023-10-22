@@ -144,6 +144,8 @@ The inertia object lets you associate a dyadic with a point, to completely
 define an inertia. Force and Torque are named tuples that associate a vector
 and point and a vector and a frame, respectively.
 
+Pathways
+
 An Actuator describes the equal and opposite pair of forces or torques.
 
 System
@@ -152,29 +154,116 @@ System
 Introduction of SymPy Biomechanics
 ==================================
 
+We've developed a new sub-package sympy.physics.biomechanics_ that enables
+including musculotendon force actuators in multibody dynamics models created
+with ``sympy.physics.mechanics``. ``biomechanics`` contains these primary
+modules:
+
+- ``curve.py``: contains classes that represent mathmathical functional
+  relationships between muscle-tendon length, velocity, and force.
+- ``activation.py``: TODO
+- ``musculotendon.py``: contains classes that represent complete musculatendon
+  models with one example implementation
+
+We have also developed two tutorials to introduce how to construct and use the
+new acutators:
+
+- `Introduction to Biomechanical Modeling
+  <https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html>`_
+- `Biomechanical Model Example
+  <https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html>`_
+
+.. figure:: https://docs.sympy.org/dev/_images/biomechanics-steerer.svg
+
+   Muscle driven arm pushing and pulling a lever taken from the new tutorial.
+
+.. _sympy.physics.biomechanics: https://docs.sympy.org/dev/modules/physics/biomechanics/index.html
+
 SymPy Code Generation
 =====================
 
-lambdify should handle large expressions
+lambdify should handle large expressions (didn't handle bike model before,
+point to pydy PR)
 
 - code gen
   - lambdify docstring speed up
   - MatrixSolve
+  - cse jacobian
 - dagify
 
+Demonstration
+=============
+
+As explained in the introduction, our goal is to make SymPy capbale of deriving
+very efficient neuromusular multibody models. A use case for these models is
+solving `optimal control`_ problems, which benefit greatly from the fastest
+numerical evaluation of the equations of motion and its higher order partial
+derivatives. In particluar, forming a `nonlinear programming`_ problem using
+direct collocation transcription from very large symbolic equations of motion
+was already known to push SymPy's past its limits. In the past, we have
+developed two software packages that transcribe and solve optimal control
+problems based on SymPy expressions: opty_ and pycollo_.
+
+.. _optimal control: https://en.wikipedia.org/wiki/Optimal_control
+.. _nonlinear programming: https://en.wikipedia.org/wiki/Nonlinear_programming
+.. _opty: https://github.com/csu-hmc/opty
+.. _pycollo: https://github.com/brocksam/pycollo
+
+Optimal Skateboard Ollie
+-------------------------
+
+As a first demonstration that SymPy can be used to help solve complex optimal
+control problems, TU Delft MSc student Jan Heinen began working on developing a
+model of a skateboarder performing an ollie, the fundamental jumping trick in
+the sport. Jan used SymPy to formulate the equations of motion of this
+biomechanical human-machine system and used pycollo to solve the multi-phase
+trajectory optimization and parameter identification optimal control problem.
+Jan succeeded and produced an MSc thesis and a preprint that is currently udner
+review at Sports Engineering:
+
+- `Optimal Skateboard Geometry for Maximizing Ollie Height
+  <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_"
+- `Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
+  Geometry Using Direct Collocation <https://doi.org/10.31224/3171>`_
+
+This video shows the simulations of the problem solutions:
+
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/jw5DmNnvD7c" title="YouTube video player"
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </center>
+
+Following his MSc project, Jan contributed Sphinx documentation to the pycollo
+project with the following pull requests:
+
+- https://github.com/brocksam/pycollo/pull/80
+- https://github.com/brocksam/pycollo/pull/82
+- https://github.com/brocksam/pycollo/pull/84
+- https://github.com/brocksam/pycollo/pull/85
+- https://github.com/brocksam/pycollo/pull/87
+- https://github.com/brocksam/pycollo/pull/88
+
 BRiM
-====
+----
 
 - BMD paper & Timo's thesis
 
-Optimal Skateboard Ollie
-========================
-
-- Jan's work: thesis & paper
-- pycollo documentation
+  doi.org/10.59490/6504c5a765e8118fc7b106c3
 
 Optimal Bicycle-Rider Trajectories
-==================================
+----------------------------------
+
+The premise of the motivating hard-to-solve example is given a multibody model
+of the Carvallo-Whipple bicycle model
+
+Given a desired path on the ground, follow the path as closely as possible
+while minimizing the activation of the arm muscles.
+
+https://github.com/csu-hmc/opty/pull/102
 
 - opty improvements
 - muscle driven bicycle model
