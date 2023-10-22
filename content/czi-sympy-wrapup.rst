@@ -12,11 +12,15 @@ SymPy CZI Code Generation & Biomechanics Outcomes
 We were awarded a two year grant from CZI to improve SymPy_. There were three
 themes associated with each of the three co-principal investigators:
 
-- Improve SymPy's Documentation (Meuer)
-- Improve SymPy's Performance (Benjamin)
-- Improve SymPy's Code Generation for Biomechanical Modeling (Moore)
+- Improve SymPy's Documentation (Aaron Meuer, Quantsight)
+- Improve SymPy's Performance (Oscar Benjamin, University of Bristol)
+- Improve SymPy's Code Generation for Biomechanical Modeling (Jason K. Moore,
+  Delft University of Technology)
 
-We were in charge of the last one.
+We were in charge of the last one and hired Dr. Sam Brockie to work on the
+project as a postdoctoral researcher. Jan Heinen and Timo Stienstra worked on
+the project through their TU Delft MSc projects under the supervision of Sam
+and Jason.
 
 Our overarching goal is to use SymPy to generate symbolic dynamical models of
 biomechanical systems, i.e. multibody systems actuated by muscles. This
@@ -31,16 +35,14 @@ bicycle are traditionally a very challenging system to derive correctly in full
 symbolic form ( [BasuMandal2007]_, [Meijaard2007]_). Including a model of a
 human rider with muscle activation increases its complexity even further. This
 model is made up of hundreds of thousands of arithmetic and transcendental
-operations, making it a challenging system to differentiate and evaluate. We
-want SymPy to be able to handle models of this and more complexity with ease.
-To test SymPy's ability to correctly derive, differentiate, and evaluate the
-bicycle-rider's governing equations we choose to formulate and solve an optimal
-control problem via direct collocation. The bicycle-rider optimal control
-problem would test SymPy's limits.
-
-To do this, we worked on numerous areas in SymPy and downstream packages to
-reach this goal. The work herein was primarily done by Timo Steinstra, Jan
-Heinen, Sam Brockie, and Jason Moore.
+operations, making it a challenging system to differentiate and evaluate
+efficiently. We want SymPy to be able to handle models of this and more
+complexity with ease.  To test SymPy's ability to correctly derive,
+differentiate, and evaluate the bicycle-rider's governing equations we choose
+to formulate and solve an optimal control problem via direct collocation. We
+beleived that the bicycle-rider optimal control problem would test SymPy's
+limits, forcing us to make significant improvements to SymPy. To do this, we
+worked on numerous areas in SymPy and downstream packages to reach this goal.
 
 .. _SymPy: https://www.sympy.org
 
@@ -228,15 +230,16 @@ modules:
 - ``musculotendon.py``: contains classes that represent complete musculatendon
   models with one example implementation
 
-We have also developed two tutorials to introduce how to construct and use the
-new acutators:
-
-- `Introduction to Biomechanical Modeling
-  <https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html>`_
-- `Biomechanical Model Example
-  <https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html>`_
+A full explanation of this package and the modules can be found in the new
+`Introduction to Biomechanical Modeling
+<https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html>`_
+tutorial. We demonstrate the package on a non-trivial system in the new
+`Biomechanical Model Example
+<https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html>`_
+tutorial.
 
 .. figure:: https://docs.sympy.org/dev/_images/biomechanics-steerer.svg
+   :align: center
 
    Muscle driven arm pushing and pulling a lever taken from the new tutorial.
 
@@ -332,13 +335,13 @@ https://github.com/csu-hmc/opty/pull/102
 - opty improvements
 - muscle driven bicycle model
 
+Other
+=====
+
+pytest pr
+
 Lessons Learned
 ===============
 
 - 6 months to negotiate a contract
 - 6 months to hire someone
-
-People
-======
-
-Timo, Sam, Jan, Jason
