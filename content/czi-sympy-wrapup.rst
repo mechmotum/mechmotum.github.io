@@ -134,7 +134,7 @@ Kane's Method relies on solving three sets of linear equations:
    :math:`\mathbf{u}_r = \mathbf{A}_r^{-1}(\mathbf{A}_s\mathbf{u}_s + \mathbf{f}_{rs})`
 
 If these equations are symbolic, it is mostly impossible to determine if an
-entry is zero when pivoting in `Gaussian elimination`_ and the solutions are
+entry is zero when pivoting in `Gaussian elimination`_ making the solutions
 susceptible to divide-by-zero operations for ranges of numerical values for the
 variables involved.
 
