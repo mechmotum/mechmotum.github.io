@@ -81,7 +81,7 @@ Code internship where he improved the SymPy Mechanics Joints package with
 documentation improvements, by reworking the fundamental definition of a joint,
 and adding new cylindrical, planar, and spherical joints. These were key early
 updates to enable the joints package's use in constructing a bicycle-rider
-model. See the details of Timo's work in his `GSoC Report`_. This project lead
+model. See the details of Timo's work in his `GSoC Report`_. This project led
 Timo to do a TU Delft Biomechanical Design MSc project on bicycle-rider
 modeling using SymPy.
 
@@ -130,11 +130,11 @@ Kane's Method relies on solving three sets of linear equations:
 2. putting the dynamical differential equations in explicit form
    :math:`\dot{\mathbf{u}} = \mathbf{M}_d^{-1}\mathbf{f}_d`
 3. solving the dependent generalized speeds in terms of the independent
-   generalised speeds
+   generalized speeds
    :math:`\mathbf{u}_r = \mathbf{A}_r^{-1}(\mathbf{A}_s\mathbf{u}_s + \mathbf{f}_{rs})`
 
 If these equations are symbolic, it is mostly impossible to determine if an
-entry is zero when pivoting in `Gaussian elimination`_ and the solutions are
+entry is zero when pivoting in `Gaussian elimination`_ making the solutions
 susceptible to divide-by-zero operations for ranges of numerical values for the
 variables involved.
 
@@ -145,7 +145,7 @@ There are four ways, it seems, to deal with this:
 1. select the generalized coordinates, generalized speeds, and constants such
    that divide-by-zero cannot occur for the numerical values of interest
 2. select symbolic Gaussian elimination algorithms that do not put the
-   solutions in a form that have divide-by-zero for the numerical values of
+   solutions in a form that has divide-by-zero for the numerical values of
    interest
 3. use a zero-division free linear solve algorithm
 4. defer the linear solves to numerical algorithms
@@ -159,8 +159,8 @@ TODO : Link to the paper that Luke cites.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In 2014, we switched to using ``LUsolve()`` for all of the linear solves in
-SymPy Mechanics in `PR 7581`_, which resulted in a unnoticed regression of
-divide-by-zero issues for complex problems. That change broke the crucial
+SymPy Mechanics in `PR 7581`_, which resulted in an unnoticed regression of
+divide-by-zero issues for complex problems. This change broke the crucial
 `test_kane3.py`_ as well as the corresponding `documentation page
 <https://docs.sympy.org/latest/modules/physics/mechanics/examples/bicycle_example.html>`_
 that solved the linear Carvallo-Whipple bicycle model to a machine precision
@@ -293,7 +293,7 @@ define inertia for a rigid body, particle, or collection of them. Force and
 Torque are named tuples that associate a vector and point and a vector and a
 frame, respectively.
 
-We have introduced an actuator_ module that has classes that describes the
+We have introduced an actuator_ module that has classes that describe the
 equal and opposite pair of forces or torques and force actuators can operate
 along a pathway, generating resultant forces on points that lie along the
 pathway. We included a linear spring and damper as example actuators. The
@@ -314,7 +314,7 @@ with ``sympy.physics.mechanics``. ``biomechanics`` contains these primary
 modules:
 
 - ``curve.py``: contains classes that represent mathematical functional
-  relationships between the time varying muscle-tendon length, velocity, and
+  relationships between the time-varying muscle-tendon length, velocity, and
   force
 - ``activation.py``: contains classes that manage the excitation to activation
   dynamics
@@ -529,7 +529,7 @@ control results.
 Optimal Bicycle-Rider Trajectories
 ----------------------------------
 
-With all of the above work, we were able to solve a optimal control problem of
+With all of the above work, we were able to solve an optimal control problem of
 the muscle-driven bicycle and rider. This is the problem we posed:
 
    Given a multibody model of the Carvallo-Whipple bicycle model extended with
