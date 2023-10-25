@@ -81,7 +81,7 @@ Code internship where he improved the SymPy Mechanics Joints package with
 documentation improvements, by reworking the fundamental definition of a joint,
 and adding new cylindrical, planar, and spherical joints. These were key early
 updates to enable the joints package's use in constructing a bicycle-rider
-model. See the details of Timo's work in his `GSoC Report`_. This project lead
+model. See the details of Timo's work in his `GSoC Report`_. This project led
 Timo to do a TU Delft Biomechanical Design MSc project on bicycle-rider
 modeling using SymPy.
 
