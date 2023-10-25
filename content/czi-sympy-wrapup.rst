@@ -130,7 +130,7 @@ Kane's Method relies on solving three sets of linear equations:
 2. putting the dynamical differential equations in explicit form
    :math:`\dot{\mathbf{u}} = \mathbf{M}_d^{-1}\mathbf{f}_d`
 3. solving the dependent generalized speeds in terms of the independent
-   generalised speeds
+   generalized speeds
    :math:`\mathbf{u}_r = \mathbf{A}_r^{-1}(\mathbf{A}_s\mathbf{u}_s + \mathbf{f}_{rs})`
 
 If these equations are symbolic, it is mostly impossible to determine if an
