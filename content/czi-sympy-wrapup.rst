@@ -293,7 +293,7 @@ define inertia for a rigid body, particle, or collection of them. Force and
 Torque are named tuples that associate a vector and point and a vector and a
 frame, respectively.
 
-We have introduced an actuator_ module that has classes that describes the
+We have introduced an actuator_ module that has classes that describe the
 equal and opposite pair of forces or torques and force actuators can operate
 along a pathway, generating resultant forces on points that lie along the
 pathway. We included a linear spring and damper as example actuators. The
