@@ -529,7 +529,7 @@ control results.
 Optimal Bicycle-Rider Trajectories
 ----------------------------------
 
-With all of the above work, we were able to solve a optimal control problem of
+With all of the above work, we were able to solve an optimal control problem of
 the muscle-driven bicycle and rider. This is the problem we posed:
 
    Given a multibody model of the Carvallo-Whipple bicycle model extended with
