@@ -56,9 +56,9 @@ We selected a complex human-machine system as a benchmark problem to motivate
 our work: the bicycle and its rider. The nonlinear and linear equations of
 motion of a riderless bicycle have traditionally been a very challenging system
 to derive correctly in full symbolic form (see [BasuMandal2007]_ and
-[Meijaard2007]_ for background). Including a model of a human rider with muscle
-driven joints increases the model's complexity even further. This model is made
-up of millions of arithmetic and transcendental operations, making it a
+[Meijaard2007]_ for background). Including a model of a human rider with
+muscle-driven joints increases the model's complexity even further. This model
+is made up of millions of arithmetic and transcendental operations, making it a
 challenging system to differentiate and evaluate efficiently. We want SymPy to
 be able to handle models of this complexity with ease. To test SymPy's ability
 to correctly derive, differentiate, and evaluate the bicycle-rider's governing
@@ -77,7 +77,7 @@ Joints Package
 --------------
 
 Timo Stienstra began working on this project through a 2022 Google Summer of
-Code internship where he improved the SymPy Mechanics Joints package with
+Code internship where he improved the SymPy Mechanics joints modules with
 documentation improvements, by reworking the fundamental definition of a joint,
 and adding new cylindrical, planar, and spherical joints. These were key early
 updates to enable the joints package's use in constructing a bicycle-rider
@@ -444,14 +444,14 @@ Modeling and Optimal Control Uses
 As explained in the introduction, our goal is to make SymPy capable of deriving
 computationally efficient neuromuscular driven multibody models. One use case
 for these models is solving `optimal control`_ problems, which benefit greatly
-from the fastest numerical evaluation of the equations of motion and its higher
-order partial derivatives. In particular, forming a `nonlinear programming`_
-problem using direct collocation transcription from very large symbolic
-equations of motion was already known to push SymPy's past its limits. In the
-past, we have developed two software packages that transcribe and solve optimal
-control problems based on SymPy expressions: opty_ and pycollo_. We use both
-programs below to solve two challenging optimal control problems and detail the
-improvements we made to the packages.
+from the fastest numerical evaluation of the equations of motion and its
+higher-order partial derivatives. In particular, forming a `nonlinear
+programming`_ problem using direct collocation transcription from very large
+symbolic equations of motion was already known to push SymPy's past its limits.
+In the past, we have developed two software packages that transcribe and solve
+optimal control problems based on SymPy expressions: opty_ and pycollo_. We use
+both programs below to solve two challenging optimal control problems and
+detail the improvements we made to the packages.
 
 .. _optimal control: https://en.wikipedia.org/wiki/Optimal_control
 .. _nonlinear programming: https://en.wikipedia.org/wiki/Nonlinear_programming
