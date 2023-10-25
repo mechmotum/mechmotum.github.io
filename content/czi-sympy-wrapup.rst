@@ -145,7 +145,7 @@ There are four ways, it seems, to deal with this:
 1. select the generalized coordinates, generalized speeds, and constants such
    that divide-by-zero cannot occur for the numerical values of interest
 2. select symbolic Gaussian elimination algorithms that do not put the
-   solutions in a form that have divide-by-zero for the numerical values of
+   solutions in a form that has divide-by-zero for the numerical values of
    interest
 3. use a zero-division free linear solve algorithm
 4. defer the linear solves to numerical algorithms
