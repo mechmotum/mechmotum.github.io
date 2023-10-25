@@ -159,7 +159,7 @@ TODO : Link to the paper that Luke cites.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In 2014, we switched to using ``LUsolve()`` for all of the linear solves in
-SymPy Mechanics in `PR 7581`_, which resulted in a unnoticed regression of
+SymPy Mechanics in `PR 7581`_, which resulted in an unnoticed regression of
 divide-by-zero issues for complex problems. This change broke the crucial
 `test_kane3.py`_ as well as the corresponding `documentation page
 <https://docs.sympy.org/latest/modules/physics/mechanics/examples/bicycle_example.html>`_
