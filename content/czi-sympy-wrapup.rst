@@ -17,8 +17,8 @@ SymPy CZI Code Generation & Biomechanics Outcomes
    * - |sympy-logo|
      - |czi-logo|
 
-.. |sympy-logo| image:: https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png
-   :height: 160px
+.. |sympy-logo| image:: https://docs.sympy.org/dev/_images/sympy-500px.png
+   :height: 200px
 
 .. |czi-logo| image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
    :height: 200px
