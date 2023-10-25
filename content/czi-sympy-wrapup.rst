@@ -314,7 +314,7 @@ with ``sympy.physics.mechanics``. ``biomechanics`` contains these primary
 modules:
 
 - ``curve.py``: contains classes that represent mathematical functional
-  relationships between the time varying muscle-tendon length, velocity, and
+  relationships between the time-varying muscle-tendon length, velocity, and
   force
 - ``activation.py``: contains classes that manage the excitation to activation
   dynamics
