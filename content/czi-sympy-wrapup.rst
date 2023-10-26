@@ -9,7 +9,7 @@ SymPy CZI Grant Code Generation & Biomechanics Outcomes
 :slug: sympy-czi-outcomes
 :authors: Jason K. Moore
 :summary: Summary of the work performed under the Chan-Zuckerberg Foundation
-          Open Source Software for Science Cycle 4 grant awarded to Sympy, and
+          Open Source Software for Science Cycle 4 grant awarded to Sympy and
           performed by Delft University of Technology. We developed new
           biomechanics capabilities in SymPy and improved code generation
           performance for large mathematical expressions.
