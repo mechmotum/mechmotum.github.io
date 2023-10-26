@@ -2,9 +2,10 @@
 SymPy CZI Code Generation & Biomechanics Outcomes
 =================================================
 
-:date: 2023-09-28 00:00:00
-:tags: sympy, czi, biomechanics
-:category: news
+:date: 2023-10-26 00:00:00
+:tags: sympy, czi, biomechanics, multibody dynamics, open source software,
+       muscles, optimal control, bicycle, skateboard, code generation
+:category: research
 :slug: sympy-czi-outcomes
 :authors: Jason K. Moore, Sam Brockie
 :summary: Summary of the work performed under the Chan-Zuckerberg Foundation
