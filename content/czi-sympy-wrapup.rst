@@ -47,15 +47,14 @@ three work packages led by each of the three co-principal investigators:
 
 We were in charge of the last work package and hired Dr. Sam Brockie to work on
 the project as a postdoctoral researcher. Jan Heinen and Timo Stienstra worked
-on the project through their TU Delft MSc projects under the supervision of Sam
+on the project through their TU Delft MSc degrees under the supervision of Sam
 and Jason.
 
 Our overarching goal is to use SymPy to generate symbolic dynamical models of
 biomechanical systems, i.e. multibody systems actuated by muscles. This
 involves formulating the Newton-Euler equations of motion, possibly with
-additional kinematical constraints, and the differential equations that
-describe the relationship between neurological excitation and generated muscles
-forces.
+additional kinematic constraints, and the differential equations that describe
+the relationship between neurological excitation and generated muscles forces.
 
 We selected a complex human-machine system as a benchmark problem to motivate
 our work: the bicycle and its rider. The nonlinear and linear equations of
@@ -67,13 +66,15 @@ is made up of millions of arithmetic and transcendental operations, making it a
 challenging system to differentiate and evaluate efficiently. We want SymPy to
 be able to handle models of this complexity with ease. To test SymPy's ability
 to correctly derive, differentiate, and evaluate the bicycle-rider's governing
-equations, we choose to formulate and solve an optimal control problem via
-direct collocation. We knew that the bicycle-rider optimal control problem
-would test SymPy's limits, forcing us to make significant improvements to
-SymPy's code generation features. To do this, we worked on numerous areas in
-SymPy and downstream packages to reach this goal.
+equations, we choose to formulate and solve a `trajectory optimization`_
+problem via `direct collocation`_. We knew that this bicycle-rider optimal
+control problem would test SymPy's limits, forcing us to make significant
+improvements to SymPy's code generation features. To do this, we worked on
+numerous areas in SymPy and downstream packages to reach this goal.
 
 .. _SymPy: https://www.sympy.org
+.. _trajectory optimization: https://en.wikipedia.org/wiki/Trajectory_optimization
+.. _direct collocation: https://en.wikipedia.org/wiki/Collocation_method
 
 General Improvements to SymPy Mechanics
 =======================================
@@ -82,7 +83,7 @@ Joints Package
 --------------
 
 Timo Stienstra began working on this project through a 2022 Google Summer of
-Code internship where he improved the SymPy Mechanics joints modules with
+Code internship where he improved the SymPy Mechanics `joints modules`_ with
 documentation improvements, by reworking the fundamental definition of a joint,
 and adding new cylindrical, planar, and spherical joints. These were key early
 updates to enable the joints package's use in constructing a bicycle-rider
@@ -91,6 +92,8 @@ Timo to do a TU Delft Biomechanical Design MSc project on bicycle-rider
 modeling using SymPy.
 
 .. _GSoC Report: https://github.com/sympy/sympy/wiki/GSoC-2022-Report-Timo-Stienstra-:-Enhancing-the-Joints-Framework
+
+.. _joints modules: https://docs.sympy.org/latest/modules/physics/mechanics/joints.html
 
 .. list-table:: Figure 1: Old and new joint types with new explanatory figures
    can be found in the SymPy documentation.
@@ -297,12 +300,10 @@ Inertia, Loads, Actuators
 
 We introduced three new helper classes to extend the functionality of inertia
 and loads beyond that of simply dyadics and vectors: ``Inertia()``,
-``Force()``, and ``Torque()``.
-
-The inertia object lets you associate a dyadic with a point, to completely
-define inertia for a rigid body, particle, or collection of them. Force and
-Torque are named tuples that associate a vector and point and a vector and a
-frame, respectively.
+``Force()``, and ``Torque()``. The inertia object lets you associate a dyadic
+with a point, to completely define inertia for a rigid body, particle, or
+collection of them. Force and Torque are named tuples that associate a vector
+and point and a vector and a frame, respectively.
 
 We have introduced an actuator_ module that has classes that describe the
 equal and opposite pair of forces or torques and force actuators can operate
@@ -333,10 +334,10 @@ works.
 Introducing SymPy Biomechanics
 ==============================
 
-We have developed a new sub-package, sympy.physics.biomechanics_, that enables
-including musculotendon force actuators in multibody dynamics models created
-with ``sympy.physics.mechanics``. ``biomechanics`` contains these primary
-modules:
+We have developed a substantial new sub-package, sympy.physics.biomechanics_,
+that enables including musculotendon force actuators in multibody dynamics
+models created with ``sympy.physics.mechanics``. ``biomechanics`` contains
+these primary modules:
 
 - ``curve.py``: contains classes that represent mathematical functional
   relationships between the time-varying muscle-tendon length, velocity, and
@@ -478,14 +479,14 @@ Modeling and Optimal Control Uses
 As explained in the introduction, our goal is to make SymPy capable of deriving
 computationally efficient neuromuscular driven multibody models. One use case
 for these models is solving `optimal control`_ problems, which benefit greatly
-from the fastest numerical evaluation of the equations of motion and its
-higher-order partial derivatives. In particular, forming a `nonlinear
-programming`_ problem using direct collocation transcription from very large
-symbolic equations of motion was already known to push SymPy's past its limits.
-In the past, we have developed two software packages that transcribe and solve
-optimal control problems based on SymPy expressions: opty_ and pycollo_. We use
-both programs below to solve two challenging optimal control problems and
-detail the improvements we made to the packages.
+from exact derivatives and the fastest numerical evaluation of the equations of
+motion and its higher-order partial derivatives. In particular, forming a
+`nonlinear programming`_ problem using direct collocation transcription from
+very large symbolic equations of motion was already known to push SymPy's past
+its limits.  In the past, we have developed two software packages that
+transcribe and solve optimal control problems based on SymPy expressions: opty_
+and pycollo_. We use both programs below to solve two challenging optimal
+control problems and detail the improvements we made to the packages.
 
 .. _optimal control: https://en.wikipedia.org/wiki/Optimal_control
 .. _nonlinear programming: https://en.wikipedia.org/wiki/Nonlinear_programming
@@ -592,7 +593,7 @@ attempted the differentiation for the Jacobian of the discretized bicycle-rider
 model, SymPy bogged down on the Jacobian calculation. We let the computation
 run for **over 3 hours** and killed the execution before the computation
 completed. SymPy's differentiation is unusable for interactive work with large
-equations of motion, such as these. Since we already find the common
+equations of motion such as these. Since we already find the common
 sub-expressions of the equations of motion before code generation in opty, Sam
 implemented a very efficient forward Jacobian on the expression directed
 acyclic graph (DAG) in pull request: https://github.com/csu-hmc/opty/pull/102.
@@ -655,17 +656,18 @@ https://github.com/brocksam/muscle-driven-bicycle-paper
 
 The need to evaluate both a function and its Jacobian is a common use case that
 is not just limited to optimal control problems like the one shown above. SymPy
-is capable of taking the analytical derivatives but it can be prohibitory slow
-for large expressions. This limits interactive use and rapid iteration in
-equation derivation. If common sub-expressions are extracted from a SymPy
-expression, all operations are represented as a directed acyclic graph.  Taking
-the derivative of a DAG instead of a tree graph, as SymPy stores expressions,
-can provide exponential speedups to differentiation. If the code generation for
-the function and its Jacobian uses common sub-expression elimination, then it
-makes sense to call ``cse()`` on the function, then take the partial
-derivatives, and the Jacobian will be in a DAG form for easy code generation.
-Sam has introduced a major code generation speed up for lambdifying large SymPy
-expressions if you also desire the Jacobian in the following pull requests:
+is capable of taking analytical derivatives but it can be prohibitory slow for
+large expressions. This limits interactive use and rapid iteration in equation
+derivation. If common sub-expressions are extracted from a SymPy expression,
+all operations are represented as a directed acyclic graph.  Taking the
+derivative of a DAG instead of a tree graph, as SymPy stores expressions, can
+provide exponential speedups to differentiation. If the code generation for the
+function and its Jacobian uses common sub-expression elimination, then it makes
+sense to call ``cse()`` on the function, then take the partial derivatives, and
+the Jacobian will be in a DAG form for easy code generation. Sam has
+introduced a major code generation speed up for lambdifying large SymPy
+expressions if you also desire the Jacobian based on the work we did in opty.
+The details are  in the following pull requests:
 
 - https://github.com/sympy/sympy/pull/24649
 - https://github.com/sympy/sympy/pull/25797
@@ -694,10 +696,10 @@ pull requests because he built out the tests with advanced pytest features.
 
 We had planned for 0.5 FTE over the two year period, but it took about 6 months
 to negotiate a subcontract between TU Delft and Quantsight, since it was the
-first one of its kind. After that, it took another six months before Sam could
-start. There was not enough time in the grant period for the contract and
-hiring process. It still worked out, but this is something to plan for in the
-future.
+first one of its kind. After that, it took another six months before we
+interivewed candidates, hired one, and Sam could start. There was not enough
+time in the grant period for the contract and hiring process. It still worked
+out, but this is something to plan for in the future.
 
 We developed a large plan for the additions to SymPy that was tough to separate
 into independent smaller pieces. This led Sam and Timo to work on a set of
@@ -721,8 +723,8 @@ collaboration.
 Work Summary
 ============
 
-The following list summarizes the various products we have (so far) delivered
-as part of the CZI funding (code, papers, documentation):
+The following list summarizes the various products we have delivered as part of
+the CZI funding (code, papers, documentation):
 
 - Pull requests to SymPy:
 
