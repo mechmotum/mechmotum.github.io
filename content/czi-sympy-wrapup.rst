@@ -1,6 +1,6 @@
-=================================================
-SymPy CZI Code Generation & Biomechanics Outcomes
-=================================================
+=======================================================
+SymPy CZI Grant Code Generation & Biomechanics Outcomes
+=======================================================
 
 :date: 2023-10-27 00:00:00
 :tags: sympy, czi, biomechanics, multibody dynamics, open source software,
