@@ -315,6 +315,20 @@ pathways are located in the new pathway_ module.
 These new objects provide core building blocks for developing musculotendon
 actuators and managing a full multibody system.
 
+System Class
+------------
+
+Timo developed a new `System()`_ class that manages all the information about a
+multibody system (coordinates, joints, bodies, constraints, etc.) and can
+generate the equations of motion from the high level description of the system
+without having to manually write the mathematical equations. This approach
+generally reduces the amount of code needed to generate the equations for
+complex systems. See the `Four-bar Linkage`_ example to get an idea of how it
+works.
+
+.. _System(): https://docs.sympy.org/dev/modules/physics/mechanics/api/system.html#sympy.physics.mechanics._system.System
+.. _Four-bar Linkage: https://docs.sympy.org/dev/modules/physics/mechanics/examples/four_bar_linkage_example.html
+
 Introducing SymPy Biomechanics
 ==============================
 
