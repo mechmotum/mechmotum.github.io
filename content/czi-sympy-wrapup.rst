@@ -7,7 +7,11 @@ SymPy CZI Code Generation & Biomechanics Outcomes
 :category: news
 :slug: sympy-czi-outcomes
 :authors: Jason K. Moore, Sam Brockie
-:summary: TODO
+:summary: Summary of the work performed under the Chan-Zuckerberg Foundation
+          Open Source Software for Science Cycle 4 grant awarded to Sympy, and
+          performed by Delft University of Technology. We developed new
+          biomechanics capabilities in SymPy and improved code generation
+          performance for large mathematical expressions.
 
 .. list-table::
    :class: borderless
@@ -150,10 +154,14 @@ There are four ways, it seems, to deal with this:
 3. use a zero-division free linear solve algorithm
 4. defer the linear solves to numerical algorithms
 
-1. choosing generalized coordinates and speeds
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Choice of Generalized Coordinates and Speeds
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-TODO : Link to the paper that Luke cites.
+The choice of generalized coordinates and generalized speeds changes which
+entries in the linear coefficient matrix can be zero for specific values of the
+coordinates and speeds. It may be possible to avoid divide-by-zero with careful
+selection of the variables when defining the kinematics of the specific
+problem. But this will require unique solutions for every model.
 
 2. Alternative Symbolic Solvers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -186,10 +194,12 @@ https://github.com/sympy/sympy/pull/25179.
 .. _new linear solver: https://github.com/sympy/sympy/pull/25179
 .. _9 year old bug: https://github.com/sympy/sympy/issues/9641
 
-3. division free linear solves
+3. Division-free Linear Solves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-TODO : Add reference to the division free alg
+There are division-free algorithms that can be used in solving linear systems,
+but the complexity of the resulting equations grows considerably, for example
+see [Bird2011]_.
 
 4. Delayed Numerical Solves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -319,7 +329,7 @@ modules:
 - ``activation.py``: contains classes that manage the excitation to activation
   dynamics
 - ``musculotendon.py``: contains classes that represent complete musculotendon
-  models with one reference implementation
+  models with one reference implementation from [DeGroote2016]_
 
 A full explanation of this package and the modules can be found in the new
 `Introduction to Biomechanical Modeling
@@ -329,12 +339,21 @@ the new `Biomechanical Model Example
 <https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html>`_
 tutorial.
 
-.. figure:: https://docs.sympy.org/dev/_images/biomechanics-steerer.svg
+.. list-table:: Figure 2: On the left, the muscle(red)-driven arm (black C and
+   D) pushing and pulling a lever taken from the new tutorial. On the right,
+   are simulation results from the model with a commanded muscle excitation.
+   :class: borderless
+   :width: 100%
    :align: center
-   :width: 60%
 
-   Muscle (red) driven arm (black C and D) pushing and pulling a lever taken
-   from the new tutorial.
+   * - |biomechanics-steerer|
+     - |biomechanics-steerer-results|
+
+.. |biomechanics-steerer| image:: https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png
+   :width: 100%
+
+.. |biomechanics-steerer-results| image:: https://docs.sympy.org/dev/_images/biomechanical-model-example-38.png
+   :width: 100%
 
 .. _sympy.physics.biomechanics: https://docs.sympy.org/dev/modules/physics/biomechanics/index.html
 
@@ -345,7 +364,7 @@ The function `lambdify()`_ is the primary interface for converting SymPy
 expressions into NumPy-powered Python functions for numerical evaluation.
 ``lambdify()`` relies on SymPy's code generation to generate the appropriate
 Python code. ``lambdify()`` has not been able to handle large mechanics models
-in the past. We proposed adding common subexpression elimination (CSE) support
+in the past. We proposed adding common sub-expression elimination (CSE) support
 to help with that.  Support for the `cse()`_ function was added to
 ``lambdify()`` just before we started the CZI work in
 https://github.com/sympy/sympy/pull/21546. Here is an example that demonstrates
@@ -518,8 +537,8 @@ control results.
    :align: center
    :width: 80%
 
-   Lane change simulation created with BRiM showing without and without a
-   rider.
+   Figure 3: Lane change simulation created with BRiM showing without and
+   without a rider.
 
 - BRiM source code: https://github.com/TJStienstra/brim/
 - BRiM documentation: https://tjstienstra.github.io/brim/
@@ -547,48 +566,95 @@ The objective of this optimal control problem takes the form:
 
 where :math:`x_s` are a subset of the model's state trajectories and
 :math:`x_d` are some desired trajectories and :math:`e` are the muscle
-excitation inputs. :math`w` is a weighting factor for the two terms. This is a
+excitation inputs. :math:`w` is a weighting factor for the two terms. This is a
 typical minimal effort tracking formulation.
 
-The equations of motion of this system have about 2.3 million mathematical
+The equations of motion of this system have about 2.8 million mathematical
 operations. Forming the constraints that represent these equations of motion (a
 set of differential algebraic equations in this case) involves computing a very
-large sparse Jacobian. When we first attempted the differentiation for the
-Jacobian of the discretized bicycle-rider model, SymPy bogged down on the
-Jacobian calculation. We let the computation run for **over 3 hours** and
-killed the execution before the computation completed. SymPy's differentiation
-is unusable for large equations of motion, such as these. Since we already find
-the common sub-expressions of the equations of motion before code generation in
-opty, Sam implemented a very efficient forward Jacobian on the expression DAG
-in pull request: https://github.com/csu-hmc/opty/pull/102.
+large sparse Jacobian with 440 thousand non-zero entries. When we first
+attempted the differentiation for the Jacobian of the discretized bicycle-rider
+model, SymPy bogged down on the Jacobian calculation. We let the computation
+run for **over 3 hours** and killed the execution before the computation
+completed. SymPy's differentiation is unusable for interactive work with large
+equations of motion, such as these. Since we already find the common
+sub-expressions of the equations of motion before code generation in opty, Sam
+implemented a very efficient forward Jacobian on the expression directed
+acyclic graph (DAG) in pull request: https://github.com/csu-hmc/opty/pull/102.
 
 This allowed the equations to be differentiated and the differentiation occurs
-in less than 30 seconds (**>360X** speed increase), showing the drastic
-improvements such an approach can have. Once this fix was applied we were
-finally able to solve the tracking trajectory optimization problem with opty_.
+in less than 45 seconds (at least a **250X** speed increase), showing the
+drastic improvements such an approach can have. Once this fix was applied we
+were finally able to solve the tracking trajectory optimization problem with
+opty_.
 
-TODO : figure of simulation results
+This problem has these characteristics:
+
+- Number of operations in the equations of motion: 2,775,718
+- Number of constraints: 6394
+- Number of free variables: 7400
+- Number of non-zero entries in the Jacobian of the constraints: 439,438
+
+and solves with these timings:
+
+- Time to differentiate the constraints: 43 seconds
+- Total time to code generate, form the Jacobian, and compile the C code: 185
+  seconds
+- Average time to evaluate the constraints: 201 µs
+- Average time to evaluate the Jacobian: 1.29 ms
+- Number of IPOPT iterations: 267
+- Time in IPOPT: 45 seconds
+
+.. list-table:: Figure 4: Optimal control simualtion results for a 2 meter
+   lange change at a nomimal 1 m/s riding speed. The top left shows the desired
+   (blue) and actual (orange) ground path. The top right graph shows the
+   generalized coordintes. :math:`q_7` is the steer angle in degrees, for example. The
+   bottom left shows the generalized speeds. :math:`u_1` is the forward speed.
+   The bottom right graphs shows the muscle excitation inputs for pedaling
+   torque :math:`T_6` and the biceps and triceps.
+   :class: borderless
+   :width: 100%
+   :align: center
+
+   * - |muscle-bike-rider-01|
+     - |muscle-bike-rider-02|
+   * - |muscle-bike-rider-03|
+     - |muscle-bike-rider-04|
+
+.. |muscle-bike-rider-01| image:: https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-01.png
+   :width: 100%
+
+.. |muscle-bike-rider-02| image:: https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-02.png
+   :width: 100%
+
+.. |muscle-bike-rider-03| image:: https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-03.png
+   :width: 100%
+
+.. |muscle-bike-rider-04| image:: https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-04.png
+   :width: 100%
 
 The simulation codes and the draft paper about the results can be found in the
 following repository:
 
 https://github.com/brocksam/muscle-driven-bicycle-paper
 
-The need to evaluate both a function and its Jacobian is a common use case.
-SymPy is capable of taking the analytical derivatives but it can be prohibitory
-slow for large expressions. If common subexpressions are extracted from a SymPy
-expression, all operations are represented as a directed acyclic graph. Taking
-the derivative of a directed acyclic graph instead of a tree graph, as SymPy
-stores expressions, can provide exponential speedups to differentiation. If the
-code generation for the function and its Jacobian uses common subexpression
-elimination, then it makes sense to call ``cse()`` on the function, then take
-the partial derivatives, and the Jacobian will be in a DAG form for easy code
-generation. Sam has introduced a major code generation speed up for lambdifying
-large SymPy expressions if you desire the Jacobian.
+The need to evaluate both a function and its Jacobian is a common use case that
+is not just limited to optimal control problems like the one shown above. SymPy
+is capable of taking the analytical derivatives but it can be prohibitory slow
+for large expressions. This limits interactive use and rapid iteration in
+equation derivation. If common sub-expressions are extracted from a SymPy
+expression, all operations are represented as a directed acyclic graph.  Taking
+the derivative of a DAG instead of a tree graph, as SymPy stores expressions,
+can provide exponential speedups to differentiation. If the code generation for
+the function and its Jacobian uses common sub-expression elimination, then it
+makes sense to call ``cse()`` on the function, then take the partial
+derivatives, and the Jacobian will be in a DAG form for easy code generation.
+Sam has introduced a major code generation speed up for lambdifying large SymPy
+expressions if you also desire the Jacobian in the following pull requests:
 
-- forward_jacobian: https://github.com/sympy/sympy/pull/25801
 - https://github.com/sympy/sympy/pull/24649
 - https://github.com/sympy/sympy/pull/25797
+- https://github.com/sympy/sympy/pull/25801
 
 Conclusion
 ==========
@@ -596,7 +662,11 @@ Conclusion
 We completed almost all of the goals set out in the original proposal along
 with many more unplanned achievements. SymPy is now more suited for solving
 non-trivial biomechanical optimal control problems and improvements to the
-performance of lambdify() will help a broad set of use cases.
+performance of lambdify() will help a broad set of use cases. Our experience
+also led to many new ideas on how to further improve SymPy for large expression
+manipulation, especially how unevaluated expression forms that use DAGs as the
+core data structure can drastically speed up SymPy and reduce the computational
+resources needed.
 
 Lessons Learned
 ---------------
@@ -629,8 +699,9 @@ places in SymPy, but you have to have a plan to make them public.
 Our proposal had three work packages. After hiring Sam, we realized his prior
 experience and ideas for SymPy improvement had overlap with Oscar's plans. By
 the time we understood what exactly we would do, we failed to have more
-collaborative work between the two related work packages. In the future, it would be
-good to have more early brainstorm meetings to initiate close collaboration.
+collaborative work between the two related work packages. In the future, it
+would be good to have more early brainstorm meetings to initiate close
+collaboration.
 
 Work Summary
 ============
@@ -680,3 +751,7 @@ References
    Evaluation of direct collocation optimal control problem formulations for
    solving the muscle redundancy problem, Annals of biomedical engineering,
    44(10), (2016) pp. 2922-2936
+.. [Bird2011] Richard S. Bird, A simple division-free algorithm for computing
+   determinants, Information Processing Letters, Volume 111, Issues 21–22,
+   2011, Pages 1072-1074, ISSN 0020-0190,
+   https://doi.org/10.1016/j.ipl.2011.08.006.
