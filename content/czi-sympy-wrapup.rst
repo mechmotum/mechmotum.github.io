@@ -739,6 +739,10 @@ as part of the CZI funding (code, papers, documentation):
   - https://github.com/brocksam/pycollo/pull/87
   - https://github.com/brocksam/pycollo/pull/88
 
+- Ollie Optimization paper and code:
+
+  - https://github.com/mechmotum/ollie-optimization
+
 - BRiM software package:
 
   - Source code: https://github.com/TJStienstra/brim/
