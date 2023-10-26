@@ -7,7 +7,7 @@ SymPy CZI Code Generation & Biomechanics Outcomes
        muscles, optimal control, bicycle, skateboard, code generation
 :category: research
 :slug: sympy-czi-outcomes
-:authors: Jason K. Moore, Sam Brockie
+:authors: Jason K. Moore
 :summary: Summary of the work performed under the Chan-Zuckerberg Foundation
           Open Source Software for Science Cycle 4 grant awarded to Sympy, and
           performed by Delft University of Technology. We developed new
