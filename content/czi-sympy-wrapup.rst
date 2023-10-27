@@ -720,6 +720,19 @@ collaborative work between the two related work packages. In the future, it
 would be good to have more early brainstorm meetings to initiate close
 collaboration.
 
+Future Plans
+------------
+
+We plan to finish any of the unmerged pull requests for the SymPy 1.13 release
+and the paper on the optimal control of the bicycle-rider system is ongoing
+work. In the future, we are very interested in incorporating unevaluated
+expressions and the DAG data structures more into the core of SymPy, as these
+two ideas can vastly enhance SymPy's performance and the ability to code
+generate from SymPy expressions with more control and precision. We hope that
+other users will try out and contribute to the new biomechanics package as well
+as use SymPy + opty & pycollo for solving optimal control problems of
+biomechanical multibody systems.
+
 Work Summary
 ============
 
