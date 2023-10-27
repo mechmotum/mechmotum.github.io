@@ -2,7 +2,7 @@
 Using Model Predictive Control to Assist in Bicycle Lane Changes
 ================================================================
 
-:date: 2023-09-28
+:date: 2023-10-27
 :status: hidden
 :slug: jobs/msc/mpc-bicycle-assist-experiments.rst
 :template: msc-project
@@ -23,3 +23,8 @@ riders, but did not find a positive result. This is most likely due to a number
 of shortcomings in the hardware and experimental design. The goal of this
 project would be to alleviate those shortcomings and to perform a larger scale
 experiment to test the capabilities of the MPC based steering assist.
+
+See our paper on the topic for a description of the work you will build upon:
+
+   Model Predictive Control-based haptic steering assistance to enhance motor
+   learning of a bicycling task: A pilot study, https://doi.org/10.31224/2811

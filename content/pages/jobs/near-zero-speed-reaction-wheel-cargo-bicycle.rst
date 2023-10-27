@@ -2,7 +2,7 @@
 Near Zero Speed Reaction Wheel Balanced Cargo Bicycles
 ======================================================
 
-:date: 2023-09-28
+:date: 2023-10-27
 :status: hidden
 :slug: jobs/msc/near-zero-speed-reaction-wheel-cargo-bicycle
 :template: msc-project
@@ -16,9 +16,11 @@ Near Zero Speed Reaction Wheel Balanced Cargo Bicycles
    * - |reaction-wheel-cad|
      - |first-reaction-wheel-cargo-bike|
 
-.. |headshot-brockie-sam| image:: https://objects-us-east-1.dream.io/mechmotum/reaction-wheel-cad.png
+.. |reaction-wheel-cad| image:: https://objects-us-east-1.dream.io/mechmotum/reaction-wheel-cad.png
+   :width: 100%
 
-.. |first-reaction-wheel-cargo-bike| image:: https://objects-us-east-1.dream.io/mechmotum/first-reaction-wheel-cargo-bike.jpg
+.. |first-reaction-wheel-cargo-bike| image:: https://objects-us-east-1.dream.io/mechmotum/first-reaction-wheel-cargo-bike.png
+   :width: 100%
 
 Two wheel cargo bicycle use has grown over the last decade. Increases in "last
 mile" home delivery of goods and food requires rapid, versatile delivery in

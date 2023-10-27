@@ -16,10 +16,10 @@ number of things, for example:
 
 - What are the minimal twin elements needed to safely cycle?
 - How long does it take people to get accustomed to this experience?
-- Is motion sickness prevelant in this environment, if so what experiences
+- Is motion sickness prevalent in this environment, if so what experiences
   should we avoid to minimize motion sickness?
 - What are the possibilities and limitations in managing deviations from a
-  straight path? The cyclist must stay nomimally straight on the treadmill but
+  straight path? The cyclist must stay nominally straight on the treadmill but
   there are likely ways to simulate turning to some degree.
 - What types of real world cycling scenarios can we mimic in the VR
   environment?

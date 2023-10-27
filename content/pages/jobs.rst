@@ -76,13 +76,29 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Near Zero Speed Reaction Wheel Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-reaction-wheel-cargo-bicycle.rst>`_
+     - 2023-10-27
+     -
+     - Thesis
+   * - `Using Model Predictive Control to Assist in Bicycle Lane Changes <{filename}/pages/jobs/mpc-bicycle-assist-experiments.rst>`_
+     - 2023-10-27
+     - Laura Marchal-Crespo, Leila Alizadehsaravi
+     - Thesis
+   * - `Cycling in Virtual Reality <{filename}/pages/jobs/cycling-in-virtual-reality.rst>`_
+     - 2023-10-27
+     - Rado Dukalski
+     - Thesis
+   * - `Optimal Control of the Bicycle-Rider Human-Machine System <{filename}/pages/jobs/optimal-bicycle-rider.rst>`_
+     - 2023-10-27
+     -
+     - Thesis
    * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
      - 2023-08-22
-     -
+     - Christoph Schmidt
      - Thesis
    * - `Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors <{filename}/pages/jobs/bicycle-tire-force-estimation.rst>`_
      - 2022-09-08
-     -
+     - Gabriele Dell'Orto
      - Thesis
    * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
      - 2021-02-23
