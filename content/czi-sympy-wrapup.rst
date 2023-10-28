@@ -553,8 +553,8 @@ control results.
    :align: center
    :width: 80%
 
-   Figure 3: Lane change simulation created with BRiM showing without and
-   without a rider.
+   Figure 3: Lane change simulation created with BRiM showing with and without
+   a rider.
 
 - BRiM source code: https://github.com/TJStienstra/brim/
 - BRiM documentation: https://tjstienstra.github.io/brim/
@@ -656,16 +656,16 @@ https://github.com/brocksam/muscle-driven-bicycle-paper
 
 The need to evaluate both a function and its Jacobian is a common use case that
 is not just limited to optimal control problems like the one shown above. SymPy
-is capable of taking analytical derivatives but it can be prohibitory slow for
-large expressions. This limits interactive use and rapid iteration in equation
-derivation. If common sub-expressions are extracted from a SymPy expression,
-all operations are represented as a directed acyclic graph.  Taking the
-derivative of a DAG instead of a tree graph, as SymPy stores expressions, can
-provide exponential speedups to differentiation. If the code generation for the
-function and its Jacobian uses common sub-expression elimination, then it makes
-sense to call ``cse()`` on the function, then take the partial derivatives, and
-the Jacobian will be in a DAG form for easy code generation. Sam has
-introduced a major code generation speed up for lambdifying large SymPy
+is capable of taking analytical derivatives but it can be prohibitively slow
+for large expressions. This limits interactive use and rapid iteration in
+equation derivation. If common sub-expressions are extracted from a SymPy
+expression, all operations are represented as a directed acyclic graph.  Taking
+the derivative of a DAG instead of a tree graph, as SymPy stores expressions,
+can provide exponential speedups to differentiation. If the code generation for
+the function and its Jacobian uses common sub-expression elimination, then it
+makes sense to call ``cse()`` on the function, then take the partial
+derivatives, and the Jacobian will be in a DAG form for easy code generation.
+Sam has introduced a major code generation speed up for lambdifying large SymPy
 expressions if you also desire the Jacobian based on the work we did in opty.
 The details are  in the following pull requests:
 
