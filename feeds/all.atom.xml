@@ -442,8 +442,8 @@ package as well as demonstrating easily swapping models for comparable optimal
 control results.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/brim-lane-change.gif" style="width: 80%;" /&gt;
-&lt;p class="caption"&gt;Figure 3: Lane change simulation created with BRiM showing without and
-without a rider.&lt;/p&gt;
+&lt;p class="caption"&gt;Figure 3: Lane change simulation created with BRiM showing with and without
+a rider.&lt;/p&gt;
 &lt;/div&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;BRiM source code: &lt;a class="reference external" href="https://github.com/TJStienstra/brim/"&gt;https://github.com/TJStienstra/brim/&lt;/a&gt;&lt;/li&gt;
@@ -533,16 +533,16 @@ following repository:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/brocksam/muscle-driven-bicycle-paper"&gt;https://github.com/brocksam/muscle-driven-bicycle-paper&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The need to evaluate both a function and its Jacobian is a common use case that
 is not just limited to optimal control problems like the one shown above. SymPy
-is capable of taking analytical derivatives but it can be prohibitory slow for
-large expressions. This limits interactive use and rapid iteration in equation
-derivation. If common sub-expressions are extracted from a SymPy expression,
-all operations are represented as a directed acyclic graph.  Taking the
-derivative of a DAG instead of a tree graph, as SymPy stores expressions, can
-provide exponential speedups to differentiation. If the code generation for the
-function and its Jacobian uses common sub-expression elimination, then it makes
-sense to call &lt;tt class="docutils literal"&gt;cse()&lt;/tt&gt; on the function, then take the partial derivatives, and
-the Jacobian will be in a DAG form for easy code generation. Sam has
-introduced a major code generation speed up for lambdifying large SymPy
+is capable of taking analytical derivatives but it can be prohibitively slow
+for large expressions. This limits interactive use and rapid iteration in
+equation derivation. If common sub-expressions are extracted from a SymPy
+expression, all operations are represented as a directed acyclic graph.  Taking
+the derivative of a DAG instead of a tree graph, as SymPy stores expressions,
+can provide exponential speedups to differentiation. If the code generation for
+the function and its Jacobian uses common sub-expression elimination, then it
+makes sense to call &lt;tt class="docutils literal"&gt;cse()&lt;/tt&gt; on the function, then take the partial
+derivatives, and the Jacobian will be in a DAG form for easy code generation.
+Sam has introduced a major code generation speed up for lambdifying large SymPy
 expressions if you also desire the Jacobian based on the work we did in opty.
 The details are  in the following pull requests:&lt;/p&gt;
 &lt;ul class="simple"&gt;
