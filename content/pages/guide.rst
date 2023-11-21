@@ -334,7 +334,7 @@ Issue Trackers
    organization, and/or task control. General lab issues can be tracked in this
    repository (in addition to the website issues):
 
-   https://github.com/mechmotum/mechmotum.github.io
+   https://github.com/mechmotum/housekeeping
 
 Quarterly Blog Posts
    In general, we would like each project to write at least one blog post for
