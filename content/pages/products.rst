@@ -213,7 +213,13 @@ Presentations
 2023
 ----
 
-
+#. **J. K. Moore**, “Comparison of Electromechanical Means of Stabilizing a
+   Bicycle,” presented at the International Cycling Safety Conference, The
+   Hague, The Netherlands, Nov. 16, 2023.
+#. **G. Dell’Orto**, L. Alizadehsaravi, R. Happee, and J. K. Moore, “Kick-plate
+   test for assessing bicycle dynamics and tyre effect G. Dell’Orto1, L.
+   Alizadehsaravi1, R. Happee1, J. K. Moore1,” presented at the International
+   Cycling Safety Conference, The Hague, The Netherlands, Nov. 16, 2023.
 #. **T. J. Stienstra**, S. G. Brockie, and J. K. Moore, “BRiM: A Modular and
    Extensible Open-Source Framework for Creating Bicycle-Rider Models,” Bicycle
    and Motorcycle Dynamics 2023: Delft, The Netherlands, May 01, 2023.
