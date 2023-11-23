@@ -11,19 +11,41 @@ Products
 Journal Articles
 ================
 
+Under Review
+------------
+
+#. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
+   “Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
+   Geometry Using Direct Collocation,” Sports Engineering (Under Review), 2023.
+#. G. Dell’Orto, G. Mastinu, R. Happee, and J. K. Moore, “Measurement of
+   lateral characteristics and identification of Magic Formula parameters of
+   city and cargo bicycle tyres,” Vehicle System Dynamics (Under Review), 2023.
+#. A. Singh, H. Vreman, A. Dressel, and J. K. Moore, “Bicycle Disc Brake Noise
+   Analysis and Mitigation,” Journal of Vibration and Control (Under Review),
+   2023.
+
+2023
+----
+
+#. L. Alizadehsaravi and J. K. Moore, “Bicycle balance assist system reduces
+   roll and steering motion for young and older bicyclists during real-life
+   safety challenges,” PeerJ, vol. 11, p. e16206, Oct. 2023,
+   https://doi.org/10.7717/peerj.16206.
+
 2020
 ----
 
 #. X. Qian, J. K. Moore, and D. Niemeier, "Predicting Bicycle Pavement Ride
    Quality: Sensor-based Statistical Model," Journal of Infrastructure Systems,
-   vol. 26, no. 3, p. 04020033, 2020, doi: 10.1061/(ASCE)IS.1943-555X.0000571.
+   vol. 26, no. 3, p. 04020033, 2020,
+   https://doi.org/10.1061/(ASCE)IS.1943-555X.0000571.
 
 2019
 ----
 
 #. B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
    competitive rowing kinematic metrics," PLOS ONE, vol. 14, no. 12, p.
-   e0225690, Dec. 2019, doi: https://doi.org/10.1371/journal.pone.0225690.
+   e0225690, Dec. 2019, https://doi.org/10.1371/journal.pone.0225690.
 
 2018
 ----
@@ -48,6 +70,24 @@ Journal Articles
 
 Conference Proceedings
 ======================
+
+2023
+----
+
+#. T. J. Stienstra, S. G. Brockie, and J. K. Moore, “BRiM: A modular
+   bicycle-rider modeling framework,” presented at the Bicycle and Motorcycle
+   Dynamics 2023, Delft, The Netherlands: TU Delft OPEN Publishing, Oct. 2023.
+   https://doi.org/10.59490/6504c5a765e8118fc7b106c3.
+#. C. M. Schmidt, A. Dabiri, F. Schulte, R. Happee, and J. Moore, “Essential
+   bicycle dynamics for microscopic traffic simulation: An example using the
+   social force model,” presented at the Bicycle and Motorcycle Dynamics 2023,
+   Delft, The Netherlands: TU Delft OPEN Publishing, 2023.
+   https://doi.org/10.59490/65037d08763775ba4854da53.
+#. A. Dressel and J. K. Moore, “Adapting a variable stability mechanism for a
+   tilting tricycle from the delta to the tadpole wheel configuration,”
+   presented at the Bicycle and Motorcycle Dynamics 2023, Delft, The
+   Netherlands: TU Delft OPEN Publishing, 2023.
+   https://doi.org/10.59490/650479434cc364571baa0cfc.
 
 2019
 ----
@@ -81,13 +121,17 @@ Conference Proceedings
 Preprints
 =========
 
+#. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
+   “Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
+   Geometry Using Direct Collocation.” engrXiv, Aug. 14, 2023.
+   https://doi.org/10.31224/3171.
 #. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
    motion for young and old bicyclists during real-life safety challenges",
    Feb. 2023. https://doi.org/10.31224/2825
 #. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
    Marchal-Crespo, “Model Predictive Control-based haptic steering assistance
    to enhance motor learning of a bicycling task: A pilot study.” Engineering
-   Archive, Feb. 04, 2023. doi: 10.31224/2811.
+   Archive, Feb. 04, 2023. https://doi.org/10.31224/2811.
 #. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
    of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
    2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
@@ -156,7 +200,7 @@ Books
 =====
 
 #. Moore, Jason K., "Learn Multibody Dynamics", 2022,
-   https://moorepants.github.io/learn-multibody-dynamics, *--Draft*
+   https://moorepants.github.io/learn-multibody-dynamics
 #. Barba, Lorena A., et. al, "Teaching and Learning with Jupyter", 2018,
    https://jupyter4edu.github.io/jupyter-edu-book *--Draft*
 #. Moore, Jason K. and Kenneth Lyons. "Resonance: Learning Mechanical Vibration
@@ -169,6 +213,28 @@ Presentations
 2023
 ----
 
+
+#. **T. J. Stienstra**, S. G. Brockie, and J. K. Moore, “BRiM: A Modular and
+   Extensible Open-Source Framework for Creating Bicycle-Rider Models,” Bicycle
+   and Motorcycle Dynamics 2023: Delft, The Netherlands, May 01, 2023.
+#. **C. M. Schmidt**, A. Dabiri, F. Schulte, R. Happee, and J. K. Moore, “Essential
+   Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the
+   Social Force Model,” Bicycle and Motorcycle Dynamics 2023: Delft, The
+   Netherlands, May 01, 2023.
+#. **J. K. Moore**, J. Koshy Cherian, B. Andersson, O. Lee, and A. Ranheim,
+   “Modeling and Implementation of a Reaction Wheel Stabilization System for
+   Low Speed Balance of a Cargo Bicycle,” presented at the Bicycle and
+   Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
+   Netherlands, May 01, 2023. [Online]. Available:
+   https://doi.org/10.24404/63ff23b478f53b9c419075b9
+#. **A. Dressel**, F. van Willigen, and J. K. Moore, “Evaluating the handling of a
+   tilting tricycle with variable stability,” presented at the Bicycle and
+   Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
+   Netherlands, May 01, 2023.
+#. **A. Dressel** and J. K. Moore, “Adapting a variable stability mechanism for a
+   tilting tricycle from the delta to the tadpole wheel configuration,”
+   presented at the Bicycle and Motorcycle Dynamics 2023, Bicycle and
+   Motorcycle Dynamics 2023: Delft, The Netherlands, May 01, 2023.
 #. **C. M. Schmidt**, “Connected Traffic of Vulnerable Bicyclists and Automated
    Vehicles,” presented at the SUMO User Conference, Berlin, Germany, Berlin,
    Germany, May 02, 2023.
@@ -202,17 +268,13 @@ Presentations
 2019
 ----
 
-#. B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
-   competitive rowing kinematic metrics," submitted to the XXVII Congress of
-   the International Society of Biomechanics & 43rd Annual Meeting of the
-   American Society of Biomechanics, Calgary, Canada, 2019.
 #. C. Liang, X. L. Chen, T. Kumar, H. Huang, and J. K. Moore, “What to do when
    chicks go bad in your flock: JupyterHub on Bare Metal with Kubernetes,”
    presented at the SacPy, Sacramento, CA, USA, Nov. 14, 2019. [Online].
    Available: https://tinyurl.com/sacpy-jupy
-#. Metz, Trevor; Moore, Jason K. (2019): Design of an Electric Bicycle Speed
-   Controller. Symposium on the Dynamics and Control of Single Track Vehicles.
-   Poster. https://doi.org/10.6084/m9.figshare.9883154.v1
+#. **Metz, Trevor**; Moore, Jason K. (2019): Design of an Electric Bicycle
+   Speed Controller. Symposium on the Dynamics and Control of Single Track
+   Vehicles.  Poster. https://doi.org/10.6084/m9.figshare.9883154.v1
 
 2018
 ----
@@ -308,11 +370,11 @@ Data
 ====
 
 #. G. Dell’Orto, J. K. Moore, G. Mastinu, and R. Happee, “Magic Formula
-   Parameters - Bicycle Tyres.” Zenodo, May 10, 2023. doi:
-   10.5281/zenodo.7920415.
+   Parameters - Bicycle Tyres.” Zenodo, May 10, 2023.
+   https://doi.org/10.5281/zenodo.7920415.
 #. G. Dell’Orto, J. K. Moore, G. Mastinu, and R. Happee, “Bicycle Tyre Data -
-   Lateral Characteristics.” Zenodo, Apr. 26, 2023. doi:
-   10.5281/zenodo.7866646.
+   Lateral Characteristics.” Zenodo, Apr. 26, 2023.
+   https://doi.org/10.5281/zenodo.7866646.
 #. Moore, Jason K.; Hubbard, Mont (2019): Accompanying Raw Data for the Paper:
    Adaptive smartphone-based sensor fusion for estimating competitive rowing
    kinematic metrics. figshare. Dataset.
@@ -343,18 +405,15 @@ Grant Proposals
 ===============
 
 #. Meurer, Aaron; Moore, Jason K.; Benjamin, Oscar (2021): SymPy CZI EOSS Round
-   4 Application.pdf. figshare. Online resource.
-   https://doi.org/10.6084/m9.figshare.16590053.v1
+   4 Application.pdf.  https://doi.org/10.6084/m9.figshare.16590053.v1
 #. Moore, Jason K. (2017): Influence of Culture on  Mechanical Design: A
    Proposal For an Undergraduate Exchange and Design Competition Between
-   Japanese and American Students. figshare. Journal contribution.
+   Japanese and American Students.
    https://doi.org/10.6084/m9.figshare.5656105.v1
 #. Moore, Jason K.; Lyons, Kenneth (2017): Development of an Interactive
    Textbook Backed by Cloud Infrastructure to Pilot Active Computational
    Learning in an Upper Level Mechanical Vibrations Engineering Course.
-   figshare. Journal contribution.
    https://doi.org/10.6084/m9.figshare.5229886.v1
 #. Moore, Jason K. (2014): Identification of closed-loop human locomotion
    control with perturbed walking and running data under the constraints of a
-   biologically actuated plant. figshare. Journal contribution.
-   https://doi.org/10.6084/m9.figshare.1137192.v2
+   biologically actuated plant.  https://doi.org/10.6084/m9.figshare.1137192.v2
