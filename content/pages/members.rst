@@ -29,18 +29,13 @@ Postdoctoral Researchers
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-brockie-sam|
-     - | **Dr. Sam Brockie** [TUD, Sep 2022-present]
-       | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
-     - |headshot-alizadehsaravi-leila|
+   * - |headshot-alizadehsaravi-leila|
      - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-present]
        | *Safety Evaluation of a Steer Assist Bicycle*
+     -
+     -
 
 .. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-brockie-sam| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-brockie-sam.jpg
    :width: 100px
    :height: 133px
 
@@ -55,7 +50,7 @@ PhD Candidates
 
    * - |headshot-dell-orto-gabriele|
      - | **Gabriele Dell'Orto** [TUD, January 2023-present]
-       |
+       | *Effects of tire properties on bicycle dynamics*
      - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
        | *Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated Vehicles*
@@ -139,16 +134,24 @@ Past
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-dressel-andrew|
+   * - |headshot-brockie-sam|
+     - | **Dr. Sam Brockie** [TUD, Sep 2022-Oct 2023]
+       | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
+     - |headshot-dressel-andrew|
      - | **Dr. Andrew Dressel** [TUD, Apr 2022-Apr 2023]
        | *Stable Tilting Tricycle & Next Gen Tire Tester*
-     -
-     -
+
+.. |headshot-brockie-sam| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-brockie-sam.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
    :width: 100px
    :height: 133px
 
+**PhD Candidates**
+
+- **Jules Ronné**  [Univeristy of Gustave Eiffel Lyon, Oct 2023-Nov 2023]
 
 **Masters of Science Students**
 
