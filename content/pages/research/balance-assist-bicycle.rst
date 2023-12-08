@@ -29,12 +29,16 @@ reduce the chances of falling in hazardous situations. Our first study shows
 that riders use less steering and have less rolling motions when the steering
 motor control is activated [2]_.
 
-Below is a video that demonstrates the bicycle's ability to stabilize itself:
+Below are videos that demonstrate the bicycle's ability to stabilize itself:
 
 .. raw:: html
 
    <center>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/pjKYDhkBMX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </center>
+   <br>
+   <center>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/RicK8H2Ar2U?si=ZMBjSskp2z9MV2NX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </center>
 
 Funding
