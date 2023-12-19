@@ -45,6 +45,11 @@ Conference Presentations
   presented at the Dutch Biomedical Engineering Conference, Dutch Biomedical
   Engineering Conference: Egmond an Zee, The Netherlands, Jan. 26, 2023.
 
+Software
+
+- https://github.com/mechmotum/ollie-optimization
+- https://github.com/brocksam/pycollo
+
 Media
 =====
 
