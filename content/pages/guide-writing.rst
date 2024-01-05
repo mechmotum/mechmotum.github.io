@@ -163,11 +163,19 @@ distract the reader from your main points, e.g. model description, but if the
 reader questions your stiffness values they can then read the appendix to see
 how you arrived at the values.
 
-Referencing commerical equipment
+Referencing commercial equipment
 --------------------------------
 
 I applied a 6 hz Butterworth low pass filter to the signal using the
-``butter()`` function avaialble in Matlab 2019a (Natick, USA).
+``butter()`` function available in Matlab 2019a (Natick, USA).
+
+File size
+---------
+
+There is little reason for the PDF of a thesis to be larger than 10 Mb. If your
+document is larger than 10 Mb then you have most likely embedded images that
+are much too large. Reduce the size of images before embedding. A 300 dpi image
+that fits on an A4 page should only be a few hundred kilobytes.
 
 Style
 =====
