@@ -108,7 +108,7 @@ process applications sent by email and/or post.
 Visit TU Delft's website to find more employment details and apply for the
 position (vacancy number: TUD04370):
 
-https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=4857&nPostingTargetId=13952&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&languageSelect=UK&mask=external
+https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=15846
 
 In the online application you will need to supply these things:
 
@@ -119,7 +119,7 @@ In the online application you will need to supply these things:
 
 A pre-employment screening can be part of the selection procedure.
 
-**Applications Due October 20, 2023**
+**Applications Due January 19, 2024**
 
 Additional information
 ======================

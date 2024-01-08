@@ -89,7 +89,7 @@ position (vacancy number: TUD04759):
 
 https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details/?nPostingId=5301&nPostingTargetId=15445&id=QEZFK026203F3VBQBLO6G68W9&LG=UK&languageSelect=UK&mask=external
 
-Apply by **January 14, 2024** and include:
+Apply by **January 31, 2024** and include:
 
 - a letter of motivation explaining why you are the right candidate for this job,
 - a detailed CV,
