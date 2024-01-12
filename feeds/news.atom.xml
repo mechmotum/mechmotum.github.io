@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-01-09T05:06:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Marten Haitjema Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/marten-haitjema-graduates.html" rel="alternate"></link><published>2024-01-09T05:06:00-08:00</published><updated>2024-01-09T05:06:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-01-09:/blog/marten-haitjema-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-01-12T06:09:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Kirsten Dijkman Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-kirsten-dijkman.html" rel="alternate"></link><published>2024-01-12T06:09:00-08:00</published><updated>2024-01-12T06:09:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-01-12:/blog/msc-graduation-kirsten-dijkman.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dijkman.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-dijkman-kirsten.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Kirsten Dijkman successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:7d45c36f-5df4-46bf-a526-b3f28a4a9fab"&gt;Impact of bicycle tire parameters on
+the total rolling losses&lt;/a&gt;&amp;quot; on
+January 11, 2024. Kirsten executed three experiments to investigate all aspects
+of forward motion energy losses due to the bicycle-rider system rolling on
+different road surfaces. She first characterized the tire contact patch for a …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dijkman.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-dijkman-kirsten.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Kirsten Dijkman successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:7d45c36f-5df4-46bf-a526-b3f28a4a9fab"&gt;Impact of bicycle tire parameters on
+the total rolling losses&lt;/a&gt;&amp;quot; on
+January 11, 2024. Kirsten executed three experiments to investigate all aspects
+of forward motion energy losses due to the bicycle-rider system rolling on
+different road surfaces. She first characterized the tire contact patch for a
+set of modern tubular and tubeless racing tires, finding that tire carcass
+diameter had no effect on contact patch length and that inflation pressure (in
+the range tested) had no effect on contact patch width, but tire type and
+vertical load all correlate to contact patch dimensions. She then tested these
+tires for rolling resistance on a traditional drum testing machine and found
+that all testing variables (tire dimensions, pressure, load, and rolling speed)
+predict rolling resistance. Tubeless tires have more rolling resistance than
+tubular and rolling resistance decreases with increasing inflation pressure and
+decreasing speed. In the third experiment, Kirsten developed a
+first-of-its-kind trailer to create a windless environment for a cyclist to
+travel over any road surface which we named &amp;quot;De Veeger&amp;quot;.  She then measured
+rider input power over smooth asphalt and bumpier bricks to characterize the
+total rolling losses due to both the tire properties and the vibrational
+damping losses in the bicycle, suspension, and rider. This revealed a clear
+dependence on road surface type and travel speed: bricks and higher speeds
+causing more rolling energy loss. However, the input power estimates were not
+precise enough to show any effect of tire properties on the total rolling
+losses, which leaves room for future improvements to the measurement system.&lt;/p&gt;
+&lt;center&gt;
+&lt;iframe width="560" height="315"
+src="https://www.youtube.com/embed/685I6pjQcfw?si=-uKNN13BkDehnaQ6"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;p&gt;Kirsten was co-supervised by Andrew Dressel (TU Delft &amp;amp; University of
+Wisconsin, Milwaukee), Harm Ubbens (Team DSM), Piet Rooijakkers (Team DSM), and
+Jason K. Moore (TU Delft). Thanks to Jan van Frankenhuyzen, the ME workshop,
+and Dijkman Carbaat Bouw for all the help. Everyone at the bicycle lab is very
+proud of Kirsten and wishes her the best in her next adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category><category term="sports"></category><category term="tires"></category><category term="rolling resistance"></category></entry><entry><title>Marten Haitjema Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/marten-haitjema-graduates.html" rel="alternate"></link><published>2024-01-09T05:06:00-08:00</published><updated>2024-01-09T05:06:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-01-09:/blog/marten-haitjema-graduates.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
