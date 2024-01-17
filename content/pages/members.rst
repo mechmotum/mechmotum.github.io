@@ -88,21 +88,12 @@ Masters of Science Students
      - | **Thomas Habing** [TUD, May 2023-present]
        | *Muscle Vibration Effects in Indoor Cycling*
    * - |headshot-missing|
-     - | **Marten Haitjema** [TUD, Jan 2023-present]
-       | *Quantifying Fall Reduction with a Balance Assist Bicycle*
-     - |headshot-dijkman-kirsten|
-     - | **Kirsten Dijkman** [TUD, Dec 2022-present]
-       | *Measuring Rolling Impedance in Road Cycling*
-   * - |headshot-missing|
      - | **Kenneth Pasma** [TUD, Oct 2022-present]
        | *Robotic Bicycle Control*
      -
      -
-.. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
-   :width: 100px
-   :height: 133px
 
-.. |headshot-dijkman-kirsten| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dijkman-kirsten.jpg
+.. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
    :width: 100px
    :height: 133px
 
@@ -115,8 +106,9 @@ Research Assistants
    :widths: 10 40 10 40
    :align: center
 
-   * -
-     -
+   * - |headshot-missing|
+     - | **Marten Haitjema** [TUD, Jan 2023-present]
+       | *Quantifying Fall Reduction with a Balance Assist Bicycle*
      -
      -
 
@@ -170,6 +162,18 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Kirsten Dijkman
+     - TUD
+     - Dec 2022-Jan 2024
+     - `Impact of bicycle tire parameters on the total rolling losses
+       <http://resolver.tudelft.nl/uuid:7d45c36f-5df4-46bf-a526-b3f28a4a9fab>`_
+     - `A. Dressel, H. Ubbens, P. Rooijakkers, J. K. Moore`
+   * - Marten Haitjema
+     - TUD
+     - Jan 2023-Dec 2023
+     - `Estimating fall probability in cycling
+       <http://resolver.tudelft.nl/uuid:b7a3ff8d-de2b-47ee-ac05-61c34c1eac23>`_
+     - `L. Alizadehsaravi, J. K. Moore`
    * - Timo Stienstra
      - TUD
      - Jun 2022-Aug 2023
