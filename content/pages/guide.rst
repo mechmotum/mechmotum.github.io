@@ -1015,3 +1015,6 @@ Random TU Delft Tips
 
   - URI found on https://linuxprint.tudelft.nl/driverprint.cfm which looks like ipps://linuxprint.tudelft.nl:443/ipp/r/...
   - And then download this PPD file: https://webprint.tudelft.nl/install/linux/xrxC8035.ppd
+
+- You can run a Jupyter instance on DelftBlue https://doc.dhpc.tudelft.nl/delftblue/howtos/jupyter/
+- The IMPhys department has a systems manual for many compute tasks on campus https://qiweb.tudelft.nl/sysman/index.html
