@@ -74,6 +74,19 @@ Media
 
    Screenshot of the ski jump design web application.
 
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/IpJ7-MpHps4?si=GYD91jWC4Km5F931"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+   allowfullscreen></iframe>
+   <p>Prinoth advertisement video that features TU Delft student Jan van der
+   Schot during his internship working with the flight trajectory design
+   tools.</p>
+   </center>
+
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-constant-efh-jump.jpg
    :width: 60%
    :align: center
