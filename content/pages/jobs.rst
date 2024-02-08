@@ -76,6 +76,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Explosive Power in BMX Cycling <{filename}/pages/jobs/visser-bmx.rst>`_
+     - 2024-02-08
+     - Peter Visser
+     - Internship & Thesis
    * - `Near Zero Speed Reaction Wheel Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-reaction-wheel-cargo-bicycle.rst>`_
      - 2023-10-27
      -
