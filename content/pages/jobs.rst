@@ -1,6 +1,8 @@
-====
-Jobs
-====
+=========
+Positions
+=========
+
+:slug: jobs
 
 :sortorder: 4
 
