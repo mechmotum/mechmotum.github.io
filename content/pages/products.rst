@@ -16,7 +16,7 @@ Under Review
 
 #. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
    “Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
-   Geometry Using Direct Collocation,” Sports Engineering (Under Review), 2023.
+   Geometry Using Direct Collocation,” Sports Engineering (Accepted), 2023.
 #. G. Dell’Orto, G. Mastinu, R. Happee, and J. K. Moore, “Measurement of
    lateral characteristics and identification of Magic Formula parameters of
    city and cargo bicycle tyres,” Vehicle System Dynamics (Under Review), 2023.
@@ -140,19 +140,38 @@ Preprints
    fusion for estimating competitive rowing kinematic metrics.
    https://doi.org/10.31224/osf.io/nykuh
 
-Reports
-=======
-
-#. Moritzburke, Molly; Toribio, Anthony; Yang, Shizhao; Kubicki, Stasia (2020):
-   Optimal Handling Bicycle: Final Design. figshare. Preprint.
-   https://doi.org/10.6084/m9.figshare.12833933.v1
-
 Theses
 ======
+
+2024
+----
+
+#. K. Dijkman, “Impact of bicycle tire parameter on the total rolling losses,”
+   MSc, Delft University of Technology, Delft, The Netherlands, 2024.
+   https://repository.tudelft.nl/islandora/object/uuid%3A7d45c36f-5df4-46bf-a526-b3f28a4a9fab
 
 2023
 ----
 
+#. M. Haitjema, “Estimating fall probability in cycling: Prediction of the
+   effectiveness of a balance-assist bicycle in reducing falls,” MSc, Delft
+   University of Technology, Delft, The Netherlands, 2023.
+   https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23
+#. T. Stienstra, “BRiM: A Modular Bicycle-Rider Modeling Framework,” MSc, Delft
+   University of Technology, Delft, The Netherlands, 2023.
+   https://repository.tudelft.nl/islandora/object/uuid%3Aa2b132e9-8d38-4553-8587-0c9e3341b202
+#. J. van Vlerken, “The influence of posture and stature on bicycle handling
+   qualities,” MSc, Delft University of Technology, Delft, The Netherlands,
+   2023.
+   https://repository.tudelft.nl/islandora/object/uuid%3A3c71bc50-c6d0-4963-a3d2-5a1548f92786
+#. J. van der Schot, “The Relationship between Equivalent Fall Height and
+   Ground Reaction Force in Freestyle Ski Jumping,” MSc, Delft University of
+   Technology, Delft, The Netherlands, 2023.
+   https://repository.tudelft.nl/islandora/object/uuid%3A98476791-40be-4ee5-ab3a-3f1a9d5e63cb
+#. F. van Willigen, “Evaluation of the handling of a variable dynamics tilting
+   tricycle: A novel handling assessment method,” MSc, Delft University of
+   Technology, Delft, The Netherlands, 2023.
+   https://repository.tudelft.nl/islandora/object/uuid%3A3e68f4f0-80f0-4be5-9914-ba2fccefe631
 #. J. Keijser, “Investigating the Theoretical Feasibility of Longitudinal
    Motion Control in Indoor Cycling Trainers,” MSc, Delft University of
    Technology, 2023. Available:
@@ -196,16 +215,12 @@ Theses
    Irrigation Pump for Small-Scale African Farmers", MSc Thesis, University of
    California, Davis, 2018. https://doi.org/10.6084/m9.figshare.6378401.v2
 
-Books
-=====
+Reports
+=======
 
-#. Moore, Jason K., "Learn Multibody Dynamics", 2022,
-   https://moorepants.github.io/learn-multibody-dynamics
-#. Barba, Lorena A., et. al, "Teaching and Learning with Jupyter", 2018,
-   https://jupyter4edu.github.io/jupyter-edu-book *--Draft*
-#. Moore, Jason K. and Kenneth Lyons. "Resonance: Learning Mechanical Vibration
-   Engineering Through Computation" (2018)
-   https://moorepants.github.io/resonance *--Draft*
+#. Moritzburke, Molly; Toribio, Anthony; Yang, Shizhao; Kubicki, Stasia (2020):
+   Optimal Handling Bicycle: Final Design. figshare. Preprint.
+   https://doi.org/10.6084/m9.figshare.12833933.v1
 
 Presentations
 =============
@@ -422,4 +437,4 @@ Grant Proposals
    https://doi.org/10.6084/m9.figshare.5229886.v1
 #. Moore, Jason K. (2014): Identification of closed-loop human locomotion
    control with perturbed walking and running data under the constraints of a
-   biologically actuated plant.  https://doi.org/10.6084/m9.figshare.1137192.v2
+   biologically actuated plant. https://doi.org/10.6084/m9.figshare.1137192.v2
