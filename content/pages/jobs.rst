@@ -37,10 +37,7 @@ page`_, `Academic Transfer`_ [#]_, and/or `this lab website
 Current openings
 ----------------
 
-- `PhD Opening: Discovering the Mechanisms that Cause Bicycle Crashes Through
-  The Merger of Video and Computational Modeling
-  <{filename}/bicycle-crashes-phd-ad.rst>`_, **Applications due October
-  20, 2023**
+None
 
 Master's Students
 =================
@@ -82,13 +79,9 @@ in finding students for [#]_:
      - 2024-02-08
      - Peter Visser
      - Internship & Thesis
-   * - `Near Zero Speed Reaction Wheel Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-reaction-wheel-cargo-bicycle.rst>`_
-     - 2023-10-27
-     -
-     - Thesis
    * - `Using Model Predictive Control to Assist in Bicycle Lane Changes <{filename}/pages/jobs/mpc-bicycle-assist-experiments.rst>`_
      - 2023-10-27
-     - Laura Marchal-Crespo, Leila Alizadehsaravi
+     - Laura Marchal-Crespo, Riender Happee
      - Thesis
    * - `Cycling in Virtual Reality <{filename}/pages/jobs/cycling-in-virtual-reality.rst>`_
      - 2023-10-27
@@ -97,10 +90,6 @@ in finding students for [#]_:
    * - `Optimal Control of the Bicycle-Rider Human-Machine System <{filename}/pages/jobs/optimal-bicycle-rider.rst>`_
      - 2023-10-27
      -
-     - Thesis
-   * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
-     - 2023-08-22
-     - Christoph Schmidt
      - Thesis
    * - `Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors <{filename}/pages/jobs/bicycle-tire-force-estimation.rst>`_
      - 2022-09-08
@@ -150,6 +139,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
+     - 2023-08-22
+     - Christoph Schmidt, Riender Happee
+     - Anna Marbus
+   * - `Near Zero Speed Reaction Wheel Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-reaction-wheel-cargo-bicycle.rst>`_
+     - 2023-10-27
+     - Oliver Lee, Björn Andersson
+     - Bart de Vries
    * - `Squiggly Bicycle Routes <{filename}/pages/jobs/squiggly-bicycle-routes.rst>`_
      - 2020-09-10
      - Ted Buehler (Portland, USA)
