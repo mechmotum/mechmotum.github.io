@@ -14,15 +14,23 @@ Journal Articles
 Under Review
 ------------
 
-#. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
-   “Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
-   Geometry Using Direct Collocation,” Sports Engineering (Accepted), 2023.
+#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, “Enhancing Motor Learning in Cycling Tasks: The Role of
+   Model Predictive Control and Training Sequence.”, BioRab Conference 2024.
 #. G. Dell’Orto, G. Mastinu, R. Happee, and J. K. Moore, “Measurement of
    lateral characteristics and identification of Magic Formula parameters of
    city and cargo bicycle tyres,” Vehicle System Dynamics (Under Review), 2023.
 #. A. Singh, H. Vreman, A. Dressel, and J. K. Moore, “Bicycle Disc Brake Noise
    Analysis and Mitigation,” Journal of Vibration and Control (Under Review),
    2023.
+
+2024
+----
+
+#. Heinen, J.T., Brockie, S.G., ten Broek, R. et al. Maximizing ollie height by
+   optimizing control strategy and skateboard geometry using direct
+   collocation. Sports Eng 27, 8 (2024).
+   https://doi.org/10.1007/s12283-023-00448-y
 
 2023
 ----
@@ -121,6 +129,10 @@ Conference Proceedings
 Preprints
 =========
 
+#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
+   Model Predictive Control and Training Sequence." Engineering Archive, Feb.
+   29, 2024. https://doi.org/10.31224/3572.
 #. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
    “Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
    Geometry Using Direct Collocation.” engrXiv, Aug. 14, 2023.

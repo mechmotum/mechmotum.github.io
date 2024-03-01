@@ -22,9 +22,10 @@ Associated Research Products
 
 Journal Articles
 
-- J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
-  "Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
-  Geometry Using Direct Collocation," Sports Engineering (Accepted), 2023.
+- Heinen, J.T., Brockie, S.G., ten Broek, R., van der Kruk, E., & Moore, J.K.,
+  "Maximizing ollie height by optimizing control strategy and skateboard
+  geometry using direct collocation", Sports Engineering 27, 8 (2024),
+  https://doi.org/10.1007/s12283-023-00448-y
 
 Theses
 
