@@ -3,6 +3,7 @@ Products
 ========
 
 :sortorder: 3
+:template: bibliography
 
 .. contents:: Table of Contents
    :local:

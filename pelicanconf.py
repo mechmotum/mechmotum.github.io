@@ -84,4 +84,5 @@ EXCLUDED_CATEGORIES = []
 
 ## PLUGINS
 
-PLUGINS = ['render_math', 'extract_toc']
+PLUGINS = ['render_math', 'extract_toc', 'pelican.plugins.bibliography']
+THEME_TEMPLATES_OVERRIDES = ['templates']

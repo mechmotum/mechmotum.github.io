@@ -1,0 +1,5 @@
+===
+Bib
+===
+
+:template: bibliography
