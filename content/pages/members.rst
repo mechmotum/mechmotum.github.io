@@ -4,6 +4,9 @@ Members
 
 :sortorder: 1
 
+.. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
+   :width: 100px
+
 Principal Investigators
 =======================
 
@@ -23,21 +26,7 @@ Principal Investigators
 Postdoctoral Researchers
 ========================
 
-.. list-table::
-   :class: borderless
-   :width: 100%
-   :widths: 10 40 10 40
-   :align: center
-
-   * - |headshot-alizadehsaravi-leila|
-     - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-present]
-       | *Safety Evaluation of a Steer Assist Bicycle*
-     -
-     -
-
-.. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
-   :width: 100px
-   :height: 133px
+None
 
 PhD Candidates
 ==============
@@ -81,17 +70,24 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-soethout-sietse|
+   * - |headshot-missing|
+     - | **Anna Marbus** [TUD, Feb 2024-present]
+       | *Experiments with Cyclist Social Forces for Microscopic Traffic Simulation*
+     - |headshot-missing|
+     - | **Sara Youngblood** [TUD, Jan 2024-present]
+       | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
+   * - |headshot-missing|
+     - | **Bart de Vries** [TUD, Jan 2024-present]
+       | *Near Zero Speed Reaction Wheel Balanced Cargo Bicycles*
+     - |headshot-soethout-sietse|
      - | **Sietse Soethout** [TUD, Jul 2023-present]
        | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Thomas Habing** [TUD, May 2023-present]
        | *Muscle Vibration Effects in Indoor Cycling*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Kenneth Pasma** [TUD, Oct 2022-present]
        | *Robotic Bicycle Control*
-     -
-     -
 
 .. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
    :width: 100px
@@ -99,21 +95,6 @@ Masters of Science Students
 
 Research Assistants
 ===================
-
-.. list-table::
-   :class: borderless
-   :width: 100%
-   :widths: 10 40 10 40
-   :align: center
-
-   * - |headshot-missing|
-     - | **Marten Haitjema** [TUD, Jan 2023-present]
-       | *Quantifying Fall Reduction with a Balance Assist Bicycle*
-     -
-     -
-
-.. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
-   :width: 100px
 
 Past
 ====
@@ -126,12 +107,21 @@ Past
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-brockie-sam|
+   * - |headshot-alizadehsaravi-leila|
+     - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-Feb 2024]
+       | *Safety Evaluation of a Steer Assist Bicycle*
+     - |headshot-brockie-sam|
      - | **Dr. Sam Brockie** [TUD, Sep 2022-Oct 2023]
        | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
-     - |headshot-dressel-andrew|
+   * - |headshot-dressel-andrew|
      - | **Dr. Andrew Dressel** [TUD, Apr 2022-Apr 2023]
        | *Stable Tilting Tricycle & Next Gen Tire Tester*
+     -
+     -
+
+.. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-brockie-sam| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-brockie-sam.jpg
    :width: 100px
@@ -280,6 +270,7 @@ https://repository.tudelft.nl.
      - `J. K. Moore`
 
 Research Assistants
+   - Marten Haitjema [TUD, Jan 2023-Feb 2023]
    - Zhengyang Lu [TUD, Nov 2022-Feb 2023]
    - Tim Stewart [UCD, Dec 2020-Sep 2021]
    - Lyla Sanders [UCD, Jan 2020-Sep 2021]
