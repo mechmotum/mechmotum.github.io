@@ -27,12 +27,9 @@ Sub-Guides
 Getting Started
 ===============
 
-- Join the lab communication channels:
-
-  - Ask Jason <j.k.moore@tudelft.nl> to add you to the lab `email list`_.
-  - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's element/matrix
-    chat room.
-
+- Join the lab communication channels: Ask Jason <j.k.moore@tudelft.nl> to add
+  you to the lab `email list`_ and someone in the lab how to join the lab's
+  element/matrix chat room.
 - Send an introduction email to the lab email list
   (mechmotum@googlegroups.com): who you are, a bit about yourself, what you
   will work on, etc.
@@ -44,13 +41,15 @@ Getting Started
 - Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
   the calendar invite with the video chat link.
 - Send out an AIO (see below) before your regular mentor meetings if requested
-  by your supervisors.
+  by your supervisor(s).
 - Get campus card access to the bicycle lab and bicycle lab storage (if
-  needed). These can be requested from Jason. Ask for a tour of the space from
-  a current lab member before you start working there.
+  needed). These can be requested from Jason by sending him an email with your
+  student ID number, TU Delft email address, and expected duration of access.
+  Ask for a tour of the space from a current lab member before you start
+  working there.
 - Request access to the lab's shared Google Drive from Jason.
-- We have the optional "Cheese for Thought" lunch every Thursday at 12:00, meet
-  at the lab. This is a chance to discuss topics informally.
+- We have the optional "Cheese for Thought" lunch every Wednesday at 12:00,
+  meet at the lab. This is a chance to discuss topics informally.
 - Every other week (opposite lab meeting weeks) we go for snacks and drinks in
   Delft on Fridays @ 17:00.
 - See the `recommended reading list <#recommended-reading>`_ below for some
