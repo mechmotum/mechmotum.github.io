@@ -29,7 +29,8 @@ Getting Started
 
 - Join the lab communication channels: Ask Jason <j.k.moore@tudelft.nl> to add
   you to the lab `email list`_ and someone in the lab how to join the lab's
-  element/matrix chat room.
+  element/matrix chat room or read the instrutions in the Google Drive "How to
+  join the Element/Matrix chat room".
 - Send an introduction email to the lab email list
   (mechmotum@googlegroups.com): who you are, a bit about yourself, what you
   will work on, etc.
