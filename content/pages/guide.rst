@@ -902,11 +902,11 @@ for all lab members to read.
 Introduction to Bicycle Science
 -------------------------------
 
-Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
-   Science of competitive cycling.
 David G. Wilson, Bicycling Science, 3rd ed. MIT Press, 2004.
    Bicycling Science is the authoritative introduction text to the science and
    engineering of bicycles.
+Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
+   Science of competitive cycling.
 
 Introduction to Bicycle Dynamics
 --------------------------------
@@ -995,6 +995,9 @@ Open Science
 
 Markowetz, F. Five selfish reasons to work reproducibly. Genome Biol 16, 274 (2015). https://doi.org/10.1186/s13059-015-0850-7
    Five clear and compelling reasons for making your research reproducible.
+Carpentries, "Good Enough Practices in Scientific Computing" https://carpentries-lab.github.io/good-enough-practices/
+   Lesson that gives the basics for dealing with data, software, and other
+   digital artifacts of your science.
 
 Other
 -----
