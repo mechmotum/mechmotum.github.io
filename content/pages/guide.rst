@@ -294,21 +294,6 @@ Postdocs, PhDs, and other staff
   resources and/or Jason is the main supervisor of, those students need to
   follow join the Bicycle Lab and follow the expectations in this guide.
 
-COVID-Time Lab Rules
-====================
-
-Use of the bicycle lab for hands-on project work is allowed as long as 3mE
-allows this type of work inside the building. Check with Jason for the
-up-to-date rules if in question. The current lab rules are:
-
-- All the University rules and 3mE rules apply and the following rules are in
-  addition to those.
-- If you are sick, stay home and get tested. Let others you were in contact
-  with know immediately of possible or confirmed COVID infection to prevent
-  spread. Follow the Dutch government recommendations and regulations.
-- Take the virus seriously and respect everyone's health needs/wishes. Everyone
-  should feel comfortable if using the space. Communication is key for this.
-
 Communication
 =============
 
@@ -640,6 +625,22 @@ you'd like to share something that is set to private.
 Lab Space
 =========
 
+Tidiness
+--------
+
+- The lab should be kept clean and tidy.
+- Place small trash into the two bins and paper into the blue box for pickup by
+  the janitors.
+- Place large trash, paper, cardboard outside in the bins near the bike cage.
+  Do not leave this lying in the floor of the bike lab. It will not be picked
+  up.
+- Always leave the lab cleaner and tidier than you found it. If followed, this
+  will tend towards a clean and tidy lab instead of the opposite.
+- Always clean up before the end of a work day (reserve last 15 minutes to do
+  so).
+- Put items and tools back in their labeled locations. If there isn't a label
+  or location, make one.
+
 Safety
 ------
 
@@ -692,6 +693,9 @@ replacement. Please let your supervisor know if this occurs so you all can
 figure out a solution. Your caution and carefulness should be proportionate to
 the cost of the lab equipment. Treat things as if they were your own and you
 paid for it.
+
+If you deplete some consumables, take the responsibility to replenish it so it
+is there for future use.
 
 Purchasing
 ----------
