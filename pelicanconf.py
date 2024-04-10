@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 import yaml
 
 LABNAME = 'Bicycle Laboratorium'
@@ -67,6 +69,7 @@ else:
 ## THEME
 
 # Alchemy theme settings
+OS_SEP = os.sep
 DISQUS_SITENAME = "mechmotum"
 SITESUBTITLE = 'E pur si muove'
 SITEIMAGE = 'https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png'

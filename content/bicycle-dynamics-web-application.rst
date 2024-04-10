@@ -6,17 +6,17 @@ A Web Application for Analyzing Bicycle Dynamics
 :tags: bicycle, web application
 :category: research
 :slug: bicycle-dynamics-web-application
-:authors: Noah Sanders
+:authors: Lyla Sanders
 :summary: Blog post on creating a web application to serve as a GUI for bicycle
           dynamics.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png
    :width: 800px
    :align: center
-   :target: https://bicycleparameters.herokuapp.com
+   :target: https://bicycle-dynamics.onrender.com
 
    Screenshot of the bicycle dynamics web app. Click the image to go to the app
-   at https://bicycleparameters.herokuapp.com.
+   at https://bicycle-dynamics.onrender.com.
 
 Background
 ----------
@@ -63,6 +63,6 @@ Conclusion
 ----------
 
 The Bicycle Dynamics Web App is currently deployed at
-https://bicycleparameters.herokuapp.com/ and its github repository is located
-at https://github.com/moorepants/BicycleParameters. Feel free to play around
-with the app and provide suggestions or feedback!
+https://bicycle-dynamics.onrender.com and its github repository is located at
+https://github.com/moorepants/BicycleParameters. Feel free to play around with
+the app and provide suggestions or feedback!

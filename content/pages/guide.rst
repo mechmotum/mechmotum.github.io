@@ -4,48 +4,63 @@ Guide
 
 :sortorder: 5
 
-.. contents::
+.. contents:: Table of Contents
+   :local:
+   :class: floatcon
 
 This page is intended to house documentation for lab members that describes the
 nuts and bolts of how the lab functions. It's primary purpose is for
 on-boarding new members, but is also a reference for current members. For this
 page to be useful, all lab members will need to provide their collective
 knowledge and experiences. It is up to all of us to make this guide useful. You
-are expected to contribute to the guide and edit it. Discuss with the lab any
-desires to change any of the guidelines.
+are expected to contribute to the guide and edit it to do so. Discuss with the
+lab any desires to change any of the guidelines.
+
+Sub-Guides
+==========
+
+- `Writing Guide <{filename}/pages/guide-writing.rst>`_
+- `Data Management Guide <{filename}/pages/guide-data-management.rst>`_
+- `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_
+- `Lab Meeting MC Guide <{filename}/pages/guide-mc-lab-meetings.rst>`_
 
 Getting Started
 ===============
 
-The Lab Community
------------------
-
-- Join the lab communication channels:
-
-  - Ask Jason <j.k.moore@tudelft.nl> to add you to the lab `email list`_.
-  - Ask Rado <r.r.dukalski@tudelft.nl> to add you to the lab's element/matrix
-    chat room.
-
-- Send an introduction email to the lab email list: who you are, a bit about
-  yourself, what you will work on, etc.
+- Join the lab communication channels: Ask Jason <j.k.moore@tudelft.nl> to add
+  you to the lab `email list`_ and someone in the lab how to join the lab's
+  element/matrix chat room or read the instrutions in the Google Drive "How to
+  join the Element/Matrix chat room".
+- Send an introduction email to the lab email list
+  (mechmotum@googlegroups.com): who you are, a bit about yourself, what you
+  will work on, etc.
 - Add your name and portrait to the `lab members page`_ by sending a PNG or JPG
   300px x 400px portrait to Jason or by submitting a pull request on Github.
 - Setup regular mentorship meetings with your mentor(s). This should at least
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
 - Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
-  the calendar invite with the video chat link. Add your ideas and votes for
-  meeting topics to the google document (ask Marco for permissions to edit).
+  the calendar invite with the video chat link.
 - Send out an AIO (see below) before your regular mentor meetings if requested
-  by your supervisors.
+  by your supervisor(s).
 - Get campus card access to the bicycle lab and bicycle lab storage (if
-  needed). These can be requested from Jason. Ask for a tour of the space from
-  a current lab member before you start working there.
+  needed). These can be requested from Jason by sending him an email with your
+  student ID number, TU Delft email address, and expected duration of access.
+  Ask for a tour of the space from a current lab member before you start
+  working there.
+- Request access to the lab's shared Google Drive from Jason.
+- We have the optional "Cheese for Thought" lunch every Wednesday at 12:00,
+  meet at the lab. This is a chance to discuss topics informally.
+- Every other week (opposite lab meeting weeks) we go for snacks and drinks in
+  Delft on Fridays @ 17:00.
 - See the `recommended reading list <#recommended-reading>`_ below for some
   reading materials to get you started.
 
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
+
+Masters Students
+================
 
 MSc General
 -----------
@@ -55,12 +70,30 @@ MSc General
   work, etc.
 - BME MSc students now have some new excellent guidance documents with
   flowcharts available on the "Master Biomedical Engineering" Brightspace
-  course under "ALL STUDENTS - Flowcharts & Guidance Docs".
+  course under "ALL STUDENTS - Flowcharts & Guidance Docs". Please read these
+  and reference them regularly.
 - BMD & BME students are encouraged to join the "Graduation Community Program"
   for get togethers and workshops on topics to help you move through your MSc.
+- BME and BMD MSc students now have some new excellent guidance documents with
+  flowcharts available on the "Master Biomedical Engineering" and "Master
+  Biomechanical Design" Brightspace courses under "Flowcharts & Guidance Docs".
+  Please read these and reference them regularly. The guide here is a
+  compliment to those documents.
+- You are encouraged to join the "Graduation Community Program" for get
+  togethers and workshops on topics to help you move through your MSc. This is
+  especially helpful if you are struggling in your MSc.
+- You have to write at least three documents for your MSc. Read the `writing
+  guide <{filename}/pages/guide-writing.rst>`_ for tips and read the recommended
+  papers below for even better tips!
+- Review the `Data Management Guide
+  <{filename}/pages/guide-data-management.rst>`_.
+- If you are doing experiments, review the `Experimentation Guide
+  <{filename}/pages/guide-experimentation.rst>`_.
 
 Internship
 ----------
+
+15 ECs (420 hours, ~10 weeks full time)
 
 After you have found an internship, typically on your own but sometimes through
 postings via the lab, here are some things you need to do:
@@ -85,65 +118,113 @@ postings via the lab, here are some things you need to do:
 - To receive academic credit for your internship at the end you need to write a
   report and have it assessed by your TUD internship supervisor. The short report
   should contain aspects aligned with those described in this rubric:
-  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf.
-  This rubric will not be used to determine your grade, it is simply pass/fail
-  based on the supervisor's review.
+  https://wbmt2.tudelft.nl/organisatie/formulieren/msc/3me-msc-assessmentcriteria__internshipreport.pdf
+  and the direction and needs of your external internship supervisor. This rubric
+  will not be used to determine your grade, it is simply pass/fail based on the
+  supervisor's review.
 - You also need your external internship supervisor to fill out the form
   "INTERNSHIP ASSESSMENT FORM FOR EXTERNAL PARTIES" and submit the completed
   version to your TUD supervisor.
 - Note that your TUD supervisor is typically not involved in your internship
   other than the signing the initial form and assessing and providing a grade
   at the end. The purpose of the internship is for you to get some non-academic
-  experience in engineering.
+  experience in engineering. The internship should also be distinct from your
+  MSc literature study and thesis project in the sense that a standalone report
+  for the internship work is required.
+
+Here are some companies and organizations that have hosted internships with us
+in the past: Gazelle, Prinoth, Garmin/Tacx, Swugo, B-Cells, Team DSM, SymPy,
+Bikefitting.com, TrueKinetix, velolab.de, TU Delft Sports Engineering
+Institute, Aalborg University Sports Sciences.
 
 Literature Study
 ----------------
 
-- Review the `Literature Study learning objectives and rubric
-  <https://d2k0ddhflgrk1i.cloudfront.net/Studentenportal/Faculteitspecifiek/3ME/Onderwijs/GERELATEERD/Formulieren/Rubric%20MSc%20Literature%20Review.pdf>`_
-- Read "`How to read a paper`_" and "`Guide to writing a literature review for Science and Technology students`_"
-- If you are a BME student, read the relevant guidance docs found on
-  Brightspace "Biomedical Engineering Page".
+10 ECs (280 hours, ~7 weeks full time)
+
+- If you are a BMD or BME student, read the relevant guidance docs found on
+  Brightspace.
+- Arrange an initial meeting with your supervisor(s) to discuss how to get
+  started on the literature study and to discuss the general topic area of the
+  study.
+- Review the "MSc Literature Review Assessment Rubric" on the `3mE MSc Forms`_
+  page.
+- Read "How to read a paper" and "Ten Simple Rules for Writing a Literature
+  Review" and review the "The Literature Review Process" website in the
+  recommended reading section below.
 - Choose and learn a tool/method to organize your papers and notes (e.g.
   Zotero, Mendeley, Endnote, Excel).
 - The first goal is to read a large quantity of paper abstracts (phase 1 in
   "How to Read a Paper") to get a broad sense of what people are researching
   about the topics of interest.
-- The second goal is to formulate a research question(s) that you can likley
+- The second goal is to formulate a research question(s) that you can likely
   answer with the papers you read.
-- Third goal is to delve deep into papers that are closely related to your
-  research question, analyze and critique them, and synthesize the knowledge you
-  obtain from them into a coherent answer to you research question.
+- Once you have a research question in mind, arrange a meeting with your
+  supervisors to formally present the question and receive feedback (this
+  should occur within the first two weeks of work). You should prepare a slide
+  presentation or similar.
+- The third goal is to delve deep into papers that are closely related to your
+  research question, analyze and critique them, and synthesize the knowledge
+  you obtain from them into a coherent answer to you research question.
+- Before writing your report read "The Science of Scientific Writing" and "How
+  to write a good (enough) report" in the recommend reading section below.
 - Lastly, write up your findings for a technical audience in a way that answers
   your research question.
 - Once you have a first full draft of the literature study, request feedback
-  from your supervisors. This usually takes a week. Use the feedback to improve
-  your document and then submit it to your supervisors for their official
-  assessment and grade.
+  from your supervisors. This usually takes a week. You can arrange a meeting
+  to receive verbal feedback also. Use the feedback to improve your document
+  and then submit it to your supervisors for their official assessment and
+  grade.
 - As you approach the finish of your literature study you should schedule your
   colloquium, where you will present the results of your literature study to
-  your peers and possibly some of your thesis plan.
+  your peers. We encourage you to practice your colloquia with an ad hoc group
+  from the lab or at a lab meeting. Send an invite to your colloquia to the
+  lab.
+
+.. _3mE MSc Forms: https://www.tudelft.nl/en/student/faculties/3me-student-portal/education/related/student-forms/msc-forms/
 
 MSc Thesis
 ----------
 
+35 ECs (980 hours, ~25 weeks full time)
+
 Basic Steps:
 
-- (CoR based MSc tracks only) Submit MSc initiation form.
+- Submit MSc initiation form (BME/BMD form 4, other tracks may have a different
+  form. You may do this at the start of your literature study, if appropriate.
 - Formulate a research question or hypothesis that you'd like address in
-  consultation with your supervisors (usually in the later portion of your
-  literature study period).
-- Develop a written project plan (2-3 pages): research question/aim/goals, your
-  basic technical approach, timeline, milestones, resources, etc.
-- Organize a kickoff meeting with all of your supervisors to present your
-  research project and project plan.
+  consultation with your supervisors (this usually occurs in the later portion
+  of your literature study period and is informed by your literature study
+  findings).
+- Develop a written project plan (3 pages): research question/aim/goals,
+  your basic technical approach, timeline, milestones, resources, etc.
+- Organize a kickoff meeting with all of your supervisors to formally present
+  your research project and project plan. This should be slide presentation or
+  similar.
+- Adjust your project plan based on the feedback at the kickoff meeting.
 - Work on the project with your daily supervisor's guidance.
-- Present your progress at a midterm meeting with all of your supervisors.
+- Present your progress at a midterm meeting with all of your supervisors. The
+  midterm should occur after you have significant preliminary results that
+  demonstrate you can succeed in the final project execution.
 - Work on the project with your daily supervisor's guidance.
-- Send your draft thesis to your supervisors and arrange a Go/No-Go meeting.
-- Arrange your MSc defense.
-- Edit your thesis and send the final version to your supervisors two weeks
-  before the defense.
+- Once you are getting close to a draft thesis arrange a Go/No-Go meeting. This
+  meeting should include all of your supervisors that will be on your defense
+  committee. Typically give the supervisors one week to read and comment on the
+  draft before the meeting. Prepare a (strictly) 10 minute slide presentation
+  to get everyone up to speed at the beginning of the meeting.
+- If you get a "Go" at the Go/No-Go meeting then you should initiate the
+  arrangement of your defense by submitting the correct forms to your track
+  coordinators and department secretaries.
+- If you get a "No-Go", at the Go/No-Go meeting then take the supervisors'
+  feedback and improve your work until you are ready for another Go/No-Go
+  meeting.
+- When you have a "Go", edit your thesis based on the supervisors' feedback.
+  When you have a final version of your thesis, send it to your supervisors two
+  weeks before the defense and submit it to the TU Delft Education Repository.
+  Make sure to add an embargo if your work requires one.
+- Follow the `Data Management Guide
+  <{filename}/pages/guide-data-management.rst>`_ and deliver your project
+  assets to the lab principle investigator and any partner organizations.
 
 Other:
 
@@ -158,24 +239,60 @@ Other:
 - Read the articles about writing reports and theses in the recommended reading
   later in this guide.
 
-COVID-Time Lab Rules
-====================
+Employees
+=========
 
-Use of the bicycle lab for hands-on project work is allowed as long as 3mE
-allows this type of work inside the building. Check with Jason for the
-up-to-date rules if in question. The current lab rules are:
+Postdocs, PhDs, and other staff
 
-- All the `University rules
-  <https://www.tudelft.nl/en/2021/tu-delft/coronavirus/>`_ and `3mE rules
-  <https://www.tudelft.nl/en/3me/current/information-coronavirus/>`_ apply and
-  the following rules are in addition to those.
-- If you are sick, stay home and get tested. Let others you were in contact
-  with know immediately of possible or confirmed COVID infection to prevent
-  spread.
-- Take the virus seriously and respect everyone's health needs/wishes. Everyone
-  should feel comfortable if using the space. Communication is key for this.
-
-.. _reservation calendar: https://calendar.google.com/calendar/u/0?cid=amcwaG9nMnZxaWRxMXI0dGdmdmlzcWEwazhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+- You are expected to attend the lab meetings and other common lab work
+  sessions (e.g. lab cleanup) unless you are sick or on holiday.
+- You are expected to spend some of your time to help Jason manage and organize
+  the lab and research group. In particular, you should help improve and
+  maintain the website, help tidy, organize, and clean the lab space, keep
+  physical equipment maintained and running.
+- If you are not able to work at standard capacity, you must take sick leave or
+  holiday leave.
+- If you need to take sick leave, report this to your immediate supervisor and
+  the secretariat when you become sick. When you return, also inform your
+  immediate supervisor and secretariat. Make sure your sick leave hours are
+  logged in TIM.
+- All holiday time has to be requested via TIM and approved by the department
+  manager. You must  take your holiday time before the end of your contract.
+  Note that you can sell some holiday time (up to 38 hrs/year via IKA).  If you
+  decide to take a holiday please inform Jason by email so he are aware
+  you are unavailable and can mark it on his calendar. If you are going to take a
+  week or more at a time, please inform your supervisor well in advance for
+  planning purposes so we can cover any of your duties.
+- TU Delft's policy is that you can work from home 2 days per week if your
+  supervisor approves. The other 3 days should be on campus. You have Jason's
+  blanket permission to work from home or other locations the equivalent of 2
+  days per week. If you want to work from home more that this, discuss with
+  Jason. You should, in general, complete your contracted work hours during
+  typical working hours 8-6 so that you can interact with the lab members. When
+  you work from home you should be easily reachable by email, phone, or video
+  chat, etc.
+- You likely have a budget associated with your position or projects. Ask Jason
+  or the relevant supervisor to tell you this budget. You can mange your own
+  budget and don't need to ask permission for purchasing things < 250 EUR. If
+  you need to spend more than that, then inform your immediate supervisor of
+  the purchase before purchasing so there are no surprises. The secretariat can
+  purchase items for you or you can purchase items and request reimbursement.
+- Work related travel outside of the Netherlands must be pre approved via
+  Digiforms and pre-approved by Jason.
+- Postdocs will have an annual review with your supervisors (R&O). These should
+  occur in the first quarter of the year. It is up to you to make sure this is
+  scheduled. PhDs follow the graduate school review process and do not have
+  R&O's.
+- Postdocs may use 20% of their contracted time to pursue their academic and
+  career endeavors not related to their contracted work, e.g. finishing papers
+  from their PhD or gaining teaching experience, given that progress on your
+  contracted project is satisfactory. Discuss workload with Jason if you are
+  not able to take advantage of this as you desire and we will do our best to
+  make this possible, but this is mostly dependent on your ability to be
+  efficient with your primary research tasks.
+- If you supervise BSc, MSc, or PhD students that regularly use the lab
+  resources and/or Jason is the main supervisor of, those students need to
+  follow join the Bicycle Lab and follow the expectations in this guide.
 
 Communication
 =============
@@ -187,29 +304,32 @@ Lab Email List
 
    This can both be used by everyone as both an announcement list and a
    discussion list. All lab members need to join and pay attention to this list
-   for announcements and are welcome to use if for discussion.
+   for announcements and are welcome to use if for discussion. Write to the
+   email list by sending a message to mechmotum@googlegroups.com.
 Text, Audio, Video Chat Room
    We host a matrix_ server which can be accessed using https://element.io or
    any other supported clients_. This is used for quick chats, meetings, etc.
    We'll keep the chat histories around, but its best to treat the data as
    transient. Lab members can use as needed for lab related communication.
+   There are a number of rooms that you can join where we share papers,
+   conference announcements, etc.
 Issue Trackers
-   We make heavy use of issue trackers on Github and Gitlab to communication.
+   We make heavy use of issue trackers on Github and Gitlab to communicate.
    This is good for topic oriented, long form discussion that needs permanency,
    organization, and/or task control. General lab issues can be tracked in this
    repository (in addition to the website issues):
 
-   https://github.com/mechmotum/mechmotum.github.io
+   https://github.com/mechmotum/housekeeping
 
 Quarterly Blog Posts
-   In general, we would like each project to write regular blog posts for the
-   lab website. These posts should describe updates on project progress and
-   results. This writing exercise will help build the content for future papers
-   and theses and provide outreach to the public about our work. It is helpful
-   to do these on a schedule (quarterly, semi-annually, etc.) so that the get
-   done. If your project is of a proprietary nature, you'll need to select
-   aspects of the project or work that can be shared or embargo the blog post
-   to a later date. Discuss these things with your supervisor.
+   In general, we would like each project to write at least one blog post for
+   the lab website. This post should at least describe project results. This
+   writing exercise will help build the content for future papers and theses
+   and provide outreach to the public about our work. If you write more than
+   one blog post, it is helpful to do these on a schedule (quarterly,
+   semi-annually, etc.). If your project is of a proprietary nature, you'll
+   need to select aspects of the project or work that can be shared or embargo
+   the blog post to a later date. Discuss these things with your supervisor.
 
 .. _matrix: https://matrix.org/
 .. _clients: https://matrix.org/docs/projects/try-matrix-now/
@@ -218,7 +338,8 @@ AIO Weekly Emails
 -----------------
 
 Lab members are expected to send out AIOs to their supervisor(s) and any
-project collaborators you meet with during your regular meetings.
+project collaborators you meet with during your regular meetings if agreed upon
+with your supervisor.
 
 "AIO" stands for Accomplishments, Issues, and Objectives. This email should
 contain three bullet lists:
@@ -297,11 +418,14 @@ Past Meeting Topics and Materials
      - Date
      - Presenters
      - Materials
+   * - Bicycle Lab Round Up
+     - 2022-09-13
+     - Jason K. Moore
+     -
    * - Computationally Reproducible Papers
      - 2022-01-18
      - Jason K. Moore
-     - `Slides
-       <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/pub?start=false&loop=false&delayms=3000#slide=id.p>`__
    * -
      - 2021-12-07
      - Dorus de Boer
@@ -333,12 +457,11 @@ Past Meeting Topics and Materials
    * - Optimal Control in Biomechanics
      - 2021-05-03
      - Joris Ravenhorst, Jan Groenhuis, and Jason Moore
-     - `Slides
-       <https://docs.google.com/presentation/d/e/2PACX-1vRDNSb90BX_Nnd0VK8cZE60mNj0AI8Vo4r5_CPnnKRy15_p25l7XwxULesIyxyhQl0V9eMQCnS5_TkZ/pub?start=false&loop=false&delayms=3000>`_
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vRDNSb90BX_Nnd0VK8cZE60mNj0AI8Vo4r5_CPnnKRy15_p25l7XwxULesIyxyhQl0V9eMQCnS5_TkZ/pub?start=false&loop=false&delayms=3000>`__
    * - Balance and stability in elderly
      - 2021-04-22
      - Leila Alizadehsaravi
-     -
+     - `Slides <https://drive.google.com/file/d/199ValVa8w0ckkfSDF2PNeb9-BJYmMJ1w/view?usp=sharing>`__
    * - Introduction to Eline's Lab
      - 2021-04-07
      - Eline de Kruk
@@ -449,8 +572,8 @@ Shared Cloud Space
 
 We have a directory named "Fietslab Commons" on Google Drive. To access this,
 request that it be shared with you by your supervisor. This folder and it's
-contents should only be shared with other ``<netid>@g-tudelft.nl>`` addresses
-that are members of the lab. ``<netid>@g-tudelft.nl>`` is also the login
+contents should only be shared with other ``<netid>@g-tudelft.nl`` addresses
+that are members of the lab. ``<netid>@g-tudelft.nl`` is also the login
 username/email that you will need to use when logging into
 https://drive.google.com. Please avoid using the "Share" button to share with
 non-TUD accounts, until we determine best practices for this. Read and update
@@ -502,8 +625,50 @@ you'd like to share something that is set to private.
 Lab Space
 =========
 
-Using, removing, loaning equipment & consumables
-------------------------------------------------
+Tidiness
+--------
+
+- The lab should be kept clean and tidy.
+- Place small trash into the two bins and paper into the blue box for pickup by
+  the janitors.
+- Place large trash, paper, cardboard outside in the bins near the bike cage.
+  Do not leave this lying in the floor of the bike lab. It will not be picked
+  up.
+- Always leave the lab cleaner and tidier than you found it. If followed, this
+  will tend towards a clean and tidy lab instead of the opposite.
+- Always clean up before the end of a work day (reserve last 15 minutes to do
+  so).
+- Put items and tools back in their labeled locations. If there isn't a label
+  or location, make one.
+
+Safety
+------
+
+Our goal is to have ZERO injuries in the lab. Safety should be taken seriously
+and always prioritized. Some key things:
+
+- Wear safety glasses and other appropriate personal protective equipment (PPE)
+  when using tools. These are available in the lab or can be borrowed from the
+  workshop. Contact your supervisor if we need more PPE.
+- Do not use tools that you are not familiar with. Always ask someone to show
+  you proper use.
+- Any activities that have potential to cause injury performed outside of the
+  8:00-17:00 weekday (non-holiday) times should always have two people present.
+  During the workday period it is recommended to have a buddy present when
+  doing anything can cause injury, but the number of people in the halls and
+  glass walls make this optional.
+- The large treadmill **always** has to have two people for operation. When the
+  treadmill is operating the walker/rider must be wearing the harness properly
+  and the operator must have their hand on the kill switch. Ensure that objects
+  cannot fly off the back of the treadmill.
+- Human subject experiments must have an HREC plan and protocol (always for
+  PhD, Postdoc and at minimum approval from your supervisors for MSc).
+- If you are ever asking yourself "should I do this?", that's probably a good
+  signal that you shouldn't. Get help, advice, training, etc. so that you do
+  your activity safely.
+
+Equipment & Consumables
+-----------------------
 
 If you find something in the lab you would like to use, post a note to the
 Element/matrix chat or lab email asking if anyone else is using it or plans to
@@ -512,12 +677,12 @@ use it. If no one is using it, then you can!
 If a TU Delft student or staff that is not a lab member would like to borrow
 equipment from the lab, find out if anyone is using it (as noted above), and
 then make sure they fill out the checkout sheet (by the lab door) with their
-name, email, and date before the item leaves the lab. When they return the
-item, indicate the return date on the sheet. Keep in mind that non-lab member
-students should look to the more general shared equipment resources available
-in 3mE before borrowing from us and we don't generally loan common things like
-screwdrivers and bike pumps but can loan specialized equipment that only we
-have.
+name, email, date, and your name (as the responsible person) before the item
+leaves the lab. When they return the item, indicate the return date on the
+sheet. Keep in mind that non-lab member students should look to the more
+general shared equipment resources available in 3mE before borrowing from us
+and we don't generally loan common things like screwdrivers and bike pumps but
+can loan specialized equipment that only we have.
 
 If you take things from the lab to use elsewhere for **more than one day** you
 also need to sign the equipment checkout sheet. Note your name and the date you
@@ -525,7 +690,12 @@ took the item. Once the item is returned to the lab, note the date returned.
 
 If you damage or lose equipment you are responsible for fixing or finding a
 replacement. Please let your supervisor know if this occurs so you all can
-figure out a solution.
+figure out a solution. Your caution and carefulness should be proportionate to
+the cost of the lab equipment. Treat things as if they were your own and you
+paid for it.
+
+If you deplete some consumables, take the responsibility to replenish it so it
+is there for future use.
 
 Purchasing
 ----------
@@ -539,6 +709,36 @@ supervisor about it and they can order what you need if there are funds
 available.
 
 TU Delft 3mE VAT number: NL 001569569B01
+
+Equipment Inventory
+-------------------
+
+When new equipment arrives in the lab, the receiver is responsible for
+inventorying the equipment. This only needs to be done for items that cost more
+than 250 EUR. The basic steps are:
+
+- Log the equipment in the inventory spreadsheet on the shared Google Drive.
+  This should include product name, manufacturer, serial number, manufacturer
+  contact info, value, etc. (fill out the existing columns or make new ones if
+  needed).
+- Make a folder in the Google Drive for the product and deposit any
+  documentation.
+- If the item doesn't have a storage container, obtain one so that it can
+  neatly be stored in the lab and things don't get lost. Leave paper
+  documentation in the container.
+- Permanently mark the item(s) and container with "TU Delft Bicycle Lab" (use a
+  paint pen, inscribing tool, etc.)
+- As you learn the device, leave any relevant documentation you obtain or
+  create in the Google Drive folder so that future users can learn from your
+  work. Include the manufacturer's documents as well as your personal tips and
+  explanations on using the equipment. If any documentation is more appropriate
+  for storing and tracking with version control, then add that to a lab owned
+  Git repository.
+
+Experiments
+===========
+
+See the `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_.
 
 Training
 ========
@@ -557,10 +757,26 @@ Special Topics Course in Sports Engineering
    TU Delft organizes an annual two week course to train students in sports
    engineering. Cycling has been used as the motivating topic to learn the
    methods.
-Musculoskeletal Modelling and Simulation ME41005
+Musculoskeletal Modelling and Simulation (ME41005)
    Learn how to develop and utilized computational neuromuscular models with
    OpenSim. Many projects in the lab make use of neuromuscular and
    biomechanical modeling.
+Vehicle Dynamics and Control (RO47017)
+   Provides various fundamentals for understanding vehicle motion and how to
+   control it. Focused on automobiles but many concepts transfer to single
+   track vehicles.
+System Identification and Parameter Estimation (ME41065)
+   We often make use system identification and parameter estimation for both
+   vehicle and human control models.
+Automatic Flight Control System Design (AE4301)
+   There are many similarities in single track vehicle control and aircraft
+   control. This course also covers some topics on aircraft handling qualities
+   which we make use of in understanding single track vehicle handling
+   qualities.
+Writing a Master's Thesis in English (TPM305A)
+   If you would like help and motivation on your writing assignments during
+   your MSc, this course can be helpful to give structure, guidance, and others
+   to discuss your thesis with.
 
 The Carpentries Trainings
 -------------------------
@@ -605,6 +821,13 @@ Online
 `Single Track Vehicle Dynamics listserv <https://groups.google.com/g/stvdy>`_
    Public email based forum for discussing the dynamics and control of single
    track vehicles.
+`International Human Powered Vehicle Assocation <http://ihpva.org>`_
+   This group hosts the annual bicycle speed challenge in Battle Mountain
+   Nevada.
+`World Human Powered Vehicle Assocation <http://www.whpva.org/>`_
+   Umbrella org for many associations around the world.
+`Ligfiets Vereniging <https://ligfiets.net>`_
+   Dutch recumbent bicycle organization.
 
 Software
 --------
@@ -639,12 +862,24 @@ ECCOMAS Multibody Dynamics Conference
 `International Society of Biomechanics Congresses <https://isbweb.org/activities/congresses>`_
    Huge annual conference with a broad array of biomechanics topics. Great
    networking and a catch all for many topics from the lab. Every two years.
+   The Technical Group in Computer Simulation holds a parallel symposium.
 `SciPy <https://conference.scipy.org/>`_ & `EuroSciPY <https://www.euroscipy.org/>`_
    Annual conferences. If your work involves open source Python software these
    are a great place to showcase the advances in library development and use of
    the tools.
 Dutch Bio-Medical Engineering Conference
    Nice way to connect with Dutch local researchers.
+`Science & Cycling <https://science-cycling.org>`_
+   Annual European conference focused on performance and cycling as a sport.
+
+Journals
+========
+
+`Human Power eJournal <https://hupi.org/HPeJ/index.htm>`_
+   Modern incarnation of the journal Human Power. Not necessarily an academic
+   journal, but useful articles none-the-less.
+`Human Power: the technical journal of the IHPVA <http://ihpva.org/hparchive.htm>`_
+   Started by David Gordon Wilson; ran from 1977 to 2004.
 
 Funding Opportunities
 =====================
@@ -668,14 +903,14 @@ Your projects will vary and you'll have to read a variety of different papers
 and resources, but this list provides a general set of papers that it is good
 for all lab members to read.
 
-Introduction to Bicycle Engineering and Science
------------------------------------------------
+Introduction to Bicycle Science
+-------------------------------
 
-Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
-   Science of competitive cycling.
 David G. Wilson, Bicycling Science, 3rd ed. MIT Press, 2004.
    Bicycling Science is the authoritative introduction text to the science and
    engineering of bicycles.
+Edmund R. Burke, High-Tech Cycling, 2nd ed. Human Kinetics, 2003.
+   Science of competitive cycling.
 
 Introduction to Bicycle Dynamics
 --------------------------------
@@ -734,9 +969,11 @@ Academia
 
 Srinivasan Keshav, "`How To Read A Paper`_," ACM SIGCOMM Computer Communication Review, vol. 37, no. 3, Jul. 2007.
    Introduces a structured 3 phase method of reading scientific literature.
-`Guide to writing a literature review for Science and Technology students`_, Lancaster University
-   This is a nice guide that gives starting information for those of you
-   working on a literature study.
+Ten Simple Rules for Writing a Literature Review, Philip E. Bourne, 2013, https://dx.doi.org/10.1371%2Fjournal.pcbi.1003149
+   High level tips for writing a literature review.
+Engineering: The Literature Review Process https://libguides.asu.edu/engineeringlitreview/start
+   A guide from Arizone State University on writing and engineering literature
+   review.
 `Writing a Scientific-Style Thesis`_: A Guide for Graduate Research Students, NUI Galway, Dr. Dermot Burns, 2017
    A comprehensive guide to writing a thesis.
 "`The Science of Scientific Writing <https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf>`_" by George D. Gopen and Judith A. Swan, 1990
@@ -762,10 +999,30 @@ Open Science
 
 Markowetz, F. Five selfish reasons to work reproducibly. Genome Biol 16, 274 (2015). https://doi.org/10.1186/s13059-015-0850-7
    Five clear and compelling reasons for making your research reproducible.
+Carpentries, "Good Enough Practices in Scientific Computing" https://carpentries-lab.github.io/good-enough-practices/
+   Lesson that gives the basics for dealing with data, software, and other
+   digital artifacts of your science.
 
 Other
 -----
 
 Greg Wilson, "Meetings," The Third Bit, May 11, 2018. https://third-bit.com/2018/05/11/meetings/
    Some nice simple guidelines for making meetings actually useful for the
-   participants.
+   participants. There is a `video <https://youtu.be/qYh6Nzv3RWs>`_ and `slide
+   deck
+   <https://docs.google.com/presentation/d/1HSdgVQjq0d3UYh-aA4uWHXxYYpySn_xXwfn_M4Ms8Ts/edit#slide=id.g8d106d1eab_0_8>`_.
+
+Random TU Delft Tips
+====================
+
+- You can print documents by uploading files to https://linuxprint.tudelft.nl
+  and then swiping your campus ID card at any printer in the buildings.
+- Shared data network drives can be accessed at https://webdata.tudelft.nl.
+- To add the "print anywhere" printers on Linux, you can add a printer and use:
+
+  - URI found on https://linuxprint.tudelft.nl/driverprint.cfm which looks like ipps://linuxprint.tudelft.nl:443/ipp/r/...
+  - And then download this PPD file: https://webprint.tudelft.nl/install/linux/xrxC8035.ppd
+
+- You can run a Jupyter instance on DelftBlue https://doc.dhpc.tudelft.nl/delftblue/howtos/jupyter/
+- The IMPhys department has a systems manual for many compute tasks on campus https://qiweb.tudelft.nl/sysman/index.html
+- You can set up general mailing lists here: https://listserv.tudelft.nl/mailman/admin

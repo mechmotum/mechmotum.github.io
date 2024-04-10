@@ -2,10 +2,11 @@
 Design and Analysis of Ski Jumps
 ================================
 
-:collaborators: Bryn Cloud, Mont Hubbard, Chris Brown, Nicola Petrone
+:collaborators: Bryn Cloud, Mont Hubbard, Chris Brown, Nicola Petrone, Danial
+                Roeck
 :current_researchers:
-:date: 2021-11
-:past_researchers: Bryn Cloud, Britt Tarien
+:date: 2023-08
+:past_researchers: Jan van der Schot, Bryn Cloud, Britt Tarien
 :research_theme: Sports Engineering
 :status: hidden
 :template: project
@@ -27,17 +28,24 @@ Design and Analysis of Ski Jumps
 Associated Research Products
 ============================
 
-Preprints
-
-- Moore, J., Cloud, B., Hubbard, M., & Brown, C. A. (2021, March 31).
-  Safety-Conscious Design of Terrain Park Jumps: Ethical Issues and Online
-  Software. https://doi.org/10.31224/osf.io/sq7u9
-
 Journal Articles:
 
 - J. K. Moore and M. Hubbard, "skijumpdesign: A Ski Jump Design Tool for
   Specified Equivalent Fall Height," The Journal of Open Source Software, vol.
   3, no. 28, p. 818, Aug. 2018, https://doi.org/10.21105/joss.00818.
+
+Theses
+
+- J. van der Schot, "`The Relationship between Equivalent
+  Fall Height and Ground Reaction Force in Freestyle Ski Jumping
+  <http://resolver.tudelft.nl/uuid:98476791-40be-4ee5-ab3a-3f1a9d5e63cb>`_",
+  MSc Thesis, Delft Unversity of Technology, 2023.
+
+Preprints
+
+- Moore, J., Cloud, B., Hubbard, M., & Brown, C. A. (2021, March 31).
+  Safety-Conscious Design of Terrain Park Jumps: Ethical Issues and Online
+  Software. https://doi.org/10.31224/osf.io/sq7u9
 
 Conference Presentations:
 
@@ -65,6 +73,19 @@ Media
    :alt: Screenshot of the ski jump design application.
 
    Screenshot of the ski jump design web application.
+
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/IpJ7-MpHps4?si=GYD91jWC4Km5F931"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+   allowfullscreen></iframe>
+   <p>Prinoth advertisement video that features TU Delft student Jan van der
+   Schot during his internship working with the flight trajectory design
+   tools.</p>
+   </center>
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-constant-efh-jump.jpg
    :width: 60%
