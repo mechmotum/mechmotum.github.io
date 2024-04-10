@@ -3,3 +3,9 @@ assets/
 
 # pelican output directory
 output/
+
+# config file for locally building the website
+config.yml
+
+# python build files
+__pycache__/
