@@ -68,9 +68,14 @@ Create a conda environment with pelican and the other needed dependencies::
    $ conda env create -f env.yml
    $ conda activate bikelab-website
 
-Now you can build and serve the documentation with::
+Now you can build and serve the documentation with this Make command (not
+available on Windows by default)::
 
    (bikelab-website)$ make devserver
+
+or using Invoke (works on all operating systems)::
+
+   (bikelab-website)$ invoke livereload
 
 If this succeeds you can open the website in your web browser at
 http://localhost:8000.
