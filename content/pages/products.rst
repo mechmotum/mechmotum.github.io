@@ -14,30 +14,28 @@ Journal Articles
 Under Review
 ------------
 
-#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, “Enhancing Motor Learning in Cycling Tasks: The Role of
-   Model Predictive Control and Training Sequence.”, BioRab Conference 2024.
-#. G. Dell’Orto, G. Mastinu, R. Happee, and J. K. Moore, “Measurement of
-   lateral characteristics and identification of Magic Formula parameters of
-   city and cargo bicycle tyres,” Vehicle System Dynamics (Under Review), 2023.
-#. A. Singh, H. Vreman, A. Dressel, and J. K. Moore, “Bicycle Disc Brake Noise
-   Analysis and Mitigation,” Journal of Vibration and Control (Under Review),
+#. A. Singh, H. Vreman, A. Dressel, and J. K. Moore, "Bicycle Disc Brake Noise
+   Analysis and Mitigation," Journal of Vibration and Control (Under Review),
    2023.
 
 2024
 ----
 
-#. Heinen, J.T., Brockie, S.G., ten Broek, R. et al. Maximizing ollie height by
-   optimizing control strategy and skateboard geometry using direct
-   collocation. Sports Eng 27, 8 (2024).
+#. G. Dell'Orto, G. Mastinu, R. Happee, and J. K. Moore, "Measurement of
+   lateral characteristics and identification of Magic Formula parameters of
+   city and cargo bicycle tyres," Vehicle System Dynamics, 2024.
+   https://doi.org/10.1080/00423114.2024.2338143
+#. Heinen, J.T., Brockie, S.G., ten Broek, R., van der Kruk, E., Moore, J. K.
+   Maximizing ollie height by optimizing control strategy and skateboard
+   geometry using direct collocation. Sports Eng 27, 8 (2024).
    https://doi.org/10.1007/s12283-023-00448-y
 
 2023
 ----
 
-#. L. Alizadehsaravi and J. K. Moore, “Bicycle balance assist system reduces
+#. L. Alizadehsaravi and J. K. Moore, "Bicycle balance assist system reduces
    roll and steering motion for young and older bicyclists during real-life
-   safety challenges,” PeerJ, vol. 11, p. e16206, Oct. 2023,
+   safety challenges," PeerJ, vol. 11, p. e16206, Oct. 2023,
    https://doi.org/10.7717/peerj.16206.
 
 2020
@@ -79,20 +77,27 @@ Under Review
 Conference Proceedings
 ======================
 
+Under Review
+------------
+
+#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
+   Model Predictive Control and Training Sequence.", BioRab Conference 2024.
+
 2023
 ----
 
-#. T. J. Stienstra, S. G. Brockie, and J. K. Moore, “BRiM: A modular
-   bicycle-rider modeling framework,” presented at the Bicycle and Motorcycle
+#. T. J. Stienstra, S. G. Brockie, and J. K. Moore, "BRiM: A modular
+   bicycle-rider modeling framework," presented at the Bicycle and Motorcycle
    Dynamics 2023, Delft, The Netherlands: TU Delft OPEN Publishing, Oct. 2023.
    https://doi.org/10.59490/6504c5a765e8118fc7b106c3.
-#. C. M. Schmidt, A. Dabiri, F. Schulte, R. Happee, and J. Moore, “Essential
+#. C. M. Schmidt, A. Dabiri, F. Schulte, R. Happee, and J. Moore, "Essential
    bicycle dynamics for microscopic traffic simulation: An example using the
-   social force model,” presented at the Bicycle and Motorcycle Dynamics 2023,
+   social force model," presented at the Bicycle and Motorcycle Dynamics 2023,
    Delft, The Netherlands: TU Delft OPEN Publishing, 2023.
    https://doi.org/10.59490/65037d08763775ba4854da53.
-#. A. Dressel and J. K. Moore, “Adapting a variable stability mechanism for a
-   tilting tricycle from the delta to the tadpole wheel configuration,”
+#. A. Dressel and J. K. Moore, "Adapting a variable stability mechanism for a
+   tilting tricycle from the delta to the tadpole wheel configuration,"
    presented at the Bicycle and Motorcycle Dynamics 2023, Delft, The
    Netherlands: TU Delft OPEN Publishing, 2023.
    https://doi.org/10.59490/650479434cc364571baa0cfc.
@@ -134,15 +139,15 @@ Preprints
    Model Predictive Control and Training Sequence." Engineering Archive, Feb.
    29, 2024. https://doi.org/10.31224/3572.
 #. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
-   “Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
-   Geometry Using Direct Collocation.” engrXiv, Aug. 14, 2023.
+   "Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
+   Geometry Using Direct Collocation." engrXiv, Aug. 14, 2023.
    https://doi.org/10.31224/3171.
 #. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
    motion for young and old bicyclists during real-life safety challenges",
    Feb. 2023. https://doi.org/10.31224/2825
 #. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, “Model Predictive Control-based haptic steering assistance
-   to enhance motor learning of a bicycling task: A pilot study.” Engineering
+   Marchal-Crespo, "Model Predictive Control-based haptic steering assistance
+   to enhance motor learning of a bicycling task: A pilot study." Engineering
    Archive, Feb. 04, 2023. https://doi.org/10.31224/2811.
 #. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
    of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
@@ -158,34 +163,34 @@ Theses
 2024
 ----
 
-#. K. Dijkman, “Impact of bicycle tire parameter on the total rolling losses,”
+#. K. Dijkman, "Impact of bicycle tire parameter on the total rolling losses,"
    MSc, Delft University of Technology, Delft, The Netherlands, 2024.
    https://repository.tudelft.nl/islandora/object/uuid%3A7d45c36f-5df4-46bf-a526-b3f28a4a9fab
 
 2023
 ----
 
-#. M. Haitjema, “Estimating fall probability in cycling: Prediction of the
-   effectiveness of a balance-assist bicycle in reducing falls,” MSc, Delft
+#. M. Haitjema, "Estimating fall probability in cycling: Prediction of the
+   effectiveness of a balance-assist bicycle in reducing falls," MSc, Delft
    University of Technology, Delft, The Netherlands, 2023.
    https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23
-#. T. Stienstra, “BRiM: A Modular Bicycle-Rider Modeling Framework,” MSc, Delft
+#. T. Stienstra, "BRiM: A Modular Bicycle-Rider Modeling Framework," MSc, Delft
    University of Technology, Delft, The Netherlands, 2023.
    https://repository.tudelft.nl/islandora/object/uuid%3Aa2b132e9-8d38-4553-8587-0c9e3341b202
-#. J. van Vlerken, “The influence of posture and stature on bicycle handling
-   qualities,” MSc, Delft University of Technology, Delft, The Netherlands,
+#. J. van Vlerken, "The influence of posture and stature on bicycle handling
+   qualities," MSc, Delft University of Technology, Delft, The Netherlands,
    2023.
    https://repository.tudelft.nl/islandora/object/uuid%3A3c71bc50-c6d0-4963-a3d2-5a1548f92786
-#. J. van der Schot, “The Relationship between Equivalent Fall Height and
-   Ground Reaction Force in Freestyle Ski Jumping,” MSc, Delft University of
+#. J. van der Schot, "The Relationship between Equivalent Fall Height and
+   Ground Reaction Force in Freestyle Ski Jumping," MSc, Delft University of
    Technology, Delft, The Netherlands, 2023.
    https://repository.tudelft.nl/islandora/object/uuid%3A98476791-40be-4ee5-ab3a-3f1a9d5e63cb
-#. F. van Willigen, “Evaluation of the handling of a variable dynamics tilting
-   tricycle: A novel handling assessment method,” MSc, Delft University of
+#. F. van Willigen, "Evaluation of the handling of a variable dynamics tilting
+   tricycle: A novel handling assessment method," MSc, Delft University of
    Technology, Delft, The Netherlands, 2023.
    https://repository.tudelft.nl/islandora/object/uuid%3A3e68f4f0-80f0-4be5-9914-ba2fccefe631
-#. J. Keijser, “Investigating the Theoretical Feasibility of Longitudinal
-   Motion Control in Indoor Cycling Trainers,” MSc, Delft University of
+#. J. Keijser, "Investigating the Theoretical Feasibility of Longitudinal
+   Motion Control in Indoor Cycling Trainers," MSc, Delft University of
    Technology, 2023. Available:
    https://repository.tudelft.nl/islandora/object/uuid%3Ad48c5066-0c44-40a7-9f7e-4bebd3756dcd
 
@@ -240,47 +245,47 @@ Presentations
 2023
 ----
 
-#. **J. K. Moore**, “Comparison of Electromechanical Means of Stabilizing a
-   Bicycle,” presented at the International Cycling Safety Conference, The
+#. **J. K. Moore**, "Comparison of Electromechanical Means of Stabilizing a
+   Bicycle," presented at the International Cycling Safety Conference, The
    Hague, The Netherlands, Nov. 16, 2023.
-#. **G. Dell’Orto**, L. Alizadehsaravi, R. Happee, and J. K. Moore, “Kick-plate
-   test for assessing bicycle dynamics and tyre effect G. Dell’Orto1, L.
-   Alizadehsaravi1, R. Happee1, J. K. Moore1,” presented at the International
+#. **G. Dell'Orto**, L. Alizadehsaravi, R. Happee, and J. K. Moore, "Kick-plate
+   test for assessing bicycle dynamics and tyre effect G. Dell'Orto1, L.
+   Alizadehsaravi1, R. Happee1, J. K. Moore1," presented at the International
    Cycling Safety Conference, The Hague, The Netherlands, Nov. 16, 2023.
-#. **T. J. Stienstra**, S. G. Brockie, and J. K. Moore, “BRiM: A Modular and
-   Extensible Open-Source Framework for Creating Bicycle-Rider Models,” Bicycle
+#. **T. J. Stienstra**, S. G. Brockie, and J. K. Moore, "BRiM: A Modular and
+   Extensible Open-Source Framework for Creating Bicycle-Rider Models," Bicycle
    and Motorcycle Dynamics 2023: Delft, The Netherlands, May 01, 2023.
-#. **C. M. Schmidt**, A. Dabiri, F. Schulte, R. Happee, and J. K. Moore, “Essential
+#. **C. M. Schmidt**, A. Dabiri, F. Schulte, R. Happee, and J. K. Moore, "Essential
    Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the
-   Social Force Model,” Bicycle and Motorcycle Dynamics 2023: Delft, The
+   Social Force Model," Bicycle and Motorcycle Dynamics 2023: Delft, The
    Netherlands, May 01, 2023.
 #. **J. K. Moore**, J. Koshy Cherian, B. Andersson, O. Lee, and A. Ranheim,
-   “Modeling and Implementation of a Reaction Wheel Stabilization System for
-   Low Speed Balance of a Cargo Bicycle,” presented at the Bicycle and
+   "Modeling and Implementation of a Reaction Wheel Stabilization System for
+   Low Speed Balance of a Cargo Bicycle," presented at the Bicycle and
    Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
    Netherlands, May 01, 2023. [Online]. Available:
    https://doi.org/10.24404/63ff23b478f53b9c419075b9
-#. **A. Dressel**, F. van Willigen, and J. K. Moore, “Evaluating the handling of a
-   tilting tricycle with variable stability,” presented at the Bicycle and
+#. **A. Dressel**, F. van Willigen, and J. K. Moore, "Evaluating the handling of a
+   tilting tricycle with variable stability," presented at the Bicycle and
    Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
    Netherlands, May 01, 2023.
-#. **A. Dressel** and J. K. Moore, “Adapting a variable stability mechanism for a
-   tilting tricycle from the delta to the tadpole wheel configuration,”
+#. **A. Dressel** and J. K. Moore, "Adapting a variable stability mechanism for a
+   tilting tricycle from the delta to the tadpole wheel configuration,"
    presented at the Bicycle and Motorcycle Dynamics 2023, Bicycle and
    Motorcycle Dynamics 2023: Delft, The Netherlands, May 01, 2023.
-#. **C. M. Schmidt**, “Connected Traffic of Vulnerable Bicyclists and Automated
-   Vehicles,” presented at the SUMO User Conference, Berlin, Germany, Berlin,
+#. **C. M. Schmidt**, "Connected Traffic of Vulnerable Bicyclists and Automated
+   Vehicles," presented at the SUMO User Conference, Berlin, Germany, Berlin,
    Germany, May 02, 2023.
 #. A. Singh, H. Verman, **A. Dressel**, J. K. Moore, "Using a Scanning Laser
    Doppler Vibrometer to Investigate Causes and Possible Mitigations of Bicycle
    Disc Brake Noise", presented at the Measuring By Light Conference, Delft,
    Mar. 28, 2023.
-#. **J. Heinen**, E. van der Kruk, R. ten Broek, and J. K. Moore, “Optimal
-   Skateboard Geometry For Maximizing Ollie Height,” presented at the Dutch
+#. **J. Heinen**, E. van der Kruk, R. ten Broek, and J. K. Moore, "Optimal
+   Skateboard Geometry For Maximizing Ollie Height," presented at the Dutch
    Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
    https://doi.org/10.6084/m9.figshare.22958357.v2
-#. **L. Alizadehsaravi** and J. K. Moore, “The Effects of a Steer Assist System
-   on Bicycle Postural Control in Real-Like Safety Challenges,” presented at
+#. **L. Alizadehsaravi** and J. K. Moore, "The Effects of a Steer Assist System
+   on Bicycle Postural Control in Real-Like Safety Challenges," presented at
    the Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
 
 2022
@@ -301,8 +306,8 @@ Presentations
 2019
 ----
 
-#. C. Liang, X. L. Chen, T. Kumar, H. Huang, and J. K. Moore, “What to do when
-   chicks go bad in your flock: JupyterHub on Bare Metal with Kubernetes,”
+#. C. Liang, X. L. Chen, T. Kumar, H. Huang, and J. K. Moore, "What to do when
+   chicks go bad in your flock: JupyterHub on Bare Metal with Kubernetes,"
    presented at the SacPy, Sacramento, CA, USA, Nov. 14, 2019. [Online].
    Available: https://tinyurl.com/sacpy-jupy
 #. **Metz, Trevor**; Moore, Jason K. (2019): Design of an Electric Bicycle
@@ -312,8 +317,8 @@ Presentations
 2018
 ----
 
-#. **K. Lyons** and J. K. Moore, “Resonance: Learning Mechanical Vibrations
-   Through Computational Thinking,” presented at the SciPy 2018, Austin, Texas,
+#. **K. Lyons** and J. K. Moore, "Resonance: Learning Mechanical Vibrations
+   Through Computational Thinking," presented at the SciPy 2018, Austin, Texas,
    USA, Jul. 13, 2018. [Online]. Available: https://youtu.be/3QWKDGe528c
 
 2017
@@ -402,11 +407,11 @@ Software
 Data
 ====
 
-#. G. Dell’Orto, J. K. Moore, G. Mastinu, and R. Happee, “Magic Formula
-   Parameters - Bicycle Tyres.” Zenodo, May 10, 2023.
+#. G. Dell'Orto, J. K. Moore, G. Mastinu, and R. Happee, "Magic Formula
+   Parameters - Bicycle Tyres." Zenodo, May 10, 2023.
    https://doi.org/10.5281/zenodo.7920415.
-#. G. Dell’Orto, J. K. Moore, G. Mastinu, and R. Happee, “Bicycle Tyre Data -
-   Lateral Characteristics.” Zenodo, Apr. 26, 2023.
+#. G. Dell'Orto, J. K. Moore, G. Mastinu, and R. Happee, "Bicycle Tyre Data -
+   Lateral Characteristics." Zenodo, Apr. 26, 2023.
    https://doi.org/10.5281/zenodo.7866646.
 #. Moore, Jason K.; Hubbard, Mont (2019): Accompanying Raw Data for the Paper:
    Adaptive smartphone-based sensor fusion for estimating competitive rowing
