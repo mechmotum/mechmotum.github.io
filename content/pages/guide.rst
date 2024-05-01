@@ -42,8 +42,6 @@ Getting Started
   recommendations.
 - Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
   the calendar invite with the video chat link.
-- Send out an AIO (see below) before your regular mentor meetings if requested
-  by your supervisor(s).
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Jason by sending him an email with your
   student ID number, TU Delft email address, and expected duration of access.
@@ -155,43 +153,6 @@ Quarterly Blog Posts
 .. _matrix: https://matrix.org/
 .. _clients: https://matrix.org/docs/projects/try-matrix-now/
 
-AIO Weekly Emails
------------------
-
-Lab members are expected to send out AIOs to their supervisor(s) and any
-project collaborators you meet with during your regular meetings if agreed upon
-with your supervisor.
-
-"AIO" stands for Accomplishments, Issues, and Objectives. This email should
-contain three bullet lists:
-
-- what you or your team accomplished in the previous week,
-- what issues you encountered during that week and would like help with, and finally
-- what your objectives are for the coming week.
-
-The purpose of these are to share what you are doing with your daily supervisor
-and anyone involved in your project outside the lab. Some notes:
-
-- If you are working in a team you can send out a single AIO for your team.
-- The AIOs do not need to be elaborate, concise is best.
-- No need to list your hours worked or who did what in teams.
-- It is ok, and preferred, to reply-all if you want to comment on an AIO with a
-  suggestion so everyone can learn and discuss.
-- The AIOs are not a contest. Your supervisor is not collecting these to judge
-  how much you accomplish, but they do care that you are working, attempting to
-  make progress, and communicating with your lab members for help. If you had
-  vacation that week or just didn't have much time to work, that's fine, just
-  note that.
-- If you need help via with issues, you need to provide enough detail for the
-  reader to understand the problem.
-
-The AIOs should be sent the day of your meeting with the supervisor. It can be
-before (we can use it as an agenda) or after if you prefer to work on the
-issues with me and then post outstanding ones and the revised objectives post
-meeting. Some students like to leave the objectives blank and add them after
-meeting with the supervisor. However you do it, each week the accomplishments
-should hopefully reflect the objectives you wrote the previous week.
-
 Laboratory Meetings
 ===================
 
@@ -225,6 +186,13 @@ The MC position rotates approximately every quarter. See the `MC Guide`_ for
 instructions on being the MC.
 
 .. _MC Guide: {filename}/pages/guide-mc-lab-meetings.rst
+
+At lab meetings we do a quick round of AIOs. "AIO" stands for Accomplishments,
+Issues, and Objectives. Be prepared to give a brief updated on:
+
+- what you or your team accomplished in the previous week,
+- what issues you encountered during that week and would like help with, and finally
+- what your objectives are for the coming week.
 
 See the `archive of past meetings <{filename}/pages/lab-meetings-archive.rst>`_
 for prior topics and examples.
