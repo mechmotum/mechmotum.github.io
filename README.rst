@@ -19,8 +19,8 @@ Editing Guide
 - Binary Assets such as images, videos, etc should be served from an external
   hosting site. The information for pushing binary objects to the Dreamhost
   DreamObject bucket is in the Fietslab Commons Google Drive. Do not commit
-  binary assets to this repository. Images should be all lower case unique
-  filenames with a ``-`` to separate words, for example:
+  binary assets to this Github repository. Images should be all lower case
+  unique filenames with a ``-`` to separate words, for example:
   ``my-image-for-this-blog-post.png``. All assets are store in the same
   directory on the object store and should have unique file names.
 
@@ -34,7 +34,7 @@ Building Locally
 It is good practice to build the documentation locally so that you can review
 change before submitting a pull request.
 
-First, clone the plugin repository::
+First, clone the Pelican plugin repository::
 
    $ git clone git@github.com:getpelican/pelican-plugins.git
 
@@ -42,7 +42,8 @@ Note the path to the plugin repository, e.g.::
 
    /home/my_username/.../pelican-plugins
 
-Clone the theme repository (you want the mechmotum branch to be active)::
+Clone the theme repository (you want the mechmotum branch to be active because
+we have custom edits on the theme)::
 
    $ git clone -b mechmotum git@github.com:mechmotum/pelican-alchemy.git
 
@@ -64,12 +65,17 @@ THEME_PATH)::
 
 Create a conda environment with pelican and the other needed dependencies::
 
-   $ conda create -f env.yml
+   $ conda env create -f env.yml
    $ conda activate bikelab-website
 
-Now you can build and serve the documentation with::
+Now you can build and serve the documentation with this Make command (not
+available on Windows by default)::
 
    (bikelab-website)$ make devserver
+
+or using Invoke (works on all operating systems)::
+
+   (bikelab-website)$ invoke livereload
 
 If this succeeds you can open the website in your web browser at
 http://localhost:8000.
