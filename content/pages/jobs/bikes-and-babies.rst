@@ -27,8 +27,8 @@ Some relevant links:
 This internship is tied to an exchange program between the University of
 Pennsylvania in the USA and TU Delft in the The Netherlands. A group of
 students from the University of Pennsylvania will visit TU Delft in the Spring
-of 2024 and an intern from TU Delft will work in Pennsylvania before the Spring
-of 2024. The program is led by Prof. Dustyn Roberts in the Department of
+of 2025 and an intern from TU Delft will work in Pennsylvania before the Spring
+of 2025. The program is led by Prof. Dustyn Roberts in the Department of
 Mechanical Engineering and Applied Mechanics at Penn. Copy
 dustyn@seas.upenn.edu on you application. There is no provided funding for the
 internship travel, housing, or stipend but you can seek funding for abroad
