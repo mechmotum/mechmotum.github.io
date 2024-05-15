@@ -75,10 +75,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Bikes and Babies <{filename}/pages/jobs/bikes-and-babies.rst>`_
+     - 2024-05-15
+     - Dustyn Roberts
+     - Internship
    * - `Explosive Power in BMX Cycling <{filename}/pages/jobs/visser-bmx.rst>`_
      - 2024-02-08
      - Peter Visser
-     - Internship & Thesis
+     - Thesis
    * - `Using Model Predictive Control to Assist in Bicycle Lane Changes <{filename}/pages/jobs/mpc-bicycle-assist-experiments.rst>`_
      - 2023-10-27
      - Laura Marchal-Crespo, Riender Happee
