@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Bicycle Dynamics for Microscopic Traffic Simulation | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/research/bicycle-dynamics-microsim.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="Description Simulated safety assessment is a valuable prospective tool to understand the impact of new traffic infrastructure and novel innovations in the traffic sector like automated vehicles, cycling assistance systems, and intelligent connectivity. However, current traffic simulations are designed to model traffic flow and do not automatically enable reliable safety …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="site-image img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Positions</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/contact.html">Contact</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Bicycle Dynamics for Microscopic Traffic Simulation
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <div class="row">
+      <div class="col-sm-4">
+        <img style="width:100%;" src="https://objects-us-east-1.dream.io/mechmotum/social-force-example.png" />
+      </div>
+      <div class="col-sm">
+        <h2>Summary</h2>
+        <p>We are investigating the influence of bicycle dynamics on the traffic conflict process to improve traffic simulation models towards predictive safety assessment of infrastructure improvements, smart cycling assistance systems, connectivity, and automated driving.</p>
+      </div>
+    </div>
+    <table class="table">
+      <tr>
+        <td><strong>Theme</strong></td>
+        <td>Cycling Safety</td>
+        <td><strong>Current Researchers</strong></td>
+        <td>Christoph Schmidt, Anna Marbus</td>
+      </tr>
+      <tr>
+        <td><strong>Last Worked On</strong></td>
+        <td>May 2024</td>
+        <td><strong>Past Researchers</strong></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td><strong>Collaborators</strong></td>
+        <td>Jason Moore, Azita Dabiri, Frederik Schulte, Riender Happee</td>
+      </tr>
+    </table>
+    <div class="section" id="description">
+<h2>Description</h2>
+<p>Simulated safety assessment is a valuable prospective tool to understand the impact of
+new traffic infrastructure and novel innovations in the traffic sector
+like automated vehicles, cycling assistance systems, and intelligent connectivity.
+However, current traffic simulations are designed to model traffic flow and do
+not automatically enable reliable safety assessment, especially for cyclists.</p>
+<p>In this project, we investigate the influence of bicycle dynamics on the traffic
+conflict process. This aims to improve simulation models towards better representing
+cyclist behavior and to add one potentially crucial factor on the way to capturing
+conflict causality in simulation. Understanding the role of vehicle dynamics in
+conflicts may also contribute to developing safer vehicles, safer infrastructure, and
+future assistance systems.</p>
+<p>For our analysis, we add explicit mechanical models of bicycle dynamics to existing
+traffic simulation frameworks. We collect data on cyclist conflict behavior in
+controlled experimental conditions and natural traffic, calibrate the improved
+models to the observations, and evaluate the model performance in comparison to existing
+models without bicycle dynamics.</p>
+</div>
+<div class="section" id="cyclist-social-forces">
+<h2>Cyclist Social Forces</h2>
+<center>
+<video width="522" height = "347" controls>
+      <source src="https://objects-us-east-1.dream.io/mechmotum/socialforce_scenario_crossing_BMD2023.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>Animation of an interaction simulationed by our cyclist social force model.</p>
+</center><p>At the heart of our project lies the development of an interaction model for cyclists.
+We adapted the social force concept introduced by Helbing and Molnár <a class="footnote-reference" href="#footnote-1" id="footnote-reference-1">[1]</a> to accommodate
+models of bicycle dynamics and rider control. Our first conference paper from this
+project details the approach <a class="footnote-reference" href="#footnote-2" id="footnote-reference-2">[2]</a>. It enables us to test different
+bicycle dynamic models with varying controllers in simulated conflict scenarios. The model
+is compatible with DLR's established open-source traffic simulation <a class="reference external" href="https://eclipse.dev/sumo/">SUMO</a> [3].</p>
+<p><a class="reference external" href="https://github.com/chrismo-schmidt/cyclistsocialforce">A Python implementation of our current progress is available on GitHub.</a></p>
+</div>
+<div class="section" id="ongoing-work">
+<h2>Ongoing Work</h2>
+<ul class="simple">
+<li><strong>Rider control parameters for desired yaw inputs:</strong>  Extracting the rider control parameters
+from responses to desired yaw angle input collected in controlled riding experiments to calibrate
+the bicycle dynamics.</li>
+<li><strong>Cyclist interaction behavior (Master's Graduation Project Anna Marbus):</strong> Conducting a controlled
+riding experiment and recording highly accurate dynamic data from on-bike sensors to understand the
+behavior of cyclists in different traffic conflict scenarios.</li>
+<li><strong>Native Cyclist Social Forces for SUMO:</strong> Adding a new C++ implementation of our cyclist
+social force model to the codebase of DLR's open-source simulator <a class="reference external" href="https://eclipse.dev/sumo/">SUMO</a> to make the model
+generally available for use in traffic simulation.</li>
+</ul>
+</div>
+<div class="section" id="research-output">
+<h2>Research Output</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name" colspan="2">Journal Articles:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">Schmidt, C. M., Dabiri, A., Schulte, F., Moore, J. K. &amp; Happee, R. (2024). Cycling Safety Assessment in Microscopic Traffic Simulation: A Review and Methodological Framework [Manuscript submitted to Transportation Research Interdisciplinary Perspectives].</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name" colspan="2">Conference Papers:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">Schmidt, C. M., Dabiri, A., Schulte, F., Happee, R., &amp; Moore, J. K. (2024). Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model [Conference paper, accepted/in press]. In <em>The Evolving Scholar: BMD 2023 , 5th Edition</em>. TU Delft OPEN. <a class="reference external" href="https://doi.org/10.59490/65a5124da90ad4aecf0ab147">https://doi.org/10.59490/65a5124da90ad4aecf0ab147</a></p>
+<blockquote>
+<dl class="docutils">
+<dt>Supplementary Material</dt>
+<dd><p class="first">Schmidt, C. M., Dabiri, A.; Schulte, F., Happee, R.; Moore, J. K. (2024): Supplementary Material of &quot;Essential Bicycle Dynamics for Microscopic Simulation&quot; - Experiments &amp; Plots [Software].  4TU.ResearchData. <a class="reference external" href="https://doi.org/10.4121/574cd504-ad56-4234-8d48-c10931d13204">https://doi.org/10.4121/574cd504-ad56-4234-8d48-c10931d13204</a></p>
+<p class="last"><a class="reference external" href=":https://github.com/chrismo-schmidt/bmd2023-supplements-bike-dynamics-microsim/">Also available on GitHub.</a></p>
+</dd>
+</dl>
+</blockquote>
+</td>
+</tr>
+<tr class="field"><th class="field-name" colspan="2">Conference Abstracts and Posters:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first">Schmidt, C. M., Dabiri, A., Schulte, F., Happee, R., &amp; Moore, J. K. (2023). Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model [Extented abstract]. In <em>The Evolving Scholar: BMD 2023 , 5th Edition</em>. TU Delft OPEN. <a class="reference external" href="https://doi.org/10.59490/649d4037c2c818c6824899bd">https://doi.org/10.59490/649d4037c2c818c6824899bd</a></p>
+<p>Schmidt, C. M., Moore, J. K., Dabiri, A., Happee, R., &amp; Schulte, F. (2023). Connected Traffic of Vulnerable Bicyclists and Automated Vehicles: Deep Learning Trajectory Generation for Realistic Simulated Bicycle Intersection Crossings. Poster session presented at SUMO User Conference 2023, Berlin, Germany. <a class="reference external" href="http://resolver.tudelft.nl/uuid:77d1435a-f7dc-4ad3-a12e-3bbc2ba60038">http://resolver.tudelft.nl/uuid:77d1435a-f7dc-4ad3-a12e-3bbc2ba60038</a></p>
+</td>
+</tr>
+<tr class="field"><th class="field-name" colspan="2">Conference Presentations:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body"><p class="first last">Schmidt, C. M. (2023, October 18).      Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model [Conference presentation]. Symposium on the Dynamics and Control of Single Track Vehicles (BMD 2023), Delft, The Netherlands.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>If you want to learn more about the project, are interested in collaboration, or are looking for Master's and Bachelor's Thesis project opportunities, please <strong>reach out!</strong></p>
+<div class="line-block">
+<div class="line"><strong>Christoph M. Schmidt (Dipl.-Ing.)</strong> - he | him</div>
+<div class="line"><em>PhD Candidate, TU Delft</em></div>
+<div class="line">---</div>
+<div class="line">Biomechatronics &amp; Human-Machine Control</div>
+<div class="line">Department of Biomechanical Engineering (BmE)</div>
+<div class="line">Faculty of Mechanical Engineering (ME)</div>
+<div class="line">Delft University of Technology</div>
+<div class="line">Mekelweg 2, 2628CD, Delft, The Netherlands</div>
+<div class="line">---</div>
+<div class="line"><a class="reference external" href="mailto:c.m.schmidt&#64;tudelft.nl">Email</a> | <a class="reference external" href="https://www.linkedin.com/in/chm-schmidt/">LinkedIn</a> | <a class="reference external" href="https://www.researchgate.net/profile/Christoph-Schmidt-30">ResearchGate</a> | <a class="reference external" href="https://github.com/chrismo-schmidt">GitHub</a> | <a class="reference external" href="https://www.tudelft.nl/en/staff/c.m.schmidt/">TU Delft</a></div>
+</div>
+</div>
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils footnote" frame="void" id="footnote-1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-1">[1]</a></td><td>Helbing, D., &amp; Molnár, P. (1995). Social force model for pedestrian dynamics. Physical Review E, 51(5), 4282–4286. <a class="reference external" href="https://doi.org/10.1103/PhysRevE.51.4282">https://doi.org/10.1103/PhysRevE.51.4282</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-2">[2]</a></td><td>Schmidt, C. M., Dabiri, A., Schulte, F., Happee, R., &amp; Moore, J. K. (2024). Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model (Conference paper, accepted/in press). In <em>The Evolving Scholar: BMD 2023 , 5th Edition</em>. TU Delft OPEN. <a class="reference external" href="https://doi.org/10.59490/65a5124da90ad4aecf0ab147">https://doi.org/10.59490/65a5124da90ad4aecf0ab147</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-3" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[3]</td><td>Lopez, P. A., Behrisch, M., Bieker-Walz, L., Erdmann, J., Flötteröd, Y.-P., Hilbrich, R., Lücken, L., Rummel, J., Wagner, P., &amp; Wiessner, E. (2018). Microscopic Traffic Simulation using SUMO. 2018 21st International Conference on Intelligent Transportation Systems (ITSC), 2575–2582. <a class="reference external" href="https://doi.org/10.1109/ITSC.2018.8569938">https://doi.org/10.1109/ITSC.2018.8569938</a></td></tr>
+</tbody>
+</table>
+</div>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy"
+         target="_blank">&#x2728;</a>
+    | Edit on <a href="https://github.com/mechmotum/mechmotum.github.io" target="_blank"><i class="fab fa-github"></i></a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
