@@ -8,7 +8,7 @@ Bicycle Dynamics for Microscopic Traffic Simulation
 :current_researchers: Christoph Schmidt, Anna Marbus
 :research_theme: Cycling Safety
 :template: project
-:summary-sentence: We are investigating the influence of bicycle dynamics on the traffic conflict process to improve traffic simulation models towards predictive safety assessmentof infrastructure improvements, smart cycling assistance systems, connectivity, and automated driving. 
+:summary-sentence: We are investigating the influence of bicycle dynamics on the traffic conflict process to improve traffic simulation models towards predictive safety assessment of infrastructure improvements, smart cycling assistance systems, connectivity, and automated driving. 
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/social-force-example.png
 :slug: research/bicycle-dynamics-microsim
 
@@ -16,23 +16,23 @@ Bicycle Dynamics for Microscopic Traffic Simulation
 Description
 ===========
 
-Simulated safety assement is valuable prospective tool to understand the impact of 
+Simulated safety assessment is a valuable prospective tool to understand the impact of 
 new traffic infrastructure and novel innovations in the traffic sector 
-like automated vehicles, cycling assistance systems and intelligent connectivity. 
+like automated vehicles, cycling assistance systems, and intelligent connectivity. 
 However, current traffic simulations are designed to model traffic flow and do 
-not automatically enable reliable safety assesment, especially for cyclists. 
+not automatically enable reliable safety assessment, especially for cyclists. 
 
 In this project, we investigate the influence of bicycle dynamics on the traffic 
 conflict process. This aims to improve simulation models towards better representing
-cyclist behaviour and to add one potentially crucial factor on the way to capturing
+cyclist behavior and to add one potentially crucial factor on the way to capturing
 conflict causality in simulation. Understanding the role of vehicle dynamics in 
-conflicts may also contribute to developing safer vehicles, safer infrastructure and
+conflicts may also contribute to developing safer vehicles, safer infrastructure, and
 future assistance systems. 
 
-For our analysis we add explicit mechanical models of bicycle dynamics to existing 
-traffic simulation frameworks. We collect data of cyclist conflict behaviour in
-controlled experimental conditions and in natural traffic, calibrate the improved 
-models to the observations and evaluate the model performance in comparison to exisiting 
+For our analysis, we add explicit mechanical models of bicycle dynamics to existing 
+traffic simulation frameworks. We collect data on cyclist conflict behavior in
+controlled experimental conditions and natural traffic, calibrate the improved 
+models to the observations, and evaluate the model performance in comparison to existing 
 models without bicycle dynamics. 
 
 Cyclist Social Forces
@@ -50,11 +50,11 @@ Cyclist Social Forces
    
 	
 At the heart of our project lies the development of an interaction model for cyclists.  
-We adapted the social force concept introduced by Helbing and Molnár [1]_ to accomodate 
+We adapted the social force concept introduced by Helbing and Molnár [1]_ to accommodate 
 models of bicycle dynamics and rider control. Our first conference paper from this 
 project details the approach [2]_. It enables us to test different 
-bicycle dynamic models with different controllers in simulated conflict scenarios. The model 
-is compatible with DLR's established open source traffic simulation SUMO_ [3].
+bicycle dynamic models with varying controllers in simulated conflict scenarios. The model 
+is compatible with DLR's established open-source traffic simulation SUMO_ [3].
 
 `A Python implementation of our current progress is available on GitHub.`__
 
@@ -70,12 +70,12 @@ Ongoing Work
   from responses to desired yaw angle input collected in controlled riding experiments to calibrate 
   the bicycle dynamics.
 
-- **Cyclist interaction behaviour (Master's Graduation Project Anna Marbus):** Conducting a controlled 
+- **Cyclist interaction behavior (Master's Graduation Project Anna Marbus):** Conducting a controlled 
   riding experiment and recording highly accurate dynamic data from on-bike sensors to understand the 
-  behaviour of cyclists in different traffic conflict scenarios. 
+  behavior of cyclists in different traffic conflict scenarios. 
 
 - **Native Cyclist Social Forces for SUMO:** Adding a new C++ implementation of our cyclist 
-  social force model to the codebase of DLR's open source simulator SUMO_ to make the model 
+  social force model to the codebase of DLR's open-source simulator SUMO_ to make the model 
   generally available for use in traffic simulation.   
   
 
@@ -113,7 +113,7 @@ __ bmd2023suppl_
 Contact
 =======
 
-If you want to learn more about the project, are interested in collaboration, or look for Master's and Bachelor's Thesis project opportunities, please **reach out!**  
+If you want to learn more about the project, are interested in collaboration, or are looking for Master's and Bachelor's Thesis project opportunities, please **reach out!**  
 
 | **Christoph M. Schmidt (Dipl.-Ing.)** - he | him
 | *PhD Candidate, TU Delft*
