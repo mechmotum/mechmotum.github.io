@@ -42,7 +42,7 @@ PhD Candidates
        | *Effects of tire properties on bicycle dynamics*
      - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
-       | *Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated Vehicles*
+       | *Bicycle dynamics for realistic conflict causality in safety-aware traffic simulation.*
    * - |headshot-dukalski-rado|
      - | **Rado Dukalski** [TUD, March 2018-present]
        | *Augmented Reality in Cycling for Safety and Peformance*
@@ -72,7 +72,7 @@ Masters of Science Students
 
    * - |headshot-missing|
      - | **Anna Marbus** [TUD, Feb 2024-present]
-       | *Experiments with Cyclist Social Forces for Microscopic Traffic Simulation*
+       | *Understanding cyclist conflict behavior in shared spaces.*
      - |headshot-missing|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
