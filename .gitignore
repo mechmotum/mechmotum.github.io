@@ -9,3 +9,6 @@ config.yml
 
 # python build files
 __pycache__/
+
+# cache
+cache/
