@@ -316,6 +316,19 @@ you'd like to share something that is set to private.
 
 .. _Git lesson: http://swcarpentry.github.io/git-novice/
 
+Our Software
+------------
+
+This presentation gives a basic overview over the set of software packages
+we've developed:
+
+.. raw:: html
+
+   <iframe
+   src="https://docs.google.com/presentation/d/e/2PACX-1vTMXyYgd_7x8lAYTyL89VuOpLRqUAJU8mlfgXhrMu3UvKJ5ZQgeV2vVfeqbKhiXfvOUU9TZdWiSHy26/embed?start=false&loop=false&delayms=3000"
+   frameborder="0" width="480" height="299" allowfullscreen="true"
+   mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 Lab Space
 =========
 
