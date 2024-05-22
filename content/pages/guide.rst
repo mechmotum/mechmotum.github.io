@@ -326,7 +326,7 @@ we've developed:
 
    <iframe
    src="https://docs.google.com/presentation/d/e/2PACX-1vTMXyYgd_7x8lAYTyL89VuOpLRqUAJU8mlfgXhrMu3UvKJ5ZQgeV2vVfeqbKhiXfvOUU9TZdWiSHy26/embed?start=false&loop=false&delayms=3000"
-   frameborder="0" width="480" height="299" allowfullscreen="true"
+   frameborder="0" width="960" height="569" allowfullscreen="true"
    mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Lab Space
