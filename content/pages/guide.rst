@@ -559,7 +559,7 @@ possible. MSc and BSc students are also encouraged to do so if resources allow.
 `International Cycling Safety Conference <http://cyclingsafety.net/>`_
    This is the next most important conference to be involved in. We should aim
    to have at least one or two submissions to this conference each year.
-ECCOMAS Multibody Dynamics Conference
+`ECCOMAS <https://www.eccomas.org/>`_ Multibody Dynamics Conference
    This is a good conference for presenting topics that focus in multibody
    dynamics methods.
 `International Sports Engineering Conference <https://www.sportsengineering.org/events/conference/>`_
@@ -578,6 +578,11 @@ Dutch Bio-Medical Engineering Conference
    Nice way to connect with Dutch local researchers.
 `Science & Cycling <https://science-cycling.org>`_
    Annual European conference focused on performance and cycling as a sport.
+`Velo-city <https://en.wikipedia.org/wiki/Velo-city>`_
+   Cycling planning conference for general audience: planners, advocates,
+   researchers, industry, etc.
+`EUROBIKE <https://en.wikipedia.org/wiki/Eurobike>`_
+   Annual bicycle tradeshow for Europe.
 
 Journals
 ========
