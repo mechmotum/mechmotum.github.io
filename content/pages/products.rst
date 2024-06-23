@@ -373,42 +373,58 @@ Software
 
 #. B. Cloud, J. K. Moore, A. Liu, B. Tarien, T. Shedd, row_filter: Library for
    rowing kinematic filtering and analysis, 2018
-   https://gitlab.com/mechmotum/row_filter
+
+   |row_filter-gitlab|
 #. J. K. Moore, M. Hubbard, and B. Cloud, skijumpdesign: A ski jump design tool
    for equivalent fall height. 2017. http://www.skijumpdesign.info
+
+   |skijumpdesign-gitlab| |skijumpdesign-pypi| |skijumpdesign-pypi-downloads| |skijumpdesign-conda-forge| |skijumpdesign-conda-downloads|
 #. J. K. Moore and K. Lyons, resonance: A Python package for mechanical
    vibration analysis. University of California, Davis, 2017.
+
    |resonance-github| |resonance-pypi| |resonance-pypi-downloads| |resonance-conda-forge| |resonance-conda-downloads|
 #. J. K. Moore and A. J. van den Bogert, opty: A library for using direct
    collocation in the optimization and identification of dynamic systems.
    Cleveland State University, 2014.
+
    |opty-github| |opty-pypi| |opty-pypi-downloads| |opty-conda-forge| |opty-conda-downloads|
 #. J. K. Moore, S. K. Hnat, O. Nwanna, M. Overmeyer, and A. J. van den Bogert,
    GaitAnalysisToolKit: A Python Library for Gait Analysis. Cleveland State
    University, 2013.
-   |GaitAnalysisToolKit-github| |GaitAnalysisToolKit-pypi| |GaitAnalysisToolKit-pypi-downloads| |GaitAnalysisToolKit-conda-forge| |GaitAnalysisToolKit-conda-downloads|
+
+   |GaitAnalysisToolKit-github| |GaitAnalysisToolKit-pypi| |GaitAnalysisToolKit-pypi-downloads|
 #. J. K. Moore, P. D. L. de Lange, and S. Yin, BicycleDataProcessor: Data
    storage and processing library for an instrumented bicycle. University of
    California, Davis, 2011.
+
+   |BicycleDataProcessor-github| |BicycleDataProcessor-pypi| |BicycleDataProcessor-pypi-downloads|
 #. J. K. Moore, C. Dembia, and O. Lee, BicycleParameters: A Python library for
    bicycle parameter estimation and analysis. 2011.
+
    |BicycleParameters-github| |BicycleParameters-pypi| |BicycleParameters-pypi-downloads| |BicycleParameters-conda-forge| |BicycleParameters-conda-downloads|
 #. J. K. Moore, C. Dembia, and O. Lee, DynamicistToolKit: A Python library for
    dynamics and controls. 2011.
+
    |DynamicistToolKit-github| |DynamicistToolKit-pypi| |DynamicistToolKit-pypi-downloads| |DynamicistToolKit-conda-forge| |DynamicistToolKit-conda-downloads|
 #. C. Dembia, J. K. Moore, S. Yin, and O. Lee, Yeadon: A Python Library For
-   Human Inertia Estimation. 2011. |yeadon-github| |yeadon-pypi|
-   |yeadon-pypi-downloads| |yeadon-conda-forge| |yeadon-conda-downloads|
+   Human Inertia Estimation. 2011.
+
+   |yeadon-github| |yeadon-pypi| |yeadon-pypi-downloads| |yeadon-conda-forge| |yeadon-conda-downloads|
 #. J. K. Moore et al., PyDy: A multi-body dynamics analysis package written in
    Python. PyDy, 2011.
+
    |pydy-github| |pydy-pypi| |pydy-pypi-downloads| |pydy-conda-forge| |pydy-conda-downloads|
 #. cyipopt developers, cyipopt: Python Wrapper to IPOPT, 2011.
+
    |cyipopt-github| |cyipopt-pypi| |cyipopt-pypi-downloads| |cyipopt-conda-forge| |cyipopt-conda-downloads|
 #. J. K. Moore, P. D. L. de Lange, and Y. Henneberry, BicycleDAQ: Data
    aquisition application for an instrumented bicycle. University of
    California, Davis, 2010.
+
+   |BicycleDAQ-github|
 #. SymPy Development Team, SymPy: Python library for symbolic mathematics.
    2006.
+
    |sympy-github| |sympy-pypi| |sympy-pypi-downloads| |sympy-conda-forge| |sympy-conda-downloads|
 
 .. |pydy-github| image:: https://img.shields.io/github/v/release/pydy/pydy?label=Github
@@ -554,6 +570,58 @@ Software
 
 .. |resonance-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/resonance.png
    :target: https://anaconda.org/conda-forge/resonance
+
+.. |BicycleDataProcessor-github| image:: https://img.shields.io/github/v/release/moorepants/BicycleDataProcessor?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/moorepants/BicycleDataProcessor
+
+.. |BicycleDataProcessor-pypi| image:: https://img.shields.io/pypi/v/BicycleDataProcessor.png
+   :target: https://pypi.org/project/BicycleDataProcessor
+
+.. |BicycleDataProcessor-pypi-downloads| image:: https://pepy.tech/badge/BicycleDataProcessor
+   :target: https://pypi.org/project/BicycleDataProcessor
+
+.. |BicycleDataProcessor-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/BicycleDataProcessor.png
+   :target: https://anaconda.org/conda-forge/BicycleDataProcessor
+
+.. |BicycleDataProcessor-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/BicycleDataProcessor.png
+   :target: https://anaconda.org/conda-forge/BicycleDataProcessor
+
+.. |BicycleDAQ-github| image:: https://img.shields.io/github/v/release/moorepants/BicycleDAQ?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/moorepants/BicycleDAQ
+
+.. |BicycleDAQ-pypi| image:: https://img.shields.io/pypi/v/BicycleDAQ.png
+   :target: https://pypi.org/project/BicycleDAQ
+
+.. |BicycleDAQ-pypi-downloads| image:: https://pepy.tech/badge/BicycleDAQ
+   :target: https://pypi.org/project/BicycleDAQ
+
+.. |BicycleDAQ-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/BicycleDAQ.png
+   :target: https://anaconda.org/conda-forge/BicycleDAQ
+
+.. |BicycleDAQ-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/BicycleDAQ.png
+   :target: https://anaconda.org/conda-forge/BicycleDAQ
+
+.. |skijumpdesign-gitlab| image:: https://img.shields.io/gitlab/v/release/moorepants/skijumpdesign?label=Gitlab
+   :alt: Gitlab Release
+   :target: https://gitlab.com/moorepants/skijumpdesign
+
+.. |skijumpdesign-pypi| image:: https://img.shields.io/pypi/v/skijumpdesign.png
+   :target: https://pypi.org/project/skijumpdesign
+
+.. |skijumpdesign-pypi-downloads| image:: https://pepy.tech/badge/skijumpdesign
+   :target: https://pypi.org/project/skijumpdesign
+
+.. |skijumpdesign-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/skijumpdesign.png
+   :target: https://anaconda.org/conda-forge/skijumpdesign
+
+.. |skijumpdesign-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/skijumpdesign.png
+   :target: https://anaconda.org/conda-forge/skijumpdesign
+
+.. |row_filter-gitlab| image:: https://img.shields.io/gitlab/v/release/mechmotum/row_filter?label=Gitlab
+   :alt: Gitlab Release
+   :target: https://gitlab.com/mechmotum/row_filter
 
 Data
 ====
