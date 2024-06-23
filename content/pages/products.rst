@@ -378,31 +378,182 @@ Software
    for equivalent fall height. 2017. http://www.skijumpdesign.info
 #. J. K. Moore and K. Lyons, resonance: A Python package for mechanical
    vibration analysis. University of California, Davis, 2017.
-   http://github.com/moorepants/resonance
+   |resonance-github| |resonance-pypi| |resonance-pypi-downloads| |resonance-conda-forge| |resonance-conda-downloads|
 #. J. K. Moore and A. J. van den Bogert, opty: A library for using direct
    collocation in the optimization and identification of dynamic systems.
-   Cleveland State University, 2014. http://github.com/csu-hmc/opty
+   Cleveland State University, 2014.
+   |opty-github| |opty-pypi| |opty-pypi-downloads| |opty-conda-forge| |opty-conda-downloads|
 #. J. K. Moore, S. K. Hnat, O. Nwanna, M. Overmeyer, and A. J. van den Bogert,
    GaitAnalysisToolKit: A Python Library for Gait Analysis. Cleveland State
    University, 2013.
+   |GaitAnalysisToolKit-github| |GaitAnalysisToolKit-pypi| |GaitAnalysisToolKit-pypi-downloads| |GaitAnalysisToolKit-conda-forge| |GaitAnalysisToolKit-conda-downloads|
 #. J. K. Moore, P. D. L. de Lange, and S. Yin, BicycleDataProcessor: Data
    storage and processing library for an instrumented bicycle. University of
    California, Davis, 2011.
 #. J. K. Moore, C. Dembia, and O. Lee, BicycleParameters: A Python library for
    bicycle parameter estimation and analysis. 2011.
+   |BicycleParameters-github| |BicycleParameters-pypi| |BicycleParameters-pypi-downloads| |BicycleParameters-conda-forge| |BicycleParameters-conda-downloads|
 #. J. K. Moore, C. Dembia, and O. Lee, DynamicistToolKit: A Python library for
-   dynamcis and controls. 2011.
+   dynamics and controls. 2011.
+   |DynamicistToolKit-github| |DynamicistToolKit-pypi| |DynamicistToolKit-pypi-downloads| |DynamicistToolKit-conda-forge| |DynamicistToolKit-conda-downloads|
 #. C. Dembia, J. K. Moore, S. Yin, and O. Lee, Yeadon: A Python Library For
-   Human Inertia Estimation. 2011. https://github.com/chrisdembia/yeadon
+   Human Inertia Estimation. 2011. |yeadon-github| |yeadon-pypi|
+   |yeadon-pypi-downloads| |yeadon-conda-forge| |yeadon-conda-downloads|
 #. J. K. Moore et al., PyDy: A multi-body dynamics analysis package written in
-   Python. PyDy, 2011. http://pydy.org
-#. cyipopt developers, cyipopt: Python Wrapper to IPOPT, 2011,
-   https://github.com/mechmotum/cyipopt.
+   Python. PyDy, 2011.
+   |pydy-github| |pydy-pypi| |pydy-pypi-downloads| |pydy-conda-forge| |pydy-conda-downloads|
+#. cyipopt developers, cyipopt: Python Wrapper to IPOPT, 2011.
+   |cyipopt-github| |cyipopt-pypi| |cyipopt-pypi-downloads| |cyipopt-conda-forge| |cyipopt-conda-downloads|
 #. J. K. Moore, P. D. L. de Lange, and Y. Henneberry, BicycleDAQ: Data
    aquisition application for an instrumented bicycle. University of
    California, Davis, 2010.
 #. SymPy Development Team, SymPy: Python library for symbolic mathematics.
-   2006. http://sympy.org
+   2006.
+   |sympy-github| |sympy-pypi| |sympy-pypi-downloads| |sympy-conda-forge| |sympy-conda-downloads|
+
+.. |pydy-github| image:: https://img.shields.io/github/v/release/pydy/pydy?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/pydy/pydy
+
+.. |pydy-pypi| image:: https://img.shields.io/pypi/v/pydy.png
+   :target: https://pypi.org/project/pydy
+
+.. |pydy-pypi-downloads| image:: https://pepy.tech/badge/pydy
+   :target: https://pypi.org/project/pydy
+
+.. |pydy-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/pydy.png
+   :target: https://anaconda.org/conda-forge/pydy
+
+.. |pydy-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/pydy.png
+   :target: https://anaconda.org/conda-forge/pydy
+
+.. |cyipopt-github| image:: https://img.shields.io/github/v/release/mechmotum/cyipopt?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/mechmotum/cyipopt
+
+.. |cyipopt-pypi| image:: https://img.shields.io/pypi/v/cyipopt.png
+   :target: https://pypi.org/project/cyipopt
+
+.. |cyipopt-pypi-downloads| image:: https://pepy.tech/badge/cyipopt
+   :target: https://pypi.org/project/cyipopt
+
+.. |cyipopt-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/cyipopt.png
+   :target: https://anaconda.org/conda-forge/cyipopt
+
+.. |cyipopt-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/cyipopt.png
+   :target: https://anaconda.org/conda-forge/cyipopt
+
+.. |opty-github| image:: https://img.shields.io/github/v/release/csu-hmc/opty?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/csu-hmc/opty
+
+.. |opty-pypi| image:: https://img.shields.io/pypi/v/opty.png
+   :target: https://pypi.org/project/opty
+
+.. |opty-pypi-downloads| image:: https://pepy.tech/badge/opty
+   :target: https://pypi.org/project/opty
+
+.. |opty-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/opty.png
+   :target: https://anaconda.org/conda-forge/opty
+
+.. |opty-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/opty.png
+   :target: https://anaconda.org/conda-forge/opty
+
+.. |BicycleParameters-github| image:: https://img.shields.io/github/v/release/moorepants/BicycleParameters?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/moorepants/BicycleParameters
+
+.. |BicycleParameters-pypi| image:: https://img.shields.io/pypi/v/BicycleParameters.png
+   :target: https://pypi.org/project/BicycleParameters
+
+.. |BicycleParameters-pypi-downloads| image:: https://pepy.tech/badge/BicycleParameters
+   :target: https://pypi.org/project/BicycleParameters
+
+.. |BicycleParameters-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/BicycleParameters.png
+   :target: https://anaconda.org/conda-forge/BicycleParameters
+
+.. |BicycleParameters-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/BicycleParameters.png
+   :target: https://anaconda.org/conda-forge/BicycleParameters
+
+.. |yeadon-github| image:: https://img.shields.io/github/v/release/chrisdembia/yeadon?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/chrisdembia/yeadon
+
+.. |yeadon-pypi| image:: https://img.shields.io/pypi/v/yeadon.png
+   :target: https://pypi.org/project/yeadon
+
+.. |yeadon-pypi-downloads| image:: https://pepy.tech/badge/yeadon
+   :target: https://pypi.org/project/yeadon
+
+.. |yeadon-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/yeadon.png
+   :target: https://anaconda.org/conda-forge/yeadon
+
+.. |yeadon-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/yeadon.png
+   :target: https://anaconda.org/conda-forge/yeadon
+
+.. |sympy-github| image:: https://img.shields.io/github/v/release/sympy/sympy?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/sympy/sympy
+
+.. |sympy-pypi| image:: https://img.shields.io/pypi/v/sympy.png
+   :target: https://pypi.org/project/sympy
+
+.. |sympy-pypi-downloads| image:: https://pepy.tech/badge/sympy
+   :target: https://pypi.org/project/sympy
+
+.. |sympy-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/sympy.png
+   :target: https://anaconda.org/conda-forge/sympy
+
+.. |sympy-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/sympy.png
+   :target: https://anaconda.org/conda-forge/sympy
+
+.. |DynamicistToolKit-github| image:: https://img.shields.io/github/v/release/moorepants/DynamicistToolKit?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/moorepants/DynamicistToolKit
+
+.. |DynamicistToolKit-pypi| image:: https://img.shields.io/pypi/v/DynamicistToolKit.png
+   :target: https://pypi.org/project/DynamicistToolKit
+
+.. |DynamicistToolKit-pypi-downloads| image:: https://pepy.tech/badge/DynamicistToolKit
+   :target: https://pypi.org/project/DynamicistToolKit
+
+.. |DynamicistToolKit-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/DynamicistToolKit.png
+   :target: https://anaconda.org/conda-forge/DynamicistToolKit
+
+.. |DynamicistToolKit-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/DynamicistToolKit.png
+   :target: https://anaconda.org/conda-forge/DynamicistToolKit
+
+.. |GaitAnalysisToolKit-github| image:: https://img.shields.io/github/v/release/csu-hmc/GaitAnalysisToolKit?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/csu-hmc/GaitAnalysisToolKit
+
+.. |GaitAnalysisToolKit-pypi| image:: https://img.shields.io/pypi/v/GaitAnalysisToolKit.png
+   :target: https://pypi.org/project/GaitAnalysisToolKit
+
+.. |GaitAnalysisToolKit-pypi-downloads| image:: https://pepy.tech/badge/GaitAnalysisToolKit
+   :target: https://pypi.org/project/GaitAnalysisToolKit
+
+.. |GaitAnalysisToolKit-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/GaitAnalysisToolKit.png
+   :target: https://anaconda.org/conda-forge/GaitAnalysisToolKit
+
+.. |GaitAnalysisToolKit-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/GaitAnalysisToolKit.png
+   :target: https://anaconda.org/conda-forge/GaitAnalysisToolKit
+
+.. |resonance-github| image:: https://img.shields.io/github/v/release/moorepants/resonance?label=Github
+   :alt: GitHub Release
+   :target: https://github.com/moorepants/resonance
+
+.. |resonance-pypi| image:: https://img.shields.io/pypi/v/resonance.png
+   :target: https://pypi.org/project/resonance
+
+.. |resonance-pypi-downloads| image:: https://pepy.tech/badge/resonance
+   :target: https://pypi.org/project/resonance
+
+.. |resonance-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/resonance.png
+   :target: https://anaconda.org/conda-forge/resonance
+
+.. |resonance-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/resonance.png
+   :target: https://anaconda.org/conda-forge/resonance
 
 Data
 ====
