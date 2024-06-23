@@ -36,7 +36,9 @@ Under Review
 #. L. Alizadehsaravi and J. K. Moore, "Bicycle balance assist system reduces
    roll and steering motion for young and older bicyclists during real-life
    safety challenges," PeerJ, vol. 11, p. e16206, Oct. 2023,
-   https://doi.org/10.7717/peerj.16206.
+   https://doi.org/10.7717/peerj.16206. |Alizadehsaravi2023-citations|
+
+.. |Alizadehsaravi2023-citations| image:: https://api.juleskreuer.eu/citation-badge.php?doi=10.7717/peerj.16206
 
 2020
 ----
@@ -44,7 +46,9 @@ Under Review
 #. X. Qian, J. K. Moore, and D. Niemeier, "Predicting Bicycle Pavement Ride
    Quality: Sensor-based Statistical Model," Journal of Infrastructure Systems,
    vol. 26, no. 3, p. 04020033, 2020,
-   https://doi.org/10.1061/(ASCE)IS.1943-555X.0000571.
+   https://doi.org/10.1061/(ASCE)IS.1943-555X.0000571. |Qian2020-citations|
+
+.. |Qian2020-citations| image:: https://api.juleskreuer.eu/citation-badge.php?doi=10.1061/(ASCE)IS.1943-555X.0000571
 
 2019
 ----
@@ -52,6 +56,9 @@ Under Review
 #. B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
    competitive rowing kinematic metrics," PLOS ONE, vol. 14, no. 12, p.
    e0225690, Dec. 2019, https://doi.org/10.1371/journal.pone.0225690.
+   |Cloud2019-citations|
+
+.. |Cloud2019-citations| image:: https://api.juleskreuer.eu/citation-badge.php?doi=10.1371/journal.pone.0225690
 
 2018
 ----
@@ -60,11 +67,14 @@ Under Review
    for Specified Equivalent Fall Height." The Journal of Open Source Software
    3, no. 28 (August 20, 2018): 818–20. https://doi.org/10.21105/joss.00818.
    `[pdf]
-   <https://objects-us-east-1.dream.io/mechmotum.github.io/Moore%20and%20Hubbard%20-%202018%20-%20skijumpdesign%20A%20Ski%20Jump%20Design%20Tool%20for%20Specifie.pdf>`_
+   <https://objects-us-east-1.dream.io/mechmotum.github.io/Moore%20and%20Hubbard%20-%202018%20-%20skijumpdesign%20A%20Ski%20Jump%20Design%20Tool%20for%20Specifie.pdf>`_ |Moore2018a-citations|
 #. Jason K. Moore, and Antonie van den Bogert. "Opty: Software for Trajectory
    Optimization and Parameter Identification Using Direct Collocation." Journal
    of Open Source Software 3, no. 21 (January 31, 2018): 300.
-   https://doi.org/10.21105/joss.00300.
+   https://doi.org/10.21105/joss.00300. |Moore2018-citations|
+
+.. |Moore2018a-citations| image:: https://api.juleskreuer.eu/citation-badge.php?doi=10.21105/joss.00818
+.. |Moore2018-citations| image:: https://api.juleskreuer.eu/citation-badge.php?doi=10.21105/joss.00300
 
 2017
 ----
@@ -72,7 +82,9 @@ Under Review
 #. Meurer, Aaron, Christopher P. Smith, Mateusz Paprocki, Ondřej Čertík, Sergey
    B. Kirpichev, Matthew Rocklin, AMiT Kumar, et al. "SymPy: Symbolic Computing
    in Python." PeerJ Computer Science 3 (January 2, 2017): e103.
-   https://doi.org/10.7717/peerj-cs.103.
+   https://doi.org/10.7717/peerj-cs.103. |Meurer2017-citations|
+
+.. |Meurer2017-citations| image:: https://api.juleskreuer.eu/citation-badge.php?doi=10.7717/peerj-cs.103
 
 Conference Proceedings
 ======================
