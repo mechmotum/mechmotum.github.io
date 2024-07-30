@@ -381,15 +381,18 @@ If you find something in the lab you would like to use, post a note to the
 Element/matrix chat or lab email asking if anyone else is using it or plans to
 use it. If no one is using it, then you can!
 
-If a TU Delft student or staff that is not a lab member would like to borrow
-equipment from the lab, find out if anyone is using it (as noted above), and
-then make sure they fill out the checkout sheet (by the lab door) with their
-name, email, date, and your name (as the responsible person) before the item
-leaves the lab. When they return the item, indicate the return date on the
-sheet. Keep in mind that non-lab member students should look to the more
-general shared equipment resources available in 3mE before borrowing from us
-and we don't generally loan common things like screwdrivers and bike pumps but
-can loan specialized equipment that only we have.
+If a TU Delft staff or student that is not a lab member would like to borrow
+equipment from the lab for TU Delft research, find out if anyone is using it
+(as noted above), and then make sure they fill out the checkout sheet (by the
+lab door) with their name, email, date, and your name (as the responsible
+person) before the item leaves the lab. When they return the item, indicate the
+return date on the sheet. Keep in mind that non-lab member students and staff
+should look to the more general shared equipment resources available in ME
+before borrowing from us. Do not loan common things like screwdrivers and
+general tools, as those can be borrowed from the faculty machine shops. In
+general, do not loan our bike tools out, researchers that need them can come to
+the bike lab and use them. Do not loan tools or equipment for people's personal
+use.
 
 If you take things from the lab to use elsewhere for **more than one day** you
 also need to sign the equipment checkout sheet. Note your name and the date you
