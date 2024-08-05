@@ -1,5 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-04-23T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jan Heinen Interviewed on Talk that Science about Skateboard Science</title><link href="https://mechmotum.github.io/blog/skateboard-podcast.html" rel="alternate"></link><published>2024-04-23T00:00:00-07:00</published><updated>2024-04-23T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-04-23:/blog/skateboard-podcast.html</id><content type="html">&lt;p&gt;Past lab member, Jan Heinen, was interviewed on the podcast &amp;quot;Talk That Science&amp;quot;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-08-05T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Biomechanical Optimization with SymPy 1.13 and Opty 1.3</title><link href="https://mechmotum.github.io/blog/sympy-1.13-opty-1.3-release.html" rel="alternate"></link><published>2024-08-05T00:00:00-07:00</published><updated>2024-08-05T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-05:/blog/sympy-1.13-opty-1.3-release.html</id><summary type="html">&lt;p class="first last"&gt;SymPy 1.13 and Opty 1.3 can now be used for optimal control solutions
+of muscle-driven biomechanical simulation. This blog post shows of a
+solution to a muscle driven cycling time trial.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://github.com/sympy/sympy/releases/tag/1.13.0"&gt;SymPy 1.13&lt;/a&gt; was released on July 8, 2024. This release includes &lt;a class="reference external" href="{file}/czi-sympy-wrapup.rst"&gt;all of the
+work we did under the CZI Open Source Software for Science Cycle 4 grant&lt;/a&gt;. For example, SymPy now includes new features
+for modeling biomechanical multibody systems. The new features include model
+construction from joints via a system manager and force actuator classes
+including a musculo-tendon model. At the close of the grant period, we
+demonstrated how these features can be used in the solution of biomechanical
+trajectory optimization and parameter estimation optimal control problems, but
+only from development branches of the various intertwined software packages.
+Today, we released &lt;a class="reference external" href="https://github.com/csu-hmc/opty/releases/tag/v1.3.0"&gt;Opty 1.3&lt;/a&gt; which can now be used alongside SymPy 1.13 to solve
+biomechanical optimal control problems. Opty can now handle symbolic equations
+of motion that have many millions of mathematical operations and tens of
+thousands of constraints and optimization variables. To help grow adoption,
+we've built out a new example gallery that demonstrates how Opty can be used to
+solve a variety of problems:&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;a class="reference external image-reference" href="https://opty.readthedocs.io/stable/examples/index.html"&gt;&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/opty-1.3-examples.png" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Opty 1.3's new example gallery.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;One example in the gallery, the &amp;quot;&lt;a class="reference external" href="https://opty.readthedocs.io/stable/examples/plot_one_legged_time_trial.html"&gt;One-Legged Cycling Time Trial&lt;/a&gt;&amp;quot;,
+shows how to find an optimal control solution of a musculo-tendon driven model
+that makes use of SymPy 1.13's new biomechanics features. We developed this
+example for an activity in TU Delft's 2024 Sports Engineering course to show
+the students how models can be used to study how muscles play a role in optimal
+performance. The example solves a minimum time cycling race using a model of a
+single leg and simplified muscles that drive the leg motion to propel the
+bicycle. The example in the gallery is set up with a short race distance but if
+you bump the distance up to 80 meters the cyclist starts approaching terminal
+velocity. Opty can find an optimal solution for the 17,000 variables in this
+problem in about 10 minutes on an AMD Ryzen 5 2600X 12 core machine.&lt;/p&gt;
+&lt;p&gt;This produces a reasonably realistic overall motion which can be seen in the
+cadence, resulting speed, and the power to accelerate and overcome rolling and
+air resistance:&lt;/p&gt;
+&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-power.png" /&gt;
+&lt;p&gt;There is no limit on the fatigue of the muscles so the optimizer finds a
+bang-bang style coordination of the muscle excitations to power the leg and
+push the muscles to their maximum force production:&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-muscle.png" /&gt;
+&lt;p class="caption"&gt;The four muscle forces, muscle lengths, and muscle excitations versus time
+during the 80 meter time trial with the minimum race time shown at the top.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This solution results in this overall pedaling motion:&lt;/p&gt;
+&lt;center&gt;
+  &lt;video controls&gt;
+    &lt;source src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m.mp4" type="video/mp4"&gt;
+  &lt;/video&gt;
+&lt;/center&gt;&lt;p&gt;Our next step is to incorporate muscles in our 3D nonlinear bicycle-rider
+models to enable deeper understanding of how bicycles are balanced and
+controlled. Opty can quickly find optimal trajectories of the joint torque
+driven model, as shown in our &lt;a class="reference external" href="https://doi.org/10.59490/660179a06bf1082286458109"&gt;BRiM paper&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/brim-paper-opty-example.png" /&gt;
+&lt;p class="caption"&gt;Torque driven Opty optimal control solution for the non-linear
+Carvallo-Whipple bicycle model.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Thanks to Timo, Sam, Peter, and all the SymPy developers for the contributions
+that helped pull all this together! We hope that others can make use of these
+models and tools for their own work.&lt;/p&gt;
+</content><category term="research"></category><category term="sympy"></category><category term="czi"></category><category term="biomechanics"></category><category term="multibody dynamics"></category><category term="open source software"></category><category term="muscles"></category><category term="optimal control"></category><category term="bicycle"></category><category term="code generation"></category></entry><entry><title>Jan Heinen Interviewed on Talk that Science about Skateboard Science</title><link href="https://mechmotum.github.io/blog/skateboard-podcast.html" rel="alternate"></link><published>2024-04-23T00:00:00-07:00</published><updated>2024-04-23T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-04-23:/blog/skateboard-podcast.html</id><content type="html">&lt;p&gt;Past lab member, Jan Heinen, was interviewed on the podcast &amp;quot;Talk That Science&amp;quot;
 about his skateboard research:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://talkthatscience.com/Skateboard-Science"&gt;https://talkthatscience.com/Skateboard-Science&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1802100471&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;&lt;div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"&gt;&lt;a href="https://soundcloud.com/talkthatscience" title="Talk That Science" target="_blank" style="color: #cccccc; text-decoration: none;"&gt;Talk That Science&lt;/a&gt; · &lt;a href="https://soundcloud.com/talkthatscience/skateboard-science-echobox-radio" title="Skateboard Science @Echobox Radio" target="_blank" style="color: #cccccc; text-decoration: none;"&gt;Skateboard Science @Echobox Radio&lt;/a&gt;&lt;/div&gt;</content><category term="news"></category><category term="skateboard"></category><category term="ollie"></category><category term="podcast"></category></entry><entry><title>Kirsten Dijkman Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-kirsten-dijkman.html" rel="alternate"></link><published>2024-01-12T06:09:00-08:00</published><updated>2024-01-12T06:09:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-01-12:/blog/msc-graduation-kirsten-dijkman.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
