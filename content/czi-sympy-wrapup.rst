@@ -22,7 +22,7 @@ SymPy CZI Grant Code Generation & Biomechanics Outcomes
    * - |sympy-logo|
      - |czi-logo|
 
-.. |sympy-logo| image:: https://docs.sympy.org/dev/_images/sympy-500px.png
+.. |sympy-logo| image:: https://docs.sympy.org/latest/_images/sympy-500px.png
    :height: 200px
 
 .. |czi-logo| image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
@@ -311,8 +311,8 @@ along a pathway, generating resultant forces on points that lie along the
 pathway. We included a linear spring and damper as example actuators. The
 pathways are located in the new pathway_ module.
 
-.. _actuator: https://docs.sympy.org/dev/modules/physics/mechanics/api/actuator.html
-.. _pathway: https://docs.sympy.org/dev/modules/physics/mechanics/api/pathway.html
+.. _actuator: https://docs.sympy.org/latest/modules/physics/mechanics/api/actuator.html
+.. _pathway: https://docs.sympy.org/latest/modules/physics/mechanics/api/pathway.html
 
 These new objects provide core building blocks for developing musculotendon
 actuators and managing a full multibody system.
@@ -328,8 +328,8 @@ generally reduces the amount of code needed to generate the equations for
 complex systems. See the `Four-bar Linkage`_ example to get an idea of how it
 works.
 
-.. _System(): https://docs.sympy.org/dev/modules/physics/mechanics/api/system.html#sympy.physics.mechanics._system.System
-.. _Four-bar Linkage: https://docs.sympy.org/dev/modules/physics/mechanics/examples/four_bar_linkage_example.html
+.. _System(): https://docs.sympy.org/latest/modules/physics/mechanics/api/system.html#sympy.physics.mechanics._system.System
+.. _Four-bar Linkage: https://docs.sympy.org/latest/modules/physics/mechanics/examples/four_bar_linkage_example.html
 
 Introducing SymPy Biomechanics
 ==============================
@@ -349,10 +349,10 @@ these primary modules:
 
 A full explanation of this package and the modules can be found in the new
 `Introduction to Biomechanical Modeling
-<https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html>`_
+<https://docs.sympy.org/latest/tutorials/physics/biomechanics/biomechanics.html>`_
 tutorial. We demonstrate the package on a non-trivial biomechanical system in
 the new `Biomechanical Model Example
-<https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html>`_
+<https://docs.sympy.org/latest/tutorials/physics/biomechanics/biomechanical-model-example.html>`_
 tutorial.
 
 .. list-table:: Figure 2: On the left, the muscle(red)-driven arm (black C and
@@ -368,10 +368,10 @@ tutorial.
 .. |biomechanics-steerer| image:: https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png
    :width: 100%
 
-.. |biomechanics-steerer-results| image:: https://docs.sympy.org/dev/_images/biomechanical-model-example-38.png
+.. |biomechanics-steerer-results| image:: https://docs.sympy.org/latest/_images/biomechanical-model-example-38.png
    :width: 100%
 
-.. _sympy.physics.biomechanics: https://docs.sympy.org/dev/modules/physics/biomechanics/index.html
+.. _sympy.physics.biomechanics: https://docs.sympy.org/latest/modules/physics/biomechanics/index.html
 
 Code Generation Improvements
 ============================
