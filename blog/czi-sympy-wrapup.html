@@ -86,7 +86,7 @@
 <col width="50%" />
 </colgroup>
 <tbody valign="top">
-<tr><td><img alt="sympy-logo" src="https://docs.sympy.org/dev/_images/sympy-500px.png" style="height: 200px;" /></td>
+<tr><td><img alt="sympy-logo" src="https://docs.sympy.org/latest/_images/sympy-500px.png" style="height: 200px;" /></td>
 <td><img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 200px;" /></td>
 </tr>
 </tbody>
@@ -333,28 +333,28 @@ and loads beyond that of simply dyadics and vectors: <tt class="docutils literal
 with a point, to completely define inertia for a rigid body, particle, or
 collection of them. Force and Torque are named tuples that associate a vector
 and point and a vector and a frame, respectively.</p>
-<p>We have introduced an <a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/api/actuator.html">actuator</a> module that has classes that describe the
+<p>We have introduced an <a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/api/actuator.html">actuator</a> module that has classes that describe the
 equal and opposite pair of forces or torques and force actuators can operate
 along a pathway, generating resultant forces on points that lie along the
 pathway. We included a linear spring and damper as example actuators. The
-pathways are located in the new <a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/api/pathway.html">pathway</a> module.</p>
+pathways are located in the new <a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/api/pathway.html">pathway</a> module.</p>
 <p>These new objects provide core building blocks for developing musculotendon
 actuators and managing a full multibody system.</p>
 </div>
 <div class="section" id="system-class">
 <h3><a class="toc-backref" href="#toc-entry-10">System Class</a></h3>
-<p>Timo developed a new <a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/api/system.html#sympy.physics.mechanics._system.System">System()</a> class that manages all the information about a
+<p>Timo developed a new <a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/api/system.html#sympy.physics.mechanics._system.System">System()</a> class that manages all the information about a
 multibody system (coordinates, joints, bodies, constraints, etc.) and can
 generate the equations of motion from the high level description of the system
 without having to manually write the mathematical equations. This approach
 generally reduces the amount of code needed to generate the equations for
-complex systems. See the <a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/examples/four_bar_linkage_example.html">Four-bar Linkage</a> example to get an idea of how it
+complex systems. See the <a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/examples/four_bar_linkage_example.html">Four-bar Linkage</a> example to get an idea of how it
 works.</p>
 </div>
 </div>
 <div class="section" id="introducing-sympy-biomechanics">
 <h2><a class="toc-backref" href="#toc-entry-11">Introducing SymPy Biomechanics</a></h2>
-<p>We have developed a substantial new sub-package, <a class="reference external" href="https://docs.sympy.org/dev/modules/physics/biomechanics/index.html">sympy.physics.biomechanics</a>,
+<p>We have developed a substantial new sub-package, <a class="reference external" href="https://docs.sympy.org/latest/modules/physics/biomechanics/index.html">sympy.physics.biomechanics</a>,
 that enables including musculotendon force actuators in multibody dynamics
 models created with <tt class="docutils literal">sympy.physics.mechanics</tt>. <tt class="docutils literal">biomechanics</tt> contains
 these primary modules:</p>
@@ -368,9 +368,9 @@ dynamics</li>
 models with one reference implementation from <a class="citation-reference" href="#degroote2016" id="citation-reference-4">[DeGroote2016]</a></li>
 </ul>
 <p>A full explanation of this package and the modules can be found in the new
-<a class="reference external" href="https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html">Introduction to Biomechanical Modeling</a>
+<a class="reference external" href="https://docs.sympy.org/latest/tutorials/physics/biomechanics/biomechanics.html">Introduction to Biomechanical Modeling</a>
 tutorial. We demonstrate the package on a non-trivial biomechanical system in
-the new <a class="reference external" href="https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html">Biomechanical Model Example</a>
+the new <a class="reference external" href="https://docs.sympy.org/latest/tutorials/physics/biomechanics/biomechanical-model-example.html">Biomechanical Model Example</a>
 tutorial.</p>
 <table border="1" class="borderless docutils align-center" style="width: 100%">
 <caption>Figure 2: On the left, the muscle(red)-driven arm (black C and
@@ -382,7 +382,7 @@ are simulation results from the model with a commanded muscle excitation.</capti
 </colgroup>
 <tbody valign="top">
 <tr><td><img alt="biomechanics-steerer" src="https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png" style="width: 100%;" /></td>
-<td><img alt="biomechanics-steerer-results" src="https://docs.sympy.org/dev/_images/biomechanical-model-example-38.png" style="width: 100%;" /></td>
+<td><img alt="biomechanics-steerer-results" src="https://docs.sympy.org/latest/_images/biomechanical-model-example-38.png" style="width: 100%;" /></td>
 </tr>
 </tbody>
 </table>

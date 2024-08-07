@@ -71,7 +71,7 @@ performance for large mathematical expressions.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="sympy-logo" src="https://docs.sympy.org/dev/_images/sympy-500px.png" style="height: 200px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="sympy-logo" src="https://docs.sympy.org/latest/_images/sympy-500px.png" style="height: 200px;" /&gt;&lt;/td&gt;
 &lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 200px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -318,28 +318,28 @@ and loads beyond that of simply dyadics and vectors: &lt;tt class="docutils lite
 with a point, to completely define inertia for a rigid body, particle, or
 collection of them. Force and Torque are named tuples that associate a vector
 and point and a vector and a frame, respectively.&lt;/p&gt;
-&lt;p&gt;We have introduced an &lt;a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/api/actuator.html"&gt;actuator&lt;/a&gt; module that has classes that describe the
+&lt;p&gt;We have introduced an &lt;a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/api/actuator.html"&gt;actuator&lt;/a&gt; module that has classes that describe the
 equal and opposite pair of forces or torques and force actuators can operate
 along a pathway, generating resultant forces on points that lie along the
 pathway. We included a linear spring and damper as example actuators. The
-pathways are located in the new &lt;a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/api/pathway.html"&gt;pathway&lt;/a&gt; module.&lt;/p&gt;
+pathways are located in the new &lt;a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/api/pathway.html"&gt;pathway&lt;/a&gt; module.&lt;/p&gt;
 &lt;p&gt;These new objects provide core building blocks for developing musculotendon
 actuators and managing a full multibody system.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="system-class"&gt;
 &lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-10"&gt;System Class&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Timo developed a new &lt;a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/api/system.html#sympy.physics.mechanics._system.System"&gt;System()&lt;/a&gt; class that manages all the information about a
+&lt;p&gt;Timo developed a new &lt;a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/api/system.html#sympy.physics.mechanics._system.System"&gt;System()&lt;/a&gt; class that manages all the information about a
 multibody system (coordinates, joints, bodies, constraints, etc.) and can
 generate the equations of motion from the high level description of the system
 without having to manually write the mathematical equations. This approach
 generally reduces the amount of code needed to generate the equations for
-complex systems. See the &lt;a class="reference external" href="https://docs.sympy.org/dev/modules/physics/mechanics/examples/four_bar_linkage_example.html"&gt;Four-bar Linkage&lt;/a&gt; example to get an idea of how it
+complex systems. See the &lt;a class="reference external" href="https://docs.sympy.org/latest/modules/physics/mechanics/examples/four_bar_linkage_example.html"&gt;Four-bar Linkage&lt;/a&gt; example to get an idea of how it
 works.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="introducing-sympy-biomechanics"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-11"&gt;Introducing SymPy Biomechanics&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;We have developed a substantial new sub-package, &lt;a class="reference external" href="https://docs.sympy.org/dev/modules/physics/biomechanics/index.html"&gt;sympy.physics.biomechanics&lt;/a&gt;,
+&lt;p&gt;We have developed a substantial new sub-package, &lt;a class="reference external" href="https://docs.sympy.org/latest/modules/physics/biomechanics/index.html"&gt;sympy.physics.biomechanics&lt;/a&gt;,
 that enables including musculotendon force actuators in multibody dynamics
 models created with &lt;tt class="docutils literal"&gt;sympy.physics.mechanics&lt;/tt&gt;. &lt;tt class="docutils literal"&gt;biomechanics&lt;/tt&gt; contains
 these primary modules:&lt;/p&gt;
@@ -353,9 +353,9 @@ dynamics&lt;/li&gt;
 models with one reference implementation from &lt;a class="citation-reference" href="#degroote2016" id="citation-reference-4"&gt;[DeGroote2016]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;A full explanation of this package and the modules can be found in the new
-&lt;a class="reference external" href="https://docs.sympy.org/dev/tutorials/biomechanics/biomechanics.html"&gt;Introduction to Biomechanical Modeling&lt;/a&gt;
+&lt;a class="reference external" href="https://docs.sympy.org/latest/tutorials/physics/biomechanics/biomechanics.html"&gt;Introduction to Biomechanical Modeling&lt;/a&gt;
 tutorial. We demonstrate the package on a non-trivial biomechanical system in
-the new &lt;a class="reference external" href="https://docs.sympy.org/dev/tutorials/biomechanics/biomechanical-model-example.html"&gt;Biomechanical Model Example&lt;/a&gt;
+the new &lt;a class="reference external" href="https://docs.sympy.org/latest/tutorials/physics/biomechanics/biomechanical-model-example.html"&gt;Biomechanical Model Example&lt;/a&gt;
 tutorial.&lt;/p&gt;
 &lt;table border="1" class="borderless docutils align-center" style="width: 100%"&gt;
 &lt;caption&gt;Figure 2: On the left, the muscle(red)-driven arm (black C and
@@ -367,7 +367,7 @@ are simulation results from the model with a commanded muscle excitation.&lt;/ca
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;&lt;img alt="biomechanics-steerer" src="https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png" style="width: 100%;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="biomechanics-steerer-results" src="https://docs.sympy.org/dev/_images/biomechanical-model-example-38.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="biomechanics-steerer-results" src="https://docs.sympy.org/latest/_images/biomechanical-model-example-38.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
