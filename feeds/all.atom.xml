@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-08-05T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Biomechanical Optimization with SymPy 1.13 and Opty 1.3</title><link href="https://mechmotum.github.io/blog/sympy-1.13-opty-1.3-release.html" rel="alternate"></link><published>2024-08-05T00:00:00-07:00</published><updated>2024-08-05T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-05:/blog/sympy-1.13-opty-1.3-release.html</id><summary type="html">&lt;p class="first last"&gt;SymPy 1.13 and Opty 1.3 can now be used for optimal control solutions
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-08-13T07:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Nijmegen Velorama Bicycle Tour</title><link href="https://mechmotum.github.io/blog/nijmegen-tour.html" rel="alternate"></link><published>2024-08-13T07:00:00-07:00</published><updated>2024-08-13T07:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-13:/blog/nijmegen-tour.html</id><summary type="html">&lt;p&gt;The bicycle lab completed their second annual bicycle tour! Neville, Bart,
+Christoph, Nora, Sietse, Jason, and Yumi bicycled from Delft-Rotterdam to
+Nijmegen and back over three days and covered about 250 km. We had a few
+interesting bicycles in the fleet. Neville and Sietse road the stoker-steering
+tandem, Bart rode …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The bicycle lab completed their second annual bicycle tour! Neville, Bart,
+Christoph, Nora, Sietse, Jason, and Yumi bicycled from Delft-Rotterdam to
+Nijmegen and back over three days and covered about 250 km. We had a few
+interesting bicycles in the fleet. Neville and Sietse road the stoker-steering
+tandem, Bart rode the lab bakfiets, and Jason and Yumi rode their Innerlight
+tandem. The ride took us along the Waal river and through the beautiful
+Gelderland fruit orchards. In Nijmegen, we visited the national bicycle museum,
+&lt;a class="reference external" href="https://velorama.nl/"&gt;Velorama&lt;/a&gt;, and walked through the history of the development of the bicycle
+with their extensive collection. Following the museum, &lt;a class="reference external" href="https://www.ru.nl/en/people/maris-e"&gt;Dr. Eric Maris&lt;/a&gt; hosted
+us and let us try out his bicycle simulator system at Radboud University. We
+had great weather for the entire ride and closed the trip with a waterbus trip
+from Sliedrecht to Rotterdam.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-route.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;GPS trace of the route we took. We camped just west of Tiel beside the
+village of Geldermalsen.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-riding.png" style="width: 60%;" /&gt;
+&lt;p class="caption"&gt;In route.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-museum.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Group photo after visiting the museum. Velorama is a quiet, compact musuem
+with a spectacular historical collection.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-simulator.png" style="width: 60%;" /&gt;
+&lt;p class="caption"&gt;Neville on the treadmill/roller bicycle simulator with Eric giving
+instruction from the rear.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-ferry-group-picture.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Group photo while waiting for the Varik-Heerewaarden ferry across the Waal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-statue-house-group-picture.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Group photo in front of the Nijmegen house of statues (mostly gnomes!).&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="social"></category></entry><entry><title>Biomechanical Optimization with SymPy 1.13 and Opty 1.3</title><link href="https://mechmotum.github.io/blog/sympy-1.13-opty-1.3-release.html" rel="alternate"></link><published>2024-08-05T00:00:00-07:00</published><updated>2024-08-05T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-05:/blog/sympy-1.13-opty-1.3-release.html</id><summary type="html">&lt;p class="first last"&gt;SymPy 1.13 and Opty 1.3 can now be used for optimal control solutions
 of muscle-driven biomechanical simulation. This blog post shows of a
 solution to a muscle driven cycling time trial.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://github.com/sympy/sympy/releases/tag/1.13.0"&gt;SymPy 1.13&lt;/a&gt; was released on July 8, 2024. This release includes &lt;a class="reference external" href="{file}/czi-sympy-wrapup.rst"&gt;all of the

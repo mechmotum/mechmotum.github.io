@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-04-23T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Jan Heinen Interviewed on Talk that Science about Skateboard Science</title><link href="https://mechmotum.github.io/blog/skateboard-podcast.html" rel="alternate"></link><published>2024-04-23T00:00:00-07:00</published><updated>2024-04-23T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-04-23:/blog/skateboard-podcast.html</id><content type="html">&lt;p&gt;Past lab member, Jan Heinen, was interviewed on the podcast &amp;quot;Talk That Science&amp;quot;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-08-13T07:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Nijmegen Velorama Bicycle Tour</title><link href="https://mechmotum.github.io/blog/nijmegen-tour.html" rel="alternate"></link><published>2024-08-13T07:00:00-07:00</published><updated>2024-08-13T07:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-13:/blog/nijmegen-tour.html</id><summary type="html">&lt;p&gt;The bicycle lab completed their second annual bicycle tour! Neville, Bart,
+Christoph, Nora, Sietse, Jason, and Yumi bicycled from Delft-Rotterdam to
+Nijmegen and back over three days and covered about 250 km. We had a few
+interesting bicycles in the fleet. Neville and Sietse road the stoker-steering
+tandem, Bart rode …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The bicycle lab completed their second annual bicycle tour! Neville, Bart,
+Christoph, Nora, Sietse, Jason, and Yumi bicycled from Delft-Rotterdam to
+Nijmegen and back over three days and covered about 250 km. We had a few
+interesting bicycles in the fleet. Neville and Sietse road the stoker-steering
+tandem, Bart rode the lab bakfiets, and Jason and Yumi rode their Innerlight
+tandem. The ride took us along the Waal river and through the beautiful
+Gelderland fruit orchards. In Nijmegen, we visited the national bicycle museum,
+&lt;a class="reference external" href="https://velorama.nl/"&gt;Velorama&lt;/a&gt;, and walked through the history of the development of the bicycle
+with their extensive collection. Following the museum, &lt;a class="reference external" href="https://www.ru.nl/en/people/maris-e"&gt;Dr. Eric Maris&lt;/a&gt; hosted
+us and let us try out his bicycle simulator system at Radboud University. We
+had great weather for the entire ride and closed the trip with a waterbus trip
+from Sliedrecht to Rotterdam.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-route.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;GPS trace of the route we took. We camped just west of Tiel beside the
+village of Geldermalsen.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-riding.png" style="width: 60%;" /&gt;
+&lt;p class="caption"&gt;In route.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-museum.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Group photo after visiting the museum. Velorama is a quiet, compact musuem
+with a spectacular historical collection.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-simulator.png" style="width: 60%;" /&gt;
+&lt;p class="caption"&gt;Neville on the treadmill/roller bicycle simulator with Eric giving
+instruction from the rear.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-ferry-group-picture.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Group photo while waiting for the Varik-Heerewaarden ferry across the Waal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-statue-house-group-picture.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Group photo in front of the Nijmegen house of statues (mostly gnomes!).&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="social"></category></entry><entry><title>Jan Heinen Interviewed on Talk that Science about Skateboard Science</title><link href="https://mechmotum.github.io/blog/skateboard-podcast.html" rel="alternate"></link><published>2024-04-23T00:00:00-07:00</published><updated>2024-04-23T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-04-23:/blog/skateboard-podcast.html</id><content type="html">&lt;p&gt;Past lab member, Jan Heinen, was interviewed on the podcast &amp;quot;Talk That Science&amp;quot;
 about his skateboard research:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://talkthatscience.com/Skateboard-Science"&gt;https://talkthatscience.com/Skateboard-Science&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1802100471&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;&lt;div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"&gt;&lt;a href="https://soundcloud.com/talkthatscience" title="Talk That Science" target="_blank" style="color: #cccccc; text-decoration: none;"&gt;Talk That Science&lt;/a&gt; · &lt;a href="https://soundcloud.com/talkthatscience/skateboard-science-echobox-radio" title="Skateboard Science @Echobox Radio" target="_blank" style="color: #cccccc; text-decoration: none;"&gt;Skateboard Science @Echobox Radio&lt;/a&gt;&lt;/div&gt;</content><category term="news"></category><category term="skateboard"></category><category term="ollie"></category><category term="podcast"></category></entry><entry><title>Kirsten Dijkman Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-kirsten-dijkman.html" rel="alternate"></link><published>2024-01-12T06:09:00-08:00</published><updated>2024-01-12T06:09:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-01-12:/blog/msc-graduation-kirsten-dijkman.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
