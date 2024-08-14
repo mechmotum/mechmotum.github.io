@@ -6,7 +6,7 @@ Nijmegen Velorama Bicycle Tour
 :tags: bicycle, social
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-museum.png
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-museum-240.png
 
 The bicycle lab completed their second annual bicycle tour! Neville, Bart,
 Christoph, Nora, Sietse, Jason, and Yumi bicycled from Delft-Rotterdam to
