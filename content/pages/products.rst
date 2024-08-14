@@ -11,16 +11,12 @@ Products
 Journal Articles
 ================
 
-Under Review
-------------
-
-#. A. Singh, H. Vreman, A. Dressel, and J. K. Moore, "Bicycle Disc Brake Noise
-   Analysis and Mitigation," Journal of Vibration and Control (Under Review),
-   2023.
-
 2024
 ----
 
+#. Singh, A., Vreman, H., Dressel, A. E., & Moore, J. K. (2024). Bicycle disc
+   brake noise analysis and mitigation. Journal of Vibration and Control.
+   https://doi.org/10.1177/10775463241273021
 #. G. Dell'Orto, G. Mastinu, R. Happee, and J. K. Moore, "Measurement of
    lateral characteristics and identification of Magic Formula parameters of
    city and cargo bicycle tyres," Vehicle System Dynamics, 2024.
@@ -77,8 +73,8 @@ Under Review
 Conference Proceedings
 ======================
 
-Under Review
-------------
+2024
+----
 
 #. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
    Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
