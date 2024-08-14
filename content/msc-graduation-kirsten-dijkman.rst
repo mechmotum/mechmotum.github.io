@@ -7,6 +7,7 @@ Kirsten Dijkman Successfully Defends Her MSc Thesis
 :category: news
 :slug: kirsten-dijkman-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dijkman.png
 
 .. list-table::
    :class: borderless

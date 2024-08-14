@@ -8,6 +8,7 @@ SymPy CZI Grant Code Generation & Biomechanics Outcomes
 :category: research
 :slug: sympy-czi-outcomes
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png
 :summary: Summary of the work performed under the Chan-Zuckerberg Foundation
           Open Source Software for Science Cycle 4 grant awarded to Sympy and
           performed by Delft University of Technology. We developed new

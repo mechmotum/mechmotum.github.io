@@ -7,6 +7,7 @@ Practical Realization of a Theoretical Optimal-Handling Bicycle Results
 :authors: Anthony Toribio, Stasia Kubicki
 :summary: Blog post on the design and fabrication of a theoretically optimal
           handling bicycle
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated.jpg
 
 The goal of this research is to design and fabricate a theoretically optimal
 lateral handling bicycle based on a dynamics based algorithm written by

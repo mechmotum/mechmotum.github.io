@@ -7,6 +7,7 @@ Daniël Landré Successfully Defends His MSc Thesis
 :category: news
 :slug: daniel-landre-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-landre.png
 
 .. list-table::
    :class: borderless

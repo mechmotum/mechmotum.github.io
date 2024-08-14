@@ -6,6 +6,7 @@ Postdoctoral Researcher Opening: Bicycle of the Future
 :authors: Jason K. Moore
 :category: jobs
 :tags: bicycle,postdoc,engineering
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg
 
 .. topic:: Filled
    :class: alert alert-warning

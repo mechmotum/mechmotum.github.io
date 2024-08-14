@@ -8,6 +8,7 @@ Rowing Performance Estimation Paper Published
 :authors: Jason K. Moore
 :summary: Our 2019 rowing performance estimation paper is now published in Plos
           One.
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/row-plos-screenshot.png
 
 We've been working on this project and paper for two years and it was finally
 published in Plos One on December 5, 2019. The citation is:

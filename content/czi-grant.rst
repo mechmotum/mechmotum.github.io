@@ -6,6 +6,7 @@ CZI Grant Awarded to SymPy Computational Biomechanics Project
 :authors: Jason K. Moore
 :category: news
 :tags: sympy,biomechanics,computation,bicycle
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
 
 .. list-table::
    :class: table

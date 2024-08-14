@@ -6,6 +6,7 @@ Postdoctoral Researcher Opening: Advancing Biomechanical Modeling By Improving S
 :authors: Jason K. Moore
 :category: jobs
 :tags: bicycle,postdoc,engineering,software
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png
 
 .. topic:: Filled
    :class: alert alert-warning

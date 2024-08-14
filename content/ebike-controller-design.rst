@@ -7,6 +7,7 @@ Design of a PID Controller for Controlling The Speed of an Instrumented Ebike
 :slug: ebike-controller-design
 :authors: Trevor Metz
 :summary: Blog post on designing a speed controller for an instrumented ebike.
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-10.jpg
 
 Introduction
 ------------

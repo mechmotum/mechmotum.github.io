@@ -8,6 +8,7 @@ Developing a LibreTexts Editor Plugin For Inserting Executable Code Blocks
 :authors: Hao Huang, Tannavee Kumar, Celine Liang
 :summary: Blog post on creating a CKEditor plugin which could insert
           executable code blocks
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/example-libretexts-jupyter-page.gif
 
 Background
 ----------

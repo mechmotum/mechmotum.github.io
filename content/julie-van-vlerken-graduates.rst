@@ -7,6 +7,7 @@ Julie van Vlerken Successfully Defends Her MSc Thesis
 :category: news
 :slug: julie-van-vlerken-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png
 
 .. image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png
    :height: 400px

@@ -7,6 +7,7 @@ Marten Haitjema Successfully Defends His MSc Thesis
 :category: news
 :slug: marten-haitjema-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haitjema.png
 
 .. list-table::
    :class: borderless

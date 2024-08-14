@@ -7,6 +7,7 @@ Francesca Andretta Successfully Defends Her MSc Thesis
 :category: news
 :slug: francesca-andretta-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-andretta-francesca.png
 
 .. list-table::
    :class: borderless

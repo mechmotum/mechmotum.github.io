@@ -8,6 +8,7 @@ Double Pendulum Human Controller Robot: GUI Development
 :authors: Jonathan Blaze Cubanski, Dorian Crutcher
 :summary: Blog post on creating a new interface to test different controller
           designs for the Double Pendulum Robot.
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/pendulum-fbd.png
 
 Introduction and background
 ---------------------------

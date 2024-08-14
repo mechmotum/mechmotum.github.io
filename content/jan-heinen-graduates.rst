@@ -7,6 +7,7 @@ Jan Heinen Successfully Defends His MSc Thesis
 :category: news
 :slug: jan-heinen-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-heinen.png
 
 .. list-table::
    :class: borderless

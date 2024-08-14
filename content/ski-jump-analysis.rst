@@ -6,6 +6,7 @@ New Preprint on Ski Jump Safety and skijumpdesign Software Update
 :authors: Jason K. Moore
 :category: research
 :tags: skiing,snowboarding,safety,sports,engineering,ethics
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/salvini-v-snoqualmie.png
 
 Yesterday, we posted a new preprint to engrXiv_:
 

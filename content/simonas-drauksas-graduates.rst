@@ -7,6 +7,7 @@ Simonas Draukšas Successfully Defends His MSc Thesis
 :category: news
 :slug: simonas-drauksas-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-drauksas.png
 
 .. list-table::
    :class: borderless

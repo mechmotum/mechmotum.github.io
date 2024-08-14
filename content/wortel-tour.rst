@@ -6,6 +6,7 @@ First Lab Bicycle Tour!
 :tags: bicycle, social
 :category: news
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/wortel-tour-01.jpg
 
 Several members of the Bicycle Laboratorium went on our first bicycle tour,
 which we hope to make an annual tradition! We bicycled from Delft to the

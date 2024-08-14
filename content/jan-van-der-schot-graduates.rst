@@ -7,6 +7,7 @@ Jan van der Schot Successfully Defends His MSc Thesis
 :category: news
 :slug: jan-van-der-schot-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-der-schot.png
 
 .. list-table::
    :class: borderless

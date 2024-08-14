@@ -7,7 +7,7 @@ Joris Kuiper Successfully Defends His MSc Thesis
 :category: news
 :slug: joris-kuiper-graduates
 :authors: Jason K. Moore
-
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-kuiper.png
 
 Joris Kuiper successfully defended "`Development of an Integrated Bicycle
 Accident Detection System: Introducing ALARM: Accident Localisation And

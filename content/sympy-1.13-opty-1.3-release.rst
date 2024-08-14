@@ -10,6 +10,7 @@ Biomechanical Optimization with SymPy 1.13 and Opty 1.3
 :summary: SymPy 1.13 and Opty 1.3 can now be used for optimal control solutions
           of muscle-driven biomechanical simulation. This blog post shows of a
           solution to a muscle driven cycling time trial.
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-power.png
 
 `SymPy 1.13`_ was released on July 8, 2024. This release includes `all of the
 work we did under the CZI Open Source Software for Science Cycle 4 grant

@@ -8,6 +8,7 @@ Ski Jump Design Software to Analyze User Inputted Jumps
 :authors: Bryn Cloud
 :summary: Blog post on adding page to skijumpdesign app to analyze user inputted
           ski jumps for equivalent fall height.
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png
 
 Introduction
 ------------

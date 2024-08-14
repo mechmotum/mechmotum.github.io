@@ -9,6 +9,7 @@ A Web Application for Analyzing Bicycle Dynamics
 :authors: Lyla Sanders
 :summary: Blog post on creating a web application to serve as a GUI for bicycle
           dynamics.
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png
    :width: 800px

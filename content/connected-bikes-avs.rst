@@ -6,6 +6,7 @@ PhD Researcher Opening: Safe and Efficient Traffic of Connected Vulnerable Bicyc
 :authors: Jason K. Moore
 :category: jobs
 :tags: bicycle,phd,engineering
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/connected-bikes-avs.png
 
 .. topic:: Filled
    :class: alert alert-warning

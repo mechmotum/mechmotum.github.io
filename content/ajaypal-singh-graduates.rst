@@ -7,6 +7,7 @@ Ajaypal Singh Successfully Defends His MSc Thesis
 :category: news
 :slug: ajaypal-singh-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-singh-ajaypal.png
 
 .. list-table::
    :class: borderless

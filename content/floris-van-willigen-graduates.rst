@@ -7,6 +7,7 @@ Floris van Willigen Successfully Defends His MSc Thesis
 :category: news
 :slug: floris-van-willigen-graduates
 :authors: Jason K. Moore
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-willigen.png
 
 .. list-table::
    :class: borderless

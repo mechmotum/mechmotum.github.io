@@ -6,6 +6,7 @@ LibreTexts Jupyter Integration Wrapup
 :authors: Jason K. Moore
 :category: education
 :tags: jupyter,libretexts,computation,education,oer,textbooks
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png
    :align: center

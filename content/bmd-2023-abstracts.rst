@@ -6,6 +6,7 @@ Six Abstracts Accepted to BMD 2023
 :tags: bicycle, engineering, conference, abstract
 :category: news
 :authors: Jason K. Moore
+:thumbnail: https://www.moorepants.info/mechmotum-bucket/bmd2023-logo-small-300x400.png
 
 All six of the Bicycle Lab's submissions to the 2023 Bicycle and Motorcycle
 Dynamics conference were accepted. We have had a very productive past year and
