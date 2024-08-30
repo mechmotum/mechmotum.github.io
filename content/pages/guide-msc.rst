@@ -135,22 +135,34 @@ Basic Steps:
   consultation with your supervisors (this usually occurs in the later portion
   of your literature study period and is informed by your literature study
   findings).
-- Develop a written project plan (3 pages): research question/aim/goals,
-  your basic technical approach, timeline, milestones, resources, etc.
+- Develop a written project plan (3 pages) and submit it to your supervisor(s)
+  before the kickoff meeting so they have time to read it. The plan should
+  address:
+
+  - your research question/aim/goals
+  - your basic technical approach to answer the research question or achieve
+    you design (include your proposed methods, simulations, analyses, models,
+    sketches, experimental methods, etc.)
+  - a timeline that includes major milestones with dates, your expected holiday
+    time, and a buffer for delays
+  - what resources you will likely need for the project
+
 - Organize a kickoff meeting with all of your supervisors to formally present
   your research project and project plan. This should be slide presentation or
   similar.
 - Adjust your project plan based on the feedback at the kickoff meeting.
 - Work on the project with your daily supervisor's guidance.
-- Present your progress at a midterm meeting with all of your supervisors. The
-  midterm should occur after you have significant preliminary results that
-  demonstrate you can succeed in the final project execution.
+- Present your progress at a midterm meeting with a formal presentation and
+  with all of your supervisors present. The midterm should occur after you have
+  significant preliminary results that demonstrate you can succeed in the final
+  project execution.
 - Work on the project with your daily supervisor's guidance.
 - Once you are getting close to a draft thesis arrange a Go/No-Go meeting. This
   meeting should include all of your supervisors that will be on your defense
-  committee. Typically give the supervisors one week to read and comment on the
-  draft before the meeting. Prepare a (strictly) 10 minute slide presentation
-  to get everyone up to speed at the beginning of the meeting.
+  committee except the "external independent member". Typically give the
+  supervisors one week to read and comment on the draft before the meeting.
+  Prepare a (strictly) 10 minute slide presentation to get everyone up to speed
+  at the beginning of the meeting.
 - If you get a "Go" at the Go/No-Go meeting then you should initiate the
   arrangement of your defense by submitting the correct forms to your track
   coordinators and department secretaries.
