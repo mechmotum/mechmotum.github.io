@@ -159,6 +159,9 @@ Theses
 2024
 ----
 
+#. K. Pasma, "Model Matching Control Applied to Bicycles," MSc, Delft
+   University of Technology, Delft, The Netherlands, 2024.
+   https://repository.tudelft.nl/record/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a
 #. K. Dijkman, "Impact of bicycle tire parameter on the total rolling losses,"
    MSc, Delft University of Technology, Delft, The Netherlands, 2024.
    https://repository.tudelft.nl/islandora/object/uuid%3A7d45c36f-5df4-46bf-a526-b3f28a4a9fab
