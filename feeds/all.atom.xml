@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-08-13T07:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Nijmegen Velorama Bicycle Tour</title><link href="https://mechmotum.github.io/blog/nijmegen-tour.html" rel="alternate"></link><published>2024-08-13T07:00:00-07:00</published><updated>2024-08-13T07:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-13:/blog/nijmegen-tour.html</id><summary type="html">&lt;p&gt;The bicycle lab completed their second annual bicycle tour! Neville, Bart,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-08-28T15:45:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Kenneth Pasma Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-kenneth-pasma.html" rel="alternate"></link><published>2024-08-28T15:45:00-07:00</published><updated>2024-08-28T15:45:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-28:/blog/msc-graduation-kenneth-pasma.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a"&gt;&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-pasma.png" style="height: 400px;" /&gt;&lt;/a&gt;
+&lt;p&gt;Kenneth Pasma successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a"&gt;Model Matching Control Applied to
+Bicycles&lt;/a&gt;&amp;quot; on
+August 28, 2024. Kenneth developed a controller for our steer-by-wire bicycle's
+steering motor that enables matching the bicycle's dynamics to that of a
+reference bicycle. A model matching controller strives to make the input-output
+dynamics of the controlled vehicle …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a"&gt;&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-pasma.png" style="height: 400px;" /&gt;&lt;/a&gt;
+&lt;p&gt;Kenneth Pasma successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a"&gt;Model Matching Control Applied to
+Bicycles&lt;/a&gt;&amp;quot; on
+August 28, 2024. Kenneth developed a controller for our steer-by-wire bicycle's
+steering motor that enables matching the bicycle's dynamics to that of a
+reference bicycle. A model matching controller strives to make the input-output
+dynamics of the controlled vehicle the same as a reference or target vehicle
+(or vehicle design). In essence, this means that we can make a steer
+motor-controlled bicycle feel and move as if were another bike, for example one
+with a different trail, or different wheel base, or with less mass. Kenneth
+applied the approach of applying both feedforward and feedback control to the
+steering motor based on force and motion measurements from sensors on the bike.
+Once the controller was functioning, he performed two experiments to prove
+whether his controller was working as expected: 1) identification of the weave
+mode from a lateral pulsive perturbation and 2) identification of steer torque
+to steer and roll kinematic transfer functions through sinusoidal forcing of
+steer torque.  Kenneth's results show that the controller shifts the weave
+mode's decay and frequency behavior towards that of the reference bicycle and
+that the input-output magnitude relationships at different forced frequencies
+also shift toward that expected of the reference bicycle. Kenneth explained how
+these techniques could be used for virtually testing different bicycle designs
+and how it can open possibilities for new experiments in bicycle handling and
+control. We also hope to use the technology to make our balance assist
+bicycle's feel more natural to the rider while retaining the stability effects.&lt;/p&gt;
+&lt;p&gt;Kenneth was co-supervised by Prof. Thomas Kavicsky (TU Delft) and Jason K.
+Moore (TU Delft). Everyone at the bicycle lab is very proud of Kenneth and
+wishes him the best in his next adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="engineering"></category><category term="model matching"></category><category term="robotics"></category><category term="control"></category></entry><entry><title>Nijmegen Velorama Bicycle Tour</title><link href="https://mechmotum.github.io/blog/nijmegen-tour.html" rel="alternate"></link><published>2024-08-13T07:00:00-07:00</published><updated>2024-08-13T07:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-13:/blog/nijmegen-tour.html</id><summary type="html">&lt;p&gt;The bicycle lab completed their second annual bicycle tour! Neville, Bart,
 Christoph, Nora, Sietse, Jason, and Yumi bicycled from Delft-Rotterdam to
 Nijmegen and back over three days and covered about 250 km. We had a few
 interesting bicycles in the fleet. Neville and Sietse road the stoker-steering
