@@ -85,9 +85,8 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Thomas Habing** [TUD, May 2023-present]
        | *Muscle Vibration Effects in Indoor Cycling*
-     - |headshot-missing|
-     - | **Kenneth Pasma** [TUD, Oct 2022-present]
-       | *Robotic Bicycle Control*
+     -
+     -
 
 .. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
    :width: 100px
@@ -152,6 +151,12 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Kenneth Pasma
+     - TUD
+     - Oct 2022-Aug 2024
+     - `Model Matching Control Applied to Bicycles
+       <http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a>`_
+     - `T. Kavicsky, J. K. Moore`
    * - Kirsten Dijkman
      - TUD
      - Dec 2022-Jan 2024
