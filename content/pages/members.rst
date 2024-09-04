@@ -76,7 +76,7 @@ Masters of Science Students
      - |headshot-missing|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-   * - |headshot-missing|
+   * - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near Zero Speed Reaction Wheel Balanced Cargo Bicycles*
      - |headshot-soethout-sietse|
@@ -89,6 +89,10 @@ Masters of Science Students
      -
 
 .. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-de-vries-bart| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg
    :width: 100px
    :height: 133px
 
