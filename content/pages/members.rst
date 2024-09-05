@@ -85,11 +85,9 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Thomas Habing** [TUD, May 2023-present]
        | *Muscle Vibration Effects in Indoor Cycling*
-   * - |headshot-nieman-neville|
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     -
-     -
 
 .. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
    :width: 100px
