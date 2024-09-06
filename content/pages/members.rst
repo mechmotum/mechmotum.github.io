@@ -78,7 +78,7 @@ Masters of Science Students
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
    * - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
-       | *Near Zero Speed Reaction Wheel Balanced Cargo Bicycles*
+       | *Near-Zero Speed Balance Assist for Cargo Bicycles*
      - |headshot-soethout-sietse|
      - | **Sietse Soethout** [TUD, Jul 2023-present]
        | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
