@@ -73,7 +73,7 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Anna Marbus** [TUD, Feb 2024-present]
        | *Understanding cyclist conflict behavior in shared spaces.*
-     - |headshot-missing|
+     - |headshot-youngblood-sara|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
    * - |headshot-de-vries-bart|
@@ -98,6 +98,10 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-nieman-neville| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-nieman-neville.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-youngblood-sara| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-youngblood-sara.png
    :width: 100px
    :height: 133px
 
