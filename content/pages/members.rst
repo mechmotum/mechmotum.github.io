@@ -37,17 +37,18 @@ PhD Candidates
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-dell-orto-gabriele|
+   * - |headshot-missing|
+     - | **Benjamín E. González T.** [TUD, September 2024-present]
+       | *Discovering the Mechanisms that Cause Bicycle Crashes Through The Merger of Video and Computational Modeling*
+     - |headshot-dell-orto-gabriele|
      - | **Gabriele Dell'Orto** [TUD, January 2023-present]
        | *Effects of tire properties on bicycle dynamics*
-     - |headshot-schmidt-christoph|
+   * - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
        | *Bicycle dynamics for realistic conflict causality in safety-aware traffic simulation.*
-   * - |headshot-dukalski-rado|
+     - |headshot-dukalski-rado|
      - | **Rado Dukalski** [TUD, March 2018-present]
        | *Augmented Reality in Cycling for Safety and Peformance*
-     -
-     -
 
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
    :width: 100px
@@ -70,32 +71,24 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
-     - | **Anna Marbus** [TUD, Feb 2024-present]
-       | *Understanding cyclist conflict behavior in shared spaces.*
-     - |headshot-youngblood-sara|
-     - | **Sara Youngblood** [TUD, Jan 2024-present]
-       | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-   * - |headshot-de-vries-bart|
-     - | **Bart de Vries** [TUD, Jan 2024-present]
-       | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-     - |headshot-soethout-sietse|
-     - | **Sietse Soethout** [TUD, Jul 2023-present]
-       | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
-   * - |headshot-missing|
-     - | **Thomas Habing** [TUD, May 2023-present]
-       | *Muscle Vibration Effects in Indoor Cycling*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-
-.. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-de-vries-bart| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg
-   :width: 100px
-   :height: 133px
+     - |headshot-missing|
+     - | **Anna Marbus** [TUD, Feb 2024-present]
+       | *Understanding cyclist conflict behavior in shared spaces*
+   * - |headshot-youngblood-sara|
+     - | **Sara Youngblood** [TUD, Jan 2024-present]
+       | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
+     - |headshot-de-vries-bart|
+     - | **Bart de Vries** [TUD, Jan 2024-present]
+       | *Near-Zero Speed Balance Assist for Cargo Bicycles*
+   * - |headshot-soethout-sietse|
+     - | **Sietse Soethout** [TUD, Jul 2023-present]
+       | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
+     - |headshot-missing|
+     - | **Thomas Habing** [TUD, May 2023-present]
+       | *Muscle Vibration Effects in Indoor Cycling*
 
 .. |headshot-nieman-neville| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-nieman-neville.jpg
    :width: 100px
@@ -105,11 +98,21 @@ Masters of Science Students
    :width: 100px
    :height: 133px
 
+.. |headshot-de-vries-bart| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
+   :width: 100px
+   :height: 133px
+
 Research Assistants
 ===================
 
-Past
-====
+None
+
+Alumni
+======
 
 **Postdoctoral Researchers**
 
