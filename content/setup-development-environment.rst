@@ -1,6 +1,6 @@
-==============================================
-Software Development Setup for the Bicycle Lab
-==============================================
+===================================
+Bike Lab Software Development Setup
+===================================
 
 :date: 2024-09-13 11:15:00
 :tags: conda
@@ -15,8 +15,8 @@ students to simply install everything correctly on their own computer is still
 generally painful. I no longer have to coach students through compiling NumPy
 and SciPy on Windows but that pain has now been replaced with navigating them
 through the myriad of package managers that all tout themselves to be *the*
-solution. These days, a new package manager option seems to be released every
-month.
+solution. These days, a new package manager option seems to be released about
+every month.
 
 Back in 2008, I would ``apt install`` the Python scientific computing stack for
 simple use on Debian Linux (which still works nicely today!) and but if I
@@ -164,7 +164,7 @@ for example here is a working repository for a manuscript:
 
 https://github.com/moorepants/bicycle-steer-control-paper
 
-``myproject-env.yml`` should have contents that look like this:
+``myproject-env.yml`` should have contents that look something like this:
 
 .. code-block:: yaml
 
@@ -181,7 +181,7 @@ https://github.com/moorepants/bicycle-steer-control-paper
      - pip
      - python ==3.10  # you can specify versions
      - scipy
-     - spyder-kernels  # allows use access to this environment in spyder installed in base
+     - spyder-kernels  # allows access to this environment in spyder installed in base
      - sympy
      - yeadon
 
@@ -257,23 +257,24 @@ Package Not in Conda Forge
 At some point you will want to use a package that is not available in Conda
 Forge. There are different approaches to install the package in your
 environment depending on what the package's primary programming language is,
-but mostly commonly you may want a Python package that you can find on PyPi but
-not in Conda Forge.
+but mostly commonly you will want a Python package that you can find on PyPi
+but not in Conda Forge. Packages on PyPi are generally installed using the pip
+package manager. You will see many other recommendations on the web, e.g.:
+pipx, hatchling, poetry, pdm, uv. It is best to ignore these for now and you
+can use them later if you find you like them better than pip and/or conda.
 
-https://github.com/conda-forge/staged-recipes
+You can install packages from PyPi into a Conda environment but this
+arrangement is fragile and you should never install packages with pip into your
+base environment (otherwise you are asking for trouble). The safest approach I
+have found over the years is to first install everything the PyPi packages
+depend on using Conda and then install the PyPi package using pip's with its
+``--no-deps`` flag. This prevents pip from filling your Conda environment with
+PyPi packages you don't want there.
 
-Packages on PyPi are generally installed using the pip package manager
-(although you will see many other recommendations on the web: pipx, hatchling,
-poetry, pdm, uv, etc., pip is the main one). You can install packages from PyPi
-into a Conda environment but this arrangement is delicate and you should never
-install packages with pip into your base environment (your are just asking for
-trouble then). The safest approach I have found over the years is to first
-install everything the PyPi packages depends on using conda and then install
-the PyPi package using pip's ``--no-depencencies`` flag.
-
-SymPy is availabe on Conda Forge but we will pretend it isn't. SymPy's only
-required dependencies are python and mpmath and both are available on conda
-forge. So we create an environment file with pip so we can install from PyPi
+As an example, SymPy is availabe on Conda Forge but we will pretend it isn't.
+SymPy's only required dependencies are Python and mpmath. Both are available on
+Conda Forge. So we create an environment file that includes pip in the
+dependencies list so we can use it to install from PyPi inside the environment
 and the two dependencies of SymPy:
 
 .. code-block:: yaml
@@ -291,14 +292,15 @@ and the two dependencies of SymPy:
    conda env create -f myproject-env.yml
    conda activate myproject
 
-Now, you can run pip inside the conda environment:
+Now, you can run pip inside the conda environment to install the PyPi package
+for SymPy:
 
 .. code-block:: bash
 
    python -m pip install --no-deps sympy
 
-If you now look at the list of installed packages you see that sympy is listed
-as installed from pypi:
+If you now look at the list of installed packages you see that SymPy is listed
+as installed from PyPi:
 
 .. code-block:: bash
 
@@ -334,13 +336,14 @@ as installed from pypi:
    wheel                     0.44.0             pyhd8ed1ab_0    conda-forge
    xz                        5.2.6                h166bdaf_0    conda-forge
 
-If you carefully install all dependencies from Conda Forge then you can safely
-run ``conda update --all`` inside the conda environment and then follow that
-with a ``python -m pip install -U sympy`` to upgrade the PyPi packages.
+If you carefully install all of the PyPi packages' dependencies from Conda
+Forge then you can reasonably safely run ``conda update --all`` inside the
+Conda environment and then follow that with a ``python -m pip install -U
+sympy`` to upgrade the PyPi package.
 
 This method will generally work but it requires you to manually figure out and
 install the dependencies. If you have many PyPi packages, then this may get out
-of hand to manage but my experience is that you typically don't have many PyPi
+of hand to manage. But my experience is that you typically don't have many PyPi
 packages you need that are not on Conda Forge.
 
 Conda does also support specifying PyPi packages in the environment file like
@@ -358,16 +361,20 @@ so:
      - pip:
        - sympy
 
-but the ``--no-deps`` flag isn't used and you may end of up with many pypi
-packages in your conda env and then updating things becomes more difficult, or
-even impossible. But you can always delete the environmetn and recreate it.
+but the ``--no-deps`` when installing the packages in the pip list and you may
+end of up with many PyPi packages in your Conda environment and then updating
+things becomes more difficult, or even impossible. The nice thing is that you
+can always delete the environmetn and recreate it if it goes awry.
 
 There are new developments to make this work more seemlessly, for example see
 https://github.com/conda-incubator/conda-pypi. But the ideal solution is that
-you contribute to Conda Forge and add the PyPi package you need via
-https://github.com/conda-forge/staged-recipes. It is generally pretty straight
-forward using `greyskull pypi package-name` to generate the recipe for a pull
-request if the package is a pure python pacakge.
+you help contribute to Conda Forge and add the PyPi package you need via a pull
+request to https://github.com/conda-forge/staged-recipes. It is generally
+pretty straight forward to use the the grayskull_ tool ``grayskull pypi
+package-name`` to generate the recipe for a pull request if the package is a
+pure Python package.
+
+.. _grayskull: https://github.com/conda/grayskull
 
 Developing a Package in Your Environment
 ========================================
