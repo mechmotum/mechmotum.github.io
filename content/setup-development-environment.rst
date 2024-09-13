@@ -159,7 +159,7 @@ project that, in its most basic form, looks like::
    |--> script.py
 
 where the ``script.py`` file would house some analysis for the project and
-``myproject-env.yml`` is a Conda ``envirionment.yml`` file that specifies the
+``myproject-env.yml`` is a Conda ``environment.yml`` file that specifies the
 software needed to run ``script.py``. A real project will have many more files,
 for example here is one of my working repositories for a manuscript:
 
