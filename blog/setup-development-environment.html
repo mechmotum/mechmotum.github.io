@@ -21,7 +21,7 @@
         href="https://mechmotum.github.io/feeds/all.atom.xml">
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
         href="https://mechmotum.github.io/feeds/software.atom.xml">  
-  <meta name="description" content="Introduction I have been teaching scientific Python for about 15 years now and helping students to simply install everything correctly on their own computer is still generally painful. I no longer have to coach students through compiling NumPy and SciPy on Windows but that pain has now been replaced with …">
+  <meta name="description" content="Introduction I have been teaching scientific Python for about 15 years now and helping students install everything correctly on their own computer has not really gotten simpler for them or me. I no longer have to coach students through compiling NumPy and SciPy on Windows but that pain has now …">
 
 
 </head>
@@ -83,30 +83,31 @@
       <div class="section" id="introduction">
 <h2>Introduction</h2>
 <p>I have been teaching scientific Python for about 15 years now and helping
-students to simply install everything correctly on their own computer is still
-generally painful. I no longer have to coach students through compiling NumPy
-and SciPy on Windows but that pain has now been replaced with navigating them
-through the myriad of package managers that all tout themselves to be <em>the</em>
-solution. These days, a new package manager option seems to be released about
-every month.</p>
-<p>Back in 2008, I would <tt class="docutils literal">apt install</tt> the Python scientific computing stack for
-simple use on Debian Linux (which still works nicely today!) and but if I
-needed the latest package version or was contributing to the packages I used, I
-would compile NumPy &amp; SciPy in a Python virtual environment and then install
-mostly pure Python packages with <tt class="docutils literal">easy_install</tt> from <a class="reference external" href="https://pypi.org">PyPi</a> (we called it &quot;The
-Cheeseshop&quot; back then). The first release of <a class="reference external" href="https://en.wikipedia.org/wiki/Pip_%28package_manager%29">pip</a> was in 2008 and gained quick
-adoption over <tt class="docutils literal">easy_install</tt>, but it did not (and still doesn't fully) solve
-the scientific python installation needs. But in 2012, Continuum Analytics Inc.
-(now Anaconda Inc.) released the open source <a class="reference external" href="https://docs.conda.io/">Conda</a> package manager and a
-website hosting Conda packages (pre-compiled binaries) with a goal to unify the
-bubbling scientific software packaging mess with particular focus on equal
-status on all three major operating systems and end users never having to
-compile the scientific Python stack again (among other things). I started using
-Conda immediately and have so since (even through the <a class="reference external" href="https://github.com/conda/conda/issues/7239">slow solver days</a>).
-I've tried many of the subsequent solutions, but they all seemed to miss at
-least one thing that does not work with a scientific computing oriented
-workflow. I still believe Conda's approach is the best solution, especially
-since <a class="reference external" href="https://conda-forge.org/">Conda Forge</a> came into being.</p>
+students install everything correctly on their own computer has not
+really gotten simpler for them or me. I no longer have to coach students
+through compiling NumPy and SciPy on Windows but that pain has now been
+replaced with navigating them through the myriad of package managers that all
+tout themselves to be <em>the</em> solution. These days, a new package manager option
+seems to be released about every month.</p>
+<p>Back when I started in 2008, I would <tt class="docutils literal">apt install</tt> the Python scientific
+computing stack for simple use on Debian Linux (which still works nicely
+today!) and if I needed the latest package version or was contributing to the
+packages I used, I would compile NumPy &amp; SciPy from source in a Python virtual
+environment and then install mostly pure Python packages with <tt class="docutils literal">easy_install</tt>
+from <a class="reference external" href="https://pypi.org">PyPi</a> (we called it &quot;The Cheeseshop&quot; back then). The first release of <a class="reference external" href="https://en.wikipedia.org/wiki/Pip_%28package_manager%29">pip</a>
+was in 2008 and gained quick adoption over <tt class="docutils literal">easy_install</tt>, but it did not
+(and still doesn't fully) solve the scientific python installation needs. But
+in 2012, Continuum Analytics Inc.  (now Anaconda Inc.) released the open source
+<a class="reference external" href="https://docs.conda.io/">Conda</a> package manager and a website called binstar hosting Conda packages
+(pre-compiled binaries) with a goal to unify the bubbling scientific software
+packaging mess with particular focus on equal status on all three major
+operating systems and end users never having to compile the scientific Python
+stack again (among other things). I started using Conda immediately and have so
+since (even through the <a class="reference external" href="https://github.com/conda/conda/issues/7239">slow solver days</a>).  I've tried many of the
+subsequent solutions, but they all seemed to miss at least one thing that does
+not work with a scientific computing oriented workflow. Thus, I still believe
+Conda's approach is the best solution, especially since <a class="reference external" href="https://conda-forge.org/">Conda Forge</a> came
+into being.</p>
 <p>Given the infinite combination of options for installing and setting up your
 scientific Python oriented project development environment, I will stick to a
 single (opinionated and &quot;simple&quot;) approach. This approach has worked for me for
@@ -118,11 +119,10 @@ least my students.</p>
 <h2>Setup Conda with Conda Forge</h2>
 <p>We first need Conda. There are various ways to install Conda, but I recommend
 to install <a class="reference external" href="https://conda-forge.org/download/">Miniforge</a> due to its small size and that it defaults to installing
-packages only from Conda Forge. Miniforge installs a directory that will house
-all of your installed software into a single directory that does not need
-administrator privileges. It also only installs packages from Conda Forge that
-are sure to be compatible. Download Miniforge for your operating system and
-computer architecture here:</p>
+packages only from Conda Forge. Miniforge creates a directory that will house
+all of your installed software that does not need administrator privileges. It
+also only installs packages from Conda Forge that are sure to be compatible.
+Download Miniforge for your operating system and computer architecture here:</p>
 <p><a class="reference external" href="https://conda-forge.org/download/">https://conda-forge.org/download/</a></p>
 <p>For Linux and Windows you most likely need the x86_64 build and for MacOS you
 will need to choose the x86_64 for old Macs with Intel chips and arm64 for new
@@ -132,17 +132,17 @@ more detailed version in the README here:</p>
 </div>
 <div class="section" id="base-conda-environment">
 <h2>Base Conda Environment</h2>
-<p>Conda has the &quot;virtual environment&quot; feature builtin which allows you to install
-a set of packages isolated from another set of packages. The &quot;base&quot; environment
+<p>Conda has a &quot;virtual environment&quot; feature builtin which allows you to install a
+set of packages isolated from another set of packages. The &quot;base&quot; environment
 is the default environment and I use this environment as my general calculator,
-so is should have the most common packages that I use. After installing these
+so it should have the most common packages that I use. After installing these
 common packages, this gives you something akin to Matlab where the latest
 version of everything you use is importable or you can think of it as your
-custom build Python distribution. You will find recommendations on the internet
+custom built Python distribution. You will find recommendations on the internet
 discouraging from installing packages in the base environment, but I've never
 had any issue doing this over the last decade.</p>
 <p>You interact with Conda via the command line, so open a terminal on Linux or
-Mac and open the Miniforge command prompt on Windows. Conda's base environment
+Mac or open the Miniforge command prompt on Windows. Conda's base environment
 should be activated by default. I use the <tt class="docutils literal">$</tt> below for the command prompt
 symbol, this will be different on Windows or if you have customized it.</p>
 <p>Check if Conda is installed by typing and pressing the enter key:</p>
@@ -179,21 +179,21 @@ versions of packages that are no longer in the base environment.</p>
 </div>
 <div class="section" id="project-conda-environments">
 <h2>Project Conda Environments</h2>
-<p>At some point you may want a specific set of packages at possibly specific
-versions for a project, paper, collaboration, etc. and these will likely be in
-conflict with what you have installed in your base environment. For every
-specific project I work on, I create a Conda virtual environment with the
-subset of packages I need for that project. I first create a directory/folder
-on my computer for the project that, in its most basic form, looks like:</p>
+<p>At some point you may want a specific set of packages at specific versions for
+a project, paper, collaboration, etc. and these will likely be in conflict with
+what you have installed in your base environment. For every specific project I
+work on, I create a Conda virtual environment with the subset of packages I
+need for that project. I first create a directory/folder on my computer for the
+project that, in its most basic form, looks like:</p>
 <pre class="literal-block">
 /home/moorepants/myproject/
 |--&gt; myproject-env.yml
 |--&gt; script.py
 </pre>
-<p>where the <tt class="docutils literal">script.py</tt> file would house some analysis and
-<tt class="docutils literal"><span class="pre">myproject-env.yml</span></tt> is Conda <tt class="docutils literal">envirionment.yml</tt> file that specifies the
+<p>where the <tt class="docutils literal">script.py</tt> file would house some analysis for the project and
+<tt class="docutils literal"><span class="pre">myproject-env.yml</span></tt> is a Conda <tt class="docutils literal">envirionment.yml</tt> file that specifies the
 software needed to run <tt class="docutils literal">script.py</tt>. A real project will have many more files,
-for example here is a working repository for a manuscript:</p>
+for example here is one of my working repositories for a manuscript:</p>
 <p><a class="reference external" href="https://github.com/moorepants/bicycle-steer-control-paper">https://github.com/moorepants/bicycle-steer-control-paper</a></p>
 <p><tt class="docutils literal"><span class="pre">myproject-env.yml</span></tt> should have contents that look something like this:</p>
 <div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myproject</span>
@@ -260,13 +260,14 @@ environment.</p>
 <div class="section" id="package-not-in-conda-forge">
 <h2>Package Not in Conda Forge</h2>
 <p>At some point you will want to use a package that is not available in Conda
-Forge. There are different approaches to install the package in your
+Forge. There are different approaches to install the package in your Conda
 environment depending on what the package's primary programming language is,
-but mostly commonly you will want a Python package that you can find on PyPi
-but not in Conda Forge. Packages on PyPi are generally installed using the pip
+but most commonly you will want a Python package that you can find on PyPi but
+not in Conda Forge. Packages on PyPi are generally installed using the pip
 package manager. You will see many other recommendations on the web, e.g.:
-pipx, hatchling, poetry, pdm, uv. It is best to ignore these for now and you
-can use them later if you find you like them better than pip and/or conda.</p>
+pipx, hatchling, poetry, pdm, uv for installing PyPi pacakges. It is best to
+ignore these for now and you can use them later if you find you like them
+better than pip and/or Conda.</p>
 <p>You can install packages from PyPi into a Conda environment but this
 arrangement is fragile and you should never install packages with pip into your
 base environment (otherwise you are asking for trouble). The safest approach I
@@ -274,11 +275,11 @@ have found over the years is to first install everything the PyPi packages
 depend on using Conda and then install the PyPi package using pip's with its
 <tt class="docutils literal"><span class="pre">--no-deps</span></tt> flag. This prevents pip from filling your Conda environment with
 PyPi packages you don't want there.</p>
-<p>As an example, SymPy is availabe on Conda Forge but we will pretend it isn't.
-SymPy's only required dependencies are Python and mpmath. Both are available on
-Conda Forge. So we create an environment file that includes pip in the
-dependencies list so we can use it to install from PyPi inside the environment
-and the two dependencies of SymPy:</p>
+<p>As an example, SymPy is availabe on Conda Forge but we will pretend that it
+isn't and install from PyPi.  SymPy's only required dependencies are Python and
+mpmath. Both are available on Conda Forge. So we create an environment file
+that includes pip in the dependencies list so we can use it to install from
+PyPi inside the environment and the two dependencies of SymPy:</p>
 <div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myproject</span>
 <span class="nt">channels</span><span class="p">:</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">conda-forge</span>
@@ -330,9 +331,9 @@ xz<span class="w">                        </span><span class="m">5</span>.2.6<sp
 </pre></div>
 <p>If you carefully install all of the PyPi packages' dependencies from Conda
 Forge then you can reasonably safely run <tt class="docutils literal">conda update <span class="pre">--all</span></tt> inside the
-Conda environment and then follow that with a <tt class="docutils literal">python <span class="pre">-m</span> pip install <span class="pre">-U</span>
-sympy</tt> to upgrade the PyPi package.</p>
-<p>This method will generally work but it requires you to manually figure out and
+Conda environment and then follow that with a <tt class="docutils literal">python <span class="pre">-m</span> pip install <span class="pre">--no-deps</span>
+<span class="pre">-U</span> sympy</tt> to upgrade the PyPi package.</p>
+<p>This method will generally work but it requires you to manually determine and
 install the dependencies. If you have many PyPi packages, then this may get out
 of hand to manage. But my experience is that you typically don't have many PyPi
 packages you need that are not on Conda Forge.</p>
@@ -348,10 +349,11 @@ so:</p>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pip</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sympy</span>
 </pre></div>
-<p>but the <tt class="docutils literal"><span class="pre">--no-deps</span></tt> when installing the packages in the pip list and you may
-end of up with many PyPi packages in your Conda environment and then updating
-things becomes more difficult, or even impossible. The nice thing is that you
-can always delete the environmetn and recreate it if it goes awry.</p>
+<p>but the <tt class="docutils literal"><span class="pre">--no-deps</span></tt> flag is not called when installing the packages in the
+pip list and you may end of up with many PyPi packages in your Conda
+environment and then updating things becomes more difficult, or even
+impossible. The nice thing is that you can always delete the environment and
+recreate it if it goes awry.</p>
 <p>There are new developments to make this work more seamlessly, for example see
 <a class="reference external" href="https://github.com/conda-incubator/conda-pypi">https://github.com/conda-incubator/conda-pypi</a>. But the ideal solution is that
 you help contribute to Conda Forge and add the PyPi package you need via a pull
@@ -370,7 +372,7 @@ prior section, except you will install the package from the source code you
 have cloned from a Git repository. In our lab it is be (or should be) common to
 develop <a class="reference external" href="https://dynamicisttoolkit.readthedocs.io/">DynamicistToolKit</a> alongside the code for a research project so I'll
 use this as an example.</p>
-<p>First check the development dependencies of DynamicstToolKit, which can be
+<p>First, check the development dependencies of DynamicstToolKit, which can be
 found in the <tt class="docutils literal">setup.py</tt> file in the source repository:</p>
 <p><a class="reference external" href="https://github.com/moorepants/DynamicistToolKit/blob/master/setup.py">https://github.com/moorepants/DynamicistToolKit/blob/master/setup.py</a></p>
 <p>To develop this package you should have numpy, matplotlib, scipy, sphinx,
@@ -406,23 +408,25 @@ Git repository you cloned:</p>
 </pre></div>
 <p>Now you can make edits to the files in the <tt class="docutils literal">DynamicistToolKit</tt> directory and
 those changes will be present when you import the package in your project Conda
-environment. Updating has the same perils as mentioned in the previous section
-but works fine if the development installs sit at the top of the dependency
-stack.</p>
+environment. You can use Git to keep the development version of
+DynamicistToolKit up-to-date and a Git branch to manage your changes. Updating
+the environment has the same perils as mentioned in the previous section but
+works fine if the development installs sit at the top of the dependency stack.</p>
 </div>
 <div class="section" id="extra-tips-and-notes">
 <h2>Extra Tips and Notes</h2>
 <ul class="simple">
 <li>There are so many ways to get a working scientific (Python) stack of software
 installed and it is unbelievably confusing when you try to figure it out for
-the first time(s) because everyone tells you a different approach. It is
+the first time because every website tells you a different approach. It is
 unfortunately the nature of the beast. My best advice is to find a real
 person that's familiar with it and let them help you get set up.</li>
 <li>The above method does not give you long term reproducibility, i.e. running
-<tt class="docutils literal">conda env create <span class="pre">-f</span> <span class="pre">myproject-env.yml</span></tt> in ten years will inevitably fail.
-But this approach generally works in the time frame of a project, like 1-2
-years. If you want more long term reproducibility of environments, you'll
-need to learn about Conda lock files or even other more appropriate tools.</li>
+<tt class="docutils literal">conda env create <span class="pre">-f</span> <span class="pre">myproject-env.yml</span></tt> in ten years will inevitably fail
+even if you hard pin the package versions. But this approach generally works
+in the time frame of a project, like 1-4 years. If you want more long term
+reproducibility of environments, you'll need to learn about Conda lock files
+or even other more appropriate tools.</li>
 <li>You can find things like: <a class="reference external" href="https://github.com/conda-incubator/conda-project">https://github.com/conda-incubator/conda-project</a>
 which try to encapsulate what I show above in fewer commands with a wrapper
 tool and to also incorporate Conda lock files.</li>
