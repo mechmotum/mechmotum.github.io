@@ -24,7 +24,7 @@ computing stack for simple use on Debian Linux (which still works nicely
 today!) and if I needed the latest package version or was contributing to the
 packages I used, I would compile NumPy & SciPy from source in a Python virtual
 environment and then install mostly pure Python packages with ``easy_install``
-from PyPi_ (we called it "The Cheeseshop" back then). The first release of pip_
+from PyPI_ (we called it "The Cheeseshop" back then). The first release of pip_
 was in 2008 and gained quick adoption over ``easy_install``, but it did not
 (and still doesn't fully) solve the scientific python installation needs. But
 in 2012, Continuum Analytics Inc.  (now Anaconda Inc.) released the open source
@@ -46,7 +46,7 @@ over a decade. Of course, you can piece together a solution that works for you
 and fits your style, but this hopefully gives a clear starting point for at
 least my students.
 
-.. _PyPi: https://pypi.org
+.. _PyPI: https://pypi.org
 .. _pip: https://en.wikipedia.org/wiki/Pip_%28package_manager%29
 .. _Conda: https://docs.conda.io/
 .. _slow solver days: https://github.com/conda/conda/issues/7239
@@ -258,26 +258,26 @@ Package Not in Conda Forge
 At some point you will want to use a package that is not available in Conda
 Forge. There are different approaches to install the package in your Conda
 environment depending on what the package's primary programming language is,
-but most commonly you will want a Python package that you can find on PyPi but
-not in Conda Forge. Packages on PyPi are generally installed using the pip
+but most commonly you will want a Python package that you can find on PyPI but
+not in Conda Forge. Packages on PyPI are generally installed using the pip
 package manager. You will see many other recommendations on the web, e.g.:
-pipx, hatchling, poetry, pdm, uv for installing PyPi pacakges. It is best to
+pipx, hatchling, poetry, pdm, uv for installing PyPI pacakges. It is best to
 ignore these for now and you can use them later if you find you like them
 better than pip and/or Conda.
 
-You can install packages from PyPi into a Conda environment but this
+You can install packages from PyPI into a Conda environment but this
 arrangement is fragile and you should never install packages with pip into your
 base environment (otherwise you are asking for trouble). The safest approach I
-have found over the years is to first install everything the PyPi packages
-depend on using Conda and then install the PyPi package using pip's with its
+have found over the years is to first install everything the PyPI packages
+depend on using Conda and then install the PyPI package using pip's with its
 ``--no-deps`` flag. This prevents pip from filling your Conda environment with
-PyPi packages you don't want there.
+PyPI packages you don't want there.
 
 As an example, SymPy is availabe on Conda Forge but we will pretend that it
-isn't and install from PyPi.  SymPy's only required dependencies are Python and
+isn't and install from PyPI.  SymPy's only required dependencies are Python and
 mpmath. Both are available on Conda Forge. So we create an environment file
 that includes pip in the dependencies list so we can use it to install from
-PyPi inside the environment and the two dependencies of SymPy:
+PyPI inside the environment and the two dependencies of SymPy:
 
 .. code-block:: yaml
 
@@ -294,7 +294,7 @@ PyPi inside the environment and the two dependencies of SymPy:
    $ conda env create -f myproject-env.yml
    $ conda activate myproject
 
-Now, you can run pip inside the Conda environment to install the PyPi package
+Now, you can run pip inside the Conda environment to install the PyPI package
 for SymPy:
 
 .. code-block:: bash
@@ -302,7 +302,7 @@ for SymPy:
    $ python -m pip install --no-deps sympy
 
 If you now look at the list of installed packages you see that SymPy is listed
-as installed from PyPi:
+as installed from PyPI:
 
 .. code-block:: bash
 
@@ -338,17 +338,17 @@ as installed from PyPi:
    wheel                     0.44.0             pyhd8ed1ab_0    conda-forge
    xz                        5.2.6                h166bdaf_0    conda-forge
 
-If you carefully install all of the PyPi packages' dependencies from Conda
+If you carefully install all of the PyPI packages' dependencies from Conda
 Forge then you can reasonably safely run ``conda update --all`` inside the
 Conda environment and then follow that with a ``python -m pip install --no-deps
--U sympy`` to upgrade the PyPi package.
+-U sympy`` to upgrade the PyPI package.
 
 This method will generally work but it requires you to manually determine and
-install the dependencies. If you have many PyPi packages, then this may get out
-of hand to manage. But my experience is that you typically don't have many PyPi
+install the dependencies. If you have many PyPI packages, then this may get out
+of hand to manage. But my experience is that you typically don't have many PyPI
 packages you need that are not on Conda Forge.
 
-Conda does also support specifying PyPi packages in the environment file like
+Conda does also support specifying PyPI packages in the environment file like
 so:
 
 .. code-block:: yaml
@@ -364,14 +364,14 @@ so:
        - sympy
 
 but the ``--no-deps`` flag is not called when installing the packages in the
-pip list and you may end of up with many PyPi packages in your Conda
+pip list and you may end of up with many PyPI packages in your Conda
 environment and then updating things becomes more difficult, or even
 impossible. The nice thing is that you can always delete the environment and
 recreate it if it goes awry.
 
 There are new developments to make this work more seamlessly, for example see
 https://github.com/conda-incubator/conda-pypi. But the ideal solution is that
-you help contribute to Conda Forge and add the PyPi package you need via a pull
+you help contribute to Conda Forge and add the PyPI package you need via a pull
 request to https://github.com/conda-forge/staged-recipes. It is generally
 pretty straight forward to use the grayskull_ tool ``grayskull pypi
 package-name`` to generate the recipe for a pull request if the package is a
@@ -469,9 +469,9 @@ Extra Tips and Notes
   tool and to also incorporate Conda lock files.
 - pip and the related tools have come a long way in the last 15 years, so you
   may be able to get away with only using packages directly installed from
-  PyPi, but the second you need a package that the PyPi paradigm does not
+  PyPI, but the second you need a package that the PyPI paradigm does not
   support, you have to move back to more general package managers, like Conda.
-  You can read about the fundamental flaws the PyPi approach has here:
+  You can read about the fundamental flaws the PyPI approach has here:
   https://pypackaging-native.github.io/ if you want to know the gory details.
   My opinion is that Conda is still the more full proof approach for a
   scientific software setup for our general use cases.
