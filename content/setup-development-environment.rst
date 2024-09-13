@@ -154,7 +154,7 @@ specific project I work on, I create a Conda virtual environment with the
 subset of packages I need for that project. I first create a directory/folder
 on my computer for the project that, in its most basic form, looks like::
 
-   /home/moorepants/my/project/
+   /home/moorepants/myproject/
    |--> myproject-env.yml
    |--> script.py
 
