@@ -1,11 +1,12 @@
-===================================
-Bike Lab Software Development Setup
-===================================
+======================================
+My Research Software Development Setup
+======================================
 
-:date: 2024-09-13 11:15:00
-:tags: conda
+:date: 2024-09-13 11:55:00
+:tags: conda,python,scientific software,installation
 :category: software
 :authors: Jason K. Moore
+:thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/219px-Python-logo-notext.svg.png
 
 Introduction
 ============
@@ -26,15 +27,15 @@ mostly pure Python packages with ``easy_install`` from PyPi_ (we called it "The
 Cheeseshop" back then). The first release of pip_ was in 2008 and gained quick
 adoption over ``easy_install``, but it did not (and still doesn't fully) solve
 the scientific python installation needs. But in 2012, Continuum Analytics Inc.
-(now Anaconda Inc.) released the open source conda_ package manager and a
-website hosting conda packages (pre-compiled binaries) with a goal to unify the
+(now Anaconda Inc.) released the open source Conda_ package manager and a
+website hosting Conda packages (pre-compiled binaries) with a goal to unify the
 bubbling scientific software packaging mess with particular focus on equal
 status on all three major operating systems and end users never having to
 compile the scientific Python stack again (among other things). I started using
-conda immediately and have so since (even through the `slow solver days`_).
+Conda immediately and have so since (even through the `slow solver days`_).
 I've tried many of the subsequent solutions, but they all seemed to miss at
 least one thing that does not work with a scientific computing oriented
-workflow. I still believe conda's approach is the best solution, especially
+workflow. I still believe Conda's approach is the best solution, especially
 since `Conda Forge`_ came into being.
 
 Given the infinite combination of options for installing and setting up your
@@ -46,14 +47,14 @@ least my students.
 
 .. _PyPi: https://pypi.org
 .. _pip: https://en.wikipedia.org/wiki/Pip_%28package_manager%29
-.. _conda: https://docs.conda.io/
+.. _Conda: https://docs.conda.io/
 .. _slow solver days: https://github.com/conda/conda/issues/7239
 .. _Conda Forge: https://conda-forge.org/
 
 Setup Conda with Conda Forge
 ============================
 
-We first need conda. There are various ways to install conda, but I recommend
+We first need Conda. There are various ways to install Conda, but I recommend
 to install Miniforge_ due to its small size and that it defaults to installing
 packages only from Conda Forge. Miniforge installs a directory that will house
 all of your installed software into a single directory that does not need
@@ -85,12 +86,12 @@ custom build Python distribution. You will find recommendations on the internet
 discouraging from installing packages in the base environment, but I've never
 had any issue doing this over the last decade.
 
-You interact with conda via the command line, so open a terminal on Linux or
+You interact with Conda via the command line, so open a terminal on Linux or
 Mac and open the Miniforge command prompt on Windows. Conda's base environment
 should be activated by default. I use the ``$`` below for the command prompt
 symbol, this will be different on Windows or if you have customized it.
 
-Check if conda is installed by typing and pressing the enter key:
+Check if Conda is installed by typing and pressing the enter key:
 
 .. code-block:: bash
 
@@ -126,10 +127,10 @@ via your application menu or by typing this at the command line:
 
 .. code-block:: bash
 
-   spyder
+   $ spyder
 
-There are many IDE choices and most popular ones work seamlessly with conda and
-conda virtual environments.
+There are many IDE choices and most popular ones work seamlessly with Conda and
+Conda virtual environments.
 
 This setup may serve all of your needs and you can use the single set of
 packages installed in the base environment. You can periodically run these
@@ -137,8 +138,8 @@ commands:
 
 .. code-block:: bash
 
-   conda update --all
-   conda clean --all
+   $ conda update --all
+   $ conda clean --all
 
 to keep your packages all at their latest compatible versions and delete
 versions of packages that are no longer in the base environment.
@@ -149,7 +150,7 @@ Project Conda Environments
 At some point you may want a specific set of packages at possibly specific
 versions for a project, paper, collaboration, etc. and these will likely be in
 conflict with what you have installed in your base environment. For every
-specific project I work on, I create a conda virtual environment with the
+specific project I work on, I create a Conda virtual environment with the
 subset of packages I need for that project. I first create a directory/folder
 on my computer for the project that, in its most basic form, looks like::
 
@@ -158,7 +159,7 @@ on my computer for the project that, in its most basic form, looks like::
    |--> script.py
 
 where the ``script.py`` file would house some analysis and
-``myproject-env.yml`` is conda ``envirionment.yml`` file that specifies the
+``myproject-env.yml`` is Conda ``envirionment.yml`` file that specifies the
 software needed to run ``script.py``. A real project will have many more files,
 for example here is a working repository for a manuscript:
 
@@ -202,13 +203,13 @@ Once you save the file, you can create the environment with this command:
 
 .. code-block:: bash
 
-   conda env create -f myproject-env.yml
+   $ conda env create -f myproject-env.yml
 
 To use the environment, you have to activate it in the terminal/command prompt:
 
 .. code-block:: bash
 
-   conda activate myproject
+   $ conda activate myproject
 
 Now you'll have access to that set of packages by default, for example we see
 that the matching Python version is installed:
@@ -229,7 +230,7 @@ environment by typing:
 
 .. code-block:: bash
 
-   python -c "import sys; print(sys.executable)"
+   $ python -c "import sys; print(sys.executable)"
 
 This should display a path to the correct environment directory/folder
 corresponding to your active environment, for example mine displays:
@@ -289,15 +290,15 @@ and the two dependencies of SymPy:
 
 .. code-block:: bash
 
-   conda env create -f myproject-env.yml
-   conda activate myproject
+   $ conda env create -f myproject-env.yml
+   $ conda activate myproject
 
-Now, you can run pip inside the conda environment to install the PyPi package
+Now, you can run pip inside the Conda environment to install the PyPi package
 for SymPy:
 
 .. code-block:: bash
 
-   python -m pip install --no-deps sympy
+   $ python -m pip install --no-deps sympy
 
 If you now look at the list of installed packages you see that SymPy is listed
 as installed from PyPi:
@@ -366,11 +367,11 @@ end of up with many PyPi packages in your Conda environment and then updating
 things becomes more difficult, or even impossible. The nice thing is that you
 can always delete the environmetn and recreate it if it goes awry.
 
-There are new developments to make this work more seemlessly, for example see
+There are new developments to make this work more seamlessly, for example see
 https://github.com/conda-incubator/conda-pypi. But the ideal solution is that
 you help contribute to Conda Forge and add the PyPi package you need via a pull
 request to https://github.com/conda-forge/staged-recipes. It is generally
-pretty straight forward to use the the grayskull_ tool ``grayskull pypi
+pretty straight forward to use the grayskull_ tool ``grayskull pypi
 package-name`` to generate the recipe for a pull request if the package is a
 pure Python package.
 
@@ -381,20 +382,23 @@ Developing a Package in Your Environment
 
 Sometimes you may want to use the development version of a software package in
 your environment and you may even be developing it alongside the source code
-for your project. THen you want to setup your environment with a "development
+for your project. Then you want to setup your environment with a "development
 installation" of one or more packages. This approach is almost identical to the
-prior section, except you will install the package from teh source code you
-have cloned from a Git repository.
+prior section, except you will install the package from the source code you
+have cloned from a Git repository. In our lab it is be (or should be) common to
+develop DynamicistToolKit_ alongside the code for a research project so I'll
+use this as an example.
 
-In our lab, it is be (or should be) common to develop dynamicisttoolkit
-alongside the code for a research project.
+.. _DynamicistToolKit: https://dynamicisttoolkit.readthedocs.io/
 
-First check the development dependencies of dynamicisttoolkit at:
+First check the development dependencies of DynamicstToolKit, which can be
+found in the ``setup.py`` file in the source repository:
 
 https://github.com/moorepants/DynamicistToolKit/blob/master/setup.py
 
-which are numpy, matplotlib, scipy, sphinx, numpydoc, and pytest. Include these
-in your environment configuration file:
+To develop this package you should have numpy, matplotlib, scipy, sphinx,
+numpydoc, and pytest installed. So, include these in your project environment
+configuration file:
 
 .. code-block:: yaml
 
@@ -405,7 +409,6 @@ in your environment configuration file:
      - matplotlib
      - numpy
      - numpydoc
-     - pip
      - pytest
      - python
      - scipy
@@ -413,39 +416,58 @@ in your environment configuration file:
 
 .. code-block:: bash
 
-   conda env create -f myproject-env.yml
-   conda activate myproject
+   $ conda env create -f myproject-env.yml
+   $ conda activate myproject
 
-Now, clone the development version of DynamicistToolKit:
-
-.. code-block:: bash
-
-   git clone https://github.com/moorepants/DynamicistToolKit.git
-   cd DynamicistToolKit
+Now, clone the development version of DynamicistToolKit with Git and navigate
+into the new directory:
 
 .. code-block:: bash
 
-   python -m pip install -e --no-deps .
+   $ git clone https://github.com/moorepants/DynamicistToolKit.git
+   $ cd DynamicistToolKit
+
+Now make a development installation from this directory with Conda:
 
 .. code-block:: bash
 
-   python -c "import dtk; print(dtk.__file__)"
+   $ conda develop .
+
+When you import ``dtk`` you should see that it is sourced from the file in the
+Git repository you cloned:
+
+.. code-block:: bash
+
+   $ python -c "import dtk; print(dtk.__file__)"
+   /home/moorepants/src/DynamicistToolKit/dtk/__init__.py
 
 Now you can make edits to the files in the ``DynamicistToolKit`` directory and
-those changes will be present when you import the package in your project conda
+those changes will be present when you import the package in your project Conda
 environment. Updating has the same perils as mentioned in the previous section
 but works fine if the development installs sit at the top of the dependency
 stack.
 
-Maybe I shoudl just recommend
-
-   conda develop
-
-as it may work fine these days (used to be broken).
-
 Extra Tips and Notes
 ====================
 
-People also build tools to do these kinds of things automatically, for example:
-https://github.com/conda-incubator/conda-project
-
+- There are so many ways to get a working scientific (Python) stack of software
+  installed and it is unbelievably confusing when you try to figure it out for
+  the first time(s) because everyone tells you a different approach. It is
+  unfortunately the nature of the beast. My best advice is to find a real
+  person that's familiar with it and let them help you get set up.
+- The above method does not give you long term reproducibility, i.e. running
+  ``conda env create -f myproject-env.yml`` in ten years will inevitably fail.
+  But this approach generally works in the time frame of a project, like 1-2
+  years. If you want more long term reproducibility of environments, you'll
+  need to learn about Conda lock files or even other more appropriate tools.
+- You can find things like: https://github.com/conda-incubator/conda-project
+  which try to encapsulate what I show above in fewer commands with a wrapper
+  tool and to also incorporate Conda lock files.
+- pip and the related tools have come a long way in the last 15 years, so you
+  may be able to get away with only using packages directly installed from
+  PyPi, but the second you need a package that the PyPi paradigm does not
+  support, you have to move back to more general package managers, like Conda.
+  You can read about the fundamental flaws the PyPi approach has here:
+  https://pypackaging-native.github.io/ if you want to know the gory details.
+  My opinion is that Conda is still the more full proof approach for a
+  scientific software setup for our general use cases.
