@@ -245,7 +245,7 @@ dd {
 
 /* rst literals within text, e.g. ``literal text`` should stand out other than
  * a font change, this adds a light background color */
-.docutils, .literal tt {
+tt.docutils.literal {
   background-color: #f8f8f8;
   border: 1px solid rgba(0,0,0,.1);
 }
