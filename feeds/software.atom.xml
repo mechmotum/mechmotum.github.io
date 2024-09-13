@@ -115,7 +115,7 @@ project that, in its most basic form, looks like:&lt;/p&gt;
 |--&amp;gt; script.py
 &lt;/pre&gt;
 &lt;p&gt;where the &lt;tt class="docutils literal"&gt;script.py&lt;/tt&gt; file would house some analysis for the project and
-&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;myproject-env.yml&lt;/span&gt;&lt;/tt&gt; is a Conda &lt;tt class="docutils literal"&gt;envirionment.yml&lt;/tt&gt; file that specifies the
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;myproject-env.yml&lt;/span&gt;&lt;/tt&gt; is a Conda &lt;tt class="docutils literal"&gt;environment.yml&lt;/tt&gt; file that specifies the
 software needed to run &lt;tt class="docutils literal"&gt;script.py&lt;/tt&gt;. A real project will have many more files,
 for example here is one of my working repositories for a manuscript:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/moorepants/bicycle-steer-control-paper"&gt;https://github.com/moorepants/bicycle-steer-control-paper&lt;/a&gt;&lt;/p&gt;
