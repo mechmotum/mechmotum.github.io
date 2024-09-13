@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  My Research Software Development Setup | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/blog/setup-development-environment.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://mechmotum.github.io/feeds/software.atom.xml">  
+  <meta name="description" content="Introduction I have been teaching scientific Python for about 15 years now and helping students to simply install everything correctly on their own computer is still generally painful. I no longer have to coach students through compiling NumPy and SciPy on Windows but that pain has now been replaced with …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="site-image img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Positions</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/contact.html">Contact</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  My Research Software Development Setup
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2024-09-13T11:55:00-07:00">
+          <i class="fas fa-clock"></i>
+          Fri 13 September 2024
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://mechmotum.github.io/category/software.html">software</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user"></i>
+              <a href="https://mechmotum.github.io/author/jason-k-moore.html">Jason K. Moore</a>          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-tag"></i>
+              <a href="https://mechmotum.github.io/tag/conda.html">#conda</a>,               <a href="https://mechmotum.github.io/tag/python.html">#python</a>,               <a href="https://mechmotum.github.io/tag/scientific-software.html">#scientific software</a>,               <a href="https://mechmotum.github.io/tag/installation.html">#installation</a>          </li>
+      </ul>
+    </header>
+
+
+    <div class="content">
+      <div class="section" id="introduction">
+<h2>Introduction</h2>
+<p>I have been teaching scientific Python for about 15 years now and helping
+students to simply install everything correctly on their own computer is still
+generally painful. I no longer have to coach students through compiling NumPy
+and SciPy on Windows but that pain has now been replaced with navigating them
+through the myriad of package managers that all tout themselves to be <em>the</em>
+solution. These days, a new package manager option seems to be released about
+every month.</p>
+<p>Back in 2008, I would <tt class="docutils literal">apt install</tt> the Python scientific computing stack for
+simple use on Debian Linux (which still works nicely today!) and but if I
+needed the latest package version or was contributing to the packages I used, I
+would compile NumPy &amp; SciPy in a Python virtual environment and then install
+mostly pure Python packages with <tt class="docutils literal">easy_install</tt> from <a class="reference external" href="https://pypi.org">PyPi</a> (we called it &quot;The
+Cheeseshop&quot; back then). The first release of <a class="reference external" href="https://en.wikipedia.org/wiki/Pip_%28package_manager%29">pip</a> was in 2008 and gained quick
+adoption over <tt class="docutils literal">easy_install</tt>, but it did not (and still doesn't fully) solve
+the scientific python installation needs. But in 2012, Continuum Analytics Inc.
+(now Anaconda Inc.) released the open source <a class="reference external" href="https://docs.conda.io/">Conda</a> package manager and a
+website hosting Conda packages (pre-compiled binaries) with a goal to unify the
+bubbling scientific software packaging mess with particular focus on equal
+status on all three major operating systems and end users never having to
+compile the scientific Python stack again (among other things). I started using
+Conda immediately and have so since (even through the <a class="reference external" href="https://github.com/conda/conda/issues/7239">slow solver days</a>).
+I've tried many of the subsequent solutions, but they all seemed to miss at
+least one thing that does not work with a scientific computing oriented
+workflow. I still believe Conda's approach is the best solution, especially
+since <a class="reference external" href="https://conda-forge.org/">Conda Forge</a> came into being.</p>
+<p>Given the infinite combination of options for installing and setting up your
+scientific Python oriented project development environment, I will stick to a
+single (opinionated and &quot;simple&quot;) approach. This approach has worked for me for
+over a decade. Of course, you can piece together a solution that works for you
+and fits your style, but this hopefully gives a clear starting point for at
+least my students.</p>
+</div>
+<div class="section" id="setup-conda-with-conda-forge">
+<h2>Setup Conda with Conda Forge</h2>
+<p>We first need Conda. There are various ways to install Conda, but I recommend
+to install <a class="reference external" href="https://conda-forge.org/download/">Miniforge</a> due to its small size and that it defaults to installing
+packages only from Conda Forge. Miniforge installs a directory that will house
+all of your installed software into a single directory that does not need
+administrator privileges. It also only installs packages from Conda Forge that
+are sure to be compatible. Download Miniforge for your operating system and
+computer architecture here:</p>
+<p><a class="reference external" href="https://conda-forge.org/download/">https://conda-forge.org/download/</a></p>
+<p>For Linux and Windows you most likely need the x86_64 build and for MacOS you
+will need to choose the x86_64 for old Macs with Intel chips and arm64 for new
+Macs with Arm chips. Follow the installation instructions on the page or the
+more detailed version in the README here:</p>
+<p><a class="reference external" href="https://github.com/conda-forge/miniforge">https://github.com/conda-forge/miniforge</a></p>
+</div>
+<div class="section" id="base-conda-environment">
+<h2>Base Conda Environment</h2>
+<p>Conda has the &quot;virtual environment&quot; feature builtin which allows you to install
+a set of packages isolated from another set of packages. The &quot;base&quot; environment
+is the default environment and I use this environment as my general calculator,
+so is should have the most common packages that I use. After installing these
+common packages, this gives you something akin to Matlab where the latest
+version of everything you use is importable or you can think of it as your
+custom build Python distribution. You will find recommendations on the internet
+discouraging from installing packages in the base environment, but I've never
+had any issue doing this over the last decade.</p>
+<p>You interact with Conda via the command line, so open a terminal on Linux or
+Mac and open the Miniforge command prompt on Windows. Conda's base environment
+should be activated by default. I use the <tt class="docutils literal">$</tt> below for the command prompt
+symbol, this will be different on Windows or if you have customized it.</p>
+<p>Check if Conda is installed by typing and pressing the enter key:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>--version
+</pre></div>
+<p>This should return a version number, e.g.:</p>
+<div class="highlight"><pre><span></span>conda<span class="w"> </span><span class="m">24</span>.7.1
+</pre></div>
+<p>Now install any packages that you think you may regularly use, e.g.:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>install<span class="w"> </span>numpy<span class="w"> </span>scipy<span class="w"> </span>matplotlib<span class="w"> </span>sympy<span class="w"> </span>ipython<span class="w"> </span>spyder
+</pre></div>
+<p>The package names have to match the names of available Conda Forge packages
+found here:</p>
+<p><a class="reference external" href="https://conda-forge.org/packages/">https://conda-forge.org/packages/</a></p>
+<p>After the installation finishes, you can use these packages, e.g.:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import numpy; print(numpy.ones(5))&quot;</span>
+<span class="o">[</span><span class="m">1</span>.<span class="w"> </span><span class="m">1</span>.<span class="w"> </span><span class="m">1</span>.<span class="w"> </span><span class="m">1</span>.<span class="w"> </span><span class="m">1</span>.<span class="o">]</span>
+</pre></div>
+<p>If you prefer working in an Integrated Development Environment (IDE) you can do
+so. Spyder is a possible choice, which I installed above. You can open Spyder
+via your application menu or by typing this at the command line:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>spyder
+</pre></div>
+<p>There are many IDE choices and most popular ones work seamlessly with Conda and
+Conda virtual environments.</p>
+<p>This setup may serve all of your needs and you can use the single set of
+packages installed in the base environment. You can periodically run these
+commands:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>update<span class="w"> </span>--all
+$<span class="w"> </span>conda<span class="w"> </span>clean<span class="w"> </span>--all
+</pre></div>
+<p>to keep your packages all at their latest compatible versions and delete
+versions of packages that are no longer in the base environment.</p>
+</div>
+<div class="section" id="project-conda-environments">
+<h2>Project Conda Environments</h2>
+<p>At some point you may want a specific set of packages at possibly specific
+versions for a project, paper, collaboration, etc. and these will likely be in
+conflict with what you have installed in your base environment. For every
+specific project I work on, I create a Conda virtual environment with the
+subset of packages I need for that project. I first create a directory/folder
+on my computer for the project that, in its most basic form, looks like:</p>
+<pre class="literal-block">
+/home/moorepants/myproject/
+|--&gt; myproject-env.yml
+|--&gt; script.py
+</pre>
+<p>where the <tt class="docutils literal">script.py</tt> file would house some analysis and
+<tt class="docutils literal"><span class="pre">myproject-env.yml</span></tt> is Conda <tt class="docutils literal">envirionment.yml</tt> file that specifies the
+software needed to run <tt class="docutils literal">script.py</tt>. A real project will have many more files,
+for example here is a working repository for a manuscript:</p>
+<p><a class="reference external" href="https://github.com/moorepants/bicycle-steer-control-paper">https://github.com/moorepants/bicycle-steer-control-paper</a></p>
+<p><tt class="docutils literal"><span class="pre">myproject-env.yml</span></tt> should have contents that look something like this:</p>
+<div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myproject</span>
+<span class="nt">channels</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">conda-forge</span>
+<span class="nt">dependencies</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bicycleparameters</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">dynamicisttoolkit</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ipython</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">matplotlib</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">numpy</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">opty</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python ==3.10</span><span class="w">  </span><span class="c1"># you can specify versions</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">scipy</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">spyder-kernels</span><span class="w">  </span><span class="c1"># allows access to this environment in spyder installed in base</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sympy</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yeadon</span>
+</pre></div>
+<p>All packages in the <tt class="docutils literal">dependencies:</tt> list have to correspond to packages
+available on Conda Forge, listed here:</p>
+<p><a class="reference external" href="https://conda-forge.org/packages/">https://conda-forge.org/packages/</a></p>
+<p>You can learn more about the <tt class="docutils literal">environment.yml</tt> file specification in the
+Conda documentation:</p>
+<p><a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html</a></p>
+<p>This environment file can be used by you or others to reproduce a software
+installation for your project.</p>
+<p>Once you save the file, you can create the environment with this command:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>myproject-env.yml
+</pre></div>
+<p>To use the environment, you have to activate it in the terminal/command prompt:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>myproject
+</pre></div>
+<p>Now you'll have access to that set of packages by default, for example we see
+that the matching Python version is installed:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>python<span class="w"> </span>--version
+Python<span class="w"> </span><span class="m">3</span>.10.0
+</pre></div>
+<p>We installed Spyder in the base environment and <tt class="docutils literal"><span class="pre">spyder-kernels</span></tt> in the
+project's environment. If we type <tt class="docutils literal">spyder</tt>, the Spyder installed in base will
+open (because we didn't install in the project environment). But when you open
+Spyder you can select this project environment to run the code. Jupyter,
+VScode, Pycharm, and many IDEs will allow you to select the Conda environment.
+To do so in Spyder, first activate your environment in the terminal/command
+prompt and find the full path to the Python executable associated with the
+environment by typing:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import sys; print(sys.executable)&quot;</span>
+</pre></div>
+<p>This should display a path to the correct environment directory/folder
+corresponding to your active environment, for example mine displays:</p>
+<div class="highlight"><pre><span></span>/home/moorepants/miniforge/envs/myproject/bin/python
+</pre></div>
+<p>Now, open Spyder and find the preferences that let you set the Python
+interpreter. You should find this under this menu path: &quot;Tools -&gt; Preferences
+-&gt; Python interpreter -&gt; Use the following Python interpreter&quot;. Paste the path
+from the prior command line command into this field and apply the preferences.
+New and restarted Spyder consoles will execute code in your project
+environment. See this blog post for more information:</p>
+<p><a class="reference external" href="https://medium.com/&#64;apremgeorge/using-conda-python-environments-with-spyder-ide-and-jupyter-notebooks-in-windows-4e0a905aaac5">https://medium.com/&#64;apremgeorge/using-conda-python-environments-with-spyder-ide-and-jupyter-notebooks-in-windows-4e0a905aaac5</a></p>
+<p>If you are using version control (which you should be), commit the
+<tt class="docutils literal">environment.yml</tt> file to the repository so others can reproduce your project
+environment.</p>
+</div>
+<div class="section" id="package-not-in-conda-forge">
+<h2>Package Not in Conda Forge</h2>
+<p>At some point you will want to use a package that is not available in Conda
+Forge. There are different approaches to install the package in your
+environment depending on what the package's primary programming language is,
+but mostly commonly you will want a Python package that you can find on PyPi
+but not in Conda Forge. Packages on PyPi are generally installed using the pip
+package manager. You will see many other recommendations on the web, e.g.:
+pipx, hatchling, poetry, pdm, uv. It is best to ignore these for now and you
+can use them later if you find you like them better than pip and/or conda.</p>
+<p>You can install packages from PyPi into a Conda environment but this
+arrangement is fragile and you should never install packages with pip into your
+base environment (otherwise you are asking for trouble). The safest approach I
+have found over the years is to first install everything the PyPi packages
+depend on using Conda and then install the PyPi package using pip's with its
+<tt class="docutils literal"><span class="pre">--no-deps</span></tt> flag. This prevents pip from filling your Conda environment with
+PyPi packages you don't want there.</p>
+<p>As an example, SymPy is availabe on Conda Forge but we will pretend it isn't.
+SymPy's only required dependencies are Python and mpmath. Both are available on
+Conda Forge. So we create an environment file that includes pip in the
+dependencies list so we can use it to install from PyPi inside the environment
+and the two dependencies of SymPy:</p>
+<div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myproject</span>
+<span class="nt">channels</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">conda-forge</span>
+<span class="nt">dependencies</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mpmath</span>
+</pre></div>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>myproject-env.yml
+$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>myproject
+</pre></div>
+<p>Now, you can run pip inside the Conda environment to install the PyPi package
+for SymPy:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--no-deps<span class="w"> </span>sympy
+</pre></div>
+<p>If you now look at the list of installed packages you see that SymPy is listed
+as installed from PyPi:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>list
+<span class="c1"># packages in environment at /home/moorepants/miniforge/envs/myproject:</span>
+<span class="c1">#</span>
+<span class="c1"># Name                    Version                   Build  Channel</span>
+_libgcc_mutex<span class="w">             </span><span class="m">0</span>.1<span class="w">                 </span>conda_forge<span class="w">    </span>conda-forge
+_openmp_mutex<span class="w">             </span><span class="m">4</span>.5<span class="w">                       </span>2_gnu<span class="w">    </span>conda-forge
+bzip2<span class="w">                     </span><span class="m">1</span>.0.8<span class="w">                </span>h4bc722e_7<span class="w">    </span>conda-forge
+ca-certificates<span class="w">           </span><span class="m">2024</span>.8.30<span class="w">            </span>hbcca054_0<span class="w">    </span>conda-forge
+ld_impl_linux-64<span class="w">          </span><span class="m">2</span>.40<span class="w">                 </span>hf3520f5_7<span class="w">    </span>conda-forge
+libexpat<span class="w">                  </span><span class="m">2</span>.6.3<span class="w">                </span>h5888daf_0<span class="w">    </span>conda-forge
+libffi<span class="w">                    </span><span class="m">3</span>.4.2<span class="w">                </span>h7f98852_5<span class="w">    </span>conda-forge
+libgcc<span class="w">                    </span><span class="m">14</span>.1.0<span class="w">               </span>h77fa898_1<span class="w">    </span>conda-forge
+libgcc-ng<span class="w">                 </span><span class="m">14</span>.1.0<span class="w">               </span>h69a702a_1<span class="w">    </span>conda-forge
+libgomp<span class="w">                   </span><span class="m">14</span>.1.0<span class="w">               </span>h77fa898_1<span class="w">    </span>conda-forge
+libnsl<span class="w">                    </span><span class="m">2</span>.0.1<span class="w">                </span>hd590300_0<span class="w">    </span>conda-forge
+libsqlite<span class="w">                 </span><span class="m">3</span>.46.1<span class="w">               </span>hadc24fc_0<span class="w">    </span>conda-forge
+libuuid<span class="w">                   </span><span class="m">2</span>.38.1<span class="w">               </span>h0b41bf4_0<span class="w">    </span>conda-forge
+libxcrypt<span class="w">                 </span><span class="m">4</span>.4.36<span class="w">               </span>hd590300_1<span class="w">    </span>conda-forge
+libzlib<span class="w">                   </span><span class="m">1</span>.3.1<span class="w">                </span>h4ab18f5_1<span class="w">    </span>conda-forge
+mpmath<span class="w">                    </span><span class="m">1</span>.3.0<span class="w">              </span>pyhd8ed1ab_0<span class="w">    </span>conda-forge
+ncurses<span class="w">                   </span><span class="m">6</span>.5<span class="w">                  </span>he02047a_1<span class="w">    </span>conda-forge
+openssl<span class="w">                   </span><span class="m">3</span>.3.2<span class="w">                </span>hb9d3cd8_0<span class="w">    </span>conda-forge
+pip<span class="w">                       </span><span class="m">24</span>.2<span class="w">               </span>pyh8b19718_1<span class="w">    </span>conda-forge
+python<span class="w">                    </span><span class="m">3</span>.12.5<span class="w">          </span>h2ad013b_0_cpython<span class="w">    </span>conda-forge
+readline<span class="w">                  </span><span class="m">8</span>.2<span class="w">                  </span>h8228510_1<span class="w">    </span>conda-forge
+setuptools<span class="w">                </span><span class="m">73</span>.0.1<span class="w">             </span>pyhd8ed1ab_0<span class="w">    </span>conda-forge
+sympy<span class="w">                     </span><span class="m">1</span>.13.2<span class="w">                   </span>pypi_0<span class="w">    </span>pypi
+tk<span class="w">                        </span><span class="m">8</span>.6.13<span class="w">          </span>noxft_h4845f30_101<span class="w">    </span>conda-forge
+tzdata<span class="w">                    </span>2024a<span class="w">                </span>h8827d51_1<span class="w">    </span>conda-forge
+wheel<span class="w">                     </span><span class="m">0</span>.44.0<span class="w">             </span>pyhd8ed1ab_0<span class="w">    </span>conda-forge
+xz<span class="w">                        </span><span class="m">5</span>.2.6<span class="w">                </span>h166bdaf_0<span class="w">    </span>conda-forge
+</pre></div>
+<p>If you carefully install all of the PyPi packages' dependencies from Conda
+Forge then you can reasonably safely run <tt class="docutils literal">conda update <span class="pre">--all</span></tt> inside the
+Conda environment and then follow that with a <tt class="docutils literal">python <span class="pre">-m</span> pip install <span class="pre">-U</span>
+sympy</tt> to upgrade the PyPi package.</p>
+<p>This method will generally work but it requires you to manually figure out and
+install the dependencies. If you have many PyPi packages, then this may get out
+of hand to manage. But my experience is that you typically don't have many PyPi
+packages you need that are not on Conda Forge.</p>
+<p>Conda does also support specifying PyPi packages in the environment file like
+so:</p>
+<div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myproject</span>
+<span class="nt">channels</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">conda-forge</span>
+<span class="nt">dependencies</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mpmath</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pip</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sympy</span>
+</pre></div>
+<p>but the <tt class="docutils literal"><span class="pre">--no-deps</span></tt> when installing the packages in the pip list and you may
+end of up with many PyPi packages in your Conda environment and then updating
+things becomes more difficult, or even impossible. The nice thing is that you
+can always delete the environmetn and recreate it if it goes awry.</p>
+<p>There are new developments to make this work more seamlessly, for example see
+<a class="reference external" href="https://github.com/conda-incubator/conda-pypi">https://github.com/conda-incubator/conda-pypi</a>. But the ideal solution is that
+you help contribute to Conda Forge and add the PyPi package you need via a pull
+request to <a class="reference external" href="https://github.com/conda-forge/staged-recipes">https://github.com/conda-forge/staged-recipes</a>. It is generally
+pretty straight forward to use the <a class="reference external" href="https://github.com/conda/grayskull">grayskull</a> tool <tt class="docutils literal">grayskull pypi
+<span class="pre">package-name</span></tt> to generate the recipe for a pull request if the package is a
+pure Python package.</p>
+</div>
+<div class="section" id="developing-a-package-in-your-environment">
+<h2>Developing a Package in Your Environment</h2>
+<p>Sometimes you may want to use the development version of a software package in
+your environment and you may even be developing it alongside the source code
+for your project. Then you want to setup your environment with a &quot;development
+installation&quot; of one or more packages. This approach is almost identical to the
+prior section, except you will install the package from the source code you
+have cloned from a Git repository. In our lab it is be (or should be) common to
+develop <a class="reference external" href="https://dynamicisttoolkit.readthedocs.io/">DynamicistToolKit</a> alongside the code for a research project so I'll
+use this as an example.</p>
+<p>First check the development dependencies of DynamicstToolKit, which can be
+found in the <tt class="docutils literal">setup.py</tt> file in the source repository:</p>
+<p><a class="reference external" href="https://github.com/moorepants/DynamicistToolKit/blob/master/setup.py">https://github.com/moorepants/DynamicistToolKit/blob/master/setup.py</a></p>
+<p>To develop this package you should have numpy, matplotlib, scipy, sphinx,
+numpydoc, and pytest installed. So, include these in your project environment
+configuration file:</p>
+<div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myproject</span>
+<span class="nt">channels</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">conda-forge</span>
+<span class="nt">dependencies</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">matplotlib</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">numpy</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">numpydoc</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pytest</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">scipy</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sphinx</span>
+</pre></div>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>myproject-env.yml
+$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>myproject
+</pre></div>
+<p>Now, clone the development version of DynamicistToolKit with Git and navigate
+into the new directory:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/moorepants/DynamicistToolKit.git
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>DynamicistToolKit
+</pre></div>
+<p>Now make a development installation from this directory with Conda:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>develop<span class="w"> </span>.
+</pre></div>
+<p>When you import <tt class="docutils literal">dtk</tt> you should see that it is sourced from the file in the
+Git repository you cloned:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import dtk; print(dtk.__file__)&quot;</span>
+/home/moorepants/src/DynamicistToolKit/dtk/__init__.py
+</pre></div>
+<p>Now you can make edits to the files in the <tt class="docutils literal">DynamicistToolKit</tt> directory and
+those changes will be present when you import the package in your project Conda
+environment. Updating has the same perils as mentioned in the previous section
+but works fine if the development installs sit at the top of the dependency
+stack.</p>
+</div>
+<div class="section" id="extra-tips-and-notes">
+<h2>Extra Tips and Notes</h2>
+<ul class="simple">
+<li>There are so many ways to get a working scientific (Python) stack of software
+installed and it is unbelievably confusing when you try to figure it out for
+the first time(s) because everyone tells you a different approach. It is
+unfortunately the nature of the beast. My best advice is to find a real
+person that's familiar with it and let them help you get set up.</li>
+<li>The above method does not give you long term reproducibility, i.e. running
+<tt class="docutils literal">conda env create <span class="pre">-f</span> <span class="pre">myproject-env.yml</span></tt> in ten years will inevitably fail.
+But this approach generally works in the time frame of a project, like 1-2
+years. If you want more long term reproducibility of environments, you'll
+need to learn about Conda lock files or even other more appropriate tools.</li>
+<li>You can find things like: <a class="reference external" href="https://github.com/conda-incubator/conda-project">https://github.com/conda-incubator/conda-project</a>
+which try to encapsulate what I show above in fewer commands with a wrapper
+tool and to also incorporate Conda lock files.</li>
+<li>pip and the related tools have come a long way in the last 15 years, so you
+may be able to get away with only using packages directly installed from
+PyPi, but the second you need a package that the PyPi paradigm does not
+support, you have to move back to more general package managers, like Conda.
+You can read about the fundamental flaws the PyPi approach has here:
+<a class="reference external" href="https://pypackaging-native.github.io/">https://pypackaging-native.github.io/</a> if you want to know the gory details.
+My opinion is that Conda is still the more full proof approach for a
+scientific software setup for our general use cases.</li>
+</ul>
+</div>
+
+    </div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://mechmotum.github.io/blog/setup-development-environment.html';
+      this.page.identifier = 'my-research-software-development-setup';
+    };
+    (function() {
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//mechmotum.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy"
+         target="_blank">&#x2728;</a>
+    | Edit on <a href="https://github.com/mechmotum/mechmotum.github.io" target="_blank"><i class="fab fa-github"></i></a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
