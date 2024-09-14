@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-09-13T11:55:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>My Research Software Development Setup</title><link href="https://mechmotum.github.io/blog/setup-development-environment.html" rel="alternate"></link><published>2024-09-13T11:55:00-07:00</published><updated>2024-09-13T11:55:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-09-13:/blog/setup-development-environment.html</id><summary type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I have been teaching scientific Python for about 15 years now and helping
-students install everything correctly on their own computer has not
-really gotten simpler for them or me. I no longer have to coach students
-through compiling NumPy and SciPy on Windows but that pain has now …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="introduction"&gt;
+students install everything correctly on their own computer has not really
+gotten simpler for them or me. I no longer have to coach students through
+compiling NumPy and SciPy but that pain has now been replaced …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I have been teaching scientific Python for about 15 years now and helping
-students install everything correctly on their own computer has not
-really gotten simpler for them or me. I no longer have to coach students
-through compiling NumPy and SciPy on Windows but that pain has now been
-replaced with navigating them through the myriad of package managers that all
-tout themselves to be &lt;em&gt;the&lt;/em&gt; solution. These days, a new package manager option
-seems to be released about every month.&lt;/p&gt;
+students install everything correctly on their own computer has not really
+gotten simpler for them or me. I no longer have to coach students through
+compiling NumPy and SciPy but that pain has now been replaced with navigating
+them through the myriad of package managers that all tout themselves as &lt;em&gt;the&lt;/em&gt;
+solution. These days, a new package manager option seems to be released about
+every month.&lt;/p&gt;
 &lt;p&gt;Back when I started in 2008, I would &lt;tt class="docutils literal"&gt;apt install&lt;/tt&gt; the Python scientific
 computing stack for simple use on Debian Linux (which still works nicely
 today!) and if I needed the latest package version or was contributing to the
@@ -20,8 +20,8 @@ packages I used, I would compile NumPy &amp;amp; SciPy from source in a Python v
 environment and then install mostly pure Python packages with &lt;tt class="docutils literal"&gt;easy_install&lt;/tt&gt;
 from &lt;a class="reference external" href="https://pypi.org"&gt;PyPI&lt;/a&gt; (we called it &amp;quot;The Cheeseshop&amp;quot; back then). The first release of &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Pip_%28package_manager%29"&gt;pip&lt;/a&gt;
 was in 2008 and gained quick adoption over &lt;tt class="docutils literal"&gt;easy_install&lt;/tt&gt;, but it did not
-(and still doesn't fully) solve the scientific python installation needs. But
-in 2012, Continuum Analytics Inc.  (now Anaconda Inc.) released the open source
+(and still doesn't fully) solve the scientific Python installation needs. But
+in 2012, Continuum Analytics Inc. (now Anaconda Inc.) released the open source
 &lt;a class="reference external" href="https://docs.conda.io/"&gt;Conda&lt;/a&gt; package manager and a website called binstar hosting Conda packages
 (pre-compiled binaries) with a goal to unify the bubbling scientific software
 packaging mess with particular focus on equal status on all three major
