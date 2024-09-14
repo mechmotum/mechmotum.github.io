@@ -12,12 +12,12 @@ Introduction
 ============
 
 I have been teaching scientific Python for about 15 years now and helping
-students install everything correctly on their own computer has not
-really gotten simpler for them or me. I no longer have to coach students
-through compiling NumPy and SciPy on Windows but that pain has now been
-replaced with navigating them through the myriad of package managers that all
-tout themselves to be *the* solution. These days, a new package manager option
-seems to be released about every month.
+students install everything correctly on their own computer has not really
+gotten simpler for them or me. I no longer have to coach students through
+compiling NumPy and SciPy but that pain has now been replaced with navigating
+them through the myriad of package managers that all tout themselves as *the*
+solution. These days, a new package manager option seems to be released about
+every month.
 
 Back when I started in 2008, I would ``apt install`` the Python scientific
 computing stack for simple use on Debian Linux (which still works nicely
@@ -26,8 +26,8 @@ packages I used, I would compile NumPy & SciPy from source in a Python virtual
 environment and then install mostly pure Python packages with ``easy_install``
 from PyPI_ (we called it "The Cheeseshop" back then). The first release of pip_
 was in 2008 and gained quick adoption over ``easy_install``, but it did not
-(and still doesn't fully) solve the scientific python installation needs. But
-in 2012, Continuum Analytics Inc.  (now Anaconda Inc.) released the open source
+(and still doesn't fully) solve the scientific Python installation needs. But
+in 2012, Continuum Analytics Inc. (now Anaconda Inc.) released the open source
 Conda_ package manager and a website called binstar hosting Conda packages
 (pre-compiled binaries) with a goal to unify the bubbling scientific software
 packaging mess with particular focus on equal status on all three major
