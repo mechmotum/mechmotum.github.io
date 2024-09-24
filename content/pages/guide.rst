@@ -50,8 +50,8 @@ Getting Started
 - Request access to the lab's shared Google Drive from Jason.
 - We have the optional "Cheese for Thought" lunch every Wednesday at 12:00,
   meet at the lab. This is a chance to discuss topics informally.
-- Every other week (opposite lab meeting weeks) we go for snacks and drinks in
-  Delft on Fridays @ 17:00.
+- Every month we have a Friday afternoon lab tidying session at 16:30 and we go
+  for snacks and drinks (Vrijmibo) in Delft on Fridays @ 17:00.
 - See the `recommended reading list <#recommended-reading>`_ below for some
   reading materials to get you started.
 
@@ -78,7 +78,7 @@ Postdocs, PhDs, and other staff
 - All holiday time has to be requested via TIM and approved by the department
   manager. You must  take your holiday time before the end of your contract.
   Note that you can sell some holiday time (up to 38 hrs/year via IKA).  If you
-  decide to take a holiday please inform Jason by email so he are aware
+  decide to take a holiday please inform Jason by email so he is aware
   you are unavailable and can mark it on his calendar. If you are going to take a
   week or more at a time, please inform your supervisor well in advance for
   planning purposes so we can cover any of your duties.
@@ -89,7 +89,10 @@ Postdocs, PhDs, and other staff
   Jason. You should, in general, complete your contracted work hours during
   typical working hours 8-6 so that you can interact with the lab members. When
   you work from home you should be easily reachable by email, phone, or video
-  chat, etc.
+  chat, etc. during these hours. There is no expectation that you are available
+  outside standard work hours or that you have to respond to email, calls,
+  chats, etc. although occasionally there are emergencies and your flexibility
+  is appreciated.
 - You likely have a budget associated with your position or projects. Ask Jason
   or the relevant supervisor to tell you this budget. You can mange your own
   budget and don't need to ask permission for purchasing things < 250 EUR. If
@@ -112,6 +115,9 @@ Postdocs, PhDs, and other staff
 - If you supervise BSc, MSc, or PhD students that regularly use the lab
   resources and/or Jason is the main supervisor of, those students need to
   follow join the Bicycle Lab and follow the expectations in this guide.
+- If you have multiple supervisors, you will need to merge their expectations
+  and policies with Jason's. Discuss with your supervisors if there are
+  incompatibilities.
 
 Communication
 =============
@@ -140,7 +146,7 @@ Issue Trackers
 
    https://github.com/mechmotum/housekeeping
 
-Quarterly Blog Posts
+Blog Posts
    In general, we would like each project to write at least one blog post for
    the lab website. This post should at least describe project results. This
    writing exercise will help build the content for future papers and theses
@@ -153,10 +159,62 @@ Quarterly Blog Posts
 .. _matrix: https://matrix.org/
 .. _clients: https://matrix.org/docs/projects/try-matrix-now/
 
+Lab Roles
+=========
+
+We collectively keep the lab (both metaphysical and physical) running,
+organized, and useful for all. To do so, we designate responsibility for
+several task groups to individuals and it is their role to take responsibility
+for those tasks.  This does not mean they have to do all tasks in a role, so
+they will have to leverage lab members and university resources to help keeping
+things running. Lab roles rotate and you should at least do a role for a
+quarter. Postdocs and PhDs should take more responsibility than MSc students,
+in general. It is important that role activities are public and documented so
+the role can be passed on to a new person will minimal disturbance.
+
+We *all* manage the lab tasks on the Github housekeeping issue list (do not put
+any personal information there as it is public):
+
+https://github.com/mechmotum/housekeeping/issues
+
+Keep the issues up-to-date so that they can be passed to others.
+
+da MC: (Thomas Habing)
+   Organizes the lab meeting, see the `MC Guide`_.
+Meneer/Mevrouw Schoon (Sara Youngblood)
+   Organizes monthly Friday afternoon tidy and bi-annual lab clean up days.
+   Reminds the lab if the tidiness level is hampering other's work.
+Dragon Hoard Overseer (Simon)
+   Maintains a spreadsheet on our GDrive containing the lab inventory, both
+   consumable supplies and significant equipment (< 200 EUR or so).
+Batterij-momma (Anna)
+   Ensures that all batteries are stored safely and that their charge is kept
+   topped up. The protector of the lives of all batteries.
+Neo T. Anderson: (Jason)
+   Keeps the lab chat room running. This is currently a matrix server running
+   on a TU Delft VPS.
+De Fikser (Bart)
+   Monitors if equipment is broken or needs maintenance and seeks university or
+   external support for repair. Coaxes the repair processes along. Sometimes
+   fixes things themselves.
+Life Coach (Neville)
+   Organizes lab fun: vrijmibo's, bike rides, cheese for thought activities,
+   etc. Embodies the proverb "all work and no play makes Jack a dull boy".
+
+Individual responsibilities:
+
+- contribute to the housekeeping list: triage, open, close, update
+- clear your project box at the end of your project
+- data management and clearing data from lab devices/computers at end of your
+  project (see the `Data Management Guide`_)
+
+.. _MC Guide: {filename}/pages/guide-mc-lab-meetings.rst
+.. _Data Management Guide: {filename}/pages/guide-data-management.rst
+
 Laboratory Meetings
 ===================
 
-We meet every two weeks as a lab, where we will have a designated person
+We meet every two weeks as a lab, where we will have two designated people
 (picked in advance at random in our very own weighted raffle) take the
 proverbial stage and share and teach any topic that can be useful in our
 academic endeavors.
@@ -168,7 +226,7 @@ also be a skill or software program you want to learn. Co-presenting is fine
 (and a great way to meet your peers) provided your topics align. Options
 galore:
 
-- 10-20 minute presentation with Q & A
+- <10 minute presentation with Q & A
 - tutorial
 - have us read something (a paper) we could review (journal club)
 - watch and discuss a video
