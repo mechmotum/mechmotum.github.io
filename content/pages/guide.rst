@@ -167,7 +167,7 @@ organized, and useful for all. To do so, we designate responsibility for
 several task groups to individuals and it is their role to take responsibility
 for those tasks.  This does not mean they have to do all tasks in a role, so
 they will have to leverage lab members and university resources to help keeping
-things running.  Lab roles rotate and you should at least do a role for a
+things running. Lab roles rotate and you should at least do a role for a
 quarter. Postdocs and PhDs should take more responsibility than MSc students,
 in general. It is important that role activities are public and documented so
 the role can be passed on to a new person will minimal disturbance.
@@ -187,10 +187,10 @@ Meneer/Mevrouw Schoon (Sara Youngblood)
 Dragon Hoard Overseer (Simon)
    Maintains a spreadsheet on our GDrive containing the lab inventory, both
    consumable supplies and significant equipment (< 200 EUR or so).
-Battery-momma (Anna)
+Batterij-momma (Anna)
    Ensures that all batteries are stored safely and that their charge is kept
    topped up. The protector of the lives of all batteries.
-Chatty Kathy: (Jason)
+Neo T. Anderson: (Jason)
    Keeps the lab chat room running. This is currently a matrix server running
    on a TU Delft VPS.
 De Fikser (Bart)
