@@ -186,7 +186,8 @@ Meneer/Mevrouw Schoon (Sara Youngblood)
    Reminds the lab if the tidiness level is hampering other's work.
 Dragon Hoard Overseer (Simon)
    Maintains a spreadsheet on our GDrive containing the lab inventory, both
-   consumable supplies and significant equipment (< 200 EUR or so).
+   consumable supplies and significant equipment (< 200 EUR or so). Keeps an
+   eye on the borrow sheet and makes sure things are returned.
 Batterij-momma (Anna)
    Ensures that all batteries are stored safely and that their charge is kept
    topped up. The protector of the lives of all batteries.
