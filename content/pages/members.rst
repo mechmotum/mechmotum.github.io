@@ -46,13 +46,8 @@ PhD Candidates
    * - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
        | *Bicycle dynamics for realistic conflict causality in safety-aware traffic simulation.*
-     - |headshot-dukalski-rado|
-     - | **Rado Dukalski** [TUD, March 2018-present]
-       | *Augmented Reality in Cycling for Safety and Peformance*
-
-.. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
-   :width: 100px
-   :height: 133px
+     -
+     -
 
 .. |headshot-schmidt-christoph| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schmidt-christoph.jpg
    :width: 100px
@@ -148,7 +143,22 @@ Alumni
 
 **PhD Candidates**
 
-- **Jules Ronné**  [Univeristy of Gustave Eiffel Lyon, Oct 2023-Nov 2023]
+.. list-table::
+   :class: borderless
+   :width: 100%
+   :widths: 10 40 10 40
+   :align: center
+
+   * - |headshot-missing|
+     - | **Jules Ronné**  [Univeristy of Gustave Eiffel Lyon, Oct 2023-Nov 2023]
+       | *Pairwise Assessment of Handling Qualities of Bicycles*
+     - |headshot-dukalski-rado|
+     - | **Rado Dukalski** [TUD, March 2018-August 2023]
+       | *Augmented Reality in Cycling for Safety and Peformance*
+
+.. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
+   :width: 100px
+   :height: 133px
 
 **Masters of Science Students**
 
