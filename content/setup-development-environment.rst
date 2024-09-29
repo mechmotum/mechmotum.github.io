@@ -435,6 +435,22 @@ Now make a development installation from this directory with Conda:
 
    $ conda develop .
 
+.. topic:: Update (2024-09-29)
+   :class: alert alert-warning
+
+   After demoing this at a lab meeting, I tried to use  ``conda develop .``
+   with BRiM and it failed to work. The reason is twofold: 1) BRiM uses a
+   nontraditional arrangement of files in the package, i.e. ``brim/src/brim``,
+   and 2) ``conda develop`` only seems to add the path of the ``.`` directory
+   to the the Python path instead of actually installing the package. So,
+   instead of ``conda develop`` I change my recommendation to use:
+
+   .. code-block:: bash
+
+      $ python -m pip install --no-deps --editable .
+
+   which will actually install the development package.
+
 When you import ``dtk`` you should see that it is sourced from the file in the
 Git repository you cloned:
 
