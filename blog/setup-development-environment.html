@@ -236,10 +236,23 @@ Python<span class="w"> </span><span class="m">3</span>.10.0
 project's environment. If we type <tt class="docutils literal">spyder</tt>, the Spyder installed in base will
 open (because we didn't install in the project environment). But when you open
 Spyder you can select this project environment to run the code. Jupyter,
-VScode, Pycharm, and many IDEs will allow you to select the Conda environment.
-To do so in Spyder, first activate your environment in the terminal/command
-prompt and find the full path to the Python executable associated with the
-environment by typing:</p>
+VScode, Pycharm, and many IDEs will allow you to select the Conda environment.</p>
+<p>To do so in Spyder, choose your environment from the &quot;Consoles -&gt; New Console
+in Environment&quot; menu:</p>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/spyder-new-console-conda-env.png" style="width: 90%;" />
+<p class="caption">You can select any conda environment to power a new console. That console
+will then be used to run your scripts and for interactive computing.</p>
+</div>
+<p>After the new console is available, your script will run using that
+environment:</p>
+<div class="figure align-center">
+<img alt="" src="https://objects-us-east-1.dream.io/mechmotum/spyder-using-conda-env.png" style="width: 90%;" />
+<p class="caption">The bicycleparameters package is imported from the correct environment.</p>
+</div>
+<p>If you want to set an environment to be used for all new consoles, first
+activate your environment in the terminal/command prompt and find the full path
+to the Python executable associated with the environment by typing:</p>
 <div class="highlight"><pre><span></span>$<span class="w"> </span>python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import sys; print(sys.executable)&quot;</span>
 </pre></div>
 <p>This should display a path to the correct environment directory/folder
@@ -254,8 +267,8 @@ New and restarted Spyder consoles will execute code in your project
 environment. See this blog post for more information:</p>
 <p><a class="reference external" href="https://medium.com/&#64;apremgeorge/using-conda-python-environments-with-spyder-ide-and-jupyter-notebooks-in-windows-4e0a905aaac5">https://medium.com/&#64;apremgeorge/using-conda-python-environments-with-spyder-ide-and-jupyter-notebooks-in-windows-4e0a905aaac5</a></p>
 <p>If you are using version control (which you should be), commit the
-<tt class="docutils literal">environment.yml</tt> file to the repository so others can reproduce your project
-environment.</p>
+<tt class="docutils literal"><span class="pre">myproject-env.yml</span></tt> file to the repository so others can reproduce your
+project environment.</p>
 </div>
 <div class="section" id="package-not-in-conda-forge">
 <h2>Package Not in Conda Forge</h2>
