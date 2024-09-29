@@ -401,6 +401,18 @@ $<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>Dynam
 <p>Now make a development installation from this directory with Conda:</p>
 <div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>develop<span class="w"> </span>.
 </pre></div>
+<div class="alert alert-warning topic">
+<p class="topic-title">Update (2024-09-29)</p>
+<p>After demoing this at a lab meeting, I tried to use  <tt class="docutils literal">conda develop .</tt>
+with BRiM and it failed to work. The reason is twofold: 1) BRiM uses a
+nontraditional arrangement of files in the package, i.e. <tt class="docutils literal">brim/src/brim</tt>,
+and 2) <tt class="docutils literal">conda develop</tt> only seems to add the path of the <tt class="docutils literal">.</tt> directory
+to the the Python path instead of actually installing the package. So,
+instead of <tt class="docutils literal">conda develop</tt> I change my recommendation to use:</p>
+<div class="highlight"><pre><span></span>$<span class="w"> </span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--no-deps<span class="w"> </span>--editable<span class="w"> </span>.
+</pre></div>
+<p>which will actually install the development package.</p>
+</div>
 <p>When you import <tt class="docutils literal">dtk</tt> you should see that it is sourced from the file in the
 Git repository you cloned:</p>
 <div class="highlight"><pre><span></span>$<span class="w"> </span>python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import dtk; print(dtk.__file__)&quot;</span>

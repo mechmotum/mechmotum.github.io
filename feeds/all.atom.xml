@@ -325,6 +325,18 @@ $&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;s
 &lt;p&gt;Now make a development installation from this directory with Conda:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;conda&lt;span class="w"&gt; &lt;/span&gt;develop&lt;span class="w"&gt; &lt;/span&gt;.
 &lt;/pre&gt;&lt;/div&gt;
+&lt;div class="alert alert-warning topic"&gt;
+&lt;p class="topic-title"&gt;Update (2024-09-29)&lt;/p&gt;
+&lt;p&gt;After demoing this at a lab meeting, I tried to use  &lt;tt class="docutils literal"&gt;conda develop .&lt;/tt&gt;
+with BRiM and it failed to work. The reason is twofold: 1) BRiM uses a
+nontraditional arrangement of files in the package, i.e. &lt;tt class="docutils literal"&gt;brim/src/brim&lt;/tt&gt;,
+and 2) &lt;tt class="docutils literal"&gt;conda develop&lt;/tt&gt; only seems to add the path of the &lt;tt class="docutils literal"&gt;.&lt;/tt&gt; directory
+to the the Python path instead of actually installing the package. So,
+instead of &lt;tt class="docutils literal"&gt;conda develop&lt;/tt&gt; I change my recommendation to use:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;python&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;--no-deps&lt;span class="w"&gt; &lt;/span&gt;--editable&lt;span class="w"&gt; &lt;/span&gt;.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;which will actually install the development package.&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;When you import &lt;tt class="docutils literal"&gt;dtk&lt;/tt&gt; you should see that it is sourced from the file in the
 Git repository you cloned:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;python&lt;span class="w"&gt; &lt;/span&gt;-c&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;import dtk; print(dtk.__file__)&amp;quot;&lt;/span&gt;
