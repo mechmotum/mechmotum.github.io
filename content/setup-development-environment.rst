@@ -224,9 +224,29 @@ project's environment. If we type ``spyder``, the Spyder installed in base will
 open (because we didn't install in the project environment). But when you open
 Spyder you can select this project environment to run the code. Jupyter,
 VScode, Pycharm, and many IDEs will allow you to select the Conda environment.
-To do so in Spyder, first activate your environment in the terminal/command
-prompt and find the full path to the Python executable associated with the
-environment by typing:
+
+To do so in Spyder, choose your environment from the "Consoles -> New Console
+in Environment" menu:
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/spyder-new-console-conda-env.png
+   :width: 90%
+   :align: center
+
+   You can select any conda environment to power a new console. That console
+   will then be used to run your scripts and for interactive computing.
+
+After the new console is available, your script will run using that
+environment:
+
+.. figure:: https://objects-us-east-1.dream.io/mechmotum/spyder-using-conda-env.png
+   :width: 90%
+   :align: center
+
+   The bicycleparameters package is imported from the correct environment.
+
+If you want to set an environment to be used for all new consoles, first
+activate your environment in the terminal/command prompt and find the full path
+to the Python executable associated with the environment by typing:
 
 .. code-block:: bash
 
@@ -249,8 +269,8 @@ environment. See this blog post for more information:
 https://medium.com/@apremgeorge/using-conda-python-environments-with-spyder-ide-and-jupyter-notebooks-in-windows-4e0a905aaac5
 
 If you are using version control (which you should be), commit the
-``environment.yml`` file to the repository so others can reproduce your project
-environment.
+``myproject-env.yml`` file to the repository so others can reproduce your
+project environment.
 
 Package Not in Conda Forge
 ==========================
