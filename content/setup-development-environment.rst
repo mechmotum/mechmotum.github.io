@@ -411,6 +411,7 @@ configuration file:
      - matplotlib
      - numpy
      - numpydoc
+     - pip
      - pytest
      - python
      - scipy
