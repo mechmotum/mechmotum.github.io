@@ -66,24 +66,34 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-nieman-neville|
+   * - |headshot-vazquez-eloy|
+     - | **Eloy Vázquez Fernández** [TUD, Sep 2024-present]
+       | *Rolling Resistance on Different Road Surfaces for Professional Cycling*
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Anna Marbus** [TUD, Feb 2024-present]
        | *Understanding cyclist conflict behavior in shared spaces*
-   * - |headshot-youngblood-sara|
+     - |headshot-youngblood-sara|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-     - |headshot-de-vries-bart|
+   * - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-   * - |headshot-soethout-sietse|
+     - |headshot-soethout-sietse|
      - | **Sietse Soethout** [TUD, Jul 2023-present]
        | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Thomas Habing** [TUD, May 2023-present]
        | *Muscle Vibration Effects in Indoor Cycling*
+     - 
+     - | 
+       | 
+
+.. |headshot-vazquez-eloy| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-nieman-neville| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-nieman-neville.jpg
    :width: 100px
