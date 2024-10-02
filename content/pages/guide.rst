@@ -48,8 +48,10 @@ Getting Started
   Ask for a tour of the space from a current lab member before you start
   working there.
 - Request access to the lab's shared Google Drive from Jason.
+- Request to be added to the Github lab team organization: https://github.com/mechmotum.
 - We have the optional "Cheese for Thought" lunch every Wednesday at 12:00,
-  meet at the lab. This is a chance to discuss topics informally.
+  meet at the lab. This is a chance to discuss topics informally or have some
+  good weather fun.
 - Every month we have a Friday afternoon lab tidying session at 16:30 and we go
   for snacks and drinks (Vrijmibo) in Delft on Fridays @ 17:00.
 - See the `recommended reading list <#recommended-reading>`_ below for some
@@ -64,11 +66,12 @@ Employees
 Postdocs, PhDs, and other staff
 
 - You are expected to attend the lab meetings and other common lab work
-  sessions (e.g. lab cleanup) unless you are sick or on holiday.
-- You are expected to spend some of your time to help Jason manage and organize
-  the lab and research group. In particular, you should help improve and
-  maintain the website, help tidy, organize, and clean the lab space, keep
-  physical equipment maintained and running.
+  sessions (e.g. lab cleanup) unless you are sick or on holiday.  - You are
+  expected to spend some of your time to help Jason manage and organize the lab
+  and research group. In particular, you should help improve and maintain the
+  website, help tidy, organize, and clean the lab space, keep physical
+  equipment maintained and running. PhDs and Postdocs should take on at least
+  one lab role and help with the other roles' tasks.
 - If you are not able to work at standard capacity, you must take sick leave or
   holiday leave.
 - If you need to take sick leave, report this to your immediate supervisor and
@@ -76,8 +79,8 @@ Postdocs, PhDs, and other staff
   immediate supervisor and secretariat. Make sure your sick leave hours are
   logged in TIM.
 - All holiday time has to be requested via TIM and approved by the department
-  manager. You must  take your holiday time before the end of your contract.
-  Note that you can sell some holiday time (up to 38 hrs/year via IKA).  If you
+  manager. You must take your holiday time before the end of your contract.
+  Note that you can sell some holiday time (up to 38 hrs/year via IKA). If you
   decide to take a holiday please inform Jason by email so he is aware
   you are unavailable and can mark it on his calendar. If you are going to take a
   week or more at a time, please inform your supervisor well in advance for
@@ -157,7 +160,7 @@ Blog Posts
    the blog post to a later date. Discuss these things with your supervisor.
 
 .. _matrix: https://matrix.org/
-.. _clients: https://matrix.org/docs/projects/try-matrix-now/
+.. _clients: https://github.com/mechmotum
 
 Lab Roles
 =========
@@ -328,7 +331,7 @@ request that it be shared with you by your supervisor. This folder and it's
 contents should only be shared with other ``<netid>@g-tudelft.nl`` addresses
 that are members of the lab. ``<netid>@g-tudelft.nl`` is also the login
 username/email that you will need to use when logging into
-https://drive.google.com. Please avoid using the "Share" button to share with
+https://drive.google.com. Avoid using the "Share" button to share with
 non-TUD accounts, until we determine best practices for this. Read and update
 the README files present in the Google Drive directories to learn how to use
 the space. If you create new directories, add a README file to explain what the
@@ -340,10 +343,10 @@ Reference Management
 --------------------
 
 The lab has a shared Zotero_ group which can be used for lab related reference
-management (currently 20 GB plan). Zotero is an open source reference
-management system backed by a consortium of libraries. Create an account and
-request membership to the `mechmotum group`_. Note that all lab members can
-view the contents of this library.
+management (currently 2 GB plan). Zotero is an open source reference management
+system backed by a consortium of libraries. Create an account and request
+membership to the `mechmotum group`_. Note that all lab members can view the
+contents of this library.
 
 .. _Zotero: https://www.zotero.org
 .. _mechmotum group: https://www.zotero.org/groups/966974/mechmotum
@@ -504,10 +507,18 @@ than 250 EUR. The basic steps are:
   for storing and tracking with version control, then add that to a lab owned
   Git repository.
 
-Experiments
-===========
+Waste
+-----
 
-See the `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_.
+- Put paper waste in the blue plastic bin by the door.
+- Put small trash in the small trash cans in the lab.
+- Metals can be recycled by putting them in the bins in the student workshop or
+  the bins in the basement.
+- Take larger trash and paper outside to the large bins in the rear of the ME
+  building.
+- Put old small batteries in the bin in the hallway in the F wing.
+- Contact the servicepunt to dispose of any large batteries and people will
+  come to collect it.
 
 Training
 ========
@@ -557,11 +568,6 @@ great way to get started on this. TU Delft offers regular courses:
 
 - `Software Carpentry Workshops
   <https://www.tudelft.nl/library/actuele-themas/research-data-management/r/training-evenementen/training-voor-onderzoekers/software-carpentry-workshop/>`_
-
-Sign up by emailing Femke van Giessen (F.vanGiessen@tudelft.nl) to register for
-a slot. You will be directed to an Evenbrite. Sign up on Eventbrite immediately
-because these typically fill up in 10 minutes and there are large wait lists.
-
 - TU Delft Data Champions hosts events and trainings:
   https://www.tudelft.nl/en/library/current-topics/research-data-management/r/support/data-champions/
 - 4TU Research Data Training and Events:
@@ -644,7 +650,7 @@ Dutch Bio-Medical Engineering Conference
    Cycling planning conference for general audience: planners, advocates,
    researchers, industry, etc.
 `EUROBIKE <https://en.wikipedia.org/wiki/Eurobike>`_
-   Annual bicycle tradeshow for Europe.
+   Annual bicycle trade show for Europe.
 
 Journals
 ========
