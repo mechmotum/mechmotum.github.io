@@ -34,6 +34,18 @@ today.
 Current Funders and Partners
 ============================
 
+.. list-table::
+   :class: borderless
+   :align: center
+   :width: 100%
+
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-veiligheid.svg
+          :width: 100%
+          :target: https://www.veiligheid.nl
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-dsm-firmenich-postnl.svg
+          :width: 100%
+          :target: https://www.teamdsmfirmenich-postnl.com/
+
 .. raw:: html
 
    <br>
@@ -72,18 +84,18 @@ Past Funders and Partners
    * - .. image:: https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png
           :width: 100%
           :target: https://www.sympy.org
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-team-dsm.jpg
-          :width: 100%
-          :target: https://www.team-dsm.com
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
           :width: 100%
           :target: https://chanzuckerberg.com
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-clicknl.png
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-clicknl.png
           :height: 200px
           :target: https://www.clicknl.nl
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-nwo.jpg
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-nwo.jpg
           :height: 200px
           :target: https://www.nwo.nl
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/
+          :width: 100%
+          :target: none
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/
           :width: 100%
           :target: none
