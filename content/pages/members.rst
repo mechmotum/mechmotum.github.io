@@ -349,6 +349,7 @@ Research Assistants
    - Braden Tinucci [UCD, Nov 2015-Dec 2015], now at Valcor Engineering
      Corporation
 Teaching Assistants
+   - Neville Nieman [TUD, Jun 2024-Aug 2024]
    - Ragnhild Maarleveld [TUD, Mar 2023-Aug 2023]
    - Eoinlee Bley [TUD, Jan 2023-Jul 2023]
    - Robbert den Butter [TUD, Jan 2023-Jul 2023]
