@@ -3,10 +3,10 @@ Balance Assist Bicycle for Fall Reduction
 =========================================
 
 :status: hidden
-:date: 2024-02-11
-:collaborators: Royal Dutch Gazelle, Bosch E-bike Systems
-:current_researchers: Leila Alizadehsaravi, Marten Haitjema
-:past_researchers: Marco Reijne
+:date: 2024-10-09
+:collaborators: Royal Dutch Gazelle, Bosch ebike Systems
+:current_researchers:
+:past_researchers: Leila Alizadehsaravi, Marten Haitjema, Shannon van de Velde, Marco Reijne
 :research_theme: Bicycle Engineering
 :template: project
 :summary-sentence: We have developed a bicycle with a electric steering motor
@@ -38,8 +38,8 @@ Journal Publications
 
 Theses
 
-- M. Haitjema, “Estimating fall probability in cycling: Prediction of the
-  effectiveness of a balance-assist bicycle in reducing falls,” MSc, Delft
+- M. Haitjema, "Estimating fall probability in cycling: Prediction of the
+  effectiveness of a balance-assist bicycle in reducing falls," MSc, Delft
   University of Technology, Delft, The Netherlands, 2023.
   https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23
 - S. van de Velde, “Design of a setup for experimental research on stability of
@@ -49,6 +49,10 @@ Theses
 
 Preprints
 
+- M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
+  Balance Assistance Reduces Probability of Falling at Low Speeds When
+  Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
+  https://doi.org/10.31224/4003.
 - L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
   motion for young and old bicyclists during real-life safety challenges", Feb.
   2023. https://doi.org/10.31224/2825

@@ -130,6 +130,10 @@ Conference Proceedings
 Preprints
 =========
 
+#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
+   Balance Assistance Reduces Probability of Falling at Low Speeds When
+   Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
+   https://doi.org/10.31224/4003.
 #. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
    Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
    Model Predictive Control and Training Sequence." Engineering Archive, Feb.
