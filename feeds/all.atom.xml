@@ -1,5 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-09-13T11:55:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>My Research Software Development Setup</title><link href="https://mechmotum.github.io/blog/setup-development-environment.html" rel="alternate"></link><published>2024-09-13T11:55:00-07:00</published><updated>2024-09-13T11:55:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-09-13:/blog/setup-development-environment.html</id><summary type="html">&lt;div class="section" id="introduction"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-10-15T07:25:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Sietse Soethout Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-sietse-soethout.html" rel="alternate"></link><published>2024-10-15T07:25:00-07:00</published><updated>2024-10-15T07:25:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-10-15:/blog/msc-graduation-sietse-soethout.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-soethout.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Sietse Soethout successfully defended &amp;quot;&lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def"&gt;A dynamic utility cycling model for
+energy and time expenditure calculation of a population of cyclists&lt;/a&gt;&amp;quot; on
+September 23, 2024. Sietse developed a physics-based energetic simulation model
+of a bicyclist that is capable of traversing urban terrain. The model considers
+the longitudinal vehicle dynamics, cyclist physiology …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-soethout.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Sietse Soethout successfully defended &amp;quot;&lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def"&gt;A dynamic utility cycling model for
+energy and time expenditure calculation of a population of cyclists&lt;/a&gt;&amp;quot; on
+September 23, 2024. Sietse developed a physics-based energetic simulation model
+of a bicyclist that is capable of traversing urban terrain. The model considers
+the longitudinal vehicle dynamics, cyclist physiology used in propulsion,
+braking and accelerating behavior, elevation, traffic signals, cornering,
+merging, ebike assistance, and even walking the bike. The model outputs
+accurate speed behavior over a specified route and gives the time and energy
+costs for the route. Sietse developed techniques for extracting all necessary
+route information from traffic signal timings and LIDAR coverage of the area of
+interest. He selected a case study of a planned bicycle highway in The Hague,
+The Netherlands and compared it to to existing routes. The following video
+shows a simulation along one of the routes:&lt;/p&gt;
+&lt;center&gt;
+&lt;video width="800px" controls&gt;
+  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/hs_noi_tunnel_single.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/center&gt;&lt;p&gt;He then stochastically parameterized the model and simulated hundreds of
+different cyclists traversing the three routes and compared time and energy
+costs for the population of cyclists. The next video shows a population of
+cyclists riding the route:&lt;/p&gt;
+&lt;center&gt;
+&lt;video width="800px" controls&gt;
+  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/all_animation_hs_noi_normal_all_fast.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/center&gt;&lt;p&gt;The resulting distributions of route travel time and energy costs can be
+compared among the routes and used for design decisions for the new route.
+Sietse showed how you can compare behavior based on gender, age, ebike and
+normal bike riders, and even the type of ebike assistance. For this case study,
+the planned bicycle highway will reduce time and energy costs for the cyclists.
+It also revealed that standard ebikes have little time reduction but energy
+costs are significantly lower, which is good for reducing sweat but maybe not
+so much for maintaining exercise levels. The model can be used to objectively
+evaluate bicycle route choices or new designs, providing metrics to time,
+speed, power, and energy for comparisons. It can be used to design green waves
+or minimize peak energy costs by showing optimal locations for traffic signals
+or stops and many other things.&lt;/p&gt;
+&lt;p&gt;Sietse was co-supervised by Christoph Schmidt and Jason K. Moore. Everyone at
+the bicycle lab is very proud of Sietse and wishes him the best in his next
+adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="transportation"></category><category term="time"></category><category term="energy"></category><category term="simulation"></category></entry><entry><title>My Research Software Development Setup</title><link href="https://mechmotum.github.io/blog/setup-development-environment.html" rel="alternate"></link><published>2024-09-13T11:55:00-07:00</published><updated>2024-09-13T11:55:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-09-13:/blog/setup-development-environment.html</id><summary type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I have been teaching scientific Python for about 15 years now and helping
 students install everything correctly on their own computer has not really
