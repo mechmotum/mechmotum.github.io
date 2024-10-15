@@ -89,7 +89,7 @@ in finding students for [#]_:
      - Thesis
    * - `Cycling in Virtual Reality <{filename}/pages/jobs/cycling-in-virtual-reality.rst>`_
      - 2023-10-27
-     - Rado Dukalski
+     -
      - Thesis
    * - `Optimal Control of the Bicycle-Rider Human-Machine System <{filename}/pages/jobs/optimal-bicycle-rider.rst>`_
      - 2023-10-27
@@ -97,27 +97,15 @@ in finding students for [#]_:
      - Thesis
    * - `Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors <{filename}/pages/jobs/bicycle-tire-force-estimation.rst>`_
      - 2022-09-08
-     - Gabriele Dell'Orto
-     - Thesis
-   * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
-     - 2021-02-23
-     - Dr. Patrick Forbes @ Erasmus Medical Center
+     -
      - Thesis
    * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
      - 2021-02-15
      -
      - Thesis
-   * - `Extraction of Bicycle Crash Kinematics from Videos Using Machine Learning <{filename}/pages/jobs/bicycle-crash-video-kinematics.rst>`_
-     - 2021-01-29
-     -
-     - Thesis
    * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
      - 2020-11-17
      - Dr. Rene van Paassen (TU Delft, Aerospace)
-     - Thesis
-   * - `Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions <{filename}/pages/jobs/fast-musculoskeletal-simulations.rst>`_
-     - 2020-09-21
-     -
      - Thesis
    * - `How fast will my open source code break? <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
      - 2020-09-18
@@ -143,6 +131,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
+     - 2021-02-23
+     - Dr. Patrick Forbes & Matto Leeuwis @ Erasmus Medical Center
+     - Ralf Rienks
    * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
      - 2023-08-22
      - Christoph Schmidt, Riender Happee
@@ -163,6 +155,10 @@ in finding students for [#]_:
      - 2022-01-19
      - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
      - Jan van der Schot
+   * - `Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions <{filename}/pages/jobs/fast-musculoskeletal-simulations.rst>`_
+     - 2020-09-21
+     -
+     - Timo Stienstra
    * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
      - 2022-01-14
      - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_

@@ -79,6 +79,7 @@ Conference Proceedings
 #. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
    Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
    Model Predictive Control and Training Sequence.", BioRab Conference 2024.
+   https://doi.org/10.31224/3572
 
 2023
 ----
