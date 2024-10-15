@@ -66,30 +66,33 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-vazquez-eloy|
+   * - |headshot-rienks-ralf|
+     - | **Ralf Rienks** [TUD, Oct 2024-present]
+       | *Unravelling Vestibular Sensory Contributions to Bicycle Balance Control*
+     - |headshot-vazquez-eloy|
      - | **Eloy Vázquez Fernández** [TUD, Sep 2024-present]
        | *Rolling Resistance on Different Road Surfaces for Professional Cycling*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Anna Marbus** [TUD, Feb 2024-present]
        | *Understanding cyclist conflict behavior in shared spaces*
-     - |headshot-youngblood-sara|
+   * - |headshot-youngblood-sara|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-   * - |headshot-de-vries-bart|
+     - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-     - |headshot-soethout-sietse|
-     - | **Sietse Soethout** [TUD, Jul 2023-present]
-       | *Squiggly Routes: Optimizing for Energy and Time Efficiency*
    * - |headshot-missing|
      - | **Thomas Habing** [TUD, May 2023-present]
        | *Muscle Vibration Effects in Indoor Cycling*
-     - 
-     - | 
-       | 
+     -
+     -
+
+.. |headshot-rienks-ralf| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-rienks-ralf.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-vazquez-eloy| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg
    :width: 100px
@@ -187,6 +190,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Sietse Soethout
+     - TUD
+     - Jul 2023-Sep 2024
+     - `A dynamic utility cycling model for energy and time expenditure
+       calculation of a population of cyclists
+       <https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def>`_
+     - `C. Schmidt, J. K. Moore`
    * - Kenneth Pasma
      - TUD
      - Oct 2022-Aug 2024
@@ -350,6 +360,9 @@ Research Assistants
      Corporation
 Teaching Assistants
    - Neville Nieman [TUD, Jun 2024-Jul 2024]
+   - Karien ter Welle [TUD, Feb 2024-Jun 2024]
+   - Neils Stienen [TUD, Feb 2024-Jun 2024]
+   - Riccardo Di Girolamo [TUD, Feb 2024-Jun 2024]
    - Ragnhild Maarleveld [TUD, Mar 2023-Aug 2023]
    - Eoinlee Bley [TUD, Jan 2023-Jul 2023]
    - Robbert den Butter [TUD, Jan 2023-Jul 2023]
@@ -374,6 +387,8 @@ Teaching Assistants
    - Farhad Gadhamli [UCD, Jan 2016-Jun 2016], now at DM3D
    - Matthew Lefort [UCD, Sep 2015-Jun 2016], now at Yolo Robotics
 Google Summer of Code and Season of Docs Participants
+   - Hwayeon Kang [May 2024-Aug 2024]
+   - Riccardo Di Girolamo [May 2024-Aug 2024]
    - Timo Stienstra [Jun 2022-Oct 2022]
    - Sudeep Sidhu [May 2021-Aug 2021]
    - Naman Gera [May 2020-Aug 2020]

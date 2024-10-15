@@ -163,6 +163,10 @@ Theses
 2024
 ----
 
+#. S. S. Soethout, "A dynamic utility cycling model for energy and time
+   expenditure calculation of a population of cyclists," Delft University of
+   Technology, Delft, The Netherlands, 2024.
+   https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def
 #. K. Pasma, "Model Matching Control Applied to Bicycles," MSc, Delft
    University of Technology, Delft, The Netherlands, 2024.
    https://repository.tudelft.nl/record/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a
