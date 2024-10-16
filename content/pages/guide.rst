@@ -520,6 +520,13 @@ Waste
 - Contact the servicepunt to dispose of any large batteries and people will
   come to collect it.
 
+ME Vehicle Testing Area
+-----------------------
+
+The fenced off parking lot behind the ME building can be booked if you need an
+open space for bicycle experiments. To do so, book the room "Room-TESTAREA-ME
+(outdoor test area ME)" in the TU Delft Outlook calendar system.
+
 Training
 ========
 
