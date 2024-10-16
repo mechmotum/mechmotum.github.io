@@ -37,7 +37,7 @@ PhD Candidates
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-gonzalez-benjamin|
      - | **Benjamín E. González T.** [TUD, September 2024-present]
        | *Discovering the Mechanisms that Cause Bicycle Crashes Through The Merger of Video and Computational Modeling*
      - |headshot-dell-orto-gabriele|
@@ -48,6 +48,10 @@ PhD Candidates
        | *Bicycle dynamics for realistic conflict causality in safety-aware traffic simulation.*
      -
      -
+
+.. |headshot-gonzalez-benjamin| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gonzalez-benjamin.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-schmidt-christoph| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schmidt-christoph.jpg
    :width: 100px
