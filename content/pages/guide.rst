@@ -66,12 +66,12 @@ Employees
 Postdocs, PhDs, and other staff
 
 - You are expected to attend the lab meetings and other common lab work
-  sessions (e.g. lab cleanup) unless you are sick or on holiday.  - You are
-  expected to spend some of your time to help Jason manage and organize the lab
-  and research group. In particular, you should help improve and maintain the
-  website, help tidy, organize, and clean the lab space, keep physical
-  equipment maintained and running. PhDs and Postdocs should take on at least
-  one lab role and help with the other roles' tasks.
+  sessions (e.g. lab cleanup) unless you are sick or on holiday.
+- You are expected to spend some of your time to help Jason manage and organize
+  the lab and research group. In particular, you should help improve and
+  maintain the website, help tidy, organize, and clean the lab space, keep
+  physical equipment maintained and running. PhDs and Postdocs should take on
+  at least one lab role and help with the other roles' tasks.
 - If you are not able to work at standard capacity, you must take sick leave or
   holiday leave.
 - If you need to take sick leave, report this to your immediate supervisor and
