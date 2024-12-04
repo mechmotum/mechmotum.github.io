@@ -813,3 +813,4 @@ Random TU Delft Tips
 - You can run a Jupyter instance on DelftBlue https://doc.dhpc.tudelft.nl/delftblue/howtos/jupyter/
 - The IMPhys department has a systems manual for many compute tasks on campus https://qiweb.tudelft.nl/sysman/index.html
 - You can set up general mailing lists here: https://listserv.tudelft.nl/mailman/admin
+- You can check if an ethernet port is active at https://outlets.tudelft.nl
