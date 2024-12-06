@@ -527,6 +527,33 @@ The fenced off parking lot behind the ME building can be booked if you need an
 open space for bicycle experiments. To do so, book the room "Room-TESTAREA-ME
 (outdoor test area ME)" in the TU Delft Outlook calendar system.
 
+
+Internet
+--------
+
+Ethernet ports
+  To enable/disable:
+  Login to `Topdesk/Self Service Portal 
+  <https://tudelft.topdesk.net/>`_
+  Then:
+  ICT-Services > Network & WiFi > IT Request activation network outlet.
+  Fill the form and wait.
+Wired connection for desktop computers
+  Send a solicitude to `ict-servicedesk@tudelft.nl` providing the following information:
+  - TUD*** number.
+  - Model of the computer.
+  - Serial number.
+  - Operating system.
+  - Primary purpose of the computer.
+  - MAC Address (if the PC was NOT purchased by TU Delft)
+WiFi Hotspot 
+  - On Windows:
+    Control panel > Network and Internet > Network and sharing center > Change adapter settings > Ethernet > Properties (as admin)
+    Select the "sharing" tab and mark "Allow other network users to connect through this computer's internet connection".
+  - On Linux
+    Open the WiFi menu, in top right corner click options and then select "Turn on WiFi hotspot... (as admin)"
+
+
 Training
 ========
 
