@@ -182,22 +182,24 @@ https://github.com/mechmotum/housekeeping/issues
 
 Keep the issues up-to-date so that they can be passed to others.
 
-da MC: (Thomas Habing)
+da MC: (Anna Marbus)
    Organizes the lab meeting, see the `MC Guide`_.
 Meneer/Mevrouw Schoon (Sara Youngblood)
    Organizes monthly Friday afternoon tidy and bi-annual lab clean up days.
    Reminds the lab if the tidiness level is hampering other's work.
-Dragon Hoard Overseer (Simon)
+Dragon Hoard Overseer (Benjamin)
    Maintains a spreadsheet on our GDrive containing the lab inventory, both
    consumable supplies and significant equipment (< 200 EUR or so). Keeps an
    eye on the borrow sheet and makes sure things are returned.
-Batterij-momma (Anna)
+Batterij-momma (Christoph)
    Ensures that all batteries are stored safely and that their charge is kept
    topped up. The protector of the lives of all batteries.
 Neo T. Anderson: (Jason)
    Keeps the lab chat room running. This is currently a matrix server running
    on a TU Delft VPS.
-De Fikser (Bart)
+Plant-papa (Bart)
+   Keep lab plants alive.
+De Fikser (Jules)
    Monitors if equipment is broken or needs maintenance and seeks university or
    external support for repair. Coaxes the repair processes along. Sometimes
    fixes things themselves.
