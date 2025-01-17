@@ -33,7 +33,7 @@ Postdoctoral Researchers
    :align: center
 
    * - |headshot-missing|
-     - | **Jules Ronné** [TUD, November 2024-present]
+     - | **Dr. Jules Ronné** [TUD, November 2024-present]
        | *Modeling bicycle behavior from visual stimulus to neuromuscular control ability*
      - |headshot-dell-orto-gabriele|
      - | **Gabriele Dell'Orto** [TUD, November 2024-January 2025]
