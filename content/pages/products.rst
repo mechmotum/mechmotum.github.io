@@ -250,6 +250,13 @@ Reports
 Presentations
 =============
 
+2025
+----
+
+#. **J. K. Moore, G. Dell'Orto, J. Farias, C. Konrad, B. Gonzalez**, "Overview
+   of the Current TU Delft Bicycle Lab Research", January 13, 2025, Cycling
+   Day, Leuven, Belgium.
+
 2023
 ----
 
