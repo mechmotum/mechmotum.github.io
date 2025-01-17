@@ -26,7 +26,18 @@ Principal Investigators
 Postdoctoral Researchers
 ========================
 
-None
+.. list-table::
+   :class: borderless
+   :width: 100%
+   :widths: 10 40 10 40
+   :align: center
+
+   * - |headshot-missing|
+     - | **Jules Ronné** [TUD, November 2024-present]
+       | *Modeling bicycle behavior from visual stimulus to neuromuscular control ability*
+     - |headshot-dell-orto-gabriele|
+     - | **Gabriele Dell'Orto** [TUD, November 2024-January 2025]
+       | *Characterization of Vibrations Experienced by Babies in Strollers and Cargo Bicycles*
 
 PhD Candidates
 ==============
@@ -41,7 +52,7 @@ PhD Candidates
      - | **Benjamín E. González T.** [TUD, September 2024-present]
        | *Discovering the Mechanisms that Cause Bicycle Crashes Through The Merger of Video and Computational Modeling*
      - |headshot-dell-orto-gabriele|
-     - | **Gabriele Dell'Orto** [TUD, January 2023-present]
+     - | **Gabriele Dell'Orto** [TUD, January 2023-February 2025]
        | *Effects of tire properties on bicycle dynamics*
    * - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
@@ -70,33 +81,24 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-rienks-ralf|
-     - | **Ralf Rienks** [TUD, Oct 2024-present]
-       | *Unravelling Vestibular Sensory Contributions to Bicycle Balance Control*
-     - |headshot-vazquez-eloy|
+   * - |headshot-vazquez-eloy|
      - | **Eloy Vázquez Fernández** [TUD, Sep 2024-present]
        | *Rolling Resistance on Different Road Surfaces for Professional Cycling*
-   * - |headshot-nieman-neville|
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Anna Marbus** [TUD, Feb 2024-present]
        | *Understanding cyclist conflict behavior in shared spaces*
-   * - |headshot-youngblood-sara|
+     - |headshot-youngblood-sara|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-     - |headshot-de-vries-bart|
+   * - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Thomas Habing** [TUD, May 2023-present]
        | *Muscle Vibration Effects in Indoor Cycling*
-     -
-     -
-
-.. |headshot-rienks-ralf| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-rienks-ralf.jpg
-   :width: 100px
-   :height: 133px
 
 .. |headshot-vazquez-eloy| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg
    :width: 100px
@@ -111,10 +113,6 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-de-vries-bart| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-soethout-sietse| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
    :width: 100px
    :height: 133px
 
@@ -325,6 +323,8 @@ https://repository.tudelft.nl.
      - `J. K. Moore`
 
 Research Assistants
+   - Jesper Meijerink [TUD, Oct 2024-Dec 2024]
+   - Thomas Valk [TUD, Oct 2024-Dec 2024]
    - Marten Haitjema [TUD, Jan 2023-Feb 2023]
    - Zhengyang Lu [TUD, Nov 2022-Feb 2023]
    - Tim Stewart [UCD, Dec 2020-Sep 2021]
