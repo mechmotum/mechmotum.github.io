@@ -56,7 +56,7 @@ PhD Candidates
        | *Effects of tire properties on bicycle dynamics*
    * - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
-       | *Bicycle dynamics for realistic conflict causality in safety-aware traffic simulation.*
+       | `Bicycle Dynamics for Microscopic Traffic Simulation <{filename}/pages/research/bicycle-dynamics-microsim.rst>`_
      -
      -
 
