@@ -48,17 +48,22 @@ PhD Candidates
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-gonzalez-benjamin|
+   * - |headshot-farias-jose|
+     - | **José Alfonso Farías Fuentes** [University of Pavia, October 2024-present]
+       | *Kinematic and Dynamic of multibody model for real-time applications oriented to human in the loop simulators*
+     - |headshot-gonzalez-benjamin|
      - | **Benjamín E. González T.** [TUD, September 2024-present]
        | *Discovering the Mechanisms that Cause Bicycle Crashes Through The Merger of Video and Computational Modeling*
-     - |headshot-dell-orto-gabriele|
+   * - |headshot-dell-orto-gabriele|
      - | **Gabriele Dell'Orto** [TUD, January 2023-February 2025]
        | *Effects of tire properties on bicycle dynamics*
-   * - |headshot-schmidt-christoph|
+     - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
        | `Bicycle Dynamics for Microscopic Traffic Simulation <{filename}/pages/research/bicycle-dynamics-microsim.rst>`_
-     -
-     -
+
+.. |headshot-farias-jose| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-farias-jose.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-gonzalez-benjamin| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gonzalez-benjamin.jpg
    :width: 100px
