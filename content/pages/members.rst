@@ -37,7 +37,7 @@ Postdoctoral Researchers
        | *Modeling bicycle behavior from visual stimulus to neuromuscular control ability*
      - |headshot-dell-orto-gabriele|
      - | **Gabriele Dell'Orto** [TUD, November 2024-January 2025]
-       | *Characterization of Vibrations Experienced by Babies in Strollers and Cargo Bicycles*
+       | `Characterization of Vibrations Experienced by Babies in Strollers and Cargo Bicycles <{filename}/pages/research/baby-child-transport-vibration.rst>`_
 
 PhD Candidates
 ==============
