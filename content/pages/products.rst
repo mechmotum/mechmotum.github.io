@@ -243,6 +243,9 @@ Theses
 Reports
 =======
 
+#. Bruijn, S. C., Meyers, A. J., van Ommeren, D., Riegstra, J. E., & van
+   Rooijen, R. J. (2024). Evaluation of children’s whole-body vibrational
+   comfort in cargo bikes [BSc End Project]. Delft University of Technology.
 #. Moritzburke, Molly; Toribio, Anthony; Yang, Shizhao; Kubicki, Stasia (2020):
    Optimal Handling Bicycle: Final Design. figshare. Preprint.
    https://doi.org/10.6084/m9.figshare.12833933.v1
@@ -255,7 +258,16 @@ Presentations
 
 #. **J. K. Moore, G. Dell'Orto, J. Farias, C. Konrad, B. Gonzalez**, "Overview
    of the Current TU Delft Bicycle Lab Research", January 13, 2025, Cycling
-   Day, Leuven, Belgium.
+   Day, Leuven, Belgium. [`Slides
+   <https://docs.google.com/presentation/d/e/2PACX-1vSnFIoOIN7JFAiCVuTfqF_6xX7GDvP28UnIlZmxp_9z6UaaJHWITa7K6dLCSUTn4gXc-kcX-HIL5X8f/pub?start=false&loop=false&delayms=3000>`__]
+
+2024
+----
+
+#. **Moore, J. K.** (2024, November 6). Balance Assist Bicycle Reduces Undesired
+   Motions and Fall Probability When Subjected to Disturbances [Oral].
+   International Cycling Safety 2024, Imabari, Japan.
+   [`Slides <https://docs.google.com/presentation/d/e/2PACX-1vRPC9HUbtBnSs3yfIyFrUwyZnk8ZLQV_QKJs3H8vINwSZwESiWeW26QJXhEadB49qia0Zp3VzRN8OOQ/pub?start=false&loop=false&delayms=3000>`__]
 
 2023
 ----
