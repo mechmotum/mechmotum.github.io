@@ -66,6 +66,9 @@ Presentations
 - **J. K. Moore**, "Comparison of Electromechanical Means of Stabilizing a
   Bicycle," presented at the International Cycling Safety Conference, The
   Hague, The Netherlands, Nov. 16, 2023. https://tinyurl.com/icsc2023-moore
+- **Alizadehsaravi, L.** (2023, July 3). Balance Assist Bicycle to Prevent
+  Falls in Older Adults [Oral]. A4SEE Borrel, Delft, The Netherlands.
+  https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults
 - **L. Alizadehsaravi** and J. K. Moore, “The Effects of a Steer Assist System
   on Bicycle Postural Control in Real-Like Safety Challenges,” presented at the
   Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.

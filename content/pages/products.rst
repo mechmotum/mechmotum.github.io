@@ -292,6 +292,11 @@ Presentations
    Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
    Netherlands, May 01, 2023. [Online]. Available:
    https://doi.org/10.24404/63ff23b478f53b9c419075b9
+#. **Alizadehsaravi, L.** (2023, July 3). Balance Assist Bicycle to Prevent
+   Falls in Older Adults [Oral]. A4SEE Borrel, Delft, The Netherlands.
+   https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults
+#. **Alizadehsaravi, L., & Moore, J. K.** (2023, June 27). Balance Assist for
+   Reducing Low Speed Falls [Demo]. Teknowlogy, Utrecht, The Netherlands.
 #. **A. Dressel**, F. van Willigen, and J. K. Moore, "Evaluating the handling of a
    tilting tricycle with variable stability," presented at the Bicycle and
    Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
