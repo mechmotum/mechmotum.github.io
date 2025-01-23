@@ -11,6 +11,14 @@ Products
 Journal Articles
 ================
 
+Under Review
+------------
+
+#. Christoph M. Schmidt, Azita Dabiri, Frederik Schulte, Jason K. Moore, and
+   Riender Happee. Cycling Safety Assessment in Microscopic Traffic Simulation:
+   A Review and Methodological Framework. Under review at Transportation
+   Research Interdisciplinary Perspective.
+
 2024
 ----
 
@@ -128,35 +136,16 @@ Conference Proceedings
    In Proceedings of the 2016 Bicycle and Motorcycle Dynamics Conference.
    Figshare, 2016. https://doi.org/10.6084/m9.figshare.3806310.v1
 
-Preprints
-=========
+Books
+=====
 
-#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
-   Balance Assistance Reduces Probability of Falling at Low Speeds When
-   Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
-   https://doi.org/10.31224/4003.
-#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
-   Model Predictive Control and Training Sequence." Engineering Archive, Feb.
-   29, 2024. https://doi.org/10.31224/3572.
-#. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
-   "Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
-   Geometry Using Direct Collocation." engrXiv, Aug. 14, 2023.
-   https://doi.org/10.31224/3171.
-#. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
-   motion for young and old bicyclists during real-life safety challenges",
-   Feb. 2023. https://doi.org/10.31224/2825
-#. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, "Model Predictive Control-based haptic steering assistance
-   to enhance motor learning of a bicycling task: A pilot study." Engineering
-   Archive, Feb. 04, 2023. https://doi.org/10.31224/2811.
-#. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
-   of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
-   2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
-#. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
-   R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
-   fusion for estimating competitive rowing kinematic metrics.
-   https://doi.org/10.31224/osf.io/nykuh
+#. Moore (ed), J. K., Vries (ed), E. de, Dressel (ed), A., & Alizadehsaravi
+   (ed), L. (2024). Proceedings of the 5th Symposium on the Dynamics and
+   Control of Single-track Vehicles: Bicycle and Motorcycle Dynamics 2023,
+   October 18-20, Delft, The Netherlands. In TU Delft OPEN Books. TU Delft OPEN
+   Books. https://doi.org/10.59490/mg.121
+#. Moore, J. K. (2022). Learn Multibody Dynamics (Version 0.1).
+   https://moorepants.github.io/learn-multibody-dynamics/
 
 Theses
 ======
@@ -249,6 +238,36 @@ Reports
 #. Moritzburke, Molly; Toribio, Anthony; Yang, Shizhao; Kubicki, Stasia (2020):
    Optimal Handling Bicycle: Final Design. figshare. Preprint.
    https://doi.org/10.6084/m9.figshare.12833933.v1
+
+Preprints
+=========
+
+#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
+   Balance Assistance Reduces Probability of Falling at Low Speeds When
+   Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
+   https://doi.org/10.31224/4003.
+#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
+   Model Predictive Control and Training Sequence." Engineering Archive, Feb.
+   29, 2024. https://doi.org/10.31224/3572.
+#. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
+   "Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
+   Geometry Using Direct Collocation." engrXiv, Aug. 14, 2023.
+   https://doi.org/10.31224/3171.
+#. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
+   motion for young and old bicyclists during real-life safety challenges",
+   Feb. 2023. https://doi.org/10.31224/2825
+#. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, "Model Predictive Control-based haptic steering assistance
+   to enhance motor learning of a bicycling task: A pilot study." Engineering
+   Archive, Feb. 04, 2023. https://doi.org/10.31224/2811.
+#. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
+   of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
+   2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
+#. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
+   R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
+   fusion for estimating competitive rowing kinematic metrics.
+   https://doi.org/10.31224/osf.io/nykuh
 
 Presentations
 =============
