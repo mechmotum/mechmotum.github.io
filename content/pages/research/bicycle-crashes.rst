@@ -9,7 +9,7 @@ Understanding Single Bicycle Crashes
 :research_theme: Cycling Safety
 :template: project
 :summary-sentence: We aim to discover how critical riding situations end in single bicycle crashes, through the understanding of biomechanics involved in the phenomena. 
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/Fall2.jpg
+:summary-image: https://objects-us-east-1.dream.io/mechmotum/fall-logo.png
 :slug: research/bicycle-crashes
 
 
@@ -25,7 +25,8 @@ This project consists in obtaining real-world bicycle crash data, create simulat
 Ongoing Work
 ============
 
-- **Characterisation of the Point of No Return:**  Simulation a simplified bicycle model in order to find the boundaries of bicycle riding and control.
+- **Characterisation of the Point of No Return:** Simulation of a simplified bicycle model in order to find the boundaries of bicycle riding and control.
+- **Kinematic data from monocular video:** Real world data of single bicycle crashes is scarcely available, therefore, we aim to extract the kinematics of the system from monocuclar videos.
 
 
 Research Output
