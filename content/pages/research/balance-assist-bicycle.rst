@@ -3,7 +3,7 @@ Balance Assist Bicycle for Fall Reduction
 =========================================
 
 :status: hidden
-:date: 2024-10-09
+:date: 2024-11-06
 :collaborators: Royal Dutch Gazelle, Bosch ebike Systems
 :current_researchers:
 :past_researchers: Leila Alizadehsaravi, Marten Haitjema, Shannon van de Velde, Marco Reijne
@@ -59,9 +59,16 @@ Preprints
 
 Presentations
 
+- **Moore, J. K.** (2024, November 6). Balance Assist Bicycle Reduces Undesired
+  Motions and Fall Probability When Subjected to Disturbances [Oral].
+  International Cycling Safety 2024, Imabari, Japan.  [`Slides
+  <https://docs.google.com/presentation/d/e/2PACX-1vRPC9HUbtBnSs3yfIyFrUwyZnk8ZLQV_QKJs3H8vINwSZwESiWeW26QJXhEadB49qia0Zp3VzRN8OOQ/pub?start=false&loop=false&delayms=3000>`_]
 - **J. K. Moore**, "Comparison of Electromechanical Means of Stabilizing a
   Bicycle," presented at the International Cycling Safety Conference, The
   Hague, The Netherlands, Nov. 16, 2023. https://tinyurl.com/icsc2023-moore
+- **Alizadehsaravi, L.** (2023, July 3). Balance Assist Bicycle to Prevent
+  Falls in Older Adults [Oral]. A4SEE Borrel, Delft, The Netherlands.
+  https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults
 - **L. Alizadehsaravi** and J. K. Moore, “The Effects of a Steer Assist System
   on Bicycle Postural Control in Real-Like Safety Challenges,” presented at the
   Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.

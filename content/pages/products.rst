@@ -11,6 +11,14 @@ Products
 Journal Articles
 ================
 
+Under Review
+------------
+
+#. Christoph M. Schmidt, Azita Dabiri, Frederik Schulte, Jason K. Moore, and
+   Riender Happee. Cycling Safety Assessment in Microscopic Traffic Simulation:
+   A Review and Methodological Framework. Under review at Transportation
+   Research Interdisciplinary Perspective.
+
 2024
 ----
 
@@ -128,35 +136,16 @@ Conference Proceedings
    In Proceedings of the 2016 Bicycle and Motorcycle Dynamics Conference.
    Figshare, 2016. https://doi.org/10.6084/m9.figshare.3806310.v1
 
-Preprints
-=========
+Books
+=====
 
-#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
-   Balance Assistance Reduces Probability of Falling at Low Speeds When
-   Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
-   https://doi.org/10.31224/4003.
-#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
-   Model Predictive Control and Training Sequence." Engineering Archive, Feb.
-   29, 2024. https://doi.org/10.31224/3572.
-#. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
-   "Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
-   Geometry Using Direct Collocation." engrXiv, Aug. 14, 2023.
-   https://doi.org/10.31224/3171.
-#. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
-   motion for young and old bicyclists during real-life safety challenges",
-   Feb. 2023. https://doi.org/10.31224/2825
-#. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, "Model Predictive Control-based haptic steering assistance
-   to enhance motor learning of a bicycling task: A pilot study." Engineering
-   Archive, Feb. 04, 2023. https://doi.org/10.31224/2811.
-#. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
-   of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
-   2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
-#. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
-   R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
-   fusion for estimating competitive rowing kinematic metrics.
-   https://doi.org/10.31224/osf.io/nykuh
+#. Moore (ed), J. K., Vries (ed), E. de, Dressel (ed), A., & Alizadehsaravi
+   (ed), L. (2024). Proceedings of the 5th Symposium on the Dynamics and
+   Control of Single-track Vehicles: Bicycle and Motorcycle Dynamics 2023,
+   October 18-20, Delft, The Netherlands. In TU Delft OPEN Books. TU Delft OPEN
+   Books. https://doi.org/10.59490/mg.121
+#. Moore, J. K. (2022). Learn Multibody Dynamics (Version 0.1).
+   https://moorepants.github.io/learn-multibody-dynamics/
 
 Theses
 ======
@@ -243,12 +232,61 @@ Theses
 Reports
 =======
 
+#. Bruijn, S. C., Meyers, A. J., van Ommeren, D., Riegstra, J. E., & van
+   Rooijen, R. J. (2024). Evaluation of children’s whole-body vibrational
+   comfort in cargo bikes [BSc End Project]. Delft University of Technology.
 #. Moritzburke, Molly; Toribio, Anthony; Yang, Shizhao; Kubicki, Stasia (2020):
    Optimal Handling Bicycle: Final Design. figshare. Preprint.
    https://doi.org/10.6084/m9.figshare.12833933.v1
 
+Preprints
+=========
+
+#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
+   Balance Assistance Reduces Probability of Falling at Low Speeds When
+   Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
+   https://doi.org/10.31224/4003.
+#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
+   Model Predictive Control and Training Sequence." Engineering Archive, Feb.
+   29, 2024. https://doi.org/10.31224/3572.
+#. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
+   "Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
+   Geometry Using Direct Collocation." engrXiv, Aug. 14, 2023.
+   https://doi.org/10.31224/3171.
+#. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
+   motion for young and old bicyclists during real-life safety challenges",
+   Feb. 2023. https://doi.org/10.31224/2825
+#. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
+   Marchal-Crespo, "Model Predictive Control-based haptic steering assistance
+   to enhance motor learning of a bicycling task: A pilot study." Engineering
+   Archive, Feb. 04, 2023. https://doi.org/10.31224/2811.
+#. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
+   of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
+   2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
+#. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
+   R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
+   fusion for estimating competitive rowing kinematic metrics.
+   https://doi.org/10.31224/osf.io/nykuh
+
 Presentations
 =============
+
+2025
+----
+
+#. **J. K. Moore, G. Dell'Orto, J. Farias, C. Konrad, B. Gonzalez**, "Overview
+   of the Current TU Delft Bicycle Lab Research", January 13, 2025, Cycling
+   Day, Leuven, Belgium. [`Slides
+   <https://docs.google.com/presentation/d/e/2PACX-1vSnFIoOIN7JFAiCVuTfqF_6xX7GDvP28UnIlZmxp_9z6UaaJHWITa7K6dLCSUTn4gXc-kcX-HIL5X8f/pub?start=false&loop=false&delayms=3000>`__]
+
+2024
+----
+
+#. **Moore, J. K.** (2024, November 6). Balance Assist Bicycle Reduces Undesired
+   Motions and Fall Probability When Subjected to Disturbances [Oral].
+   International Cycling Safety 2024, Imabari, Japan.
+   [`Slides <https://docs.google.com/presentation/d/e/2PACX-1vRPC9HUbtBnSs3yfIyFrUwyZnk8ZLQV_QKJs3H8vINwSZwESiWeW26QJXhEadB49qia0Zp3VzRN8OOQ/pub?start=false&loop=false&delayms=3000>`__]
 
 2023
 ----
@@ -273,6 +311,11 @@ Presentations
    Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
    Netherlands, May 01, 2023. [Online]. Available:
    https://doi.org/10.24404/63ff23b478f53b9c419075b9
+#. **Alizadehsaravi, L.** (2023, July 3). Balance Assist Bicycle to Prevent
+   Falls in Older Adults [Oral]. A4SEE Borrel, Delft, The Netherlands.
+   https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults
+#. **Alizadehsaravi, L., & Moore, J. K.** (2023, June 27). Balance Assist for
+   Reducing Low Speed Falls [Demo]. Teknowlogy, Utrecht, The Netherlands.
 #. **A. Dressel**, F. van Willigen, and J. K. Moore, "Evaluating the handling of a
    tilting tricycle with variable stability," presented at the Bicycle and
    Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The

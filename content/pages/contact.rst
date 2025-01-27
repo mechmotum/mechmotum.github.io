@@ -14,7 +14,7 @@ Mailing Address
 ===============
 
 | TU Delft Bicycle Lab c/o Jason K. Moore
-| 3mE Faculty, BioMechanical Engineering Department
+| ME Faculty, BioMechanical Engineering Department
 | Delft University of Technology
 | Mekelweg 2
 | 2628 CD Delft
@@ -22,11 +22,11 @@ Mailing Address
 Shipping Address
 ================
 
-This is the address to the 3mE Logistiek Punt IO-3mE. They can receive packages
-8 to 5 Monday through Friday.
+This is the address to the ME Logistiek Punt IO-ME. They can receive packages
+8:00 to 17:00 Monday through Friday.
 
 | TU Delft Bicycle Lab c/o Jason K. Moore
-| 3mE Faculty, BioMechanical Engineering Department
+| ME Faculty, BioMechanical Engineering Department
 | Delft University of Technology
 | Leeghwaterstraat 15
 | 2628 CA Delft
@@ -34,10 +34,10 @@ This is the address to the 3mE Logistiek Punt IO-3mE. They can receive packages
 Getting Here
 ============
 
-The 3mE building is a 20 minute walk from Delft's central train station or a
-short bus ride. This map shows the building and a marker at the approximate
-location the lab is in the building. The lab is on the ground floor in the F
-wing with room number: `34 F-0-010`.
+The Mechanical Engineering building is a 20 minute walk from Delft's central
+train station or a short bus ride. This map shows the building and a marker at
+the approximate location the lab is in the building. The lab is on the ground
+floor in the F wing with room number: `34 F-0-010`.
 
 .. raw:: html
 
