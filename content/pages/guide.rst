@@ -66,12 +66,12 @@ Employees
 Postdocs, PhDs, and other staff
 
 - You are expected to attend the lab meetings and other common lab work
-  sessions (e.g. lab cleanup) unless you are sick or on holiday.  - You are
-  expected to spend some of your time to help Jason manage and organize the lab
-  and research group. In particular, you should help improve and maintain the
-  website, help tidy, organize, and clean the lab space, keep physical
-  equipment maintained and running. PhDs and Postdocs should take on at least
-  one lab role and help with the other roles' tasks.
+  sessions (e.g. lab cleanup) unless you are sick or on holiday.
+- You are expected to spend some of your time to help Jason manage and organize
+  the lab and research group. In particular, you should help improve and
+  maintain the website, help tidy, organize, and clean the lab space, keep
+  physical equipment maintained and running. PhDs and Postdocs should take on
+  at least one lab role and help with the other roles' tasks.
 - If you are not able to work at standard capacity, you must take sick leave or
   holiday leave.
 - If you need to take sick leave, report this to your immediate supervisor and
@@ -182,22 +182,24 @@ https://github.com/mechmotum/housekeeping/issues
 
 Keep the issues up-to-date so that they can be passed to others.
 
-da MC: (Thomas Habing)
+da MC: (Anna Marbus)
    Organizes the lab meeting, see the `MC Guide`_.
 Meneer/Mevrouw Schoon (Sara Youngblood)
    Organizes monthly Friday afternoon tidy and bi-annual lab clean up days.
    Reminds the lab if the tidiness level is hampering other's work.
-Dragon Hoard Overseer (Simon)
+Dragon Hoard Overseer (Benjamin)
    Maintains a spreadsheet on our GDrive containing the lab inventory, both
    consumable supplies and significant equipment (< 200 EUR or so). Keeps an
    eye on the borrow sheet and makes sure things are returned.
-Batterij-momma (Anna)
+Batterij-momma (Christoph)
    Ensures that all batteries are stored safely and that their charge is kept
    topped up. The protector of the lives of all batteries.
 Neo T. Anderson: (Jason)
    Keeps the lab chat room running. This is currently a matrix server running
    on a TU Delft VPS.
-De Fikser (Bart)
+Plant-papa (Bart)
+   Keep lab plants alive.
+De Fikser (Jules)
    Monitors if equipment is broken or needs maintenance and seeks university or
    external support for repair. Coaxes the repair processes along. Sometimes
    fixes things themselves.
@@ -839,3 +841,4 @@ Random TU Delft Tips
 - You can run a Jupyter instance on DelftBlue https://doc.dhpc.tudelft.nl/delftblue/howtos/jupyter/
 - The IMPhys department has a systems manual for many compute tasks on campus https://qiweb.tudelft.nl/sysman/index.html
 - You can set up general mailing lists here: https://listserv.tudelft.nl/mailman/admin
+- You can check if an ethernet port is active at https://outlets.tudelft.nl
