@@ -779,6 +779,8 @@ Computing and Data
 Hadley Wickham, "Tidy Data," Journal of Statistical Software, 2014, http://vita.had.co.nz/papers/tidy-data.pdf.
    Lays out the idea of "tidy data" which is a tabular data format preferred
    and used by a large set of software.
+Kelly, M. (2017). An Introduction to Trajectory Optimization: How to Do Your Own Direct Collocation. SIAM REVIEW, 59(4), 849–904. https://doi.org/10.1137/16M1062569
+   Great introduction to direct collocation methods.
 
 Academia
 --------
