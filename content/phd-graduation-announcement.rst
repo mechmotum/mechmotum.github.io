@@ -42,3 +42,5 @@ The defense will also be livestreamed online:
 
 - Start live stream: 2/25/2025 9:25:00 AM (NL)
 - Link Livestream & On-demand playback: https://nmclive.tudelft.nl/mediasite/play/5d2167e97e094e81a24dbac6443ca3db1d
+
+Event link: https://www.tudelft.nl/en/evenementen/2025/tu-delft/02-feb/doctoral-defence-g-dellorto
