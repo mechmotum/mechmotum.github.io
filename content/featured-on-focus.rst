@@ -27,6 +27,21 @@ You can watch the program at the link below:
 
 https://npo.nl/start/serie/focus/seizoen-8/focus_49/afspelen
 
+or on Youtube:
+
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/yH6k_VJxGgI?si=aEsFCj4elwbyMvPh&amp;start=635"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </center>
+
+|
+|
+
 Thanks to NPO's intern Marit Bonne for finding and including us and thanks to
 TU Delft's communication team, Karlijn Spoor and Annemiek Schouten, for
 initiating and facilitating the process.
