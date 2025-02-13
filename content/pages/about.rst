@@ -31,6 +31,15 @@ lab and research program. In Delft, Dr. Moore merged his University of
 California, Davis based research program with TU Delft's, defining what exists
 today.
 
+.. raw:: html
+
+   <br>
+   <p style="text-align:center;font-size:x-large;">
+   <strong>
+   <a href="{filename}/pages/company-organization-collaboration.rst">Learn how you can collaborate with us!</a>
+   </strong>
+   </p>
+
 Current Funders and Partners
 ============================
 
@@ -39,21 +48,12 @@ Current Funders and Partners
    :align: center
    :width: 100%
 
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-veiligheid.svg
-          :width: 100%
-          :target: https://www.veiligheid.nl
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-dsm-firmenich-postnl.svg
+   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-dsm-firmenich-postnl.svg
           :width: 100%
           :target: https://www.teamdsmfirmenich-postnl.com/
-
-.. raw:: html
-
-   <br>
-   <p style="text-align:center;">
-   <strong>
-   <a href="{filename}/pages/company-organization-collaboration.rst">Learn how you can collaborate with us!</a>
-   </strong>
-   </p>
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/
+          :width: 100%
+          :target: none
 
 Past Funders and Partners
 =========================
@@ -93,9 +93,9 @@ Past Funders and Partners
    * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-nwo.jpg
           :height: 200px
           :target: https://www.nwo.nl
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/
+     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-veiligheid.svg
           :width: 100%
-          :target: none
+          :target: https://www.veiligheid.nl
      - .. image:: https://objects-us-east-1.dream.io/mechmotum/
           :width: 100%
           :target: none
