@@ -75,6 +75,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Bicycle pose estimation <{filename}/pages/jobs/bike-pose-estimation.rst>`_
+     - 2025-02-13
+     - Benjamin Gonzalez
+     - Thesis
    * - `Bikes and Babies <{filename}/pages/jobs/bikes-and-babies.rst>`_
      - 2024-05-15
      - Dustyn Roberts
