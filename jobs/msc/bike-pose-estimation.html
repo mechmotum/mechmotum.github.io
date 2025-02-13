@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Bicycle pose estimation from monocular video | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/jobs/msc/bike-pose-estimation.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="Pose estimation example using OpenPose. Example bicycle crash Traditional methods to analyse the motion of bodies, such as humans or vehicles, rely on Motion Capture systems or plenty of sensors. These methods offer great precision and reliability, however, they are only available in specialised laboratories or instrumented vehicles, which limits …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="site-image img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Positions</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/contact.html">Contact</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Bicycle pose estimation from monocular video
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <table border="1" class="table docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><img alt="openposegif" src="https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/.github/media/dance_foot.gif" style="width: 400px;" /></td>
+<td><div style="text-align: center;">
+<iframe
+  width="400"
+  height="225"
+  src="https://www.youtube.com/embed/rEzFIQmDJYU"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+</div></td>
+</tr>
+<tr><td>Pose estimation example using OpenPose.</td>
+<td>Example bicycle crash</td>
+</tr>
+</tbody>
+</table>
+<!--  -->
+<p>Traditional methods to analyse the motion of bodies, such as humans or
+vehicles, rely on Motion Capture systems or plenty of sensors. These methods
+offer great precision and reliability, however, they are only available in
+specialised laboratories or instrumented vehicles, which limits the analysis of
+'in-the-wild' data. For this reason, during the last years, and supported by
+the constant performance increase of computer vision techniques, the scientific
+community have been developing tools to extract motion data from normal videos.
+This method is called 'Pose estimation' and has received great attention in the
+last ten years, mainly focused on human motion. However, there is no publicly
+available implementationof this methodology for estimating the motion of a
+bicycle. Therefore, we propose a project to implement similar methodologies
+into bicycle motion analysis, which will allow researchers to analyse bicycles
+in-the-wild and enhance their understanding.</p>
+<p><strong>Objective:</strong> Extract bicycle's kinematic data from monocular videos and
+compare the performance of different training approaches.</p>
+<div class="section" id="suggested-approach">
+<h2>Suggested approach</h2>
+<p>To carry this project, the suggested approach consists in a three-stage
+pipeline, based on <a class="reference external" href="https://kevgildea.github.io/KinePose/">KinePose</a>:</p>
+<ol class="arabic simple">
+<li>Use computer vision algorithms to detect keypoints on the bicycle.</li>
+<li>Convert 2D keypoints into 3D point cloud with different methodologies.</li>
+<li>Compare the performance of the different methodologies.</li>
+</ol>
+<div class="section" id="known-methodologies">
+<h3>Known methodologies</h3>
+<p>From <a class="reference external" href="https://motionbert.github.io/">MotionBert</a>, it is known that three different methodologies to go from 2D
+keypoints to 3D cloud of points are:</p>
+<ul class="simple">
+<li>Heatmap from depth estimation.</li>
+<li>Train the algorithm with motion capture data.</li>
+<li>Train the algorithm with synthetic data.</li>
+</ul>
+<p><strong>PDF version</strong>: <a class="reference external" href="https://github.com/Eimolgon/Drafts/blob/main/MSc_Proposal_BGonzalez.pdf">Proposal</a></p>
+<p>Don't hesitate to reach out at <a class="reference external" href="mailto:b.gonzaleztoledo&#64;tudelft.nl">b.gonzaleztoledo&#64;tudelft.nl</a> if you have more
+questions.</p>
+</div>
+</div>
+
+    <h2>How To Apply</h2>
+    <p>If you would like to apply for this project, please send an
+    approximately half page letter explaining your motivations and interest in
+    the lab and project, CV or resume, a list of courses you've taken, the name
+    of your MSc track, and any other relevant information to
+    <a href='mailto:j.k.moore@tudelft.nl'>j.k.moore@tudelft.nl</a>.</p>
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy"
+         target="_blank">&#x2728;</a>
+    | Edit on <a href="https://github.com/mechmotum/mechmotum.github.io" target="_blank"><i class="fab fa-github"></i></a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
