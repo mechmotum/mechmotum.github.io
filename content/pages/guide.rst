@@ -19,11 +19,12 @@ lab any desires to change any of the guidelines.
 Sub-Guides
 ==========
 
-- `MSc Guide <{filename}/pages/guide-msc.rst>`_
-- `Writing Guide <{filename}/pages/guide-writing.rst>`_
+- `Academic Authorship Guide <{filename}/pages/guide-authorship.rst>`_
 - `Data Management Guide <{filename}/pages/guide-data-management.rst>`_
 - `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_
 - `Lab Meeting MC Guide <{filename}/pages/guide-mc-lab-meetings.rst>`_
+- `MSc Guide <{filename}/pages/guide-msc.rst>`_
+- `Writing Guide <{filename}/pages/guide-writing.rst>`_
 
 Getting Started
 ===============
