@@ -11,19 +11,22 @@ about this nuanced activity we must navigate when working in academia.
 
 For officially and unofficially published works that members of the bicycle lab
 produce which have an author list where Jason plays a role as an advisor or
-supervisor, the following guidelines below should be followed [1]_. If Jason is
-not involved in that role, you should follow whatever guidelines and custom
-your authorship team follows.
+supervisor, the guidelines below should be followed [1]_. If Jason is not
+involved in that role, you should follow whatever guidelines and custom your
+authorship team follows.
 
 Definitions
 ===========
 
+First Author
+   This generally should be the person that did most of the physical and
+   intellectual labor for the content of the written work. If it isn't, there
+   should be a very good reason.
 Lead Author
    Typically the person who initiates and leads the production of the written
    work. This is usually one person and they are responsible for the official
-   submission of the manuscript somewhere. This is most often the person that
-   did most of the physical and intellectual labor for the content of the
-   written work, but need not be.
+   submission of the manuscript somewhere. This is most often the first author,
+   but need not be.
 
 Customs
 =======
@@ -34,7 +37,7 @@ In mechanical engineering,
   the majority of the physical and intellectual labor as the first author.
 - If an immediate advisor/supervisor of a student, PhD candidate, or Postdoc is
   a co-author on the manuscript, they are listed last. This is because
-  promotion judgement committees look for professor's last author listing as a
+  promotion judgement committees look for professors' last author listing as a
   sign of leadership.
 - It is unclear if there is any common way the intermediate authors are
   ordered.
@@ -68,18 +71,18 @@ Guidelines
 - When you lead a co-authored manuscript you should discuss with each person
   that may have made substantial contributions to see if they desire to be a
   co-author. There is no hard definition of what "substantial contributions"
-  universally mean, so this boils down to an interpersonal negotiation where
+  universally means, so this boils down to an interpersonal negotiation where
   the lead author has the responsibility to make things fair to the best of
   their ability.
 - Once you have negotiated the list of authors, they all must then do points
   2., 3., and 4. in the ICJME criteria list to be confirmed as authors.
 - You should never submit a manuscript to any publishing venue without the
-  consent of all authors and agreement on points 1-4. It is the submitters
+  consent of all authors and agreement on points 1-4. It is the submitter's
   responsibility to give enough time for points 1-4 to be worked out. If
   reasonable time and deadlines have been given, and co-authors do not meet
   1-4, they should be moved to the acknowledgements section of the paper. This
   should likely never be done for a journal paper due to its importance, but
-  for less consequential things, like an abstract, it is fine.
+  for less consequential things, like an abstract, it may be fine.
 - Explicitly propose the author order and get all authors agreement on it. If
   there is disagreement, the lead author should facilitate an agreement.
 - It is perfectly fine to do projects and write papers without the involvement
