@@ -10,13 +10,16 @@ advancement in academia. People often want authorship in academia with similar
 fervor that people want money in daily life. This means that assigning
 authorship may not always be easy. There are also different customs in
 different research fields when assigning authorship. It behooves you to learn
-about this nuanced activity we must navigate when working in academia.
+about this nuanced activity we must navigate when working in academia. The
+Wikipedia article on `Academic Authorship`_ gives a starting point.
 
 For officially and unofficially published works that members of the bicycle lab
 produce which have an author list where Jason plays a role as an advisor or
 supervisor, the guidelines below should be followed [1]_. If Jason is not
 involved in that role, you should follow whatever guidelines and custom your
 authorship team follows.
+
+.. _Academic Authorship: https://en.wikipedia.org/wiki/Academic_authorship
 
 Definitions
 ===========
@@ -50,9 +53,9 @@ Guidelines
 
 - Your thesis or dissertation is a single author document. The purpose of this
   document is to demonstrate that you can create such a document by yourself
-  with only guidance from your advisors. In essence, you write every single
-  sentence and produce every single figure and no one else would write any
-  sentences.
+  with only guidance from your advisors and peers. In essence, you write every
+  single sentence and produce every single figure and no one else would write
+  any sentences.
 - If your thesis or dissertation includes one or more papers that have
   co-authorship, then you have to explain clearly in the thesis or dissertation
   what your individual contributions are. The CRediT_ system is a helpful
@@ -72,11 +75,11 @@ Guidelines
      appropriately investigated and resolved.
 
 - When you lead a co-authored manuscript you should discuss with each person
-  that may have made substantial contributions to see if they desire to be a
-  co-author. There is no hard definition of what "substantial contributions"
-  universally means, so this boils down to an interpersonal negotiation where
-  the lead author has the responsibility to make things fair to the best of
-  their ability.
+  that may make or may have made substantial contributions to see if they
+  desire to be a co-author. There is no hard definition of what "substantial
+  contributions" universally means, so this boils down to an interpersonal
+  negotiation where the lead author has the responsibility to make things fair
+  to the best of their ability.
 - Once you have negotiated the list of authors, they all must then do points
   2., 3., and 4. in the ICJME criteria list to be confirmed as authors.
 - You should never submit a manuscript to any publishing venue without the
