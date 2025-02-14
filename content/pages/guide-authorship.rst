@@ -21,7 +21,9 @@ Definitions
 Lead Author
    Typically the person who initiates and leads the production of the written
    work. This is usually one person and they are responsible for the official
-   submission of the manuscript somewhere.
+   submission of the manuscript somewhere. This is most often the person that
+   did most of the physical and intellectual labor for the content of the
+   written work, but need not be.
 
 Customs
 =======
@@ -43,16 +45,16 @@ Guidelines
 - Your thesis or dissertation is a single author document. The purpose of this
   document is to demonstrate that you can create such a document by yourself
   with only guidance from your advisors. In essence, you write every single
-  sentence and produce every single figure and your advisor would not write any
+  sentence and produce every single figure and no one else would write any
   sentences.
-- If your thesis or dissertation includes one or more papers that
-  have co-authorship, then you have to explain clearly in the thesis or
-  dissertation what your individual contributions are. The CRediT_ system is a
-  helpful framework for doing so. You should only be including papers you are
-  first author on, unless there is some special reason. Co-authors must consent
-  to you including the paper in your thesis or dissertation.
-- The ICMJE_ recommends authorship be based on  four criteria and this should
-  be used as our foundation (quoted here):
+- If your thesis or dissertation includes one or more papers that have
+  co-authorship, then you have to explain clearly in the thesis or dissertation
+  what your individual contributions are. The CRediT_ system is a helpful
+  framework for doing so. In principle, you should only include papers you are
+  first author on, unless there is some special circumstance. Co-authors must
+  consent to you including the paper in your thesis or dissertation.
+- The ICMJE_ recommends authorship be based on four criteria and we use these
+  criteria as our foundation for assigning authorship (quoted here):
 
   1. Substantial contributions to the conception or design of the work; or the
      acquisition, analysis, or interpretation of data for the work; AND
@@ -63,21 +65,21 @@ Guidelines
      questions related to the accuracy or integrity of any part of the work are
      appropriately investigated and resolved.
 
-- When you initiate a co-authored manuscript you should discuss with each
-  person that made substantial contributions to see if they desired to be a
+- When you lead a co-authored manuscript you should discuss with each person
+  that may have made substantial contributions to see if they desire to be a
   co-author. There is no hard definition of what "substantial contributions"
   universally mean, so this boils down to an interpersonal negotiation where
-  the lead author(s) has the responsibility to make things fair to the best of
+  the lead author has the responsibility to make things fair to the best of
   their ability.
 - Once you have negotiated the list of authors, they all must then do points
-  2., 3., and 4. in the ICJME criteria list to be confirmed as authors.  - You
-  should never submit a manuscript to any publishing venue without the consent
-  of all authors and agreement on points 1-4. It is the submitters
+  2., 3., and 4. in the ICJME criteria list to be confirmed as authors.
+- You should never submit a manuscript to any publishing venue without the
+  consent of all authors and agreement on points 1-4. It is the submitters
   responsibility to give enough time for points 1-4 to be worked out. If
   reasonable time and deadlines have been given, and co-authors do not meet
   1-4, they should be moved to the acknowledgements section of the paper. This
-  should likely never be done for a journal paper, but for less consequential
-  things, like an abstract, it is fine.
+  should likely never be done for a journal paper due to its importance, but
+  for less consequential things, like an abstract, it is fine.
 - Explicitly propose the author order and get all authors agreement on it. If
   there is disagreement, the lead author should facilitate an agreement.
 - It is perfectly fine to do projects and write papers without the involvement
