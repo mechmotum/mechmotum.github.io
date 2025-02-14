@@ -2,6 +2,9 @@
 Guide: Authorship
 =================
 
+:date: 2025-02-14
+:status: hidden
+
 Credit as an author is one of the primary currencies for recognition and
 advancement in academia. People often want authorship in academia with similar
 fervor that people want money in daily life. This means that assigning
