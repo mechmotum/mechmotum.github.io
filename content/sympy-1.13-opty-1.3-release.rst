@@ -14,7 +14,7 @@ Biomechanical Optimization with SymPy 1.13 and Opty 1.3
 
 `SymPy 1.13`_ was released on July 8, 2024. This release includes `all of the
 work we did under the CZI Open Source Software for Science Cycle 4 grant
-<{file}/czi-sympy-wrapup.rst>`_. For example, SymPy now includes new features
+<{filename}/czi-sympy-wrapup.rst>`_. For example, SymPy now includes new features
 for modeling biomechanical multibody systems. The new features include model
 construction from joints via a system manager and force actuator classes
 including a musculo-tendon model. At the close of the grant period, we

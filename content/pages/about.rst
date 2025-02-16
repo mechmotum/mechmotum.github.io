@@ -22,6 +22,15 @@ themes:
 - engineering and scientific software design and development
 - teaching and learning in engineering education
 
+.. raw:: html
+
+   <br>
+   <p style="text-align:center;font-size:x-large;">
+   <strong>
+   <a href="{filename}/pages/company-organization-collaboration.rst">Learn how you can collaborate with us!</a>
+   </strong>
+   </p>
+
 History
 =======
 
@@ -38,18 +47,6 @@ Marvelous Mechanical Motum" where he furthered his bicycle engineering
 research. Dr.  Schwab retired in 2021 and Jason took over his lab and research
 program in Delft where he merged his UC Davis based research program with TU
 Delft's, defining what exists today.
-
-.. _Sports Biomechanics Lab: https://research.engineering.ucdavis.edu/biosport
-.. _University of California, Davis: https://en.wikipedia.org/wiki/University_of_California,_Davis
-
-.. raw:: html
-
-   <br>
-   <p style="text-align:center;font-size:x-large;">
-   <strong>
-   <a href="{filename}/pages/company-organization-collaboration.rst">Learn how you can collaborate with us!</a>
-   </strong>
-   </p>
 
 Current Funders and Partners
 ============================
@@ -111,8 +108,10 @@ Past Funders and Partners
           :width: 100%
           :target: none
 
-.. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
+.. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering
+.. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
 .. _Delft University of Technology: https://www.tudelft.nl
 .. _Jason K. Moore: https://www.moorepants.info
-.. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
+.. _Sports Biomechanics Lab: https://research.engineering.ucdavis.edu/biosport
+.. _University of California, Davis: https://en.wikipedia.org/wiki/University_of_California,_Davis
