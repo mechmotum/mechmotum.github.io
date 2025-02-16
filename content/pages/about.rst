@@ -39,7 +39,7 @@ retired in 2021 and Jason took over his lab and research program in Delft where
 he merged his UC Davis based research program with TU Delft's, defining what
 exists today.
 
-.. _Sports Biomechanic Lab: https://research.engineering.ucdavis.edu/biosport
+.. _Sports Biomechanics Lab: https://research.engineering.ucdavis.edu/biosport
 .. _University of California, Davis: https://en.wikipedia.org/wiki/University_of_California,_Davis
 
 .. raw:: html
