@@ -8,6 +8,9 @@ About
 :date: 2018-10-05
 :front: true
 
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bicycle-lab-collage-640w.png
+   :align: center
+
 The TU Delft Bicycle Lab is a research lab in the `Biomechatronics &
 Human-Machine Control Group`_ of the `BioMechanical Engineering Department`_ at
 `Delft University of Technology`_ led by `Jason K. Moore`_. Our research is
