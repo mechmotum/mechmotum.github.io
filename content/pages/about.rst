@@ -25,11 +25,22 @@ themes:
 History
 =======
 
-The TU Delft lab started in the mid 2000's at TU Delft under the direction of
-`Arend L. Schwab`_. Dr. Schwab retired in 2021 and Jason K. Moore took over the
-lab and research program. In Delft, Dr. Moore merged his University of
-California, Davis based research program with TU Delft's, defining what exists
-today.
+Dr. Jason K. Moore did his graduate research in Mont Hubbard's `Sports
+Biomechanics Lab`_ at the `University of California, Davis`_ where bicycles
+were an often topic of study, as far back as the early 1990s. The Delft
+University of Technology Bicycle Dynamics Lab started in the mid 2000's under
+the direction of `Arend L. Schwab`_ after his sabbatical at Cornell University
+with Andy Ruina where he revived Andy's and Jim Papadopoulos's bicycle dynamics
+research from the 1980's. Jason spent one year of his Ph.D. studies at the TU
+Delft Bicycle Dynamics Lab. In 2015, Jason was hired on the UC Davis Mechanical
+and Aerospace Engineering faculty and started the "Laboratorium of Marvelous
+Mechanical Motum" where he furthered bicycle engineering research. Dr. Schwab
+retired in 2021 and Jason took over his lab and research program in Delft where
+he merged his UC Davis based research program with TU Delft's, defining what
+exists today.
+
+.. _Sports Biomechanic Lab: https://research.engineering.ucdavis.edu/biosport
+.. _University of California, Davis: https://en.wikipedia.org/wiki/University_of_California,_Davis
 
 .. raw:: html
 
