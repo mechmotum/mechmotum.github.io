@@ -30,14 +30,14 @@ Biomechanics Lab`_ at the `University of California, Davis`_ where bicycles
 were an often topic of study, as far back as the early 1990s. The Delft
 University of Technology Bicycle Dynamics Lab started in the mid 2000's under
 the direction of `Arend L. Schwab`_ after his sabbatical at Cornell University
-with Andy Ruina where he revived Andy's and Jim Papadopoulos's bicycle dynamics
-research from the 1980's. Jason spent one year of his Ph.D. studies at the TU
-Delft Bicycle Dynamics Lab starting in 2008. In 2015, Jason was hired on the UC
-Davis Mechanical and Aerospace Engineering faculty and started the
-"Laboratorium of Marvelous Mechanical Motum" where he furthered bicycle
-engineering research. Dr. Schwab retired in 2021 and Jason took over his lab
-and research program in Delft where he merged his UC Davis based research
-program with TU Delft's, defining what exists today.
+where he revived Andy Ruina's and Jim Papadopoulos's bicycle dynamics research
+from the 1980's. Jason spent one year of his Ph.D. studies at the TU Delft
+Bicycle Dynamics Lab starting in 2008. In 2015, Jason was hired on the UC Davis
+Mechanical and Aerospace Engineering faculty and started the "Laboratorium of
+Marvelous Mechanical Motum" where he furthered his bicycle engineering
+research. Dr.  Schwab retired in 2021 and Jason took over his lab and research
+program in Delft where he merged his UC Davis based research program with TU
+Delft's, defining what exists today.
 
 .. _Sports Biomechanics Lab: https://research.engineering.ucdavis.edu/biosport
 .. _University of California, Davis: https://en.wikipedia.org/wiki/University_of_California,_Davis
