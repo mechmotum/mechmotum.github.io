@@ -1,6 +1,6 @@
-==========================
-Proceedings Book Published
-==========================
+===================================
+BMD 2023 Proceedings Book Published
+===================================
 
 :date: 2024-10-18
 :authors: Jason K. Moore
