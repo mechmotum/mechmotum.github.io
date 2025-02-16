@@ -80,6 +80,8 @@ Python
 
 - https://atchen.me/research/code/data-viz/2022/01/04/plotting-matplotlib-reference.html
 - https://github.com/jbmouret/matplotlib_for_papers
+- `SciencePlots <https://github.com/garrettj403/SciencePlots>`_: matplotlib
+  style to give well formatted plots for publication
 
 Matlab
 
