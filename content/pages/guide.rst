@@ -827,6 +827,17 @@ Carpentries, "Good Enough Practices in Scientific Computing" https://carpentries
    Lesson that gives the basics for dealing with data, software, and other
    digital artifacts of your science.
 
+Other Graduate and Lab Guides
+-----------------------------
+
+These gave some inspiration for this guide. You can see how other professors
+and labs may think about these things:
+
+- `Titus Brown's lab page <http://ivory.idyll.org/lab/>`_
+- `Katy Huff's lab manual <http://arfc.npre.illinois.edu/manual>`_
+- `Reddit post with tips another profs give <https://www.reddit.com/r/AskAcademia/comments/13ura10/useful_resources_for_the_development_of_your/>`_
+- `Eric Gilbert's PhD Student Syllabus <https://docs.google.com/document/d/11D3kHElzS2HQxTwPqcaTnU5HCJ8WGE5brTXI4KLf4dM/edit>`_
+
 Other
 -----
 
