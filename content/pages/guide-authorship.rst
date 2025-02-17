@@ -11,7 +11,9 @@ fervor that people want money in daily life. This means that assigning
 authorship may not always be easy. There are also different customs in
 different research fields when assigning authorship. It behooves you to learn
 about this nuanced activity we must navigate when working in academia. The
-Wikipedia article on `Academic Authorship`_ gives a starting point.
+Wikipedia article on `Academic Authorship`_ gives a starting point and you may
+find it (not) amusing to read the `Academia Stack Exchange posts on the subject
+<https://academia.stackexchange.com/questions/tagged/authorship?tab=Votes>`_.
 
 For officially and unofficially published works that members of the bicycle lab
 produce which have an author list where Jason plays a role as an advisor or
