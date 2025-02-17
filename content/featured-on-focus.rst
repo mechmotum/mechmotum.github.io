@@ -8,7 +8,7 @@ Balance Assist Bicycle Featured On NPO's Focus TV Show
 :authors: Jason K. Moore
 :summary: Television network NPO featured the Bicycle Lab's Balance Assist
           Bicycle on the program Focus.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/balance-assist-bicycle-400x400.jpg
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thumb-focus-tv-show.png
 
 NPO's Focus came to Delft in December of 2024 to learn about our `Balance
 Assist Bicycle and the associated research

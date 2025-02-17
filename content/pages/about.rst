@@ -8,6 +8,9 @@ About
 :date: 2018-10-05
 :front: true
 
+.. image:: https://objects-us-east-1.dream.io/mechmotum/bicycle-lab-collage-640w.png
+   :align: center
+
 The TU Delft Bicycle Lab is a research lab in the `Biomechatronics &
 Human-Machine Control Group`_ of the `BioMechanical Engineering Department`_ at
 `Delft University of Technology`_ led by `Jason K. Moore`_. Our research is
@@ -22,15 +25,6 @@ themes:
 - engineering and scientific software design and development
 - teaching and learning in engineering education
 
-History
-=======
-
-The TU Delft lab started in the mid 2000's at TU Delft under the direction of
-`Arend L. Schwab`_. Dr. Schwab retired in 2021 and Jason K. Moore took over the
-lab and research program. In Delft, Dr. Moore merged his University of
-California, Davis based research program with TU Delft's, defining what exists
-today.
-
 .. raw:: html
 
    <br>
@@ -39,6 +33,23 @@ today.
    <a href="{filename}/pages/company-organization-collaboration.rst">Learn how you can collaborate with us!</a>
    </strong>
    </p>
+
+History
+=======
+
+Dr. Jason K. Moore did his graduate research in Mont Hubbard's `Sports
+Biomechanics Lab`_ at the `University of California, Davis`_ where bicycles
+were an often topic of study, as far back as the early 1990s. The Delft
+University of Technology Bicycle Dynamics Lab started in the mid 2000's under
+the direction of `Arend L. Schwab`_ after his sabbatical at Cornell University
+where he revived Andy Ruina's and Jim Papadopoulos's bicycle dynamics research
+from the 1980's. Jason spent one year of his Ph.D. studies at the TU Delft
+Bicycle Dynamics Lab starting in 2008. In 2015, Jason was hired on the UC Davis
+Mechanical and Aerospace Engineering faculty and started the "Laboratorium of
+Marvelous Mechanical Motum" where he furthered his bicycle engineering
+research. Dr.  Schwab retired in 2021 and Jason took over his lab and research
+program in Delft where he merged his UC Davis based research program with TU
+Delft's, defining what exists today.
 
 Current Funders and Partners
 ============================
@@ -100,8 +111,10 @@ Past Funders and Partners
           :width: 100%
           :target: none
 
-.. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
+.. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
 .. _BioMechanical Engineering Department: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering
+.. _Biomechatronics & Human-Machine Control Group: https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/research/biomechatronics-human-machine-control/
 .. _Delft University of Technology: https://www.tudelft.nl
 .. _Jason K. Moore: https://www.moorepants.info
-.. _Arend L. Schwab: http://bicycle.tudelft.nl/schwab/
+.. _Sports Biomechanics Lab: https://research.engineering.ucdavis.edu/biosport
+.. _University of California, Davis: https://en.wikipedia.org/wiki/University_of_California,_Davis

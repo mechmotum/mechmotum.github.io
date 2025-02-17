@@ -35,9 +35,8 @@ Postdoctoral Researchers
    * - |headshot-missing|
      - | **Dr. Jules Ronné** [TUD, November 2024-present]
        | *Modeling bicycle behavior from visual stimulus to neuromuscular control ability*
-     - |headshot-dell-orto-gabriele|
-     - | **Gabriele Dell'Orto** [TUD, November 2024-January 2025]
-       | `Characterization of Vibrations Experienced by Babies in Strollers and Cargo Bicycles <{filename}/pages/research/baby-child-transport-vibration.rst>`_
+     -
+     -
 
 PhD Candidates
 ==============
@@ -137,17 +136,18 @@ Alumni
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-alizadehsaravi-leila|
+   * - |headshot-dell-orto-gabriele|
+     - | **Gabriele Dell'Orto** [TUD, November 2024-January 2025]
+       | `Characterization of Vibrations Experienced by Babies in Strollers and Cargo Bicycles <{filename}/pages/research/baby-child-transport-vibration.rst>`_
+     - |headshot-alizadehsaravi-leila|
      - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-Feb 2024]
        | *Safety Evaluation of a Steer Assist Bicycle*
-     - |headshot-brockie-sam|
+   * - |headshot-brockie-sam|
      - | **Dr. Sam Brockie** [TUD, Sep 2022-Oct 2023]
        | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
-   * - |headshot-dressel-andrew|
+     - |headshot-dressel-andrew|
      - | **Dr. Andrew Dressel** [TUD, Apr 2022-Apr 2023]
        | *Stable Tilting Tricycle & Next Gen Tire Tester*
-     -
-     -
 
 .. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
    :width: 100px
