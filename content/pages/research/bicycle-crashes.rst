@@ -29,13 +29,6 @@ Ongoing Work
 - **Kinematic data from monocular video:** Real world data of single bicycle crashes is scarcely available, therefore, we aim to extract the kinematics of the system from monocuclar videos.
 
 
-Research Output
-===============
-
-:Journal Articles:
-
-
-:Conference Papers:
 
 
 
