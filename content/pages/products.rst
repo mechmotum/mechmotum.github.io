@@ -150,6 +150,13 @@ Books
 Theses
 ======
 
+2025
+----
+
+#. Dell'Orto, G. (2025). Bicycle tyre lateral characteristics and their effect
+   on bicycle dynamics [PhD, Delft University of Technology].
+   https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa
+
 2024
 ----
 

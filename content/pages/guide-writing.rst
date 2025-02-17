@@ -80,6 +80,8 @@ Python
 
 - https://atchen.me/research/code/data-viz/2022/01/04/plotting-matplotlib-reference.html
 - https://github.com/jbmouret/matplotlib_for_papers
+- `SciencePlots <https://github.com/garrettj403/SciencePlots>`_: matplotlib
+  style to give well formatted plots for publication
 
 Matlab
 
@@ -166,8 +168,15 @@ how you arrived at the values.
 Referencing commercial equipment
 --------------------------------
 
-I applied a 6 hz Butterworth low pass filter to the signal using the
-``butter()`` function available in Matlab 2019a (Natick, USA).
+You need to specify the product name of the equipment and any version
+specifications, then in parentheses list the company name, city, and country.
+Examples:
+
+   I applied a 6 Hz Butterworth low-pass filter to the signal using the
+   ``butter()`` function available in Matlab 2019a (Mathworks, Natick, USA).
+
+   Each vehicle was equipped with a VR IMU BN0086 MEMs inertial measurement
+   unit (Sparkfun, Niwot, USA).
 
 File size
 ---------
@@ -176,6 +185,25 @@ There is little reason for the PDF of a thesis to be larger than 10 Mb. If your
 document is larger than 10 Mb then you have most likely embedded images that
 are much too large. Reduce the size of images before embedding. A 300 dpi image
 that fits on an A4 page should only be a few hundred kilobytes.
+
+Statement On AI Assistance
+--------------------------
+
+If you make use of writing tools that can essentially write text for you you
+must make a statement in your document explaining how you used such a tool. You
+should also be cautious when using such tools because the copyright of the text
+that it produces is ambiguous. The text is a derivative of other people's
+(copyrighted) writing and you may not want to laden your writing with possible
+copyright infringements. Nonetheless, make a statement on the use of the tool,
+for example:
+
+   During the preparation of this work the author(s) used ChatGPT 12x in order
+   to improve the grammar in the writing. After using this tool/service, the
+   author(s) reviewed and edited the content as needed and take(s) full
+   responsibility for the content of the publication.
+
+`More information on use of AI in academic works.
+<https://library.smu.edu.sg/topics-insights/disclosure-use-ai-research-manuscripts-how-are-researchers-doing-it>`_.
 
 Style
 =====

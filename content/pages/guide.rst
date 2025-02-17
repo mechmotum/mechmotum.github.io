@@ -30,7 +30,7 @@ Getting Started
 
 - Join the lab communication channels: Ask Jason <j.k.moore@tudelft.nl> to add
   you to the lab `email list`_ and someone in the lab how to join the lab's
-  element/matrix chat room or read the instrutions in the Google Drive "How to
+  element/matrix chat room or read the instructions in the Google Drive "How to
   join the Element/Matrix chat room".
 - Send an introduction email to the lab email list
   (mechmotum@googlegroups.com): who you are, a bit about yourself, what you
@@ -49,9 +49,9 @@ Getting Started
   working there.
 - Request access to the lab's shared Google Drive from Jason.
 - Request to be added to the Github lab team organization: https://github.com/mechmotum.
-- We have the optional "Cheese for Thought" lunch every Wednesday at 12:00,
-  meet at the lab. This is a chance to discuss topics informally or have some
-  good weather fun.
+- We have the optional "Cheese for Thought" lunch every Thursday at 12:00, meet
+  at the lab. This is a chance to discuss topics informally or have some good
+  weather fun.
 - Every month we have a Friday afternoon lab tidying session at 16:30 and we go
   for snacks and drinks (Vrijmibo) in Delft on Fridays @ 17:00.
 - See the `recommended reading list <#recommended-reading>`_ below for some
@@ -88,10 +88,10 @@ Postdocs, PhDs, and other staff
 - TU Delft's policy is that you can work from home 2 days per week if your
   supervisor approves. The other 3 days should be on campus. You have Jason's
   blanket permission to work from home or other locations the equivalent of 2
-  days per week. If you want to work from home more that this, discuss with
+  days per week. If you want to work from home more than this, discuss with
   Jason. You should, in general, complete your contracted work hours during
-  typical working hours 8-6 so that you can interact with the lab members. When
-  you work from home you should be easily reachable by email, phone, or video
+  typical working hours ~8-6 so that you can interact with the lab members.
+  When you work from home you should be reachable by email, phone, or video
   chat, etc. during these hours. There is no expectation that you are available
   outside standard work hours or that you have to respond to email, calls,
   chats, etc. although occasionally there are emergencies and your flexibility
@@ -103,7 +103,7 @@ Postdocs, PhDs, and other staff
   the purchase before purchasing so there are no surprises. The secretariat can
   purchase items for you or you can purchase items and request reimbursement.
 - Work related travel outside of the Netherlands must be pre approved via
-  Digiforms and pre-approved by Jason.
+  Digiforms (and thus by the department manager) and pre-approved by Jason.
 - Postdocs will have an annual review with your supervisors (R&O). These should
   occur in the first quarter of the year. It is up to you to make sure this is
   scheduled. PhDs follow the graduate school review process and do not have
@@ -206,6 +206,12 @@ De Fikser (Jules)
 Life Coach (Neville)
    Organizes lab fun: vrijmibo's, bike rides, cheese for thought activities,
    etc. Embodies the proverb "all work and no play makes Jack a dull boy".
+Peril Preventer (unfilled)
+   Keep an eye on safety and work with university safety to make sure lab is
+   A-OK.
+Broom Finder (unfilled)
+   Periodically review the lending checkout sheet, remove old sheets, add new
+   sheets, and track down non-returned items.
 
 Individual responsibilities:
 
@@ -778,6 +784,8 @@ Computing and Data
 Hadley Wickham, "Tidy Data," Journal of Statistical Software, 2014, http://vita.had.co.nz/papers/tidy-data.pdf.
    Lays out the idea of "tidy data" which is a tabular data format preferred
    and used by a large set of software.
+Kelly, M. (2017). An Introduction to Trajectory Optimization: How to Do Your Own Direct Collocation. SIAM REVIEW, 59(4), 849–904. https://doi.org/10.1137/16M1062569
+   Great introduction to direct collocation methods.
 
 Academia
 --------
