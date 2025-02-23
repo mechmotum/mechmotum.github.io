@@ -6,8 +6,8 @@ Guide: Authorship
 :status: hidden
 
 Credit as an author is one of the primary currencies for recognition and
-advancement in academia. People often want authorship in academia with similar
-fervor that people want money in daily life. This means that assigning
+advancement in academia. People often seek authorship in academia with similar
+fervor that people seek money in daily life. This means that assigning
 authorship may not always be easy. There are also different customs in
 different research fields when assigning authorship. It behooves you to learn
 about this nuanced activity we must navigate when working in academia. The
@@ -17,9 +17,9 @@ find it (not) amusing to read the `Academia Stack Exchange posts on the subject
 
 For officially and unofficially published works that members of the bicycle lab
 produce which have an author list where Jason plays a role as an advisor or
-supervisor, the guidelines below should be followed [1]_. If Jason is not
-involved in that role, you should follow whatever guidelines and custom your
-authorship team follows.
+supervisor, the guidelines below should be followed. If Jason is not involved
+in that role, you should follow whatever guidelines and custom your authorship
+team follows.
 
 .. _Academic Authorship: https://en.wikipedia.org/wiki/Academic_authorship
 
@@ -44,9 +44,9 @@ In mechanical engineering,
 - It is customary to list the person that made the primary contribution and did
   the majority of the physical and intellectual labor as the first author.
 - If an immediate advisor/supervisor of a student, PhD candidate, or Postdoc is
-  a co-author on the manuscript, they are listed last. This is because
-  promotion judgement committees look for professors' last author listing as a
-  sign of leadership.
+  a co-author on the manuscript, they are customarily listed last. This is
+  because promotion judgement committees look for professors' last author
+  listing as a sign of leadership.
 - It is unclear if there is any common way the intermediate authors are
   ordered.
 
@@ -82,24 +82,22 @@ Guidelines
   contributions" universally means, so this boils down to an interpersonal
   negotiation where the lead author has the responsibility to make things fair
   to the best of their ability.
+- Explicitly propose the author order and get all authors agreement on it. If
+  there is disagreement, the lead author should facilitate an agreement.
 - Once you have negotiated the list of authors, they all must then do points
   2., 3., and 4. in the ICJME criteria list to be confirmed as authors.
 - You should never submit a manuscript to any publishing venue without the
-  consent of all authors and agreement on points 1-4. It is the submitter's
+  consent of all authors and agreement on points 1-4. It is the lead author's
   responsibility to give enough time for points 1-4 to be worked out. If
   reasonable time and deadlines have been given, and co-authors do not meet
   1-4, they should be moved to the acknowledgements section of the paper. This
   should likely never be done for a journal paper due to its importance, but
   for less consequential things, like an abstract, it may be fine.
-- Explicitly propose the author order and get all authors agreement on it. If
-  there is disagreement, the lead author should facilitate an agreement.
 - It is perfectly fine to do projects and write papers without the involvement
   of Jason. Please do that! He should not be co-author on papers where he
-  didn't meet points 1-4 even if he obtained your funding. Of course, he loves
-  to be invited for topics he is interested in and has time to contribute.
-
-.. [1] These are, of course, open for debate, but we should try to be
-   consistent.
+  didn't meet points 1-4 even if he obtained your funding or is simply your
+  supervisor. Of course, he loves to be invited for topics he is interested in
+  and has time to contribute.
 
 .. _CRediT: https://credit.niso.org/
 .. _ICMJE: https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
