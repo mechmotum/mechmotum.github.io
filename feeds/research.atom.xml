@@ -17,7 +17,9 @@ thousands of constraints and optimization variables. To help grow adoption,
 we've built out a new example gallery that demonstrates how Opty can be used to
 solve a variety of problems:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="https://opty.readthedocs.io/stable/examples/index.html"&gt;&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/opty-1.3-examples.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://opty.readthedocs.io/stable/examples/index.html"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/opty-1.3-examples.png" /&gt;
+&lt;/a&gt;
 &lt;p class="caption"&gt;Opty 1.3's new example gallery.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;One example in the gallery, the &amp;quot;&lt;a class="reference external" href="https://opty.readthedocs.io/stable/examples/plot_one_legged_time_trial.html"&gt;One-Legged Cycling Time Trial&lt;/a&gt;&amp;quot;,
@@ -260,7 +262,7 @@ symbolically when called, as can be seen in the generated function:&lt;/p&gt;
 
 &lt;span class="go"&gt;def _lambdifygenerated(A, b):&lt;/span&gt;
 &lt;span class="go"&gt;    return A[0, 0]*b[1, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) - A[0, 1]*b[1, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) - A[1, 0]*b[0, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) + A[1, 1]*b[0, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0])&lt;/span&gt;
-&lt;span class="gp"&gt;...&lt;/span&gt;
+&lt;span class="go"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Instead, we'd like &lt;tt class="docutils literal"&gt;lambdify()&lt;/tt&gt; to generate code that looks more like:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;eval_result&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -281,7 +283,7 @@ linear equation solver and works as desired with &lt;tt class="docutils literal"
 
 &lt;span class="go"&gt;def _lambdifygenerated(A, b):&lt;/span&gt;
 &lt;span class="go"&gt;    return solve(A, b)&lt;/span&gt;
-&lt;span class="gp"&gt;...&lt;/span&gt;
+&lt;span class="go"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;But &lt;tt class="docutils literal"&gt;MatrixSolve()&lt;/tt&gt; does not support indexing the solution:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
@@ -855,14 +857,18 @@ two case studies in the paper.&lt;/p&gt;
 from the paper.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://www.skijumpdesign.info/analysis"&gt;&lt;img alt="Screenshot of the skijumpdesign app's analysis page." src="https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-1.4.0-analysis-screenshot.png" style="width: 600px;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="http://www.skijumpdesign.info/analysis"&gt;
+&lt;img alt="Screenshot of the skijumpdesign app's analysis page." src="https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-1.4.0-analysis-screenshot.png" style="width: 600px;" /&gt;
+&lt;/a&gt;
 &lt;p class="caption"&gt;Screenshot of the new &amp;quot;analysis&amp;quot; page of the web app. Click the image to go
 to the app.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="research"></category><category term="skiing"></category><category term="snowboarding"></category><category term="safety"></category><category term="sports"></category><category term="engineering"></category><category term="ethics"></category></entry><entry><title>A Web Application for Analyzing Bicycle Dynamics</title><link href="https://mechmotum.github.io/blog/bicycle-dynamics-web-application.html" rel="alternate"></link><published>2020-07-03T00:00:00-07:00</published><updated>2020-07-03T00:00:00-07:00</updated><author><name>Lyla Sanders</name></author><id>tag:mechmotum.github.io,2020-07-03:/blog/bicycle-dynamics-web-application.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on creating a web application to serve as a GUI for bicycle
 dynamics.&lt;/p&gt;
 </summary><content type="html">&lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="https://bicycle-dynamics.onrender.com"&gt;&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://bicycle-dynamics.onrender.com"&gt;
+&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /&gt;
+&lt;/a&gt;
 &lt;p class="caption"&gt;Screenshot of the bicycle dynamics web app. Click the image to go to the app
 at &lt;a class="reference external" href="https://bicycle-dynamics.onrender.com"&gt;https://bicycle-dynamics.onrender.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
@@ -912,7 +918,7 @@ PID controller on an instrumented ebike which can be&lt;/em&gt; &lt;a class="ref
 &lt;em&gt;Updates include sections 5.4-5.5 discussing the added dead man's switch and
 throttle relay and minor fixes throughout.&lt;/em&gt;&lt;/p&gt;
 &lt;div class="contents floatcon local topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#introduction" id="toc-entry-1"&gt;1.0 Introduction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#system-operation-functionality" id="toc-entry-2"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/li&gt;
@@ -1498,7 +1504,7 @@ the new web app user friendly.&lt;/p&gt;
 instrumented ebike&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;em&gt;This blog post has been updated in a newer blog post. Please see the updated version of this blog post for the most up to date information.&lt;/em&gt;&lt;/p&gt;
 &lt;div class="contents floatcon local topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#introduction" id="toc-entry-1"&gt;1.0 Introduction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#system-operation-functionality" id="toc-entry-2"&gt;2.0 System Operation &amp;amp; Functionality&lt;/a&gt;&lt;/li&gt;

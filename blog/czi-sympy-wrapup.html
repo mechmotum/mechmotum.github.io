@@ -275,7 +275,7 @@ symbolically when called, as can be seen in the generated function:</p>
 
 <span class="go">def _lambdifygenerated(A, b):</span>
 <span class="go">    return A[0, 0]*b[1, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) - A[0, 1]*b[1, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) - A[1, 0]*b[0, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0]) + A[1, 1]*b[0, 0]/(A[0, 0]*A[1, 1] - A[0, 1]*A[1, 0])</span>
-<span class="gp">...</span>
+<span class="go">...</span>
 </pre></div>
 <p>Instead, we'd like <tt class="docutils literal">lambdify()</tt> to generate code that looks more like:</p>
 <div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">eval_result</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
@@ -296,7 +296,7 @@ linear equation solver and works as desired with <tt class="docutils literal">la
 
 <span class="go">def _lambdifygenerated(A, b):</span>
 <span class="go">    return solve(A, b)</span>
-<span class="gp">...</span>
+<span class="go">...</span>
 </pre></div>
 <p>But <tt class="docutils literal">MatrixSolve()</tt> does not support indexing the solution:</p>
 <div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">result</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
