@@ -14,6 +14,10 @@ Journal Articles
 Under Review
 ------------
 
+#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore. Automatic Bicycle
+   Balance Assistance Reduces Probability of Falling at Low Speeds When
+   Subjected to Handlebar Perturbations. Under review at International
+   Association of Traffic and Safety Sciences.
 #. Christoph M. Schmidt, Azita Dabiri, Frederik Schulte, Jason K. Moore, and
    Riender Happee. Cycling Safety Assessment in Microscopic Traffic Simulation:
    A Review and Methodological Framework. Under review at Transportation
