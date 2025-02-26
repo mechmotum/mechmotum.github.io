@@ -85,24 +85,24 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-vazquez-eloy|
+   * - |headshot-missing|
+     - | **Looka Schoneveld** [TUD, Nov 2024-present]
+       | *Bicycle Simulator with Realistic Turning*
+     - |headshot-vazquez-eloy|
      - | **Eloy Vázquez Fernández** [TUD, Sep 2024-present]
        | *Rolling Resistance on Different Road Surfaces for Professional Cycling*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Anna Marbus** [TUD, Feb 2024-present]
        | *Understanding cyclist conflict behavior in shared spaces*
-     - |headshot-youngblood-sara|
+   * - |headshot-youngblood-sara|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-   * - |headshot-de-vries-bart|
+     - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-     - |headshot-missing|
-     - | **Thomas Habing** [TUD, May 2023-present]
-       | *Muscle Vibration Effects in Indoor Cycling*
 
 .. |headshot-vazquez-eloy| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg
    :width: 100px
@@ -197,6 +197,11 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Thomas Habing
+     - TUD
+     - May 2023-Feb 2025
+     - Muscle Vibration Effects in Indoor Cycling
+     - `B. van Rens, J. K. Moore`
    * - Sietse Soethout
      - TUD
      - Jul 2023-Sep 2024
