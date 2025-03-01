@@ -53,12 +53,11 @@ PhD Candidates
      - |headshot-gonzalez-benjamin|
      - | **Benjamín E. González T.** [TUD, September 2024-present]
        | *Discovering the Mechanisms that Cause Bicycle Crashes Through The Merger of Video and Computational Modeling*
-   * - |headshot-dell-orto-gabriele|
-     - | **Gabriele Dell'Orto** [TUD, January 2023-February 2025]
-       | *Effects of tire properties on bicycle dynamics*
-     - |headshot-schmidt-christoph|
+   * - |headshot-schmidt-christoph|
      - | **Christoph Schmidt** [TUD, October 2022-present]
        | `Bicycle Dynamics for Microscopic Traffic Simulation <{filename}/pages/research/bicycle-dynamics-microsim.rst>`_
+     -
+     -
 
 .. |headshot-farias-jose| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-farias-jose.jpg
    :width: 100px
@@ -69,10 +68,6 @@ PhD Candidates
    :height: 133px
 
 .. |headshot-schmidt-christoph| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schmidt-christoph.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-dell-orto-gabriele| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
    :width: 100px
    :height: 133px
 
@@ -137,7 +132,7 @@ Alumni
    :align: center
 
    * - |headshot-dell-orto-gabriele|
-     - | **Gabriele Dell'Orto** [TUD, November 2024-January 2025]
+     - | **Dr. Gabriele Dell'Orto** [TUD, November 2024-January 2025]
        | `Characterization of Vibrations Experienced by Babies in Strollers and Cargo Bicycles <{filename}/pages/research/baby-child-transport-vibration.rst>`_
      - |headshot-alizadehsaravi-leila|
      - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-Feb 2024]
@@ -169,12 +164,21 @@ Alumni
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
-     - | **Jules Ronné**  [Univeristy of Gustave Eiffel Lyon, Oct 2023-Nov 2023]
+   * - |headshot-dell-orto-gabriele|
+     - | **Dr. Gabriele Dell'Orto** [TUD, January 2023-February 2025]
+       | `Bicycle tyre lateral characteristics and their effect on bicycle dynamics <https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa>`_
+     - |headshot-missing|
+     - | **Dr. Jules Ronné**  [Univeristy of Gustave Eiffel Lyon, Oct 2023-Nov 2023]
        | *Pairwise Assessment of Handling Qualities of Bicycles*
-     - |headshot-dukalski-rado|
+   * - |headshot-dukalski-rado|
      - | **Rado Dukalski** [TUD, March 2018-August 2023]
        | *Augmented Reality in Cycling for Safety and Peformance*
+     -
+     -
+
+.. |headshot-dell-orto-gabriele| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
    :width: 100px
