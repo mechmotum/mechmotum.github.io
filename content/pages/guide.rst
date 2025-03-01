@@ -43,7 +43,7 @@ Getting Started
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
 - Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
-  the calendar invite with the video chat link.
+  the calendar invite.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Jason by sending him an email with your
   student ID number, TU Delft email address, and expected duration of access.
@@ -428,8 +428,6 @@ If you need some lab supplies or equipment for your project, talk with your
 supervisor about it and they can order what you need if there are funds
 available.
 
-TU Delft 3mE VAT number: NL 001569569B01
-
 Equipment Inventory
 -------------------
 
@@ -481,10 +479,8 @@ Internet
 
 Ethernet ports
   To enable/disable:
-  Login to `Topdesk/Self Service Portal 
-  <https://tudelft.topdesk.net/>`_
-  Then:
-  ICT-Services > Network & WiFi > IT Request activation network outlet.
+  Login to `Topdesk/Self Service Portal <https://tudelft.topdesk.net/>`_
+  Then: ICT-Services > Network & WiFi > IT Request activation network outlet.
   Fill the form and wait.
 Wired connection for desktop computers
   Send a solicitude to `ict-servicedesk@tudelft.nl` providing the following information:
@@ -494,13 +490,12 @@ Wired connection for desktop computers
   - Operating system.
   - Primary purpose of the computer.
   - MAC Address (if the PC was NOT purchased by TU Delft)
-WiFi Hotspot 
+WiFi Hotspot
   - On Windows:
     Control panel > Network and Internet > Network and sharing center > Change adapter settings > Ethernet > Properties (as admin)
     Select the "sharing" tab and mark "Allow other network users to connect through this computer's internet connection".
   - On Linux
     Open the WiFi menu, in top right corner click options and then select "Turn on WiFi hotspot... (as admin)"
-
 
 Training
 ========
