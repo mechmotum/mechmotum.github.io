@@ -146,10 +146,10 @@ De Fikser (Jules)
 Life Coach (Neville)
    Organizes lab fun: vrijmibo's, bike rides, cheese for thought activities,
    etc. Embodies the proverb "all work and no play makes Jack a dull boy".
-Peril Preventer (unfilled)
+Peril Preventer (Rawdha)
    Keep an eye on safety and work with university safety to make sure lab is
    A-OK.
-Broom Finder (unfilled)
+Broom Finder (Rawdha)
    Periodically review the lending checkout sheet, remove old sheets, add new
    sheets, and track down non-returned items.
 
