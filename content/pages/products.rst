@@ -253,6 +253,10 @@ Reports
 Preprints
 =========
 
+#. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
+   Loeve, Jesper Meijerink, Thomas Valk, and Jason K. Moore, "Vibration
+   Characterisation of Strollers and Cargo Bicycles for Transporting Infants",
+   https://doi.org/10.31224/4415
 #. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
    Balance Assistance Reduces Probability of Falling at Low Speeds When
    Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.

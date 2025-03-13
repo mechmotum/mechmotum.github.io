@@ -30,7 +30,11 @@ Reports
 
 Preprints
 
-- Working analysis and paper: https://github.com/mechmotum/baby-vibration
+- Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
+  Loeve, Jesper Meijerink, Thomas Valk, and Jason K. Moore, "Vibration
+  Characterisation of Strollers and Cargo Bicycles for Transporting Infants",
+  https://doi.org/10.31224/4415 and repository
+  https://github.com/mechmotum/baby-vibration
 
 Media
 
