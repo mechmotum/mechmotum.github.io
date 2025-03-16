@@ -806,3 +806,4 @@ Random TU Delft Tips
 - The IMPhys department has a systems manual for many compute tasks on campus https://qiweb.tudelft.nl/sysman/index.html
 - You can set up general mailing lists here: https://listserv.tudelft.nl/mailman/admin
 - You can check if an ethernet port is active at https://outlets.tudelft.nl
+- GNSS data can be accessed for various sensors on campus here: https://gnss1.tudelft.nl/dlab/
