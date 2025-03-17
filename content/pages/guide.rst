@@ -807,3 +807,4 @@ Random TU Delft Tips
 - You can set up general mailing lists here: https://listserv.tudelft.nl/mailman/admin
 - You can check if an ethernet port is active at https://outlets.tudelft.nl
 - GNSS data can be accessed for various sensors on campus here: https://gnss1.tudelft.nl/dlab/
+- Access a remote windows computer on the TU Delft network: https://weblogin.tudelft.nl/Citrix/TUDAppsWeb/
