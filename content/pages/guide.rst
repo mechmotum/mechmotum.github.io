@@ -694,6 +694,10 @@ Introduction to Bicycle Dynamics
    bicycle dynamics, stability, and control after many years of work on the
    topic of single track vehicle dynamics. It also lays out a number of core
    principles for the study of lateral dynamics of bicycles.
+Ciechanowski2023_
+   Really impressive interactive explanation of bicycle dynamics by Bartosz
+   Ciechanowski that both gets the dynamics right and makes it beautiful (in
+   `Bret Victor`_ style).
 
 .. |Meijaard2007| replace:: J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L. Schwab,
    "Linearized dynamics equations for the balance and steer of a bicycle: A
@@ -707,6 +711,8 @@ Introduction to Bicycle Dynamics
 .. |Sharp2008| replace::  R. S. Sharp, "On the Stability and Control of the Bicycle,"
    Applied Mechanics Reviews, vol. 61, no. 060803, Oct. 2008,
    https://doi.org/10.1115/1.2983014.
+.. _Ciechanowski2023: https://ciechanow.ski/bicycle/
+.. _Bret Victor: https://worrydream.com/
 
 Biomechanics
 ------------
