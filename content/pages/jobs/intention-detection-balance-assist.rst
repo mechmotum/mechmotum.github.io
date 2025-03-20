@@ -22,7 +22,8 @@ develop a method of improving the feel of the balance assist system without
 degrading its safety enhancement. Possible methods are developing rider
 intention detection or applying model-matching control. This method would be
 tested on human subjects to gage their subjective feeling of the handling of
-the vehicle in typical bicycle maneuvers.
+the vehicle in typical bicycle maneuvers. This position will have the
+opportunity to spend some time at Bosch eBike Systems in Reutlingen, Germany.
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/balance-assist-bicycle-400x400.jpg
    :width: 400px
