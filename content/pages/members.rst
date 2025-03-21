@@ -23,6 +23,22 @@ Principal Investigators
    :width: 100px
    :height: 133px
 
+Staff
+=====
+
+.. list-table::
+   :class: borderless
+   :width: 60%
+   :widths: 20 80
+   :align: center
+
+   * - |headshot-rawdha-al-amri|
+     - **Rawdha Al Amri**, Lab Coordinator
+
+.. |headshot-rawdha-al-amri| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-rawdha-al-amri.jpg
+   :width: 100px
+   :height: 133px
+
 Postdoctoral Researchers
 ========================
 
