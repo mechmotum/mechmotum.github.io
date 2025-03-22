@@ -99,28 +99,33 @@ Masters of Science Students
    * - |headshot-terwint-ruben|
      - | **Ruben Terwint** [TUD, Mar 2025-present]
        | *Perception and Workload in Urban Cycling*
-     - |headshot-missing|
+     - |headshot-huang-yuke|
+     - | **Yuke Huang** [TUD, Feb 2025-present]
+       | *Cyclist Path Planning with Social Force*
+   * - |headshot-missing|
      - | **Looka Schoneveld** [TUD, Nov 2024-present]
        | *Bicycle Simulator with Realistic Turning*
-   * - |headshot-vazquez-eloy|
+     - |headshot-vazquez-eloy|
      - | **Eloy Vázquez Fernández** [TUD, Sep 2024-present]
        | *Rolling Resistance on Different Road Surfaces for Professional Cycling*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Anna Marbus** [TUD, Feb 2024-present]
        | *Understanding cyclist conflict behavior in shared spaces*
-     - |headshot-youngblood-sara|
+   * - |headshot-youngblood-sara|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-   * - |headshot-de-vries-bart|
+     - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-     -
-     -
 
 .. |headshot-terwint-ruben| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-terwint-ruben.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-huang-yuke| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huang-yuke.png
    :width: 100px
    :height: 133px
 
