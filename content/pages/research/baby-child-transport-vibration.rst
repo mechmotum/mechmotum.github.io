@@ -3,13 +3,13 @@ Vibrations of Babies and Children During Human-powered Transport
 ================================================================
 
 :status: hidden
-:date: 2025-01-17
+:date: 2025-03-28
 :collaborators: Veiligheid.nl, Brecht Daams (Daams Ergonomie), Riender Happee,
                 Georgios Papaioannou, Arjo Loeve
-:current_researchers: Gabriele Dell'Orto
-:past_researchers: Jesper Meijerink, Thomas Valk, Santo Bruijn, Alexander
-                   Meyers, Dirk-Jan van Ommeren, Jelmer Riegstra, Renate van
-                   Rooijen
+:current_researchers:
+:past_researchers: Gabriele Dell'Orto, Jesper Meijerink, Thomas Valk, Santo
+                   Bruijn, Alexander Meyers, Dirk-Jan van Ommeren, Jelmer
+                   Riegstra, Renate van Rooijen
 :research_theme: Bicycle Engineering
 :template: project
 :summary-sentence: This project's goal is to characterize the vibrations

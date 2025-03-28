@@ -6,8 +6,8 @@ Measurement and Estimation of Bicycle and Rider Physical Parameters
 :date: 2020-08
 :collaborators: Mont Hubbard, Ronald Hess, Chris Dembia, Arend Schwab, Jodi
                 Kooijman
-:current_researchers: Julie van Vlerken
-:past_researchers: Lyla Sanders, Chris Dembia
+:current_researchers:
+:past_researchers: Julie van Vlerken, Lyla Sanders, Chris Dembia
 :research_theme: Bicycle Engineering
 :template: project
 :slug: research/bicycle-rider-parameters
@@ -38,6 +38,14 @@ application:
 
    Screenshot of the bicycle dynamics web app. Click the image to go to the app
    at https://bicycle-dynamics.onrender.com.
+
+Products
+========
+
+#. J. K. Moore, C. Dembia, and O. Lee, BicycleParameters: A Python library for
+   bicycle parameter estimation and analysis. 2011.
+#. C. Dembia, J. K. Moore, S. Yin, and O. Lee, Yeadon: A Python Library For
+   Human Inertia Estimation. 2011.
 
 Funding
 =======
