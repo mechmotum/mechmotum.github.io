@@ -814,3 +814,4 @@ Random TU Delft Tips
 - You can check if an ethernet port is active at https://outlets.tudelft.nl
 - GNSS data can be accessed for various sensors on campus here: https://gnss1.tudelft.nl/dlab/
 - Access a remote windows computer on the TU Delft network: https://weblogin.tudelft.nl/Citrix/TUDAppsWeb/
+- View info about classroom facilities: https://esviewer.tudelft.nl/
