@@ -105,17 +105,12 @@ Masters of Science Students
      - |headshot-missing|
      - | **Simon Sorgedrager** [TUD, May 2024-present]
        | *Understanding No-hands Bicycling*
-   * - |headshot-missing|
-     - | **Anna Marbus** [TUD, Feb 2024-present]
-       | *Understanding cyclist conflict behavior in shared spaces*
-     - |headshot-youngblood-sara|
+   * - |headshot-youngblood-sara|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-   * - |headshot-de-vries-bart|
+     - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-     -
-     -
 
 .. |headshot-terwint-ruben| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-terwint-ruben.jpg
    :width: 100px
@@ -232,6 +227,12 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Anna Marbus
+     - TUD
+     - Feb 2024-April 2025
+     - `Cyclist Conflict Behaviour in Shared Spaces
+       <https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7>`_
+     - `C. Konrad, R. Happee, J. K. Moore`
    * - Thomas Habing
      - TUD
      - May 2023-Feb 2025
