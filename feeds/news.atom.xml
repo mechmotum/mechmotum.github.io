@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2025-03-01T10:47:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Gabriele Dell'Orto Successfully Defends His PhD Thesis</title><link href="https://mechmotum.github.io/blog/phd-graduation-result-dellorto.html" rel="alternate"></link><published>2025-03-01T10:47:00-08:00</published><updated>2025-03-01T10:47:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-03-01:/blog/phd-graduation-result-dellorto.html</id><summary type="html">&lt;div class="figure align-center"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2025-04-30T10:17:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Anna Marbus Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-anna-marbus.html" rel="alternate"></link><published>2025-04-30T10:17:00-07:00</published><updated>2025-04-30T10:17:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-04-30:/blog/msc-graduation-anna-marbus.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;
+&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-marbus-w400.png" style="height: 400px;" /&gt;
+&lt;/a&gt;
+&lt;p&gt;Anna Marbus successfully defended &amp;quot;&lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;Cyclist Conflict Behaviour in Shared Spaces&lt;/a&gt;&amp;quot; on
+April 17th, 2025. Anna developed an experiment with pairs of cyclists that
+forced them to interact with each other in an uncontrolled shared space when
+crossing paths.  She measured the trajectories of the cyclist with an accurate
+GNSS measurement …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;
+&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-marbus-w400.png" style="height: 400px;" /&gt;
+&lt;/a&gt;
+&lt;p&gt;Anna Marbus successfully defended &amp;quot;&lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;Cyclist Conflict Behaviour in Shared Spaces&lt;/a&gt;&amp;quot; on
+April 17th, 2025. Anna developed an experiment with pairs of cyclists that
+forced them to interact with each other in an uncontrolled shared space when
+crossing paths.  She measured the trajectories of the cyclist with an accurate
+GNSS measurement system and arranged four different interaction starting
+configurations. She then investigated how the cyclists adjusted their path,
+changed their speed, and whether they yielded. She found that cyclists tend to
+use path adjustments over speed adjustments. For yielding behavior she found
+that those who entered the shared space later and with lower speeds were most
+likely to yield and that cyclists who approached from the left were also mostly
+likely to yield. Unlike prior studies, she did not find that gender influenced
+yielding behavior. Anna's data and findings will help us, and others, develop
+more realistic interaction models for microsimulation safety assessment.&lt;/p&gt;
+&lt;p&gt;The following videos show the trajectories of example cyclists for all the
+configuration angles:&lt;/p&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;video width="400px" controls&gt;
+  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/encounter-45.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;video width="400px" controls&gt;
+  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/encounter-90.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;video width="400px" controls&gt;
+  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/encounter-135.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;video width="400px" controls&gt;
+  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/encounter-180.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/center&gt;&lt;p&gt;Anna was co-supervised by Christoph Konrad, Riender Happee, and Jason K.
+Moore. Everyone at the bicycle lab is very proud of Anna and wishes her the
+best in her next adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="transportation"></category><category term="conflict"></category><category term="experiment"></category></entry><entry><title>Gabriele Dell'Orto Successfully Defends His PhD Thesis</title><link href="https://mechmotum.github.io/blog/phd-graduation-result-dellorto.html" rel="alternate"></link><published>2025-03-01T10:47:00-08:00</published><updated>2025-03-01T10:47:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-03-01:/blog/phd-graduation-result-dellorto.html</id><summary type="html">&lt;div class="figure align-center"&gt;
 &lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gabriele-defense-01.jpg" /&gt;
 &lt;p class="caption"&gt;Dr. Gabriele Dell'Orto just following the awarding of the doctorate on
 Februrary 25, 2025. &lt;em&gt;Left to right: Madam Beadle, Riender Happee, Jason K.
