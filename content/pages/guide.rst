@@ -63,6 +63,29 @@ Getting Started
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
 
+BSc Teams
+---------
+
+- BSc student teams doing projects with the lab can have lab access. To gain
+  access:
+
+  - Send list of students (name, student ID, email) and end date of access to
+    the lab coordinator or Jason.
+  - Each student who requests access must confirm they have read this guide,
+    most importantly the safety and space usage rules.
+
+- One person from each team must join the lab email list and lab chat to send
+  and receive lab communication. This person should inform the rest of their
+  team on any pertinent information.
+- The team may have access to the Google Drive folder, ideally just one person
+  per team. Send this request to Jason and include the netid's needing access.
+- All members of the team must follow the lab rules in this guide and
+  instruction by any of the lab members.
+- A team should use a project box for their project if lab storage is needed.
+- The MSc, PhD, and Postdoc projects have priority for lab space. Coordinate
+  sharing space and time with the lab via your supervisor or via the lab
+  chat/email.
+
 Communication
 =============
 
