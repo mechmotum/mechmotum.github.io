@@ -146,9 +146,9 @@ https://github.com/mechmotum/housekeeping/issues
 
 Keep the issues up-to-date so that they can be passed to others.
 
-da MC: (Anna Marbus)
+da MC: (Looka Schoneveld)
    Organizes the lab meeting, see the `MC Guide`_.
-Meneer/Mevrouw Schoon (Sara Youngblood)
+Meneer/Mevrouw Schoon (Eloy Vazquez)
    Organizes monthly Friday afternoon tidy and bi-annual lab clean up days.
    Reminds the lab if the tidiness level is hampering other's work.
 Dragon Hoard Overseer (Benjamin)
