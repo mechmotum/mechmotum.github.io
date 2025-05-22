@@ -52,7 +52,7 @@ Getting Started
   working there.
 - Request access to the lab's shared Google Drive from Jason.
 - Request to be added to the Github lab team organization: https://github.com/mechmotum.
-- We have the optional "Cheese for Thought" lunch every Thursday at 12:00, meet
+- We have the optional "Cheese for Thought" lunch every Wednesday at 12:00, meet
   at the lab. This is a chance to discuss topics informally or have some good
   weather fun.
 - Every month we have a Friday afternoon lab tidying session at 16:30 and we go
