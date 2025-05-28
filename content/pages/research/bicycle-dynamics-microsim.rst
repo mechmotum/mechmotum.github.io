@@ -5,7 +5,7 @@ Bicycle Dynamics for Microscopic Traffic Simulation
 :status: hidden
 :date: 2024-05-15
 :collaborators: Jason Moore, Azita Dabiri, Frederik Schulte, Riender Happee 
-:current_researchers: Christoph Schmidt, Anna Marbus
+:current_researchers: Christoph Konrad, Anna Marbus
 :research_theme: Cycling Safety
 :template: project
 :summary-sentence: We are investigating the influence of bicycle dynamics on the traffic conflict process to improve traffic simulation models towards predictive safety assessment of infrastructure improvements, smart cycling assistance systems, connectivity, and automated driving. 
@@ -115,7 +115,7 @@ Contact
 
 If you want to learn more about the project, are interested in collaboration, or are looking for Master's and Bachelor's Thesis project opportunities, please **reach out!**  
 
-| **Christoph M. Schmidt (Dipl.-Ing.)** - he | him
+| **Christoph M. Konrad (Dipl.-Ing.)** - he | him (formerly C.M. Schmidt)
 | *PhD Candidate, TU Delft*
 | ---
 | Biomechatronics & Human-Machine Control
@@ -126,11 +126,11 @@ If you want to learn more about the project, are interested in collaboration, or
 | ---
 | Email_ | LinkedIn_ | ResearchGate_ | GitHub_ | `TU Delft`__
 
-.. _Email: mailto:c.m.schmidt@tudelft.nl  
+.. _Email: mailto:c.m.konrad@tudelft.nl  
 .. _LinkedIn: https://www.linkedin.com/in/chm-schmidt/
-.. _ResearchGate: https://www.researchgate.net/profile/Christoph-Schmidt-30
-.. _Github: https://github.com/chrismo-schmidt 
-.. _TUD: https://www.tudelft.nl/en/staff/c.m.schmidt/
+.. _ResearchGate: https://www.researchgate.net/profile/Christoph-Konrad-6
+.. _Github: https://github.com/chris-konrad
+.. _TUD: https://www.tudelft.nl/en/staff/c.m.konrad/
 
 __ TUD_
 
