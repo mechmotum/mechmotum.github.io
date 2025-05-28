@@ -67,7 +67,7 @@ PhD Candidates
      - | **Benjamín E. González T.** [TUD, September 2024-present]
        | *Discovering the Mechanisms that Cause Bicycle Crashes Through The Merger of Video and Computational Modeling*
      - |headshot-schmidt-christoph|
-     - | **Christoph Schmidt** [TUD, October 2022-present]
+     - | **Christoph M. Konrad** [TUD, October 2022-present]
        | `Bicycle Dynamics for Microscopic Traffic Simulation <{filename}/pages/research/bicycle-dynamics-microsim.rst>`_
 
 .. |headshot-gonzalez-benjamin| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gonzalez-benjamin.jpg
