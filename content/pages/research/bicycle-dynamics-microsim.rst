@@ -5,7 +5,7 @@ Bicycle Dynamics for Microscopic Traffic Simulation
 :status: hidden
 :date: 2024-05-15
 :collaborators: Jason Moore, Azita Dabiri, Frederik Schulte, Riender Happee 
-:current_researchers: Christoph Konrad, Anna Marbus
+:current_researchers: Christoph Konrad, Anna Marbus, Yuke Huang
 :research_theme: Cycling Safety
 :template: project
 :summary-sentence: We are investigating the influence of bicycle dynamics on the traffic conflict process to improve traffic simulation models towards predictive safety assessment of infrastructure improvements, smart cycling assistance systems, connectivity, and automated driving. 
@@ -70,9 +70,11 @@ Ongoing Work
   from responses to desired yaw angle input collected in controlled riding experiments to calibrate 
   the bicycle dynamics.
 
-- **Cyclist interaction behavior (Master's Graduation Project Anna Marbus):** Conducting a controlled 
-  riding experiment and recording highly accurate dynamic data from on-bike sensors to understand the 
-  behavior of cyclists in different traffic conflict scenarios. 
+- **Cyclist interaction behavior:** Calibrating a cyclist social force model based on experimental 
+  data of open space cyclist interactions.
+
+- **Cyclist path planning and anticipation (Master's Graduation Project Yuke Huang):** Modelling 
+  cyclist path planning and anticipation within the social force framework. 
 
 - **Native Cyclist Social Forces for SUMO:** Adding a new C++ implementation of our cyclist 
   social force model to the codebase of DLR's open-source simulator SUMO_ to make the model 
@@ -102,13 +104,21 @@ Research Output
 
 	Schmidt, C. M., Moore, J. K., Dabiri, A., Happee, R., & Schulte, F. (2023). Connected Traffic of Vulnerable Bicyclists and Automated Vehicles: Deep Learning Trajectory Generation for Realistic Simulated Bicycle Intersection Crossings. Poster session presented at SUMO User Conference 2023, Berlin, Germany. http://resolver.tudelft.nl/uuid:77d1435a-f7dc-4ad3-a12e-3bbc2ba60038
 
+
+
 :Conference Presentations:
 
 	Schmidt, C. M. (2023, October 18).	Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model [Conference presentation]. Symposium on the Dynamics and Control of Single Track Vehicles (BMD 2023), Delft, The Netherlands.
+
+:Student Theses:
+
+	Marbus, Anna. (2025).	Cyclist conflict behavior in shared spaces [Master Thesis]. Delft Univeristy of Technology. https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7
 	
 .. _bmd2023suppl: : https://github.com/chrismo-schmidt/bmd2023-supplements-bike-dynamics-microsim/
 
 __ bmd2023suppl_
+
+
 
 Contact
 =======
