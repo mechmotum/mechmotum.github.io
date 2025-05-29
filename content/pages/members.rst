@@ -102,15 +102,14 @@ Masters of Science Students
    * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     - |headshot-missing|
-     - | **Simon Sorgedrager** [TUD, May 2024-present]
-       | *Understanding No-hands Bicycling*
-   * - |headshot-youngblood-sara|
+     - |headshot-youngblood-sara|
      - | **Sara Youngblood** [TUD, Jan 2024-present]
        | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-     - |headshot-de-vries-bart|
+   * - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
+     -
+     -
 
 .. |headshot-terwint-ruben| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-terwint-ruben.jpg
    :width: 100px
@@ -227,6 +226,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Simon Sorgedrager
+     - TUD
+     - May 2024-April 2025
+     - `Riding a Bicycle Without Hands: How To Do It and the Bicycle Dynamics
+       Behind It
+       <https://resolver.tudelft.nl/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55>`_
+     - `J. K. Moore, J. Farias`
    * - Anna Marbus
      - TUD
      - Feb 2024-April 2025
