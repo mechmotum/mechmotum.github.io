@@ -102,14 +102,9 @@ Masters of Science Students
    * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     - |headshot-youngblood-sara|
-     - | **Sara Youngblood** [TUD, Jan 2024-present]
-       | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-   * - |headshot-de-vries-bart|
+     - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-     -
-     -
 
 .. |headshot-terwint-ruben| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-terwint-ruben.jpg
    :width: 100px
@@ -124,10 +119,6 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-nieman-neville| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-nieman-neville.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-youngblood-sara| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-youngblood-sara.png
    :width: 100px
    :height: 133px
 
@@ -226,6 +217,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Sara Youngblood
+     - TUD
+     - Jan 2024-May 2025
+     - `Engineering Bicycle Stability: A Study of Control Strategies for Crash
+       Prevention on Icy and Normal Terrain
+       <https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_
+     - `J. K. Moore and B. González`
    * - Simon Sorgedrager
      - TUD
      - May 2024-April 2025

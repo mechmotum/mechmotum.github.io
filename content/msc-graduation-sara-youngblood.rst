@@ -26,7 +26,8 @@ Sara Youngblood Successfully Defends Her MSc Thesis
 Sara Youngblood successfully defended her MSc thesis titled `Engineering
 Bicycle Stability: A Study of Control Strategies for Crash Prevention on Icy
 and Normal Terrain
-<https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_.
+<https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_ on
+May 28, 2025.
 
 Sara developed a pair of non-linear bicycle models, one without lateral tire
 slip and another with tire slip. In the tire slip model, she generated the tire
