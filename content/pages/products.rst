@@ -157,9 +157,21 @@ Theses
 2025
 ----
 
-#. Dell'Orto, G. (2025). Bicycle tyre lateral characteristics and their effect
-   on bicycle dynamics [PhD, Delft University of Technology].
-   https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa
+#. Youngblood, Sara (2025). `Engineering Bicycle Stability: A Study of Control
+   Strategies for Crash Prevention on Icy and Normal Terrain
+   <https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_
+   [MSc, Delft University of Technology].
+#. Sorgedrager, Simon (2025). `Riding a Bicycle Without Hands: How To Do It and
+   the Bicycle Dynamics Behind It
+   <https://resolver.tudelft.nl/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55>`_
+   [MSc, Delft University of Technology].
+#. Marbus, Anna (2025). `Cyclist Conflict Behaviour in Shared Spaces
+   <https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7>`_
+   [MSc, Delft University of Technology].
+#. Dell'Orto, G. (2025). `Bicycle tyre lateral characteristics and their effect
+   on bicycle dynamics
+   <https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa>`_
+   [PhD, Delft University of Technology].
 
 2024
 ----
