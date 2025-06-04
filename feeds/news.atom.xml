@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2025-05-29T10:17:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Simon Sorgedrager Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-simon-sorgedrager.html" rel="alternate"></link><published>2025-05-29T10:17:00-07:00</published><updated>2025-05-29T10:17:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-05-29:/blog/msc-graduation-simon-sorgedrager.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2025-06-04T10:55:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Sara Youngblood Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-sara-youngblood.html" rel="alternate"></link><published>2025-06-04T10:55:00-07:00</published><updated>2025-06-04T10:55:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-06-04:/blog/msc-graduation-sara-youngblood.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-youngblood.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-youngblood-sara.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Sara Youngblood successfully defended her MSc thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3"&gt;Engineering
+Bicycle Stability: A Study of Control Strategies for Crash Prevention on Icy
+and Normal Terrain&lt;/a&gt; on
+May 28, 2025.&lt;/p&gt;
+&lt;p&gt;Sara developed a pair of non-linear bicycle models, one without lateral tire
+slip and another with tire slip. In the tire slip …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-youngblood.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-youngblood-sara.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Sara Youngblood successfully defended her MSc thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3"&gt;Engineering
+Bicycle Stability: A Study of Control Strategies for Crash Prevention on Icy
+and Normal Terrain&lt;/a&gt; on
+May 28, 2025.&lt;/p&gt;
+&lt;p&gt;Sara developed a pair of non-linear bicycle models, one without lateral tire
+slip and another with tire slip. In the tire slip model, she generated the tire
+forces using a relationship that was linear in the +/- 6 degree slip angle
+range and saturated outside of that range. She setup both models to simulate
+steady turns at various speeds with PD control and introduced an abrupt change
+in the tire friction characteristics to simulate hitting an ice patch in the
+slip model. To mitigate the ice patch, she introduced an LQR controller using
+roll motion feedback that engaged only when large slip angles were detected.
+The controller was able to keep the bicycle in a stable state for steady turns
+with roll angles of up to 10 degrees. Her work demonstrates the possibility of
+active bicycle traction control in mitigating falls caused by reduced friction
+between the tire and the ground.&lt;/p&gt;
+&lt;p&gt;The following animations show the controller in action:&lt;/p&gt;
+&lt;table border="1" class="borderless docutils align-center" style="width: 100%"&gt;
+&lt;colgroup&gt;
+&lt;col width="33%" /&gt;
+&lt;col width="33%" /&gt;
+&lt;col width="33%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="slip-no-slip" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-ice-vs-normal.gif" style="width: 300px;" /&gt;
+Comparison of the no-slip bicycle motion to that of the model with tire
+slip on ice.&lt;/td&gt;
+&lt;td&gt;&lt;img alt="ice" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-ice-both-wheels-highlighted.gif" style="width: 300px;" /&gt;
+Simulation of the tire slip model falling on ice.&lt;/td&gt;
+&lt;td&gt;&lt;img alt="lqr-pd" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-lqr-vs-pd-with-path-highlight.gif" style="width: 300px;" /&gt;
+Simulations of the tire slip model controlled by roll motion feedback
+with manually selected gains and LQR generated gains.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Sara was co-supervised by Jason K. Moore and Benjamin González. Everyone at the
+bicycle lab is very proud of Sara and wishes her the best in her next
+adventures.&lt;/p&gt;
+</content><category term="news"></category><category term="bicycle"></category><category term="control"></category><category term="slip"></category><category term="tire"></category><category term="ice"></category></entry><entry><title>Simon Sorgedrager Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-simon-sorgedrager.html" rel="alternate"></link><published>2025-05-29T10:17:00-07:00</published><updated>2025-05-29T10:17:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-05-29:/blog/msc-graduation-simon-sorgedrager.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;
 &lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-sorgedrager-w400.png" style="width: 400px;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Simon Sorgedgrager successfully defended his MSc thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55"&gt;Riding a
