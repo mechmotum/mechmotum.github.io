@@ -181,10 +181,11 @@ Examples:
 File size
 ---------
 
-There is little reason for the PDF of a thesis to be larger than 10 Mb. If your
-document is larger than 10 Mb then you have most likely embedded images that
-are much too large. Reduce the size of images before embedding. A 300 dpi image
-that fits on an A4 page should only be a few hundred kilobytes.
+There is little reason for the PDF of a thesis to be larger than 10 MB. If your
+document is larger than 10 MB, then you have most likely embedded images that
+are much too large. Reduce the size of images before embedding and make sure to
+use .jpg images, rather than .png. A 300 dpi image that fits on an A4 page
+should only be a few hundred kilobytes.
 
 Statement On AI Assistance
 --------------------------
