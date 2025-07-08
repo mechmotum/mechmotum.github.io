@@ -415,7 +415,7 @@ Research Assistants
 Teaching Assistants
    - Neville Nieman [TUD, Jun 2024-Jul 2024]
    - Karien ter Welle [TUD, Feb 2024-Jun 2024]
-   - Neils Stienen [TUD, Feb 2024-Jun 2024]
+   - Niels Stienen [TUD, Feb 2024-Jun 2024]
    - Riccardo Di Girolamo [TUD, Feb 2024-Jun 2024]
    - Ragnhild Maarleveld [TUD, Mar 2023-Aug 2023]
    - Eoinlee Bley [TUD, Jan 2023-Jul 2023]
