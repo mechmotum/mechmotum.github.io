@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - software</title><link href="https://mechmotum.github.io/" rel="alternate"></link><link href="https://mechmotum.github.io/feeds/software.atom.xml" rel="self"></link><id>https://mechmotum.github.io/</id><updated>2024-09-13T11:55:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>My Research Software Development Setup</title><link href="https://mechmotum.github.io/blog/setup-development-environment.html" rel="alternate"></link><published>2024-09-13T11:55:00-07:00</published><updated>2024-09-13T11:55:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-09-13:/blog/setup-development-environment.html</id><summary type="html">&lt;div class="section" id="introduction"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - software</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/software.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2024-09-13T11:55:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>My Research Software Development Setup</title><link href="https://mechmotum.github.io/blog/setup-development-environment.html" rel="alternate"/><published>2024-09-13T11:55:00-07:00</published><updated>2024-09-13T11:55:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-09-13:/blog/setup-development-environment.html</id><summary type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I have been teaching scientific Python for about 15 years now and helping
 students install everything correctly on their own computer has not really
@@ -390,4 +390,4 @@ My opinion is that Conda is still the more full proof approach for a
 scientific software setup for our general use cases.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="software"></category><category term="conda"></category><category term="python"></category><category term="scientific software"></category><category term="installation"></category></entry></feed>
+</content><category term="software"/><category term="conda"/><category term="python"/><category term="scientific software"/><category term="installation"/></entry></feed>
