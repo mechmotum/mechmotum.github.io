@@ -302,6 +302,10 @@ Presentations
 2025
 ----
 
+#. **Moore, J. K.**, Brockie, S. G., Stienstra, T. J, Van den Bogert, A. J.
+   (2025, July 25). Fast Symbolic Methods for Muscle-driven Optimal Control
+   [Oral]. 20th International Symposium on Computer Simulation in Biomechanics,
+   Uppsala, Sweden. https://tinyurl.com/tgcs2025-moore
 #. **J. K. Moore, G. Dell'Orto, J. Farias, C. Konrad, B. Gonzalez**, "Overview
    of the Current TU Delft Bicycle Lab Research", January 13, 2025, Cycling
    Day, Leuven, Belgium. [`Slides
