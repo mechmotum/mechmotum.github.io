@@ -93,7 +93,7 @@ Masters of Science Students
      - |headshot-huang-yuke|
      - | **Yuke Huang** [TUD, Feb 2025-present]
        | *Cyclist Path Planning with Social Force*
-   * - |headshot-missing|
+   * - |headshot-schoneveld-looka|
      - | **Looka Schoneveld** [TUD, Nov 2024-present]
        | *Bicycle Simulator with Realistic Turning*
      - |headshot-vazquez-eloy|
@@ -105,6 +105,10 @@ Masters of Science Students
      - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
+
+.. |headshot-schoneveld-looka| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schoneveld-looka.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-terwint-ruben| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-terwint-ruben.jpg
    :width: 100px
