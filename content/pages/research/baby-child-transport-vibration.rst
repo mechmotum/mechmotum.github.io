@@ -36,6 +36,14 @@ Preprints
   https://doi.org/10.31224/4415 and repository
   https://github.com/mechmotum/baby-vibration
 
+Presentations
+
+- Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
+  J. Loeve, and **Moore, J. K.** (2025, July 29). Vibration Characterization of
+  Strollers and Cargo Bicycles for Transporting Infants [Oral].  International
+  Society of Biomechanics, Stockholm, Sweden.
+  https://tinyurl.com/isb2025-moore
+
 Media
 
 - `How Comfortable are Cargo Bikes Actually for Children

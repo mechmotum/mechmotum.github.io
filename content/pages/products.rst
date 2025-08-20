@@ -302,6 +302,14 @@ Presentations
 2025
 ----
 
+#. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
+   J. Loeve, and **Moore, J. K.** (2025, July 29). Vibration Characterization
+   of Strollers and Cargo Bicycles for Transporting Infants [Oral].
+   International Society of Biomechanics, Stockholm, Sweden.
+   https://tinyurl.com/isb2025-moore
+#. **Jules Ronné** J. K. Moore (2025, July 28). Inferring Cyclist Workload
+   Using Gaze Metrics for Bicycle Balancing Tasks [Oral]. International Society
+   of Biomechanics, Stockholm, Sweden.
 #. **Moore, J. K.**, Brockie, S. G., Stienstra, T. J, Van den Bogert, A. J.
    (2025, July 25). Fast Symbolic Methods for Muscle-driven Optimal Control
    [Oral]. 20th International Symposium on Computer Simulation in Biomechanics,
