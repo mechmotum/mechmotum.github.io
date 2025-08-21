@@ -19,6 +19,15 @@ Vibrations of Babies and Children During Human-powered Transport
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/child-dummy-in-bakfiets-400x400.jpg
 :slug: research/baby-child-transport-vibration
 
+.. raw:: html
+
+   <iframe title="vimeo-player"
+   src="https://player.vimeo.com/video/1111796694?h=3c89622c18" width="640"
+   height="360" frameborder="0"
+   referrerpolicy="strict-origin-when-cross-origin" allow="autoplay;
+   fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+   allowfullscreen></iframe>
+
 Products
 ========
 
