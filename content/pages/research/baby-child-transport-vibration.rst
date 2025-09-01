@@ -28,6 +28,15 @@ Vibrations of Babies and Children During Human-powered Transport
    fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
    allowfullscreen></iframe>
 
+.. raw:: html
+
+   <iframe title="vimeo-player"
+   src="https://player.vimeo.com/video/1111986502" width="640"
+   height="360" frameborder="0"
+   referrerpolicy="strict-origin-when-cross-origin" allow="autoplay;
+   fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+   allowfullscreen></iframe>
+
 Products
 ========
 
