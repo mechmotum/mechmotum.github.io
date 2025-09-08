@@ -75,14 +75,6 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
-   * - `Improving Rider Acceptance of Bicycle Balance Assist <{filename}/pages/jobs/intention-detection-balance-assist.rst>`_
-     - 2025-03-20
-     - Bosch eBike Systems
-     - Internship and/or Thesis
-   * - `Wind Force Safety Threshold for Cyclists in Urban Environments <{filename}/pages/jobs/cyclist-wind-norm.rst>`_
-     - 2025-03-20
-     - Actiflow, Peutz
-     - Internship
    * - `Bicycle pose estimation <{filename}/pages/jobs/bike-pose-estimation.rst>`_
      - 2025-02-13
      - Benjamin Gonzalez
@@ -147,6 +139,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Wind Force Safety Threshold for Cyclists in Urban Environments <{filename}/pages/jobs/cyclist-wind-norm.rst>`_
+     - 2025-03-20
+     - Actiflow, Peutz
+     - Huy Tieu
+   * - `Improving Rider Acceptance of Bicycle Balance Assist <{filename}/pages/jobs/intention-detection-balance-assist.rst>`_
+     - 2025-03-20
+     - Bosch eBike Systems
+     - Dana van der Pol
    * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
      - 2023-08-22
      - Christoph Schmidt, Riender Happee
