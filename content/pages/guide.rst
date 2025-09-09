@@ -545,20 +545,26 @@ Ethernet ports
   | Then:  
   | ICT-Services > Network & WiFi > IT Request activation network outlet.  
   | Fill the form and wait.
+
 Wired connection for desktop computers
-  Send a solicitude to `ict-servicedesk@tudelft.nl` providing the following information:  
+  | Send a solicitude to `ict-servicedesk@tudelft.nl` providing the following information:    
+
     - TUD*** number.  
     - Model of the computer.  
     - Serial number.  
     - Operating system.  
     - Primary purpose of the computer.  
-    - MAC Address (if the PC was NOT purchased by TU Delft).  
-WiFi Hotspot 
-  - On Windows:
-    Control panel > Network and Internet > Network and sharing center > Change adapter settings > Ethernet > Properties (as admin)
-    Select the "sharing" tab and mark "Allow other network users to connect through this computer's internet connection".
-  - On Linux
-    Open the WiFi menu, in top right corner click options and then select "Turn on WiFi hotspot... (as admin)".
+    - MAC Address (if the PC was NOT purchased by TU Delft). 
+
+WiFi Hotspot
+  | On Windows:
+
+    - Control panel > Network and Internet > Network and sharing center > Change adapter settings > Ethernet > Properties (as admin)
+    - Select the "sharing" tab and mark "Allow other network users to connect through this computer's internet connection".
+
+  | On Linux:
+
+    - Open the WiFi menu, in top right corner click options and then select "Turn on WiFi hotspot... (as admin)".
 
 
 Training
