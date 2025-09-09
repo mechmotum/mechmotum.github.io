@@ -83,19 +83,11 @@ in finding students for [#]_:
      - 2024-05-15
      - Dustyn Roberts
      - Internship
-   * - `Explosive Power in BMX Cycling <{filename}/pages/jobs/visser-bmx.rst>`_
-     - 2024-02-08
-     - Peter Visser
-     - Thesis
    * - `Using Model Predictive Control to Assist in Bicycle Lane Changes <{filename}/pages/jobs/mpc-bicycle-assist-experiments.rst>`_
      - 2023-10-27
      - Laura Marchal-Crespo, Riender Happee
      - Thesis
    * - `Cycling in Virtual Reality <{filename}/pages/jobs/cycling-in-virtual-reality.rst>`_
-     - 2023-10-27
-     -
-     - Thesis
-   * - `Optimal Control of the Bicycle-Rider Human-Machine System <{filename}/pages/jobs/optimal-bicycle-rider.rst>`_
      - 2023-10-27
      -
      - Thesis
@@ -106,10 +98,6 @@ in finding students for [#]_:
    * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
      - 2021-02-23
      - Dr. Patrick Forbes & Matto Leeuwis @ Erasmus Medical Center
-     - Thesis
-   * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
-     - 2021-02-15
-     -
      - Thesis
    * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
      - 2020-11-17
@@ -139,6 +127,10 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
+     - 2021-02-15
+     -
+     - Looka Schoneveld
    * - `Wind Force Safety Threshold for Cyclists in Urban Environments <{filename}/pages/jobs/cyclist-wind-norm.rst>`_
      - 2025-03-20
      - Actiflow, Peutz
@@ -147,6 +139,10 @@ in finding students for [#]_:
      - 2025-03-20
      - Bosch eBike Systems
      - Dana van der Pol
+   * - `Optimal Control of the Bicycle-Rider Human-Machine System <{filename}/pages/jobs/optimal-bicycle-rider.rst>`_
+     - 2023-10-27
+     -
+     - Simon Sorgedrager
    * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
      - 2023-08-22
      - Christoph Schmidt, Riender Happee
@@ -155,6 +151,10 @@ in finding students for [#]_:
      - 2023-10-27
      - Oliver Lee, Björn Andersson
      - Bart de Vries
+   * - `Explosive Power in BMX Cycling <{filename}/pages/jobs/visser-bmx.rst>`_
+     - 2024-02-08
+     - Peter Visser
+     - Neville Nieman
    * - `Squiggly Bicycle Routes <{filename}/pages/jobs/squiggly-bicycle-routes.rst>`_
      - 2020-09-10
      - Ted Buehler (Portland, USA)
