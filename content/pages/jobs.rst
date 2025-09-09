@@ -103,6 +103,10 @@ in finding students for [#]_:
      - 2022-09-08
      -
      - Thesis
+   * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
+     - 2021-02-23
+     - Dr. Patrick Forbes & Matto Leeuwis @ Erasmus Medical Center
+     - Thesis
    * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
      - 2021-02-15
      -
@@ -135,10 +139,14 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
-   * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
-     - 2021-02-23
-     - Dr. Patrick Forbes & Matto Leeuwis @ Erasmus Medical Center
-     - Ralf Rienks
+   * - `Wind Force Safety Threshold for Cyclists in Urban Environments <{filename}/pages/jobs/cyclist-wind-norm.rst>`_
+     - 2025-03-20
+     - Actiflow, Peutz
+     - Huy Tieu
+   * - `Improving Rider Acceptance of Bicycle Balance Assist <{filename}/pages/jobs/intention-detection-balance-assist.rst>`_
+     - 2025-03-20
+     - Bosch eBike Systems
+     - Dana van der Pol
    * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
      - 2023-08-22
      - Christoph Schmidt, Riender Happee

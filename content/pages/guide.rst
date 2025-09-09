@@ -20,10 +20,13 @@ Sub-Guides
 ==========
 
 - `MSc Guide <{filename}/pages/guide-msc.rst>`_
+- `Employee Guide <{filename}/pages/guide-employee.rst>`_
 - `Writing Guide <{filename}/pages/guide-writing.rst>`_
-- `Data Management Guide <{filename}/pages/guide-data-management.rst>`_
 - `Experimentation Guide <{filename}/pages/guide-experimentation.rst>`_
+- `Data Management Guide <{filename}/pages/guide-data-management.rst>`_
+- `Academic Authorship Guide <{filename}/pages/guide-authorship.rst>`_
 - `Lab Meeting MC Guide <{filename}/pages/guide-mc-lab-meetings.rst>`_
+- `Lab Meetings Archive <{filename}/pages/lab-meetings-archive.rst>`_
 
 Getting Started
 ===============
@@ -41,7 +44,7 @@ Getting Started
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
 - Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
-  the calendar invite with the video chat link.
+  the calendar invite.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
   needed). These can be requested from Jason by sending him an email with your
   student ID number, TU Delft email address, and expected duration of access.
@@ -49,7 +52,7 @@ Getting Started
   working there.
 - Request access to the lab's shared Google Drive from Jason.
 - Request to be added to the Github lab team organization: https://github.com/mechmotum.
-- We have the optional "Cheese for Thought" lunch every Thursday at 12:00, meet
+- We have the optional "Cheese for Thought" lunch every Wednesday at 12:00, meet
   at the lab. This is a chance to discuss topics informally or have some good
   weather fun.
 - Every month we have a Friday afternoon lab tidying session at 16:30 and we go
@@ -60,67 +63,28 @@ Getting Started
 .. _email list: https://groups.google.com/g/mechmotum
 .. _lab members page: {filename}/pages/members.rst
 
-Employees
-=========
+BSc Teams
+---------
 
-Postdocs, PhDs, and other staff
+- BSc student teams doing projects with the lab can have lab access. To gain
+  access:
 
-- You are expected to attend the lab meetings and other common lab work
-  sessions (e.g. lab cleanup) unless you are sick or on holiday.
-- You are expected to spend some of your time to help Jason manage and organize
-  the lab and research group. In particular, you should help improve and
-  maintain the website, help tidy, organize, and clean the lab space, keep
-  physical equipment maintained and running. PhDs and Postdocs should take on
-  at least one lab role and help with the other roles' tasks.
-- If you are not able to work at standard capacity, you must take sick leave or
-  holiday leave.
-- If you need to take sick leave, report this to your immediate supervisor and
-  the secretariat when you become sick. When you return, also inform your
-  immediate supervisor and secretariat. Make sure your sick leave hours are
-  logged in TIM.
-- All holiday time has to be requested via TIM and approved by the department
-  manager. You must take your holiday time before the end of your contract.
-  Note that you can sell some holiday time (up to 38 hrs/year via IKA). If you
-  decide to take a holiday please inform Jason by email so he is aware
-  you are unavailable and can mark it on his calendar. If you are going to take a
-  week or more at a time, please inform your supervisor well in advance for
-  planning purposes so we can cover any of your duties.
-- TU Delft's policy is that you can work from home 2 days per week if your
-  supervisor approves. The other 3 days should be on campus. You have Jason's
-  blanket permission to work from home or other locations the equivalent of 2
-  days per week. If you want to work from home more than this, discuss with
-  Jason. You should, in general, complete your contracted work hours during
-  typical working hours ~8-6 so that you can interact with the lab members.
-  When you work from home you should be reachable by email, phone, or video
-  chat, etc. during these hours. There is no expectation that you are available
-  outside standard work hours or that you have to respond to email, calls,
-  chats, etc. although occasionally there are emergencies and your flexibility
-  is appreciated.
-- You likely have a budget associated with your position or projects. Ask Jason
-  or the relevant supervisor to tell you this budget. You can mange your own
-  budget and don't need to ask permission for purchasing things < 250 EUR. If
-  you need to spend more than that, then inform your immediate supervisor of
-  the purchase before purchasing so there are no surprises. The secretariat can
-  purchase items for you or you can purchase items and request reimbursement.
-- Work related travel outside of the Netherlands must be pre approved via
-  Digiforms (and thus by the department manager) and pre-approved by Jason.
-- Postdocs will have an annual review with your supervisors (R&O). These should
-  occur in the first quarter of the year. It is up to you to make sure this is
-  scheduled. PhDs follow the graduate school review process and do not have
-  R&O's.
-- Postdocs may use 20% of their contracted time to pursue their academic and
-  career endeavors not related to their contracted work, e.g. finishing papers
-  from their PhD or gaining teaching experience, given that progress on your
-  contracted project is satisfactory. Discuss workload with Jason if you are
-  not able to take advantage of this as you desire and we will do our best to
-  make this possible, but this is mostly dependent on your ability to be
-  efficient with your primary research tasks.
-- If you supervise BSc, MSc, or PhD students that regularly use the lab
-  resources and/or Jason is the main supervisor of, those students need to
-  follow join the Bicycle Lab and follow the expectations in this guide.
-- If you have multiple supervisors, you will need to merge their expectations
-  and policies with Jason's. Discuss with your supervisors if there are
-  incompatibilities.
+  - Send list of students (name, student ID, email) and end date of access to
+    the lab coordinator or Jason.
+  - Each student who requests access must confirm they have read this guide,
+    most importantly the safety and space usage rules.
+
+- One person from each team must join the lab email list and lab chat to send
+  and receive lab communication. This person should inform the rest of their
+  team on any pertinent information.
+- The team may have access to the Google Drive folder, ideally just one person
+  per team. Send this request to Jason and include the netid's needing access.
+- All members of the team must follow the lab rules in this guide and
+  instruction by any of the lab members.
+- A team should use a project box for their project if lab storage is needed.
+- The MSc, PhD, and Postdoc projects have priority for lab space. Coordinate
+  sharing space and time with the lab via your supervisor or via the lab
+  chat/email.
 
 Communication
 =============
@@ -182,15 +146,14 @@ https://github.com/mechmotum/housekeeping/issues
 
 Keep the issues up-to-date so that they can be passed to others.
 
-da MC: (Anna Marbus)
+da MC: (Looka Schoneveld)
    Organizes the lab meeting, see the `MC Guide`_.
-Meneer/Mevrouw Schoon (Sara Youngblood)
+Meneer/Mevrouw Schoon (Eloy Vazquez)
    Organizes monthly Friday afternoon tidy and bi-annual lab clean up days.
    Reminds the lab if the tidiness level is hampering other's work.
 Dragon Hoard Overseer (Benjamin)
    Maintains a spreadsheet on our GDrive containing the lab inventory, both
-   consumable supplies and significant equipment (< 200 EUR or so). Keeps an
-   eye on the borrow sheet and makes sure things are returned.
+   consumable supplies and significant equipment (< 200 EUR or so).
 Batterij-momma (Christoph)
    Ensures that all batteries are stored safely and that their charge is kept
    topped up. The protector of the lives of all batteries.
@@ -206,10 +169,10 @@ De Fikser (Jules)
 Life Coach (Neville)
    Organizes lab fun: vrijmibo's, bike rides, cheese for thought activities,
    etc. Embodies the proverb "all work and no play makes Jack a dull boy".
-Peril Preventer (unfilled)
+Peril Preventer (Rawdha)
    Keep an eye on safety and work with university safety to make sure lab is
    A-OK.
-Broom Finder (unfilled)
+Broom Finder (Rawdha)
    Periodically review the lending checkout sheet, remove old sheets, add new
    sheets, and track down non-returned items.
 
@@ -301,6 +264,15 @@ TU Delft offers several resources for open science:
 - `You Share, We Take Care! <https://www.tudelft.nl/en/library/library-for-researchers/library-for-researchers/publishing-outreach/you-share-we-take-care/>`_
 - `Open Science Community Delft <https://osc-delft.github.io/>`_
 - `TU Delft Open Science Portal <https://www.tudelft.nl/library/actuele-themas/openscience>`_
+
+Jason's slides on making computational reproducible papers:
+
+.. raw:: html
+
+   <iframe
+   src="https://docs.google.com/presentation/d/e/2PACX-1vQDdWrp6zgVY1RodVLECVI0D7leP5eAeJLUD6ZHuX_NA-jvfWKTXcWHv9mZjR6W0PxPmmaJgFMpxIqJ/embed?start=false&loop=false&delayms=3000"
+   frameborder="0" width="960" height="569" allowfullscreen="true"
+   mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Research Tools Contributions
 ----------------------------
@@ -487,8 +459,6 @@ purchased through the university vendors.
 If you need some lab supplies or equipment for your project, talk with your
 supervisor about it and they can order what you need if there are funds
 available.
-
-TU Delft 3mE VAT number: NL 001569569B01
 
 Equipment Inventory
 -------------------
@@ -755,6 +725,10 @@ Introduction to Bicycle Dynamics
    bicycle dynamics, stability, and control after many years of work on the
    topic of single track vehicle dynamics. It also lays out a number of core
    principles for the study of lateral dynamics of bicycles.
+Ciechanowski2023_
+   Really impressive interactive explanation of bicycle dynamics by Bartosz
+   Ciechanowski that both gets the dynamics right and makes it beautiful (in
+   `Bret Victor`_ style).
 
 .. |Meijaard2007| replace:: J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L. Schwab,
    "Linearized dynamics equations for the balance and steer of a bicycle: A
@@ -768,6 +742,8 @@ Introduction to Bicycle Dynamics
 .. |Sharp2008| replace::  R. S. Sharp, "On the Stability and Control of the Bicycle,"
    Applied Mechanics Reviews, vol. 61, no. 060803, Oct. 2008,
    https://doi.org/10.1115/1.2983014.
+.. _Ciechanowski2023: https://ciechanow.ski/bicycle/
+.. _Bret Victor: https://worrydream.com/
 
 Biomechanics
 ------------
@@ -832,6 +808,17 @@ Carpentries, "Good Enough Practices in Scientific Computing" https://carpentries
    Lesson that gives the basics for dealing with data, software, and other
    digital artifacts of your science.
 
+Other Graduate and Lab Guides
+-----------------------------
+
+These gave some inspiration for this guide. You can see how other professors
+and labs may think about these things:
+
+- `Titus Brown's lab page <http://ivory.idyll.org/lab/>`_
+- `Katy Huff's lab manual <http://arfc.npre.illinois.edu/manual>`_
+- `Reddit post with tips another profs give <https://www.reddit.com/r/AskAcademia/comments/13ura10/useful_resources_for_the_development_of_your/>`_
+- `Eric Gilbert's PhD Student Syllabus <https://docs.google.com/document/d/11D3kHElzS2HQxTwPqcaTnU5HCJ8WGE5brTXI4KLf4dM/edit>`_
+
 Other
 -----
 
@@ -856,3 +843,6 @@ Random TU Delft Tips
 - The IMPhys department has a systems manual for many compute tasks on campus https://qiweb.tudelft.nl/sysman/index.html
 - You can set up general mailing lists here: https://listserv.tudelft.nl/mailman/admin
 - You can check if an ethernet port is active at https://outlets.tudelft.nl
+- GNSS data can be accessed for various sensors on campus here: https://gnss1.tudelft.nl/dlab/
+- Access a remote windows computer on the TU Delft network: https://weblogin.tudelft.nl/Citrix/TUDAppsWeb/
+- View info about classroom facilities: https://esviewer.tudelft.nl/

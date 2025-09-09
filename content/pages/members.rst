@@ -23,6 +23,22 @@ Principal Investigators
    :width: 100px
    :height: 133px
 
+Staff
+=====
+
+.. list-table::
+   :class: borderless
+   :width: 60%
+   :widths: 20 80
+   :align: center
+
+   * - |headshot-rawdha-al-amri|
+     - **Rawdha Al Amri**, Lab Coordinator
+
+.. |headshot-rawdha-al-amri| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-rawdha-al-amri.jpg
+   :width: 100px
+   :height: 133px
+
 Postdoctoral Researchers
 ========================
 
@@ -47,32 +63,18 @@ PhD Candidates
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-farias-jose|
-     - | **José Alfonso Farías Fuentes** [University of Pavia, October 2024-present]
-       | *Kinematic and Dynamic of multibody model for real-time applications oriented to human in the loop simulators*
-     - |headshot-gonzalez-benjamin|
+   * - |headshot-gonzalez-benjamin|
      - | **Benjamín E. González T.** [TUD, September 2024-present]
        | *Discovering the Mechanisms that Cause Bicycle Crashes Through The Merger of Video and Computational Modeling*
-   * - |headshot-dell-orto-gabriele|
-     - | **Gabriele Dell'Orto** [TUD, January 2023-February 2025]
-       | *Effects of tire properties on bicycle dynamics*
      - |headshot-schmidt-christoph|
-     - | **Christoph Schmidt** [TUD, October 2022-present]
+     - | **Christoph M. Konrad** [TUD, October 2022-present]
        | `Bicycle Dynamics for Microscopic Traffic Simulation <{filename}/pages/research/bicycle-dynamics-microsim.rst>`_
-
-.. |headshot-farias-jose| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-farias-jose.jpg
-   :width: 100px
-   :height: 133px
 
 .. |headshot-gonzalez-benjamin| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gonzalez-benjamin.jpg
    :width: 100px
    :height: 133px
 
 .. |headshot-schmidt-christoph| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schmidt-christoph.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-dell-orto-gabriele| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
    :width: 100px
    :height: 133px
 
@@ -85,34 +87,42 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-vazquez-eloy|
+   * - |headshot-terwint-ruben|
+     - | **Ruben Terwint** [TUD, Mar 2025-present]
+       | *Perception and Workload in Urban Cycling*
+     - |headshot-huang-yuke|
+     - | **Yuke Huang** [TUD, Feb 2025-present]
+       | *Cyclist Path Planning with Social Force*
+   * - |headshot-schoneveld-looka|
+     - | **Looka Schoneveld** [TUD, Nov 2024-present]
+       | *Bicycle Simulator with Realistic Turning*
+     - |headshot-vazquez-eloy|
      - | **Eloy Vázquez Fernández** [TUD, Sep 2024-present]
        | *Rolling Resistance on Different Road Surfaces for Professional Cycling*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-   * - |headshot-missing|
-     - | **Anna Marbus** [TUD, Feb 2024-present]
-       | *Understanding cyclist conflict behavior in shared spaces*
-     - |headshot-youngblood-sara|
-     - | **Sara Youngblood** [TUD, Jan 2024-present]
-       | *Advanced Rider Assistance Systems for Bicycle Crash Mitigation*
-   * - |headshot-de-vries-bart|
+     - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-     - |headshot-missing|
-     - | **Thomas Habing** [TUD, May 2023-present]
-       | *Muscle Vibration Effects in Indoor Cycling*
+
+.. |headshot-schoneveld-looka| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schoneveld-looka.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-terwint-ruben| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-terwint-ruben.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-huang-yuke| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huang-yuke.png
+   :width: 100px
+   :height: 133px
 
 .. |headshot-vazquez-eloy| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg
    :width: 100px
    :height: 133px
 
 .. |headshot-nieman-neville| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-nieman-neville.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-youngblood-sara| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-youngblood-sara.png
    :width: 100px
    :height: 133px
 
@@ -137,7 +147,7 @@ Alumni
    :align: center
 
    * - |headshot-dell-orto-gabriele|
-     - | **Gabriele Dell'Orto** [TUD, November 2024-January 2025]
+     - | **Dr. Gabriele Dell'Orto** [TUD, November 2024-January 2025]
        | `Characterization of Vibrations Experienced by Babies in Strollers and Cargo Bicycles <{filename}/pages/research/baby-child-transport-vibration.rst>`_
      - |headshot-alizadehsaravi-leila|
      - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-Feb 2024]
@@ -169,12 +179,26 @@ Alumni
    :widths: 10 40 10 40
    :align: center
 
+   * - |headshot-farias-jose|
+     - | **José Alfonso Farías Fuentes** [University of Pavia, October 2024-April 2025]
+       | *Kinematic and Dynamic of multibody model for real-time applications oriented to human in the loop simulators*
+     - |headshot-dell-orto-gabriele|
+     - | **Dr. Gabriele Dell'Orto** [TUD, January 2023-February 2025]
+       | `Bicycle tyre lateral characteristics and their effect on bicycle dynamics <https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa>`_
    * - |headshot-missing|
-     - | **Jules Ronné**  [Univeristy of Gustave Eiffel Lyon, Oct 2023-Nov 2023]
+     - | **Dr. Jules Ronné**  [Univeristy of Gustave Eiffel Lyon, Oct 2023-Nov 2023]
        | *Pairwise Assessment of Handling Qualities of Bicycles*
      - |headshot-dukalski-rado|
      - | **Rado Dukalski** [TUD, March 2018-August 2023]
        | *Augmented Reality in Cycling for Safety and Peformance*
+
+.. |headshot-farias-jose| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-farias-jose.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-dell-orto-gabriele| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
    :width: 100px
@@ -197,6 +221,31 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Sara Youngblood
+     - TUD
+     - Jan 2024-May 2025
+     - `Engineering Bicycle Stability: A Study of Control Strategies for Crash
+       Prevention on Icy and Normal Terrain
+       <https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_
+     - `J. K. Moore and B. González`
+   * - Simon Sorgedrager
+     - TUD
+     - May 2024-April 2025
+     - `Riding a Bicycle Without Hands: How To Do It and the Bicycle Dynamics
+       Behind It
+       <https://resolver.tudelft.nl/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55>`_
+     - `J. K. Moore, J. Farias`
+   * - Anna Marbus
+     - TUD
+     - Feb 2024-April 2025
+     - `Cyclist Conflict Behaviour in Shared Spaces
+       <https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7>`_
+     - `C. Konrad, R. Happee, J. K. Moore`
+   * - Thomas Habing
+     - TUD
+     - May 2023-Feb 2025
+     - Muscle Vibration Effects in Indoor Cycling
+     - `B. van Rens, J. K. Moore`
    * - Sietse Soethout
      - TUD
      - Jul 2023-Sep 2024
@@ -370,7 +419,7 @@ Research Assistants
 Teaching Assistants
    - Neville Nieman [TUD, Jun 2024-Jul 2024]
    - Karien ter Welle [TUD, Feb 2024-Jun 2024]
-   - Neils Stienen [TUD, Feb 2024-Jun 2024]
+   - Niels Stienen [TUD, Feb 2024-Jun 2024]
    - Riccardo Di Girolamo [TUD, Feb 2024-Jun 2024]
    - Ragnhild Maarleveld [TUD, Mar 2023-Aug 2023]
    - Eoinlee Bley [TUD, Jan 2023-Jul 2023]
