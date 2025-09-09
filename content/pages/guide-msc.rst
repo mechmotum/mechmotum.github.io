@@ -2,7 +2,7 @@
 Guide: Masters Students
 =======================
 
-:date: 2024-05-01
+:date: 2025-09-09
 :status: hidden
 
 MSc General
@@ -16,9 +16,9 @@ MSc General
   Biomechanical Design" Brightspace courses under "Flowcharts & Guidance Docs".
   Please read these and reference them regularly. The guide here is a
   compliment to those documents.
-- You are encouraged to join the "Graduation Community Program" for get-
-  togethers and workshops on topics to help you move through your MSc. This is
-  especially helpful if you are struggling in your MSc.
+- You are encouraged to join the "Graduation Community Program" for
+  get-togethers and workshops on topics to help you move through your MSc. This
+  is especially helpful if you are struggling in your MSc.
 - You have to write at least three documents for your MSc. Read the `writing
   guide <{filename}/pages/guide-writing.rst>`_ for tips and expectations.
 - Review the `Data Management Guide
@@ -175,9 +175,32 @@ Basic Steps:
   Make sure to add an embargo if your work requires one.
 - Follow the `Data Management Guide
   <{filename}/pages/guide-data-management.rst>`_ and deliver your project
-  assets to the lab principle investigator and any partner organizations.
+  assets to the lab principle investigator and any partner organizations as per
+  the below instructions.
 
-Other:
+Closing out an MSc Project
+==========================
+
+- Request access to a Surfdrive folder from Jason.
+- Collect and organize all of your digital artifacts with informative file
+  names and/or folder names.
+- The digital artifacts should include at least: raw data files, processed data
+  files, processing scripts or spreadsheets, input files to data processing
+  software, CAD files, production drawings, written document source files (e.g.
+  LaTeX or MS Word), papers that you cited read in your documents, results
+  figures, thesis presentation, equipment use explanations, experiment
+  protocols, and human subject and equipment approvals.
+- Write up READMEs for your digital artifacts so that someone can understand
+  what is there.
+- Upload your digital files to the Surfdrive folder.
+- Absolutely make sure to transfer ownership to any files you deposited in the
+  Lab Google Drive to Jason, otherwise the files will be automatically deleted
+  when TU Delft removes your account post graduation/employment!
+- Clean up all physical materials in the lab, empty your project box, store
+  items that need long term storage.
+
+Other
+-----
 
 - Always use up-to-date forms from here:
   https://www.tudelft.nl/en/student/faculties/3me%E2%80%90student%E2%80%90portal/education/related/student%E2%80%90forms/msc%E2%80%90forms/

@@ -141,21 +141,5 @@ Closing Out a Project
 - Deposit your digital artifacts.
 - Make clear if any data has privacy encumbrances.
 
-Example Minimum for an MSc Project
-==================================
-
-- Request access to a Surfdrive folder from Jason.
-- Collect and organize all of your digital artifacts with informative file
-  names and/or folder names.
-- The digital artifacts should include at least: raw data files, processed data
-  files, processing scripts or spreadsheets, input files to data processing
-  software, CAD files, production drawings, written document source files (e.g.
-  LaTeX or MS Word), papers that you cited read in your documents, results
-  figures, thesis presentation, equipment use explanations, experiment
-  protocols, and human subject and equipment approvals.
-- Write up READMEs for your digital artifacts so that someone can understand
-  what is there.
-- Upload your digital files to the Surfdrive folder.
-- Absolutely make sure to transfer ownership to any files you deposited in the
-  Lab Google Drive to Jason, otherwise the files will be automatically deleted
-  when TU Delft removes your account post graduation/employment!
+See the `MSc Guide <{filename}/pages/guide-msc.rst>`_ for MSc specific
+instructions on closing out a project.
