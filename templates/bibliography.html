@@ -1,0 +1,22 @@
+{% extends "page.html" %}
+
+{% from "bibentry.html" import bibentry, bibcss %}
+
+{#
+TODO
+    - fix issue with extra period in title if title ends in punctuation
+#}
+
+{% block content %}
+<h2>Publications</h2>
+{% for ref in bibliography %}
+{{ bibentry(ref) }}
+{% endfor %}
+{% endblock %}
+
+{% block meta %}
+{{ super() }}
+<style>
+{{ bibcss }}
+</style>
+{% endblock %}
