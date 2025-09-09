@@ -148,10 +148,10 @@ Keep the issues up-to-date so that they can be passed to others.
 
 da MC: (Looka Schoneveld)
    Organizes the lab meeting, see the `MC Guide`_.
-Meneer/Mevrouw Schoon (Eloy Vazquez)
+Meneer/Mevrouw Schoon (Benjamin)
    Organizes monthly Friday afternoon tidy and bi-annual lab clean up days.
    Reminds the lab if the tidiness level is hampering other's work.
-Dragon Hoard Overseer (Benjamin)
+Dragon Hoard Overseer (Quinten)
    Maintains a spreadsheet on our GDrive containing the lab inventory, both
    consumable supplies and significant equipment (< 200 EUR or so).
 Batterij-momma (Christoph)
@@ -160,9 +160,9 @@ Batterij-momma (Christoph)
 Neo T. Anderson: (Jason)
    Keeps the lab chat room running. This is currently a matrix server running
    on a TU Delft VPS.
-Plant-papa (Bart)
+Plant-papa (Christoph)
    Keep lab plants alive.
-De Fikser (Jules)
+De Fikser (Jules,Neville)
    Monitors if equipment is broken or needs maintenance and seeks university or
    external support for repair. Coaxes the repair processes along. Sometimes
    fixes things themselves.
