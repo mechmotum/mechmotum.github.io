@@ -14,6 +14,10 @@ Journal Articles
 Under Review
 ------------
 
+#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore. Automatic Bicycle
+   Balance Assistance Reduces Probability of Falling at Low Speeds When
+   Subjected to Handlebar Perturbations. Under review at International
+   Association of Traffic and Safety Sciences.
 #. Christoph M. Schmidt, Azita Dabiri, Frederik Schulte, Jason K. Moore, and
    Riender Happee. Cycling Safety Assessment in Microscopic Traffic Simulation:
    A Review and Methodological Framework. Under review at Transportation
@@ -153,9 +157,21 @@ Theses
 2025
 ----
 
-#. Dell'Orto, G. (2025). Bicycle tyre lateral characteristics and their effect
-   on bicycle dynamics [PhD, Delft University of Technology].
-   https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa
+#. Youngblood, Sara (2025). `Engineering Bicycle Stability: A Study of Control
+   Strategies for Crash Prevention on Icy and Normal Terrain
+   <https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_
+   [MSc, Delft University of Technology].
+#. Sorgedrager, Simon (2025). `Riding a Bicycle Without Hands: How To Do It and
+   the Bicycle Dynamics Behind It
+   <https://resolver.tudelft.nl/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55>`_
+   [MSc, Delft University of Technology].
+#. Marbus, Anna (2025). `Cyclist Conflict Behaviour in Shared Spaces
+   <https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7>`_
+   [MSc, Delft University of Technology].
+#. Dell'Orto, G. (2025). `Bicycle tyre lateral characteristics and their effect
+   on bicycle dynamics
+   <https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa>`_
+   [PhD, Delft University of Technology].
 
 2024
 ----
@@ -249,6 +265,10 @@ Reports
 Preprints
 =========
 
+#. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
+   Loeve, Jesper Meijerink, Thomas Valk, and Jason K. Moore, "Vibration
+   Characterisation of Strollers and Cargo Bicycles for Transporting Infants",
+   https://doi.org/10.31224/4415
 #. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
    Balance Assistance Reduces Probability of Falling at Low Speeds When
    Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
@@ -282,6 +302,18 @@ Presentations
 2025
 ----
 
+#. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
+   J. Loeve, and **Moore, J. K.** (2025, July 29). Vibration Characterization
+   of Strollers and Cargo Bicycles for Transporting Infants [Oral].
+   International Society of Biomechanics, Stockholm, Sweden.
+   https://tinyurl.com/isb2025-moore
+#. **Jules Ronné** J. K. Moore (2025, July 28). Inferring Cyclist Workload
+   Using Gaze Metrics for Bicycle Balancing Tasks [Oral]. International Society
+   of Biomechanics, Stockholm, Sweden.
+#. **Moore, J. K.**, Brockie, S. G., Stienstra, T. J, Van den Bogert, A. J.
+   (2025, July 25). Fast Symbolic Methods for Muscle-driven Optimal Control
+   [Oral]. 20th International Symposium on Computer Simulation in Biomechanics,
+   Uppsala, Sweden. https://tinyurl.com/tgcs2025-moore
 #. **J. K. Moore, G. Dell'Orto, J. Farias, C. Konrad, B. Gonzalez**, "Overview
    of the Current TU Delft Bicycle Lab Research", January 13, 2025, Cycling
    Day, Leuven, Belgium. [`Slides

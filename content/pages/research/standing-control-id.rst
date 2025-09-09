@@ -56,6 +56,8 @@ result of known programmed control strategies.
 Associated Research Products
 ============================
 
+Standing balance control identification with opty: https://opty.readthedocs.io/stable/examples/advanced/plot_park2004.html
+
 Blog posts:
 
 - `Double Pendulum Human Controller Robot: GUI Development <{filename}/double-pendulum-robot.rst>`_
