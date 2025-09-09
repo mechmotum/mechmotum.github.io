@@ -25,9 +25,9 @@ This project consists in obtaining real-world bicycle crash data, create simulat
 Ongoing Work
 ============
 
-- **Characterisation of the Point of No Return:** Simulation of a simplified bicycle model in order to find the boundaries of bicycle riding and control.
-- **Kinematic data from monocular video:** Real world data of single bicycle crashes is scarcely available, therefore, we aim to extract the kinematics of the system from monocuclar videos.
+- **Single-cyclist crashes classification:** We know the hypothesised mechanisms that are present in bicycle crashes; however, they have not been proven or discussed based on bicycle dynamics theory. The goal is to discuss these mechanisms with the theory and provide a concise background for classifying bicycle crashes. Therefore, we provide a classification that takes into account different layers that contribute to the outcome of the critical scenario. In addition, we consider how the biomechanics and control of the rider play a role in the mechanisms to highlight the knowledge gap in this area.
 
+- **Kinematic data from monocular video:** Real-world data of single bicycle crashes is scarcely available; therefore, we aim to extract the kinematics of the system from monocular videos. To this end, we are using computer vision methods such as instance segmentation to track the motion of the bicycle in the scene.
 
 
 
