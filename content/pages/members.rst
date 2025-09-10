@@ -88,7 +88,7 @@ Masters of Science Students
    :align: center
 
    * - |headshot-bongers-quinten|
-     - | **Ruben Terwint** [TUD, Aug 2025-present]
+     - | **Quinten Bongers** [TUD, Aug 2025-present]
        | *Bicycle Vibration Analysis of Realistic Simulated Road Surfaces*
      - |headshot-terwint-ruben|
      - | **Ruben Terwint** [TUD, Mar 2025-present]
