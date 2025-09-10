@@ -16,9 +16,21 @@ Lab Meetings Archive
      - Presenters
      - Materials
    * - Bicycle Lab Round Up
+     - 2025-09-09
+     - Jason K. Moore
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vRdjxsP64shoSd9hLuZTdFly_WAC5xtnM5kaUGNs2WM61iBdE20O6oRAPGV3trzbe9uj4R5uIw7uDZc/pub?start=false&loop=false&delayms=3000>`__
+   * - Bicycle Lab Round Up
+     - 2024-09-10
+     - Jason K. Moore
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQKVDbuVaSyYVKCSFqy0xJqMUVdXzWBkCZcz8BvjmwBeMrP-QNUdmeZzS3BBeg8D11LYO5qxCKF6CBN/pub?start=false&loop=false&delayms=3000>`__
+   * - Bicycle Lab Round Up
+     - 2023-09-19
+     - Jason K. Moore
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQiOzjAMZjb9d2VXnEt9Wj3qiBgO7iHWtxFRvbV6Mf-v9kb85BUXCa4lOqbjgxgHXna00fua15mmsMN/pub?start=false&loop=false&delayms=3000>`__
+   * - Bicycle Lab Round Up
      - 2022-09-13
      - Jason K. Moore
-     -
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQsBIWjW3yJED8JWaJNyu4CHYSytBrgmEzoTn5pRVZv7jJRaYXLagVxohs_GRTK2U19oyL_cRtp0hWG/pub?start=false&loop=false&delayms=3000>`__
    * - Computationally Reproducible Papers
      - 2022-01-18
      - Jason K. Moore
