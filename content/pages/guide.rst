@@ -477,6 +477,14 @@ If you need some lab supplies or equipment for your project, talk with your
 supervisor about it and they can order what you need if there are funds
 available.
 
+It is possible to be reimbursed for your purchases. You must save the full
+receipt for the purchases to do so. If you are staff, then use the Digiform to
+submit your reimbursement claim. If you are a student, get pre-approval from
+Jason on what you purchase so he can ensure there are available funds and then
+you will have to work with the BMechE secretariat to submit the appropriate
+forms. You will need a code for categorizing the spending when submitting the
+forms. Ask Jason for the appropriate code to use.
+
 Equipment Inventory
 -------------------
 
@@ -666,6 +674,8 @@ allow.
    Huge annual conference with a broad array of biomechanics topics. Great
    networking and a catch all for many topics from the lab. Every two years.
    The Technical Group in Computer Simulation holds a parallel symposium.
+Annual `European Biomechanics Conference <https://esbiomech.org/esb-meetings/esb-congress/>`_
+   Similar to ISB but smaller and hosted annually in Europe.
 `SciPy <https://conference.scipy.org/>`_ & `EuroSciPY <https://www.euroscipy.org/>`_
    Annual conferences. If your work involves open source Python software these
    are a great place to showcase the advances in library development and use of
@@ -679,6 +689,8 @@ Dutch Bio-Medical Engineering Conference
    researchers, industry, etc.
 `EUROBIKE <https://en.wikipedia.org/wiki/Eurobike>`_
    Annual bicycle trade show for Europe.
+`Cycling Research Board <https://cyclingresearchboard.com/>`_
+   Annual conference on general bicycle-related research.
 
 Journals
 ========
@@ -695,9 +707,9 @@ Funding Opportunities
 `Dekker-Padget Internshiup Program: Dutch2USA <https://thenaf.org/dutch2usa-internship-program/>`_
    Funding for minority or economically disadvantaged college students to do an
    internship in the USA.
-Rubicon
-   Funding to do a postdoc abroad from the NWO.
-`Veni <https://www.nwo.nl/en/calls/nwo-talent-programme>`_
+NWO Rubicon
+   Funding to do a postdoc abroad from the NWO. PhDs and recent PhDs can apply.
+NWO `Veni <https://www.nwo.nl/en/calls/nwo-talent-programme>`_
    The Veni is part of the NWO's Talent Programme. It is the first of three
    personal grants. Postdocs in the lab that plan to continue in academia
    should apply for this. Final year PhDs are also encouraged to apply too. If
