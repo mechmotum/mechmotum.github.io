@@ -2,7 +2,7 @@
 Guide: How to MC Lab Meetings
 =============================
 
-:date: 2021-02-01
+:date: 2025-09-09
 :status: hidden
 
 Being an MC of a Bicycle Lab Meeting is a great opportunity to contribute and
@@ -22,24 +22,20 @@ its responsibilities develop over time.
 Lab Meeting
 ===========
 
-1. Host the Zoom call
----------------------
+1. Host the meeting
+-------------------
 
-- send an email with a reminder, a link to the Zoom call (create a personal
-  link if first time hosting)
-- start the Zoom call a bit early
+- send an email with a reminder with a link to the agenda one week in advance
 - welcome participants
-- assign co-host to presenter
-- introduce new lab members (remind Jason to add them to the mailing list, and
-  Rado to invite them to the element/matrix server)
+- introduce new lab members
 - ask new member for a short intro, (optional) ask current members to introduce
-  themselves in return
-- full screen the agenda
-- start off the AOIs
-- decide on the moment to start
+  their names in their AIO
+- start off the AIOs: keep each one brief!
 - monitor the time
 - run the agenda
-- run whosnext.py (`instructions <https://github.com/mechmotum/whosnext>`__) (you could delegate this until you get set up, ask for help setting up afterwards)
+- run whosnext.py (`instructions <https://github.com/mechmotum/whosnext>`__)
+  (you could delegate this until you get set up, ask for help setting up
+  afterwards)
 - announce the keynote speaker
 - jot down links from presentation slides or the chat section, paste into the
   agenda notes
@@ -50,7 +46,6 @@ Lab Meeting
 - ask audience for questions, otherwise shoot first
 - thank the speaker again
 - announce social activity
-- store any links from the Zoom's chat for inclusion in the upcoming email
 
 2. Prepare agenda for the next meeting
 --------------------------------------
@@ -77,11 +72,6 @@ Lab Meeting
 - adjust as necessary
 - attach links shared in the chat during the last Zoom call
 - replace a link to the new agenda file
-- (optional) update the Zoom link call (when changing MCs)
-
-   - (a good moment to update the calendar invite to include the new Zoom call
-     link as well)
-
 - to: mechmotum@googlegroups.com (and anyone else who is not on the mailing
   list yet)
 - title: agenda for 2022-xx-xx-bicycle-lab-meeting
@@ -122,23 +112,7 @@ Lab Meeting
 7. Check in with the next host with preparing a presentation, ideas on what to present
 --------------------------------------------------------------------------------------
 
-- point them to `past presentations <https://github.com/mechmotum/mechmotum.github.io/blob/source/content/pages/guide.rst#past-meeting-topics-and-materials>`_
+- point them to `past presentations
+  <https://github.com/mechmotum/mechmotum.github.io/blob/source/content/pages/lab-meetings-archive.rst>`_
   for inspiration
 - point them to the Google Doc with presentation ideas
-
-Social activity
-===============
-
-On the Friday of the week in between the biweekly-twice-monthlies we hope to
-meet in a more casual setting. Until we have a designated committee for this
-said task will fall under MC duties as well, but feel free to ask for and
-enlist help.
-
-8. Prepare social activity
---------------------------
-
-- (optional) come up with a new name for the next VrijMiBo edition
-- decide on location
-- announce it at least a week in advance (best done multiple times, including during the preceding biweekly-twice-monthly meeting)
-- send a calendar invite to mechmotum@googlegroups.com (group members can respond individually)
-- remind people on the day

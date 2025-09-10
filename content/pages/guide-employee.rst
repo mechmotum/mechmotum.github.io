@@ -2,7 +2,7 @@
 Guide: Employees
 ================
 
-:date: 2025-03-01
+:date: 2025-09-09
 :status: hidden
 
 Postdocs, PhDs, and other staff
@@ -33,11 +33,11 @@ Postdocs, PhDs, and other staff
   days per week. If you want to work from home more than this, discuss with
   Jason. You should, in general, complete your contracted work hours during
   typical working hours ~8-6 so that you can interact with the lab members.
-  When you work from home you should be reachable by email, phone, or video
-  chat, etc. during these hours. There is no expectation that you are available
-  outside standard work hours or that you have to respond to email, calls,
-  chats, etc. although occasionally there are emergencies and your flexibility
-  is appreciated.
+  When you work from home you should be generally reachable by email, phone, or
+  video chat, etc. during these hours. There is no expectation that you are
+  available outside standard work hours or that you have to respond to email,
+  calls, chats, etc. although occasionally there are emergencies and your
+  flexibility is appreciated.
 - You likely have a budget associated with your position or projects. Ask Jason
   or the relevant supervisor to tell you this budget. You can mange your own
   budget and don't need to ask permission for purchasing things < 250 EUR. If

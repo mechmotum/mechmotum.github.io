@@ -2,6 +2,7 @@
 Guide
 =====
 
+:date: 2025-09-09
 :sortorder: 5
 
 .. contents:: Table of Contents
@@ -46,17 +47,17 @@ Getting Started
 - Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
   the calendar invite.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
-  needed). These can be requested from Jason by sending him an email with your
-  student ID number, TU Delft email address, and expected duration of access.
-  Ask for a tour of the space from a current lab member before you start
-  working there.
+  needed). These can be requested from Jason or Rawdha by sending one of them
+  an email with your student ID number, TU Delft email address, and expected
+  duration of access.  Ask for a tour of the space from a current lab member
+  before you start working there.
 - Request access to the lab's shared Google Drive from Jason.
 - Request to be added to the Github lab team organization: https://github.com/mechmotum.
-- We have the optional "Cheese for Thought" lunch every Wednesday at 12:00, meet
-  at the lab. This is a chance to discuss topics informally or have some good
-  weather fun.
-- Every month we have a Friday afternoon lab tidying session at 16:30 and we go
-  for snacks and drinks (Vrijmibo) in Delft on Fridays @ 17:00.
+- We have the optional "Cheese for Thought" lunch every Wednesday at 12:00,
+  meet at the lab. This is a chance to discuss topics informally or have some
+  good weather fun.
+- Every month we have a Friday afternoon lab tidying session at 16:30 and we
+  may go for snacks and drinks (Vrijmibo) in Delft on Fridays @ 17:00.
 - See the `recommended reading list <#recommended-reading>`_ below for some
   reading materials to get you started.
 
@@ -70,7 +71,7 @@ BSc Teams
   access:
 
   - Send list of students (name, student ID, email) and end date of access to
-    the lab coordinator or Jason.
+    the lab coordinator (Rawdha) or Jason.
   - Each student who requests access must confirm they have read this guide,
     most importantly the safety and space usage rules.
 
@@ -82,6 +83,7 @@ BSc Teams
 - All members of the team must follow the lab rules in this guide and
   instruction by any of the lab members.
 - A team should use a project box for their project if lab storage is needed.
+- Get a lab tour from an existing member before you start to use the space.
 - The MSc, PhD, and Postdoc projects have priority for lab space. Coordinate
   sharing space and time with the lab via your supervisor or via the lab
   chat/email.
@@ -132,7 +134,7 @@ Lab Roles
 We collectively keep the lab (both metaphysical and physical) running,
 organized, and useful for all. To do so, we designate responsibility for
 several task groups to individuals and it is their role to take responsibility
-for those tasks.  This does not mean they have to do all tasks in a role, so
+for those tasks. This does not mean they have to do all tasks in a role, so
 they will have to leverage lab members and university resources to help keeping
 things running. Lab roles rotate and you should at least do a role for a
 quarter. Postdocs and PhDs should take more responsibility than MSc students,
@@ -197,7 +199,8 @@ academic endeavors.
 The topic can be anything bicycle or research related. It may be
 content-related, soft-skill related, practical-skill related or harking to your
 personal interest in bicycles. It might be an expertise or skill you have, but
-also be a skill or software program you want to learn. Co-presenting is fine
+also be a skill or software program you want to learn. The presentation should
+be be very short and informal, maximizing discussion. Co-presenting is fine
 (and a great way to meet your peers) provided your topics align. Options
 galore:
 
@@ -311,22 +314,25 @@ request that it be shared with you by your supervisor. This folder and it's
 contents should only be shared with other ``<netid>@g-tudelft.nl`` addresses
 that are members of the lab. ``<netid>@g-tudelft.nl`` is also the login
 username/email that you will need to use when logging into
-https://drive.google.com. Avoid using the "Share" button to share with
-non-TUD accounts, until we determine best practices for this. Read and update
+https://drive.google.com. **Avoid using the "Share" button to share with
+non-TUD accounts**, until we determine best practices for this. Read and update
 the README files present in the Google Drive directories to learn how to use
 the space. If you create new directories, add a README file to explain what the
 purpose of the folder is. If you want to add large amounts of data (>10 Gb),
 inform your supervisor first because there may be a more appropriate long term
-storage solution for certain types of data.
+storage solution for certain types of data. **All files/folders you create in
+the Google Drive will be deleted when your TU Delft account is closed. It is
+impertative to transfer ownership to Jason of these files.**
 
 Reference Management
 --------------------
 
 The lab has a shared Zotero_ group which can be used for lab related reference
-management (currently 2 GB plan). Zotero is an open source reference management
-system backed by a consortium of libraries. Create an account and request
-membership to the `mechmotum group`_. Note that all lab members can view the
-contents of this library.
+management if needed, but a personal free account should suffice for most
+needs. Zotero is an open source reference management system backed by a
+consortium of libraries. Create an account and request membership to the
+`mechmotum group`_. Note that all lab members can view the contents of this
+library.
 
 .. _Zotero: https://www.zotero.org
 .. _mechmotum group: https://www.zotero.org/groups/966974/mechmotum
@@ -406,7 +412,7 @@ and always prioritized. Some key things:
   During the workday period it is recommended to have a buddy present when
   doing anything can cause injury, but the number of people in the halls and
   glass walls make this optional.
-- The large treadmill **always** has to have two people for operation. When the
+- The two treadmills **always** have to have two people for operation. When the
   treadmill is operating the walker/rider must be wearing the harness properly
   and the operator must have their hand on the kill switch. Ensure that objects
   cannot fly off the back of the treadmill.
@@ -425,20 +431,31 @@ use it. If no one is using it, then you can!
 
 If a TU Delft staff or student that is not a lab member would like to borrow
 equipment from the lab for TU Delft research, find out if anyone is using it
-(as noted above), and then make sure they fill out the checkout sheet (by the
-lab door) with their name, email, date, and your name (as the responsible
-person) before the item leaves the lab. When they return the item, indicate the
-return date on the sheet. Keep in mind that non-lab member students and staff
-should look to the more general shared equipment resources available in ME
-before borrowing from us. Do not loan common things like screwdrivers and
-general tools, as those can be borrowed from the faculty machine shops. In
-general, do not loan our bike tools out, researchers that need them can come to
-the bike lab and use them. Do not loan tools or equipment for people's personal
-use.
+(as noted above), and make sure they fill out the borrow form with their name,
+phone/email, and the items borrowed, before the items leave the lab. The form
+can be accessed by scanning the QR code by the lab door. If you don't have your
+phone on you, you may use the paper form (also by the lab door). Only use the
+paper form if necessary. It is the responsibility of the lender, a bike lab
+member, ensure the item is ultimately returned to the lab.
 
-If you take things from the lab to use elsewhere for **more than one day** you
-also need to sign the equipment checkout sheet. Note your name and the date you
-took the item. Once the item is returned to the lab, note the date returned.
+When returning the item, inform one of the lab members so they can verify that
+the items have been returned. (For verifiers: Check if all items are returned,
+open the google sheet, and fill in the return date and your name in the
+verifier column.).
+
+Keep in mind that non-lab member students and staff should look to the more
+general shared equipment resources available in ME before borrowing from us. Do
+not loan common things like screwdrivers and general tools, as those can be
+borrowed from the faculty machine shops. In general, do not loan our bike tools
+out, researchers that need them can come to the bike lab and use them. Do not
+loan tools or equipment for people's personal use.
+
+If you, a bike lab member, take/borrow things from the lab to use elsewhere for
+**more than one day** you also need to fill out the equipment checkout form,
+following the same procedure noted above.
+
+Take care to register items every time you borrow from the lab. This way, lab
+users are always able to locate the tools that they need.
 
 If you damage or lose equipment you are responsible for fixing or finding a
 replacement. Please let your supervisor know if this occurs so you all can
@@ -459,6 +476,14 @@ purchased through the university vendors.
 If you need some lab supplies or equipment for your project, talk with your
 supervisor about it and they can order what you need if there are funds
 available.
+
+It is possible to be reimbursed for your purchases. You must save the full
+receipt for the purchases to do so. If you are staff, then use the Digiform to
+submit your reimbursement claim. If you are a student, get pre-approval from
+Jason on what you purchase so he can ensure there are available funds and then
+you will have to work with the BMechE secretariat to submit the appropriate
+forms. You will need a code for categorizing the spending when submitting the
+forms. Ask Jason for the appropriate code to use.
 
 Equipment Inventory
 -------------------
@@ -497,6 +522,7 @@ Waste
 - Put old small batteries in the bin in the hallway in the F wing.
 - Contact the servicepunt to dispose of any large batteries and people will
   come to collect it.
+- Take electronic trash to the Logistiek Punt IO-ME.
 
 ME Vehicle Testing Area
 -----------------------
@@ -504,7 +530,6 @@ ME Vehicle Testing Area
 The fenced off parking lot behind the ME building can be booked if you need an
 open space for bicycle experiments. To do so, book the room "Room-TESTAREA-ME
 (outdoor test area ME)" in the TU Delft Outlook calendar system.
-
 
 Internet
 --------
@@ -547,13 +572,14 @@ efficiently and effectively.
 Useful TU Delft MSc Courses
 ---------------------------
 
-Multibody Dynamics B
+Multibody Dynamics
    Core high level dynamics principles that are the foundation for almost every
    project in the lab.
 Special Topics Course in Sports Engineering
    TU Delft organizes an annual two week course to train students in sports
    engineering. Cycling has been used as the motivating topic to learn the
-   methods.
+   methods. This course will teach you how to model and simulate a
+   bicycle-rider system.
 Musculoskeletal Modelling and Simulation (ME41005)
    Learn how to develop and utilized computational neuromuscular models with
    OpenSim. Many projects in the lab make use of neuromuscular and
@@ -608,8 +634,8 @@ Online
 ------
 
 `Biomech-L forum <https://biomch-l.isbweb.org>`_
-  A 30+ year old public discussion forum to connect to the international
-  Biomechanics community. Lot's of great scientific discussions.
+   A 30+ year old public discussion forum to connect to the international
+   Biomechanics community. Lot's of great scientific discussions.
 `Single Track Vehicle Dynamics listserv <https://groups.google.com/g/stvdy>`_
    Public email based forum for discussing the dynamics and control of single
    track vehicles.
@@ -632,8 +658,9 @@ Pythonistas-NL
 Conferences
 -----------
 
-PhDs and Postdocs should submit to and present at conferences each year, if
-possible. MSc and BSc students are also encouraged to do so if resources allow.
+PhDs and Postdocs should try to submit to and present at conferences each year,
+if possible. MSc and BSc students are also encouraged to do so if resources
+allow.
 
 `Bicycle and Motorcycle Dynamics Conference <http://bmdconf.org/>`_
    This conference is the most closely related to the bicycle lab's core
@@ -655,6 +682,8 @@ possible. MSc and BSc students are also encouraged to do so if resources allow.
    Huge annual conference with a broad array of biomechanics topics. Great
    networking and a catch all for many topics from the lab. Every two years.
    The Technical Group in Computer Simulation holds a parallel symposium.
+Annual `European Biomechanics Conference <https://esbiomech.org/esb-meetings/esb-congress/>`_
+   Similar to ISB but smaller and hosted annually in Europe.
 `SciPy <https://conference.scipy.org/>`_ & `EuroSciPY <https://www.euroscipy.org/>`_
    Annual conferences. If your work involves open source Python software these
    are a great place to showcase the advances in library development and use of
@@ -668,6 +697,8 @@ Dutch Bio-Medical Engineering Conference
    researchers, industry, etc.
 `EUROBIKE <https://en.wikipedia.org/wiki/Eurobike>`_
    Annual bicycle trade show for Europe.
+`Cycling Research Board <https://cyclingresearchboard.com/>`_
+   Annual conference on general bicycle-related research.
 
 Journals
 ========
@@ -684,7 +715,9 @@ Funding Opportunities
 `Dekker-Padget Internshiup Program: Dutch2USA <https://thenaf.org/dutch2usa-internship-program/>`_
    Funding for minority or economically disadvantaged college students to do an
    internship in the USA.
-`Veni <https://www.nwo.nl/en/calls/nwo-talent-programme>`_
+NWO Rubicon
+   Funding to do a postdoc abroad from the NWO. PhDs and recent PhDs can apply.
+NWO `Veni <https://www.nwo.nl/en/calls/nwo-talent-programme>`_
    The Veni is part of the NWO's Talent Programme. It is the first of three
    personal grants. Postdocs in the lab that plan to continue in academia
    should apply for this. Final year PhDs are also encouraged to apply too. If
@@ -730,15 +763,15 @@ Ciechanowski2023_
    Ciechanowski that both gets the dynamics right and makes it beautiful (in
    `Bret Victor`_ style).
 
+.. |Astrom2005| replace:: K. J. Åström, R. E. Klein, and A. Lennartsson,
+   "Bicycle dynamics and control: adapted bicycles for education and research,"
+   IEEE Control Systems Magazine, vol. 25, no. 4, pp. 26–47, Aug. 2005,
+   https://doi.org/10.1109/MCS.2005.1499389.
 .. |Meijaard2007| replace:: J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L. Schwab,
    "Linearized dynamics equations for the balance and steer of a bicycle: A
    benchmark and review," Proceedings of the Royal Society A: Mathematical,
    Physical and Engineering Sciences, vol. 463, no. 2084, pp. 1955–1982, Aug.
    2007. https://doi.org/10.1098/rspa.2007.1857
-.. |Astrom2005| replace:: K. J. Åström, R. E. Klein, and A. Lennartsson,
-   "Bicycle dynamics and control: adapted bicycles for education and research,"
-   IEEE Control Systems Magazine, vol. 25, no. 4, pp. 26–47, Aug. 2005,
-   https://doi.org/10.1109/MCS.2005.1499389.
 .. |Sharp2008| replace::  R. S. Sharp, "On the Stability and Control of the Bicycle,"
    Applied Mechanics Reviews, vol. 61, no. 060803, Oct. 2008,
    https://doi.org/10.1115/1.2983014.
@@ -831,14 +864,9 @@ Greg Wilson, "Meetings," The Third Bit, May 11, 2018. https://third-bit.com/2018
 Random TU Delft Tips
 ====================
 
-- You can print documents by uploading files to https://linuxprint.tudelft.nl
+- You can print documents by uploading files to https://print.tudelft.nl
   and then swiping your campus ID card at any printer in the buildings.
 - Shared data network drives can be accessed at https://webdata.tudelft.nl.
-- To add the "print anywhere" printers on Linux, you can add a printer and use:
-
-  - URI found on https://linuxprint.tudelft.nl/driverprint.cfm which looks like ipps://linuxprint.tudelft.nl:443/ipp/r/...
-  - And then download this PPD file: https://webprint.tudelft.nl/install/linux/xrxC8035.ppd
-
 - You can run a Jupyter instance on DelftBlue https://doc.dhpc.tudelft.nl/delftblue/howtos/jupyter/
 - The IMPhys department has a systems manual for many compute tasks on campus https://qiweb.tudelft.nl/sysman/index.html
 - You can set up general mailing lists here: https://listserv.tudelft.nl/mailman/admin
