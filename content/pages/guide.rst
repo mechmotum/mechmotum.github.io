@@ -431,20 +431,31 @@ use it. If no one is using it, then you can!
 
 If a TU Delft staff or student that is not a lab member would like to borrow
 equipment from the lab for TU Delft research, find out if anyone is using it
-(as noted above), and then make sure they fill out the checkout sheet (by the
-lab door) with their name, email, date, and your name (as the responsible
-person) before the item leaves the lab. When they return the item, indicate the
-return date on the sheet. Keep in mind that non-lab member students and staff
-should look to the more general shared equipment resources available in ME
-before borrowing from us. Do not loan common things like screwdrivers and
-general tools, as those can be borrowed from the faculty machine shops. In
-general, do not loan our bike tools out, researchers that need them can come to
-the bike lab and use them. Do not loan tools or equipment for people's personal
-use.
+(as noted above), and make sure they fill out the borrow form with their name,
+phone/email, and the items borrowed, before the items leave the lab. The form
+can be accessed by scanning the QR code by the lab door. If you don't have your
+phone on you, you may use the paper form (also by the lab door). Only use the
+paper form if necessary. It is the responsibility of the lender, a bike lab
+member, ensure the item is ultimately returned to the lab.
 
-If you take things from the lab to use elsewhere for **more than one day** you
-also need to sign the equipment checkout sheet. Note your name and the date you
-took the item. Once the item is returned to the lab, note the date returned.
+When returning the item, inform one of the lab members so they can verify that
+the items have been returned. (For verifiers: Check if all items are returned,
+open the google sheet, and fill in the return date and your name in the
+verifier column.).
+
+Keep in mind that non-lab member students and staff should look to the more
+general shared equipment resources available in ME before borrowing from us. Do
+not loan common things like screwdrivers and general tools, as those can be
+borrowed from the faculty machine shops. In general, do not loan our bike tools
+out, researchers that need them can come to the bike lab and use them. Do not
+loan tools or equipment for people's personal use.
+
+If you, a bike lab member, take/borrow things from the lab to use elsewhere for
+**more than one day** you also need to fill out the equipment checkout form,
+following the same procedure noted above.
+
+Take care to register items every time you borrow from the lab. This way, lab
+users are always able to locate the tools that they need.
 
 If you damage or lose equipment you are responsible for fixing or finding a
 replacement. Please let your supervisor know if this occurs so you all can
