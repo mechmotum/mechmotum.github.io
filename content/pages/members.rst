@@ -87,24 +87,33 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-terwint-ruben|
+   * - |headshot-bongers-quinten|
+     - | **Ruben Terwint** [TUD, Aug 2025-present]
+       | *Bicycle Vibration Analysis of Realistic Simulated Road Surfaces*
+     - |headshot-terwint-ruben|
      - | **Ruben Terwint** [TUD, Mar 2025-present]
        | *Perception and Workload in Urban Cycling*
-     - |headshot-huang-yuke|
+   * - |headshot-huang-yuke|
      - | **Yuke Huang** [TUD, Feb 2025-present]
        | *Cyclist Path Planning with Social Force*
-   * - |headshot-schoneveld-looka|
+     - |headshot-schoneveld-looka|
      - | **Looka Schoneveld** [TUD, Nov 2024-present]
        | *Bicycle Simulator with Realistic Turning*
-     - |headshot-vazquez-eloy|
+   * - |headshot-vazquez-eloy|
      - | **Eloy Vázquez Fernández** [TUD, Sep 2024-present]
        | *Rolling Resistance on Different Road Surfaces for Professional Cycling*
-   * - |headshot-nieman-neville|
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     - |headshot-de-vries-bart|
+   * - |headshot-de-vries-bart|
      - | **Bart de Vries** [TUD, Jan 2024-present]
        | *Near-Zero Speed Balance Assist for Cargo Bicycles*
+     -
+     -
+
+.. |headshot-bongers-quinten| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-bongers-quinten.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-schoneveld-looka| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schoneveld-looka.jpg
    :width: 100px
