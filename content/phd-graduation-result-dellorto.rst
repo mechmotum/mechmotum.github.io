@@ -7,7 +7,7 @@ Gabriele Dell'Orto Successfully Defends His PhD Thesis
 :category: news
 :slug: gabriele-dellorto-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dellorto.png
 
 .. figure:: https://objects-us-east-1.dream.io/mechmotum/gabriele-defense-01.jpg
    :align: center
