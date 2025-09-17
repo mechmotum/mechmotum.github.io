@@ -14,6 +14,8 @@ Journal Articles
 Under Review
 ------------
 
+#. Jules Ronné,Jason K. Moore, Laura Dubuis, and Thomas Robert. Personal
+   Preference or Intrinsic Quality? A Study on Bicycle Handling Quality
 #. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore. Automatic Bicycle
    Balance Assistance Reduces Probability of Falling at Low Speeds When
    Subjected to Handlebar Perturbations. Under review at International
