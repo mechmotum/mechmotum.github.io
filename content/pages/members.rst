@@ -105,11 +105,6 @@ Masters of Science Students
      - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-   * - |headshot-de-vries-bart|
-     - | **Bart de Vries** [TUD, Jan 2024-present]
-       | *Near-Zero Speed Balance Assist for Cargo Bicycles*
-     -
-     -
 
 .. |headshot-bongers-quinten| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-bongers-quinten.jpg
    :width: 100px
@@ -132,10 +127,6 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-nieman-neville| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-nieman-neville.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-de-vries-bart| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg
    :width: 100px
    :height: 133px
 
@@ -230,6 +221,14 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Bart de Vries
+     - TUD
+     - Jan 2024-Jul 2025
+     - `Low-Speed Cargo Bicycle Balance: Design, Implementation, and Validation
+       of an Active Kickstand Stabilization Mechanism for Low-Speed Cargo
+       Bicycle Balance
+       <https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641>`_
+     - `J. K. Moore`
    * - Sara Youngblood
      - TUD
      - Jan 2024-May 2025

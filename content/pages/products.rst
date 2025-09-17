@@ -159,6 +159,11 @@ Theses
 2025
 ----
 
+#. De Vries, Bart (2025). `Low-Speed Cargo Bicycle Balance: Design,
+   Implementation, and Validation of an Active Kickstand Stabilization
+   Mechanism for Low-Speed Cargo Bicycle Balance
+   <https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641>`_
+   [MSc, Delft University of Technology].
 #. Youngblood, Sara (2025). `Engineering Bicycle Stability: A Study of Control
    Strategies for Crash Prevention on Icy and Normal Terrain
    <https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_
