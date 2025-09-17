@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2025-06-04T10:55:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Sara Youngblood Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-sara-youngblood.html" rel="alternate"/><published>2025-06-04T10:55:00-07:00</published><updated>2025-06-04T10:55:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-06-04:/blog/msc-graduation-sara-youngblood.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2025-09-17T15:44:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Bart de Vries Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-bart-de-vries.html" rel="alternate"/><published>2025-09-17T15:44:00-07:00</published><updated>2025-09-17T15:44:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-09-17:/blog/msc-graduation-bart-de-vries.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-bart-de-vries.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Bart de Vries successfully defended his MSc thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641"&gt;Low-Speed Cargo
+Bicycle Balance: Design, Implementation, and Validation of an Active Kickstand
+Stabilization Mechanism for Low-Speed Cargo Bicycle Balance&lt;/a&gt; on
+July 15, 2025. Two-wheeled cargo bicycles with heavy loads can be hard to
+handle at low speeds or when loading and …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-bart-de-vries.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Bart de Vries successfully defended his MSc thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641"&gt;Low-Speed Cargo
+Bicycle Balance: Design, Implementation, and Validation of an Active Kickstand
+Stabilization Mechanism for Low-Speed Cargo Bicycle Balance&lt;/a&gt; on
+July 15, 2025. Two-wheeled cargo bicycles with heavy loads can be hard to
+handle at low speeds or when loading and unloading the vehicle. Bart developed
+an active kickstand system with two independently operated robotic legs. The
+legs deploy and support the bike when the speed approaches to zero and the
+system will level the bicycle even if on uneven ground. When starting the legs
+retract as you gain sufficient speed for balancing the bicycle. Bart proved
+that the design can manage large loads, significant uneven surfaces, and that
+the system does not detract too much from the e-bike battery life.&lt;/p&gt;
+&lt;p&gt;Bart was supervised by Jason K. Moore. Everyone at the bicycle lab is very
+proud of Bart and wishes him the best in his next adventures.&lt;/p&gt;
+</content><category term="news"/><category term="cargo bicycle"/><category term="balance"/><category term="design"/><category term="stabilization"/></entry><entry><title>Sara Youngblood Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-sara-youngblood.html" rel="alternate"/><published>2025-06-04T10:55:00-07:00</published><updated>2025-06-04T10:55:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-06-04:/blog/msc-graduation-sara-youngblood.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
