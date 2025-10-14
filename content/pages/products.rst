@@ -159,6 +159,10 @@ Theses
 2025
 ----
 
+#. Vázquez Fernández, Eloy (2025). `Vibration Impact on Cycling Performance:
+   Understanding power loss due to vibration and the parameters that influence
+   it <https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0>`_
+   [MSc, Delft University of Technology].
 #. De Vries, Bart (2025). `Low-Speed Cargo Bicycle Balance: Design,
    Implementation, and Validation of an Active Kickstand Stabilization
    Mechanism for Low-Speed Cargo Bicycle Balance
