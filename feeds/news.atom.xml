@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2025-09-17T15:44:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Bart de Vries Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-bart-de-vries.html" rel="alternate"/><published>2025-09-17T15:44:00-07:00</published><updated>2025-09-17T15:44:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-09-17:/blog/msc-graduation-bart-de-vries.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2025-10-14T15:04:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Eloy Vázquez Fernández Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-eloy-vazquez-fernandez.html" rel="alternate"/><published>2025-10-14T15:04:00-07:00</published><updated>2025-10-14T15:04:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-10-14:/blog/msc-graduation-eloy-vazquez-fernandez.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-vazquez.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Eloy Vázquez Fernández successfully defended his MSc thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0"&gt;Vibration
+Impact on Cycling Performance: Understanding power loss due to vibration and
+the parameters that influence it&lt;/a&gt; on
+July 17, 2025.&lt;/p&gt;
+&lt;p&gt;Eloy devised a set of experiments to mimic the vibration experienced cycling
+over cobblestones from 10 to 30 km/h …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-vazquez.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Eloy Vázquez Fernández successfully defended his MSc thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0"&gt;Vibration
+Impact on Cycling Performance: Understanding power loss due to vibration and
+the parameters that influence it&lt;/a&gt; on
+July 17, 2025.&lt;/p&gt;
+&lt;p&gt;Eloy devised a set of experiments to mimic the vibration experienced cycling
+over cobblestones from 10 to 30 km/h and carefully measured the power loss
+caused by the vibrations. He tested two postures (seated normally and up off
+the saddle), three muscle contraction states (normal, relaxed, and stiff), and
+a range of tire pressures (3.5 to 5.5 bar). He showed that vibrational losses
+can equal or exceed aerodynamic losses on a rough surface like cobblestones.
+Lowering the tire pressure or rising from the saddle can save about 200 watts
+at 30 km/h. He proposed a quadratic model to relate speed and vibrational power
+loss which is a departure from the classic rolling resistance models that are
+linear in the speed. Overall vibration power losses can contribute up to 60% of
+the total power loss traversing cobblestones, showing vibration power loss
+needs more attention than it has historically received. Eloy also calls into
+question the use of the International Roughness Index (IRI) for classifying
+road roughness for these purposes because it neglects the variation of
+vibration across frequencies.&lt;/p&gt;
+&lt;table border="1" class="borderless docutils align-center" style="width: 100%"&gt;
+&lt;colgroup&gt;
+&lt;col width="100%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="one" src="https://objects-us-east-1.dream.io/mechmotum/eloy-plot-power-30kph.png" style="width: 600px;" /&gt;
+Power loss due to vibration, rolling, and aerodynamic drag at 30 km/h
+seated over cobblestones for varying tire pressure.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="two" src="https://objects-us-east-1.dream.io/mechmotum/eloy-vibration-power-loss-seated.png" style="width: 600px;" /&gt;
+Power loss due to vibration at different speeds and tire pressures while
+seated.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Eloy was supervised by Jason K. Moore and Jim Papadopoulos. Everyone at the
+bicycle lab is very proud of Eloy and wishes him the best in his next
+adventures in Sheffield to further study sports engineering.&lt;/p&gt;
+</content><category term="news"/><category term="vibration"/><category term="power"/><category term="cycling"/></entry><entry><title>Bart de Vries Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-bart-de-vries.html" rel="alternate"/><published>2025-09-17T15:44:00-07:00</published><updated>2025-09-17T15:44:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-09-17:/blog/msc-graduation-bart-de-vries.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
