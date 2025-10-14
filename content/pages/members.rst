@@ -90,18 +90,18 @@ Masters of Science Students
    * - |headshot-bongers-quinten|
      - | **Quinten Bongers** [TUD, Aug 2025-present]
        | *Bicycle Vibration Analysis of Realistic Simulated Road Surfaces*
-     - |headshot-terwint-ruben|
+     - |headshot-missing|
+     - | **Dana van der Pool** [TUD, May 2025-present]
+       | *Improving Rider Acceptance of Bicycle Balance Assist*
+   * - |headshot-terwint-ruben|
      - | **Ruben Terwint** [TUD, Mar 2025-present]
        | *Perception and Workload in Urban Cycling*
-   * - |headshot-huang-yuke|
+     - |headshot-huang-yuke|
      - | **Yuke Huang** [TUD, Feb 2025-present]
        | *Cyclist Path Planning with Social Force*
-     - |headshot-schoneveld-looka|
+   * - |headshot-schoneveld-looka|
      - | **Looka Schoneveld** [TUD, Nov 2024-present]
        | *Bicycle Simulator with Realistic Turning*
-   * - |headshot-vazquez-eloy|
-     - | **Eloy Vázquez Fernández** [TUD, Sep 2024-present]
-       | *Rolling Resistance on Different Road Surfaces for Professional Cycling*
      - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
@@ -119,10 +119,6 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-huang-yuke| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huang-yuke.png
-   :width: 100px
-   :height: 133px
-
-.. |headshot-vazquez-eloy| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg
    :width: 100px
    :height: 133px
 
@@ -221,6 +217,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Eloy Vázquez Fernández
+     - TUD
+     - Sep 2024-Jul 2025
+     - `Vibration Impact on Cycling Performance: Understanding power loss due
+       to vibration and the parameters that influence it
+       <https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0>`_
+     - `J. K. Moore and J. Papadopoulos`
    * - Bart de Vries
      - TUD
      - Jan 2024-Jul 2025
