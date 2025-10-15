@@ -8,9 +8,19 @@ Simon Sorgedrager Successfully Defends His MSc Thesis
 :authors: Jason K. Moore
 :thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-sorgedrager.png
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-sorgedrager-w400.png
-   :width: 400px
+.. list-table::
+   :class: borderless
+   :width: 60%
    :align: center
+
+   * - |headshot|
+     - |cover|
+
+.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-sorgedrager-simon.jpg
+   :height: 400px
+
+.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-sorgedrager-w400.png
+   :height: 400px
    :target: https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7
 
 Simon Sorgedgrager successfully defended his MSc thesis titled `Riding a
