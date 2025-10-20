@@ -48,11 +48,15 @@ Postdoctoral Researchers
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-ronne-jules|
      - | **Dr. Jules Ronné** [TUD, November 2024-present]
        | *Modeling bicycle behavior from visual stimulus to neuromuscular control ability*
      -
      -
+
+.. |headshot-ronne-jules| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-ronne-jules.jpg
+   :width: 100px
+   :height: 133px
 
 PhD Candidates
 ==============
