@@ -94,8 +94,8 @@ Masters of Science Students
    * - |headshot-bongers-quinten|
      - | **Quinten Bongers** [TUD, Aug 2025-present]
        | *Bicycle Vibration Analysis of Realistic Simulated Road Surfaces*
-     - |headshot-missing|
-     - | **Dana van der Pool** [TUD, May 2025-present]
+     - |headshot-van-der-pol-dana|
+     - | **Dana van der Pol** [TUD, May 2025-present]
        | *Improving Rider Acceptance of Bicycle Balance Assist*
    * - |headshot-terwint-ruben|
      - | **Ruben Terwint** [TUD, Mar 2025-present]
@@ -111,6 +111,10 @@ Masters of Science Students
        | *Optimization of Time Trial Power Strategy*
 
 .. |headshot-bongers-quinten| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-bongers-quinten.jpg
+   :width: 100px
+   :height: 133px
+
+.. |headshot-van-der-pol-dana| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-pol-dana.png
    :width: 100px
    :height: 133px
 
