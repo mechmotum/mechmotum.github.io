@@ -114,7 +114,7 @@ Masters of Science Students
    :width: 100px
    :height: 133px
 
-.. |headshot-van-der-pol-dana| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-pol-dana.png
+.. |headshot-van-der-pol-dana| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-pol-dana.jpg
    :width: 100px
    :height: 133px
 
