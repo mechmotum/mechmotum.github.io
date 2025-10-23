@@ -14,8 +14,13 @@ Journal Articles
 Under Review
 ------------
 
+#. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
+   Loeve, Jesper Meijerink, Thomas Valk, and Jason K. Moore, "Vibration
+   Characterisation of Strollers and Cargo Bicycles for Transporting Infants",
+   Submitted to Ergonomics.
 #. Jules Ronné,Jason K. Moore, Laura Dubuis, and Thomas Robert. Personal
-   Preference or Intrinsic Quality? A Study on Bicycle Handling Quality
+   Preference or Intrinsic Quality? A Study on Bicycle Handling Quality. Under
+   review at Vehicle System Dynamics.
 #. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore. Automatic Bicycle
    Balance Assistance Reduces Probability of Falling at Low Speeds When
    Subjected to Handlebar Perturbations. Under review at International
