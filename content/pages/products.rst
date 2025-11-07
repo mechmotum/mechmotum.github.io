@@ -18,7 +18,7 @@ Under Review
    Loeve, Jesper Meijerink, Thomas Valk, and Jason K. Moore, "Vibration
    Characterisation of Strollers and Cargo Bicycles for Transporting Infants",
    Submitted to Ergonomics.
-#. Jules Ronné,Jason K. Moore, Laura Dubuis, and Thomas Robert. Personal
+#. Jules Ronné, Jason K. Moore, Laura Dubuis, and Thomas Robert. Personal
    Preference or Intrinsic Quality? A Study on Bicycle Handling Quality. Under
    review at Vehicle System Dynamics.
 #. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore. Automatic Bicycle
@@ -91,6 +91,17 @@ Under Review
 
 Conference Proceedings
 ======================
+
+2025
+----
+
+#. Dukalski, R. R., Moore, J. K., Beek, P. J., & Brazier, F. M. (2025). A
+   Low-Tech Methodology for Understanding User Needs and Preferences for User-
+   Interface Design for Mixed Reality for a Dynamic Motion Context. SportsHCI.
+   https://doi.org/10.1145/3749385.3749400
+#. Dukalski, R. R., Moore, J. K., Beek, P. J., & Brazier, F. M. (2025).
+   Discovering Road Cyclists’ Needs and Preferences for  Mixed Reality User
+   Interfaces Using Immersive  Simulation. HCI International.
 
 2024
 ----
@@ -318,6 +329,18 @@ Presentations
 2025
 ----
 
+#. **Ronné, J.**, Moore, J. K. (2025, November 6). Learning to balance a
+   bicycle: How do cyclists adapt to a new bicycle? [Poster]. International
+   Cycling Safety Conference, Oslo, Norway.
+#. Marbus, A., **Konrad, C.**, Happee, R., Moore, J. K. (2025, November 5).
+   Modeling experimental observations of cyclist conflict behavior in open
+   spaces [Oral]. International Cycling Safety Conference, Oslo, Norway.
+#. **Gonzalez, B.**, Seth A., Moore, J. K. (2025, November 5). Bicycle crash
+   motion data using instance segmentation [Oral]. International Cycling Safety
+   Conference, Oslo, Norway.
+#. **Roberts, D.**, Moore, J. K. (2025, November 5). Little kids on big bikes:
+   A review of child passenger bicycle system safety [Poster]. International
+   Cycling Safety Conference, Oslo, Norway.
 #. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
    J. Loeve, and **Moore, J. K.** (2025, July 29). Vibration Characterization
    of Strollers and Cargo Bicycles for Transporting Infants [Oral].
