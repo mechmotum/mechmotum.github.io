@@ -1,8 +1,6 @@
 """
 
 TODO
-- separate tutorials from presentations
-- separate conference abstracts from conference papers
 - DOI and URL should be displayed for each item, as there may be both
 - Add grant proposals
 - Add data
@@ -28,7 +26,7 @@ collection_id = "7IG48IAS"  # Products Page
 # display
 heading_map = {
     'journalArticle': 'Journal Articles',
-    'conferencePaper': 'Conference Proceedings',
+    'conferencePaper': 'Conference Proceedings Articles',
     'book': 'Books',
     'thesis': 'Theses and Dissertations',
     'report': 'Reports',
@@ -105,18 +103,17 @@ def formatter_journal(data):
 
 
 def formatter_presentations(data):
-    if data['url']:
-        hyperlink = ', `{url} <{url}>`_ '.format(**data)
-    else:
-        hyperlink = ''
     template = (
         '{authors}, '
-        '"{title} [{type}]," '
+        '"{title}," '
         '{conference}, '
         '{place}, '
-        '{year} '
-        '{hyperlink}'
+        '{year}, '
     )
+    if data['url']:
+        template += '[`{type} <{url}>`__]'
+    else:
+        template += '[{type}]'
 
     return template.format(
         authors=make_author_list(data['creators']),
@@ -124,7 +121,7 @@ def formatter_presentations(data):
         title=data['title'],
         conference=data['meetingName'],
         place=data['place'],
-        hyperlink=hyperlink,
+        url=data['url'],
         type=data['presentationType'],
     )
 
@@ -148,7 +145,7 @@ def formatter_proceedings(data):
         authors=make_author_list(data['creators']),
         year=data['date'],
         title=data['title'],
-        conference=data['proceedingsTitle'],
+        conference=data['conferenceName'],
         hyperlink=hyperlink,
     )
 
@@ -163,7 +160,7 @@ def formatter_book(data):
         '"{title}," '
         '{year}, '
         '{publisher}, '
-        '{ISBN}, '
+        '{ISBN}'
         '{hyperlink}'
     )
 
@@ -172,7 +169,7 @@ def formatter_book(data):
         year=data['date'].split('-')[0],
         title=data['title'],
         publisher=data['publisher'],
-        ISBN='ISBN ' + data['ISBN'] if data['ISBN'] else '',
+        ISBN='ISBN ' + data['ISBN'] + ', ' if data['ISBN'] else '',
         hyperlink=hyperlink,
     )
 
@@ -197,6 +194,65 @@ def formatter_thesis(data):
     )
 
 
+def formatter_data(data):
+    template = (
+        '{authors}, '
+        '"`{title} <{url}>`__", '
+        '{year}, '
+        '{repository}, '
+        '`{DOI} <https://dx.doi.org/{DOI}>`_ '
+    )
+
+    return template.format(
+        authors=make_author_list(data['creators']),
+        year=data['date'],
+        title=data['title'],
+        url=data['url'],
+        DOI=data['DOI'],
+        repository=data['repository'],
+    )
+
+
+def formatter_blog(data):
+    if data['url']:
+        template = '{authors}, "`{title} <{url}>`__", {year}, {blog}'
+    else:
+        template = '{authors}, "{title}", {year}, {blog}'
+
+    return template.format(
+        authors=make_author_list(data['creators']),
+        year=data['date'],
+        title=data['title'],
+        url=data['url'] if data['url'] else 'http://',
+        blog=data['blogTitle'],
+    )
+
+
+def formatter_manuscript(data):
+    template = '{authors}, "`{title} <{url}>`__", {year}, {type}'
+
+    return template.format(
+        authors=make_author_list(data['creators']),
+        year=data['date'],
+        title=data['title'],
+        url=data['url'] if data['url'] else 'http://',
+        type=data['manuscriptType'],
+    )
+
+
+def formatter_report(data):
+    template = '{authors}, "`{title} <{url}>`__", {typ}, {year}, {institution}'
+
+    return template.format(
+        authors=make_author_list(data['creators']),
+        year=data['date'],
+        title=data['title'],
+        url=data['url'] if data['url'] else 'http://',
+        typ=data['reportType'],
+        institution=data['institution'],
+    )
+
+
 def formatter(data):
     template = '{authors}, "`{title} <{url}>`__", {year}'
 
@@ -210,16 +266,16 @@ def formatter(data):
 
 formatter_map = {
     'attachment': lambda data: '',  # TODO : Not sure why this is present.
-    'blogPost': formatter,
+    'blogPost': formatter_blog,
     'book': formatter_book,
     'computerProgram': formatter,
     'conferencePaper': formatter_proceedings,
-    'dataset': formatter,
+    'dataset': formatter_data,
     'journalArticle': formatter_journal,
-    'manuscript': formatter,
+    'manuscript': formatter_manuscript,
     'preprint': formatter_preprint,
     'presentation': formatter_presentations,
-    'report': formatter,
+    'report': formatter_report,
     'thesis': formatter_thesis,
 }
 
