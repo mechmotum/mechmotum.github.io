@@ -106,7 +106,6 @@ def formatter_presentations(data):
     template = (
         '{authors}, '
         '"{title}," '
-        '{conference}, '
         '{place}, '
         '{year}, '
     )
@@ -119,7 +118,6 @@ def formatter_presentations(data):
         authors=make_author_list(data['creators']),
         year=data['date'],
         title=data['title'],
-        conference=data['meetingName'],
         place=data['place'],
         url=data['url'],
         type=data['presentationType'],
