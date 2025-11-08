@@ -24,27 +24,26 @@ library_type = "user"
 collection_id = "B8PZ4ZAN"  # My publications collection
 collection_id = "7IG48IAS"  # Products Page
 
-# map zotero item types to the page headings
+# map zotero item types to the page headings, this also defines the order of
+# display
 heading_map = {
-    'attachment': 'attachment',
-    'blogPost': 'web_articles',
-    'book': 'books',
-    'computerProgram': 'software',
-    'conferencePaper': 'conference_proceedings',
-    'dataset': 'data',
-    'journalArticle': 'journal_articles',
-    'manuscript': 'working_papers',
-    'preprint': 'preprints',
-    'presentation': 'presentations',
-    'report': 'reports',
-    'thesis': 'theses',
+    'journalArticle': 'Journal Articles',
+    'conferencePaper': 'Conference Proceedings',
+    'book': 'Books',
+    'thesis': 'Theses and Dissertations',
+    'report': 'Reports',
+    'preprint': 'Preprints',
+    'blogPost': 'Web Articles',
+    'manuscript': 'Working Papers',
+    'presentation': 'Presentations',
+    'computerProgram': 'Software',
+    'dataset': 'Data',
 }
-reference_lists = {v: [] for k, v in heading_map.items()}
 
 
 def make_author_list(creators):
     """Returns the authors string, e.g. Jason K. Moore, Christoph Konrad, and
-    Mont Hubbard."""
+    Mont Hubbard. Bolds presenters."""
 
     def make_name(creator):
         if 'name' in creator:
@@ -210,7 +209,7 @@ def formatter(data):
 
 
 formatter_map = {
-    'attachment': lambda data: '',
+    'attachment': lambda data: '',  # TODO : Not sure why this is present.
     'blogPost': formatter,
     'book': formatter_book,
     'computerProgram': formatter,
@@ -238,20 +237,20 @@ def generate_bibliography(library_id, library_type, collection_id, api_key='',
 
     items = zot.everything(zot.collection_items(collection_id, sort='date'))
 
+    reference_lists = {v: [] for k, v in heading_map.items()}
     for item in items:
         item_type = item['data']['itemType']
         form = formatter_map[item_type]
-        reference_lists[heading_map[item_type]].append(form(item['data']))
+        if item_type != 'attachment':
+            reference_lists[heading_map[item_type]].append(form(item['data']))
 
-    with open('products_page_template.rst') as f:
-        page_template = f.read()
-
-    enum_ref_txt = {}
+    page_txt = ""
     for heading, ref_list in reference_lists.items():
-        enum_ref_txt[heading] = '\n'.join(['{}. {}'.format(str(i + 1), ref)
-                                           for i, ref in enumerate(ref_list)])
-
-    page_txt = page_template.format(**enum_ref_txt)
+        page_txt += heading + '\n'
+        page_txt += '='*len(heading) + '\n'
+        page_txt += '\n'.join(['{}. {}'.format(str(i + 1), ref)
+                               for i, ref in enumerate(ref_list)])
+        page_txt += '\n\n'
 
     if file_name is None:
         sys.stderr.write(page_txt)
@@ -276,13 +275,17 @@ if __name__ == "__main__":
     parser.add_argument('collection_id', type=str,
                         help="Zotero Collection ID Number")
 
-    parser.add_argument('--api_key', type=str, default='', required=False,
+    parser.add_argument('--api_key', type=str, default=None, required=False,
                         help="Zotero API Key")
+
+    parser.add_argument('--file_name', type=str, default=None, required=False,
+                        help="Save to filename instead of to STDOUT")
 
     args = parser.parse_args()
 
     #generate_bibliography(args.library_id, args.library_type,
-                          #args.collection_id, api_key=args.api_key)
+                            #args.collection_id, api_key=args.api_key,
+                            #file_name=args.file_name)
 
     generate_bibliography(library_id, library_type, collection_id,
                           file_name='products_page.rst')
