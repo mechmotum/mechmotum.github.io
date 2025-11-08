@@ -359,7 +359,7 @@ def generate_bibliography(library_id, library_type, collection_id,
         page_txt += '\n\n'
 
     if file_name is None:
-        sys.stderr.write(page_txt)
+        sys.stdout.write(page_txt)
     else:
         with open(file_name, 'w') as f:
             f.write(page_txt)
