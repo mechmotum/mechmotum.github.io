@@ -6,11 +6,6 @@ Journal Articles
 
 {journal_articles}
 
-In Preparation
-==============
-
-{review}
-
 Conference Proceedings
 ======================
 
@@ -36,6 +31,11 @@ Preprints
 
 {preprints}
 
+Working Papers
+==============
+
+{working_papers}
+
 Web Articles
 ============
 
@@ -46,17 +46,12 @@ Presentations
 
 {presentations}
 
-Tutorials
-=========
+Data
+====
 
-{tutorials}
+{data}
 
 Software
 ========
 
 {software}
-
-Data
-====
-
-{data}

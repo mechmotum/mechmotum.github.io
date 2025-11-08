@@ -4,6 +4,12 @@ TODO
 - separate tutorials from presentations
 - separate conference abstracts from conference papers
 - DOI and URL should be displayed for each item, as there may be both
+- Add grant proposals
+- Add data
+- Add badges to software
+- Subheading by year?
+- Outputs for other pages on the website
+- Output for my personal website
 
 """
 from pyzotero.zotero import Zotero
@@ -15,18 +21,13 @@ collection_id = "3J8PXE2Z"  # Lab Publications collection in mechmotum
 library_id = "425053"  # user: moorepants
 library_type = "user"
 collection_id = "B8PZ4ZAN"  # My publications collection
+collection_id = "7IG48IAS"  # Products Page
 
 # NOTE : Create a file zotero_api.txt with the key adjacent to this script.
 with open('zotero_api.txt') as f:
     api_key = f.read().strip()
 
 zot = Zotero(library_id=library_id, library_type=library_type, api_key=api_key)
-
-# NOTE : You can return formatted citations like this:
-# items = zot.collection_items(collection_id, content="bib", style="apa")
-# or better yet, it would be nice if the formatted reference is in the standard
-# json file should be able to do format='json' and include="bib",
-# style"ieee", but this doesn't do it
 
 items = zot.everything(zot.collection_items(collection_id, sort='date'))
 
@@ -39,7 +40,7 @@ heading_map = {
     'conferencePaper': 'conference_proceedings',
     'dataset': 'data',
     'journalArticle': 'journal_articles',
-    'manuscript': 'review',
+    'manuscript': 'working_papers',
     'preprint': 'preprints',
     'presentation': 'presentations',
     'report': 'reports',
@@ -53,6 +54,8 @@ theses_text_list = []
 
 
 def make_author_list(creators):
+    """Returns the authors string, e.g. Jason K. Moore, Christoph Konrad, and
+    Mont Hubbard."""
 
     def make_name(creator):
         if 'name' in creator:
@@ -61,6 +64,8 @@ def make_author_list(creators):
             name = creator['firstName'] + " " + creator['lastName']
         if creator['creatorType'] == 'presenter':
             name = '**' + name + '**'
+        else:
+            name = '`' + name + '`'
         return name
 
     if len(creators) == 1:
@@ -113,7 +118,7 @@ def formatter_journal(data):
 
 def formatter_presentations(data):
     if data['url']:
-        hyperlink = '`{url} <{url}>`_ '.format(**data)
+        hyperlink = ', `{url} <{url}>`_ '.format(**data)
     else:
         hyperlink = ''
     template = (
@@ -121,7 +126,7 @@ def formatter_presentations(data):
         '"{title} [{type}]," '
         '{conference}, '
         '{place}, '
-        '{year}, '
+        '{year} '
         '{hyperlink}'
     )
 
@@ -184,6 +189,26 @@ def formatter_book(data):
     )
 
 
+def formatter_thesis(data):
+    template = (
+        '{authors}, '
+        '"`{title} <{url}>`_," '
+        '[{type}], '
+        '{year}, '
+        '{university}, '
+        '{place}'
+    )
+    return template.format(
+        authors=make_author_list(data['creators']),
+        year=data['date'],
+        title=data['title'],
+        type=data['thesisType'],
+        university=data['university'],
+        place=data['place'],
+        url=data['url'],
+    )
+
+
 def formatter(data):
     template = '{authors}, "`{title} <{url}>`__", {year}'
 
@@ -207,7 +232,7 @@ formatter_map = {
     'preprint': formatter_preprint,
     'presentation': formatter_presentations,
     'report': formatter,
-    'thesis': formatter,
+    'thesis': formatter_thesis,
 }
 
 for item in items:
@@ -231,7 +256,7 @@ page_txt = page_template.format(
     preprints=enum_ref_txt['preprints'],
     presentations=enum_ref_txt['presentations'],
     reports=enum_ref_txt['reports'],
-    review=enum_ref_txt['review'],
+    working_papers=enum_ref_txt['working_papers'],
     software=enum_ref_txt['software'],
     theses=enum_ref_txt['theses'],
     tutorials='',
