@@ -8,6 +8,7 @@ Finding the Efficiency of the Xylem and Money Maker Treadle Pumps
 :slug: treadle-pump-experiment
 :authors: Aaron Shaw, Rayming Liang
 :summary: Blog post on conducting efficiency experiments with treadle pumps.
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/treadle-example.jpg
 
 Introduction
 ------------

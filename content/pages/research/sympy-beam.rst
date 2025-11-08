@@ -1,4 +1,7 @@
-:title: Development of a Beam Bending Package for SymPy
+===============================================
+Development of a Beam Bending Package for SymPy
+===============================================
+
 :status: hidden
 :date: 2019-08
 :collaborators: SymPy Developers

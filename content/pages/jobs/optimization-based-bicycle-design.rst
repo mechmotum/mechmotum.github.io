@@ -1,10 +1,11 @@
 =========================================================
-Optimization Based Bicycle Design For Equivlanet Dynamics
+Optimization Based Bicycle Design For Equivalent Dynamics
 =========================================================
 
 :date: 2020-09-09
 :status: hidden
 :slug: jobs/msc/optimization-based-bicycle-design
+:template: msc-project
 
 .. figure:: https://upload.wikimedia.org/wikipedia/en/0/0c/Strida.JPG
    :align: center
@@ -88,11 +89,3 @@ See Also
 ========
 
 - `Lab research page on optimal handling bicycles <https://mechmotum.github.io/research/optimal-handling-bicycle.html>`_
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project along with your current
-resume or C.V.

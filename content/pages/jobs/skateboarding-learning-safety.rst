@@ -5,6 +5,7 @@ Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety
 :date: 2020-09-09
 :status: hidden
 :slug: jobs/msc/skateboarding-learning-safety
+:template: msc-project
 
 .. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ollie_skateboarding_trick.jpg/640px-Ollie_skateboarding_trick.jpg
    :align: center
@@ -58,11 +59,3 @@ See also
   that allow learners to progressively lower the safety in stability while
   learning to ride bicycles.
 - The Ollie: https://en.wikipedia.org/wiki/Ollie_(skateboarding)
-
-How to Apply
-============
-
-Send an email to j.k.moore@tudelft.nl with the title of the project in the
-subject line. Include an approximately half-page motivation letter explaining
-why you want to work in the Bicycle Lab on this project along with your current
-resume or C.V.

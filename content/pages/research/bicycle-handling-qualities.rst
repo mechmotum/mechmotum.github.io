@@ -1,9 +1,12 @@
-:title: Experimental Validation of Bicycle Handling Prediction
+======================================================
+Experimental Validation of Bicycle Handling Prediction
+======================================================
+
 :status: hidden
 :date: 2019-12-10
 :collaborators: Mont Hubbard, Ronald Hess
 :current_researchers:
-:past_researchers: Scott Kresie, Trevor Metz
+:past_researchers: Jules Ronné, Scott Kresie, Trevor Metz
 :research_theme: Bicycle Engineering
 :template: project
 :summary-sentence: This project aims to validate this metric directly from

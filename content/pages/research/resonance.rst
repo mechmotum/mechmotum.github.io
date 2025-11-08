@@ -1,4 +1,7 @@
-:title: Learning Mechanical Vibrations Through Computational Thinking
+=============================================================
+Learning Mechanical Vibrations Through Computational Thinking
+=============================================================
+
 :date: 2019-12
 :status: hidden
 :collaborators: Kenneth Lyons

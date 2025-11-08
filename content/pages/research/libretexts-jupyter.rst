@@ -1,8 +1,11 @@
-:title: Interactive Jupyter-Enabled LibreTexts Pages
+============================================
+Interactive Jupyter-Enabled LibreTexts Pages
+============================================
+
 :status: hidden
 :date: 2020-08
 :collaborators: Delmar Larsen, Richard Feltstykket, Henry Agnew
-:current_researchers: Kevin Rong, Noah Sanders
+:current_researchers: Kevin Rong, Lyla Sanders
 :past_researchers: Abigail Alamanza, Lawrence Lee, Eric Li, Celine Liang,
                    Xiaochen Zang, Xin Luigi Chen, Kevin Krausse, Henry Agnew
 :research_theme: Engineering Education
@@ -57,9 +60,9 @@ Software:
 
 Blog posts:
 
-- `Winter 2020 Update <{filename}/jupyter-winter-2020.rst>`_
+- `Fall 2020 Update <{filename}/jupyter-fall-2020.rst>`_
 - `Summer 2019 Update <{filename}/jupyter-summer-2019.rst>`_
-- `SacPy 2019 Presentation <{filename}/sacypy-2019.rst>`_
+- `SacPy 2019 Presentation <{filename}/sacpy-slideck-2019.rst>`_
 - `Winter 2019 Update <{filename}/jupyter-winter-2019.rst>`_
 - `Grant Announcement <{filename}/libretexts-grant.rst>`_
 
@@ -111,7 +114,7 @@ Media
    <iframe width="560" height="315"
    src="https://www.youtube.com/embed/dIwZ-QQ8xSs" frameborder="0"
    allow="accelerometer; autoplay; encrypted-media; gyroscope;
-   picture-in-picture" allowfullscreen></iframe> 
+   picture-in-picture" allowfullscreen></iframe>
    <br>
    Video tutorial on using the CKeditor Binder plugin.
    <br>

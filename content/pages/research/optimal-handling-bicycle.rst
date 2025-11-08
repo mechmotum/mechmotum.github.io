@@ -1,4 +1,7 @@
-:title: Optimal Handling Bicycles
+=========================
+Optimal Handling Bicycles
+=========================
+
 :collaborators: Mont Hubbard, Ronald Hess
 :current_researchers:
 :date: 2019-09
@@ -69,7 +72,7 @@ Associated Research Products
 
 - Blog posts:
 
-   - `Practical Realization of a Theoretical Optimal-Handling Bicycle Results <{filename}/optimal-bicycle-realization-summer2019.rst>`_
+   - `Practical Realization of a Theoretical Optimal-Handling Bicycle Results <{filename}/practical-realization-of-a-theoretical-optimal-handling-bicycle-results.rst>`_
 
 Media
 =====

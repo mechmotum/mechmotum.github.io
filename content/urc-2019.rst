@@ -8,6 +8,7 @@ Laboratorium Represented at the UC Davis Undergraduate Research Conference
 :authors: Jason K. Moore
 :summary: Bryn Cloud and Trevor Metz Presented at the 2019 UC Davis
           Undergraduate Research Conference
+:thumbnail: https://objects-us-east-1.dream.io/mechmotum/urc2019-metz-photo.jpg
 
 Two of the undergraduate researchers in the Laboratorium presented their past
 year's work at the UC Davis Undergraduate Research Conference on April 26,

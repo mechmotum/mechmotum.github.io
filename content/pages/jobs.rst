@@ -1,29 +1,28 @@
-:title: Jobs
+=========
+Positions
+=========
+
+:slug: jobs
+
 :sortorder: 4
 
-.. contents::
+.. contents:: Table of Contents
+   :local:
+   :class: floatcon
 
-Researchers, Postdoctoral Researchers, PhD Researchers
-======================================================
+PhD & Postdoctoral Researchers
+==============================
 
-If you are interested in doing paid research with the lab after you have
-obtained a related Master's degree [#]_ there are two options:
+If you are interested in doing paid research with the lab [#]_ there are two
+options:
 
 1. Wait for an open position in the lab and apply.
 2. Find self-funding and ask if we can host and work with you.
 
 All paid positions associated with the lab will be posted to the `TU Delft
 vacancies website`_, the `BioMechanical Engineering Department vacancies web
-page`_, `Academic Transfer`_ [#]_, and/or this lab website.
-
-Current Vacancies
------------------
-
-Postdoc Fall Prevention in Elite and Consumer Cycling
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Application URL: https://www.academictransfer.com/en/293095/postdoc-fall-prevention-in-elite-and-consumer-cycling/
-- Application Due Date: 2020-10-02
+page`_, `Academic Transfer`_ [#]_, and/or `this lab website
+</category/jobs.html>`_.
 
 .. _Academic Transfer: http://www.academictransfer.com
 .. _TU Delft vacancies website: https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/
@@ -34,6 +33,11 @@ Postdoc Fall Prevention in Elite and Consumer Cycling
    also required to have a Master's degree to start a PhD.
 .. [#] All academic jobs in the Netherlands are (and have to be) posted to
    Academic Transfer.
+
+Current openings
+----------------
+
+None
 
 Master's Students
 =================
@@ -49,9 +53,10 @@ MSc tracks in the BME department.
 .. _This video: https://collegerama.tudelft.nl/Mediasite/Showcase/public/Presentation/fa73a57026674d3faeed902b0e261ec91d
 
 If you would like to work on a project for your Master's thesis in the lab
-please send a letter explaining your interest in the lab, CV or resume, and any
-other relevant information to j.k.moore@tudelft.nl. Include whether you have
-been accepted to the University or have not applied yet.
+please send a letter explaining your interest in the lab and/or project, CV or
+resume, a list of courses you've taken, the name of your MSc track, and any
+other relevant information to j.k.moore@tudelft.nl. Include whether you are a
+current student, have been accepted to the University, or have not applied yet.
 
 MSc Project Proposals and Ideas
 -------------------------------
@@ -59,62 +64,157 @@ MSc Project Proposals and Ideas
 The following list provides the current formal MSc projects we are interested
 in finding students for [#]_:
 
+**Available Projects**
+
 .. list-table::
    :header-rows: 1
-   :widths: 60 15 20 15
+   :widths: 45 15 35 15
    :class: table table-striped table-bordered
 
-   * - Project Proposal Title
+   * - Proposal Title & Info
      - Date posted
      - Partners
-     - More information
-   * - Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety
+     - Type
+   * - `Bicycle pose estimation <{filename}/pages/jobs/bike-pose-estimation.rst>`_
+     - 2025-02-13
+     - Benjamin Gonzalez
+     - Thesis
+   * - `Bikes and Babies <{filename}/pages/jobs/bikes-and-babies.rst>`_
+     - 2024-05-15
+     - Dustyn Roberts
+     - Internship
+   * - `Using Model Predictive Control to Assist in Bicycle Lane Changes <{filename}/pages/jobs/mpc-bicycle-assist-experiments.rst>`_
+     - 2023-10-27
+     - Laura Marchal-Crespo, Riender Happee
+     - Thesis
+   * - `Cycling in Virtual Reality <{filename}/pages/jobs/cycling-in-virtual-reality.rst>`_
+     - 2023-10-27
+     -
+     - Thesis
+   * - `Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors <{filename}/pages/jobs/bicycle-tire-force-estimation.rst>`_
+     - 2022-09-08
+     -
+     - Thesis
+   * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
+     - 2021-02-23
+     - Dr. Patrick Forbes & Matto Leeuwis @ Erasmus Medical Center
+     - Thesis
+   * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
+     - 2020-11-17
+     - Dr. Rene van Paassen (TU Delft, Aerospace)
+     - Thesis
+   * - `How fast will my open source code break? <{filename}/pages/jobs/how-fast-will-open-source-break.rst>`_
+     - 2020-09-18
+     -
+     - Thesis
+   * - `Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`_
      - 2020-09-10
-     - USSEA_
-     - `Web page <{filename}/pages/jobs/skateboarding-learning-safety.rst>`__
-   * - Adaptive Speed Control in Cycling
-     - 2020-09-10
-     - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`__
-   * - Bicycle Design, Dynamics, and Handling
-     - 2020-09-10
-     - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc5DesignRulesHandlingQualities.pdf>`__
-   * - Bicycle Load Cases and Road Quality
-     - 2020-09-10
-     - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc4LoadCasesRoadQuality.pdf>`__
-   * - Early Warning and Crash Detection in Cycling
-     - 2020-09-10
-     - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc3EarlyWarningCrashDetection.pdf>`__
-   * - Establish the Power Measurement Accuracy of the TrueBike and Develop an Efficient Calibration Methodology
-     - 2020-09-10
-     - TrueKinetix_
-     - `Web page <{filename}/pages/jobs/truebike-calibration.rst>`__
-   * - How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jumps?
-     - 2020-09-10
-     - Dr. Mont Hubbard
-     - `Web page <{filename}/pages/jobs/robustness-of-equivalent-fall-height.rst>`__
-   * - Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Number of Inertial Sensors
-     - 2020-09-10
-     - Dr. Paul Crawford
-     - `Web page <{filename}/pages/jobs/rowing-performance-metrics-using-minimal-sensors.rst>`__
-   * - Optimization Based Bicycle Design For Equivalent Dynamics
+     - Dr. Paul Crawford (Hegemony Tech)
+     - Thesis
+   * - `Optimization Based Bicycle Design For Equivalent Dynamics <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`_
      - 2020-09-10
      -
-     - `Web page <{filename}/pages/jobs/optimization-based-bicycle-design.rst>`__
-   * - Personalized Virtual Non-round Bicycle Chain-rings Using Live Optimization While Pedaling
+     - Thesis
+
+**Previously Selected Projects**
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 15 20 25
+   :class: table table-striped table-bordered
+
+   * - Proposal Title & Info
+     - Date posted
+     - Partners
+     - Student
+   * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
+     - 2021-02-15
+     -
+     - Looka Schoneveld
+   * - `Wind Force Safety Threshold for Cyclists in Urban Environments <{filename}/pages/jobs/cyclist-wind-norm.rst>`_
+     - 2025-03-20
+     - Actiflow, Peutz
+     - Huy Tieu
+   * - `Improving Rider Acceptance of Bicycle Balance Assist <{filename}/pages/jobs/intention-detection-balance-assist.rst>`_
+     - 2025-03-20
+     - Bosch eBike Systems
+     - Dana van der Pol
+   * - `Optimal Control of the Bicycle-Rider Human-Machine System <{filename}/pages/jobs/optimal-bicycle-rider.rst>`_
+     - 2023-10-27
+     -
+     - Simon Sorgedrager
+   * - `Experiments with Cyclist Social Forces for Microscopic Traffic Simulation <{filename}/pages/jobs/cyclist-social-force-experiments.rst>`_
+     - 2023-08-22
+     - Christoph Schmidt, Riender Happee
+     - Anna Marbus
+   * - `Near Zero Speed Reaction Wheel Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-reaction-wheel-cargo-bicycle.rst>`_
+     - 2023-10-27
+     - Oliver Lee, Björn Andersson
+     - Bart de Vries
+   * - `Explosive Power in BMX Cycling <{filename}/pages/jobs/visser-bmx.rst>`_
+     - 2024-02-08
+     - Peter Visser
+     - Neville Nieman
+   * - `Squiggly Bicycle Routes <{filename}/pages/jobs/squiggly-bicycle-routes.rst>`_
      - 2020-09-10
-     - TrueKinetix_
-     - `Web page <{filename}/pages/jobs/personalized-non-round-chainrings.rst>`__
-   * - Understanding Disc Brake Squeal in Cycling
+     - Ted Buehler (Portland, USA)
+     - Sietse Soethout
+   * - `Getting to the Bottom of Bicycle Rolling Resistance  <{filename}/pages/jobs/bicycle-tire-rolling-resistance.rst>`_
+     - 2022-09-07
+     - Team DSM
+     - Kirsten Dijkman
+   * - `Validation of Ski & Snowboarding Low Impact Jump Design <{filename}/pages/jobs/ski-jump-impact-model-validation.rst>`_
+     - 2022-01-19
+     - `Prinoth <https://www.prinoth.com>`_ & Mont Hubbard (UC Davis)
+     - Jan van der Schot
+   * - `Musculoskeletal Models Optimized For Speedy Forward Simulation Based on Analytic Descriptions <{filename}/pages/jobs/fast-musculoskeletal-simulations.rst>`_
+     - 2020-09-21
+     -
+     - Timo Stienstra
+   * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
+     - 2022-01-14
+     - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
+     - Jens Keijser
+   * - `Near Zero Speed Robotically Balanced Cargo Bicycles <{filename}/pages/jobs/near-zero-speed-robot-cargo-bicycle.rst>`_
+     - 2022-01-11
+     - `Ictech <https://ictech.se/>`_
+     - Jeswin Koshy Cherian
+   * - `Cycling Material Model Design <https://objects-us-east-1.dream.io/mechmotum/team-dsm-modelling-project.pdf>`_ [Applications due by 2021-09-17]
+     - 2021-09-02
+     - `Team DSM <https://www.team-dsm.com>`_
+     - Dorus de Boer
+   * - `Novel cadence detection for electric bicycles <https://objects-us-east-1.dream.io/mechmotum/swugo-internship-cadence.pdf>`_
+     - 2021-09-10
+     - `swugo <https://swugo.com/>`_
+     - Simonas Draukšas
+   * - `Accelerating Learning Beginner Skateboard Tricks While Maximizing Safety <{filename}/pages/jobs/skateboarding-learning-safety.rst>`_
+     - 2020-09-10
+     - Eline van der Kruk (TU Delft, BioMech), Raymund ten Broek (USPC)
+     - Jan Heinen
+   * - `Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance <{filename}/pages/jobs/mpc-bicycle-assist.rst>`_
+     - 2021-02-15
+     - Dr. Laura Marchal-Crespo (TU Delft, CoR), Riender Happee (TU Delft, CoR), Leila Alizadehsaravi (TU Delft, BioMech)
+     - Simonas Draukšas
+   * - `Adaptive Speed Control in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc2AdaptiveSpeedControl.pdf>`_
+     - 2020-09-10
+     - Gazelle_, Victor Knoop (TU Delft, Civil Engr)
+     - Daniël Landré
+   * - `Understanding Disc Brake Squeal in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`_
      - 2020-09-10
      - Gazelle_
-     - `PDF <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc1BrakeSquealDiscBrakes.pdf>`__
+     - Ajaypal Singh
+   * - `Early Warning and Crash Detection in Cycling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc3EarlyWarningCrashDetection.pdf>`_
+     - 2020-09-10
+     - Gazelle_
+     - Joris Kuiper
+   * - `Bicycle Design, Dynamics, and Handling <http://www.bicycle.tudelft.nl/schwab/MScProjects/MSc5DesignRulesHandlingQualities.pdf>`_
+     - 2020-09-10
+     - Gazelle_
+     - Julie van Vlerken
 
-.. _TrueKinetix: http://www.truekinetix.com
 .. _Gazelle: https://www.gazelle.nl/
+.. _LUNEX University: https://www.lunex-university.net/
+.. _TrueKinetix: http://www.truekinetix.com
 .. _USSEA: https://usskateboardeducation.com/
 
 The `current and past research projects <{filename}/pages/research/index.rst>`_
@@ -133,135 +233,3 @@ get research and engineering experience. The best way to work with us it to
 choose a Bachelor's final project proposed from the lab in your final year.
 Otherwise, please send a letter explaining your interest in the lab, CV or
 resume, and any other relevant information to j.k.moore@tudelft.nl.
-
-UC Davis Positions
-==================
-
-These positions are available on an ongoing basis for UC Davis students. Email
-j.k.moore@tudelft.nl if interested.
-
-LibreTexts Site Reliability Engineer Asst
------------------------------------------
-
-Job Function: Student Worker
-
-Job Purpose: To assist Dr. Jason K. Moore in setting up and maintaining
-computational cloud services for the LibreTexts_ project.
-
-Job Description:
-
-The assistant will work on purchasing, setting up, and maintaining a cluster of
-compute nodes to run Binder_ and Jupyter_ to support the LibreTexts_ project.
-They will be part of a team of site reliability engineer assistants working on
-the various related tasks. The assistant will develop scripts, documentation,
-and support various open source projects as needed. The student will work a
-minimum of 10 hours per week during the fall, winter, and spring quarters and a
-minimum of 20 hrs per week during the summer quarter. Up to three years of work
-on the project may be available based on performance.
-
-Qualifications:
-
-Required
-
-- Able to work independently with minimal supervision.
-- Able to work in a team both remotely and in-person.
-- Able to communicate remotely using chat rooms, email, code hosting platforms,
-  and video chat.
-- Comfortable using remote Linux, Bash, and the command line.
-- Familiarity with running a publicly accessible web server.
-- Comfortable using Git version control (or similar tool).
-- Comfortable with at least one high level programming language (e.g. Python,
-  R, Octave, Ruby, Javascript, etc).
-
-Preferred
-
-- Familiarity with open source software development practices.
-- Familiarity with Python and Jupyter_.
-- Familiarity with Kubernetes.
-- Familiarity with web technologies: HTML/CSS/JS.
-
-Application materials:
-
-Please submit a cover letter, resume, and examples of code, documentation,
-websites, or any related work. Be sure to explain how you meet the Required
-and/or Preferred qualifications.
-
-Desired Start: 01/01/2020
-End Date: 12/31/2020
-
-Approximate Hours Per Week:
-
-Minimum of 10 hrs and up to 20 hrs during the academic quarters. Up to 40 hrs in the summer.
-
-Location(s): Bainer Hall, Genome Center, and Remote
-
-Base Pay Rate:
-
-Assistant IV: $11.25 - $16.75
-
-
-LibreTexts Engineering Education Asst
--------------------------------------
-
-Job Function: Student Worker
-
-Job Purpose: To assist Dr. Jason K Moore and other engineering faculty in
-developing interactive open access textbooks for the LibreTexts_ project and
-various UCD engineering courses.
-
-Job Description:
-
-The assistant will be part of a team that develops one or more open access
-engineering textbooks. These textbooks will be published as part of the
-LibreTexts_ engineering "living library". The assistant will work on a variety
-of tasks based on their skills and performance: search for existing open access
-engineering content edit existing engineering textbook content write new
-engineering textbook content draw engineering figures using graphic design
-software write and solve engineering homework problems develop computational
-learning content using Jupyter_ The student will work a minimum of 10 hours per
-week during the fall, winter, and spring quarters and a minimum of 20 hrs per
-week during the summer quarter. Up to three years of work on the project may be
-available based on performance.
-
-Qualifications:
-
-Required
-
-- Able to work independently with minimal supervision.
-- Able to work in a team both remotely and in-person.
-- Able to communicate remotely using chat rooms, email, code hosting platforms,
-  and video chat.
-- Able to write technical documents.
-- Able to read and understand undergraduate engineering textbooks.
-- STEM major (engineering major preferred, but will consider others if
-  applicant exceeds in other criteria)
-
-Preferred
-
-- Familiarity with Python, Jupyter_, and scientific Python packages.
-- Engineering major, ideally Mechanical Engineering or Aerospace Sciences
-  major.
-
-Application materials:
-
-Please submit a cover letter, resume, and at least one example of technical
-writing. Be sure to explain how you meet the Required and/or Preferred
-qualifications.
-
-Desired Start: 01/01/2020
-End Date: 12/31/2020
-
-Approximate Hours Per Week:
-
-Minimum of 10 hrs and up to 20 hrs during the academic quarters. Up to 40 hrs in the summer.
-
-Location(s): Bainer Hall and Remote
-
-Base Pay Rate:
-
-Assistant IV: $11.25 - $16.75
-
-.. _LibreTexts: http://libretexts.org
-.. _Jupyter: http://jupyter.org
-.. _ThebeLab: https://github.com/minrk/thebelab
-.. _Binder: http://mybinder.org

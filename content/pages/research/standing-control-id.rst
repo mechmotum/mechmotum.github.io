@@ -1,4 +1,7 @@
-:title: Control Identification of Human Standing
+========================================
+Control Identification of Human Standing
+========================================
+
 :status: hidden
 :date: 2019-02
 :collaborators: Ton van den Bogert (Cleveland State University)
@@ -52,6 +55,8 @@ result of known programmed control strategies.
 
 Associated Research Products
 ============================
+
+Standing balance control identification with opty: https://opty.readthedocs.io/stable/examples/advanced/plot_park2004.html
 
 Blog posts:
 

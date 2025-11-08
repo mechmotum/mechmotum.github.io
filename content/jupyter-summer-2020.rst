@@ -1,164 +1,211 @@
-Developing a LibreTexts Editor Plugin For Inserting Executable Code Blocks
-==========================================================================
+JupyterTeam Progress Summer 2020
+================================
 
-:date: 2020-06-22 00:00:00
+:date: 2020-10-13 00:00:00
 :tags: oer, education, jupyter, textbooks, engineering, libretexts
 :category: education
-:slug: libretexts-jupyter-plugin
-:authors: Hao Huang, Tannavee Kumar, Celine Liang
-:summary: Blog post on creating a CKEditor plugin which could insert
-          executable code blocks
+:slug: jupyter-summer-2020
+:authors: Lyla Sanders, Kevin Rong
+:summary: Blog post on the progress made by JupyterTeam over the summer of 2020
 
-Background
-----------
+Summary
+-------
 
-During the end of the Fall Quarter 2019 and Winter Quarter 2020, we focused on
-building a `CKEditor Binder Plugin
-<https://github.com/LibreTexts/ckeditor-binder-plugin>`__ to be used on the
-`LibreTexts <https://libretexts.org>`__ website to allow textbook authors to
-insert executable code blocks. We intend for both textbook authors and readers
-to have the ability to edit and run code blocks efficiently, making online
-educational content more interactive.
+Over the summer sessions of 2020, the JupyterTeam was able to
+restructure the default-env image used by our `JupyterHub
+deployment <https://jupyter.libretexts.org/hub/login>`__ so that it is
+built by
+`repo2docker <https://repo2docker.readthedocs.io/en/latest/>`__,
+allowing us to finally make use of our own `Binder
+deployment <https://binder.libretexts.org/>`__ as the backend for the
+`CKEditor Binder
+plugin <https://github.com/LibreTexts/ckeditor-binder-plugin>`__ on
+`Libretexts.org <https://libretexts.org/>`__. This resolves the
+remaining issues mentioned in the JupyterTeam's `previous blog
+post <https://mechmotum.github.io/blog/libretexts-jupyter-plugin.html#future>`__.
 
-Build Process
--------------
+Additionally, we began bare-metal development on the new Galaxy
+Kubernetes cluster building off of experiences with the first `flock
+cluster <https://mechmotum.github.io/blog/jupyter-summer-2019.html>`__
+and improving on it. We also made numerous miscallaneous improvements
+including a new Grafana alert setup, a more detailed FAQ page for our
+JupyterHub as well as completing some much needed cluster upgrades.
 
-We started the project by `surveying
-<https://docs.google.com/document/d/1eV08l_4djKJ7bc8r0LPbD5bp3QT7mHTZgABUleH15H0/edit?usp=sharing>`__
-LibreTexts authors and readers on their most requested features.
+default-env 2.0
+---------------
 
-BinderHub
-^^^^^^^^^
+A long standing complication with our previous `rich default
+default-env <https://github.com/LibreTexts/default-env/tree/1.13/rich-default>`__
+image was that it was built using only a single, cluttered Dockerfile
+and environment.yml. This led to the files being `quite
+long <https://github.com/LibreTexts/metalc/issues/121>`__ and `difficult
+to maintain <https://github.com/LibreTexts/metalc/issues/130>`__. One of
+the advantages of moving to a `repo2docker compatible
+environment <https://github.com/LibreTexts/default-env/tree/2.0.1>`__ is
+that it separates our image building files into more `logical
+parts <https://repo2docker.readthedocs.io/en/latest/config_files.html>`__.
+Using repo2docker, we no longer have to include a Dockerfile and our
+current environment is able to automate away much of what we previously
+had to do using docker commands.
 
-On the backend, the CKEditor Binder plugin utilizes a project called `BinderHub
-<https://binderhub.readthedocs.io/en/latest/>`__ to run code blocks. BinderHub
-is developed as part of the Jupyter project and gives custom computing
-environments based on a list of requirements specified through a GitHub
-repository.
+Additionally, the new `default-env
+2.0 <https://github.com/LibreTexts/default-env>`__ is properly equipped
+to handle `custom conda
+environments <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>`__.
+Not only does this enable users to install their own persistent packages
+on the Hub, but it also permitted us to `reduce the conda
+channels <https://github.com/LibreTexts/metalc/issues/151>`__ necessary
+to build the image down to just conda-forge/defaults and those provided
+by repo2docker. Additionally, repo2docker now uses an alternative
+dependency solver named `mamba <https://github.com/mamba-org/mamba>`__
+which reduces our conda environment build times (one part of the image
+building process) down to only a few seconds. We further sought to
+improve the maintainability of default-env 2.0 by including only the top
+level dependencies for all of our desired packages to avoid listing
+redundancies.
 
-Thebelab
-^^^^^^^^
+Finally, we've fully overhauled the `LibreTexts FAQ page for
+JupyterHub <https://jupyter.libretexts.org/hub/faq>`__ to explain these
+default env changes, provide information on creating conda environments,
+and more. A small
+`extension <https://github.com/LibreTexts/labextension-libretexts-faq>`__
+was added to the JupyterLab interface so that users can directly access
+the FAQ through the 'help' tab or in the Jupyter Launcher. To do this,
+we consolidated the
+`jupyter-templates <https://github.com/LibreTexts/jupyterhub-templates>`__
+and `jupyter-images <https://github.com/LibreTexts/jupyterhub-images>`__
+repositories into just jupyter-templates, and *all* html pages are now
+jinja templates. You can read more about the specifics from the
+jupyter-templates `README.md
+file <https://github.com/LibreTexts/jupyterhub-templates/blob/master/README.md>`__.
 
-`Thebelab <https://github.com/minrk/thebelab>`__ and  `Juniper
-<https://github.com/ines/juniper>`__ are two examples of projects which can
-insert code blocks into HTML pages and running them by requesting a kernel from
-a computing backend like BinderHub. We found that Juniper had some better deign
-elements; however, Thebelab was more actively maintained.  We deliberated on
-which project to incorporate into our plugin, and decided to use Thebelab since
-the recent commits indicated that any possible need for help would be more
-promptly met. To incorporate some of the streamlined design elements of
-Juniper, we planned on adding syntax highlighting.
+CKEditor Binder plugin and our Kubernetes BinderHub deployment
+--------------------------------------------------------------
 
-Creating the plugin
-^^^^^^^^^^^^^^^^^^^
+The `CKEditor Binder
+plugin <https://github.com/LibreTexts/ckeditor-binder-plugin>`__ helps
+provide kernels to executable code cells on Libretexts.org using
+`BinderHub <https://github.com/jupyterhub/binderhub>`__ as a backend.
+While the plugin has been working for a while now and it does enable
+JupyterLab-esque features on LibreTexts, the code cells would `often
+take many minutes to load and
+execute <https://github.com/LibreTexts/metalc/issues/83>`__, if they
+ever did at all. Furthermore, Binder uses repo2docker to build images
+which meant that we could not use our own default-env repository as the
+programming environment. As a result, we had to point CKEditor towards
+external repositories where we had no control over the exact packages in
+the environment. Two changes were made to fix this; we created
+default-env 2.0 as outlined above, and we also brought our BinderHub
+Kubernetes deployment into operation.
 
-Our plugin is based on the `CKEditor 4
-<https://ckeditor.com/docs/ckeditor4/latest/>`__, an open source “what you see
-is what you get” text editor. This is the editor authors use on the LibreTexts
-website.
+The improvements of using our own default-env 2.0 and BinderHub in
+CKEditor Binder plugin represent a huge benefit for LibreTexts. Now that
+we can adjust the packages and kernels provided on LibreTexts with our
+default-env 2.0, we can include additional `interactive
+widgets <https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements>`__
+and exercise greater version control over the programming environment.
+Switching to a locally maintained BinderHub allows us to cache the
+images which are built by Binder on that node, dramatically increasing
+loading speeds when executing code cells on LibreTexts. Pressing "run"
+will now take no more than 20 seconds to connect to a Binder provided
+kernel whereas before it often took minutes or longer due to the
+inconsistent availability of mybinder.org. This drastic decrease in load
+times makes the plugin much more accessible for both authors and
+readers.
 
-Our approach to this plugin is to make use of a `widget
-<https://ckeditor.com/docs/ckeditor4/latest/guide/widget_sdk_intro.html>`__, on
-the editor which allows us to place all the HTML elements of Thebelab together
-as one unit. In other words the widget is a component made out of multiple
-separate elements that are grouped together for easy formatting and movement;
-however, individual parts can be altered independently. This allows for the
-CKEditor instance to easily enforce the elements. Additionally, we created a
-`dialog window
-<https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_dialog_windows.html>`__
-for each code block so that users can modify each block whenever they want.
+Galaxy Cluster
+--------------
 
-Mindtouch Specific Settings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The primary objectives for the new Galaxy cluster are high availability
+and maintainability. Part of how we achieve high availability is by
+using `Keepalived and
+HAproxy <https://github.com/kubernetes/kubeadm/blob/master/docs/ha-considerations.md#options-for-software-load-balancing>`__.
 
-One of the challenges we faced was working around Mindtouch, which sometimes
-caused the plugin to function in unexpected ways. For reference, Mindtouch is
-the web based wiki software that Libretexts uses and it uses a CKEditor. An
-example of an obstacle we faced was that Mindtouch seemed to apply its own CSS
-to the plugin.  This caused text overflow, addition of characters to the end of
-each line, etc.  In order to resolve this, we added our own `styling
-<https://github.com/LibreTexts/ckeditor-binder-plugin/tree/staging/src/styles>`__
-to the plugin. If one wishes to use the CKEditor plugin on their own pages,
-they can remove the extra styling in the folder.
+Keepalived runs as a static Kubernetes pod on each control-plane node
+and it manages a virtual IP for the kube-apiserver that all of the
+Kubernetes worker nodes communicate with. If the control-plane node
+currently holding this Keepalived virtual IP goes down, Keepalived will
+pass the virtual IP on to one of our remaining control-plane nodes so
+that the rest of the Kubernetes cluster can still communicate with the
+kube-apiserver.
 
-Another difference was JavaScript conflict. When we were trying to support
-Jupyter Widgets, we found that it depended on Require.js. However, adding
-Require.js to Mindtouch would break all the JQuery plugins. In order to fix all
-the JavaScript conflicts, we created registerPlugin.js to include all Mindtouch
-specific JavaScript code.
+After Keepalived receives a kube-apiserver request, HAproxy (also
+running as a static pod on each control-plane node) will load-balance
+the request onto whichever control-plane node is chosen according to a
+`round robin
+algorithm <https://avinetworks.com/glossary/round-robin-load-balancing/>`__.
+If we did not use HAproxy, any kube-apiserver request received through
+the Keepalived virtual IP would automatically be routed to that same
+control-plane node, leaving the other control-plane nodes to just sit
+there and do nothing. Load-balancing with HAproxy takes better advantage
+of our available hardware and lowers the kube-apiserver load on any
+given node.
 
+To improve the maintainability of this cluster, we use
+`Puppet <https://puppet.com/docs/puppet/6.18/puppet_index.html>`__ to
+setup Kubernetes and administrate our entire bare-metal cluster.
+Although there already exists a `Puppet module for bootstrapping
+Kubernetes <https://github.com/puppetlabs/puppetlabs-kubernetes>`__, our
+high availability setup has specific demands which required a `new
+Puppet module <https://github.com/LibreTexts/protogalaxy>`__ to be
+written. The Protogalaxy Puppet module bootstraps all of the necessary
+components for Kubernetes using kubeadm like kubelet, kubelctl, and also
+configures Keepalived and HAproxy as static pods. You can read more
+about the module on its
+`README <https://github.com/LibreTexts/protogalaxy/blob/master/README.md>`__
+page.
 
-Including different programming languages
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Finally, we have a `Puppet
+control-repo <https://github.com/LibreTexts/metalc/blob/master/docs/Galaxy-Control-Repo.md>`__
+which employs the ProtoGalaxy module and configures all the
+non-Kubernetes components of our Galaxy cluster. Our goal is to use this
+control-repo to completely reset the cluster state to a working version
+in the case that something massively breaks. This would greatly improve
+the maintainability of Galaxy cluster.
 
-During development, we used `environments developed by the Jupyter project
-<https://github.com/binder-examples>`__. Using their Binder environments helped
-us test and include different languages in our editor. Eventually we will
-utilize, we would utilize the same `default environment
-<https://github.com/libretexts/default-env>`__ in our JupyterHub for our
-editor. This default environment contains many packages that are commonly used
-and requested by students and faculty.
+As of now, we currently only have a development Galaxy cluster with no
+public availability. We repurposed chicks11-18 from the Flock cluster
+with brand new SSDs and then booted them up using IPMI. We also used
+IPMI to install Ubuntu on all of these nodes because we do not have
+physical access to the cluster in the midst of Covid-19.
 
-Github Actions
-^^^^^^^^^^^^^^
+Flock Cluster Upgrades/Improvements
+-----------------------------------
 
-We made use of Github Actions to automate two important tasks. After each push
-on Github, it will trigger our custom linter to ensure code quality and
-consistency. Additionally, if we push any code to the master branch, it will
-trigger an automatic deploy to production.
+At the beginning of summer, the original flock cluster went totally down
+because our `kubeadm
+certificates <https://v1-18.docs.kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/>`__
+expired. The reason for this was that our cluster was very behind on
+Ubuntu and Kubernetes upgrades; the kube-apiserver and kubelet were on
+v1.12 while the latest release was v1.18 at the time. One of the first
+things we did was to upgrade the flock cluster across all the nodes, and
+they now sit at a neat v1.19 for kubelet/kube-apiserver and v18.04.5 for
+Ubuntu. Furthermore, we established a policy of upgrading the cluster
+every 4 months so that the certificates do not meet their yearly
+expiration date as they did before.
 
-CKEditor Capabilities
----------------------
+Other improvements were made as well. Kubernetes
+`cert-manager <https://cert-manager.io/docs/installation/kubernetes/>`__
+has been upgraded to v1, and `helm <https://v3.helm.sh/>`__ has also
+been migrated over to v3. Our Grafana alerts setup has been recrafted so
+that we no longer have to manually reinput our dashboards if the pod
+goes down. We also enabled IPMI interfaces on all the nodes, affording
+us remote adminstration tools in light of Covid-19.
 
-Currently authors publishing on the LibreTexts platform have the option to
-insert executable code blocks using ``Octave``, ``SageMath``, ``Julia``, ``R``,
-``Python``, and ``C++``. There is a possibility that other languages may be
-added in the future. Authors can choose to either copy and paste their code
-into the text editor, or directly code in the text editor as they would any
-other one. To ensure that it is easy for the author as well as the reader of
-the textbook to view the contents within the code block, as described in the
-aforementioned section, syntax highlighting is made available via
-``CodeMirror`` for all the languages except ``SageMath`` which is not supported
-by ``CodeMirror``.
+Future Plans
+------------
 
-It is important to note that we suggest authors ``run`` the sample ``Hello
-World`` print statement first to get the kernel started, once that is
-successful, code can be added in the dialog box. For ``C++``, if the code has
-already been ``run``, but the author wants to make any changes, they will need
-to ``restart`` the kernel in order to avoid an ``Interpreter Error`` as any
-variables will be assigned more than once in ``Binder`` which is not allowed in
-``C++``.
+Our top priorities moving forward are to enhance the executable code
+cell features of LibreTextsand continue development on the Galaxy
+cluster. We would like to fix the current issues with ipywidgets and
+other interactive plotting features currently exhibited by our CKEditor
+Binder plugin. To complement this, we must bring cell-to-cell
+communcation to the plugin so that adjusting the output of one cell
+(such as a slider) can redraw the output of a previous cell just as it
+would in JupyterLab.
 
-Packages and libraries can be exported as they normally would; however, if an
-author finds that a specific package or library that they would like to use is
-not currently available they can make a request to have it added by either
-sending an `email to the Jupyter Team <jupyterteam@ucdavis.edu>`__, linked in
-the dialog box, or `open an issue
-<https://github.com/LibreTexts/ckeditor-binder-plugin/issues>`__ .
-
-Once the author is ready to insert the code block into their textbook page,
-they have the option to either 'Insert with code and output,' 'Insert with code
-only,' or 'Insert with output only.' Selection of any of these choices depends
-on how the author intends to communicate the information provided in the code
-block. If the code block has already been inserted into the page, and the
-author wants to make any changes, they can simply double click on that section
-and the dialog box will pop back up.
-
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/example-libretexts-jupyter-page.gif
-   :width: 100%
-   :alt: GIF depicting an example page made using CKEditor
-   :align: center
-
-   *Figure 1: Example of what and author can do with CKEditor, and what the output will look like*
-
-Future
-------
-
-As mentioned before, a long term goal is to use ``default-env`` for the
-packages, this is the same environment that is used for the LIbreTexts-UCD
-JupyterHub, and by
-
-using this, authors will have a greater selection of packages and libraries to
-choose from, and it will also be easier for us to maintain. We also want to
-improve the execution time of the code blocks, as currently requesting a kernel
-involves downloading an image from DockerHub and creating a Docker container.
+For the Galaxy cluster, we need to find a way to read the authentication
+process of Hub users so that we can tag their pod and send them to the
+high performance computing setup as needed. We will also need to
+construct the physical computer setup for Galaxy, just as was done for
+Flock cluster over a year ago. Stay tuned for more updates!
