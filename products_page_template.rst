@@ -6,23 +6,25 @@ Journal Articles
 
 {journal_articles}
 
-Theses
-======
+Under Review
+============
 
-{theses}
-
-Books
-=====
-
-{books}
+{review}
 
 Conference Proceedings
 ======================
 
 {conference_proceedings}
 
-Conference Abstracts
-====================
+Books
+=====
+
+{books}
+
+Theses
+======
+
+{theses}
 
 Reports
 =======
@@ -53,3 +55,8 @@ Software
 ========
 
 {software}
+
+Data
+====
+
+{data}

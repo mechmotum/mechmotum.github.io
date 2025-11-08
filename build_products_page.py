@@ -35,15 +35,19 @@ items = zot.collection_items(collection_id, sort='date')
 
 # map zotero item types to the page headings
 heading_map = {
-               'computerProgram': 'software',
-               'conferencePaper': 'conference_proceedings',
-               'journalArticle': 'journal_articles',
-               'presentation': 'presentations',
-               'report': 'reports',
-               'thesis': 'theses',
-               'book': 'books',
-               'blogPost': 'web_articles',
-               }
+    'attachment': 'attachment',
+    'blogPost': 'web_articles',
+    'book': 'books',
+    'computerProgram': 'software',
+    'conferencePaper': 'conference_proceedings',
+    'dataset': 'data',
+    'journalArticle': 'journal_articles',
+    'manuscript': 'review',
+    'preprint': 'preprints',
+    'presentation': 'presentations',
+    'report': 'reports',
+    'thesis': 'theses',
+}
 
 reference_lists = {v: [] for k, v in heading_map.items()}
 
@@ -51,23 +55,79 @@ journal_articles_text_list = []
 theses_text_list = []
 
 
+def formatter_journal(data):
+    template = (
+        '{authors}, '
+        '"{title}," '
+        '{journal}, '
+        '{year}, '
+        '`{doi} <https://dx.doi.org/{doi}>`_ '
+    )
+
+    authors = ', '.join([author['lastName'] + ", " + author['firstName']
+                         for author in data['creators']])
+    return template.format(authors=authors,
+                           year=data['date'].split('-')[0],
+                           title=data['title'],
+                           journal=data['publicationTitle'],
+                           doi=data['DOI'])
+
+
+def formatter_proceedings(data):
+    if data['DOI']:
+        hyperlink = '`{DOI} <https://dx.doi.org/{DOI}>`_ '.format(**data)
+    elif data['url']:
+        hyperlink = '`{url} <{url}>`_ '.format(**data)
+    else:
+        hyperlink = ''
+    template = (
+        '{authors}, '
+        '"{title}," '
+        '{conference}, '
+        '{year}, '
+        '{hyperlink}'
+    )
+
+    authors = ', '.join([author['lastName'] + ", " + author['firstName']
+                         for author in data['creators']])
+    return template.format(authors=authors,
+                           year=data['date'].split('-')[0],
+                           title=data['title'],
+                           conference=data['conferenceName'],
+                           hyperlink=hyperlink)
+
+
 def formatter(data):
     template = '{authors}, "`{title} <{url}>`__", {year}'
 
     authors = ', '.join([author['lastName'] + ", " + author['firstName']
                          for author in data['creators']])
+
     return template.format(authors=authors,
                            year=data['date'],
                            title=data['title'],
                            url=data['url'] if data['url'] else 'http://')
 
 
+formatter_map = {
+    'computerProgram': formatter,
+    'conferencePaper': formatter_proceedings,
+    'journalArticle': formatter_journal,
+    'presentation': formatter,
+    'report': formatter,
+    'thesis': formatter,
+    'book': formatter,
+    'blogPost': formatter,
+    'dataset': formatter,
+    'preprint': formatter,
+    'manuscript': formatter,
+    'attachment': lambda data: '',
+}
+
 for item in items:
     item_type = item['data']['itemType']
-    try:
-        reference_lists[heading_map[item_type]].append(formatter(item['data']))
-    except KeyError:
-        pass
+    form = formatter_map[item_type]
+    reference_lists[heading_map[item_type]].append(form(item['data']))
 
 with open('products_page_template.rst') as f:
     page_template = f.read()
@@ -78,16 +138,19 @@ for heading, ref_list in reference_lists.items():
                                        for i, ref in enumerate(ref_list)])
 
 page_txt = page_template.format(
-    journal_articles=enum_ref_txt['journal_articles'],
-    theses=enum_ref_txt['theses'],
     books=enum_ref_txt['books'],
     conference_proceedings=enum_ref_txt['conference_proceedings'],
-    reports=enum_ref_txt['reports'],
+    data='',
+    journal_articles=enum_ref_txt['journal_articles'],
     preprints='',
     presentations=enum_ref_txt['presentations'],
-    web_articles=enum_ref_txt['web_articles'],
+    reports=enum_ref_txt['reports'],
+    review='',
+    software=enum_ref_txt['software'],
+    theses=enum_ref_txt['theses'],
     tutorials='',
-    software=enum_ref_txt['software'])
+    web_articles=enum_ref_txt['web_articles'],
+)
 
 with open('products_page.rst', 'w') as f:
     f.write(page_txt)
