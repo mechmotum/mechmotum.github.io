@@ -1,17 +1,33 @@
-"""
+"""Generates a reStructuredText bibliography from a Zotero collection.
 
-TODO
-- DOI and URL should be displayed for each item, as there may be both
-- Add grant proposals
-- Add data
-- Add badges to software
-- Subheading by year?
-- Outputs for other pages on the website
-- Output for my personal website
+Depends on pyzotero.
 
-"""
-import sys
-from pyzotero.zotero import Zotero
+You will need to create a Zotero account and API key and then have these values
+available:
+
+- library id : a number that identifies the Zotero user or group
+- library type : either "user" or "group"
+- collection id : characters that identify the collection owned by the user or
+  group
+- zotero api key : your API key
+
+You can create a ``zotero_api.txt`` file adjacent to this script with your API
+key as the only line in the file or you can pass the API key in via the command
+line.
+
+Display the bibliography in the terminal::
+
+   build_rest_bibliography library_id library_type collection_id
+
+Or save it to a file::
+
+   rest_bib library_id library_type collection_id --file_name=page.rst
+
+Or pipe it to generate another file type with Pandoc, for example::
+
+   rest_bib library_id library_type collection_id | pandoc -o page.html
+
+Some example input values:
 
 library_id = "966974"  # group: mechmotum
 library_type = "group"
@@ -19,8 +35,47 @@ collection_id = "3J8PXE2Z"  # Lab Publications collection in mechmotum
 
 library_id = "425053"  # user: moorepants
 library_type = "user"
-collection_id = "B8PZ4ZAN"  # My publications collection
+collection_id = "B8PZ4ZAN"  # My Publications collection
 collection_id = "7IG48IAS"  # Products Page
+
+This script relies on using the Zotero item type to categorize the various
+research products in specific way:
+
+Journal Article
+    Anything published in a peer reviewed journal.
+Conference Paper
+    Used for any full paper created for a conference that is published (peer
+    reviewed or not). Do not use for conference abstracts, use "Presentation"
+    for those.
+Book
+    Any published book (can be self-published).
+Thesis
+    Any BSc, MSc, or PhD thesis or dissertation.
+Report
+    Technical and other reports, for example a Bachelor End Project report.
+Preprint
+    For preprints that are hosted on an official repository.
+Blog Post
+    Any informal web article.
+Manuscript
+    Draft papers (pre-pre prints), papers under review, papers submitted, in
+    preparation.
+Presentation
+    Any conference presentation, workshop presentation, etc. Can include the
+    slides or abstract as the linked material.
+Computer Program
+    Software repositories or archives.
+Dataset
+    Data that has been shared on an archive.
+
+TODO:
+
+- Add badges to software
+- Add grant proposals
+
+"""
+import sys
+from pyzotero.zotero import Zotero
 
 # map zotero item types to the page headings, this also defines the order of
 # display
@@ -263,7 +318,6 @@ def formatter(data):
 
 
 formatter_map = {
-    'attachment': lambda data: '',  # TODO : Not sure why this is present.
     'blogPost': formatter_blog,
     'book': formatter_book,
     'computerProgram': formatter,
@@ -278,11 +332,9 @@ formatter_map = {
 }
 
 
-def generate_bibliography(library_id, library_type, collection_id, api_key='',
-                          file_name=None):
-    if not api_key:
-        # NOTE : Create a file zotero_api.txt with the key adjacent to this
-        # script.
+def generate_bibliography(library_id, library_type, collection_id,
+                          api_key=None, file_name=None):
+    if api_key is None:
         with open('zotero_api.txt') as f:
             api_key = f.read().strip()
 
@@ -294,8 +346,8 @@ def generate_bibliography(library_id, library_type, collection_id, api_key='',
     reference_lists = {v: [] for k, v in heading_map.items()}
     for item in items:
         item_type = item['data']['itemType']
-        form = formatter_map[item_type]
         if item_type != 'attachment':
+            form = formatter_map[item_type]
             reference_lists[heading_map[item_type]].append(form(item['data']))
 
     page_txt = ""
@@ -337,9 +389,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    #generate_bibliography(args.library_id, args.library_type,
-                            #args.collection_id, api_key=args.api_key,
-                            #file_name=args.file_name)
-
-    generate_bibliography(library_id, library_type, collection_id,
-                          file_name='products_page.rst')
+    generate_bibliography(args.library_id, args.library_type,
+                          args.collection_id, api_key=args.api_key,
+                          file_name=args.file_name)
