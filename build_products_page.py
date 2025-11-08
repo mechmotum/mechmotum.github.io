@@ -12,6 +12,7 @@ TODO
 - Output for my personal website
 
 """
+import sys
 from pyzotero.zotero import Zotero
 
 library_id = "966974"  # group: mechmotum
@@ -22,14 +23,6 @@ library_id = "425053"  # user: moorepants
 library_type = "user"
 collection_id = "B8PZ4ZAN"  # My publications collection
 collection_id = "7IG48IAS"  # Products Page
-
-# NOTE : Create a file zotero_api.txt with the key adjacent to this script.
-with open('zotero_api.txt') as f:
-    api_key = f.read().strip()
-
-zot = Zotero(library_id=library_id, library_type=library_type, api_key=api_key)
-
-items = zot.everything(zot.collection_items(collection_id, sort='date'))
 
 # map zotero item types to the page headings
 heading_map = {
@@ -46,11 +39,7 @@ heading_map = {
     'report': 'reports',
     'thesis': 'theses',
 }
-
 reference_lists = {v: [] for k, v in heading_map.items()}
-
-journal_articles_text_list = []
-theses_text_list = []
 
 
 def make_author_list(creators):
@@ -235,33 +224,65 @@ formatter_map = {
     'thesis': formatter_thesis,
 }
 
-for item in items:
-    item_type = item['data']['itemType']
-    form = formatter_map[item_type]
-    reference_lists[heading_map[item_type]].append(form(item['data']))
 
-with open('products_page_template.rst') as f:
-    page_template = f.read()
+def generate_bibliography(library_id, library_type, collection_id, api_key='',
+                          file_name=None):
+    if not api_key:
+        # NOTE : Create a file zotero_api.txt with the key adjacent to this
+        # script.
+        with open('zotero_api.txt') as f:
+            api_key = f.read().strip()
 
-enum_ref_txt = {}
-for heading, ref_list in reference_lists.items():
-    enum_ref_txt[heading] = '\n'.join(['{}. {}'.format(str(i + 1), ref)
-                                       for i, ref in enumerate(ref_list)])
+    zot = Zotero(library_id=library_id, library_type=library_type,
+                 api_key=api_key)
 
-page_txt = page_template.format(
-    books=enum_ref_txt['books'],
-    conference_proceedings=enum_ref_txt['conference_proceedings'],
-    data='',
-    journal_articles=enum_ref_txt['journal_articles'],
-    preprints=enum_ref_txt['preprints'],
-    presentations=enum_ref_txt['presentations'],
-    reports=enum_ref_txt['reports'],
-    working_papers=enum_ref_txt['working_papers'],
-    software=enum_ref_txt['software'],
-    theses=enum_ref_txt['theses'],
-    tutorials='',
-    web_articles=enum_ref_txt['web_articles'],
-)
+    items = zot.everything(zot.collection_items(collection_id, sort='date'))
 
-with open('products_page.rst', 'w') as f:
-    f.write(page_txt)
+    for item in items:
+        item_type = item['data']['itemType']
+        form = formatter_map[item_type]
+        reference_lists[heading_map[item_type]].append(form(item['data']))
+
+    with open('products_page_template.rst') as f:
+        page_template = f.read()
+
+    enum_ref_txt = {}
+    for heading, ref_list in reference_lists.items():
+        enum_ref_txt[heading] = '\n'.join(['{}. {}'.format(str(i + 1), ref)
+                                           for i, ref in enumerate(ref_list)])
+
+    page_txt = page_template.format(**enum_ref_txt)
+
+    if file_name is None:
+        sys.stderr.write(page_txt)
+    else:
+        with open(file_name, 'w') as f:
+            f.write(page_txt)
+
+
+if __name__ == "__main__":
+
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description='Generate reStructuredText bibliography')
+
+    parser.add_argument('library_id', type=str,
+                        help="Zotero Library ID Number")
+
+    parser.add_argument('library_type', type=str,
+                        help="Either user or group")
+
+    parser.add_argument('collection_id', type=str,
+                        help="Zotero Collection ID Number")
+
+    parser.add_argument('--api_key', type=str, default='', required=False,
+                        help="Zotero API Key")
+
+    args = parser.parse_args()
+
+    #generate_bibliography(args.library_id, args.library_type,
+                          #args.collection_id, api_key=args.api_key)
+
+    generate_bibliography(library_id, library_type, collection_id,
+                          file_name='products_page.rst')
