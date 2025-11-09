@@ -49,6 +49,8 @@ Conference Paper
     for those.
 Book
     Any published book (can be self-published).
+Document
+    Grant proposals.
 Thesis
     Any BSc, MSc, or PhD thesis or dissertation.
 Report
@@ -85,6 +87,7 @@ heading_map = {
     'book': 'Books',
     'thesis': 'Theses and Dissertations',
     'report': 'Reports',
+    'document': 'Grant Proposals',
     'preprint': 'Preprints',
     'blogPost': 'Web Articles',
     'manuscript': 'Working Papers',
@@ -329,6 +332,7 @@ formatter_map = {
     'presentation': formatter_presentations,
     'report': formatter_report,
     'thesis': formatter_thesis,
+    'document': formatter,
 }
 
 
