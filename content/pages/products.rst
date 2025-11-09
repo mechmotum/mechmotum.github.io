@@ -2,6 +2,13 @@
 Products
 ========
 
+..
+   This page is built from the script:
+      python bin/rest_bib.py 425053 user 7IG48IAS
+   from a collection Jason maintains in his Zotero account. The software
+   section is manually constructed for now because the script does not generate
+   the badges.
+
 :sortorder: 3
 
 .. contents:: Table of Contents
@@ -157,35 +164,6 @@ Presentations
 44. **Bjorn Dahlgren**, **Kenneth Lyons**, **Aaron Meurer**, and **Jason K. Moore**, "Automatic  Code Generation With SymPy," SciPy 2017: Austin, Texas, USA, 2017-07, [`Workshop <http://www.sympy.org/scipy-2017-codegen-tutorial/>`__]
 45. `Jason K. Moore` and **Antonie J. van den Bogert**, "Quiet Standing Control Parameter Identification with Direct Collocation," Edinburgh, UK, 2015-07-09, [`Oral <https://github.com/csu-hmc/ISBTGCS2015>`__]
 46. **Jason K. Moore**, "Optimal Control and Parameter Identification of Dynamcal Systems with Direct Collocation using SymPy," Austin, Texas, USA, 2015-07-08, [`Oral <https://pyvideo.org/scipy-2015/optimal-control-and-parameter-identification-of-dynamcal-systems-with-direct-collocation-using-sympy.html>`__]
-
-Software
-========
-1. `Jason K. Moore`, `Mont Hubbard`, and `Bryn Cloud`, "`skijumpdesign: A ski jump design tool for equivalent fall height. <https://gitlab.com/moorepants/skijumpdesign>`__", 2017-12-19
-2. `Jason K. Moore` and `Kenneth Lyons`, "`resonance: A Python package for mechanical vibration analysis <https://github.com/moorepants/resonance/>`__", 2017-07-16
-3. `Jason K. Moore` and `Antonie J. van den Bogert`, "`opty: A library for using direct collocation in the optimization and identification of dynamic systems. <https://github.com/csu-hmc/opty>`__", 2014-05-25
-4. `Jason K. Moore`, `Sandra K. Hnat`, `Obinna Nwanna`, `Michael Overmeyer`, and `Antonie J. van den Bogert`, "`GaitAnalysisToolKit: A Python Library for Gait Analysis <https://github.com/csu-hmc/GaitAnalysisToolKit>`__", 2013-12-01
-5. `Jason K. Moore`, `Tarun Gaba`, `Oliver Lee`, `Sahil Shekhawat`, `Dale L. Peterson`, `Chris Dembia`, `Yashu Seth`, `Nikhil Pappu`, `Gilbert Gede`, `James Crist`, `Brandon James Milam`, `Frédéric Bastien`, `Pranjal Mittal`, `Robert McMurry`, `Varun Joshi`, `Ivan Angelov`, and `Nikolay Mayorov`, "`PyDy: A multi-body dynamics analysis package written in Python <http://pydy.org>`__", 2011-10-16
-6. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`DynamicistToolKit: A Python library for dynamcis and controls <https://github.com/moorepants/DynamicistToolKit>`__", 2011-06-19
-7. `Christopher Dembia`, `Jason K. Moore`, `Stefen Yin`, and `Oliver Lee`, "`Yeadon: A Python Library For Human Inertia Estimation <https://github.com/chrisdembia/yeadon>`__", 2011-06-12
-8. `Jason K. Moore`, "`HumanControl: Software for Evaluating Human Control and Handling Qualities of Bicycles <https://github.com/moorepants/HumanControl>`__", 2011-05-15
-9. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`BicycleParameters: A Python library for bicycle parameter estimation and analysis <https://github.com/moorepants/BicycleParameters>`__", 2011-04-10
-10. `Jason K. Moore`, `P. D. L. de Lange`, and `Stefen Yin`, "`BicycleDataProcessor: Data storage and processing library for an instrumented bicycle <https://github.com/moorepants/BicycleDataProcessor>`__", 2011-02-27
-11. `cyipopt Development Team`, "`cyipopt: Cython interface for the interior point optimzer IPOPT <https://github.com/mechmotum/cyipopt>`__", 2011
-12. `Jason K. Moore`, `P. D. L. de Lange`, and `Yumiko Henneberry`, "`BicycleDAQ: Data aquisition application for an instrumented bicycle <http://github.com/moorepants/BicycleDAQ>`__", 2010-10-24
-13. `SymPy Development Team`, "`SymPy: Python library for symbolic mathematics <http://www.sympy.org>`__", 2006
-
-Data
-====
-1. `Jules Ronné`, `Jason K. Moore`, `Laura Dubuis`, and `Thomas Robert`, "`Supplementary data for the article: Personal Preference or Intrinsic Quality? A Study on Bicycle Handling Quality <https://data.4tu.nl/datasets/3268cec4-be6e-4be3-863e-41ba1e0b20af/1>`__", 2025-10-07, 4TU.ResearchData, `10.4121/3268CEC4-BE6E-4BE3-863E-41BA1E0B20AF.V1 <https://dx.doi.org/10.4121/3268CEC4-BE6E-4BE3-863E-41BA1E0B20AF.V1>`_ 
-2. `Jason K. Moore`, `R. Happee`, `F. Schulte`, `Azita Dabiri`, and `Christoph M. Schmidt`, "`Supplementary Material of "Essential Bicycle Dynamics for Microscopic Simulation" - Experiments & Plots <https://data.4tu.nl/datasets/574cd504-ad56-4234-8d48-c10931d13204/1>`__", 2024-05-15, 4TU.ResearchData, `10.4121/574CD504-AD56-4234-8D48-C10931D13204.V1 <https://dx.doi.org/10.4121/574CD504-AD56-4234-8D48-C10931D13204.V1>`_ 
-3. `Gabriele Dell'Orto`, `Jason K. Moore`, `Gianpiero Mastinu`, and `Riendere Happee`, "`Magic Formula Parameters - Bicycle Tyres <https://zenodo.org/records/7920415>`__", 2023-05-10, Zenodo, `10.5281/zenodo.7920415 <https://dx.doi.org/10.5281/zenodo.7920415>`_ 
-4. `Gabriele Dell'Orto`, `Jason K. Moore`, `Gianpiero Mastinu`, and `Riender Happee`, "`Bicycle Tyre Data - Lateral Characteristics <https://zenodo.org/record/7866646>`__", 2023-04-26, Zenodo, `10.5281/zenodo.7866646 <https://dx.doi.org/10.5281/zenodo.7866646>`_ 
-5. `Jason K. Moore` and `Mont Hubbard`, "`Accompanying Raw Data for the Paper: Adaptive smartphone-based sensor fusion for estimating competitive rowing kinematic metrics <https://figshare.com/articles/dataset/Accompanying_Raw_Data_for_the_Paper_Adaptive_smartphone-based_sensor_fusion_for_estimating_competitive_rowing_kinematic_metrics/7963643>`__", 2019-04, figshare, `10.6084/m9.figshare.7963643.v2 <https://dx.doi.org/10.6084/m9.figshare.7963643.v2>`_ 
-6. `Jason K. Moore`, "`Bicycle Parameters <https://figshare.com/articles/dataset/Bicycle_Parameters/1198429/2>`__", 2014-10-09, figshare, `10.6084/m9.figshare.1198429.v2 <https://dx.doi.org/10.6084/m9.figshare.1198429.v2>`_ 
-7. `Jason K. Moore`, `Mont Hubbard`, and `Dale L. Peterson`, "`Bicycle Steer Torque Magnitude Measurement Dataset <https://figshare.com/articles/dataset/Bicycle_Steer_Torque_Magnitude_Measurement_Dataset/1167497/1?file=1672045>`__", 2014, figshare, `10.6084/m9.figshare.1167497.v1 <https://dx.doi.org/10.6084/m9.figshare.1167497.v1>`_ 
-8. `Jason K. Moore`, "`Instrumented Bicycle Raw Data HDF5 <https://doi.org/10.6084/m9.figshare.1198518.v1>`__", 2014, figshare, `m9.figshare.1198518.v1 <https://dx.doi.org/m9.figshare.1198518.v1>`_ 
-9. `Jason K. Moore` and `P. D. L. de Lange`, "`Bicycle Rider Control Identification <https://figshare.com/articles/dataset/Bicycle_Rider_Control_Identification/659465/4>`__", 2013-04-09, figshare, `10.6084/m9.figshare.659465.v4 <https://dx.doi.org/10.6084/m9.figshare.659465.v4>`_ 
-
 
 Software
 ========
@@ -453,4 +431,3 @@ Data
 7. `Jason K. Moore`, `Mont Hubbard`, and `Dale L. Peterson`, "`Bicycle Steer Torque Magnitude Measurement Dataset <https://figshare.com/articles/dataset/Bicycle_Steer_Torque_Magnitude_Measurement_Dataset/1167497/1?file=1672045>`__", 2014, figshare, `10.6084/m9.figshare.1167497.v1 <https://dx.doi.org/10.6084/m9.figshare.1167497.v1>`_ 
 8. `Jason K. Moore`, "`Instrumented Bicycle Raw Data HDF5 <https://doi.org/10.6084/m9.figshare.1198518.v1>`__", 2014, figshare, `m9.figshare.1198518.v1 <https://dx.doi.org/m9.figshare.1198518.v1>`_ 
 9. `Jason K. Moore` and `P. D. L. de Lange`, "`Bicycle Rider Control Identification <https://figshare.com/articles/dataset/Bicycle_Rider_Control_Identification/659465/4>`__", 2013-04-09, figshare, `10.6084/m9.figshare.659465.v4 <https://dx.doi.org/10.6084/m9.figshare.659465.v4>`_ 
-
