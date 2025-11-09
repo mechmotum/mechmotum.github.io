@@ -23,6 +23,9 @@ Editing Guide
   unique filenames with a ``-`` to separate words, for example:
   ``my-image-for-this-blog-post.png``. All assets are store in the same
   directory on the object store and should have unique file names.
+- Some of the reStructuredText bibliographies are automatically generated with
+  the script ``bin/rest_bib.py`` from a Zotero collection. The entire
+  ``products.rst`` page is generated from this script, for example.
 
 .. _Pelican documentation: http://docs.getpelican.com/en/stable/
 .. _reStructuredText: https://en.wikipedia.org/wiki/ReStructuredText
