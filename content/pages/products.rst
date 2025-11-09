@@ -10,492 +10,182 @@ Products
 
 Journal Articles
 ================
+1. `Ajaypal Singh`, `Hans Vreman`, `Andrew Dressel`, and `Jason K. Moore`, "Bicycle Disc Brake Noise Analysis and Mitigation," Journal of Vibration and Control, 2024, `10.1177/10775463241273021 <https://dx.doi.org/10.1177/10775463241273021>`_ 
+2. `Jan T. Heinen`, `Samuel G. Brockie`, `Raymund ten Broek`, `Eline van der Kruk`, and `Jason K. Moore`, "Maximizing ollie height by optimizing control strategy and skateboard geometry using direct collocation," Sports Engineering, 2024, `10.1007/s12283-023-00448-y <https://dx.doi.org/10.1007/s12283-023-00448-y>`_ 
+3. `Gabriele Dell'Orto`, `Gianpiero Mastinu`, `Riender Happee`, and `Jason K. Moore`, "Measurement of lateral characteristics and identification of Magic Formula parameters of city and cargo bicycle tyres," Vehicle System Dynamics, 2024, `10.1080/00423114.2024.2338143 <https://dx.doi.org/10.1080/00423114.2024.2338143>`_ 
+4. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll and steering motion for young and older bicyclists during real-life safety challenges," PeerJ, 2023, `10.7717/peerj.16206 <https://dx.doi.org/10.7717/peerj.16206>`_ 
+5. `Xiaodong Qian`, `Jason K. Moore`, and `Deb Niemeier`, "Predicting Bicycle Pavement Ride Quality: Sensor-based Statistical Model," Journal of Infrastructure Systems, 2020, `10.1061/(ASCE)IS.1943-555X.0000571 <https://dx.doi.org/10.1061/(ASCE)IS.1943-555X.0000571>`_ 
+6. `Bryn Cloud`, `Britt Tarien`, `Ada Liu`, `Thomas Shedd`, `Xinfan Lin`, `Mont Hubbard`, `R. Paul Crawford`, and `Jason K. Moore`, "Adaptive smartphone-based sensor fusion for estimating competitive rowing kinematic metrics," PLOS ONE, 2019, `10.1371/journal.pone.0225690 <https://dx.doi.org/10.1371/journal.pone.0225690>`_ 
+7. `Jason K. Moore` and `Mont Hubbard`, "skijumpdesign: A Ski Jump Design Tool for Specified Equivalent Fall Height," The Journal of Open Source Software, 2018, `10.21105/joss.00818 <https://dx.doi.org/10.21105/joss.00818>`_ 
+8. `Jason K. Moore` and `Antonie van den Bogert`, "opty: Software for trajectory optimization and parameter identification using direct collocation," Journal of Open Source Software, 2018, `10.21105/joss.00300 <https://dx.doi.org/10.21105/joss.00300>`_ 
+9. `Aaron Meurer`, `Christopher P. Smith`, `Mateusz Paprocki`, `Ondřej Čertík`, `Sergey B. Kirpichev`, `Matthew Rocklin`, `AMiT Kumar`, `Sergiu Ivanov`, `Jason K. Moore`, `Sartaj Singh`, `Thilina Rathnayake`, `Sean Vig`, `Brian E. Granger`, `Richard P. Muller`, `Francesco Bonazzi`, `Harsh Gupta`, `Shivam Vats`, `Fredrik Johansson`, `Fabian Pedregosa`, `Matthew J. Curry`, `Andy R. Terrel`, `Štěpán Roučka`, `Ashutosh Saboo`, `Isuru Fernando`, `Sumith Kulal`, `Robert Cimrman`, and `Anthony Scopatz`, "SymPy: symbolic computing in Python," PeerJ Computer Science, 2017, `10.7717/peerj-cs.103 <https://dx.doi.org/10.7717/peerj-cs.103>`_ 
 
-Under Review
-------------
-
-#. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
-   Loeve, Jesper Meijerink, Thomas Valk, and Jason K. Moore, "Vibration
-   Characterisation of Strollers and Cargo Bicycles for Transporting Infants",
-   Submitted to Ergonomics.
-#. Jules Ronné, Jason K. Moore, Laura Dubuis, and Thomas Robert. Personal
-   Preference or Intrinsic Quality? A Study on Bicycle Handling Quality. Under
-   review at Vehicle System Dynamics.
-#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore. Automatic Bicycle
-   Balance Assistance Reduces Probability of Falling at Low Speeds When
-   Subjected to Handlebar Perturbations. Under review at International
-   Association of Traffic and Safety Sciences.
-#. Christoph M. Schmidt, Azita Dabiri, Frederik Schulte, Jason K. Moore, and
-   Riender Happee. Cycling Safety Assessment in Microscopic Traffic Simulation:
-   A Review and Methodological Framework. Under review at Transportation
-   Research Interdisciplinary Perspective.
-
-2024
-----
-
-#. Singh, A., Vreman, H., Dressel, A. E., & Moore, J. K. (2024). Bicycle disc
-   brake noise analysis and mitigation. Journal of Vibration and Control.
-   https://doi.org/10.1177/10775463241273021
-#. G. Dell'Orto, G. Mastinu, R. Happee, and J. K. Moore, "Measurement of
-   lateral characteristics and identification of Magic Formula parameters of
-   city and cargo bicycle tyres," Vehicle System Dynamics, 2024.
-   https://doi.org/10.1080/00423114.2024.2338143
-#. Heinen, J.T., Brockie, S.G., ten Broek, R., van der Kruk, E., Moore, J. K.
-   Maximizing ollie height by optimizing control strategy and skateboard
-   geometry using direct collocation. Sports Eng 27, 8 (2024).
-   https://doi.org/10.1007/s12283-023-00448-y
-
-2023
-----
-
-#. L. Alizadehsaravi and J. K. Moore, "Bicycle balance assist system reduces
-   roll and steering motion for young and older bicyclists during real-life
-   safety challenges," PeerJ, vol. 11, p. e16206, Oct. 2023,
-   https://doi.org/10.7717/peerj.16206.
-
-2020
-----
-
-#. X. Qian, J. K. Moore, and D. Niemeier, "Predicting Bicycle Pavement Ride
-   Quality: Sensor-based Statistical Model," Journal of Infrastructure Systems,
-   vol. 26, no. 3, p. 04020033, 2020,
-   https://doi.org/10.1061/(ASCE)IS.1943-555X.0000571.
-
-2019
-----
-
-#. B. Cloud et al., "Adaptive smartphone-based sensor fusion for estimating
-   competitive rowing kinematic metrics," PLOS ONE, vol. 14, no. 12, p.
-   e0225690, Dec. 2019, https://doi.org/10.1371/journal.pone.0225690.
-
-2018
-----
-
-#. Moore, Jason K., and Mont Hubbard. "skijumpdesign: A Ski Jump Design Tool
-   for Specified Equivalent Fall Height." The Journal of Open Source Software
-   3, no. 28 (August 20, 2018): 818–20. https://doi.org/10.21105/joss.00818.
-   `[pdf]
-   <https://objects-us-east-1.dream.io/mechmotum.github.io/Moore%20and%20Hubbard%20-%202018%20-%20skijumpdesign%20A%20Ski%20Jump%20Design%20Tool%20for%20Specifie.pdf>`_
-#. Jason K. Moore, and Antonie van den Bogert. "Opty: Software for Trajectory
-   Optimization and Parameter Identification Using Direct Collocation." Journal
-   of Open Source Software 3, no. 21 (January 31, 2018): 300.
-   https://doi.org/10.21105/joss.00300.
-
-2017
-----
-
-#. Meurer, Aaron, Christopher P. Smith, Mateusz Paprocki, Ondřej Čertík, Sergey
-   B. Kirpichev, Matthew Rocklin, AMiT Kumar, et al. "SymPy: Symbolic Computing
-   in Python." PeerJ Computer Science 3 (January 2, 2017): e103.
-   https://doi.org/10.7717/peerj-cs.103.
-
-Conference Proceedings
-======================
-
-2025
-----
-
-#. Dukalski, R. R., Moore, J. K., Beek, P. J., & Brazier, F. M. (2025). A
-   Low-Tech Methodology for Understanding User Needs and Preferences for User-
-   Interface Design for Mixed Reality for a Dynamic Motion Context. SportsHCI.
-   https://doi.org/10.1145/3749385.3749400
-#. Dukalski, R. R., Moore, J. K., Beek, P. J., & Brazier, F. M. (2025).
-   Discovering Road Cyclists’ Needs and Preferences for  Mixed Reality User
-   Interfaces Using Immersive  Simulation. HCI International.
-
-2024
-----
-
-#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
-   Model Predictive Control and Training Sequence.", BioRab Conference 2024.
-   https://doi.org/10.31224/3572
-
-2023
-----
-
-#. T. J. Stienstra, S. G. Brockie, and J. K. Moore, "BRiM: A modular
-   bicycle-rider modeling framework," presented at the Bicycle and Motorcycle
-   Dynamics 2023, Delft, The Netherlands: TU Delft OPEN Publishing, Oct. 2023.
-   https://doi.org/10.59490/6504c5a765e8118fc7b106c3.
-#. C. M. Schmidt, A. Dabiri, F. Schulte, R. Happee, and J. Moore, "Essential
-   bicycle dynamics for microscopic traffic simulation: An example using the
-   social force model," presented at the Bicycle and Motorcycle Dynamics 2023,
-   Delft, The Netherlands: TU Delft OPEN Publishing, 2023.
-   https://doi.org/10.59490/65037d08763775ba4854da53.
-#. A. Dressel and J. K. Moore, "Adapting a variable stability mechanism for a
-   tilting tricycle from the delta to the tadpole wheel configuration,"
-   presented at the Bicycle and Motorcycle Dynamics 2023, Delft, The
-   Netherlands: TU Delft OPEN Publishing, 2023.
-   https://doi.org/10.59490/650479434cc364571baa0cfc.
-
-2019
-----
-
-#. Metz, Trevor; Moore, Jason K. (2019): Design of an Electric Bicycle Speed
-   Controller. Symposium on the Dynamics and Control of Single Track Vehicles.
-   Conference contribution. https://doi.org/10.6084/m9.figshare.9937091.v1
-#. Moore, Jason K.; Hubbard, Mont (2019): Expanded Optimization for Discovering
-   Optimal Lateral Handling Bicycles. Symposium on the Dynamics and Control of
-   Single Track Vehicles. Conference contribution.
-   https://doi.org/10.6084/m9.figshare.9942938.v1
-#. Gilboa, Roy; Kubicki, Anastasia; Toribio, Anthony; Hubbard, Mont; Moore,
-   Jason K. (2019): Practical Realization of a Theoretical Optimal-Handling
-   Bicycle. Symposium on the Dynamics and Control of Single Track Vehicles.
-   Conference contribution. https://doi.org/10.6084/m9.figshare.9883328.v1
-
-2017
-----
-
-#. Moore, Jason K., Mont Hubbard, and Ronald A. Hess. "Optimal Bicycle Design
-   to Maximize Handling and Safety," September 13, 2017.
-   https://doi.org/10.6084/m9.figshare.5405242.v1
-
-2016
-----
-
-#. Moore, Jason, Mont Hubbard, and Ronald A. Hess. "An Optimal Handling Bicycle."
-   In Proceedings of the 2016 Bicycle and Motorcycle Dynamics Conference.
-   Figshare, 2016. https://doi.org/10.6084/m9.figshare.3806310.v1
+Conference Proceedings Articles
+===============================
+1. `Radoslaw R. Dukalski`, `Jason K. Moore`, `Peter J. Beek`, and `Frances M. Brazier`, "A Low-Tech Methodology for Understanding User Needs and Preferences for User- Interface Design for Mixed Reality for a Dynamic Motion Context," SportsHCI, 2025, `10.1145/3749385.3749400 <https://dx.doi.org/10.1145/3749385.3749400>`_ 
+2. `L. Alizadehsaravi`, `S. Draukšas`, `J. K. Moore`, `R. Happee`, and `L. Marchal-Crespo`, "Enhancing Motor Learning in Cycling Tasks: The Role of Model Predictive Control and Training Sequence," 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), 2024-09, `10.1109/BioRob60516.2024.10719950 <https://dx.doi.org/10.1109/BioRob60516.2024.10719950>`_ 
+3. `Timótheüs J. Stienstra`, `Samuel G. Brockie`, and `Jason K. Moore`, "BRiM: A modular bicycle-rider modeling framework," Bicycle and Motorcycle Dynamics 2023, 2023-10-18, `10.59490/6504c5a765e8118fc7b106c3 <https://dx.doi.org/10.59490/6504c5a765e8118fc7b106c3>`_ 
+4. `Andrew Dressel` and `Jason K. Moore`, "Adapting a variable stability mechanism for a tilting tricycle from the delta to the tadpole wheel configuration," Bicycle and Motorcycle Dynamics 2023, 2023, `10.59490/650479434cc364571baa0cfc <https://dx.doi.org/10.59490/650479434cc364571baa0cfc>`_ 
+5. `Christoph M. Schmidt`, `Azita Dabiri`, `Frederik Schulte`, `Riender Happee`, and `Jason Moore`, "Essential bicycle dynamics for microscopic traffic simulation: An example using the social force model," Bicycle and Motorcycle Dynamics 2023, 2023, `10.59490/65037d08763775ba4854da53 <https://dx.doi.org/10.59490/65037d08763775ba4854da53>`_ 
+6. `Trevor Z. Metz` and `Jason K. Moore`, "Design of an Electric Bicycle Speed Controller," Bicycle and Motorcycle Dynamics 2019: Symposium on the Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9937091.v1 <https://dx.doi.org/10.6084/m9.figshare.9937091.v1>`_ 
+7. `Jason K Moore` and `Mont Hubbard`, "Expanded Optimization for Discovering Optimal Lateral Handling Bicycles," Bicycle and Motorcycle Dynamics 2019: Symposium for Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9942938.v1 <https://dx.doi.org/10.6084/m9.figshare.9942938.v1>`_ 
+8. `Roy Gilboa`, `Anastasia Kubicki`, `Anthony Toribio`, `Mont Hubbard`, and `Jason K Moore`, "Practical Realization of a Theoretical Optimal-Handling Bicycle," Bicycle and Motorcycle Dynamics: Symposium on Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9883328.v1 <https://dx.doi.org/10.6084/m9.figshare.9883328.v1>`_ 
+9. `Jason K. Moore`, `Mont Hubbard`, and `Ronald A. Hess`, "An Optimal Handling Bicycle," Bicycle and Motorcycle Dynamics, 2016-09-21, `10.6084/m9.figshare.c.3460590.v11 <https://dx.doi.org/10.6084/m9.figshare.c.3460590.v11>`_ 
 
 Books
 =====
+1. `Jason K. Moore`, `Edwin de Vries`, `Andrew Dressel`, and `Leila Alizadehsaravi`, "Proceedings of the 5th Symposium on the Dynamics and Control of Single-track Vehicles: Bicycle and Motorcycle Dynamics 2023, October 18-20, Delft, The Netherlands," 2024, TU Delft OPEN Books, ISBN 978-94-6366-958-0, `https://books.open.tudelft.nl/home/catalog/book/121 <https://books.open.tudelft.nl/home/catalog/book/121>`_ 
+2. `Jason K. Moore`, "Learn Multibody Dynamics," 2022, Self-published, `https://moorepants.github.io/learn-multibody-dynamics/ <https://moorepants.github.io/learn-multibody-dynamics/>`_ 
+3. `Lorena A. Barba`, `Lecia J. Barker`, `Douglas S. Blank`, `Jed Brown`, `Allen B. Downey`, `Lindsey J. Heagy`, `Kyle T. Mandli`, `Jason K. Moore`, `David Lippert`, `Kyle E. Niemeyer`, `Ryan R. Watkins`, `Richard H. West`, `Elizabeth Wickes`, `Carol Willing`, and `Michael Zingale`, "Teaching and Learning with Jupyter," 2018, Self-published, `https://jupyter4edu.github.io/jupyter-edu-book/ <https://jupyter4edu.github.io/jupyter-edu-book/>`_ 
+4. `Jason K. Moore` and `Kenneth Lyons`, "Resonance: Learning Mechanical Vibration Enginering Through Computation," 2017, Draft, `https://moorepants.github.io/resonance/ <https://moorepants.github.io/resonance/>`_ 
 
-#. Moore (ed), J. K., Vries (ed), E. de, Dressel (ed), A., & Alizadehsaravi
-   (ed), L. (2024). Proceedings of the 5th Symposium on the Dynamics and
-   Control of Single-track Vehicles: Bicycle and Motorcycle Dynamics 2023,
-   October 18-20, Delft, The Netherlands. In TU Delft OPEN Books. TU Delft OPEN
-   Books. https://doi.org/10.59490/mg.121
-#. Moore, J. K. (2022). Learn Multibody Dynamics (Version 0.1).
-   https://moorepants.github.io/learn-multibody-dynamics/
-
-Theses
-======
-
-2025
-----
-
-#. Vázquez Fernández, Eloy (2025). `Vibration Impact on Cycling Performance:
-   Understanding power loss due to vibration and the parameters that influence
-   it <https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0>`_
-   [MSc, Delft University of Technology].
-#. De Vries, Bart (2025). `Low-Speed Cargo Bicycle Balance: Design,
-   Implementation, and Validation of an Active Kickstand Stabilization
-   Mechanism for Low-Speed Cargo Bicycle Balance
-   <https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641>`_
-   [MSc, Delft University of Technology].
-#. Youngblood, Sara (2025). `Engineering Bicycle Stability: A Study of Control
-   Strategies for Crash Prevention on Icy and Normal Terrain
-   <https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_
-   [MSc, Delft University of Technology].
-#. Sorgedrager, Simon (2025). `Riding a Bicycle Without Hands: How To Do It and
-   the Bicycle Dynamics Behind It
-   <https://resolver.tudelft.nl/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55>`_
-   [MSc, Delft University of Technology].
-#. Marbus, Anna (2025). `Cyclist Conflict Behaviour in Shared Spaces
-   <https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7>`_
-   [MSc, Delft University of Technology].
-#. Dell'Orto, G. (2025). `Bicycle tyre lateral characteristics and their effect
-   on bicycle dynamics
-   <https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa>`_
-   [PhD, Delft University of Technology].
-
-2024
-----
-
-#. S. S. Soethout, "A dynamic utility cycling model for energy and time
-   expenditure calculation of a population of cyclists," Delft University of
-   Technology, Delft, The Netherlands, 2024.
-   https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def
-#. K. Pasma, "Model Matching Control Applied to Bicycles," MSc, Delft
-   University of Technology, Delft, The Netherlands, 2024.
-   https://repository.tudelft.nl/record/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a
-#. K. Dijkman, "Impact of bicycle tire parameter on the total rolling losses,"
-   MSc, Delft University of Technology, Delft, The Netherlands, 2024.
-   https://repository.tudelft.nl/islandora/object/uuid%3A7d45c36f-5df4-46bf-a526-b3f28a4a9fab
-
-2023
-----
-
-#. M. Haitjema, "Estimating fall probability in cycling: Prediction of the
-   effectiveness of a balance-assist bicycle in reducing falls," MSc, Delft
-   University of Technology, Delft, The Netherlands, 2023.
-   https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23
-#. T. Stienstra, "BRiM: A Modular Bicycle-Rider Modeling Framework," MSc, Delft
-   University of Technology, Delft, The Netherlands, 2023.
-   https://repository.tudelft.nl/islandora/object/uuid%3Aa2b132e9-8d38-4553-8587-0c9e3341b202
-#. J. van Vlerken, "The influence of posture and stature on bicycle handling
-   qualities," MSc, Delft University of Technology, Delft, The Netherlands,
-   2023.
-   https://repository.tudelft.nl/islandora/object/uuid%3A3c71bc50-c6d0-4963-a3d2-5a1548f92786
-#. J. van der Schot, "The Relationship between Equivalent Fall Height and
-   Ground Reaction Force in Freestyle Ski Jumping," MSc, Delft University of
-   Technology, Delft, The Netherlands, 2023.
-   https://repository.tudelft.nl/islandora/object/uuid%3A98476791-40be-4ee5-ab3a-3f1a9d5e63cb
-#. F. van Willigen, "Evaluation of the handling of a variable dynamics tilting
-   tricycle: A novel handling assessment method," MSc, Delft University of
-   Technology, Delft, The Netherlands, 2023.
-   https://repository.tudelft.nl/islandora/object/uuid%3A3e68f4f0-80f0-4be5-9914-ba2fccefe631
-#. J. Keijser, "Investigating the Theoretical Feasibility of Longitudinal
-   Motion Control in Indoor Cycling Trainers," MSc, Delft University of
-   Technology, 2023. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Ad48c5066-0c44-40a7-9f7e-4bebd3756dcd
-
-2022
-----
-
-#. Heinen, J., "Optimal Skateboard Geometry for Maximizing Ollie Height," 2022,
-   http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc
-#. D. de Boer, "Modeling a Professional Road Cycling Race To Determine the
-   Fastest Wheel-Tire Combination," 2022. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Acc610be1-3aa2-4658-8584-2b1e7075f75a
-#. S. Draukšas, "Using Model Predictive Control on a Steer-by-Wire Bicycle for
-   Performance Assistance," MSc, Delft University of Technology, Delft, The
-   Netherlands, 2022. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Aece71f4a-c26b-470a-b09e-3b16686eee40
-#. D. Landré, "Predicting cycling risk at intersections with natural cycling
-   data for speed-controlled e-bikes," MSc, Delft University of Technology,
-   Delft, The Netherlands, 2022. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A4996f53f-e493-4ddb-9924-c4110965fb48
-#. A. Singh, "Investigation of the chatter and squeal phenomenon in bicycle
-   disc brakes," 2022. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3Add809802-ea24-48b2-b63c-150611f612c9
-#. F. Andretta, "Learning cycling styles using experimental trajectory data
-   with Inverse Reinforcement Learning," 2022. Available:
-   https://repository.tudelft.nl/islandora/object/uuid%3A41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc
-
-2021
-----
-
-#. J. Kuiper, "Development of an Integrated Bicycle Accident Detection System:
-   Introducing ALARM: Accident Localisation And Recognition Method," MSc, Delft
-   University of Technology, Delft, The Netherlands, 2021. Accessed: Oct. 13,
-   2022. [Online]. Available: https://repository.tudelft.nl/islandora/object/uuid%3A171087f3-4ff5-458c-9065-334958ca7b72
-
-2018
-----
-
-#. Mckay, Abraham B., "The Water Buffalo: Design of a Portable Bicycle Powered
-   Irrigation Pump for Small-Scale African Farmers", MSc Thesis, University of
-   California, Davis, 2018. https://doi.org/10.6084/m9.figshare.6378401.v2
+Theses and Dissertations
+========================
+1. `Ruben Terwint`, "`Linking Traffic Condition Metrics to a Cyclist's Workload <https://repository.tudelft.nl/record/uuid:4642837e-d0a9-44ed-871d-17bc4e903ddf>`_," [Master of Science], 2025-09-15, Delft University of Technology, Delft, The Netherlands
+2. `Eloy Vázquez Fernández`, "`Vibration Impact on Cycling Performance <https://repository.tudelft.nl/record/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0>`_," [Master of Science], 2025-07-17, Delft University of Technology, Delft, The Netherlands
+3. `Sara Youngblood`, "`Engineering Bicycle Stability: A Study of Control Strategies for Crash Prevention on Icy and Normal Terrain <https://repository.tudelft.nl/record/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
+4. `Bart de Vries`, "`Low-Speed Cargo Bicycle Balance <https://repository.tudelft.nl/record/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
+5. `G. Dell'Orto`, "`Bicycle tyre lateral characteristics and their effect on bicycle dynamics <https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa>`_," [Doctor of Philosophy], 2025, Delft University of Technology, Delft, The Netherlands
+6. `A. Marbus`, "`Cyclist conflict behavior in shared spaces <https://repository.tudelft.nl/record/uuid:092f3b70-2d97-436e-b193-139a593e09c7>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
+7. `S. J. Sorgedrager`, "`Riding a Bicycle Without Hands <https://repository.tudelft.nl/record/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
+8. `Kenneth Pasma`, "`Model Matching Control Applied to Bicycles <https://repository.tudelft.nl/record/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a>`_," [Master of Science], 2024-08-28, Delft University of Technology, Delft, The Netherlands
+9. `Sietse Soethout`, "`A dynamic utility cycling model for energy and time expenditure calculation of a population of cyclists <https://repository.tudelft.nl/record/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def>`_," [Master of Science], 2024, Delft University of Technology, Delft, The Netherlands
+10. `Kirsten Dijkman`, "`Impact of bicycle tire parameter on the total rolling losses <https://repository.tudelft.nl/islandora/object/uuid%3A7d45c36f-5df4-46bf-a526-b3f28a4a9fab>`_," [Master of Science], 2024, Delft University of Technology, Delft, The Netherlands
+11. `Marten Haitjema`, "`Estimating fall probability in cycling: Prediction of the effectiveness of a balance-assist bicycle in reducing falls <https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+12. `Floris van Willigen`, "`Evaluation of the handling of a variable dynamics tilting tricycle: A novel handling assessment method <https://repository.tudelft.nl/islandora/object/uuid%3A3e68f4f0-80f0-4be5-9914-ba2fccefe631>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+13. `Julie van Vlerken`, "`The influence of posture and stature on bicycle handling qualities <https://repository.tudelft.nl/islandora/object/uuid%3A3c71bc50-c6d0-4963-a3d2-5a1548f92786>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+14. `Jan van der Schot`, "`The Relationship between Equivalent Fall Height and Ground Reaction Force in Freestyle Ski Jumping <https://repository.tudelft.nl/islandora/object/uuid%3A98476791-40be-4ee5-ab3a-3f1a9d5e63cb>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+15. `Timo Stienstra`, "`BRiM: A Modular Bicycle-Rider Modeling Framework <https://repository.tudelft.nl/islandora/object/uuid%3Aa2b132e9-8d38-4553-8587-0c9e3341b202>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+16. `Jens Keijser`, "`Investigating the Theoretical Feasibility of Longitudinal Motion Control in Indoor Cycling Trainers <https://repository.tudelft.nl/islandora/object/uuid%3Ad48c5066-0c44-40a7-9f7e-4bebd3756dcd>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+17. `Jan Thomas Heinen`, "`Optimal Skateboard Geometry for Maximizing Ollie Height <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_," [Master of Science], 2022-12-20, Delft University of Technology, Delft, The Netherlands
+18. `Daniël Landré`, "`Predicting cycling risk at intersections with natural cycling data for speed-controlled e-bikes <https://repository.tudelft.nl/islandora/object/uuid%3A4996f53f-e493-4ddb-9924-c4110965fb48>`_," [Master of Science], 2022-09-16, Delft University of Technology, Delft, The Netherlands
+19. `Ajaypal Singh`, "`Investigation of the chatter and squeal phenomenon in bicycle disc brakes <https://repository.tudelft.nl/islandora/object/uuid%3Add809802-ea24-48b2-b63c-150611f612c9>`_," [Master of Science], 2022-08-22, Delft University of Technology, Delft, The Netherlands
+20. `Dorus de Boer`, "`Modeling a Professional Road Cycling Race To Determine the Fastest Wheel-Tire Combination <https://repository.tudelft.nl/islandora/object/uuid%3Acc610be1-3aa2-4658-8584-2b1e7075f75a>`_," [Master of Science], 2022, Delft University of Technology, 
+21. `Francesca Andretta`, "`Learning cycling styles using experimental trajectory data with Inverse Reinforcement Learning <https://repository.tudelft.nl/islandora/object/uuid%3A41ffc288-91ce-40bc-adfc-ea6e5ba9e3dc>`_," [Master of Science], 2022, Delft University of Technology, 
+22. `Simonas Draukšas`, "`Using Model Predictive Control on a Steer-by-Wire Bicycle for Performance Assistance <https://repository.tudelft.nl/islandora/object/uuid%3Aece71f4a-c26b-470a-b09e-3b16686eee40>`_," [Master of Science], 2022, Delft University of Technology, Delft, The Netherlands
+23. `Joris Kuiper`, "`Development of an Integrated Bicycle Accident Detection System: Introducing ALARM: Accident Localisation And Recognition Method <https://repository.tudelft.nl/islandora/object/uuid%3A171087f3-4ff5-458c-9065-334958ca7b72>`_," [Master of Science], 2021, Delft University of Technology, Delft, The Netherlands
+24. `Abe McKay`, "`The Water Buffalo: Design of a Portable Bicycle Powered Irrigation Pump for Small-Scale African Farmers <https://figshare.com/articles/The_Water_Buffalo_Design_of_a_Portable_Bicycle_Powered_Irrigation_Pump_for_Small-Scale_African_Farmers/6378401>`_," [Master of Science], 2018-06-18, University of California, Davis, Davis, CA, USA
 
 Reports
 =======
+1. `S. C. Bruijn`, `A. J. Meyers`, `D. van Ommeren`, `J. E. Riegstra`, and `R. J. van Rooijen`, "`Evaluation of children’s whole-body vibrational comfort in cargo bikes <http://>`__", Bachelor End Project, 2024, Delft University of Technology
+2. `Molly Moritzburke`, `Anthony Toribio`, `Shizhao Yang`, and `Stasia Kubicki`, "`Optimal Handling Bicycle: Final Design <http://>`__", Senior Design Project, 2019/06/09, University of California, Davis
 
-#. Bruijn, S. C., Meyers, A. J., van Ommeren, D., Riegstra, J. E., & van
-   Rooijen, R. J. (2024). Evaluation of children’s whole-body vibrational
-   comfort in cargo bikes [BSc End Project]. Delft University of Technology.
-#. Moritzburke, Molly; Toribio, Anthony; Yang, Shizhao; Kubicki, Stasia (2020):
-   Optimal Handling Bicycle: Final Design. figshare. Preprint.
-   https://doi.org/10.6084/m9.figshare.12833933.v1
+Grant Proposals
+===============
+1. `Aaron Meurer`, `Jason K. Moore`, and `Oscar Benjamin`, "`SymPy CZI EOSS Round 4 Application <https://doi.org/10.6084/m9.figshare.16590053.v1>`__", 2021/09/08
+2. `Jason K. Moore`, "`Influence of Culture on Mechanical Design: A Proposal For an Undergraduate Exchange and Design Competition Between Japanese and American Students <https://doi.org/10.6084/m9.figshare.5656105.v1>`__", 2017
+3. `Jason K. Moore`, "`Development of an Interactive Textbook Backed by Cloud Infrastructure to Pilot Active Computational Learning in an Upper Level Mechanical Vibrations Engineering Course <https://doi.org/10.6084/m9.figshare.5229886.v1>`__", 2017
+4. `Jason K. Moore`, "`Identification of closed-loop human locomotion control with perturbed walking and running data under the constraints of a biologically actuated plant <https://figshare.com/articles/journal_contribution/Identification_of_closed_loop_human_locomotion_control_with_perturbed_walking_and_running_data_under_the_constraints_of_a_biologically_actuated_plant/1137192/2>`__", 2014/08/13
 
 Preprints
 =========
+1. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers," engrXiv, 2025, `10.31224/4415 <https://dx.doi.org/10.31224/4415>`_ 
+2. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations," engrXiv, 2024, `10.31224/4003 <https://dx.doi.org/10.31224/4003>`_ 
+3. `Leila Alizadehsaravi`, `Simonas Drauksas`, `Jason K. Moore`, `Riender Happee`, and `Laura Marchal-Crespo`, "Enhancing Motor Learning in Cycling Tasks: The Role of Model Predictive Control and Training Sequence," engrXiv, 2024, `10.31224/3572 <https://dx.doi.org/10.31224/3572>`_ 
+4. `Jan Heinen`, `Samuel Brockie`, `Raymund ten Broek`, `Eline van der Kruk`, and `Jason K. Moore`, "Maximizing Ollie Height by Optimizing Control Strategy and Skateboard Geometry Using Direct Collocation," engrXiv, 2023, `10.31224/3171 <https://dx.doi.org/10.31224/3171>`_ 
+5. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll motion for young and old bicyclists during real-life safety challenges," engrXiv, 2023, `10.31224/2825 <https://dx.doi.org/10.31224/2825>`_ 
+6. `Simonas Draukšas`, `Leila Alizadehsaravi`, `Jason K. Moore`, `Riender Happee`, and `Laura Marchal-Crespo`, "Model Predictive Control-based haptic steering assistance to enhance motor learning of a bicycling task: A pilot study," engrXiv, 2023, `10.31224/2811 <https://dx.doi.org/10.31224/2811>`_ 
+7. `Jason K. Moore`, `Bryn Cloud`, `Mont Hubbard`, and `Christopher A. Brown`, "Safety-Conscious Design of Terrain Park Jumps: Ethical Issues and Online Software," engrXiv, 2021, `10.31224/osf.io/sq7u9 <https://dx.doi.org/10.31224/osf.io/sq7u9>`_ 
+8. `Bryn Cloud`, `Britt Tarien`, `Ada Liu`, `Thomas Shedd`, `Xinfan Lin`, `Mont Hubbard`, `R. Paul Crawford`, and `Jason K. Moore`, "Adaptive smartphone-based sensor fusion for estimating competitive rowing kinematic metrics," engrXiv, 2018, `10.31224/osf.io/nykuh <https://dx.doi.org/10.31224/osf.io/nykuh>`_ 
+9. `Aaron Meurer`, `Christopher P. Smith`, `Mateusz Paprocki`, `Ondřej Čertík`, `Sergey B. Kirpichev`, `Matthew Rocklin`, `AMiT Kumar`, `Sergiu Ivanov`, `Jason K. Moore`, `Sartaj Singh`, `Thilina Rathnayake`, `Sean Vig`, `Brian E. Granger`, `Richard P. Muller`, `Francesco Bonazzi`, `Harsh Gupta`, `Shivam Vats`, `Fredrik Johansson`, `Fabian Pedregosa`, `Matthew J. Curry`, `Andy R. Terrel`, `Štěpán Roučka`, `Ashutosh Saboo`, `Isuru Fernando`, `Sumith Kulal`, `Robert Cimrman`, and `Anthony Scopatz`, "SymPy: Symbolic computing in Python," PeerJ, 2016, `10.7287/peerj.preprints.2083v3 <https://dx.doi.org/10.7287/peerj.preprints.2083v3>`_ 
 
-#. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
-   Loeve, Jesper Meijerink, Thomas Valk, and Jason K. Moore, "Vibration
-   Characterisation of Strollers and Cargo Bicycles for Transporting Infants",
-   https://doi.org/10.31224/4415
-#. M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
-   Balance Assistance Reduces Probability of Falling at Low Speeds When
-   Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
-   https://doi.org/10.31224/4003.
-#. L. Alizadehsaravi, S. Drauksas, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, "Enhancing Motor Learning in Cycling Tasks: The Role of
-   Model Predictive Control and Training Sequence." Engineering Archive, Feb.
-   29, 2024. https://doi.org/10.31224/3572.
-#. J. Heinen, S. Brockie, R. ten Broek, E. van der Kruk, and J. K. Moore,
-   "Maximizing Ollie Height by Optimizing Control Strategy and Skateboard
-   Geometry Using Direct Collocation." engrXiv, Aug. 14, 2023.
-   https://doi.org/10.31224/3171.
-#. L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
-   motion for young and old bicyclists during real-life safety challenges",
-   Feb. 2023. https://doi.org/10.31224/2825
-#. S. Draukšas, L. Alizadehsaravi, J. K. Moore, R. Happee, and L.
-   Marchal-Crespo, "Model Predictive Control-based haptic steering assistance
-   to enhance motor learning of a bicycling task: A pilot study." Engineering
-   Archive, Feb. 04, 2023. https://doi.org/10.31224/2811.
-#. J. K. Moore, B. Cloud, M. Hubbard, and C. A. Brown, "Safety-Conscious Design
-   of Terrain Park Jumps: Ethical Issues and Online Software," Preprint, Mar.
-   2021. Available: https://doi.org/10.31224/osf.io/sq7u9.
-#. Cloud, B., Tarien, B., Liu, A., Shedd, T., Lin, X., Hubbard, M., Crawford,
-   R. P., & Moore, J. K. (2018, December 23). Adaptive smartphone-based sensor
-   fusion for estimating competitive rowing kinematic metrics.
-   https://doi.org/10.31224/osf.io/nykuh
-
-Presentations
-=============
-
-2025
-----
-
-#. **Ronné, J.**, Moore, J. K. (2025, November 6). Learning to balance a
-   bicycle: How do cyclists adapt to a new bicycle? [Poster]. International
-   Cycling Safety Conference, Oslo, Norway.
-#. Marbus, A., **Konrad, C.**, Happee, R., Moore, J. K. (2025, November 5).
-   Modeling experimental observations of cyclist conflict behavior in open
-   spaces [Oral]. International Cycling Safety Conference, Oslo, Norway.
-#. **Gonzalez, B.**, Seth A., Moore, J. K. (2025, November 5). Bicycle crash
-   motion data using instance segmentation [Oral]. International Cycling Safety
-   Conference, Oslo, Norway.
-#. **Roberts, D.**, Moore, J. K. (2025, November 5). Little kids on big bikes:
-   A review of child passenger bicycle system safety [Poster]. International
-   Cycling Safety Conference, Oslo, Norway.
-#. Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
-   J. Loeve, and **Moore, J. K.** (2025, July 29). Vibration Characterization
-   of Strollers and Cargo Bicycles for Transporting Infants [Oral].
-   International Society of Biomechanics, Stockholm, Sweden.
-   https://tinyurl.com/isb2025-moore
-#. **Jules Ronné** J. K. Moore (2025, July 28). Inferring Cyclist Workload
-   Using Gaze Metrics for Bicycle Balancing Tasks [Oral]. International Society
-   of Biomechanics, Stockholm, Sweden.
-#. **Moore, J. K.**, Brockie, S. G., Stienstra, T. J, Van den Bogert, A. J.
-   (2025, July 25). Fast Symbolic Methods for Muscle-driven Optimal Control
-   [Oral]. 20th International Symposium on Computer Simulation in Biomechanics,
-   Uppsala, Sweden. https://tinyurl.com/tgcs2025-moore
-#. **J. K. Moore, G. Dell'Orto, J. Farias, C. Konrad, B. Gonzalez**, "Overview
-   of the Current TU Delft Bicycle Lab Research", January 13, 2025, Cycling
-   Day, Leuven, Belgium. [`Slides
-   <https://docs.google.com/presentation/d/e/2PACX-1vSnFIoOIN7JFAiCVuTfqF_6xX7GDvP28UnIlZmxp_9z6UaaJHWITa7K6dLCSUTn4gXc-kcX-HIL5X8f/pub?start=false&loop=false&delayms=3000>`__]
-
-2024
-----
-
-#. **Moore, J. K.** (2024, November 6). Balance Assist Bicycle Reduces Undesired
-   Motions and Fall Probability When Subjected to Disturbances [Oral].
-   International Cycling Safety 2024, Imabari, Japan.
-   [`Slides <https://docs.google.com/presentation/d/e/2PACX-1vRPC9HUbtBnSs3yfIyFrUwyZnk8ZLQV_QKJs3H8vINwSZwESiWeW26QJXhEadB49qia0Zp3VzRN8OOQ/pub?start=false&loop=false&delayms=3000>`__]
-
-2023
-----
-
-#. **J. K. Moore**, "Comparison of Electromechanical Means of Stabilizing a
-   Bicycle," presented at the International Cycling Safety Conference, The
-   Hague, The Netherlands, Nov. 16, 2023.
-#. **G. Dell'Orto**, L. Alizadehsaravi, R. Happee, and J. K. Moore, "Kick-plate
-   test for assessing bicycle dynamics and tyre effect G. Dell'Orto1, L.
-   Alizadehsaravi1, R. Happee1, J. K. Moore1," presented at the International
-   Cycling Safety Conference, The Hague, The Netherlands, Nov. 16, 2023.
-#. **T. J. Stienstra**, S. G. Brockie, and J. K. Moore, "BRiM: A Modular and
-   Extensible Open-Source Framework for Creating Bicycle-Rider Models," Bicycle
-   and Motorcycle Dynamics 2023: Delft, The Netherlands, May 01, 2023.
-#. **C. M. Schmidt**, A. Dabiri, F. Schulte, R. Happee, and J. K. Moore, "Essential
-   Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the
-   Social Force Model," Bicycle and Motorcycle Dynamics 2023: Delft, The
-   Netherlands, May 01, 2023.
-#. **J. K. Moore**, J. Koshy Cherian, B. Andersson, O. Lee, and A. Ranheim,
-   "Modeling and Implementation of a Reaction Wheel Stabilization System for
-   Low Speed Balance of a Cargo Bicycle," presented at the Bicycle and
-   Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
-   Netherlands, May 01, 2023. [Online]. Available:
-   https://doi.org/10.24404/63ff23b478f53b9c419075b9
-#. **Alizadehsaravi, L.** (2023, July 3). Balance Assist Bicycle to Prevent
-   Falls in Older Adults [Oral]. A4SEE Borrel, Delft, The Netherlands.
-   https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults
-#. **Alizadehsaravi, L., & Moore, J. K.** (2023, June 27). Balance Assist for
-   Reducing Low Speed Falls [Demo]. Teknowlogy, Utrecht, The Netherlands.
-#. **A. Dressel**, F. van Willigen, and J. K. Moore, "Evaluating the handling of a
-   tilting tricycle with variable stability," presented at the Bicycle and
-   Motorcycle Dynamics 2023, Bicycle and Motorcycle Dynamics 2023: Delft, The
-   Netherlands, May 01, 2023.
-#. **A. Dressel** and J. K. Moore, "Adapting a variable stability mechanism for a
-   tilting tricycle from the delta to the tadpole wheel configuration,"
-   presented at the Bicycle and Motorcycle Dynamics 2023, Bicycle and
-   Motorcycle Dynamics 2023: Delft, The Netherlands, May 01, 2023.
-#. **C. M. Schmidt**, "Connected Traffic of Vulnerable Bicyclists and Automated
-   Vehicles," presented at the SUMO User Conference, Berlin, Germany, Berlin,
-   Germany, May 02, 2023.
-#. A. Singh, H. Verman, **A. Dressel**, J. K. Moore, "Using a Scanning Laser
-   Doppler Vibrometer to Investigate Causes and Possible Mitigations of Bicycle
-   Disc Brake Noise", presented at the Measuring By Light Conference, Delft,
-   Mar. 28, 2023.
-#. **J. Heinen**, E. van der Kruk, R. ten Broek, and J. K. Moore, "Optimal
-   Skateboard Geometry For Maximizing Ollie Height," presented at the Dutch
-   Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
-   https://doi.org/10.6084/m9.figshare.22958357.v2
-#. **L. Alizadehsaravi** and J. K. Moore, "The Effects of a Steer Assist System
-   on Bicycle Postural Control in Real-Like Safety Challenges," presented at
-   the Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
-
-2022
-----
-
-#. **L. Alizadehsaravi** and J. K. Moore, "The effects of a steer assist system
-   on bicycle postural control in real-life safety challenges," presented at
-   the International Cycling Safety Conference, Dresden, Germany, Nov. 10,
-   2022.
-#. **A. Dressel** and J. K. Moore, "Measuring the Mechanical Properties of
-   Bicycle Tyres to Help Predict and Minimize Wobble for Enhanced Safety,"
-   presented at the International Cycling Safety Conference, Dresden, Germany,
-   Nov. 10, 2022.
-#. **A. Dressel** and J. K. Moore, "A Tilting Trike with Rider Tuneable
-   Stability and Handling for Improved Safety," presented at the International
-   Cycling Safety Conference, Dresden, Germany, Nov. 10, 2022.
-
-2019
-----
-
-#. C. Liang, X. L. Chen, T. Kumar, H. Huang, and J. K. Moore, "What to do when
-   chicks go bad in your flock: JupyterHub on Bare Metal with Kubernetes,"
-   presented at the SacPy, Sacramento, CA, USA, Nov. 14, 2019. [Online].
-   Available: https://tinyurl.com/sacpy-jupy
-#. **Metz, Trevor**; Moore, Jason K. (2019): Design of an Electric Bicycle
-   Speed Controller. Symposium on the Dynamics and Control of Single Track
-   Vehicles.  Poster. https://doi.org/10.6084/m9.figshare.9883154.v1
-
-2018
-----
-
-#. **K. Lyons** and J. K. Moore, "Resonance: Learning Mechanical Vibrations
-   Through Computational Thinking," presented at the SciPy 2018, Austin, Texas,
-   USA, Jul. 13, 2018. [Online]. Available: https://youtu.be/3QWKDGe528c
-
-2017
-----
-
-#. **Kresie, Scott W.**, Jason K. Moore, Mont Hubbard, and Ronald A. Hess.
-   "Experimental Validation of Bicycle Handling Prediction," September 13,
-   2017. https://doi.org/10.6084/m9.figshare.5405233.v1
+Articles In Preparation or Under Review
+=======================================
+1. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "`Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers <https://engrxiv.org/preprint/view/4415>`__", 2025-09-22, Under Review at Ergonomics
+2. `R. R. Dukalski`, `Jason K. Moore`, `P. J. Beek`, and `F. M. Brazier`, "`Discovering Road Cyclists’ Needs and Preferences for Mixed Reality User Interfaces Using Immersive Simulation <http://>`__", 2025, Under Review
+3. `Jules Ronné`, `Jason K. Moore`, `Laura Dubuis`, and `Thomas Robert`, "`Personal Preference or Intrinsic Quality? A Study on Bicycle Handling Quality <http://>`__", 2025, Under Review at Vehicle System Dynamics
+4. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "`Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations <https://engrxiv.org/preprint/view/4003/version/5496>`__", 2024-10-09, Under Review at International Association of Traffic and Safety Sciences
+5. `Christoph M. Konrad`, `Azita Dabiri`, `Frederik Schulte`, `Jason K. Moore`, and `Riender Happee`, "`Cycling Safety Assessment in Microscopic Traffic Simulation: A Review and Methodological Framework <http://>`__", 2024, Under Review at Transportation Research Interdisciplinary Perspective
 
 Web Articles
 ============
+1. `Aaron Shaw` and `Rayming Liang`, "`Finding the Efficiency of the Xylem and Money Maker Treadle Pumps <https://mechmotum.github.io/blog/treadle-pump-experiment.html>`__", 2018-12-27, Laboratorium of Marvelous Mechanical Motum Blog
+2. `Trevor Metz`, "`Design of a PID Controller for Controlling The Speed of an Instrumented Ebike <https://mechmotum.github.io/blog/ebike-controller-design.html>`__", 2018-12-15, Laboratorium of Marvelous Mechanical Motum Blog
+3. `Jason K. Moore` and `Kenneth Lyons`, "`Using Computational Thinking to Teach Mechanical Vibrations <http://engineering.ucdavis.edu/eelc/using-computational-thinking-to-teach-mechanical-vibrations/>`__", 2018-04-23, UC Davis Engineering Education Learning Community
+4. `Abe McKay`, "`Pedaling for Water in Kisumu: Closing <http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-closing-by.html>`__", 2017-09-12, UC Davis Blum Center Blog
+5. `Abe McKay`, "`Pedaling for Water in Kisumu: Midway <http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-midway-by.html>`__", 2017-08-26, UC Davis Blum Center Blog
+6. `Abe McKay`, "`Pedaling for Water in Kisumu: Beginning <http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-beginning.html>`__", 2017-08-20, UC Davis Blum Center Blog
+7. `Jason K. Moore`, "`Learning Mechanical Design Through Lightweight Prototyping <http://engineering.ucdavis.edu/eelc/learning-mechanical-design-through-lightweight-prototyping/>`__", 2017-02-10, UC Davis Engineering Education Learning Community
+8. `Jason K. Moore`, "`Teaching Mechanical Design <http://www.moorepants.info/blog/eme150a-fall-2015.html>`__", 2015-12-14, moorepants
 
-#. Shaw, Aaron and Liang, Rayming. "Finding the Efficiency of the Xylem and
-   Money Maker Treadle Pumps", Laboratorium of Marvelous Mechanical Motum Blog
-   (December 27, 2018)
-   https://mechmotum.github.io/blog/treadle-pump-experiment.html
-#. Metz, Trevor. "Design of a PID Controller for Controlling The Speed of an
-   Instrumented Ebike", Laboratorium of Marvelous Mechanical Motum Blog
-   (December 15, 2018)
-   https://mechmotum.github.io/blog/ebike-controller-design.html
-#. Moore, Jason K. and Lyons, Kenneth. "Using Computational Thinking to Teach
-   Mechanical Vibrations." UC Davis Engineering Education Learning Community
-   Blog (April 23, 2018)
-   http://engineering.ucdavis.edu/eelc/using-computational-thinking-to-teach-mechanical-vibrations/
-#. McKay, Abe. "Pedaling for Water in Kisumu: Closing", UC Davis Blum Center
-   Blog (September 12, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-closing-by.html
-#. McKay, Abe. "Pedaling for Water in Kisumu: Midway", UC Davis Blum Center
-   Blog (August 26, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-midway-by.html
-#. McKay, Abe. "Pedaling for Water in Kisumu: Beginning", UC Davis Blum Center
-   Blog (August 20, 2017) http://blumcenter-ucdavis.blogspot.com/2017/09/pedaling-for-water-in-kisumu-beginning.html
-#. Lyons, Kenneth and Moore, Jason K. "Teaching Modeling and Simulation with
-   Python." (July 20, 2017) http://www.moorepants.info/blog/scipy-2017-bof.html
-#. Moore, Jason K. "Learning Mechanical Design Through Lightweight
-   Prototyping." UC Davis Engineering Education Learning Community Blog
-   (February 10, 2017)
-   http://engineering.ucdavis.edu/eelc/learning-mechanical-design-through-lightweight-prototyping/
-#. Moore, Jason K. "Teaching Mechanical Design." (December 14, 2015)
-   http://www.moorepants.info/blog/eme150a-fall-2015.html
+Presentations
+=============
+1. **Jules Ronné** and `Jason K. Moore`, "Learning to balance a bicycle: how do cyclists adapt to a new bicycle?," International Cycling Safety Conference: Oslo, Norway, 2025-11-06, [Poster]
+2. **Dustyn Roberts** and `Jason K. Moore`, "Little kids on big bikes: A review of child passenger bicycle system safety," International Cycling Safety Conference: Oslo, Norway, 2025-11-05, [Poster]
+3. **Benjamin Gonzalez**, `Ajay Seth`, and `Jason K. Moore`, "Bicycle crash motion data using instance segmentation," Oslo, Norway, 2025-11-05, [Oral]
+4. `Anna Marbus`, **Christoph Konrad**, `Riender Happee`, and `Jason K. Moore`, "Modeling experimental observations of cyclist conflict behavior in open spaces," Oslo, Norway, 2025-11-05, [Oral]
+5. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo J. Loeve`, and **Jason K. Moore**, "Vibration Characterization of Strollers and Cargo Bicycles for Transporting Infants," Stockholm, Sweden, 2025-07-29, [`Oral <https://tinyurl.com/isb2025-moore>`__]
+6. **Jules Ronné** and `Jason K. Moore`, "Inferring Cyclist Workload Using Gaze Metrics for Bicycle Balancing Tasks," Stockholm, Sweden, 2025-07-28, [Oral]
+7. **Jason K. Moore**, `Samuel G. Brockie`, `Timótheüs J. Steinstra`, and `Antonie van den Bogert`, "Fast Symbolic Methods for Muscle-driven Optimal Control," Uppsala, Sweden, 2025-07-25, [`Oral <https://tinyurl.com/tgcs2025-moore>`__]
+8. **Jules Ronné** and `Jason K. Moore`, "Steering or leaning? New insights from optimal control of a bicycle," France, 2025, [Presentation]
+9. **Jason K. Moore**, "Balance Assist Bicycle Reduces Undesired Motions and Fall Probability When Subjected to Disturbances," Imabari, Japan, 2024-11-06, [`Oral <https://docs.google.com/presentation/d/e/2PACX-1vRPC9HUbtBnSs3yfIyFrUwyZnk8ZLQV_QKJs3H8vINwSZwESiWeW26QJXhEadB49qia0Zp3VzRN8OOQ/pub?start=false&loop=false&delayms=3000>`__]
+10. **Jason K. Moore**, "Comparison of Electromechanical Means of Stabilizing a Bicycle," The Hague, The Netherlands, 2023-11-16, [`Presentation <https://tinyurl.com/icsc2023-moore>`__]
+11. **Gabriele Dell'Orto**, `Leila Alizadehsaravi`, `Riender Happee`, and `Jason K. Moore`, "Kick-plate test for assessing bicycle dynamics and tyre effect," The Hague, The Netherlands, 2023-11-16, [Poster]
+12. **Leila Alizadehsaravi**, "Balance Assist Bicycle to Prevent Falls in Older Adults," Delft, The Netherlands, 2023-07-03, [`Oral <https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults>`__]
+13. **Leila Alizadehsaravi** and **Jason K. Moore**, "Balance Assist for Reducing Low Speed Falls," Utrecht, The Netherlands, 2023-06-27, [Demo]
+14. **Christoph M. Schmidt**, `Jason K. Moore`, `Azita Dabiri`, `Riender Happee`, and `Frederik Schulte`, "Connected Traffic of Vulnerable Bicyclists and Automated Vehicles," SUMO User Conference: Berlin, Germany, 2023-05-02, [Poster]
+15. **Andrew Dressel**, `Floris van Willigen`, and `Jason K. Moore`, "Evaluating the handling of a tilting tricycle with variable stability," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Poster]
+16. **Jason K. Moore**, `Jeswin Koshy Cherian`, `Björn Andersson`, `Oliver Lee`, and `Anders Ranheim`, "Modeling and Implementation of a Reaction Wheel Stabilization System for Low Speed Balance of a Cargo Bicycle," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [`Poster <https://doi.org/10.24404/63ff23b478f53b9c419075b9>`__]
+17. **Christoph M. Schmidt**, `Azita Dabiri`, `Frederik Schulte`, `Riender Happee`, and `Jason K. Moore`, "Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
+18. **Andrew Dressel** and **Jason K. Moore**, "Adapting a variable stability mechanism for a tilting tricycle from the delta to the tadpole wheel configuration," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, []
+19. **Timo J. Stienstra**, **Samuel G. Brockie**, and **Jason K. Moore**, "BRiM: A Modular and Extensible Open-Source Framework for Creating Bicycle-Rider Models," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
+20. `Ajaypal Singh`, `Hans Vreman`, **Andrew Dressel**, and `Jason K. Moore`, "Using a Scanning Laser Doppler Vibrometer to Investigate Causes and Possible Mitigations of Bicycle Disc Brake Noise," Measuring By Light: International Meeting on Optical Measurement Techniques and Industrial Applications: Delft, The Netherlands, 2023-03-29, [Oral]
+21. **Leila Alizadehsaravi** and **Jason K. Moore**, "The Effects of a Steer Assist System on Bicycle Postural Control in Real-Like Safety Challenges," Dutch Biomedical Engineering Conference: Egmond an Zee, 2023-01-26, [Poster]
+22. **Jan Heinen**, `Eline van der Kruk`, `Raymund ten Broek`, and `Jason K. Moore`, "Optimal Skateboard Geometry For Maximizing Ollie Height," Dutch Biomedical Engineering Conference: Egmond an Zee, The Netherlands, 2023-01-26, [Poster]
+23. **C M Schmidt**, `R Happee`, `J K Moore`, and `A Dabiri`, "Modeling the influence of bicycle dynamics and rider control on interactions of cyclists with other road users," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023, [Oral]
+24. **Leila Alizadehsaravi** and **Jason K. Moore**, "The effects of a steer assist system on bicycle postural control in real-life safety challenges," International Cycling Safety Conference: Dresden, Germany, 2022-11-10, [Poster]
+25. **Andrew Dressel** and `Jason K. Moore`, "A Tilting Trike with Rider Tuneable Stability and Handling for Improved Safety," International Cycling Safety Conference: Dresden, Germany, 2022-11-10, [Oral]
+26. **Andrew Dressel** and `Jason K. Moore`, "Measuring the Mechanical Properties of Bicycle Tyres to Help Predict and Minimize Wobble for Enhanced Safety," International Cycling Safety Conference: Dresden, Germany, 2022-11-10, [Poster]
+27. **Mont Hubbard**, `Bryn Cloud`, `Britt Tarien`, and `Jason K Moore`, "Measurement of Ski Jump Shape Using Differential GPS," Interntational Congress of Snow Sports Trauma & Safety: Serre-Chevalier, France, 2022-03-27, [Retracted]
+28. **Petros Abraha**, **Jason K. Moore**, and **Shigemichi Ohshima**, "Design Without Borders: Influence of cultural exchange on machine design and engineering careers," Davis, CA, USA, 2020, [Retracted]
+29. **Xiaodong Qian**, **Wei Ma**, and **Jason K. Moore**, "Analysis of Adoption of Intelligent Transportation Technologies to Improve Cyclist Safety (Retracted)," Brisbane, Australia, 2019-11-20, [Retracted]
+30. **Celine Liang**, **Xin Luigi Chen**, **Tannavee Kumar**, **Hao Huang**, and **Jason K. Moore**, "What to do when chicks go bad in your flock: JupyterHub on Bare Metal with Kubernetes," SacPy: Sacramento, CA, USA, 2019-11-14, [`Oral <https://tinyurl.com/sacpy-jupy>`__]
+31. **Bryn Cloud**, `Britt Tarien`, `Jason K. Moore`, and `Mont Hubbard`, "Accessible, Open-source Computational Analysis and Design of Terrain Park Ski Jumps," 23rd International Congress on Snow Sports Trauma and Safety: Squaw Valley, California, USA, 2019-04-08, [Oral]
+32. **Allen Downey** and **Jason K. Moore**, "Eight Ways to Use Computation to Teach Everything Else," Dallas, TX, USA, 2019-01-05, [`Workshop <https://tinyurl.com/keen-comp19>`__]
+33. **Trevor Metz** and `Jason K Moore`, "Design of an Electric Bicycle Speed Controller," Padova, Italy, 2019, [Poster]
+34. **Jason K Moore**, `Mont Hubbard`, and `Ronald A Hess`, "Expanded Optimization for Discovering Optimal Lateral Handling Bicycles," Padua, Italy, 2019, [Oral]
+35. **Roy Gilboa**, `Jason K Moore`, `Mont Hubbard`, and `Ronald A Hess`, "Practical Realization of a Theoretical Optimal-Handling Bicycle," Padua, Italy, 2019, [Oral]
+36. **Jordi Cuadros**, `Robert E. Belford`, `Kim Sunghwan`, `Ehren Bucholtz`, `Andrew P. Cornell`, `Delmar Larsen`, `Jason K. Moore`, `Kristen Fulfer`, and `Dean Johnston`, "OLCC 2019 Cheminformatics. Innovacions en l’ensenyament de la química: nous continguts, nous formats i noves eines," 8es Jornades sobre l'Ensenyament de la Química a Catalunya: Barcelona, Spain, 2019, [Poster]
+37. **Bryn Cloud**, `Britt Tarien`, `Thomas Shedd`, `Ada Liu`, `Xinfan Lin`, `Mont Hubbard`, `R. Paul Crawford`, `Seth Weil`, and **Jason K. Moore**, "Adaptive smartphone-based sensor fusion for estimating competitive rowing kinematic metrics (Retracted)," Calgary, Canada, 2019, []
+38. **Jason Moore**, "Squiggly Bicycle Routes: Physics Based Route Design Evaluation," Davis, CA, USA, 2018-07-26, [`Workshop <https://tinyurl.com/squiggly-cosmos2018>`__]
+39. **Kenneth Lyons** and `Jason K. Moore`, "Resonance: Learning Mechanical Vibrations Through Computational Thinking," SciPy 2018: Austin, Texas, USA, 2018-07-13, [`Oral <https://youtu.be/3QWKDGe528c>`__]
+40. **Allen Downey** and **Jason K. Moore**, "Computational Thinking in the Engineering Curriculum," Davis, CA, USA, 2018, [Workshop]
+41. `Jason K. Moore`, **Mont Hubbard**, and **Ronald A. Hess**, "Optimal Bicycle Design to Maximize Handling and Safety," Davis, CA, USA, 2017-09-13, [`Oral <https://doi.org/10.6084/m9.figshare.5405242.v1>`__]
+42. `Jason K. Moore`, **Mont Hubbard**, and `Ronald A. Hess`, "Optimal bicycle design to maximize handling and safety," Davis, CA, USA, 2017-09-13, [`Oral <https://figshare.com/articles/Optimal_bicycle_design_to_maximize_handling_and_safety/5405242>`__]
+43. **Scott W. Kresie**, `Jason K. Moore`, `Mont Hubbard`, and `Ronald A. Hess`, "Experimental Validation of Bicycle Handling Prediction," Davis, CA, USA, 2017-09-13, [`Oral <https://figshare.com/articles/Experimental_Validation_of_Bicycle_Handling_Prediction/5405233>`__]
+44. **Bjorn Dahlgren**, **Kenneth Lyons**, **Aaron Meurer**, and **Jason K. Moore**, "Automatic  Code Generation With SymPy," SciPy 2017: Austin, Texas, USA, 2017-07, [`Workshop <http://www.sympy.org/scipy-2017-codegen-tutorial/>`__]
+45. `Jason K. Moore` and **Antonie J. van den Bogert**, "Quiet Standing Control Parameter Identification with Direct Collocation," Edinburgh, UK, 2015-07-09, [`Oral <https://github.com/csu-hmc/ISBTGCS2015>`__]
+46. **Jason K. Moore**, "Optimal Control and Parameter Identification of Dynamcal Systems with Direct Collocation using SymPy," Austin, Texas, USA, 2015-07-08, [`Oral <https://pyvideo.org/scipy-2015/optimal-control-and-parameter-identification-of-dynamcal-systems-with-direct-collocation-using-sympy.html>`__]
 
-Tutorials
-=========
+Software
+========
+1. `Jason K. Moore`, `Mont Hubbard`, and `Bryn Cloud`, "`skijumpdesign: A ski jump design tool for equivalent fall height. <https://gitlab.com/moorepants/skijumpdesign>`__", 2017-12-19
+2. `Jason K. Moore` and `Kenneth Lyons`, "`resonance: A Python package for mechanical vibration analysis <https://github.com/moorepants/resonance/>`__", 2017-07-16
+3. `Jason K. Moore` and `Antonie J. van den Bogert`, "`opty: A library for using direct collocation in the optimization and identification of dynamic systems. <https://github.com/csu-hmc/opty>`__", 2014-05-25
+4. `Jason K. Moore`, `Sandra K. Hnat`, `Obinna Nwanna`, `Michael Overmeyer`, and `Antonie J. van den Bogert`, "`GaitAnalysisToolKit: A Python Library for Gait Analysis <https://github.com/csu-hmc/GaitAnalysisToolKit>`__", 2013-12-01
+5. `Jason K. Moore`, `Tarun Gaba`, `Oliver Lee`, `Sahil Shekhawat`, `Dale L. Peterson`, `Chris Dembia`, `Yashu Seth`, `Nikhil Pappu`, `Gilbert Gede`, `James Crist`, `Brandon James Milam`, `Frédéric Bastien`, `Pranjal Mittal`, `Robert McMurry`, `Varun Joshi`, `Ivan Angelov`, and `Nikolay Mayorov`, "`PyDy: A multi-body dynamics analysis package written in Python <http://pydy.org>`__", 2011-10-16
+6. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`DynamicistToolKit: A Python library for dynamcis and controls <https://github.com/moorepants/DynamicistToolKit>`__", 2011-06-19
+7. `Christopher Dembia`, `Jason K. Moore`, `Stefen Yin`, and `Oliver Lee`, "`Yeadon: A Python Library For Human Inertia Estimation <https://github.com/chrisdembia/yeadon>`__", 2011-06-12
+8. `Jason K. Moore`, "`HumanControl: Software for Evaluating Human Control and Handling Qualities of Bicycles <https://github.com/moorepants/HumanControl>`__", 2011-05-15
+9. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`BicycleParameters: A Python library for bicycle parameter estimation and analysis <https://github.com/moorepants/BicycleParameters>`__", 2011-04-10
+10. `Jason K. Moore`, `P. D. L. de Lange`, and `Stefen Yin`, "`BicycleDataProcessor: Data storage and processing library for an instrumented bicycle <https://github.com/moorepants/BicycleDataProcessor>`__", 2011-02-27
+11. `cyipopt Development Team`, "`cyipopt: Cython interface for the interior point optimzer IPOPT <https://github.com/mechmotum/cyipopt>`__", 2011
+12. `Jason K. Moore`, `P. D. L. de Lange`, and `Yumiko Henneberry`, "`BicycleDAQ: Data aquisition application for an instrumented bicycle <http://github.com/moorepants/BicycleDAQ>`__", 2010-10-24
+13. `SymPy Development Team`, "`SymPy: Python library for symbolic mathematics <http://www.sympy.org>`__", 2006
 
-#. Moore, Jason K. "Squiggly Bicycle Routes: Physics Based Route Design
-   Evaluation." (2018) https://tinyurl.com/squiggly-cosmos2018
-#. Downey, Allen & Moore, Jason K. "Computational Thinking in the Engineering
-   Curriculum" (2018) https://youtu.be/lfRVRqdYdjM
-#. Dahlgren, Bjorn, Kenneth Lyons, Aaron Meurer, and Jason K. Moore. "Automatic
-   Code Generation With SymPy." (July 2017) http://www.sympy.org/scipy-2017-codegen-tutorial/
+Data
+====
+1. `Jules Ronné`, `Jason K. Moore`, `Laura Dubuis`, and `Thomas Robert`, "`Supplementary data for the article: Personal Preference or Intrinsic Quality? A Study on Bicycle Handling Quality <https://data.4tu.nl/datasets/3268cec4-be6e-4be3-863e-41ba1e0b20af/1>`__", 2025-10-07, 4TU.ResearchData, `10.4121/3268CEC4-BE6E-4BE3-863E-41BA1E0B20AF.V1 <https://dx.doi.org/10.4121/3268CEC4-BE6E-4BE3-863E-41BA1E0B20AF.V1>`_ 
+2. `Jason K. Moore`, `R. Happee`, `F. Schulte`, `Azita Dabiri`, and `Christoph M. Schmidt`, "`Supplementary Material of "Essential Bicycle Dynamics for Microscopic Simulation" - Experiments & Plots <https://data.4tu.nl/datasets/574cd504-ad56-4234-8d48-c10931d13204/1>`__", 2024-05-15, 4TU.ResearchData, `10.4121/574CD504-AD56-4234-8D48-C10931D13204.V1 <https://dx.doi.org/10.4121/574CD504-AD56-4234-8D48-C10931D13204.V1>`_ 
+3. `Gabriele Dell'Orto`, `Jason K. Moore`, `Gianpiero Mastinu`, and `Riendere Happee`, "`Magic Formula Parameters - Bicycle Tyres <https://zenodo.org/records/7920415>`__", 2023-05-10, Zenodo, `10.5281/zenodo.7920415 <https://dx.doi.org/10.5281/zenodo.7920415>`_ 
+4. `Gabriele Dell'Orto`, `Jason K. Moore`, `Gianpiero Mastinu`, and `Riender Happee`, "`Bicycle Tyre Data - Lateral Characteristics <https://zenodo.org/record/7866646>`__", 2023-04-26, Zenodo, `10.5281/zenodo.7866646 <https://dx.doi.org/10.5281/zenodo.7866646>`_ 
+5. `Jason K. Moore` and `Mont Hubbard`, "`Accompanying Raw Data for the Paper: Adaptive smartphone-based sensor fusion for estimating competitive rowing kinematic metrics <https://figshare.com/articles/dataset/Accompanying_Raw_Data_for_the_Paper_Adaptive_smartphone-based_sensor_fusion_for_estimating_competitive_rowing_kinematic_metrics/7963643>`__", 2019-04, figshare, `10.6084/m9.figshare.7963643.v2 <https://dx.doi.org/10.6084/m9.figshare.7963643.v2>`_ 
+6. `Jason K. Moore`, "`Bicycle Parameters <https://figshare.com/articles/dataset/Bicycle_Parameters/1198429/2>`__", 2014-10-09, figshare, `10.6084/m9.figshare.1198429.v2 <https://dx.doi.org/10.6084/m9.figshare.1198429.v2>`_ 
+7. `Jason K. Moore`, `Mont Hubbard`, and `Dale L. Peterson`, "`Bicycle Steer Torque Magnitude Measurement Dataset <https://figshare.com/articles/dataset/Bicycle_Steer_Torque_Magnitude_Measurement_Dataset/1167497/1?file=1672045>`__", 2014, figshare, `10.6084/m9.figshare.1167497.v1 <https://dx.doi.org/10.6084/m9.figshare.1167497.v1>`_ 
+8. `Jason K. Moore`, "`Instrumented Bicycle Raw Data HDF5 <https://doi.org/10.6084/m9.figshare.1198518.v1>`__", 2014, figshare, `m9.figshare.1198518.v1 <https://dx.doi.org/m9.figshare.1198518.v1>`_ 
+9. `Jason K. Moore` and `P. D. L. de Lange`, "`Bicycle Rider Control Identification <https://figshare.com/articles/dataset/Bicycle_Rider_Control_Identification/659465/4>`__", 2013-04-09, figshare, `10.6084/m9.figshare.659465.v4 <https://dx.doi.org/10.6084/m9.figshare.659465.v4>`_ 
+
 
 Software
 ========
@@ -754,52 +444,13 @@ Software
 
 Data
 ====
+1. `Jules Ronné`, `Jason K. Moore`, `Laura Dubuis`, and `Thomas Robert`, "`Supplementary data for the article: Personal Preference or Intrinsic Quality? A Study on Bicycle Handling Quality <https://data.4tu.nl/datasets/3268cec4-be6e-4be3-863e-41ba1e0b20af/1>`__", 2025-10-07, 4TU.ResearchData, `10.4121/3268CEC4-BE6E-4BE3-863E-41BA1E0B20AF.V1 <https://dx.doi.org/10.4121/3268CEC4-BE6E-4BE3-863E-41BA1E0B20AF.V1>`_ 
+2. `Jason K. Moore`, `R. Happee`, `F. Schulte`, `Azita Dabiri`, and `Christoph M. Schmidt`, "`Supplementary Material of "Essential Bicycle Dynamics for Microscopic Simulation" - Experiments & Plots <https://data.4tu.nl/datasets/574cd504-ad56-4234-8d48-c10931d13204/1>`__", 2024-05-15, 4TU.ResearchData, `10.4121/574CD504-AD56-4234-8D48-C10931D13204.V1 <https://dx.doi.org/10.4121/574CD504-AD56-4234-8D48-C10931D13204.V1>`_ 
+3. `Gabriele Dell'Orto`, `Jason K. Moore`, `Gianpiero Mastinu`, and `Riendere Happee`, "`Magic Formula Parameters - Bicycle Tyres <https://zenodo.org/records/7920415>`__", 2023-05-10, Zenodo, `10.5281/zenodo.7920415 <https://dx.doi.org/10.5281/zenodo.7920415>`_ 
+4. `Gabriele Dell'Orto`, `Jason K. Moore`, `Gianpiero Mastinu`, and `Riender Happee`, "`Bicycle Tyre Data - Lateral Characteristics <https://zenodo.org/record/7866646>`__", 2023-04-26, Zenodo, `10.5281/zenodo.7866646 <https://dx.doi.org/10.5281/zenodo.7866646>`_ 
+5. `Jason K. Moore` and `Mont Hubbard`, "`Accompanying Raw Data for the Paper: Adaptive smartphone-based sensor fusion for estimating competitive rowing kinematic metrics <https://figshare.com/articles/dataset/Accompanying_Raw_Data_for_the_Paper_Adaptive_smartphone-based_sensor_fusion_for_estimating_competitive_rowing_kinematic_metrics/7963643>`__", 2019-04, figshare, `10.6084/m9.figshare.7963643.v2 <https://dx.doi.org/10.6084/m9.figshare.7963643.v2>`_ 
+6. `Jason K. Moore`, "`Bicycle Parameters <https://figshare.com/articles/dataset/Bicycle_Parameters/1198429/2>`__", 2014-10-09, figshare, `10.6084/m9.figshare.1198429.v2 <https://dx.doi.org/10.6084/m9.figshare.1198429.v2>`_ 
+7. `Jason K. Moore`, `Mont Hubbard`, and `Dale L. Peterson`, "`Bicycle Steer Torque Magnitude Measurement Dataset <https://figshare.com/articles/dataset/Bicycle_Steer_Torque_Magnitude_Measurement_Dataset/1167497/1?file=1672045>`__", 2014, figshare, `10.6084/m9.figshare.1167497.v1 <https://dx.doi.org/10.6084/m9.figshare.1167497.v1>`_ 
+8. `Jason K. Moore`, "`Instrumented Bicycle Raw Data HDF5 <https://doi.org/10.6084/m9.figshare.1198518.v1>`__", 2014, figshare, `m9.figshare.1198518.v1 <https://dx.doi.org/m9.figshare.1198518.v1>`_ 
+9. `Jason K. Moore` and `P. D. L. de Lange`, "`Bicycle Rider Control Identification <https://figshare.com/articles/dataset/Bicycle_Rider_Control_Identification/659465/4>`__", 2013-04-09, figshare, `10.6084/m9.figshare.659465.v4 <https://dx.doi.org/10.6084/m9.figshare.659465.v4>`_ 
 
-#. G. Dell'Orto, J. K. Moore, G. Mastinu, and R. Happee, "Magic Formula
-   Parameters - Bicycle Tyres." Zenodo, May 10, 2023.
-   https://doi.org/10.5281/zenodo.7920415.
-#. G. Dell'Orto, J. K. Moore, G. Mastinu, and R. Happee, "Bicycle Tyre Data -
-   Lateral Characteristics." Zenodo, Apr. 26, 2023.
-   https://doi.org/10.5281/zenodo.7866646.
-#. Moore, Jason K.; Hubbard, Mont (2019): Accompanying Raw Data for the Paper:
-   Adaptive smartphone-based sensor fusion for estimating competitive rowing
-   kinematic metrics. figshare. Dataset.
-   https://doi.org/10.6084/m9.figshare.7963643.v2
-#. Moore, Jason K.; Hubbard, Mont (2014): Davis Instrumented Bicycle Experiment
-   Raw Data. figshare. Dataset. https://doi.org/10.6084/m9.figshare.1164632.v1
-#. Moore, Jason K.; Hubbard, Mont (2014): Instrumented Bicycle Raw Data HDF5.
-   figshare. Dataset. https://doi.org/10.6084/m9.figshare.1198518.v1
-#. Moore, Jason K.; Hubbard, Mont (2014): Davis Instrumented Bicycle
-   Calibration Raw Data. figshare. Dataset.
-   https://doi.org/10.6084/m9.figshare.1164630.v1
-#. Moore, Jason K.; Hubbard, Mont (2014): Davis Instrumented Bicycle Corrupt
-   Trial Log. figshare. Dataset. https://doi.org/10.6084/m9.figshare.1187092.v1
-#. Moore, Jason K.; Hubbard, Mont; D. G. Kooijman, J.; L. Schwab, A. (2014):
-   Bicycle Parameters. figshare. Dataset.
-   https://doi.org/10.6084/m9.figshare.1198429.v2
-#. Moore, Jason K.; Hubbard, Mont; L. Peterson, Dale (2014): Bicycle Steer
-   Torque Magnitude Measurement Dataset. figshare. Dataset.
-   https://doi.org/10.6084/m9.figshare.1167497.v1
-#. Moore, Jason K.; D. G. Kooijman, J.; L. Schwab, A. (2014): Motion Capture of
-   Bicycling on a Treadmill. figshare. Dataset.
-   https://doi.org/10.6084/m9.figshare.1082512.v1
-#. Moore, Jason K.; de Lange, P.D.L (2013): Bicycle Rider Control
-   Identification. figshare. Dataset.
-   https://doi.org/10.6084/m9.figshare.659465.v4
-
-Grant Proposals
-===============
-
-#. Meurer, Aaron; Moore, Jason K.; Benjamin, Oscar (2021): SymPy CZI EOSS Round
-   4 Application.pdf.  https://doi.org/10.6084/m9.figshare.16590053.v1
-#. Moore, Jason K. (2017): Influence of Culture on  Mechanical Design: A
-   Proposal For an Undergraduate Exchange and Design Competition Between
-   Japanese and American Students.
-   https://doi.org/10.6084/m9.figshare.5656105.v1
-#. Moore, Jason K.; Lyons, Kenneth (2017): Development of an Interactive
-   Textbook Backed by Cloud Infrastructure to Pilot Active Computational
-   Learning in an Upper Level Mechanical Vibrations Engineering Course.
-   https://doi.org/10.6084/m9.figshare.5229886.v1
-#. Moore, Jason K. (2014): Identification of closed-loop human locomotion
-   control with perturbed walking and running data under the constraints of a
-   biologically actuated plant. https://doi.org/10.6084/m9.figshare.1137192.v2
