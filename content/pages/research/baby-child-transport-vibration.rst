@@ -3,7 +3,7 @@ Vibrations of Babies and Children During Human-powered Transport
 ================================================================
 
 :status: hidden
-:date: 2025-03-28
+:date: 2025-07-29
 :collaborators: Veiligheid.nl, Brecht Daams (Daams Ergonomie), Riender Happee,
                 Georgios Papaioannou, Arjo Loeve
 :current_researchers:
@@ -19,51 +19,53 @@ Vibrations of Babies and Children During Human-powered Transport
 :summary-image: https://objects-us-east-1.dream.io/mechmotum/child-dummy-in-bakfiets-400x400.jpg
 :slug: research/baby-child-transport-vibration
 
-.. raw:: html
-
-   <iframe title="vimeo-player"
-   src="https://player.vimeo.com/video/1111796694?h=3c89622c18" width="640"
-   height="360" frameborder="0"
-   referrerpolicy="strict-origin-when-cross-origin" allow="autoplay;
-   fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-   allowfullscreen></iframe>
-
-.. raw:: html
-
-   <iframe title="vimeo-player"
-   src="https://player.vimeo.com/video/1111986502" width="640"
-   height="360" frameborder="0"
-   referrerpolicy="strict-origin-when-cross-origin" allow="autoplay;
-   fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-   allowfullscreen></iframe>
+..
+   python bin/rest_bib.py 425053 user GRUNPYYH
 
 Products
 ========
 
 Reports
 
-- Bruijn, S. C., Meyers, A. J., van Ommeren, D., Riegstra, J. E., & van
-  Rooijen, R. J. (2024). Evaluation of children’s whole-body vibrational
-  comfort in cargo bikes. TU Delft BSc Project Report.
+1. `S. C. Bruijn`, `A. J. Meyers`, `D. van Ommeren`, `J. E. Riegstra`, and `R. J. van Rooijen`, "`Evaluation of children’s whole-body vibrational comfort in cargo bikes <http://>`__", Bachelor End Project, 2024, Delft University of Technology
 
 Preprints
 
-- Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
-  Loeve, Jesper Meijerink, Thomas Valk, and Jason K. Moore, "Vibration
-  Characterisation of Strollers and Cargo Bicycles for Transporting Infants",
-  https://doi.org/10.31224/4415 and repository
-  https://github.com/mechmotum/baby-vibration
+1. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers," engrXiv, 2025, `10.31224/4415 <https://dx.doi.org/10.31224/4415>`_
+
+Articles In Preparation or Under Review
+
+1. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "`Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers <https://engrxiv.org/preprint/view/4415>`__", 2025-09-22, Under Review at Ergonomics
 
 Presentations
 
-- Gabriele Dell'Orto, Brecht Daams, Riender Happee, Georgios Papaioannou, Arjo
-  J. Loeve, and **Moore, J. K.** (2025, July 29). Vibration Characterization of
-  Strollers and Cargo Bicycles for Transporting Infants [Oral].  International
-  Society of Biomechanics, Stockholm, Sweden.
-  https://tinyurl.com/isb2025-moore
+1. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo J. Loeve`, and **Jason K. Moore**, "Vibration Characterization of Strollers and Cargo Bicycles for Transporting Infants," Stockholm, Sweden, 2025-07-29, [`Oral <https://tinyurl.com/isb2025-moore>`__]
+
+Media Articles
+
+1. `TU Delft Media Team`, "`How comfortable are cargo bikes actually for children? <https://www.tudelft.nl/en/me/education/student-stories/how-comfortable-are-cargo-bikes-actually-for-children>`__", 2024
 
 Media
+=====
 
-- `How Comfortable are Cargo Bikes Actually for Children
-  <https://www.tudelft.nl/en/me/education/student-stories/how-comfortable-are-cargo-bikes-actually-for-children>`_,
-  TU Delft News, 2024
+.. raw:: html
+
+   <center>
+   <iframe title="vimeo-player"
+   src="https://player.vimeo.com/video/1111796694?h=3c89622c18" width="640"
+   height="360" frameborder="0"
+   referrerpolicy="strict-origin-when-cross-origin" allow="autoplay;
+   fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+   allowfullscreen></iframe>
+   </center>
+
+.. raw:: html
+
+   <center>
+   <iframe title="vimeo-player"
+   src="https://player.vimeo.com/video/1111986502" width="640"
+   height="360" frameborder="0"
+   referrerpolicy="strict-origin-when-cross-origin" allow="autoplay;
+   fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+   allowfullscreen></iframe>
+   </center>

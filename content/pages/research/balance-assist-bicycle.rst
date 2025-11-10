@@ -3,9 +3,9 @@ Balance Assist Bicycle for Fall Reduction
 =========================================
 
 :status: hidden
-:date: 2024-11-06
+:date: 2025-11-06
 :collaborators: Royal Dutch Gazelle, Bosch ebike Systems
-:current_researchers:
+:current_researchers: Stephen Lin, Dana van der Pol
 :past_researchers: Leila Alizadehsaravi, Marten Haitjema, Shannon van de Velde, Marco Reijne
 :research_theme: Bicycle Engineering
 :template: project
@@ -29,56 +29,53 @@ reduce the chances of falling in hazardous situations. Our first study shows
 that riders use less steering and have less rolling motions when the steering
 motor control is activated.
 
-Journal Publications
+..
+   python bin/rest_bib.py 425053 user AFNLQ7L8
 
-- L. Alizadehsaravi and J. K. Moore, “Bicycle balance assist system reduces
-  roll and steering motion for young and older bicyclists during real-life
-  safety challenges,” PeerJ, vol. 11, p. e16206, Oct. 2023,
-  https://doi.org/10.7717/peerj.16206.
+Journal Articles
 
-Theses
+1. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll and steering motion for young and older bicyclists during real-life safety challenges," PeerJ, 2023, `10.7717/peerj.16206 <https://dx.doi.org/10.7717/peerj.16206>`_
 
-- M. Haitjema, "Estimating fall probability in cycling: Prediction of the
-  effectiveness of a balance-assist bicycle in reducing falls," MSc, Delft
-  University of Technology, Delft, The Netherlands, 2023.
-  https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23
-- S. van de Velde, “Design of a setup for experimental research on stability of
-  a bicycle-rider system subject to large perturbations,” Msc, Delft University
-  of Technology, Delft, The Netherlands, 2022.
-  https://repository.tudelft.nl/islandora/object/uuid%3A4571c00e-3bfc-4d9c-a46a-30a3b30b932a
+Theses and Dissertations
+
+1. `Marten Haitjema`, "`Estimating fall probability in cycling: Prediction of the effectiveness of a balance-assist bicycle in reducing falls <https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
 
 Preprints
 
-- M. T. Haitjema, L. Alizadehsaravi, and J. K. Moore, “Automatic Bicycle
-  Balance Assistance Reduces Probability of Falling at Low Speeds When
-  Subjected to Handlebar Perturbations,” Oct. 09, 2024, engrXiv.
-  https://doi.org/10.31224/4003.
-- L. Alizadehsarvi and J. K. Moore, "Bicycle balance assist system reduces roll
-  motion for young and old bicyclists during real-life safety challenges", Feb.
-  2023. https://doi.org/10.31224/2825
+1. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations," engrXiv, 2024, `10.31224/4003 <https://dx.doi.org/10.31224/4003>`_
+2. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll motion for young and old bicyclists during real-life safety challenges," engrXiv, 2023, `10.31224/2825 <https://dx.doi.org/10.31224/2825>`_
+
+Articles In Preparation or Under Review
+
+1. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "`Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations <https://engrxiv.org/preprint/view/4003/version/5496>`__", 2024-10-09, Under Review at International Association of Traffic and Safety Sciences
 
 Presentations
 
-- **Moore, J. K.** (2024, November 6). Balance Assist Bicycle Reduces Undesired
-  Motions and Fall Probability When Subjected to Disturbances [Oral].
-  International Cycling Safety 2024, Imabari, Japan.  [`Slides
-  <https://docs.google.com/presentation/d/e/2PACX-1vRPC9HUbtBnSs3yfIyFrUwyZnk8ZLQV_QKJs3H8vINwSZwESiWeW26QJXhEadB49qia0Zp3VzRN8OOQ/pub?start=false&loop=false&delayms=3000>`_]
-- **J. K. Moore**, "Comparison of Electromechanical Means of Stabilizing a
-  Bicycle," presented at the International Cycling Safety Conference, The
-  Hague, The Netherlands, Nov. 16, 2023. https://tinyurl.com/icsc2023-moore
-- **Alizadehsaravi, L.** (2023, July 3). Balance Assist Bicycle to Prevent
-  Falls in Older Adults [Oral]. A4SEE Borrel, Delft, The Netherlands.
-  https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults
-- **L. Alizadehsaravi** and J. K. Moore, “The Effects of a Steer Assist System
-  on Bicycle Postural Control in Real-Like Safety Challenges,” presented at the
-  Dutch Biomedical Engineering Conference, Egmond an Zee, Jan. 26, 2023.
-- **L. Alizadehsaravi** and J. K. Moore, “The effects of a steer assist system
-  on bicycle postural control in real-life safety challenges,” presented at the
-  International Cycling Safety Conference, International Cycling Safety
-  Conference: Dresden, Germany, Nov. 10, 2022.
+1. **Jason K. Moore**, "Balance Assist Bicycle Reduces Undesired Motions and Fall Probability When Subjected to Disturbances," Imabari, Japan, 2024-11-06, [`Oral <https://docs.google.com/presentation/d/e/2PACX-1vRPC9HUbtBnSs3yfIyFrUwyZnk8ZLQV_QKJs3H8vINwSZwESiWeW26QJXhEadB49qia0Zp3VzRN8OOQ/pub?start=false&loop=false&delayms=3000>`__]
+2. **Jason K. Moore**, "Comparison of Electromechanical Means of Stabilizing a Bicycle," The Hague, The Netherlands, 2023-11-16, [`Presentation <https://tinyurl.com/icsc2023-moore>`__]
+3. **Leila Alizadehsaravi**, "Balance Assist Bicycle to Prevent Falls in Older Adults," Delft, The Netherlands, 2023-07-03, [`Oral <https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults>`__]
+4. **Leila Alizadehsaravi** and **Jason K. Moore**, "Balance Assist for Reducing Low Speed Falls," Utrecht, The Netherlands, 2023-06-27, [Demo]
+5. **Leila Alizadehsaravi** and `Jason K. Moore`, "The Effects of a Steer Assist System on Bicycle Postural Control in Real-Like Safety Challenges," Dutch Biomedical Engineering Conference: Egmond an Zee, 2023-01-26, [Poster]
+6. **Leila Alizadehsaravi** and `Jason K. Moore`, "The effects of a steer assist system on bicycle postural control in real-life safety challenges," International Cycling Safety Conference: Dresden, Germany, 2022-11-10, [Poster]
+
+Media
+
+1. `NTR Wetenschap`, "`Fietsen steeds onveiliger, kan de wetenschap de fiets weer in het zadel helpen? <https://www.youtube.com/watch?v=yH6k_VJxGgI>`__", 2025-02-12
 
 Media
 =====
+
+Dutch Science TV show "Focus" interviewed us about the bicycle:
+
+.. raw:: html
+
+   <center>
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/yH6k_VJxGgI?si=IJiesfIpGSbYmOML"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </center>
 
 Below are videos that demonstrate the bicycle's ability to stabilize itself:
 

@@ -69,6 +69,10 @@ Computer Program
     Software repositories or archives.
 Dataset
     Data that has been shared on an archive.
+Video Recording
+    Video media coverage.
+Magazine Article
+    Written media coverage.
 
 TODO:
 
@@ -94,6 +98,8 @@ heading_map = {
     'presentation': 'Presentations',
     'computerProgram': 'Software',
     'dataset': 'Data',
+    'videoRecording': 'Media',
+    'magazineArticle': 'Media Articles',
 }
 
 
@@ -326,13 +332,15 @@ formatter_map = {
     'computerProgram': formatter,
     'conferencePaper': formatter_proceedings,
     'dataset': formatter_data,
+    'document': formatter,
     'journalArticle': formatter_journal,
     'manuscript': formatter_manuscript,
     'preprint': formatter_preprint,
     'presentation': formatter_presentations,
     'report': formatter_report,
     'thesis': formatter_thesis,
-    'document': formatter,
+    'videoRecording': formatter,
+    'magazineArticle': formatter,
 }
 
 
@@ -356,11 +364,12 @@ def generate_bibliography(library_id, library_type, collection_id,
 
     page_txt = ""
     for heading, ref_list in reference_lists.items():
-        page_txt += heading + '\n'
-        page_txt += '='*len(heading) + '\n'
-        page_txt += '\n'.join(['{}. {}'.format(str(i + 1), ref)
-                               for i, ref in enumerate(ref_list)])
-        page_txt += '\n\n'
+        if ref_list:
+            page_txt += heading + '\n'
+            page_txt += '='*len(heading) + '\n\n'
+            page_txt += '\n'.join(['{}. {}'.format(str(i + 1), ref)
+                                   for i, ref in enumerate(ref_list)])
+            page_txt += '\n\n'
 
     if file_name is None:
         sys.stdout.write(page_txt)
