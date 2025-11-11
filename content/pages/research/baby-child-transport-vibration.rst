@@ -27,7 +27,9 @@ Products
 
 Reports
 
-1. `S. C. Bruijn`, `A. J. Meyers`, `D. van Ommeren`, `J. E. Riegstra`, and `R. J. van Rooijen`, "`Evaluation of children’s whole-body vibrational comfort in cargo bikes <http://>`__", Bachelor End Project, 2024, Delft University of Technology
+1. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "`Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers <https://engrxiv.org/preprint/view/4415>`__", Technical, 2025-01-31, Veiligheid NL
+2. `B. J. Daams`, `J. K. Moore`, `A. J. Loeve`, `G. Papaioannou`, and `R. Happee`, "`Literature research on vibration of children during transport <http://>`__", Technical, 2025-01-31, Veiligheid NL
+3. `S. C. Bruijn`, `A. J. Meyers`, `D. van Ommeren`, `J. E. Riegstra`, and `R. J. van Rooijen`, "`Evaluation of children’s whole-body vibrational comfort in cargo bikes <http://>`__", Bachelor End Project, 2024, Delft University of Technology
 
 Preprints
 
@@ -44,6 +46,7 @@ Presentations
 Media Articles
 
 1. `TU Delft Media Team`, "`How comfortable are cargo bikes actually for children? <https://www.tudelft.nl/en/me/education/student-stories/how-comfortable-are-cargo-bikes-actually-for-children>`__", 2024
+
 
 Media
 =====

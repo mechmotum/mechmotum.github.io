@@ -136,7 +136,7 @@ def formatter_preprint(data):
         '"{title}," '
         '{archive}, '
         '{year}, '
-        '`{doi} <https://dx.doi.org/{doi}>`_ '
+        '`{doi} <https://dx.doi.org/{doi}>`_'
     )
 
     return template.format(
@@ -154,7 +154,7 @@ def formatter_journal(data):
         '"{title}," '
         '{journal}, '
         '{year}, '
-        '`{doi} <https://dx.doi.org/{doi}>`_ '
+        '`{doi} <https://dx.doi.org/{doi}>`_'
     )
 
     return template.format(
