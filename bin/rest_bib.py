@@ -262,7 +262,7 @@ def formatter_data(data):
         '"`{title} <{url}>`__", '
         '{year}, '
         '{repository}, '
-        '`{DOI} <https://dx.doi.org/{DOI}>`_ '
+        '`{DOI} <https://dx.doi.org/{DOI}>`_'
     )
 
     return template.format(
