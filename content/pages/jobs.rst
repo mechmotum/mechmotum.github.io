@@ -75,18 +75,30 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
-   * - `Bicycle pose estimation <{filename}/pages/jobs/bike-pose-estimation.rst>`_
-     - 2025-02-13
-     - Benjamin Gonzalez
+   * - `Optimal Bicycle Configuration and Crank/Chainring Design for Maximal
+       Power in Pedaling <https://github.com/mechmotum/ideas/issues/50>`_
+     - 2025-11-11
+     -
+     - Thesis
+   * - `Transmibility of Road Surface Induced Vibrations for Infants in Cargo
+       Bicycles and Strollers <https://github.com/mechmotum/ideas/issues/51>`_
+     - 2025-11-11
+     - Riender Happee
+     - Thesis
+   * - `Design of a Leaning and Yawing Bicycle Simulator
+       <https://github.com/mechmotum/ideas/issues/52>`_
+     - 2025-11-11
+     -
+     - Thesis
+   * - `Simulation of a Peloton Using the Social Force Model
+       <https://github.com/mechmotum/ideas/issues/53>`_
+     - 2025-11-11
+     -
      - Thesis
    * - `Bikes and Babies <{filename}/pages/jobs/bikes-and-babies.rst>`_
      - 2024-05-15
      - Dustyn Roberts
      - Internship
-   * - `Using Model Predictive Control to Assist in Bicycle Lane Changes <{filename}/pages/jobs/mpc-bicycle-assist-experiments.rst>`_
-     - 2023-10-27
-     - Laura Marchal-Crespo, Riender Happee
-     - Thesis
    * - `Cycling in Virtual Reality <{filename}/pages/jobs/cycling-in-virtual-reality.rst>`_
      - 2023-10-27
      -
@@ -94,10 +106,6 @@ in finding students for [#]_:
    * - `Estimation of Bicycle Tire Contact Patch Forces Using Simple Sensors <{filename}/pages/jobs/bicycle-tire-force-estimation.rst>`_
      - 2022-09-08
      -
-     - Thesis
-   * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
-     - 2021-02-23
-     - Dr. Patrick Forbes & Matto Leeuwis @ Erasmus Medical Center
      - Thesis
    * - `Determining Dynamics Perception Thresholds of Bicycles <{filename}/pages/jobs/determining-dynamics-perception-thresholds-of-bicycles.rst>`_
      - 2020-11-17
@@ -127,6 +135,18 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Bicycle pose estimation <{filename}/pages/jobs/bike-pose-estimation.rst>`_
+     - 2025-02-13
+     - Benjamin Gonzalez
+     - Haye Boonstra
+   * - `Using Model Predictive Control to Assist in Bicycle Lane Changes <{filename}/pages/jobs/mpc-bicycle-assist-experiments.rst>`_
+     - 2023-10-27
+     - Laura Marchal-Crespo
+     - Siva Machavaram
+   * - `Unravelling Vestibular Sensory Contributions to Bicycle Balance Control <{filename}/pages/jobs/bicycle-balance-vestibular-contributions.rst>`_
+     - 2021-02-23
+     - Dr. Patrick Forbes & Matto Leeuwis @ Erasmus Medical Center
+     - Luna Compen
    * - `Design of an Active Tracking Treadmill for Single Track Vehicle Experiments <{filename}/pages/jobs/active-bicycle-treadmill.rst>`_
      - 2021-02-15
      -
