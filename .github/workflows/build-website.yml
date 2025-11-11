@@ -30,6 +30,7 @@ jobs:
     - name: Build the website
       run: |
         pelican -D -v --fatal errors -s publishconf.py -o output
+        sed -i 's/<ol /<ol reversed /g' output/products.html
     - name: Deploy the website
       if: ${{ github.event_name == 'push' }}
       run: |
