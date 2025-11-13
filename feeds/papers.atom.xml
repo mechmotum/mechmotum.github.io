@@ -8,7 +8,7 @@ Cloud B, Tarien B, Liu A, Shedd T, Lin X, Hubbard M, et al. (2019) Adaptive
 smartphone-based sensor fusion for estimating competitive rowing kinematic
 metrics. PLoS ONE 14(12): e0225690. &lt;a class="reference external" href="https://doi.org/10.1371/journal.pone.0225690"&gt;https://doi.org/10.1371/journal.pone.0225690&lt;/a&gt;&lt;/blockquote&gt;
 &lt;a class="reference external image-reference" href="https://doi.org/10.1371/journal.pone.0225690"&gt;
-&lt;img alt="Screenshot of the Plos One paper." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/row-plos-screenshot.png" style="width: 80%;" /&gt;
+&lt;img alt="Screenshot of the Plos One paper." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/row-plos-screenshot.png" style="width: 80%;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;The abstract reads:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -38,7 +38,7 @@ improve estimates of important rowing performance metrics.&lt;/blockquote&gt;
 helps others progress in sports performance estimation and other related
 topics.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Rowing performance estimation project team." src="https://objects-us-east-1.dream.io/mechmotum/row-research-team.png" style="width: 80%;" /&gt;
+&lt;img alt="Rowing performance estimation project team." src="https://mechmotum.s3.us-east-005.dream.io/row-research-team.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Research team members Li Wang, Ada Liu, Thomas Shedd, Paul Crawford, Britt
 Tarien, and Bryn Cloud&lt;/p&gt;
 &lt;/div&gt;
@@ -127,12 +127,12 @@ our filters can perform well on both, then we know they are robust.&lt;/p&gt;
 smartphone GPS, complementary filter, and Kalman filter through the relative
 error with respect to the the distance per stroke computed from the
 differential GPS measurements.&lt;/p&gt;
-&lt;img alt="Distance Per Stroke Figure" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/dps.png" style="width: 50%;" /&gt;
+&lt;img alt="Distance Per Stroke Figure" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/dps.png" style="width: 50%;" /&gt;
 &lt;p&gt;Example boat speed estimates over 30 seconds during a typical trial comparing
 smartphone GPS derived speed and the complementary filter and Kalman filter
 outputs against the differential GPS is shown in Figure 2.  RMSE is calculated
 with respect to the sampling rate of the accelerometer, 100 Hz.&lt;/p&gt;
-&lt;img alt="Speed Estimation" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/speed-example.png" style="width: 50%;" /&gt;
+&lt;img alt="Speed Estimation" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/speed-example.png" style="width: 50%;" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="discussion"&gt;
 &lt;h2&gt;Discussion&lt;/h2&gt;
@@ -236,7 +236,7 @@ viewed here:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://doi.org/10.21105/joss.00818"&gt;https://doi.org/10.21105/joss.00818&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you'd like to check out the web app, click the image below:&lt;/p&gt;
 &lt;a class="reference external image-reference" href="http://www.skijumpdesign.info"&gt;
-&lt;img alt="Screenshot of the application." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum.github.io/skijumpdesign-screenshot.jpg" style="width: 50%;" /&gt;
+&lt;img alt="Screenshot of the application." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io.github.io/skijumpdesign-screenshot.jpg" style="width: 50%;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Other related information:&lt;/p&gt;
 &lt;ul class="simple"&gt;

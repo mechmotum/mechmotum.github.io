@@ -32,11 +32,11 @@
 <div class="row">
     <div class="col-sm-4">
       <a href="https://mechmotum.github.io/">
-        <img class="site-image img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
+        <img class="site-image img-fluid rounded" src=https://mechmotum.s3.us-east-005.dream.io/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
       </a>
     </div>
   <div class="col-sm-8">
-    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <img src=https://mechmotum.s3.us-east-005.dream.io/tu-delft-logo-233x100.png height=100px>
     <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
       <p class="text-muted">E pur si muove</p>
       <ul class="list-inline">
@@ -105,7 +105,7 @@ NetBoot and a proxy between the Internet and the Kubernetes cluster. The
 Kubernetes cluster is under a private network, so the only way to access the
 Kubernetes cluster is by connecting through rooster.</p>
 <p>The following diagram describes our networking setup.</p>
-<img alt="Kubernetes diagram of cluster" src="https://objects-us-east-1.dream.io/mechmotum/kubediagram.png" style="width: 600px;" />
+<img alt="Kubernetes diagram of cluster" src="https://mechmotum.s3.us-east-005.dream.io/kubediagram.png" style="width: 600px;" />
 <p>The private network is under the <tt class="docutils literal">10.0.0.0/8</tt>. Kubernetes uses this network
 for its resources to communicate.  Rooster has a public IP address of
 <tt class="docutils literal">128.120.136.26</tt>, which serves multiple services based on the domain name
@@ -181,13 +181,13 @@ to the template file directory.</li>
 </ul>
 <p>We chose the former option and have repositories for <a class="reference external" href="https://github.com/LibreTexts/jupyterhub-templates">custom HTML files</a> and <a class="reference external" href="https://github.com/LibreTexts/jupyterhub-images">additional images</a>.</p>
 <p>This is a screenshot of how the login page looks now.</p>
-<img alt="Screenshot of the redesigned JupyterHub login page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubscreenshot.png" style="width: 600px;" />
+<img alt="Screenshot of the redesigned JupyterHub login page" src="https://mechmotum.s3.us-east-005.dream.io/jupyterhubscreenshot.png" style="width: 600px;" />
 <p>Additionally, more spawner options are included. We modified the default
 environment to include many packages requested by professors and students. The
 Dockerfile for the default environment is maintained in <a class="reference external" href="https://github.com/LibreTexts/default-env">this repository</a>.  The environment includes
 Python 2 and 3, Octave, R, Julia, and SageMath.  The default environment mainly
 installs software and packages via apt and conda for security reasons.</p>
-<img alt="Screenshot of the redesigned JupyterHub spawner page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubspawner.png" style="width: 600px;" />
+<img alt="Screenshot of the redesigned JupyterHub spawner page" src="https://mechmotum.s3.us-east-005.dream.io/jupyterhubspawner.png" style="width: 600px;" />
 <p>The default environment includes Python 2 and 3, Octave, R, Julia, and
 SageMath.  Note that SageMath requires Python 2, so changing the Python path
 inside the SageMath configuration files is required. <a class="reference external" href="https://bytesofcomputerwisdom.home.blog/2019/03/31/jupyter-notebook-running-the-wrong-python-version/">This article</a>

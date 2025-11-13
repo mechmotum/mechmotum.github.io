@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - education</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/education.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2021-10-08T00:00:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>LibreTexts Jupyter Integration Wrapup</title><link href="https://mechmotum.github.io/blog/libretexts-wrapup.html" rel="alternate"/><published>2021-10-08T00:00:00-07:00</published><updated>2021-10-08T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-10-08:/blog/libretexts-wrapup.html</id><summary type="html">&lt;div class="figure align-center"&gt;
-&lt;img alt="LibreTexts and Jupyter Logos" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" /&gt;
+&lt;img alt="LibreTexts and Jupyter Logos" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-plus-jupyter.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;As of September 30th we have wrapped up our work integrating Jupyter based
 computing tools into the &lt;a class="reference external" href="https://www.libretexts.org"&gt;LibreTexts&lt;/a&gt; platform. This work was part of a three
 year $5M grant from the U.S. Department of Education (DoE) to enhance open
 access textbooks called &lt;a class="reference external" href="https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program"&gt;Open Textbooks Pilot Program&lt;/a&gt; (CFDA No. 84 …&lt;/p&gt;</summary><content type="html">&lt;div class="figure align-center"&gt;
-&lt;img alt="LibreTexts and Jupyter Logos" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" /&gt;
+&lt;img alt="LibreTexts and Jupyter Logos" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-plus-jupyter.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;As of September 30th we have wrapped up our work integrating Jupyter based
 computing tools into the &lt;a class="reference external" href="https://www.libretexts.org"&gt;LibreTexts&lt;/a&gt; platform. This work was part of a three
@@ -97,7 +97,7 @@ with one command&lt;/li&gt;
 &lt;li&gt;Custom user abuse sensors and process killers&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="UCD cluster racks." src="https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png" /&gt;
+&lt;img alt="UCD cluster racks." src="https://mechmotum.s3.us-east-005.dream.io/ucd-kube-cluster.png" /&gt;
 &lt;p class="caption"&gt;The cluster humming away in the server room.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -113,11 +113,11 @@ that provides instructions for more advanced use. We also created a section in
 the LibreTexts &lt;a class="reference external" href="https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements"&gt;construction guide&lt;/a&gt; that provides guidance specifically for
 LibreTexts users and authors.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="LibreTexts UC Davis JupyterHub Login Screen" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png" /&gt;
+&lt;img alt="LibreTexts UC Davis JupyterHub Login Screen" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyterhub-login-page.png" /&gt;
 &lt;p class="caption"&gt;LibreTexts UC Davis JupyterHub Login Screen&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Author construction guide section about Jupyter integration" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png" /&gt;
+&lt;img alt="Author construction guide section about Jupyter integration" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyter-guide.png" /&gt;
 &lt;p class="caption"&gt;Author construction guide section about Jupyter integration&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -140,11 +140,11 @@ vast majority of needed software is pre-installed.&lt;/p&gt;
 it includes Python, R, Julia, Octave, C++, and Sage in the console and
 notebooks as well as RStudio server access to R.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="JupyterLab Interface" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png" /&gt;
+&lt;img alt="JupyterLab Interface" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyterhub-jupyterlab-launch.png" /&gt;
 &lt;p class="caption"&gt;JupyterLab Interface&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="RStudio Interface" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png" /&gt;
+&lt;img alt="RStudio Interface" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-rstudio.png" /&gt;
 &lt;p class="caption"&gt;RStudio Interface&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -206,7 +206,7 @@ and since the sprint:&lt;/p&gt;
 &lt;li&gt;Enabled general ipywidgets functionality&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Example of an ipywidget controlling a matplotlib figure in Thebe." src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
+&lt;img alt="Example of an ipywidget controlling a matplotlib figure in Thebe." src="https://mechmotum.s3.us-east-005.dream.io/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
 &lt;p class="caption"&gt;Example of an ipywidget controlling a matplotlib figure in Thebe.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;You can see examples many of the rich Jupyter outputs on this LibreTexts page:&lt;/p&gt;
@@ -234,7 +234,7 @@ Kim et al. (2020), Teaching Cheminformatics through a Collaborative
 Intercollegiate Online Chemistry Course (OLCC), Journal of Chemical
 Education, &lt;a class="reference external" href="https://doi.org/10.1021/acs.jchemed.0c01035"&gt;https://doi.org/10.1021/acs.jchemed.0c01035&lt;/a&gt;&lt;/blockquote&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Conference poster about the cheminformatics project." src="https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png" /&gt;
+&lt;img alt="Conference poster about the cheminformatics project." src="https://mechmotum.s3.us-east-005.dream.io/libretexts-cheminformatics-poster.png" /&gt;
 &lt;p class="caption"&gt;Conference poster about the cheminformatics project.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -281,7 +281,7 @@ integration for a variety of different programming languages.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications/Jupyter_Notebooks"&gt;Chemistry Interactive Applications&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Example interactive robot arm simulator from Matrix Algebra with Computational Applications (Colbry)" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png" /&gt;
+&lt;img alt="Example interactive robot arm simulator from Matrix Algebra with Computational Applications (Colbry)" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-robot-sim.png" /&gt;
 &lt;p class="caption"&gt;Example interactive robot arm simulator from Matrix Algebra with
 Computational Applications (Colbry)&lt;/p&gt;
 &lt;/div&gt;
@@ -319,7 +319,7 @@ connecting them to the communities of practice. We presented at Jupyter Open
 Studio (2019), SacPy (2020), OpenEd Week (2020), Women in Data (2020), and the
 National Workshop on Data Education (2020).&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Celine Presenting at SacPy" src="https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg" style="width: 600px;" /&gt;
+&lt;img alt="Celine Presenting at SacPy" src="https://mechmotum.s3.us-east-005.dream.io/celine-sacpy.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Hao, Tannavee, and Celine presenting at the SacPy meetup in 2019.&lt;/p&gt;
 &lt;/div&gt;
 &lt;center&gt;
@@ -357,44 +357,44 @@ is it the team that made all of this magic happen:&lt;/p&gt;
 &lt;col width="33%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-celine.png" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-celine.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-hao.jpg" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-hao.jpg" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-henry.jpg" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-henry.jpg" /&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Celine Liang (now &amp;#64; Facebook)&lt;/td&gt;
 &lt;td&gt;Hao Huang (now &amp;#64; Zillow)&lt;/td&gt;
 &lt;td&gt;Henry Agnew (now &amp;#64; UC San Diego)&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-k.png" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-kevin-k.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-r.png" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-kevin-r.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-mandeepika.jpg" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-mandeepika.jpg" /&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Kevin Krausse (now &amp;#64; Ekata)&lt;/td&gt;
 &lt;td&gt;Kevin Rong (now &amp;#64; Zoox)&lt;/td&gt;
 &lt;td&gt;Mandeepika Sani (UC Davis)&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-noah.png" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-noah.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-patrick.jpg" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-patrick.jpg" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tannavee.png" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-tannavee.png" /&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Lyla Sanders (UC Davis)&lt;/td&gt;
 &lt;td&gt;Patrick Mackle (now &amp;#64; DocuSign)&lt;/td&gt;
 &lt;td&gt;Tannavee Kumar (now &amp;#64; Tempus Labs)&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tim.png" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-tim.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-xiaochen.png" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-xiaochen.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-luigi.png" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-luigi.png" /&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Tim Stewart (UC Davis)&lt;/td&gt;
@@ -425,7 +425,7 @@ enthusiasm. He has my full admiration. I'll miss working with you Richard,
 hopefully we can start up something new in the future! The project is in great
 hands.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Lab pizza social" src="https://objects-us-east-1.dream.io/mechmotum/lab-pizza-outing.png" /&gt;
+&lt;img alt="Lab pizza social" src="https://mechmotum.s3.us-east-005.dream.io/lab-pizza-outing.png" /&gt;
 &lt;p class="caption"&gt;Pre-pandemic pizza social with the team. From the left around the table:
 Celine, Michael, Trevor, Henry, Jason, Hao, Luigi, Tannavee.&lt;/p&gt;
 &lt;/div&gt;
@@ -503,7 +503,7 @@ widget ecosystem. By migrating from the Jupyter HTML Manager package to the Lab
 Manager, we are now able to run all ipywidget interactive widgets, which
 greatly expands the possibilities for textbook authors.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="IPyWidgets Used in Thebe" src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
+&lt;img alt="IPyWidgets Used in Thebe" src="https://mechmotum.s3.us-east-005.dream.io/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
 &lt;p class="caption"&gt;Example of an ipywidget controlling a matplotlib figure in Thebe.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;In terms of cluster reliability, we have added a second router to be highly
@@ -893,7 +893,7 @@ block. If the code block has already been inserted into the page, and the
 author wants to make any changes, they can simply double click on that section
 and the dialog box will pop back up.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="GIF depicting an example page made using CKEditor" src="https://objects-us-east-1.dream.io/mechmotum/example-libretexts-jupyter-page.gif" style="width: 100%;" /&gt;
+&lt;img alt="GIF depicting an example page made using CKEditor" src="https://mechmotum.s3.us-east-005.dream.io/example-libretexts-jupyter-page.gif" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1: Example of what and author can do with CKEditor, and what the output will look like&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -912,7 +912,7 @@ involves downloading an image from DockerHub and creating a Docker container.&lt
 src="https://docs.google.com/presentation/d/e/2PACX-1vQpprGVUh86uBUcpdQO-BD9-HQc0zit0vhf2O3z8Izs4aeYKcb8FxSX8gc43CeVM0-x_5JhIj03vRM0/embed?start=false&amp;loop=false&amp;delayms=3000"
 frameborder="0" width="960" height="569" allowfullscreen="true"
 mozallowfullscreen="true" webkitallowfullscreen="true"&gt;&lt;/iframe&gt;&lt;div class="figure align-center"&gt;
-&lt;img alt="Celine presenting at SacPy." src="https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg" style="width: 800px;" /&gt;
+&lt;img alt="Celine presenting at SacPy." src="https://mechmotum.s3.us-east-005.dream.io/celine-sacpy.jpg" style="width: 800px;" /&gt;
 &lt;p class="caption"&gt;Celine presenting at SacPy.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="education"/><category term="oer"/><category term="education"/><category term="jupyter"/><category term="textbooks"/><category term="engineering"/><category term="python"/></entry><entry><title>Creating a Kubernetes Bare-Metal Cluster for JupyterHub</title><link href="https://mechmotum.github.io/blog/jupyter-summer-2019.html" rel="alternate"/><published>2019-11-01T00:00:00-07:00</published><updated>2019-11-01T00:00:00-07:00</updated><author><name>Xin Luigi Chen</name></author><id>tag:mechmotum.github.io,2019-11-01:/blog/jupyter-summer-2019.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on setting up JupyterHub on a Kubernetes bare-metal cluster&lt;/p&gt;
@@ -941,7 +941,7 @@ NetBoot and a proxy between the Internet and the Kubernetes cluster. The
 Kubernetes cluster is under a private network, so the only way to access the
 Kubernetes cluster is by connecting through rooster.&lt;/p&gt;
 &lt;p&gt;The following diagram describes our networking setup.&lt;/p&gt;
-&lt;img alt="Kubernetes diagram of cluster" src="https://objects-us-east-1.dream.io/mechmotum/kubediagram.png" style="width: 600px;" /&gt;
+&lt;img alt="Kubernetes diagram of cluster" src="https://mechmotum.s3.us-east-005.dream.io/kubediagram.png" style="width: 600px;" /&gt;
 &lt;p&gt;The private network is under the &lt;tt class="docutils literal"&gt;10.0.0.0/8&lt;/tt&gt;. Kubernetes uses this network
 for its resources to communicate.  Rooster has a public IP address of
 &lt;tt class="docutils literal"&gt;128.120.136.26&lt;/tt&gt;, which serves multiple services based on the domain name
@@ -1017,13 +1017,13 @@ to the template file directory.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We chose the former option and have repositories for &lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-templates"&gt;custom HTML files&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-images"&gt;additional images&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This is a screenshot of how the login page looks now.&lt;/p&gt;
-&lt;img alt="Screenshot of the redesigned JupyterHub login page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubscreenshot.png" style="width: 600px;" /&gt;
+&lt;img alt="Screenshot of the redesigned JupyterHub login page" src="https://mechmotum.s3.us-east-005.dream.io/jupyterhubscreenshot.png" style="width: 600px;" /&gt;
 &lt;p&gt;Additionally, more spawner options are included. We modified the default
 environment to include many packages requested by professors and students. The
 Dockerfile for the default environment is maintained in &lt;a class="reference external" href="https://github.com/LibreTexts/default-env"&gt;this repository&lt;/a&gt;.  The environment includes
 Python 2 and 3, Octave, R, Julia, and SageMath.  The default environment mainly
 installs software and packages via apt and conda for security reasons.&lt;/p&gt;
-&lt;img alt="Screenshot of the redesigned JupyterHub spawner page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubspawner.png" style="width: 600px;" /&gt;
+&lt;img alt="Screenshot of the redesigned JupyterHub spawner page" src="https://mechmotum.s3.us-east-005.dream.io/jupyterhubspawner.png" style="width: 600px;" /&gt;
 &lt;p&gt;The default environment includes Python 2 and 3, Octave, R, Julia, and
 SageMath.  Note that SageMath requires Python 2, so changing the Python path
 inside the SageMath configuration files is required. &lt;a class="reference external" href="https://bytesofcomputerwisdom.home.blog/2019/03/31/jupyter-notebook-running-the-wrong-python-version/"&gt;This article&lt;/a&gt;

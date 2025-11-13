@@ -18,7 +18,7 @@ we've built out a new example gallery that demonstrates how Opty can be used to
 solve a variety of problems:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="https://opty.readthedocs.io/stable/examples/index.html"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/opty-1.3-examples.png" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/opty-1.3-examples.png" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;Opty 1.3's new example gallery.&lt;/p&gt;
 &lt;/div&gt;
@@ -36,26 +36,26 @@ problem in about 10 minutes on an AMD Ryzen 5 2600X 12 core machine.&lt;/p&gt;
 &lt;p&gt;This produces a reasonably realistic overall motion which can be seen in the
 cadence, resulting speed, and the power to accelerate and overcome rolling and
 air resistance:&lt;/p&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-power.png" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/one-legged-80m-power.png" /&gt;
 &lt;p&gt;There is no limit on the fatigue of the muscles so the optimizer finds a
 bang-bang style coordination of the muscle excitations to power the leg and
 push the muscles to their maximum force production:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-muscle.png" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/one-legged-80m-muscle.png" /&gt;
 &lt;p class="caption"&gt;The four muscle forces, muscle lengths, and muscle excitations versus time
 during the 80 meter time trial with the minimum race time shown at the top.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This solution results in this overall pedaling motion:&lt;/p&gt;
 &lt;center&gt;
   &lt;video controls&gt;
-    &lt;source src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m.mp4" type="video/mp4"&gt;
+    &lt;source src="https://mechmotum.s3.us-east-005.dream.io/one-legged-80m.mp4" type="video/mp4"&gt;
   &lt;/video&gt;
 &lt;/center&gt;&lt;p&gt;Our next step is to incorporate muscles in our 3D nonlinear bicycle-rider
 models to enable deeper understanding of how bicycles are balanced and
 controlled. Opty can quickly find optimal trajectories of the joint torque
 driven model, as shown in our &lt;a class="reference external" href="https://doi.org/10.59490/660179a06bf1082286458109"&gt;BRiM paper&lt;/a&gt;:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/brim-paper-opty-example.png" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/brim-paper-opty-example.png" /&gt;
 &lt;p class="caption"&gt;Torque driven Opty optimal control solution for the non-linear
 Carvallo-Whipple bicycle model.&lt;/p&gt;
 &lt;/div&gt;
@@ -74,7 +74,7 @@ performance for large mathematical expressions.&lt;/p&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;&lt;img alt="sympy-logo" src="https://docs.sympy.org/latest/_images/sympy-500px.png" style="height: 200px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 200px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="czi-logo" src="https://mechmotum.s3.us-east-005.dream.io/czi-logo.png" style="height: 200px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -166,14 +166,14 @@ can be found in the SymPy documentation.&lt;/caption&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="joint1" src="https://objects-us-east-1.dream.io/mechmotum/PinJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="joint2" src="https://objects-us-east-1.dream.io/mechmotum/PrismaticJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="joint1" src="https://mechmotum.s3.us-east-005.dream.io/PinJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="joint2" src="https://mechmotum.s3.us-east-005.dream.io/PrismaticJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="joint3" src="https://objects-us-east-1.dream.io/mechmotum/CylindricalJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="joint4" src="https://objects-us-east-1.dream.io/mechmotum/PlanarJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="joint3" src="https://mechmotum.s3.us-east-005.dream.io/CylindricalJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="joint4" src="https://mechmotum.s3.us-east-005.dream.io/PlanarJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="joint5" src="https://objects-us-east-1.dream.io/mechmotum/SphericalJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="joint6" src="https://objects-us-east-1.dream.io/mechmotum/WeldJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="joint5" src="https://mechmotum.s3.us-east-005.dream.io/SphericalJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="joint6" src="https://mechmotum.s3.us-east-005.dream.io/WeldJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -368,7 +368,7 @@ are simulation results from the model with a commanded muscle excitation.&lt;/ca
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="biomechanics-steerer" src="https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="biomechanics-steerer" src="https://mechmotum.s3.us-east-005.dream.io/biomechanics-steerer.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;td&gt;&lt;img alt="biomechanics-steerer-results" src="https://docs.sympy.org/latest/_images/biomechanical-model-example-38.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -504,7 +504,7 @@ Motorcycle Dynamics 2023 conference that gives a more concise overview of the
 package as well as demonstrating easily swapping models for comparable optimal
 control results.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/brim-lane-change.gif" style="width: 80%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/brim-lane-change.gif" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Figure 3: Lane change simulation created with BRiM showing with and without
 a rider.&lt;/p&gt;
 &lt;/div&gt;
@@ -583,11 +583,11 @@ torque &lt;span class="math"&gt;\(T_6\)&lt;/span&gt; and the biceps and triceps.
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="muscle-bike-rider-01" src="https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-01.png" style="width: 100%;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="muscle-bike-rider-02" src="https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-02.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="muscle-bike-rider-01" src="https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-01.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="muscle-bike-rider-02" src="https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-02.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="muscle-bike-rider-03" src="https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-03.png" style="width: 100%;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="muscle-bike-rider-04" src="https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-04.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="muscle-bike-rider-03" src="https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-03.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="muscle-bike-rider-04" src="https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-04.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -852,13 +852,13 @@ has new features that let jump builders analyze existing or planned jumps by
 equivalent fall height calculations. These features were used to analyse the
 two case studies in the paper.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Equivalent fall height plot of the Salvini case study." src="https://objects-us-east-1.dream.io/mechmotum/salvini-v-snoqualmie.png" style="width: 600px;" /&gt;
+&lt;img alt="Equivalent fall height plot of the Salvini case study." src="https://mechmotum.s3.us-east-005.dream.io/salvini-v-snoqualmie.png" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Example equivalent fall height analysis of a dangerous snow sport jump taken
 from the paper.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="http://www.skijumpdesign.info/analysis"&gt;
-&lt;img alt="Screenshot of the skijumpdesign app's analysis page." src="https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-1.4.0-analysis-screenshot.png" style="width: 600px;" /&gt;
+&lt;img alt="Screenshot of the skijumpdesign app's analysis page." src="https://mechmotum.s3.us-east-005.dream.io/skijumpdesign-1.4.0-analysis-screenshot.png" style="width: 600px;" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;Screenshot of the new &amp;quot;analysis&amp;quot; page of the web app. Click the image to go
 to the app.&lt;/p&gt;
@@ -867,7 +867,7 @@ to the app.&lt;/p&gt;
 dynamics.&lt;/p&gt;
 </summary><content type="html">&lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="https://bicycle-dynamics.onrender.com"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/bicycle-dynamics-app.png" style="width: 800px;" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;Screenshot of the bicycle dynamics web app. Click the image to go to the app
 at &lt;a class="reference external" href="https://bicycle-dynamics.onrender.com"&gt;https://bicycle-dynamics.onrender.com&lt;/a&gt;.&lt;/p&gt;
@@ -961,7 +961,7 @@ of the PID controller.&lt;/p&gt;
 fundamentally informed by the interactions the user would have with the system.
 A typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
+&lt;img alt="User Interaction." src="https://mechmotum.s3.us-east-005.dream.io/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A typical user interaction with the system.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This user interaction flowchart was used to help better understand the problem
@@ -976,7 +976,7 @@ hardware and software portions of the cruise control system.&lt;/p&gt;
 error between a user defined setpoint and the actual speed of the ebike. Figure
 2 graphically shows how the control architecture is implemented on the ebike.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
+&lt;img alt="Control Architecture." src="https://mechmotum.s3.us-east-005.dream.io/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Control architecture as implemented on the ebike.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -988,7 +988,7 @@ integration by highlighting the input/output and geometric relationships
 between existing components of the ebike and the additional components needed
 to implement the cruise control system.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
+&lt;img alt="System Architecture." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Geometric layout of the system components showing relative size,
 location, information flow, and type of each component. Components called
 out with a triangle are existing components on the ebike. Components called
@@ -1005,7 +1005,7 @@ control is disengaged, the Arduino simply reads the user commanded throttle
 position and passes it directly to the motor controller. Figure 4, below,
 graphically shows this interaction.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
+&lt;img alt="Arduino's Main Function." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Schematic showing the Arduino’s function as a throttle emulator.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Note: Testing of the cruise control system has shown the implementation method
@@ -1026,7 +1026,7 @@ current status of the system via an LCD and logs diagnostic information to an
 SD card.&lt;/p&gt;
 &lt;p&gt;Figure 5, below, shows a high level view of the logic flow of the code.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Code Logic Flowchart." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Basic logic flowchart of the cruise control software.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Source code, and more details about it, can be found on the Laboratorium’s
@@ -1065,7 +1065,7 @@ controller and powered by a 36V Li ion battery. More information on the build
 and the bike’s instrumentation system can be found in Jason’s dissertation
 &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
+&lt;img alt="Instrumented Ebike." src="https://mechmotum.s3.us-east-005.dream.io/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. The instrumented ebike today.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1128,7 +1128,7 @@ build.&lt;/p&gt;
 connect the external components to the Nano. Figure 7 shows the completed
 Arduino board.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
+&lt;img alt="Arduino Board." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 7. The Arduino board with wires attached.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;With many of the components located on the handlebars, a majority of these
@@ -1153,13 +1153,13 @@ the sides and top of the housing allow for wires to exit towards their
 destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Arduino Housing." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8. Arduino housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The Arduino housing is clamped to the downtube of the ebike by a socket head
 screw as shown in Figure 9.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
+&lt;img alt="Arduino Mounting." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9. Arduino housing mounting point.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Both the LCD and button housings were 3D printed and designed to mount to the
@@ -1168,7 +1168,7 @@ bikes. Each mount had a pair of “bunny ears&amp;quot; designed to interface wi
 GoPro style mount. The LCD housing, shown in Figure 10 below, is a simple
 rectangular two-piece enclosure joined by button head screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
+&lt;img alt="LCD Housing." src="https://mechmotum.s3.us-east-005.dream.io/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 10. LCD housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Similar to the LCD housing, the button housing is a two-piece, enclosure joined
@@ -1178,13 +1178,13 @@ more convenient for the user, larger button parts were 3D printed and offset
 from each mini momentary pushbutton using a compression spring as shown in
 Figure 11 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Button Housing." src="https://mechmotum.s3.us-east-005.dream.io/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 11. Button housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;As shown in Figure 12, the button housing is mounted on the right side of the
 handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
+&lt;img alt="Button Housing Mount." src="https://mechmotum.s3.us-east-005.dream.io/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 12. Button housing position on the handlebars.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1222,7 +1222,7 @@ mounted to the bike’s top tube,inside the upper head tube triangle.&lt;/p&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-14"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Bill of Materials." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
 purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1295,11 +1295,11 @@ will be to evaluate the handling of the bicycle both subjectively and
 objectively.&lt;/p&gt;
 &lt;p&gt;Paper: &lt;a class="reference external" href="https://doi.org/10.6084/m9.figshare.9883328.v1"&gt;https://doi.org/10.6084/m9.figshare.9883328.v1&lt;/a&gt;&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="3ms Fabricated." src="https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated.jpg" style="width: 50%;" /&gt;
+&lt;img alt="3ms Fabricated." src="https://mechmotum.s3.us-east-005.dream.io/3ms-fabricated.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. Fabricated model of optimal bicycle for 3 m/s.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="3ms Fabricated Rider." src="https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated-rider.jpg" style="width: 50%;" /&gt;
+&lt;img alt="3ms Fabricated Rider." src="https://mechmotum.s3.us-east-005.dream.io/3ms-fabricated-rider.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Fabricated model of optimal bicycle for 3 m/s with rider.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;iframe width="560" height="315"
@@ -1315,7 +1315,7 @@ the equivalent fall height (EFH) for their jump. Figure 1 illustrates the
 components of a terrain park using common terminology.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ski Jump Terminology." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png" style="width: 80%;" /&gt;
+&lt;img alt="Ski Jump Terminology." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-01.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. Components of standard terrain park jump from [Levy]_.
 Reprinted with the author's permission.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1381,7 +1381,7 @@ locations, which was a pleasant surprise after the testing on a bike. This data
 shows promise for this jump profiling method. Figure 2 shows me (the skier)
 with the differential GPS ski helmet, and the backpack strapped to my chest.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Differential GPS Skier Helmet." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-02.jpg" style="width: 50%;" /&gt;
+&lt;img alt="Differential GPS Skier Helmet." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-02.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. A differential GPS mounted to a helmet for testing at Sierra at Tahoe.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1391,13 +1391,13 @@ with the differential GPS ski helmet, and the backpack strapped to my chest.&lt;
 at &lt;a class="reference external" href="http://www.skijumpdesign.info"&gt;http://www.skijumpdesign.info&lt;/a&gt;. A home page was added to keep it user
 friendly. This is shown below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ski Jump Tool Home Page." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-03.png" style="width: 50%;" /&gt;
+&lt;img alt="Ski Jump Tool Home Page." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-03.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. New Ski Jump Web Application - Home Page.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The buttons centered in the middle of this page will direct users to the ski
 jump design or the new analysis page shown in Figure 4.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ski Jump Tool Analysis." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-06.png" style="width: 50%;" /&gt;
+&lt;img alt="Ski Jump Tool Analysis." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-06.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. New Ski Jump Web Application - Analysis Page.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;An example of a jump designed with a takeoff angle of 10 degrees and maximum
@@ -1409,7 +1409,7 @@ limits the acceleration felt by the skier - which is the reason for the spike
 in EFH.  From there, the user can scroll down to the input box to upload their
 own jump. This input box is shown in Figure 5 with a sample csv file uploaded.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Analysis Input Box." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-07.png" style="width: 50%;" /&gt;
+&lt;img alt="Analysis Input Box." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-07.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Analysis Page Input Box.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1544,7 +1544,7 @@ Arduino Nano.&lt;/p&gt;
 informed by the interactions that the user would have with the system. A
 typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
+&lt;img alt="User Interaction." src="https://mechmotum.s3.us-east-005.dream.io/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A typical user interaction with the system.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This user interaction flowchart was used to help better understand the problem
@@ -1562,7 +1562,7 @@ Figure 2, shows how this error is inputted to the control algorithm encoded in
 the Arduino Nano resulting in an output variable used to control the speed of
 the ebike.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
+&lt;img alt="Control Architecture." src="https://mechmotum.s3.us-east-005.dream.io/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Control architecture.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1574,7 +1574,7 @@ integration by highlighting the input/output and geometric relationships
 between existing components of the ebike and the additional control system
 components.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
+&lt;img alt="System Architecture." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Geometric layout of the system components showing relative size,
 location, information flow, and type of each component. Components called
 out with a triangle are existing components on the ebike. Components called
@@ -1590,7 +1590,7 @@ controller. When the cruise control is disengaged, the Arduino simply reads the
 user commanded throttle position and passes it directly to the motor
 controller.  Figure 4, below, graphically shows this interaction.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
+&lt;img alt="Arduino's Main Function." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Schematic showing the Arduino’s function as a throttle emulator.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1604,7 +1604,7 @@ the PID controller. The software also updates the user on the current status of
 the system via an LCD and logs diagnostic information to an SD card.&lt;/p&gt;
 &lt;p&gt;Figure 5, below, shows the logic flow of the code.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Code Logic Flowchart." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Code logic flowchart.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The software, and more details about it, can be found on the Laboratorium’s
@@ -1642,7 +1642,7 @@ Bikes kit consists of a brushless direct drive hub motor driven by a motor
 controller and a 36V Li ion battery. More information on the build and the
 bike’s instrumentation system can be found in Jason’s dissertation &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
+&lt;img alt="Instrumented Ebike." src="https://mechmotum.s3.us-east-005.dream.io/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. The instrumented ebike today.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1702,7 +1702,7 @@ hardware used in this build.&lt;/p&gt;
 &lt;/table&gt;
 &lt;p&gt;Figure 7, below, shows a Fritzing diagram of the electrical system.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Electrical Hookup." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg" style="width: 60%;" /&gt;
+&lt;img alt="Electrical Hookup." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemWiringDiagram.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 7. Fritzing diagram of control system electronics. Note that the
 motor controller is represented by a DC motor and the 7.2V NiCd battery is
 represented by a 1S LiPo battery.&lt;/em&gt;&lt;/p&gt;
@@ -1712,7 +1712,7 @@ represented by a 1S LiPo battery.&lt;/em&gt;&lt;/p&gt;
 to connect the external components to the Nano. Figure 8, below, shows the
 completed Arduino board.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
+&lt;img alt="Arduino Board." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8. The Arduino board with wires attached.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;With many of the components located on the handlebars, a majority of these
@@ -1735,13 +1735,13 @@ the sides and top of the housing allow for wires to exit towards their
 destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Arduino Housing." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9.  Arduino housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This housing is clamped to the downtube of the ebike by a socket head screw as
 shown in Figure 10.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
+&lt;img alt="Arduino Mounting." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 10. Arduino housing mounting point.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Both the LCD and button housings were 3D printed and designed to mount to the
@@ -1750,7 +1750,7 @@ bikes. Each mount had a pair of “bunny ears&amp;quot; designed to interface wi
 GoPro style mount. The LCD housing, shown in Figure 11 below, is a simple
 rectangular two-piece enclosure joined by button head screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
+&lt;img alt="LCD Housing." src="https://mechmotum.s3.us-east-005.dream.io/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 11. LCD housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Similar to the LCD housing, the button housing is a two-piece, enclosure joined
@@ -1760,13 +1760,13 @@ more convenient for the user, larger button parts were 3D printed and offset
 from each mini momentary pushbutton using a compression spring as shown in
 Figure 12 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Button Housing." src="https://mechmotum.s3.us-east-005.dream.io/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 12. Button housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;As shown in Figure 13, the button housing is mounted on right side of the
 handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
+&lt;img alt="Button Housing Mount." src="https://mechmotum.s3.us-east-005.dream.io/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 13. Button housing position on the handlebars.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1774,7 +1774,7 @@ handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-12"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Bill of Materials." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
 purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1826,7 +1826,7 @@ serve as a model for a human balancing on a moving platform (i.e. a
 skateboard), where the degrees of freedom is limited to the human’s waist and
 ankle joints. This model is illustrated in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Image depicting visual model showing the dynamics of the double pendulum robot" src="https://objects-us-east-1.dream.io/mechmotum/pendulum-fbd.png" style="width: 80%;" /&gt;
+&lt;img alt="Image depicting visual model showing the dynamics of the double pendulum robot" src="https://mechmotum.s3.us-east-005.dream.io/pendulum-fbd.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1: Double Pendulum Reference (Photo created by Erich Baur, Todd Sweeney, Jiahao Wei, Greg McDonald)&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;There are two key applications for such a device. Firstly, it can assist in
@@ -1861,7 +1861,7 @@ shown below, has a startup and swing-up buttons which enable the user to safely
 start system operation when ready. The user can select the desired motor
 controller and update the gains in real time.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Operating GUI." src="https://objects-us-east-1.dream.io/mechmotum/pendulum-gui.png" style="width: 50%;" /&gt;
+&lt;img alt="Operating GUI." src="https://mechmotum.s3.us-east-005.dream.io/pendulum-gui.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Operating GUI for Double Pendulum Operation&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1902,7 +1902,7 @@ for the GUI controller.&lt;/p&gt;
 &lt;div class="section" id="thank-you"&gt;
 &lt;h2&gt;Thank you&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="This image displays the two students that worked on this project over the Fall 2018 Quarter, Dorian Crutcher and Jonathan Blaze Cubanski" src="https://objects-us-east-1.dream.io/mechmotum/dorian-blaze.jpg" style="width: 80%;" /&gt;
+&lt;img alt="This image displays the two students that worked on this project over the Fall 2018 Quarter, Dorian Crutcher and Jonathan Blaze Cubanski" src="https://mechmotum.s3.us-east-005.dream.io/dorian-blaze.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3: Left: Dorian Crutcher   Right: Jonathan Blaze Cubanski&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1915,7 +1915,7 @@ biomechanical motions. One of the most popular and proven designs for
 human-powered water pumps is the treadle pump, which is operated via a stepping
 motion (Figure 1).&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Treadle Example." src="https://objects-us-east-1.dream.io/mechmotum/treadle-example.jpg" style="width: 50%;" /&gt;
+&lt;img alt="Treadle Example." src="https://mechmotum.s3.us-east-005.dream.io/treadle-example.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A user &amp;quot;treadles&amp;quot; on the Money Maker treadle pump.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The treadle pump is an inexpensive and portable irrigation tool. According to
@@ -1946,7 +1946,7 @@ uncovered (on/off) to record the beginning and end of each test. The DAQ
 apparatus including photoresistor circuit, sensor wires, and LabJack is shown
 in Figure 2 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="DAQ Setup." src="https://objects-us-east-1.dream.io/mechmotum/daq-setup.png" style="width: 50%;" /&gt;
+&lt;img alt="DAQ Setup." src="https://mechmotum.s3.us-east-005.dream.io/daq-setup.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. The LabJack was kept dry and out of danger behind the treadle pump.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Force sensors were designed using steel plates and two 200 kg rated load cells.
@@ -1956,7 +1956,7 @@ Olympic weights and a balance scale for reference. The power meter apparatus
 consisting of the force sensors and angular rate gyro are shown below in Figure
 3.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Treadle Pump Setup." src="https://objects-us-east-1.dream.io/mechmotum/treadle-pump-setup.jpg" style="width: 50%;" /&gt;
+&lt;img alt="Treadle Pump Setup." src="https://mechmotum.s3.us-east-005.dream.io/treadle-pump-setup.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. The Xylem treadle pump with force sensor and angular rate gyro attached&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;We measure force and angular rate using the force sensors and the angular rate
@@ -2027,30 +2027,30 @@ completed: three at each meter interval between 1 and 5 meters.&lt;/p&gt;
 &lt;div class="section" id="results"&gt;
 &lt;h2&gt;Results&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="1m Trials." src="https://objects-us-east-1.dream.io/mechmotum/1m-trials.jpg" /&gt;
+&lt;img alt="1m Trials." src="https://mechmotum.s3.us-east-005.dream.io/1m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="2m Trials." src="https://objects-us-east-1.dream.io/mechmotum/2m-trials.jpg" /&gt;
+&lt;img alt="2m Trials." src="https://mechmotum.s3.us-east-005.dream.io/2m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="3m Trials." src="https://objects-us-east-1.dream.io/mechmotum/3m-trials.jpg" /&gt;
+&lt;img alt="3m Trials." src="https://mechmotum.s3.us-east-005.dream.io/3m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="4m Trials." src="https://objects-us-east-1.dream.io/mechmotum/4m-trials.jpg" /&gt;
+&lt;img alt="4m Trials." src="https://mechmotum.s3.us-east-005.dream.io/4m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 7&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="5m Trials." src="https://objects-us-east-1.dream.io/mechmotum/5m-trials.jpg" /&gt;
+&lt;img alt="5m Trials." src="https://mechmotum.s3.us-east-005.dream.io/5m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The figures 4-8 above show the calculated efficiencies for each pump at
 different pressure heads across all trials. The average efficiencies are
 graphed in figure 9 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Average Efficiency." src="https://objects-us-east-1.dream.io/mechmotum/average-efficiency.jpg" /&gt;
+&lt;img alt="Average Efficiency." src="https://mechmotum.s3.us-east-005.dream.io/average-efficiency.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Figure 9 shows the efficiency trends across different pressure heads for each
@@ -2203,7 +2203,7 @@ California&lt;/td&gt;&lt;/tr&gt;
 instrumented ebike used in bicycle handling experimentation. To achieve this, a
 basic unity feedback control architecture (Figure 1) is employed.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Control Architecture." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-01.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. Control architecture where e is the error between the actual
 speed v of the ebike and the desired speed, vd, and V is the DC input
 voltage to the ebike plant model. Gc and Gp represent the controller and
@@ -2222,7 +2222,7 @@ conversion kit motor controller and a brushless 3 phase direct drive induction
 motor mounted to the rear hub of the bike. A simple diagram of the ebike
 drivetrain is shown below in Figure 2.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ebike Drivetrain Diagram." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Ebike Drivetrain Diagram." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-02.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Diagram of the drivetrain circuit and dynamics.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;In Figure 2, the induction motor is approximated by a model of a DC motor
@@ -2233,7 +2233,7 @@ rotational dynamics of the drivetrain are defined by Euler’s rotation equation
 &lt;p&gt;A simple equation of motion for the bicycle, modeled as a point mass, is
 derived using Newton’s 2nd Law of Motion in the horizontal direction &lt;a class="citation-reference" href="#wilson" id="citation-reference-1"&gt;[Wilson]&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Free Body Diagram of Bicycle." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg" style="width: 20%;" /&gt;
+&lt;img alt="Free Body Diagram of Bicycle." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-03.jpg" style="width: 20%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa, Fr
 and Fp are the aerodynamic drag, rolling resistance and propulsive forces
 respectively.&lt;/em&gt;&lt;/p&gt;
@@ -2241,10 +2241,10 @@ respectively.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Together, the vehicle and drivetrain dynamics of the ebike can be shown in a
 state space representation with state variables &lt;span class="math"&gt;\(i(t)\)&lt;/span&gt; and &lt;span class="math"&gt;\(x(t)\)&lt;/span&gt;
 as seen below.&lt;/p&gt;
-&lt;img alt="State Space Representation of the eBike." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg" style="width: 55%;" /&gt;
+&lt;img alt="State Space Representation of the eBike." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-04.jpg" style="width: 55%;" /&gt;
 &lt;p&gt;From the state space representation, a transfer function from input DC voltage
 &lt;span class="math"&gt;\(V\)&lt;/span&gt; to output speed &lt;span class="math"&gt;\(v\)&lt;/span&gt; is formed:&lt;/p&gt;
-&lt;img alt="Plant Model Transfer Function." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-05.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Plant Model Transfer Function." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-05.jpg" style="width: 80%;" /&gt;
 &lt;p&gt;This plant model is a second order transfer function relating an applied DC
 voltage input to the ebike’s motor controller to the output speed of the ebike.
 This model represents an approximation of the true plant model of the ebike. To
@@ -2262,12 +2262,12 @@ textbook resources &lt;a class="citation-reference" href="#wilson" id="citation-
 in the derived plant model of the ebike to match a speed time response measured
 from the instrumented ebike. Figure 4, below, shows the curve fitting result.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Curve Fitting Results." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Curve Fitting Results." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-06.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Result of the least-squares curve fitting.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Figure 4 shows that the plant model of ebike was reasonably identified using
 the least-squares curve fitting method. The resulting ebike plant model is:&lt;/p&gt;
-&lt;img alt="Identified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-07.jpg" style="width: 90%;" /&gt;
+&lt;img alt="Identified Plant Model." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-07.jpg" style="width: 90%;" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="controller-design-in-matlab"&gt;
 &lt;h2&gt;Controller Design in MATLAB&lt;/h2&gt;
@@ -2278,7 +2278,7 @@ behavior using MATLAB’s Control System Toolbox.&lt;/p&gt;
 design goals with zero steady state error, a settling time of 1.56s, and an
 overshoot percentage of 10.45%.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Closed Loop System Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Closed Loop System Step Response." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-08.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Closed Loop System Step Response.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2288,7 +2288,7 @@ overshoot percentage of 10.45%.&lt;/p&gt;
 loop system with regards to uncertainties in the coefficients of the identified
 ebike plant model. The constants in the derived ebike plant model were lumped
 together forming the following simplified plant model:&lt;/p&gt;
-&lt;img alt="Simplified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-09.jpg" style="width: 90%;" /&gt;
+&lt;img alt="Simplified Plant Model." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-09.jpg" style="width: 90%;" /&gt;
 &lt;p&gt;The constants &lt;span class="math"&gt;\(a\)&lt;/span&gt;, &lt;span class="math"&gt;\(b\)&lt;/span&gt;, &lt;span class="math"&gt;\(c\)&lt;/span&gt;, and &lt;span class="math"&gt;\(d\)&lt;/span&gt; in the above
 transfer function were defined in MATLAB as real-uncertain parameters with
 varying percentage based uncertainties about their nominal values. The nominal
@@ -2297,7 +2297,7 @@ identification step of the controller design process.  Figure 6, below, shows
 the nominal closed loop and open loop system step response with 20 random
 samples of the uncertain plant model defined by the uncertain coefficients.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Uncertain Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-10.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Uncertain Step Response." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-10.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. Step response of the nominal closed loop system with 20 random
 samples of the uncertain closed loop step response superimposed on the
 plot.&lt;/em&gt;&lt;/p&gt;

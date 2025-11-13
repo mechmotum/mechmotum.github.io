@@ -32,11 +32,11 @@
 <div class="row">
     <div class="col-sm-4">
       <a href="https://mechmotum.github.io/">
-        <img class="site-image img-fluid rounded" src=https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
+        <img class="site-image img-fluid rounded" src=https://mechmotum.s3.us-east-005.dream.io/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
       </a>
     </div>
   <div class="col-sm-8">
-    <img src=https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png height=100px>
+    <img src=https://mechmotum.s3.us-east-005.dream.io/tu-delft-logo-233x100.png height=100px>
     <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
       <p class="text-muted">E pur si muove</p>
       <ul class="list-inline">
@@ -86,7 +86,7 @@
 instrumented ebike used in bicycle handling experimentation. To achieve this, a
 basic unity feedback control architecture (Figure 1) is employed.</p>
 <div class="figure align-center">
-<img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg" style="width: 80%;" />
+<img alt="Control Architecture." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-01.jpg" style="width: 80%;" />
 <p class="caption"><em>Figure 1. Control architecture where e is the error between the actual
 speed v of the ebike and the desired speed, vd, and V is the DC input
 voltage to the ebike plant model. Gc and Gp represent the controller and
@@ -105,7 +105,7 @@ conversion kit motor controller and a brushless 3 phase direct drive induction
 motor mounted to the rear hub of the bike. A simple diagram of the ebike
 drivetrain is shown below in Figure 2.</p>
 <div class="figure align-center">
-<img alt="Ebike Drivetrain Diagram." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg" style="width: 80%;" />
+<img alt="Ebike Drivetrain Diagram." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-02.jpg" style="width: 80%;" />
 <p class="caption"><em>Figure 2. Diagram of the drivetrain circuit and dynamics.</em></p>
 </div>
 <p>In Figure 2, the induction motor is approximated by a model of a DC motor
@@ -116,7 +116,7 @@ rotational dynamics of the drivetrain are defined by Euler’s rotation equation
 <p>A simple equation of motion for the bicycle, modeled as a point mass, is
 derived using Newton’s 2nd Law of Motion in the horizontal direction <a class="citation-reference" href="#wilson" id="citation-reference-1">[Wilson]</a>.</p>
 <div class="figure align-center">
-<img alt="Free Body Diagram of Bicycle." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg" style="width: 20%;" />
+<img alt="Free Body Diagram of Bicycle." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-03.jpg" style="width: 20%;" />
 <p class="caption"><em>Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa, Fr
 and Fp are the aerodynamic drag, rolling resistance and propulsive forces
 respectively.</em></p>
@@ -124,10 +124,10 @@ respectively.</em></p>
 <p>Together, the vehicle and drivetrain dynamics of the ebike can be shown in a
 state space representation with state variables <span class="math">\(i(t)\)</span> and <span class="math">\(x(t)\)</span>
 as seen below.</p>
-<img alt="State Space Representation of the eBike." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg" style="width: 55%;" />
+<img alt="State Space Representation of the eBike." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-04.jpg" style="width: 55%;" />
 <p>From the state space representation, a transfer function from input DC voltage
 <span class="math">\(V\)</span> to output speed <span class="math">\(v\)</span> is formed:</p>
-<img alt="Plant Model Transfer Function." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-05.jpg" style="width: 80%;" />
+<img alt="Plant Model Transfer Function." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-05.jpg" style="width: 80%;" />
 <p>This plant model is a second order transfer function relating an applied DC
 voltage input to the ebike’s motor controller to the output speed of the ebike.
 This model represents an approximation of the true plant model of the ebike. To
@@ -145,12 +145,12 @@ textbook resources <a class="citation-reference" href="#wilson" id="citation-ref
 in the derived plant model of the ebike to match a speed time response measured
 from the instrumented ebike. Figure 4, below, shows the curve fitting result.</p>
 <div class="figure align-center">
-<img alt="Curve Fitting Results." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg" style="width: 80%;" />
+<img alt="Curve Fitting Results." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-06.jpg" style="width: 80%;" />
 <p class="caption"><em>Figure 4. Result of the least-squares curve fitting.</em></p>
 </div>
 <p>Figure 4 shows that the plant model of ebike was reasonably identified using
 the least-squares curve fitting method. The resulting ebike plant model is:</p>
-<img alt="Identified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-07.jpg" style="width: 90%;" />
+<img alt="Identified Plant Model." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-07.jpg" style="width: 90%;" />
 </div>
 <div class="section" id="controller-design-in-matlab">
 <h2>Controller Design in MATLAB</h2>
@@ -161,7 +161,7 @@ behavior using MATLAB’s Control System Toolbox.</p>
 design goals with zero steady state error, a settling time of 1.56s, and an
 overshoot percentage of 10.45%.</p>
 <div class="figure align-center">
-<img alt="Closed Loop System Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg" style="width: 80%;" />
+<img alt="Closed Loop System Step Response." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-08.jpg" style="width: 80%;" />
 <p class="caption"><em>Figure 5. Closed Loop System Step Response.</em></p>
 </div>
 </div>
@@ -171,7 +171,7 @@ overshoot percentage of 10.45%.</p>
 loop system with regards to uncertainties in the coefficients of the identified
 ebike plant model. The constants in the derived ebike plant model were lumped
 together forming the following simplified plant model:</p>
-<img alt="Simplified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-09.jpg" style="width: 90%;" />
+<img alt="Simplified Plant Model." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-09.jpg" style="width: 90%;" />
 <p>The constants <span class="math">\(a\)</span>, <span class="math">\(b\)</span>, <span class="math">\(c\)</span>, and <span class="math">\(d\)</span> in the above
 transfer function were defined in MATLAB as real-uncertain parameters with
 varying percentage based uncertainties about their nominal values. The nominal
@@ -180,7 +180,7 @@ identification step of the controller design process.  Figure 6, below, shows
 the nominal closed loop and open loop system step response with 20 random
 samples of the uncertain plant model defined by the uncertain coefficients.</p>
 <div class="figure align-center">
-<img alt="Uncertain Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-10.jpg" style="width: 80%;" />
+<img alt="Uncertain Step Response." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-10.jpg" style="width: 80%;" />
 <p class="caption"><em>Figure 6. Step response of the nominal closed loop system with 20 random
 samples of the uncertain closed loop step response superimposed on the
 plot.</em></p>

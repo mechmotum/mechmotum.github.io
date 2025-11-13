@@ -5,8 +5,8 @@
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-vazquez.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-fernandez-eloy-vasquez.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-vazquez.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -21,8 +21,8 @@ over cobblestones from 10 to 30 km/h …&lt;/p&gt;</summary><content type="html"
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-vazquez.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-fernandez-eloy-vasquez.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-vazquez.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -50,11 +50,11 @@ vibration across frequencies.&lt;/p&gt;
 &lt;col width="100%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="one" src="https://objects-us-east-1.dream.io/mechmotum/eloy-plot-power-30kph.png" style="width: 600px;" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="one" src="https://mechmotum.s3.us-east-005.dream.io/eloy-plot-power-30kph.png" style="width: 600px;" /&gt;
 Power loss due to vibration, rolling, and aerodynamic drag at 30 km/h
 seated over cobblestones for varying tire pressure.&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="two" src="https://objects-us-east-1.dream.io/mechmotum/eloy-vibration-power-loss-seated.png" style="width: 600px;" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="two" src="https://mechmotum.s3.us-east-005.dream.io/eloy-vibration-power-loss-seated.png" style="width: 600px;" /&gt;
 Power loss due to vibration at different speeds and tire pressures while
 seated.&lt;/td&gt;
 &lt;/tr&gt;
@@ -72,8 +72,8 @@ adventures in Sheffield to further study sports engineering.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-bart-de-vries.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-de-vries-bart.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-bart-de-vries.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -87,8 +87,8 @@ handle at low speeds or when loading and …&lt;/p&gt;</summary><content type="h
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-bart-de-vries.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-de-vries-bart.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-bart-de-vries.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -111,8 +111,8 @@ proud of Bart and wishes him the best in his next adventures.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-youngblood.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-youngblood-sara.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-youngblood.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-youngblood-sara.png" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -127,8 +127,8 @@ slip and another with tire slip. In the tire slip …&lt;/p&gt;</summary><conten
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-youngblood.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-youngblood-sara.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-youngblood.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-youngblood-sara.png" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -156,12 +156,12 @@ between the tire and the ground.&lt;/p&gt;
 &lt;col width="33%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="slip-no-slip" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-ice-vs-normal.gif" style="width: 300px;" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="slip-no-slip" src="https://mechmotum.s3.us-east-005.dream.io/bicycle-ice-vs-normal.gif" style="width: 300px;" /&gt;
 Comparison of the no-slip bicycle motion to that of the model with tire
 slip on ice.&lt;/td&gt;
-&lt;td&gt;&lt;img alt="ice" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-ice-both-wheels-highlighted.gif" style="width: 300px;" /&gt;
+&lt;td&gt;&lt;img alt="ice" src="https://mechmotum.s3.us-east-005.dream.io/bicycle-ice-both-wheels-highlighted.gif" style="width: 300px;" /&gt;
 Simulation of the tire slip model falling on ice.&lt;/td&gt;
-&lt;td&gt;&lt;img alt="lqr-pd" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-lqr-vs-pd-with-path-highlight.gif" style="width: 300px;" /&gt;
+&lt;td&gt;&lt;img alt="lqr-pd" src="https://mechmotum.s3.us-east-005.dream.io/bicycle-lqr-vs-pd-with-path-highlight.gif" style="width: 300px;" /&gt;
 Simulations of the tire slip model controlled by roll motion feedback
 with manually selected gains and LQR generated gains.&lt;/td&gt;
 &lt;/tr&gt;
@@ -176,8 +176,8 @@ adventures.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-sorgedrager-simon.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-sorgedrager-w400.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-sorgedrager-simon.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-sorgedrager-w400.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -191,8 +191,8 @@ In particular, he …&lt;/p&gt;</summary><content type="html">&lt;table border="
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-sorgedrager-simon.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-sorgedrager-w400.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-sorgedrager-simon.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-sorgedrager-w400.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -229,11 +229,11 @@ change:&lt;/p&gt;
 &lt;col width="33%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="single" src="https://objects-us-east-1.dream.io/mechmotum/simon-single-pendulum-lange-change.gif" style="width: 300px;" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="single" src="https://mechmotum.s3.us-east-005.dream.io/simon-single-pendulum-lange-change.gif" style="width: 300px;" /&gt;
 Classic single pendulum upper body rider model performing a lane change.&lt;/td&gt;
-&lt;td&gt;&lt;img alt="sliding" src="https://objects-us-east-1.dream.io/mechmotum/simon-single-pendulum-with-sliding-lane-change.gif" style="width: 300px;" /&gt;
+&lt;td&gt;&lt;img alt="sliding" src="https://mechmotum.s3.us-east-005.dream.io/simon-single-pendulum-with-sliding-lane-change.gif" style="width: 300px;" /&gt;
 New single pendulum with laterally sliding seat-butt model performing a lane change.&lt;/td&gt;
-&lt;td&gt;&lt;img alt="triple" src="https://objects-us-east-1.dream.io/mechmotum/simon-triple-pendulum-lane-change.gif" style="width: 300px;" /&gt;
+&lt;td&gt;&lt;img alt="triple" src="https://mechmotum.s3.us-east-005.dream.io/simon-triple-pendulum-lane-change.gif" style="width: 300px;" /&gt;
 New triple pendulum with laterally sliding seat-butt model performing a
 lane change.&lt;/td&gt;
 &lt;/tr&gt;
@@ -251,9 +251,9 @@ countersteering:&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="countersteering" src="https://objects-us-east-1.dream.io/mechmotum/simon-countersteering.gif" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="countersteering" src="https://mechmotum.s3.us-east-005.dream.io/simon-countersteering.gif" /&gt;
 Triple pendulum model performing a turn with countersteering.&lt;/td&gt;
-&lt;td&gt;&lt;img alt="no-countersteering" src="https://objects-us-east-1.dream.io/mechmotum/simon-no-countersteering.gif" /&gt;
+&lt;td&gt;&lt;img alt="no-countersteering" src="https://mechmotum.s3.us-east-005.dream.io/simon-no-countersteering.gif" /&gt;
 Triple pendulum model performing a turn &lt;strong&gt;without countersteering&lt;/strong&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -262,14 +262,14 @@ Triple pendulum model performing a turn &lt;strong&gt;without countersteering&lt
 bicycle lab is very proud of Simon and wishes him the best in his next
 adventures.&lt;/p&gt;
 </content><category term="news"/><category term="bicycle"/><category term="optimization"/><category term="rider"/><category term="countersteer"/></entry><entry><title>Anna Marbus Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-anna-marbus.html" rel="alternate"/><published>2025-04-30T10:17:00-07:00</published><updated>2025-04-30T10:17:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-04-30:/blog/msc-graduation-anna-marbus.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-marbus-w400.png" style="height: 400px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-marbus-w400.png" style="height: 400px;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Anna Marbus successfully defended &amp;quot;&lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;Cyclist Conflict Behaviour in Shared Spaces&lt;/a&gt;&amp;quot; on
 April 17th, 2025. Anna developed an experiment with pairs of cyclists that
 forced them to interact with each other in an uncontrolled shared space when
 crossing paths.  She measured the trajectories of the cyclist with an accurate
 GNSS measurement …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-marbus-w400.png" style="height: 400px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-marbus-w400.png" style="height: 400px;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Anna Marbus successfully defended &amp;quot;&lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7"&gt;Cyclist Conflict Behaviour in Shared Spaces&lt;/a&gt;&amp;quot; on
 April 17th, 2025. Anna developed an experiment with pairs of cyclists that
@@ -291,13 +291,13 @@ configuration angles:&lt;/p&gt;
 &lt;tr&gt;
 &lt;td&gt;
 &lt;video width="400px" controls&gt;
-  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/encounter-45.mp4" type="video/mp4"&gt;
+  &lt;source src="https://mechmotum.s3.us-east-005.dream.io/encounter-45.mp4" type="video/mp4"&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;/td&gt;
 &lt;td&gt;
 &lt;video width="400px" controls&gt;
-  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/encounter-90.mp4" type="video/mp4"&gt;
+  &lt;source src="https://mechmotum.s3.us-east-005.dream.io/encounter-90.mp4" type="video/mp4"&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;/td&gt;
@@ -305,13 +305,13 @@ configuration angles:&lt;/p&gt;
 &lt;tr&gt;
 &lt;td&gt;
 &lt;video width="400px" controls&gt;
-  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/encounter-135.mp4" type="video/mp4"&gt;
+  &lt;source src="https://mechmotum.s3.us-east-005.dream.io/encounter-135.mp4" type="video/mp4"&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;/td&gt;
 &lt;td&gt;
 &lt;video width="400px" controls&gt;
-  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/encounter-180.mp4" type="video/mp4"&gt;
+  &lt;source src="https://mechmotum.s3.us-east-005.dream.io/encounter-180.mp4" type="video/mp4"&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;/td&gt;
@@ -321,7 +321,7 @@ configuration angles:&lt;/p&gt;
 Moore. Everyone at the bicycle lab is very proud of Anna and wishes her the
 best in her next adventures.&lt;/p&gt;
 </content><category term="news"/><category term="bicycle"/><category term="transportation"/><category term="conflict"/><category term="experiment"/></entry><entry><title>Gabriele Dell'Orto Successfully Defends His PhD Thesis</title><link href="https://mechmotum.github.io/blog/phd-graduation-result-dellorto.html" rel="alternate"/><published>2025-03-01T10:47:00-08:00</published><updated>2025-03-01T10:47:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-03-01:/blog/phd-graduation-result-dellorto.html</id><summary type="html">&lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gabriele-defense-01.jpg" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/gabriele-defense-01.jpg" /&gt;
 &lt;p class="caption"&gt;Dr. Gabriele Dell'Orto just following the awarding of the doctorate on
 Februrary 25, 2025. &lt;em&gt;Left to right: Madam Beadle, Riender Happee, Jason K.
 Moore, Frans van der Helm, Pier de Jong, Gabriele Dell'Orto, Malte
@@ -334,13 +334,13 @@ Rothhämel, Teddy Vijfvinkel, Igo Bessilink (top row), Giampiero Mastinu
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dellorto.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dellorto.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Bike Lab …&lt;/p&gt;</summary><content type="html">&lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gabriele-defense-01.jpg" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/gabriele-defense-01.jpg" /&gt;
 &lt;p class="caption"&gt;Dr. Gabriele Dell'Orto just following the awarding of the doctorate on
 Februrary 25, 2025. &lt;em&gt;Left to right: Madam Beadle, Riender Happee, Jason K.
 Moore, Frans van der Helm, Pier de Jong, Gabriele Dell'Orto, Malte
@@ -353,8 +353,8 @@ Rothhämel, Teddy Vijfvinkel, Igo Bessilink (top row), Giampiero Mastinu
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dellorto.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dellorto.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -373,7 +373,7 @@ Assist Bicycle and the associated research&lt;/a&gt;. The program was aired
 on February 12th, 2025 and highlighted various concerns for safe cycling,
 especially for the elderly, in Dutch cities.&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://npo.nl/start/serie/focus/seizoen-8/focus_49/afspelen"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/focus-tv-show.png" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/focus-tv-show.png" /&gt;
 &lt;/a&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
@@ -401,8 +401,8 @@ initiating and facilitating the process.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dellorto.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dellorto.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -417,8 +417,8 @@ layperson's talk is at 9:30 CET and …&lt;/p&gt;</summary><content type="html">
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dellorto.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dellorto.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -442,7 +442,7 @@ published. The proceedings is a 464 page volume containing 60 extended
 abstracts from all the presentations and 28 peer reviewed full papers.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="https://doi.org/10.59490/mg.121"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/proceedings-cover.jpg" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/proceedings-cover.jpg" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;BMD …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Today marks the 1 year anniversary of the BMD 2023 conference in Delft and we
 are very pleased to announce that the proceedings book is now officially
@@ -450,7 +450,7 @@ published. The proceedings is a 464 page volume containing 60 extended
 abstracts from all the presentations and 28 peer reviewed full papers.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="https://doi.org/10.59490/mg.121"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/proceedings-cover.jpg" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/proceedings-cover.jpg" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;BMD 2023 Proceedings Cover&lt;/p&gt;
 &lt;/div&gt;
@@ -472,8 +472,8 @@ can also browse each individual article along with the peer reviews on the
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-soethout.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-soethout.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-soethout-sietse.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -487,8 +487,8 @@ the longitudinal vehicle dynamics, cyclist physiology …&lt;/p&gt;</summary><co
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def"&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-soethout.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-soethout.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-soethout-sietse.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -507,7 +507,7 @@ The Netherlands and compared it to to existing routes. The following video
 shows a simulation along one of the routes:&lt;/p&gt;
 &lt;center&gt;
 &lt;video width="800px" controls&gt;
-  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/hs_noi_tunnel_single.mp4" type="video/mp4"&gt;
+  &lt;source src="https://mechmotum.s3.us-east-005.dream.io/hs_noi_tunnel_single.mp4" type="video/mp4"&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;/center&gt;&lt;p&gt;He then stochastically parameterized the model and simulated hundreds of
@@ -516,7 +516,7 @@ costs for the population of cyclists. The next video shows a population of
 cyclists riding the route:&lt;/p&gt;
 &lt;center&gt;
 &lt;video width="800px" controls&gt;
-  &lt;source src="https://objects-us-east-1.dream.io/mechmotum/all_animation_hs_noi_normal_all_fast.mp4" type="video/mp4"&gt;
+  &lt;source src="https://mechmotum.s3.us-east-005.dream.io/all_animation_hs_noi_normal_all_fast.mp4" type="video/mp4"&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;/center&gt;&lt;p&gt;The resulting distributions of route travel time and energy costs can be
@@ -699,14 +699,14 @@ VScode, Pycharm, and many IDEs will allow you to select the Conda environment.&l
 &lt;p&gt;To do so in Spyder, choose your environment from the &amp;quot;Consoles -&amp;gt; New Console
 in Environment&amp;quot; menu:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/spyder-new-console-conda-env.png" style="width: 90%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/spyder-new-console-conda-env.png" style="width: 90%;" /&gt;
 &lt;p class="caption"&gt;You can select any conda environment to power a new console. That console
 will then be used to run your scripts and for interactive computing.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;After the new console is available, your script will run using that
 environment:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/spyder-using-conda-env.png" style="width: 90%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/spyder-using-conda-env.png" style="width: 90%;" /&gt;
 &lt;p class="caption"&gt;The bicycleparameters package is imported from the correct environment.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;If you want to set an environment to be used for all new consoles, first
@@ -935,10 +935,10 @@ Anna is supervised by Christoph Schmidt and they are working on data driven
 traffic simulation models for cyclists. Anna will begin her experiments very
 soon, so contact us if you'd like to be a participant.&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://www.tudelft.nl/en/me/education/student-stories/causing-near-collisions-with-cyclists-to-improve-traffic-models"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/annas-tudelft-feature.png" style="width: 600px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/annas-tudelft-feature.png" style="width: 600px;" /&gt;
 &lt;/a&gt;
 </content><category term="news"/><category term="bicycle"/><category term="traffic"/><category term="research"/></entry><entry><title>Kenneth Pasma Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-kenneth-pasma.html" rel="alternate"/><published>2024-08-28T15:45:00-07:00</published><updated>2024-08-28T15:45:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-28:/blog/msc-graduation-kenneth-pasma.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-pasma.png" style="height: 400px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-pasma.png" style="height: 400px;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Kenneth Pasma successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a"&gt;Model Matching Control Applied to
 Bicycles&lt;/a&gt;&amp;quot; on
@@ -946,7 +946,7 @@ August 28, 2024. Kenneth developed a controller for our steer-by-wire bicycle's
 steering motor that enables matching the bicycle's dynamics to that of a
 reference bicycle. A model matching controller strives to make the input-output
 dynamics of the controlled vehicle …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-pasma.png" style="height: 400px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-pasma.png" style="height: 400px;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Kenneth Pasma successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a"&gt;Model Matching Control Applied to
 Bicycles&lt;/a&gt;&amp;quot; on
@@ -991,30 +991,30 @@ us and let us try out his bicycle simulator system at Radboud University. We
 had great weather for the entire ride and closed the trip with a waterbus trip
 from Sliedrecht to Rotterdam.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-route.png" style="width: 80%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-route.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;GPS trace of the route we took. We camped just west of Tiel beside the
 village of Geldermalsen.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-riding.png" style="width: 60%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-riding.png" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;In route.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-museum.png" style="width: 80%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-fiets-museum.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Group photo after visiting the museum. Velorama is a quiet, compact musuem
 with a spectacular historical collection.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-simulator.png" style="width: 60%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-fiets-simulator.png" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;Neville on the treadmill/roller bicycle simulator with Eric giving
 instruction from the rear.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-ferry-group-picture.png" style="width: 80%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-ferry-group-picture.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Group photo while waiting for the Varik-Heerewaarden ferry across the Waal.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-statue-house-group-picture.png" style="width: 80%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-statue-house-group-picture.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Group photo in front of the Nijmegen house of statues (mostly gnomes!).&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="news"/><category term="bicycle"/><category term="social"/></entry><entry><title>Biomechanical Optimization with SymPy 1.13 and Opty 1.3</title><link href="https://mechmotum.github.io/blog/sympy-1.13-opty-1.3-release.html" rel="alternate"/><published>2024-08-05T00:00:00-07:00</published><updated>2024-08-05T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2024-08-05:/blog/sympy-1.13-opty-1.3-release.html</id><summary type="html">&lt;p class="first last"&gt;SymPy 1.13 and Opty 1.3 can now be used for optimal control solutions
@@ -1036,7 +1036,7 @@ we've built out a new example gallery that demonstrates how Opty can be used to
 solve a variety of problems:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="https://opty.readthedocs.io/stable/examples/index.html"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/opty-1.3-examples.png" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/opty-1.3-examples.png" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;Opty 1.3's new example gallery.&lt;/p&gt;
 &lt;/div&gt;
@@ -1054,26 +1054,26 @@ problem in about 10 minutes on an AMD Ryzen 5 2600X 12 core machine.&lt;/p&gt;
 &lt;p&gt;This produces a reasonably realistic overall motion which can be seen in the
 cadence, resulting speed, and the power to accelerate and overcome rolling and
 air resistance:&lt;/p&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-power.png" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/one-legged-80m-power.png" /&gt;
 &lt;p&gt;There is no limit on the fatigue of the muscles so the optimizer finds a
 bang-bang style coordination of the muscle excitations to power the leg and
 push the muscles to their maximum force production:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-muscle.png" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/one-legged-80m-muscle.png" /&gt;
 &lt;p class="caption"&gt;The four muscle forces, muscle lengths, and muscle excitations versus time
 during the 80 meter time trial with the minimum race time shown at the top.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This solution results in this overall pedaling motion:&lt;/p&gt;
 &lt;center&gt;
   &lt;video controls&gt;
-    &lt;source src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m.mp4" type="video/mp4"&gt;
+    &lt;source src="https://mechmotum.s3.us-east-005.dream.io/one-legged-80m.mp4" type="video/mp4"&gt;
   &lt;/video&gt;
 &lt;/center&gt;&lt;p&gt;Our next step is to incorporate muscles in our 3D nonlinear bicycle-rider
 models to enable deeper understanding of how bicycles are balanced and
 controlled. Opty can quickly find optimal trajectories of the joint torque
 driven model, as shown in our &lt;a class="reference external" href="https://doi.org/10.59490/660179a06bf1082286458109"&gt;BRiM paper&lt;/a&gt;:&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/brim-paper-opty-example.png" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/brim-paper-opty-example.png" /&gt;
 &lt;p class="caption"&gt;Torque driven Opty optimal control solution for the non-linear
 Carvallo-Whipple bicycle model.&lt;/p&gt;
 &lt;/div&gt;
@@ -1089,8 +1089,8 @@ about his skateboard research:&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dijkman.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-dijkman-kirsten.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dijkman.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-dijkman-kirsten.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1104,8 +1104,8 @@ different road surfaces. She first characterized the tire contact patch for a �
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dijkman.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-dijkman-kirsten.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dijkman.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-dijkman-kirsten.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1149,8 +1149,8 @@ proud of Kirsten and wishes her the best in her next adventures.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haitjema.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-haitjema-marten.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-haitjema.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-haitjema-marten.png" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1164,8 +1164,8 @@ instability is significantly reduced …&lt;/p&gt;</summary><content type="html"
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haitjema.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-haitjema-marten.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-haitjema.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-haitjema-marten.png" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1285,7 +1285,7 @@ performance for large mathematical expressions.&lt;/p&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;&lt;img alt="sympy-logo" src="https://docs.sympy.org/latest/_images/sympy-500px.png" style="height: 200px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 200px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="czi-logo" src="https://mechmotum.s3.us-east-005.dream.io/czi-logo.png" style="height: 200px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1377,14 +1377,14 @@ can be found in the SymPy documentation.&lt;/caption&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="joint1" src="https://objects-us-east-1.dream.io/mechmotum/PinJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="joint2" src="https://objects-us-east-1.dream.io/mechmotum/PrismaticJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="joint1" src="https://mechmotum.s3.us-east-005.dream.io/PinJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="joint2" src="https://mechmotum.s3.us-east-005.dream.io/PrismaticJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="joint3" src="https://objects-us-east-1.dream.io/mechmotum/CylindricalJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="joint4" src="https://objects-us-east-1.dream.io/mechmotum/PlanarJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="joint3" src="https://mechmotum.s3.us-east-005.dream.io/CylindricalJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="joint4" src="https://mechmotum.s3.us-east-005.dream.io/PlanarJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="joint5" src="https://objects-us-east-1.dream.io/mechmotum/SphericalJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="joint6" src="https://objects-us-east-1.dream.io/mechmotum/WeldJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="joint5" src="https://mechmotum.s3.us-east-005.dream.io/SphericalJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="joint6" src="https://mechmotum.s3.us-east-005.dream.io/WeldJoint.png" style="height: 180px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1579,7 +1579,7 @@ are simulation results from the model with a commanded muscle excitation.&lt;/ca
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="biomechanics-steerer" src="https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="biomechanics-steerer" src="https://mechmotum.s3.us-east-005.dream.io/biomechanics-steerer.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;td&gt;&lt;img alt="biomechanics-steerer-results" src="https://docs.sympy.org/latest/_images/biomechanical-model-example-38.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -1715,7 +1715,7 @@ Motorcycle Dynamics 2023 conference that gives a more concise overview of the
 package as well as demonstrating easily swapping models for comparable optimal
 control results.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/brim-lane-change.gif" style="width: 80%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/brim-lane-change.gif" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Figure 3: Lane change simulation created with BRiM showing with and without
 a rider.&lt;/p&gt;
 &lt;/div&gt;
@@ -1794,11 +1794,11 @@ torque &lt;span class="math"&gt;\(T_6\)&lt;/span&gt; and the biceps and triceps.
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="muscle-bike-rider-01" src="https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-01.png" style="width: 100%;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="muscle-bike-rider-02" src="https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-02.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="muscle-bike-rider-01" src="https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-01.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="muscle-bike-rider-02" src="https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-02.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="muscle-bike-rider-03" src="https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-03.png" style="width: 100%;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="muscle-bike-rider-04" src="https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-04.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="muscle-bike-rider-03" src="https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-03.png" style="width: 100%;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="muscle-bike-rider-04" src="https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-04.png" style="width: 100%;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2130,13 +2130,13 @@ position (vacancy number: TUD04370):&lt;/p&gt;
 &lt;p&gt;For information about the selection procedure, please contact the HR Advisor at
 &lt;a class="reference external" href="mailto:application-3mE&amp;#64;tudelft.nl"&gt;application-3mE&amp;#64;tudelft.nl&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="jobs"/><category term="bicycle"/><category term="phd"/><category term="engineering"/><category term="open source"/></entry><entry><title>Timo Stienstra Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/timo-stienstra-graduates.html" rel="alternate"/><published>2023-08-30T16:58:00-07:00</published><updated>2023-08-30T16:58:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-08-30:/blog/timo-stienstra-graduates.html</id><summary type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-stienstra.png" style="height: 400px;" /&gt;
+</content><category term="jobs"/><category term="bicycle"/><category term="phd"/><category term="engineering"/><category term="open source"/></entry><entry><title>Timo Stienstra Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/timo-stienstra-graduates.html" rel="alternate"/><published>2023-08-30T16:58:00-07:00</published><updated>2023-08-30T16:58:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-08-30:/blog/timo-stienstra-graduates.html</id><summary type="html">&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-stienstra.png" style="height: 400px;" /&gt;
 &lt;p&gt;Timo Stienstra successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:a2b132e9-8d38-4553-8587-0c9e3341b202"&gt;BRiM: A Modular Bicycle-Rider Modeling
 Framework&lt;/a&gt;&amp;quot;. Timo
 developed a multibody dynamics modeling tool that makes it much easier to build
 and change bicycle-rider models. It nicely allows you to modularly construct
 these models from components yet still have a minimal coordinate formulation of
-the dynamics that …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-stienstra.png" style="height: 400px;" /&gt;
+the dynamics that …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-stienstra.png" style="height: 400px;" /&gt;
 &lt;p&gt;Timo Stienstra successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:a2b132e9-8d38-4553-8587-0c9e3341b202"&gt;BRiM: A Modular Bicycle-Rider Modeling
 Framework&lt;/a&gt;&amp;quot;. Timo
 developed a multibody dynamics modeling tool that makes it much easier to build
@@ -2163,14 +2163,14 @@ of his simulations:&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="bike-circle" src="https://objects-us-east-1.dream.io/mechmotum/timo-bike-circle.gif" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="bike-large-turns" src="https://objects-us-east-1.dream.io/mechmotum/timo-bike-large-turns.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="bike-circle" src="https://mechmotum.s3.us-east-005.dream.io/timo-bike-circle.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="bike-large-turns" src="https://mechmotum.s3.us-east-005.dream.io/timo-bike-large-turns.gif" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="bike-rider" src="https://objects-us-east-1.dream.io/mechmotum/timo-bike-rider.gif" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="one-bike" src="https://objects-us-east-1.dream.io/mechmotum/timo-one-bike.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="bike-rider" src="https://mechmotum.s3.us-east-005.dream.io/timo-bike-rider.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="one-bike" src="https://mechmotum.s3.us-east-005.dream.io/timo-one-bike.gif" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="two-bikes" src="https://objects-us-east-1.dream.io/mechmotum/timo-two-bikes.gif" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="rolling-disc" src="https://objects-us-east-1.dream.io/mechmotum/timo-rolling-disc.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="two-bikes" src="https://mechmotum.s3.us-east-005.dream.io/timo-two-bikes.gif" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="rolling-disc" src="https://mechmotum.s3.us-east-005.dream.io/timo-rolling-disc.gif" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2183,8 +2183,8 @@ his next adventures.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-der-schot.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-der-schot.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-van-der-schot-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2198,8 +2198,8 @@ measures he calculated …&lt;/p&gt;</summary><content type="html">&lt;table bor
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-der-schot.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-der-schot.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-van-der-schot-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2231,8 +2231,8 @@ allowfullscreen&gt;&lt;/iframe&gt;</content><category term="research"/><category
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-willigen.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-willigen.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-floris-van-willigen.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2247,8 +2247,8 @@ able …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="bor
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-willigen.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-willigen.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-floris-van-willigen.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2280,19 +2280,19 @@ in the Wortel-Kolonie.&lt;/p&gt;
 &lt;p&gt;Those that started in Delft did about 260 km over the two days and I did about
 220 km due to the route passing through Rotterdam.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/wortel-tour-route.png" style="width: 60%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/wortel-tour-route.png" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;The approximate route we took from Delft to the Wortel-Kolonie and back.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/wortel-tour-02.jpg" style="width: 80%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/wortel-tour-02.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Here we are at the beginning about to descend into the Maastunnel.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/wortel-tour-01.jpg" style="width: 80%;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/wortel-tour-01.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;On our way back on a beautiful Limburg road.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="news"/><category term="bicycle"/><category term="social"/></entry><entry><title>Julie van Vlerken Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/julie-van-vlerken-graduates.html" rel="alternate"/><published>2023-05-29T08:22:00-07:00</published><updated>2023-05-29T08:22:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-05-29:/blog/julie-van-vlerken-graduates.html</id><summary type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png" style="height: 400px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-vlerken.png" style="height: 400px;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Julie van Vlerken successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;The influence of posture and stature
 on bicycle handling qualities&lt;/a&gt;&amp;quot;.
@@ -2300,7 +2300,7 @@ Julie added rider forward lean and arm inertial effects to the Carvallo-Whipple
 bicycle model, the later of which is known to remove a bicycle's
 self-stabilization property. She then calculated a task independent handling
 quality metric …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png" style="height: 400px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-vlerken.png" style="height: 400px;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Julie van Vlerken successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786"&gt;The influence of posture and stature
 on bicycle handling qualities&lt;/a&gt;&amp;quot;.
@@ -2316,7 +2316,7 @@ used in the design phase to improve handling of new bicycle designs. Julie also
 gave our bicycle dynamics web application a make over with new aesthetics and
 new features:&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://bicycle-dynamics.onrender.com/"&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-web-app.png" style="width: 80%;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bicycle-dynamics-web-app.png" style="width: 80%;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Julie was co-supervised by Leila Alizadehsaravi (TU Delft), Jason K. Moore (TU
 Delft), and Arend Schwab (TU Delft). Engineers Jan Siksma, Hans Vreman, and
@@ -2377,12 +2377,12 @@ Edition. &lt;a class="reference external" href="https://doi.org/10.24404/63ff23b
 bicycle. Find the recording here:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://www.nporadio1.nl/fragmenten/langs-de-lijn-en-omstreken/ecde8e18-8537-44e6-a5f4-e7632386a04e/2023-03-30-tu-delft-maakt-fiets-waarmee-je-niet-kan-vallen"&gt;https://www.nporadio1.nl/fragmenten/langs-de-lijn-en-omstreken/ecde8e18-8537-44e6-a5f4-e7632386a04e/2023-03-30-tu-delft-maakt-fiets-waarmee-je-niet-kan-vallen&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width=600px height=400px src="https://start-player.npo.nl/embed/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaGFyZSI6IjAiLCJlbmRzY3JlZW4iOiIwIiwiaGFzU2V0dGluZ3MiOiIwIiwiaGFzQWRDb25zZW50IjoiMCIsIm5vQWRzIjoxLCJhdXRvcGxheSI6IjAiLCJzdHlsZXNoZWV0IjoiaHR0cHM6XC9cL2FwaS5ucG9yYWRpby5ubFwvYXNzZXRzXC9ucG9wbGF5ZXItc3R5bGluZy5jc3MiLCJhc3NldFVybCI6IiIsIm92ZXJsYXkiOiJodHRwczpcL1wvYnJvYWRjYXN0LWltYWdlcy5ucG9yYWRpby5ubFwvd18xMjgwLGhfNzIwXC9zMy1ucG9yYWRpbzFcLzZxYjV2YXVzc2gzLW5wb3JhZGlvMS12c3ItMjAyMzAzMzAtMTkzODAzLTAwOHdhbC5qcGciLCJzbWFydHRhZyI6eyJzaXRlSWQiOiI1In0sImlkIjoiRlJBR01FTlRfRUxFTUVOVF9JRCIsImVsZW1lbnRJZCI6IkZSQUdNRU5UX0VMRU1FTlRfSUQiLCJpYXQiOjE2ODEyODc1MTAsIm5iZiI6MTY4MTI4NzUxMCwiZXhwIjoxNjgxMzE2MzEwLCJjb25zdW1lcklkIjoiYmJlNzIxMmQtNDNlNS00Y2JhLTgyM2ItOTc4ZDVmNzJmOWEyIiwibWVkaWFJZCI6IlBSRVBSX1JBMV8xNzI1NzM5OSIsImlzUGxheWxpc3QiOmZhbHNlLCJyZWZlcnJlclVybCI6bnVsbCwic2tpcENhdGFsb2ciOjAsInJlY29tbWVuZGF0aW9ucyI6MSwiaXNzIjoiZXlKcGRpSTZJaXRjTDA1NE5EWjVaM1V3YkdoUVdEbGliRTF6Wm5CQlBUMGlMQ0oyWVd4MVpTSTZJbTVQYUU1Skswa3JhRTFOZUhKTFZtdElNVGhNZWpadVlWcEliREZHYUhGMFdGUk9abFpoZVVWTmJVTlNiV0YyUzB0VU4wSkNZVkE1TUZsNVpYSnNjVmNpTENKdFlXTWlPaUkxTldFeU4yRTBNamxsT0RZMllUUmhNV0ZqWldJd01EQmtOR0V6WVRNM09EVTFPRGhpWmpFd1pXSTNZalptWkRrME16SmpaVFkzT0Roa01UTmtabVU1SW4wPSJ9.LJQV7V8zV-6GK89O8-8DpSF6PD4VpvfSPJgukd8hqvo"&gt;
-&lt;/iframe&gt;</content><category term="news"/><category term="balance"/><category term="falling"/><category term="engineering"/><category term="robotics"/><category term="radio"/></entry><entry><title>Jens Keijser Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jens-keijser-graduates.html" rel="alternate"/><published>2023-04-05T13:00:00-07:00</published><updated>2023-04-05T13:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-04-05:/blog/jens-keijser-graduates.html</id><summary type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-jens-keijser.png" style="height: 400px;" /&gt;
+&lt;/iframe&gt;</content><category term="news"/><category term="balance"/><category term="falling"/><category term="engineering"/><category term="robotics"/><category term="radio"/></entry><entry><title>Jens Keijser Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jens-keijser-graduates.html" rel="alternate"/><published>2023-04-05T13:00:00-07:00</published><updated>2023-04-05T13:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2023-04-05:/blog/jens-keijser-graduates.html</id><summary type="html">&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-jens-keijser.png" style="height: 400px;" /&gt;
 &lt;p&gt;Jens Keijser successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:d48c5066-0c44-40a7-9f7e-4bebd3756dcd"&gt;Investigating the Theoretical Feasibility
 of Longitudinal Motion Control in Indoor Cycling Trainers&lt;/a&gt;&amp;quot;. He
 developed a simulation of an indoor cycling trainer that itself simulated
 longitudinal motion with only cadence and crank torque as inputs. He verified
-that the simulator had similar motion behavior as the cyclist …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-jens-keijser.png" style="height: 400px;" /&gt;
+that the simulator had similar motion behavior as the cyclist …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-jens-keijser.png" style="height: 400px;" /&gt;
 &lt;p&gt;Jens Keijser successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:d48c5066-0c44-40a7-9f7e-4bebd3756dcd"&gt;Investigating the Theoretical Feasibility
 of Longitudinal Motion Control in Indoor Cycling Trainers&lt;/a&gt;&amp;quot;. He
 developed a simulation of an indoor cycling trainer that itself simulated
@@ -2398,8 +2398,8 @@ best in his next adventures.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-heinen.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-heinen.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-heinen-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2414,8 +2414,8 @@ optimize the skateboard's geometry …&lt;/p&gt;</summary><content type="html">&
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-heinen.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-heinen.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-heinen-jan.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2443,8 +2443,8 @@ Jan and wishes him the best in his next adventures.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-de-boer.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-de-boer-dorus.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-de-boer.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-de-boer-dorus.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2458,8 +2458,8 @@ This information can be used to inform …&lt;/p&gt;</summary><content type="htm
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-de-boer.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-de-boer-dorus.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-de-boer.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-de-boer-dorus.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2478,8 +2478,8 @@ his next step in his career.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-drauksas.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-drauksas-simonas.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-drauksas.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-drauksas-simonas.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2493,8 +2493,8 @@ was to determine if adding MPC control from the steer …&lt;/p&gt;</summary><co
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-drauksas.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-drauksas-simonas.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-drauksas.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-drauksas-simonas.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2518,8 +2518,8 @@ best in his new job as a control and embedded systems engineer.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-landre.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-landre-daniel.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-landre.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-landre-daniel.png" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2533,8 +2533,8 @@ requiring urban cores to mostly covered, but …&lt;/p&gt;</summary><content typ
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-landre.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-landre-daniel.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-landre.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-landre-daniel.png" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2557,8 +2557,8 @@ wishes him the best in his next step in his career as a data scientist.&lt;/p&gt
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-singh-ajaypal.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-singh-ajaypal.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-singh-ajaypal.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-singh-ajaypal.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2573,8 +2573,8 @@ reduce unwanted squealing noises …&lt;/p&gt;</summary><content type="html">&lt
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-singh-ajaypal.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-singh-ajaypal.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-singh-ajaypal.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-singh-ajaypal.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2608,8 +2608,8 @@ bicycle rider.&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-andretta-francesca.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/portrait-andretta-francesca.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-andretta-francesca.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/portrait-andretta-francesca.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2623,8 +2623,8 @@ data. Francesca was co-supervised by Azita Dabiri in the Delft Center for …&lt
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-andretta-francesca.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/portrait-andretta-francesca.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-andretta-francesca.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/portrait-andretta-francesca.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2636,7 +2636,7 @@ data. Francesca was co-supervised by Azita Dabiri in the Delft Center for
 Systems and Control and Jason K. Moore in BioMechanical Engineering. Everyone
 at the bicycle lab is very proud of Francesca and wishes her the best!
 Francesca will move into a full time position at &lt;a class="reference external" href="https://visionhealth.gmbh"&gt;VisionHealth&lt;/a&gt; in Munich.&lt;/p&gt;
-</content><category term="news"/><category term="bicycle"/><category term="engineering"/></entry><entry><title>Shannon van de Velde Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/shannon-van-de-velde-graduates.html" rel="alternate"/><published>2022-03-31T12:00:00-07:00</published><updated>2022-03-31T12:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-03-31:/blog/shannon-van-de-velde-graduates.html</id><content type="html">&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/headshot-van-de-velde-shannon.jpg" style="height: 400px;" /&gt;
+</content><category term="news"/><category term="bicycle"/><category term="engineering"/></entry><entry><title>Shannon van de Velde Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/shannon-van-de-velde-graduates.html" rel="alternate"/><published>2022-03-31T12:00:00-07:00</published><updated>2022-03-31T12:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2022-03-31:/blog/shannon-van-de-velde-graduates.html</id><content type="html">&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/headshot-van-de-velde-shannon.jpg" style="height: 400px;" /&gt;
 &lt;p&gt;Shannon van de Velde has successfully defeneded &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:4571c00e-3bfc-4d9c-a46a-30a3b30b932a"&gt;Design of a setup for
 experimental research on stability of a bicycle-rider system subject to large
 perturbations&lt;/a&gt;&amp;quot;&lt;/p&gt;
@@ -2646,7 +2646,7 @@ Shannon will move to Belgium for a new engineering position.&lt;/p&gt;
 &lt;p class="topic-title"&gt;Filled&lt;/p&gt;
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/connected-bikes-avs.png" style="width: 300px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/connected-bikes-avs.png" style="width: 300px;" /&gt;
 &lt;div class="section" id="description"&gt;
 &lt;h2&gt;Description&lt;/h2&gt;
 &lt;p&gt;We are seeking a PhD researcher for a 4-year contract in a multidisciplinary
@@ -2656,7 +2656,7 @@ and vulnerable …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div c
 &lt;p class="topic-title"&gt;Filled&lt;/p&gt;
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
-&lt;img alt="" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/connected-bikes-avs.png" style="width: 300px;" /&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/connected-bikes-avs.png" style="width: 300px;" /&gt;
 &lt;div class="section" id="description"&gt;
 &lt;h2&gt;Description&lt;/h2&gt;
 &lt;p&gt;We are seeking a PhD researcher for a 4-year contract in a multidisciplinary
@@ -2748,8 +2748,8 @@ HR Advisor, email: &lt;a class="reference external" href="mailto:application-3mE
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="sympy-logo" src="https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://mechmotum.s3.us-east-005.dream.io/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="sympy-logo" src="https://mechmotum.s3.us-east-005.dream.io/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2769,8 +2769,8 @@ funded …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="al
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="sympy-logo" src="https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://mechmotum.s3.us-east-005.dream.io/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="sympy-logo" src="https://mechmotum.s3.us-east-005.dream.io/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2878,7 +2878,7 @@ HR Advisor, email: &lt;a class="reference external" href="mailto:application-3mE
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -2890,7 +2890,7 @@ month&lt;/strong&gt; full time contract. The researcher will develop …&lt;/p&g
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -2971,7 +2971,7 @@ Vianen, email: &lt;a class="reference external" href="mailto:application-3me&amp
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -2983,7 +2983,7 @@ month&lt;/strong&gt; full time contract. The researcher will develop …&lt;/p&g
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -3065,8 +3065,8 @@ Vianen, email: &lt;a class="reference external" href="mailto:application-3me&amp
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haasnoot.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-haasnoot.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-haasnoot-jelle.png" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3080,8 +3080,8 @@ future …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="b
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haasnoot.png" style="height: 400px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-haasnoot.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-haasnoot-jelle.png" style="height: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3091,13 +3091,13 @@ Everyone at the bicycle lab is very proud of Jelle and wishes him the best!
 Jelle will move into a full time position at &lt;a class="reference external" href="https://www.garmin.com/nl-NL/tacx/"&gt;Tacx&lt;/a&gt; and will likely mentor some
 future TU Delft interns in the near future.&lt;/p&gt;
 </content><category term="news"/><category term="bicycle"/><category term="engineering"/></entry><entry><title>LibreTexts Jupyter Integration Wrapup</title><link href="https://mechmotum.github.io/blog/libretexts-wrapup.html" rel="alternate"/><published>2021-10-08T00:00:00-07:00</published><updated>2021-10-08T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-10-08:/blog/libretexts-wrapup.html</id><summary type="html">&lt;div class="figure align-center"&gt;
-&lt;img alt="LibreTexts and Jupyter Logos" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" /&gt;
+&lt;img alt="LibreTexts and Jupyter Logos" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-plus-jupyter.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;As of September 30th we have wrapped up our work integrating Jupyter based
 computing tools into the &lt;a class="reference external" href="https://www.libretexts.org"&gt;LibreTexts&lt;/a&gt; platform. This work was part of a three
 year $5M grant from the U.S. Department of Education (DoE) to enhance open
 access textbooks called &lt;a class="reference external" href="https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program"&gt;Open Textbooks Pilot Program&lt;/a&gt; (CFDA No. 84 …&lt;/p&gt;</summary><content type="html">&lt;div class="figure align-center"&gt;
-&lt;img alt="LibreTexts and Jupyter Logos" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png" /&gt;
+&lt;img alt="LibreTexts and Jupyter Logos" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-plus-jupyter.png" /&gt;
 &lt;/div&gt;
 &lt;p&gt;As of September 30th we have wrapped up our work integrating Jupyter based
 computing tools into the &lt;a class="reference external" href="https://www.libretexts.org"&gt;LibreTexts&lt;/a&gt; platform. This work was part of a three
@@ -3188,7 +3188,7 @@ with one command&lt;/li&gt;
 &lt;li&gt;Custom user abuse sensors and process killers&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="UCD cluster racks." src="https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png" /&gt;
+&lt;img alt="UCD cluster racks." src="https://mechmotum.s3.us-east-005.dream.io/ucd-kube-cluster.png" /&gt;
 &lt;p class="caption"&gt;The cluster humming away in the server room.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3204,11 +3204,11 @@ that provides instructions for more advanced use. We also created a section in
 the LibreTexts &lt;a class="reference external" href="https://chem.libretexts.org/Courses/Remixer_University/LibreTexts_Construction_Guide/05%3A_Interactive_Elements"&gt;construction guide&lt;/a&gt; that provides guidance specifically for
 LibreTexts users and authors.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="LibreTexts UC Davis JupyterHub Login Screen" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png" /&gt;
+&lt;img alt="LibreTexts UC Davis JupyterHub Login Screen" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyterhub-login-page.png" /&gt;
 &lt;p class="caption"&gt;LibreTexts UC Davis JupyterHub Login Screen&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Author construction guide section about Jupyter integration" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png" /&gt;
+&lt;img alt="Author construction guide section about Jupyter integration" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyter-guide.png" /&gt;
 &lt;p class="caption"&gt;Author construction guide section about Jupyter integration&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3231,11 +3231,11 @@ vast majority of needed software is pre-installed.&lt;/p&gt;
 it includes Python, R, Julia, Octave, C++, and Sage in the console and
 notebooks as well as RStudio server access to R.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="JupyterLab Interface" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png" /&gt;
+&lt;img alt="JupyterLab Interface" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyterhub-jupyterlab-launch.png" /&gt;
 &lt;p class="caption"&gt;JupyterLab Interface&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="RStudio Interface" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png" /&gt;
+&lt;img alt="RStudio Interface" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-rstudio.png" /&gt;
 &lt;p class="caption"&gt;RStudio Interface&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3297,7 +3297,7 @@ and since the sprint:&lt;/p&gt;
 &lt;li&gt;Enabled general ipywidgets functionality&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Example of an ipywidget controlling a matplotlib figure in Thebe." src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
+&lt;img alt="Example of an ipywidget controlling a matplotlib figure in Thebe." src="https://mechmotum.s3.us-east-005.dream.io/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
 &lt;p class="caption"&gt;Example of an ipywidget controlling a matplotlib figure in Thebe.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;You can see examples many of the rich Jupyter outputs on this LibreTexts page:&lt;/p&gt;
@@ -3325,7 +3325,7 @@ Kim et al. (2020), Teaching Cheminformatics through a Collaborative
 Intercollegiate Online Chemistry Course (OLCC), Journal of Chemical
 Education, &lt;a class="reference external" href="https://doi.org/10.1021/acs.jchemed.0c01035"&gt;https://doi.org/10.1021/acs.jchemed.0c01035&lt;/a&gt;&lt;/blockquote&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Conference poster about the cheminformatics project." src="https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png" /&gt;
+&lt;img alt="Conference poster about the cheminformatics project." src="https://mechmotum.s3.us-east-005.dream.io/libretexts-cheminformatics-poster.png" /&gt;
 &lt;p class="caption"&gt;Conference poster about the cheminformatics project.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3372,7 +3372,7 @@ integration for a variety of different programming languages.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications/Jupyter_Notebooks"&gt;Chemistry Interactive Applications&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Example interactive robot arm simulator from Matrix Algebra with Computational Applications (Colbry)" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png" /&gt;
+&lt;img alt="Example interactive robot arm simulator from Matrix Algebra with Computational Applications (Colbry)" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-robot-sim.png" /&gt;
 &lt;p class="caption"&gt;Example interactive robot arm simulator from Matrix Algebra with
 Computational Applications (Colbry)&lt;/p&gt;
 &lt;/div&gt;
@@ -3410,7 +3410,7 @@ connecting them to the communities of practice. We presented at Jupyter Open
 Studio (2019), SacPy (2020), OpenEd Week (2020), Women in Data (2020), and the
 National Workshop on Data Education (2020).&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Celine Presenting at SacPy" src="https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg" style="width: 600px;" /&gt;
+&lt;img alt="Celine Presenting at SacPy" src="https://mechmotum.s3.us-east-005.dream.io/celine-sacpy.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Hao, Tannavee, and Celine presenting at the SacPy meetup in 2019.&lt;/p&gt;
 &lt;/div&gt;
 &lt;center&gt;
@@ -3448,44 +3448,44 @@ is it the team that made all of this magic happen:&lt;/p&gt;
 &lt;col width="33%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-celine.png" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-celine.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-hao.jpg" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-hao.jpg" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-henry.jpg" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-henry.jpg" /&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Celine Liang (now &amp;#64; Facebook)&lt;/td&gt;
 &lt;td&gt;Hao Huang (now &amp;#64; Zillow)&lt;/td&gt;
 &lt;td&gt;Henry Agnew (now &amp;#64; UC San Diego)&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-k.png" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-kevin-k.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-r.png" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-kevin-r.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-mandeepika.jpg" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-mandeepika.jpg" /&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Kevin Krausse (now &amp;#64; Ekata)&lt;/td&gt;
 &lt;td&gt;Kevin Rong (now &amp;#64; Zoox)&lt;/td&gt;
 &lt;td&gt;Mandeepika Sani (UC Davis)&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-noah.png" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-noah.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-patrick.jpg" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-patrick.jpg" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tannavee.png" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-tannavee.png" /&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Lyla Sanders (UC Davis)&lt;/td&gt;
 &lt;td&gt;Patrick Mackle (now &amp;#64; DocuSign)&lt;/td&gt;
 &lt;td&gt;Tannavee Kumar (now &amp;#64; Tempus Labs)&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tim.png" /&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-tim.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-xiaochen.png" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-xiaochen.png" /&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;img alt="" class="first last" src="https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-luigi.png" /&gt;
+&lt;td&gt;&lt;img alt="" class="first last" src="https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-luigi.png" /&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Tim Stewart (UC Davis)&lt;/td&gt;
@@ -3516,7 +3516,7 @@ enthusiasm. He has my full admiration. I'll miss working with you Richard,
 hopefully we can start up something new in the future! The project is in great
 hands.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Lab pizza social" src="https://objects-us-east-1.dream.io/mechmotum/lab-pizza-outing.png" /&gt;
+&lt;img alt="Lab pizza social" src="https://mechmotum.s3.us-east-005.dream.io/lab-pizza-outing.png" /&gt;
 &lt;p class="caption"&gt;Pre-pandemic pizza social with the team. From the left around the table:
 Celine, Michael, Trevor, Henry, Jason, Hao, Luigi, Tannavee.&lt;/p&gt;
 &lt;/div&gt;
@@ -3589,7 +3589,7 @@ are all of the prior posts:&lt;/p&gt;
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://mechmotum.s3.us-east-005.dream.io/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -3601,7 +3601,7 @@ month&lt;/strong&gt; full time contract &lt;a class="footnote-reference" href="#
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://mechmotum.s3.us-east-005.dream.io/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -3691,7 +3691,7 @@ extra 2 months. The position will be 12 months.&lt;/td&gt;&lt;/tr&gt;
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://mechmotum.s3.us-east-005.dream.io/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -3703,7 +3703,7 @@ month&lt;/strong&gt; full time contract &lt;a class="footnote-reference" href="#
 &lt;p&gt;This job has been filled and is no longer open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://objects-us-east-1.dream.io/mechmotum/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
+&lt;img alt="TU Delft &amp;amp; Gazelle Steer Assist Bicycle" src="https://mechmotum.s3.us-east-005.dream.io/gazelle-steer-assist-bicycle.jpg" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Steer Assist Bicycle: an example bicycle technology developed at the TU
 Delft Bicycle lab with Gazelle.&lt;/p&gt;
 &lt;/div&gt;
@@ -3798,7 +3798,7 @@ widget ecosystem. By migrating from the Jupyter HTML Manager package to the Lab
 Manager, we are now able to run all ipywidget interactive widgets, which
 greatly expands the possibilities for textbook authors.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="IPyWidgets Used in Thebe" src="https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
+&lt;img alt="IPyWidgets Used in Thebe" src="https://mechmotum.s3.us-east-005.dream.io/thebe-ipywidgets.gif" style="height: 600px;" /&gt;
 &lt;p class="caption"&gt;Example of an ipywidget controlling a matplotlib figure in Thebe.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;In terms of cluster reliability, we have added a second router to be highly
@@ -3826,8 +3826,8 @@ computing enviornments.  Feel free to use our Binder plugin on &lt;a class="refe
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="sympy-logo" src="https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://mechmotum.s3.us-east-005.dream.io/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="sympy-logo" src="https://mechmotum.s3.us-east-005.dream.io/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3840,8 +3840,8 @@ host of exciting open source software projects in this program. This is …&lt;/
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://objects-us-east-1.dream.io/mechmotum/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="sympy-logo" src="https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="czi-logo" src="https://mechmotum.s3.us-east-005.dream.io/czi-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="sympy-logo" src="https://mechmotum.s3.us-east-005.dream.io/sympy-logo.png" style="height: 100px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3877,12 +3877,12 @@ Congrats to Joris!&lt;/p&gt;
 &lt;col width="50%" /&gt;
 &lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://objects-us-east-1.dream.io/mechmotum/headshot-kuiper-joris.jpg" style="width: 200px;" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img alt="cover" src="https://objects-us-east-1.dream.io/mechmotum/thesis-cover-kuiper.png" style="width: 400px;" /&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-kuiper-joris.jpg" style="width: 200px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-kuiper.png" style="width: 400px;" /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><category term="news"/><category term="bicycle"/><category term="engineering"/></entry><entry><title>Jan Groenhuis Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-groenhuis-graduates.html" rel="alternate"/><published>2021-06-16T13:08:00-07:00</published><updated>2021-06-16T13:08:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-06-16:/blog/jan-groenhuis-graduates.html</id><content type="html">&lt;img alt="Jan Groenhuis Headshot" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg" /&gt;
+</content><category term="news"/><category term="bicycle"/><category term="engineering"/></entry><entry><title>Jan Groenhuis Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/jan-groenhuis-graduates.html" rel="alternate"/><published>2021-06-16T13:08:00-07:00</published><updated>2021-06-16T13:08:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2021-06-16:/blog/jan-groenhuis-graduates.html</id><content type="html">&lt;img alt="Jan Groenhuis Headshot" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/headshot-groenhuis-jan.jpg" /&gt;
 &lt;p&gt;Jan Groenhuis successfully defended &amp;quot;&lt;a class="reference external" href="http://resolver.tudelft.nl/uuid:a75adcc1-4dd2-4bda-9abc-bf4a4aea17ef"&gt;Experimental data-tracking of the BMX SX
 gate start using biomechanical modeling and trajectory optimization&lt;/a&gt;&amp;quot;.
 Everyone at the bicycle lab is very proud of Jan and will miss him! Jan is off
@@ -3923,13 +3923,13 @@ has new features that let jump builders analyze existing or planned jumps by
 equivalent fall height calculations. These features were used to analyse the
 two case studies in the paper.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Equivalent fall height plot of the Salvini case study." src="https://objects-us-east-1.dream.io/mechmotum/salvini-v-snoqualmie.png" style="width: 600px;" /&gt;
+&lt;img alt="Equivalent fall height plot of the Salvini case study." src="https://mechmotum.s3.us-east-005.dream.io/salvini-v-snoqualmie.png" style="width: 600px;" /&gt;
 &lt;p class="caption"&gt;Example equivalent fall height analysis of a dangerous snow sport jump taken
 from the paper.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="http://www.skijumpdesign.info/analysis"&gt;
-&lt;img alt="Screenshot of the skijumpdesign app's analysis page." src="https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-1.4.0-analysis-screenshot.png" style="width: 600px;" /&gt;
+&lt;img alt="Screenshot of the skijumpdesign app's analysis page." src="https://mechmotum.s3.us-east-005.dream.io/skijumpdesign-1.4.0-analysis-screenshot.png" style="width: 600px;" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;Screenshot of the new &amp;quot;analysis&amp;quot; page of the web app. Click the image to go
 to the app.&lt;/p&gt;
@@ -4518,7 +4518,7 @@ Department of Biomechatronics &amp;amp; Human-Machine Control&lt;/p&gt;
 dynamics.&lt;/p&gt;
 </summary><content type="html">&lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="https://bicycle-dynamics.onrender.com"&gt;
-&lt;img alt="" src="https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png" style="width: 800px;" /&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/bicycle-dynamics-app.png" style="width: 800px;" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;Screenshot of the bicycle dynamics web app. Click the image to go to the app
 at &lt;a class="reference external" href="https://bicycle-dynamics.onrender.com"&gt;https://bicycle-dynamics.onrender.com&lt;/a&gt;.&lt;/p&gt;
@@ -4673,7 +4673,7 @@ block. If the code block has already been inserted into the page, and the
 author wants to make any changes, they can simply double click on that section
 and the dialog box will pop back up.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="GIF depicting an example page made using CKEditor" src="https://objects-us-east-1.dream.io/mechmotum/example-libretexts-jupyter-page.gif" style="width: 100%;" /&gt;
+&lt;img alt="GIF depicting an example page made using CKEditor" src="https://mechmotum.s3.us-east-005.dream.io/example-libretexts-jupyter-page.gif" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1: Example of what and author can do with CKEditor, and what the output will look like&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -4688,7 +4688,7 @@ improve the execution time of the code blocks, as currently requesting a kernel
 involves downloading an image from DockerHub and creating a Docker container.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="education"/><category term="oer"/><category term="education"/><category term="jupyter"/><category term="textbooks"/><category term="engineering"/><category term="libretexts"/></entry><entry><title>The Laboratorium is Moving to TU Delft</title><link href="https://mechmotum.github.io/blog/moving-to-tudelft.html" rel="alternate"/><published>2020-06-10T00:00:00-07:00</published><updated>2020-06-10T00:00:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2020-06-10:/blog/moving-to-tudelft.html</id><summary type="html">&lt;p class="first last"&gt;The lab is moving to TU Delft this summer.&lt;/p&gt;
-</summary><content type="html">&lt;img alt="TU Delft Logo" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/tudelft-logo.png" /&gt;
+</summary><content type="html">&lt;img alt="TU Delft Logo" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/tudelft-logo.png" /&gt;
 &lt;p&gt;I am pleased to announce that I have accepted a position as an Assistant
 Professor in the &lt;a class="reference external" href="https://www.tudelft.nl/en/3me/about/departments/biomechanical-engineering/"&gt;Biomechanical Engineering Department&lt;/a&gt; of the &lt;a class="reference external" href="https://www.tudelft.nl/en/3me/"&gt;Mechanical,
 Maritime, and Materials Engineering (3mE) Faculty&lt;/a&gt; at &lt;a class="reference external" href="https://www.tudelft.nl"&gt;Delft University of
@@ -4735,7 +4735,7 @@ Cloud B, Tarien B, Liu A, Shedd T, Lin X, Hubbard M, et al. (2019) Adaptive
 smartphone-based sensor fusion for estimating competitive rowing kinematic
 metrics. PLoS ONE 14(12): e0225690. &lt;a class="reference external" href="https://doi.org/10.1371/journal.pone.0225690"&gt;https://doi.org/10.1371/journal.pone.0225690&lt;/a&gt;&lt;/blockquote&gt;
 &lt;a class="reference external image-reference" href="https://doi.org/10.1371/journal.pone.0225690"&gt;
-&lt;img alt="Screenshot of the Plos One paper." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/row-plos-screenshot.png" style="width: 80%;" /&gt;
+&lt;img alt="Screenshot of the Plos One paper." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/row-plos-screenshot.png" style="width: 80%;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;The abstract reads:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -4765,7 +4765,7 @@ improve estimates of important rowing performance metrics.&lt;/blockquote&gt;
 helps others progress in sports performance estimation and other related
 topics.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Rowing performance estimation project team." src="https://objects-us-east-1.dream.io/mechmotum/row-research-team.png" style="width: 80%;" /&gt;
+&lt;img alt="Rowing performance estimation project team." src="https://mechmotum.s3.us-east-005.dream.io/row-research-team.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Research team members Li Wang, Ada Liu, Thomas Shedd, Paul Crawford, Britt
 Tarien, and Bryn Cloud&lt;/p&gt;
 &lt;/div&gt;
@@ -4819,7 +4819,7 @@ of the PID controller.&lt;/p&gt;
 fundamentally informed by the interactions the user would have with the system.
 A typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
+&lt;img alt="User Interaction." src="https://mechmotum.s3.us-east-005.dream.io/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A typical user interaction with the system.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This user interaction flowchart was used to help better understand the problem
@@ -4834,7 +4834,7 @@ hardware and software portions of the cruise control system.&lt;/p&gt;
 error between a user defined setpoint and the actual speed of the ebike. Figure
 2 graphically shows how the control architecture is implemented on the ebike.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
+&lt;img alt="Control Architecture." src="https://mechmotum.s3.us-east-005.dream.io/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Control architecture as implemented on the ebike.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -4846,7 +4846,7 @@ integration by highlighting the input/output and geometric relationships
 between existing components of the ebike and the additional components needed
 to implement the cruise control system.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
+&lt;img alt="System Architecture." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Geometric layout of the system components showing relative size,
 location, information flow, and type of each component. Components called
 out with a triangle are existing components on the ebike. Components called
@@ -4863,7 +4863,7 @@ control is disengaged, the Arduino simply reads the user commanded throttle
 position and passes it directly to the motor controller. Figure 4, below,
 graphically shows this interaction.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
+&lt;img alt="Arduino's Main Function." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Schematic showing the Arduino’s function as a throttle emulator.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Note: Testing of the cruise control system has shown the implementation method
@@ -4884,7 +4884,7 @@ current status of the system via an LCD and logs diagnostic information to an
 SD card.&lt;/p&gt;
 &lt;p&gt;Figure 5, below, shows a high level view of the logic flow of the code.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Code Logic Flowchart." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Basic logic flowchart of the cruise control software.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Source code, and more details about it, can be found on the Laboratorium’s
@@ -4923,7 +4923,7 @@ controller and powered by a 36V Li ion battery. More information on the build
 and the bike’s instrumentation system can be found in Jason’s dissertation
 &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
+&lt;img alt="Instrumented Ebike." src="https://mechmotum.s3.us-east-005.dream.io/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. The instrumented ebike today.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -4986,7 +4986,7 @@ build.&lt;/p&gt;
 connect the external components to the Nano. Figure 7 shows the completed
 Arduino board.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
+&lt;img alt="Arduino Board." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 7. The Arduino board with wires attached.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;With many of the components located on the handlebars, a majority of these
@@ -5011,13 +5011,13 @@ the sides and top of the housing allow for wires to exit towards their
 destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Arduino Housing." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8. Arduino housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The Arduino housing is clamped to the downtube of the ebike by a socket head
 screw as shown in Figure 9.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
+&lt;img alt="Arduino Mounting." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9. Arduino housing mounting point.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Both the LCD and button housings were 3D printed and designed to mount to the
@@ -5026,7 +5026,7 @@ bikes. Each mount had a pair of “bunny ears&amp;quot; designed to interface wi
 GoPro style mount. The LCD housing, shown in Figure 10 below, is a simple
 rectangular two-piece enclosure joined by button head screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
+&lt;img alt="LCD Housing." src="https://mechmotum.s3.us-east-005.dream.io/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 10. LCD housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Similar to the LCD housing, the button housing is a two-piece, enclosure joined
@@ -5036,13 +5036,13 @@ more convenient for the user, larger button parts were 3D printed and offset
 from each mini momentary pushbutton using a compression spring as shown in
 Figure 11 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Button Housing." src="https://mechmotum.s3.us-east-005.dream.io/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 11. Button housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;As shown in Figure 12, the button housing is mounted on the right side of the
 handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
+&lt;img alt="Button Housing Mount." src="https://mechmotum.s3.us-east-005.dream.io/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 12. Button housing position on the handlebars.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -5080,7 +5080,7 @@ mounted to the bike’s top tube,inside the upper head tube triangle.&lt;/p&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-14"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Bill of Materials." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
 purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -5121,7 +5121,7 @@ mentorship throughout this project.&lt;/p&gt;
 src="https://docs.google.com/presentation/d/e/2PACX-1vQpprGVUh86uBUcpdQO-BD9-HQc0zit0vhf2O3z8Izs4aeYKcb8FxSX8gc43CeVM0-x_5JhIj03vRM0/embed?start=false&amp;loop=false&amp;delayms=3000"
 frameborder="0" width="960" height="569" allowfullscreen="true"
 mozallowfullscreen="true" webkitallowfullscreen="true"&gt;&lt;/iframe&gt;&lt;div class="figure align-center"&gt;
-&lt;img alt="Celine presenting at SacPy." src="https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg" style="width: 800px;" /&gt;
+&lt;img alt="Celine presenting at SacPy." src="https://mechmotum.s3.us-east-005.dream.io/celine-sacpy.jpg" style="width: 800px;" /&gt;
 &lt;p class="caption"&gt;Celine presenting at SacPy.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="education"/><category term="oer"/><category term="education"/><category term="jupyter"/><category term="textbooks"/><category term="engineering"/><category term="python"/></entry><entry><title>Creating a Kubernetes Bare-Metal Cluster for JupyterHub</title><link href="https://mechmotum.github.io/blog/jupyter-summer-2019.html" rel="alternate"/><published>2019-11-01T00:00:00-07:00</published><updated>2019-11-01T00:00:00-07:00</updated><author><name>Xin Luigi Chen</name></author><id>tag:mechmotum.github.io,2019-11-01:/blog/jupyter-summer-2019.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on setting up JupyterHub on a Kubernetes bare-metal cluster&lt;/p&gt;
@@ -5150,7 +5150,7 @@ NetBoot and a proxy between the Internet and the Kubernetes cluster. The
 Kubernetes cluster is under a private network, so the only way to access the
 Kubernetes cluster is by connecting through rooster.&lt;/p&gt;
 &lt;p&gt;The following diagram describes our networking setup.&lt;/p&gt;
-&lt;img alt="Kubernetes diagram of cluster" src="https://objects-us-east-1.dream.io/mechmotum/kubediagram.png" style="width: 600px;" /&gt;
+&lt;img alt="Kubernetes diagram of cluster" src="https://mechmotum.s3.us-east-005.dream.io/kubediagram.png" style="width: 600px;" /&gt;
 &lt;p&gt;The private network is under the &lt;tt class="docutils literal"&gt;10.0.0.0/8&lt;/tt&gt;. Kubernetes uses this network
 for its resources to communicate.  Rooster has a public IP address of
 &lt;tt class="docutils literal"&gt;128.120.136.26&lt;/tt&gt;, which serves multiple services based on the domain name
@@ -5226,13 +5226,13 @@ to the template file directory.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We chose the former option and have repositories for &lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-templates"&gt;custom HTML files&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/LibreTexts/jupyterhub-images"&gt;additional images&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This is a screenshot of how the login page looks now.&lt;/p&gt;
-&lt;img alt="Screenshot of the redesigned JupyterHub login page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubscreenshot.png" style="width: 600px;" /&gt;
+&lt;img alt="Screenshot of the redesigned JupyterHub login page" src="https://mechmotum.s3.us-east-005.dream.io/jupyterhubscreenshot.png" style="width: 600px;" /&gt;
 &lt;p&gt;Additionally, more spawner options are included. We modified the default
 environment to include many packages requested by professors and students. The
 Dockerfile for the default environment is maintained in &lt;a class="reference external" href="https://github.com/LibreTexts/default-env"&gt;this repository&lt;/a&gt;.  The environment includes
 Python 2 and 3, Octave, R, Julia, and SageMath.  The default environment mainly
 installs software and packages via apt and conda for security reasons.&lt;/p&gt;
-&lt;img alt="Screenshot of the redesigned JupyterHub spawner page" src="https://objects-us-east-1.dream.io/mechmotum/jupyterhubspawner.png" style="width: 600px;" /&gt;
+&lt;img alt="Screenshot of the redesigned JupyterHub spawner page" src="https://mechmotum.s3.us-east-005.dream.io/jupyterhubspawner.png" style="width: 600px;" /&gt;
 &lt;p&gt;The default environment includes Python 2 and 3, Octave, R, Julia, and
 SageMath.  Note that SageMath requires Python 2, so changing the Python path
 inside the SageMath configuration files is required. &lt;a class="reference external" href="https://bytesofcomputerwisdom.home.blog/2019/03/31/jupyter-notebook-running-the-wrong-python-version/"&gt;This article&lt;/a&gt;
@@ -5322,11 +5322,11 @@ will be to evaluate the handling of the bicycle both subjectively and
 objectively.&lt;/p&gt;
 &lt;p&gt;Paper: &lt;a class="reference external" href="https://doi.org/10.6084/m9.figshare.9883328.v1"&gt;https://doi.org/10.6084/m9.figshare.9883328.v1&lt;/a&gt;&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="3ms Fabricated." src="https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated.jpg" style="width: 50%;" /&gt;
+&lt;img alt="3ms Fabricated." src="https://mechmotum.s3.us-east-005.dream.io/3ms-fabricated.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. Fabricated model of optimal bicycle for 3 m/s.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="3ms Fabricated Rider." src="https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated-rider.jpg" style="width: 50%;" /&gt;
+&lt;img alt="3ms Fabricated Rider." src="https://mechmotum.s3.us-east-005.dream.io/3ms-fabricated-rider.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Fabricated model of optimal bicycle for 3 m/s with rider.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;iframe width="560" height="315"
@@ -5443,23 +5443,23 @@ year's work at the UC Davis Undergraduate Research Conference on April 26,
 &lt;div class="section" id="design-of-an-electric-bicycle-speed-controller"&gt;
 &lt;h2&gt;Design of an Electric Bicycle Speed Controller&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Trevor Metz standing beside his poster at the conference." src="https://objects-us-east-1.dream.io/mechmotum/urc2019-metz-photo.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Trevor Metz standing beside his poster at the conference." src="https://mechmotum.s3.us-east-005.dream.io/urc2019-metz-photo.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Trevor Metz beside his poster.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Trevor Metz's poster." src="https://objects-us-east-1.dream.io/mechmotum/urc2019-metz-poster.png" style="width: 80%;" /&gt;
-&lt;p class="caption"&gt;Trevor Metz's poster. &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/urc2019-poster-metz.pdf"&gt;[Download bicycle poster PDF]&lt;/a&gt;&lt;/p&gt;
+&lt;img alt="Trevor Metz's poster." src="https://mechmotum.s3.us-east-005.dream.io/urc2019-metz-poster.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Trevor Metz's poster. &lt;a class="reference external" href="https://mechmotum.s3.us-east-005.dream.io/urc2019-poster-metz.pdf"&gt;[Download bicycle poster PDF]&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="smartphone-based-sensor-fusion-for-estimating-rowing-kinematic-metrics"&gt;
 &lt;h2&gt;Smartphone-based Sensor Fusion for Estimating Rowing Kinematic Metrics&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Bryn Cloud standing beside her poster at the conference." src="https://objects-us-east-1.dream.io/mechmotum/urc2019-cloud-photo.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Bryn Cloud standing beside her poster at the conference." src="https://mechmotum.s3.us-east-005.dream.io/urc2019-cloud-photo.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;Bryn Cloud beside her poster.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Bryn Cloud's poster." src="https://objects-us-east-1.dream.io/mechmotum/urc2019-cloud-poster.png" style="width: 80%;" /&gt;
-&lt;p class="caption"&gt;Bryn Cloud's poster. &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/urc2019-poster-cloud.pdf"&gt;[Download rowing poster PDF]&lt;/a&gt;&lt;/p&gt;
+&lt;img alt="Bryn Cloud's poster." src="https://mechmotum.s3.us-east-005.dream.io/urc2019-cloud-poster.png" style="width: 80%;" /&gt;
+&lt;p class="caption"&gt;Bryn Cloud's poster. &lt;a class="reference external" href="https://mechmotum.s3.us-east-005.dream.io/urc2019-poster-cloud.pdf"&gt;[Download rowing poster PDF]&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content><category term="conferences"/><category term="sports"/><category term="biomechanics"/><category term="rowing"/><category term="bicycles"/></entry><entry><title>Ski Jump Design Software to Analyze User Inputted Jumps</title><link href="https://mechmotum.github.io/blog/skijumpdesign-analysis.html" rel="alternate"/><published>2019-04-18T00:00:00-07:00</published><updated>2019-04-18T00:00:00-07:00</updated><author><name>Bryn Cloud</name></author><id>tag:mechmotum.github.io,2019-04-18:/blog/skijumpdesign-analysis.html</id><summary type="html">&lt;p class="first last"&gt;Blog post on adding page to skijumpdesign app to analyze user inputted
@@ -5472,7 +5472,7 @@ the equivalent fall height (EFH) for their jump. Figure 1 illustrates the
 components of a terrain park using common terminology.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ski Jump Terminology." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png" style="width: 80%;" /&gt;
+&lt;img alt="Ski Jump Terminology." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-01.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. Components of standard terrain park jump from [Levy]_.
 Reprinted with the author's permission.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -5538,7 +5538,7 @@ locations, which was a pleasant surprise after the testing on a bike. This data
 shows promise for this jump profiling method. Figure 2 shows me (the skier)
 with the differential GPS ski helmet, and the backpack strapped to my chest.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Differential GPS Skier Helmet." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-02.jpg" style="width: 50%;" /&gt;
+&lt;img alt="Differential GPS Skier Helmet." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-02.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. A differential GPS mounted to a helmet for testing at Sierra at Tahoe.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -5548,13 +5548,13 @@ with the differential GPS ski helmet, and the backpack strapped to my chest.&lt;
 at &lt;a class="reference external" href="http://www.skijumpdesign.info"&gt;http://www.skijumpdesign.info&lt;/a&gt;. A home page was added to keep it user
 friendly. This is shown below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ski Jump Tool Home Page." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-03.png" style="width: 50%;" /&gt;
+&lt;img alt="Ski Jump Tool Home Page." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-03.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. New Ski Jump Web Application - Home Page.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The buttons centered in the middle of this page will direct users to the ski
 jump design or the new analysis page shown in Figure 4.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ski Jump Tool Analysis." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-06.png" style="width: 50%;" /&gt;
+&lt;img alt="Ski Jump Tool Analysis." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-06.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. New Ski Jump Web Application - Analysis Page.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;An example of a jump designed with a takeoff angle of 10 degrees and maximum
@@ -5566,7 +5566,7 @@ limits the acceleration felt by the skier - which is the reason for the spike
 in EFH.  From there, the user can scroll down to the input box to upload their
 own jump. This input box is shown in Figure 5 with a sample csv file uploaded.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Analysis Input Box." src="https://objects-us-east-1.dream.io/mechmotum/ski-figure-07.png" style="width: 50%;" /&gt;
+&lt;img alt="Analysis Input Box." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-07.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Analysis Page Input Box.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -5701,7 +5701,7 @@ Arduino Nano.&lt;/p&gt;
 informed by the interactions that the user would have with the system. A
 typical user interaction with the system is outlined in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="User Interaction." src="https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
+&lt;img alt="User Interaction." src="https://mechmotum.s3.us-east-005.dream.io/UserInteractionFlowChart.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A typical user interaction with the system.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This user interaction flowchart was used to help better understand the problem
@@ -5719,7 +5719,7 @@ Figure 2, shows how this error is inputted to the control algorithm encoded in
 the Arduino Nano resulting in an output variable used to control the speed of
 the ebike.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
+&lt;img alt="Control Architecture." src="https://mechmotum.s3.us-east-005.dream.io/BlogPost2ControlArchitecture.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Control architecture.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -5731,7 +5731,7 @@ integration by highlighting the input/output and geometric relationships
 between existing components of the ebike and the additional control system
 components.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="System Architecture." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
+&lt;img alt="System Architecture." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemGeometricLayout.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Geometric layout of the system components showing relative size,
 location, information flow, and type of each component. Components called
 out with a triangle are existing components on the ebike. Components called
@@ -5747,7 +5747,7 @@ controller. When the cruise control is disengaged, the Arduino simply reads the
 user commanded throttle position and passes it directly to the motor
 controller.  Figure 4, below, graphically shows this interaction.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino's Main Function." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
+&lt;img alt="Arduino's Main Function." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoThrottleSchematic.jpg" style="width: 40%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Schematic showing the Arduino’s function as a throttle emulator.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -5761,7 +5761,7 @@ the PID controller. The software also updates the user on the current status of
 the system via an LCD and logs diagnostic information to an SD card.&lt;/p&gt;
 &lt;p&gt;Figure 5, below, shows the logic flow of the code.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Code Logic Flowchart." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Code Logic Flowchart." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemCodeLogicFlowChart.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Code logic flowchart.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The software, and more details about it, can be found on the Laboratorium’s
@@ -5799,7 +5799,7 @@ Bikes kit consists of a brushless direct drive hub motor driven by a motor
 controller and a 36V Li ion battery. More information on the build and the
 bike’s instrumentation system can be found in Jason’s dissertation &lt;a class="reference external" href="http://moorepants.github.io/dissertation/davisbicycle.html"&gt;found here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Instrumented Ebike." src="https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
+&lt;img alt="Instrumented Ebike." src="https://mechmotum.s3.us-east-005.dream.io/TheInstrumentedEbike.JPG" style="width: 45%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. The instrumented ebike today.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -5859,7 +5859,7 @@ hardware used in this build.&lt;/p&gt;
 &lt;/table&gt;
 &lt;p&gt;Figure 7, below, shows a Fritzing diagram of the electrical system.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Electrical Hookup." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg" style="width: 60%;" /&gt;
+&lt;img alt="Electrical Hookup." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemWiringDiagram.jpg" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 7. Fritzing diagram of control system electronics. Note that the
 motor controller is represented by a DC motor and the 7.2V NiCd battery is
 represented by a 1S LiPo battery.&lt;/em&gt;&lt;/p&gt;
@@ -5869,7 +5869,7 @@ represented by a 1S LiPo battery.&lt;/em&gt;&lt;/p&gt;
 to connect the external components to the Nano. Figure 8, below, shows the
 completed Arduino board.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Board." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
+&lt;img alt="Arduino Board." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoBoardWiredUp.JPG" style="width: 60%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8. The Arduino board with wires attached.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;With many of the components located on the handlebars, a majority of these
@@ -5892,13 +5892,13 @@ the sides and top of the housing allow for wires to exit towards their
 destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Housing." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Arduino Housing." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9.  Arduino housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This housing is clamped to the downtube of the ebike by a socket head screw as
 shown in Figure 10.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Arduino Mounting." src="https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
+&lt;img alt="Arduino Mounting." src="https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingMountingPoints.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 10. Arduino housing mounting point.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Both the LCD and button housings were 3D printed and designed to mount to the
@@ -5907,7 +5907,7 @@ bikes. Each mount had a pair of “bunny ears&amp;quot; designed to interface wi
 GoPro style mount. The LCD housing, shown in Figure 11 below, is a simple
 rectangular two-piece enclosure joined by button head screws.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="LCD Housing." src="https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
+&lt;img alt="LCD Housing." src="https://mechmotum.s3.us-east-005.dream.io/LCDHousingDesign.jpg" style="width: 75%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 11. LCD housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Similar to the LCD housing, the button housing is a two-piece, enclosure joined
@@ -5917,13 +5917,13 @@ more convenient for the user, larger button parts were 3D printed and offset
 from each mini momentary pushbutton using a compression spring as shown in
 Figure 12 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Button Housing." src="https://mechmotum.s3.us-east-005.dream.io/ButtonHousingDesign.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 12. Button housing design.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;As shown in Figure 13, the button housing is mounted on right side of the
 handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Button Housing Mount." src="https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
+&lt;img alt="Button Housing Mount." src="https://mechmotum.s3.us-east-005.dream.io/ButtonHousingPosition.JPG" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 13. Button housing position on the handlebars.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -5931,7 +5931,7 @@ handlebars near the throttle and brake lever for convenient access.&lt;/p&gt;
 &lt;div class="section" id="bill-of-materials"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-12"&gt;6.0 Bill of Materials&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Bill of Materials." src="https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Bill of Materials." src="https://mechmotum.s3.us-east-005.dream.io/ControlSystemBillofMaterials.jpg" style="width: 100%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Table 2. Bill of materials (BOM) showing each part of project, where it was
 purchased, what quantity was purchased and its cost.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -5983,7 +5983,7 @@ serve as a model for a human balancing on a moving platform (i.e. a
 skateboard), where the degrees of freedom is limited to the human’s waist and
 ankle joints. This model is illustrated in Figure 1 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Image depicting visual model showing the dynamics of the double pendulum robot" src="https://objects-us-east-1.dream.io/mechmotum/pendulum-fbd.png" style="width: 80%;" /&gt;
+&lt;img alt="Image depicting visual model showing the dynamics of the double pendulum robot" src="https://mechmotum.s3.us-east-005.dream.io/pendulum-fbd.png" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1: Double Pendulum Reference (Photo created by Erich Baur, Todd Sweeney, Jiahao Wei, Greg McDonald)&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;There are two key applications for such a device. Firstly, it can assist in
@@ -6018,7 +6018,7 @@ shown below, has a startup and swing-up buttons which enable the user to safely
 start system operation when ready. The user can select the desired motor
 controller and update the gains in real time.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Operating GUI." src="https://objects-us-east-1.dream.io/mechmotum/pendulum-gui.png" style="width: 50%;" /&gt;
+&lt;img alt="Operating GUI." src="https://mechmotum.s3.us-east-005.dream.io/pendulum-gui.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Operating GUI for Double Pendulum Operation&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6059,7 +6059,7 @@ for the GUI controller.&lt;/p&gt;
 &lt;div class="section" id="thank-you"&gt;
 &lt;h2&gt;Thank you&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="This image displays the two students that worked on this project over the Fall 2018 Quarter, Dorian Crutcher and Jonathan Blaze Cubanski" src="https://objects-us-east-1.dream.io/mechmotum/dorian-blaze.jpg" style="width: 80%;" /&gt;
+&lt;img alt="This image displays the two students that worked on this project over the Fall 2018 Quarter, Dorian Crutcher and Jonathan Blaze Cubanski" src="https://mechmotum.s3.us-east-005.dream.io/dorian-blaze.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3: Left: Dorian Crutcher   Right: Jonathan Blaze Cubanski&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6072,17 +6072,17 @@ late July.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&amp;quot;Adaptive smartphone-based sensor fusion for estimating competitive rowing
 kinematic metrics&amp;quot; is on work done by undergraduates Bryn Cloud, Britt
-Tarien, Ada Liu, and Thomas Shedd during 2018. &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/isb2019-abstract.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
+Tarien, Ada Liu, and Thomas Shedd during 2018. &lt;a class="reference external" href="https://mechmotum.s3.us-east-005.dream.io/isb2019-abstract.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We also submitted three abstracts to the &lt;a class="reference external" href="https://bmd2019.org/"&gt;Bicycle and Motorcycle Dynamics
 conference in Padova, Italy&lt;/a&gt; in September.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&amp;quot;Practical Realization of a Theoretical Optimal-Handling Bicycle&amp;quot; is on work
-done by undergraduate Roy Gilboa this past summer.  &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/bmd2019-abstract-gilboa.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
+done by undergraduate Roy Gilboa this past summer.  &lt;a class="reference external" href="https://mechmotum.s3.us-east-005.dream.io/bmd2019-abstract-gilboa.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;quot;Design of an Electric Bicycle Speed Controller&amp;quot; is on work done by
-undergraduate Trevor Metz since this past June.  &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/bmd2019-abstract-metz.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
+undergraduate Trevor Metz since this past June.  &lt;a class="reference external" href="https://mechmotum.s3.us-east-005.dream.io/bmd2019-abstract-metz.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;quot;Expanded Optimization for Discovering Optimal Lateral Handling Bicycle&amp;quot; is
-on work Mont, Ron, and I are continuing on optimal handling bicycles.  &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/bmd2019-abstract-moore.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
+on work Mont, Ron, and I are continuing on optimal handling bicycles.  &lt;a class="reference external" href="https://mechmotum.s3.us-east-005.dream.io/bmd2019-abstract-moore.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;And finally, we submitted an abstract on our work about ski jump design to the
 &lt;a class="reference external" href="https://www.isss2019.com/"&gt;International Society of Skiing Safety meeting&lt;/a&gt;
@@ -6090,7 +6090,7 @@ at Squaw Valley in April.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&amp;quot;Accessible, Open-source Computational Analysis and Design of Terrain Park
 Ski Jumps&amp;quot; based on work done by Bryn Cloud, Britt Tarien, Mont Hubbard and
-me. &lt;a class="reference external" href="https://objects-us-east-1.dream.io/mechmotum/isss2019-abstract.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
+me. &lt;a class="reference external" href="https://mechmotum.s3.us-east-005.dream.io/isss2019-abstract.pdf"&gt;[PDF]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We are crossing our fingers for acceptance! Thanks for all the hard work from
 the students!&lt;/p&gt;
@@ -6179,12 +6179,12 @@ our filters can perform well on both, then we know they are robust.&lt;/p&gt;
 smartphone GPS, complementary filter, and Kalman filter through the relative
 error with respect to the the distance per stroke computed from the
 differential GPS measurements.&lt;/p&gt;
-&lt;img alt="Distance Per Stroke Figure" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/dps.png" style="width: 50%;" /&gt;
+&lt;img alt="Distance Per Stroke Figure" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/dps.png" style="width: 50%;" /&gt;
 &lt;p&gt;Example boat speed estimates over 30 seconds during a typical trial comparing
 smartphone GPS derived speed and the complementary filter and Kalman filter
 outputs against the differential GPS is shown in Figure 2.  RMSE is calculated
 with respect to the sampling rate of the accelerometer, 100 Hz.&lt;/p&gt;
-&lt;img alt="Speed Estimation" class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/speed-example.png" style="width: 50%;" /&gt;
+&lt;img alt="Speed Estimation" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/speed-example.png" style="width: 50%;" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="discussion"&gt;
 &lt;h2&gt;Discussion&lt;/h2&gt;
@@ -6287,7 +6287,7 @@ biomechanical motions. One of the most popular and proven designs for
 human-powered water pumps is the treadle pump, which is operated via a stepping
 motion (Figure 1).&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Treadle Example." src="https://objects-us-east-1.dream.io/mechmotum/treadle-example.jpg" style="width: 50%;" /&gt;
+&lt;img alt="Treadle Example." src="https://mechmotum.s3.us-east-005.dream.io/treadle-example.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. A user &amp;quot;treadles&amp;quot; on the Money Maker treadle pump.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The treadle pump is an inexpensive and portable irrigation tool. According to
@@ -6318,7 +6318,7 @@ uncovered (on/off) to record the beginning and end of each test. The DAQ
 apparatus including photoresistor circuit, sensor wires, and LabJack is shown
 in Figure 2 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="DAQ Setup." src="https://objects-us-east-1.dream.io/mechmotum/daq-setup.png" style="width: 50%;" /&gt;
+&lt;img alt="DAQ Setup." src="https://mechmotum.s3.us-east-005.dream.io/daq-setup.png" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. The LabJack was kept dry and out of danger behind the treadle pump.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Force sensors were designed using steel plates and two 200 kg rated load cells.
@@ -6328,7 +6328,7 @@ Olympic weights and a balance scale for reference. The power meter apparatus
 consisting of the force sensors and angular rate gyro are shown below in Figure
 3.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Treadle Pump Setup." src="https://objects-us-east-1.dream.io/mechmotum/treadle-pump-setup.jpg" style="width: 50%;" /&gt;
+&lt;img alt="Treadle Pump Setup." src="https://mechmotum.s3.us-east-005.dream.io/treadle-pump-setup.jpg" style="width: 50%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. The Xylem treadle pump with force sensor and angular rate gyro attached&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;We measure force and angular rate using the force sensors and the angular rate
@@ -6399,30 +6399,30 @@ completed: three at each meter interval between 1 and 5 meters.&lt;/p&gt;
 &lt;div class="section" id="results"&gt;
 &lt;h2&gt;Results&lt;/h2&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="1m Trials." src="https://objects-us-east-1.dream.io/mechmotum/1m-trials.jpg" /&gt;
+&lt;img alt="1m Trials." src="https://mechmotum.s3.us-east-005.dream.io/1m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="2m Trials." src="https://objects-us-east-1.dream.io/mechmotum/2m-trials.jpg" /&gt;
+&lt;img alt="2m Trials." src="https://mechmotum.s3.us-east-005.dream.io/2m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="3m Trials." src="https://objects-us-east-1.dream.io/mechmotum/3m-trials.jpg" /&gt;
+&lt;img alt="3m Trials." src="https://mechmotum.s3.us-east-005.dream.io/3m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="4m Trials." src="https://objects-us-east-1.dream.io/mechmotum/4m-trials.jpg" /&gt;
+&lt;img alt="4m Trials." src="https://mechmotum.s3.us-east-005.dream.io/4m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 7&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="5m Trials." src="https://objects-us-east-1.dream.io/mechmotum/5m-trials.jpg" /&gt;
+&lt;img alt="5m Trials." src="https://mechmotum.s3.us-east-005.dream.io/5m-trials.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 8&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The figures 4-8 above show the calculated efficiencies for each pump at
 different pressure heads across all trials. The average efficiencies are
 graphed in figure 9 below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Average Efficiency." src="https://objects-us-east-1.dream.io/mechmotum/average-efficiency.jpg" /&gt;
+&lt;img alt="Average Efficiency." src="https://mechmotum.s3.us-east-005.dream.io/average-efficiency.jpg" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 9&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Figure 9 shows the efficiency trends across different pressure heads for each
@@ -6575,7 +6575,7 @@ California&lt;/td&gt;&lt;/tr&gt;
 instrumented ebike used in bicycle handling experimentation. To achieve this, a
 basic unity feedback control architecture (Figure 1) is employed.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Control Architecture." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Control Architecture." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-01.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 1. Control architecture where e is the error between the actual
 speed v of the ebike and the desired speed, vd, and V is the DC input
 voltage to the ebike plant model. Gc and Gp represent the controller and
@@ -6594,7 +6594,7 @@ conversion kit motor controller and a brushless 3 phase direct drive induction
 motor mounted to the rear hub of the bike. A simple diagram of the ebike
 drivetrain is shown below in Figure 2.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Ebike Drivetrain Diagram." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Ebike Drivetrain Diagram." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-02.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 2. Diagram of the drivetrain circuit and dynamics.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;In Figure 2, the induction motor is approximated by a model of a DC motor
@@ -6605,7 +6605,7 @@ rotational dynamics of the drivetrain are defined by Euler’s rotation equation
 &lt;p&gt;A simple equation of motion for the bicycle, modeled as a point mass, is
 derived using Newton’s 2nd Law of Motion in the horizontal direction &lt;a class="citation-reference" href="#wilson" id="citation-reference-1"&gt;[Wilson]&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Free Body Diagram of Bicycle." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg" style="width: 20%;" /&gt;
+&lt;img alt="Free Body Diagram of Bicycle." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-03.jpg" style="width: 20%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 3. Free body diagram of the bicycle modeled as a point mass. Fa, Fr
 and Fp are the aerodynamic drag, rolling resistance and propulsive forces
 respectively.&lt;/em&gt;&lt;/p&gt;
@@ -6613,10 +6613,10 @@ respectively.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Together, the vehicle and drivetrain dynamics of the ebike can be shown in a
 state space representation with state variables &lt;span class="math"&gt;\(i(t)\)&lt;/span&gt; and &lt;span class="math"&gt;\(x(t)\)&lt;/span&gt;
 as seen below.&lt;/p&gt;
-&lt;img alt="State Space Representation of the eBike." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg" style="width: 55%;" /&gt;
+&lt;img alt="State Space Representation of the eBike." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-04.jpg" style="width: 55%;" /&gt;
 &lt;p&gt;From the state space representation, a transfer function from input DC voltage
 &lt;span class="math"&gt;\(V\)&lt;/span&gt; to output speed &lt;span class="math"&gt;\(v\)&lt;/span&gt; is formed:&lt;/p&gt;
-&lt;img alt="Plant Model Transfer Function." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-05.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Plant Model Transfer Function." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-05.jpg" style="width: 80%;" /&gt;
 &lt;p&gt;This plant model is a second order transfer function relating an applied DC
 voltage input to the ebike’s motor controller to the output speed of the ebike.
 This model represents an approximation of the true plant model of the ebike. To
@@ -6634,12 +6634,12 @@ textbook resources &lt;a class="citation-reference" href="#wilson" id="citation-
 in the derived plant model of the ebike to match a speed time response measured
 from the instrumented ebike. Figure 4, below, shows the curve fitting result.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Curve Fitting Results." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Curve Fitting Results." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-06.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 4. Result of the least-squares curve fitting.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Figure 4 shows that the plant model of ebike was reasonably identified using
 the least-squares curve fitting method. The resulting ebike plant model is:&lt;/p&gt;
-&lt;img alt="Identified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-07.jpg" style="width: 90%;" /&gt;
+&lt;img alt="Identified Plant Model." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-07.jpg" style="width: 90%;" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="controller-design-in-matlab"&gt;
 &lt;h2&gt;Controller Design in MATLAB&lt;/h2&gt;
@@ -6650,7 +6650,7 @@ behavior using MATLAB’s Control System Toolbox.&lt;/p&gt;
 design goals with zero steady state error, a settling time of 1.56s, and an
 overshoot percentage of 10.45%.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Closed Loop System Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Closed Loop System Step Response." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-08.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 5. Closed Loop System Step Response.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6660,7 +6660,7 @@ overshoot percentage of 10.45%.&lt;/p&gt;
 loop system with regards to uncertainties in the coefficients of the identified
 ebike plant model. The constants in the derived ebike plant model were lumped
 together forming the following simplified plant model:&lt;/p&gt;
-&lt;img alt="Simplified Plant Model." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-09.jpg" style="width: 90%;" /&gt;
+&lt;img alt="Simplified Plant Model." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-09.jpg" style="width: 90%;" /&gt;
 &lt;p&gt;The constants &lt;span class="math"&gt;\(a\)&lt;/span&gt;, &lt;span class="math"&gt;\(b\)&lt;/span&gt;, &lt;span class="math"&gt;\(c\)&lt;/span&gt;, and &lt;span class="math"&gt;\(d\)&lt;/span&gt; in the above
 transfer function were defined in MATLAB as real-uncertain parameters with
 varying percentage based uncertainties about their nominal values. The nominal
@@ -6669,7 +6669,7 @@ identification step of the controller design process.  Figure 6, below, shows
 the nominal closed loop and open loop system step response with 20 random
 samples of the uncertain plant model defined by the uncertain coefficients.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="Uncertain Step Response." src="https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-10.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Uncertain Step Response." src="https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-10.jpg" style="width: 80%;" /&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Figure 6. Step response of the nominal closed loop system with 20 random
 samples of the uncertain closed loop step response superimposed on the
 plot.&lt;/em&gt;&lt;/p&gt;
@@ -6792,7 +6792,7 @@ viewed here:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://doi.org/10.21105/joss.00818"&gt;https://doi.org/10.21105/joss.00818&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you'd like to check out the web app, click the image below:&lt;/p&gt;
 &lt;a class="reference external image-reference" href="http://www.skijumpdesign.info"&gt;
-&lt;img alt="Screenshot of the application." class="align-center" src="https://objects-us-east-1.dream.io/mechmotum.github.io/skijumpdesign-screenshot.jpg" style="width: 50%;" /&gt;
+&lt;img alt="Screenshot of the application." class="align-center" src="https://mechmotum.s3.us-east-005.dream.io.github.io/skijumpdesign-screenshot.jpg" style="width: 50%;" /&gt;
 &lt;/a&gt;
 &lt;p&gt;Other related information:&lt;/p&gt;
 &lt;ul class="simple"&gt;
