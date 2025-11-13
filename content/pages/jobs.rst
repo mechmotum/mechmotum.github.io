@@ -75,6 +75,11 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Develop a fast technique for estimating the mass distribution of a
+       bicycle and rider <https://github.com/mechmotum/ideas/issues/54>`_
+     - 2025-11-13
+     -
+     - Thesis
    * - `Optimal Bicycle Configuration and Crank/Chainring Design for Maximal
        Power in Pedaling <https://github.com/mechmotum/ideas/issues/50>`_
      - 2025-11-11
