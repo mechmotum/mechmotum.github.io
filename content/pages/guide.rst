@@ -748,6 +748,9 @@ Introduction to Bicycle Dynamics
 |Astrom2005|
    IEEE control systems magazine article that introduces bicycle dynamics with
    a few different models and nice explanation of important control principles.
+|Limebeer2006|
+   Another control systems magazine article that gets more into the general
+   principles of motorcycles, most important tire dynamics.
 |Meijaard2007|
    Shows the fundamental bicycle model we typically start with for
    understanding lateral dynamics of single track vehicles. Introduces much of
@@ -767,6 +770,9 @@ Ciechanowski2023_
    "Bicycle dynamics and control: adapted bicycles for education and research,"
    IEEE Control Systems Magazine, vol. 25, no. 4, pp. 26–47, Aug. 2005,
    https://doi.org/10.1109/MCS.2005.1499389.
+.. |Limebeer2006| replace:: Limebeer, D. J. N., & Sharp, R. S. (2006).
+   Bicycles, motorcycles, and models. IEEE Control Systems Magazine, 26(5),
+   34–61.
 .. |Meijaard2007| replace:: J. P. Meijaard, J. M. Papadopoulos, A. Ruina, and A. L. Schwab,
    "Linearized dynamics equations for the balance and steer of a bicycle: A
    benchmark and review," Proceedings of the Royal Society A: Mathematical,
