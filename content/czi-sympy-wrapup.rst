@@ -8,7 +8,7 @@ SymPy CZI Grant Code Generation & Biomechanics Outcomes
 :category: research
 :slug: sympy-czi-outcomes
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/biomechanics-steerer.png
 :summary: Summary of the work performed under the Chan-Zuckerberg Foundation
           Open Source Software for Science Cycle 4 grant awarded to Sympy and
           performed by Delft University of Technology. We developed new
@@ -26,7 +26,7 @@ SymPy CZI Grant Code Generation & Biomechanics Outcomes
 .. |sympy-logo| image:: https://docs.sympy.org/latest/_images/sympy-500px.png
    :height: 200px
 
-.. |czi-logo| image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
+.. |czi-logo| image:: https://mechmotum.s3.us-east-005.dream.io/czi-logo.png
    :height: 200px
 
 .. contents::
@@ -110,22 +110,22 @@ modeling using SymPy.
    * - |joint5|
      - |joint6|
 
-.. |joint1| image:: https://objects-us-east-1.dream.io/mechmotum/PinJoint.png
+.. |joint1| image:: https://mechmotum.s3.us-east-005.dream.io/PinJoint.png
    :height: 180px
 
-.. |joint2| image:: https://objects-us-east-1.dream.io/mechmotum/PrismaticJoint.png
+.. |joint2| image:: https://mechmotum.s3.us-east-005.dream.io/PrismaticJoint.png
    :height: 180px
 
-.. |joint3| image:: https://objects-us-east-1.dream.io/mechmotum/CylindricalJoint.png
+.. |joint3| image:: https://mechmotum.s3.us-east-005.dream.io/CylindricalJoint.png
    :height: 180px
 
-.. |joint4| image:: https://objects-us-east-1.dream.io/mechmotum/PlanarJoint.png
+.. |joint4| image:: https://mechmotum.s3.us-east-005.dream.io/PlanarJoint.png
    :height: 180px
 
-.. |joint5| image:: https://objects-us-east-1.dream.io/mechmotum/SphericalJoint.png
+.. |joint5| image:: https://mechmotum.s3.us-east-005.dream.io/SphericalJoint.png
    :height: 180px
 
-.. |joint6| image:: https://objects-us-east-1.dream.io/mechmotum/WeldJoint.png
+.. |joint6| image:: https://mechmotum.s3.us-east-005.dream.io/WeldJoint.png
    :height: 180px
 
 Symbolic Solutions to Linear Equations
@@ -366,7 +366,7 @@ tutorial.
    * - |biomechanics-steerer|
      - |biomechanics-steerer-results|
 
-.. |biomechanics-steerer| image:: https://objects-us-east-1.dream.io/mechmotum/biomechanics-steerer.png
+.. |biomechanics-steerer| image:: https://mechmotum.s3.us-east-005.dream.io/biomechanics-steerer.png
    :width: 100%
 
 .. |biomechanics-steerer-results| image:: https://docs.sympy.org/latest/_images/biomechanical-model-example-38.png
@@ -550,7 +550,7 @@ Motorcycle Dynamics 2023 conference that gives a more concise overview of the
 package as well as demonstrating easily swapping models for comparable optimal
 control results.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/brim-lane-change.gif
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/brim-lane-change.gif
    :align: center
    :width: 80%
 
@@ -638,16 +638,16 @@ and solves with these timings:
    * - |muscle-bike-rider-03|
      - |muscle-bike-rider-04|
 
-.. |muscle-bike-rider-01| image:: https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-01.png
+.. |muscle-bike-rider-01| image:: https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-01.png
    :width: 100%
 
-.. |muscle-bike-rider-02| image:: https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-02.png
+.. |muscle-bike-rider-02| image:: https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-02.png
    :width: 100%
 
-.. |muscle-bike-rider-03| image:: https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-03.png
+.. |muscle-bike-rider-03| image:: https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-03.png
    :width: 100%
 
-.. |muscle-bike-rider-04| image:: https://objects-us-east-1.dream.io/mechmotum/muscle-bike-rider-04.png
+.. |muscle-bike-rider-04| image:: https://mechmotum.s3.us-east-005.dream.io/muscle-bike-rider-04.png
    :width: 100%
 
 The simulation codes and the draft paper about the results can be found in the

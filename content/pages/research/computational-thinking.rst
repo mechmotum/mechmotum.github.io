@@ -15,7 +15,7 @@ Computational Thinking
                    skills can use coding as a "pedagogic lever" to learn other
                    topics in engineering, math, natural and social science,
                    arts and humanities.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-comp-think.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-comp-think.png
 :slug: research/computational-thinking
 
 We have been exploring ways to use computation in the STEM curriculum not

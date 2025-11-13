@@ -7,9 +7,9 @@ Timo Stienstra Successfully Defends His MSc Thesis
 :category: news
 :slug: timo-stienstra-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-stienstra.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-stienstra.png
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-stienstra.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-stienstra.png
    :align: center
    :height: 400px
 
@@ -54,22 +54,22 @@ of his simulations:
    *  - |two-bikes|
       - |rolling-disc|
 
-.. |bike-circle| image:: https://objects-us-east-1.dream.io/mechmotum/timo-bike-circle.gif
+.. |bike-circle| image:: https://mechmotum.s3.us-east-005.dream.io/timo-bike-circle.gif
    :height: 400px
 
-.. |bike-large-turns| image:: https://objects-us-east-1.dream.io/mechmotum/timo-bike-large-turns.gif
+.. |bike-large-turns| image:: https://mechmotum.s3.us-east-005.dream.io/timo-bike-large-turns.gif
    :height: 400px
 
-.. |bike-rider| image:: https://objects-us-east-1.dream.io/mechmotum/timo-bike-rider.gif
+.. |bike-rider| image:: https://mechmotum.s3.us-east-005.dream.io/timo-bike-rider.gif
    :height: 400px
 
-.. |one-bike| image:: https://objects-us-east-1.dream.io/mechmotum/timo-one-bike.gif
+.. |one-bike| image:: https://mechmotum.s3.us-east-005.dream.io/timo-one-bike.gif
    :height: 400px
 
-.. |two-bikes| image:: https://objects-us-east-1.dream.io/mechmotum/timo-two-bikes.gif
+.. |two-bikes| image:: https://mechmotum.s3.us-east-005.dream.io/timo-two-bikes.gif
    :height: 400px
 
-.. |rolling-disc| image:: https://objects-us-east-1.dream.io/mechmotum/timo-rolling-disc.gif
+.. |rolling-disc| image:: https://mechmotum.s3.us-east-005.dream.io/timo-rolling-disc.gif
    :height: 400px
 
 Timo was co-supervised by Sam Brockie (TU Delft) and Jason K. Moore (TU Delft).

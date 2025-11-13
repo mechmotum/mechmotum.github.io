@@ -7,7 +7,7 @@ Slidedeck From Our Recent SacPy Talk
 :slug: sacpy-slideck-2019
 :authors: Jason K. Moore
 :summary: Our slides from our November SacPy talk.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/celine-sacpy.jpg
 
 .. raw:: html
 
@@ -16,7 +16,7 @@ Slidedeck From Our Recent SacPy Talk
    frameborder="0" width="960" height="569" allowfullscreen="true"
    mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/celine-sacpy.jpg
    :width: 800
    :align: center
    :alt: Celine presenting at SacPy.

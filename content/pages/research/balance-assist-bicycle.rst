@@ -13,7 +13,7 @@ Balance Assist Bicycle for Fall Reduction
                    that is capable of stabilizing itself at lower speeds than
                    regular bicycles. When ridden this effect enhances the
                    rider's balance at low speeds where falls often occur.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/balance-assist-bicycle-400x400.jpg
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/balance-assist-bicycle-400x400.jpg
 :slug: research/balance-assist-bicycle
 
 Description

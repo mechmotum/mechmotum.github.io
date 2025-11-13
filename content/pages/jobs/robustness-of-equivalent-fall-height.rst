@@ -7,7 +7,7 @@ How Robust is Equivalent Fall Height for Predicting Injury Severity in Snow Jump
 :slug: jobs/msc/robustness-of-equivalent-fall-height
 :template: msc-project
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-figure-01.png
    :width: 600px
    :align: center
 

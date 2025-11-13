@@ -8,7 +8,7 @@ Ski Jump Design Software to Analyze User Inputted Jumps
 :authors: Bryn Cloud
 :summary: Blog post on adding page to skijumpdesign app to analyze user inputted
           ski jumps for equivalent fall height.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/ski-figure-01.png
 
 Introduction
 ------------
@@ -18,7 +18,7 @@ that allows users to input a measured jump profile and get a depiction of
 the equivalent fall height (EFH) for their jump. Figure 1 illustrates the
 components of a terrain park using common terminology.
 
- .. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png
+ .. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-figure-01.png
    :width: 80%
    :align: center
    :alt: Ski Jump Terminology.
@@ -91,7 +91,7 @@ locations, which was a pleasant surprise after the testing on a bike. This data
 shows promise for this jump profiling method. Figure 2 shows me (the skier)
 with the differential GPS ski helmet, and the backpack strapped to my chest.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-02.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-figure-02.jpg
    :width: 50%
    :align: center
    :alt: Differential GPS Skier Helmet.
@@ -105,7 +105,7 @@ The new version of the ski jump web application has launched and is available
 at http://www.skijumpdesign.info. A home page was added to keep it user
 friendly. This is shown below.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-03.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-figure-03.png
    :width: 50%
    :align: center
    :alt: Ski Jump Tool Home Page.
@@ -115,7 +115,7 @@ friendly. This is shown below.
 The buttons centered in the middle of this page will direct users to the ski
 jump design or the new analysis page shown in Figure 4.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-06.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-figure-06.png
    :width: 50%
    :align: center
    :alt: Ski Jump Tool Analysis.
@@ -131,7 +131,7 @@ limits the acceleration felt by the skier - which is the reason for the spike
 in EFH.  From there, the user can scroll down to the input box to upload their
 own jump. This input box is shown in Figure 5 with a sample csv file uploaded.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-07.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-figure-07.png
    :width: 50%
    :align: center
    :alt: Analysis Input Box.

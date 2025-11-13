@@ -7,7 +7,7 @@ Development of a Bobsleigh Simulator for Training and Outreach in Jamaica
 :slug: jobs/msc/bobsleigh-simulator
 :template: msc-project
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/jamaican-bobsleigh.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io/jamaican-bobsleigh.jpg
    :align: center
 
 `The Jamaican Bobsleigh and Skeleton Federation`_ is interested in having a modern

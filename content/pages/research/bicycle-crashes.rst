@@ -9,7 +9,7 @@ Understanding Single Bicycle Crashes
 :research_theme: Cycling Safety
 :template: project
 :summary-sentence: We aim to discover how critical riding situations end in single bicycle crashes, through the understanding of biomechanics involved in the phenomena. 
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/fall-logo.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/fall-logo.png
 :slug: research/bicycle-crashes
 
 

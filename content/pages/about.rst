@@ -8,7 +8,7 @@ About
 :date: 2018-10-05
 :front: true
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/bicycle-lab-collage-640w.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/bicycle-lab-collage-640w.png
    :align: center
 
 The TU Delft Bicycle Lab is a research lab in the `Biomechatronics &
@@ -59,10 +59,10 @@ Current Funders and Partners
    :align: center
    :width: 100%
 
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-dsm-firmenich-postnl.svg
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-dsm-firmenich-postnl.svg
           :width: 100%
           :target: https://www.teamdsmfirmenich-postnl.com/
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/
           :width: 100%
           :target: none
 
@@ -74,40 +74,40 @@ Past Funders and Partners
    :align: center
    :width: 100%
 
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-prinoth.png
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-prinoth.png
           :width: 100%
           :target: https://www.prinoth.com/
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-gazelle.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-gazelle.png
           :width: 100%
           :target: https://www.gazellebikes.com
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/ictech-logo.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/ictech-logo.png
           :width: 100%
           :target: https://www.ictech.se
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-bosch-ebike.jpg
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-bosch-ebike.jpg
           :width: 100%
           :target: https://www.bosch-ebike.com
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-swov.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-swov.png
           :width: 100%
           :target: https://www.swov.nl
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-quantsight.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-quantsight.png
           :width: 100%
           :target: https://www.quansight.com
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/sympy-logo.png
           :width: 100%
           :target: https://www.sympy.org
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/czi-logo.png
           :width: 100%
           :target: https://chanzuckerberg.com
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-clicknl.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-clicknl.png
           :height: 200px
           :target: https://www.clicknl.nl
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-nwo.jpg
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-nwo.jpg
           :height: 200px
           :target: https://www.nwo.nl
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/logo-veiligheid.svg
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/logo-veiligheid.svg
           :width: 100%
           :target: https://www.veiligheid.nl
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/
           :width: 100%
           :target: none
 

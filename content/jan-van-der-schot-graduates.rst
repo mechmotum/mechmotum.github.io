@@ -7,7 +7,7 @@ Jan van der Schot Successfully Defends His MSc Thesis
 :category: news
 :slug: jan-van-der-schot-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-der-schot.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-der-schot.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Jan van der Schot Successfully Defends His MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-schot-jan.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-van-der-schot-jan.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-der-schot.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-der-schot.png
    :height: 400px
 
 Jan van der Schot successfully defended "`The Relationship between Equivalent

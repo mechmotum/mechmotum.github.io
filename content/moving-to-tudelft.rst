@@ -7,9 +7,9 @@ The Laboratorium is Moving to TU Delft
 :slug: moving-to-tudelft
 :authors: Jason K. Moore
 :summary: The lab is moving to TU Delft this summer.
-:thumbail: https://objects-us-east-1.dream.io/mechmotum/tudelft-logo.png
+:thumbail: https://mechmotum.s3.us-east-005.dream.io/tudelft-logo.png
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/tudelft-logo.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/tudelft-logo.png
    :align: center
    :alt: TU Delft Logo
 

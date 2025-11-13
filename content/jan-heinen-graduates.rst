@@ -7,7 +7,7 @@ Jan Heinen Successfully Defends His MSc Thesis
 :category: news
 :slug: jan-heinen-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-heinen.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-heinen.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Jan Heinen Successfully Defends His MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-heinen-jan.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-heinen-jan.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-heinen.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-heinen.png
    :height: 400px
 
 Jan Heinen successfully defended "`Optimal Skateboard Geometry for Maximizing

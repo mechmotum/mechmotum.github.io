@@ -8,7 +8,7 @@ Rowing Performance Estimation Paper Published
 :authors: Jason K. Moore
 :summary: Our 2019 rowing performance estimation paper is now published in Plos
           One.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/row-plos-screenshot.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/row-plos-screenshot.png
 
 We've been working on this project and paper for two years and it was finally
 published in Plos One on December 5, 2019. The citation is:
@@ -17,7 +17,7 @@ published in Plos One on December 5, 2019. The citation is:
    smartphone-based sensor fusion for estimating competitive rowing kinematic
    metrics. PLoS ONE 14(12): e0225690. https://doi.org/10.1371/journal.pone.0225690
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/row-plos-screenshot.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/row-plos-screenshot.png
    :width: 80%
    :alt: Screenshot of the Plos One paper.
    :align: center
@@ -52,7 +52,7 @@ Congratulations to everyone involved in making this happen! We hope this work
 helps others progress in sports performance estimation and other related
 topics.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/row-research-team.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/row-research-team.png
    :width: 80%
    :alt: Rowing performance estimation project team.
    :align: center

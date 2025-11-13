@@ -19,7 +19,7 @@ https://doi.org/10.21105/joss.00818
 
 If you'd like to check out the web app, click the image below:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum.github.io/skijumpdesign-screenshot.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io.github.io/skijumpdesign-screenshot.jpg
    :width: 50%
    :align: center
    :target: http://www.skijumpdesign.info

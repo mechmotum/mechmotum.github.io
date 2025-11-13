@@ -10,7 +10,7 @@ Biomechanical Optimization with SymPy 1.13 and Opty 1.3
 :summary: SymPy 1.13 and Opty 1.3 can now be used for optimal control solutions
           of muscle-driven biomechanical simulation. This blog post shows of a
           solution to a muscle driven cycling time trial.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-power.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/one-legged-80m-power.png
 
 `SymPy 1.13`_ was released on July 8, 2024. This release includes `all of the
 work we did under the CZI Open Source Software for Science Cycle 4 grant
@@ -28,7 +28,7 @@ thousands of constraints and optimization variables. To help grow adoption,
 we've built out a new example gallery that demonstrates how Opty can be used to
 solve a variety of problems:
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/opty-1.3-examples.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/opty-1.3-examples.png
    :align: center
    :target: https://opty.readthedocs.io/stable/examples/index.html
 
@@ -54,14 +54,14 @@ This produces a reasonably realistic overall motion which can be seen in the
 cadence, resulting speed, and the power to accelerate and overcome rolling and
 air resistance:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-power.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/one-legged-80m-power.png
    :align: center
 
 There is no limit on the fatigue of the muscles so the optimizer finds a
 bang-bang style coordination of the muscle excitations to power the leg and
 push the muscles to their maximum force production:
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/one-legged-80m-muscle.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/one-legged-80m-muscle.png
    :align: center
 
    The four muscle forces, muscle lengths, and muscle excitations versus time
@@ -73,7 +73,7 @@ This solution results in this overall pedaling motion:
 
    <center>
      <video controls>
-       <source src="https://objects-us-east-1.dream.io/mechmotum/one-legged-80m.mp4" type="video/mp4">
+       <source src="https://mechmotum.s3.us-east-005.dream.io/one-legged-80m.mp4" type="video/mp4">
      </video>
    </center>
 
@@ -82,7 +82,7 @@ models to enable deeper understanding of how bicycles are balanced and
 controlled. Opty can quickly find optimal trajectories of the joint torque
 driven model, as shown in our `BRiM paper`_:
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/brim-paper-opty-example.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/brim-paper-opty-example.png
    :align: center
 
    Torque driven Opty optimal control solution for the non-linear

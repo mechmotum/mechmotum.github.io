@@ -7,9 +7,9 @@ Kenneth Pasma Successfully Defends His MSc Thesis
 :category: news
 :slug: kenneth-pasma-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-pasma-240.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-pasma-240.png
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-pasma.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-pasma.png
    :height: 400px
    :align: center
    :target: http://resolver.tudelft.nl/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a

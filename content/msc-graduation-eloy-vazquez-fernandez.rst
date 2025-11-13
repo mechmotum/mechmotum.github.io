@@ -6,7 +6,7 @@ Eloy Vázquez Fernández Successfully Defends His MSc Thesis
 :tags: vibration, power, cycling
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-vazquez.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-vazquez.png
 
 .. list-table::
    :class: borderless
@@ -16,11 +16,11 @@ Eloy Vázquez Fernández Successfully Defends His MSc Thesis
    * - |headshot|
      - |cover|
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-vazquez.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-vazquez.png
    :height: 400px
    :target: https://resolver.tudelft.nl/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-fernandez-eloy-vasquez.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-fernandez-eloy-vasquez.jpg
    :height: 400px
 
 Eloy Vázquez Fernández successfully defended his MSc thesis titled `Vibration
@@ -45,10 +45,10 @@ question the use of the International Roughness Index (IRI) for classifying
 road roughness for these purposes because it neglects the variation of
 vibration across frequencies.
 
-.. |one| image:: https://objects-us-east-1.dream.io/mechmotum/eloy-plot-power-30kph.png
+.. |one| image:: https://mechmotum.s3.us-east-005.dream.io/eloy-plot-power-30kph.png
    :width: 600px
 
-.. |two| image:: https://objects-us-east-1.dream.io/mechmotum/eloy-vibration-power-loss-seated.png
+.. |two| image:: https://mechmotum.s3.us-east-005.dream.io/eloy-vibration-power-loss-seated.png
    :width: 600px
 
 .. list-table::

@@ -7,7 +7,7 @@ Simonas Draukšas Successfully Defends His MSc Thesis
 :category: news
 :slug: simonas-drauksas-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-drauksas.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-drauksas.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Simonas Draukšas Successfully Defends His MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-drauksas-simonas.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-drauksas-simonas.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-drauksas.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-drauksas.png
    :height: 400px
 
 `Simonas Draukšas`_ successfully defended "`Using Model Predictive Control on a

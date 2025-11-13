@@ -7,7 +7,7 @@ Sietse Soethout Successfully Defends His MSc Thesis
 :category: news
 :slug: sietse-soethout-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-soethout-240w.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-soethout-240w.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Sietse Soethout Successfully Defends His MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-soethout-sietse.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-soethout-sietse.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-soethout.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-soethout.png
    :height: 400px
    :target: https://resolver.tudelft.nl/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def
 
@@ -43,7 +43,7 @@ shows a simulation along one of the routes:
 
    <center>
    <video width="800px" controls>
-     <source src="https://objects-us-east-1.dream.io/mechmotum/hs_noi_tunnel_single.mp4" type="video/mp4">
+     <source src="https://mechmotum.s3.us-east-005.dream.io/hs_noi_tunnel_single.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
    </center>
@@ -57,7 +57,7 @@ cyclists riding the route:
 
    <center>
    <video width="800px" controls>
-     <source src="https://objects-us-east-1.dream.io/mechmotum/all_animation_hs_noi_normal_all_fast.mp4" type="video/mp4">
+     <source src="https://mechmotum.s3.us-east-005.dream.io/all_animation_hs_noi_normal_all_fast.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
    </center>

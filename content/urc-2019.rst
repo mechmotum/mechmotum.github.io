@@ -8,7 +8,7 @@ Laboratorium Represented at the UC Davis Undergraduate Research Conference
 :authors: Jason K. Moore
 :summary: Bryn Cloud and Trevor Metz Presented at the 2019 UC Davis
           Undergraduate Research Conference
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/urc2019-metz-photo.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/urc2019-metz-photo.jpg
 
 Two of the undergraduate researchers in the Laboratorium presented their past
 year's work at the UC Davis Undergraduate Research Conference on April 26,
@@ -17,33 +17,33 @@ year's work at the UC Davis Undergraduate Research Conference on April 26,
 Design of an Electric Bicycle Speed Controller
 ----------------------------------------------
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/urc2019-metz-photo.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/urc2019-metz-photo.jpg
    :width: 80%
    :alt: Trevor Metz standing beside his poster at the conference.
    :align: center
 
    Trevor Metz beside his poster.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/urc2019-metz-poster.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/urc2019-metz-poster.png
    :width: 80%
    :alt: Trevor Metz's poster.
    :align: center
 
-   Trevor Metz's poster. `[Download bicycle poster PDF] <https://objects-us-east-1.dream.io/mechmotum/urc2019-poster-metz.pdf>`__
+   Trevor Metz's poster. `[Download bicycle poster PDF] <https://mechmotum.s3.us-east-005.dream.io/urc2019-poster-metz.pdf>`__
 
 Smartphone-based Sensor Fusion for Estimating Rowing Kinematic Metrics
 ----------------------------------------------------------------------
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/urc2019-cloud-photo.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/urc2019-cloud-photo.jpg
    :width: 80%
    :alt: Bryn Cloud standing beside her poster at the conference.
    :align: center
 
    Bryn Cloud beside her poster.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/urc2019-cloud-poster.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/urc2019-cloud-poster.png
    :width: 80%
    :alt: Bryn Cloud's poster.
    :align: center
 
-   Bryn Cloud's poster. `[Download rowing poster PDF] <https://objects-us-east-1.dream.io/mechmotum/urc2019-poster-cloud.pdf>`__
+   Bryn Cloud's poster. `[Download rowing poster PDF] <https://mechmotum.s3.us-east-005.dream.io/urc2019-poster-cloud.pdf>`__

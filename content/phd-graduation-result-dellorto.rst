@@ -7,9 +7,9 @@ Gabriele Dell'Orto Successfully Defends His PhD Thesis
 :category: news
 :slug: gabriele-dellorto-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dellorto.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dellorto.png
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/gabriele-defense-01.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/gabriele-defense-01.jpg
    :align: center
 
    Dr. Gabriele Dell'Orto just following the awarding of the doctorate on
@@ -26,10 +26,10 @@ Gabriele Dell'Orto Successfully Defends His PhD Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dellorto.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dellorto.png
    :height: 400px
 
 Bike Lab PhD candidate, Gabriele Dell'Orto, defended his PhD dissertation

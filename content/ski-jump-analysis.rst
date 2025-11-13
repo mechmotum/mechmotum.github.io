@@ -6,7 +6,7 @@ New Preprint on Ski Jump Safety and skijumpdesign Software Update
 :authors: Jason K. Moore
 :category: research
 :tags: skiing,snowboarding,safety,sports,engineering,ethics
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/salvini-v-snoqualmie.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/salvini-v-snoqualmie.png
 
 Yesterday, we posted a new preprint to engrXiv_:
 
@@ -39,7 +39,7 @@ has new features that let jump builders analyze existing or planned jumps by
 equivalent fall height calculations. These features were used to analyse the
 two case studies in the paper.
 
-.. figure::  https://objects-us-east-1.dream.io/mechmotum/salvini-v-snoqualmie.png
+.. figure::  https://mechmotum.s3.us-east-005.dream.io/salvini-v-snoqualmie.png
    :alt: Equivalent fall height plot of the Salvini case study.
    :align: center
    :width: 600px
@@ -48,7 +48,7 @@ two case studies in the paper.
    from the paper.
 
 
-.. figure::  https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-1.4.0-analysis-screenshot.png
+.. figure::  https://mechmotum.s3.us-east-005.dream.io/skijumpdesign-1.4.0-analysis-screenshot.png
    :alt: Screenshot of the skijumpdesign app's analysis page.
    :align: center
    :width: 600px

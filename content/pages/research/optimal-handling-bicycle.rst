@@ -9,7 +9,7 @@ Optimal Handling Bicycles
 :research_theme: Bicycle Engineering
 :status: hidden
 :template: project
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-optimal-handling-bicycle.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-optimal-handling-bicycle.png
 :summary-sentence: Our goal with this project is to develop metrics that
                    quantify the handling, i.e. ease of control, of a bicycle or
                    other single track vehicle and using these metrics develop
@@ -77,7 +77,7 @@ Associated Research Products
 Media
 =====
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/handling-metric.png
    :align: center
    :width: 60%
    :alt: Example handle quality metric plot.
@@ -85,7 +85,7 @@ Media
    Figure taken from [Hess2012]_ showing the handling quality metrics for an
    assortment of bicycles.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/optimal-handling-bicycle.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/optimal-handling-bicycle.png
    :align: center
    :width: 60%
    :alt: Image of a theorectical optimal bicycle.
@@ -94,7 +94,7 @@ Media
    for a 5 m/s travel speed compared to the benchmark bicycle from
    [Meijaard2007]_.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/opt-bike-design.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/opt-bike-design.png
    :align: center
    :width: 60%
    :alt: Image of a realizable optimal bicycle.
@@ -102,7 +102,7 @@ Media
    Image of an early realizable potentiall optimal bicycle. This bicycle design was based
    on some incorrect analisys and was not constructed.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated-rider.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/3ms-fabricated-rider.jpg
    :width: 50%
    :align: center
    :alt: 3ms Fabricated Rider.

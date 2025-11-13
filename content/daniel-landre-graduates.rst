@@ -7,7 +7,7 @@ Daniël Landré Successfully Defends His MSc Thesis
 :category: news
 :slug: daniel-landre-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-landre.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-landre.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Daniël Landré Successfully Defends His MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-landre-daniel.png
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-landre-daniel.png
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-landre.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-landre.png
    :height: 400px
 
 `Daniël Landré`_ successfully defended "`Predicting cycling risk at

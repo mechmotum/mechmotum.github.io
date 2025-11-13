@@ -72,9 +72,9 @@ else:
 OS_SEP = os.sep
 DISQUS_SITENAME = "mechmotum"
 SITESUBTITLE = 'E pur si muove'
-SITEIMAGE = 'https://objects-us-east-1.dream.io/mechmotum/bear-bicycle-transparent-480x480.png'
+SITEIMAGE = 'https://mechmotum.s3.us-east-005.dream.io/bear-bicycle-transparent-480x480.png'
 # INSTITUTEIMAGE should bee 100px in height
-INSTITUTIONIMAGE = 'https://objects-us-east-1.dream.io/mechmotum/tu-delft-logo-233x100.png'
+INSTITUTIONIMAGE = 'https://mechmotum.s3.us-east-005.dream.io/tu-delft-logo-233x100.png'
 DESCRIPTION = ''
 # pelican-alchemy removed the original theme.css, so bring it back.
 THEME_CSS_OVERRIDES = ['theme/css/origtheme.css']

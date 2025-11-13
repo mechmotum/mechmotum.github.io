@@ -19,7 +19,7 @@ Learning Mechanical Vibrations Through Computational Thinking
                    and learning. These teaching materials are backed by a
                    custom software library for mechanical vibrations designed
                    to facilitate solving problems with computational thinking.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-resonance.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-resonance.png
 :slug: research/resonance
 
 Associated Research Products

@@ -6,7 +6,7 @@ Simon Sorgedrager Successfully Defends His MSc Thesis
 :tags: bicycle, optimization, rider, countersteer
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-sorgedrager.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-sorgedrager.png
 
 .. list-table::
    :class: borderless
@@ -16,10 +16,10 @@ Simon Sorgedrager Successfully Defends His MSc Thesis
    * - |headshot|
      - |cover|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-sorgedrager-simon.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-sorgedrager-simon.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-sorgedrager-w400.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-sorgedrager-w400.png
    :height: 400px
    :target: https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7
 
@@ -53,13 +53,13 @@ at https://github.com/mechmotum/no-hands-riding.
 The following animations show the rider model variations performing a lane
 change:
 
-.. |single| image:: https://objects-us-east-1.dream.io/mechmotum/simon-single-pendulum-lange-change.gif
+.. |single| image:: https://mechmotum.s3.us-east-005.dream.io/simon-single-pendulum-lange-change.gif
    :width: 300px
 
-.. |sliding| image:: https://objects-us-east-1.dream.io/mechmotum/simon-single-pendulum-with-sliding-lane-change.gif
+.. |sliding| image:: https://mechmotum.s3.us-east-005.dream.io/simon-single-pendulum-with-sliding-lane-change.gif
    :width: 300px
 
-.. |triple| image:: https://objects-us-east-1.dream.io/mechmotum/simon-triple-pendulum-lane-change.gif
+.. |triple| image:: https://mechmotum.s3.us-east-005.dream.io/simon-triple-pendulum-lane-change.gif
    :width: 300px
 
 .. list-table::
@@ -81,9 +81,9 @@ change:
 The following videos show the comparison of turning with and without
 countersteering:
 
-.. |countersteering| image:: https://objects-us-east-1.dream.io/mechmotum/simon-countersteering.gif
+.. |countersteering| image:: https://mechmotum.s3.us-east-005.dream.io/simon-countersteering.gif
 
-.. |no-countersteering| image:: https://objects-us-east-1.dream.io/mechmotum/simon-no-countersteering.gif
+.. |no-countersteering| image:: https://mechmotum.s3.us-east-005.dream.io/simon-no-countersteering.gif
 
 .. list-table::
    :class: borderless

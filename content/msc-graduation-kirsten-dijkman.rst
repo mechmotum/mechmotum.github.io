@@ -7,7 +7,7 @@ Kirsten Dijkman Successfully Defends Her MSc Thesis
 :category: news
 :slug: kirsten-dijkman-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dijkman.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dijkman.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Kirsten Dijkman Successfully Defends Her MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dijkman-kirsten.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-dijkman-kirsten.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dijkman.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dijkman.png
    :height: 400px
 
 Kirsten Dijkman successfully defended "`Impact of bicycle tire parameters on

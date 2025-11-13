@@ -6,7 +6,7 @@ CZI Grant Awarded to SymPy Computational Biomechanics Project
 :authors: Jason K. Moore
 :category: news
 :tags: sympy,biomechanics,computation,bicycle
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/czi-logo.png
 
 .. list-table::
    :class: table
@@ -16,10 +16,10 @@ CZI Grant Awarded to SymPy Computational Biomechanics Project
    * - |czi-logo|
      - |sympy-logo|
 
-.. |sympy-logo| image:: https://objects-us-east-1.dream.io/mechmotum/sympy-logo.png
+.. |sympy-logo| image:: https://mechmotum.s3.us-east-005.dream.io/sympy-logo.png
    :height: 100px
 
-.. |czi-logo| image:: https://objects-us-east-1.dream.io/mechmotum/czi-logo.png
+.. |czi-logo| image:: https://mechmotum.s3.us-east-005.dream.io/czi-logo.png
    :height: 100px
 
 The TU Delft Bicycle Lab has been awarded approximately one third of a $350k

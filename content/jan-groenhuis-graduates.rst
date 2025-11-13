@@ -7,9 +7,9 @@ Jan Groenhuis Successfully Defends His MSc Thesis
 :category: news
 :slug: jan-groenhuis-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/headshot-groenhuis-jan.jpg
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/headshot-groenhuis-jan.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io/headshot-groenhuis-jan.jpg
    :align: center
    :alt: Jan Groenhuis Headshot
 

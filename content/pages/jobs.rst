@@ -196,7 +196,7 @@ in finding students for [#]_:
      - 2020-09-21
      -
      - Timo Stienstra
-   * - `Outdoor Cycling Propulsion Simulation <https://objects-us-east-1.dream.io/mechmotum/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
+   * - `Outdoor Cycling Propulsion Simulation <https://mechmotum.s3.us-east-005.dream.io/tacx-graduation-propulsion-phase1-project-proposal.pdf>`_
      - 2022-01-14
      - `Tacx, a Garmin Company <https://www.garmin.com/nl-NL/tacx/>`_
      - Jens Keijser
@@ -204,11 +204,11 @@ in finding students for [#]_:
      - 2022-01-11
      - `Ictech <https://ictech.se/>`_
      - Jeswin Koshy Cherian
-   * - `Cycling Material Model Design <https://objects-us-east-1.dream.io/mechmotum/team-dsm-modelling-project.pdf>`_ [Applications due by 2021-09-17]
+   * - `Cycling Material Model Design <https://mechmotum.s3.us-east-005.dream.io/team-dsm-modelling-project.pdf>`_ [Applications due by 2021-09-17]
      - 2021-09-02
      - `Team DSM <https://www.team-dsm.com>`_
      - Dorus de Boer
-   * - `Novel cadence detection for electric bicycles <https://objects-us-east-1.dream.io/mechmotum/swugo-internship-cadence.pdf>`_
+   * - `Novel cadence detection for electric bicycles <https://mechmotum.s3.us-east-005.dream.io/swugo-internship-cadence.pdf>`_
      - 2021-09-10
      - `swugo <https://swugo.com/>`_
      - Simonas Draukšas

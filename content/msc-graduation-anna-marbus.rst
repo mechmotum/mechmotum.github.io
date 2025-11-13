@@ -6,9 +6,9 @@ Anna Marbus Successfully Defends Her MSc Thesis
 :tags: bicycle, transportation, conflict, experiment
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-marbus-w240.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-marbus-w240.png
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-marbus-w400.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-marbus-w400.png
    :align: center
    :height: 400px
    :target: https://resolver.tudelft.nl/uuid:092f3b70-2d97-436e-b193-139a593e09c7
@@ -38,13 +38,13 @@ configuration angles:
    <tr>
    <td>
    <video width="400px" controls>
-     <source src="https://objects-us-east-1.dream.io/mechmotum/encounter-45.mp4" type="video/mp4">
+     <source src="https://mechmotum.s3.us-east-005.dream.io/encounter-45.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
    </td>
    <td>
    <video width="400px" controls>
-     <source src="https://objects-us-east-1.dream.io/mechmotum/encounter-90.mp4" type="video/mp4">
+     <source src="https://mechmotum.s3.us-east-005.dream.io/encounter-90.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
    </td>
@@ -52,13 +52,13 @@ configuration angles:
    <tr>
    <td>
    <video width="400px" controls>
-     <source src="https://objects-us-east-1.dream.io/mechmotum/encounter-135.mp4" type="video/mp4">
+     <source src="https://mechmotum.s3.us-east-005.dream.io/encounter-135.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
    </td>
    <td>
    <video width="400px" controls>
-     <source src="https://objects-us-east-1.dream.io/mechmotum/encounter-180.mp4" type="video/mp4">
+     <source src="https://mechmotum.s3.us-east-005.dream.io/encounter-180.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
    </td>

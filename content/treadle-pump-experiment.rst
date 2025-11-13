@@ -8,7 +8,7 @@ Finding the Efficiency of the Xylem and Money Maker Treadle Pumps
 :slug: treadle-pump-experiment
 :authors: Aaron Shaw, Rayming Liang
 :summary: Blog post on conducting efficiency experiments with treadle pumps.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/treadle-example.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/treadle-example.jpg
 
 Introduction
 ------------
@@ -19,7 +19,7 @@ biomechanical motions. One of the most popular and proven designs for
 human-powered water pumps is the treadle pump, which is operated via a stepping
 motion (Figure 1).
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/treadle-example.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/treadle-example.jpg
    :width: 50%
    :align: center
    :alt: Treadle Example.
@@ -57,7 +57,7 @@ uncovered (on/off) to record the beginning and end of each test. The DAQ
 apparatus including photoresistor circuit, sensor wires, and LabJack is shown
 in Figure 2 below.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/daq-setup.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/daq-setup.png
    :width: 50%
    :align: center
    :alt: DAQ Setup.
@@ -71,7 +71,7 @@ Olympic weights and a balance scale for reference. The power meter apparatus
 consisting of the force sensors and angular rate gyro are shown below in Figure
 3.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/treadle-pump-setup.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/treadle-pump-setup.jpg
    :width: 50%
    :align: center
    :alt: Treadle Pump Setup.
@@ -152,7 +152,7 @@ completed: three at each meter interval between 1 and 5 meters.
 Results
 -------
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/1m-trials.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/1m-trials.jpg
    :align: center
    :alt: 1m Trials.
 
@@ -160,7 +160,7 @@ Results
 
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/2m-trials.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/2m-trials.jpg
    :align: center
    :alt: 2m Trials.
 
@@ -168,7 +168,7 @@ Results
 
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/3m-trials.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/3m-trials.jpg
    :align: center
    :alt: 3m Trials.
 
@@ -176,7 +176,7 @@ Results
 
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/4m-trials.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/4m-trials.jpg
    :align: center
    :alt: 4m Trials.
 
@@ -184,7 +184,7 @@ Results
 
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/5m-trials.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/5m-trials.jpg
    :align: center
    :alt: 5m Trials.
 
@@ -194,7 +194,7 @@ The figures 4-8 above show the calculated efficiencies for each pump at
 different pressure heads across all trials. The average efficiencies are
 graphed in figure 9 below.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/average-efficiency.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/average-efficiency.jpg
    :align: center
    :alt: Average Efficiency.
 

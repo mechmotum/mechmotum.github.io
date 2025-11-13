@@ -15,10 +15,10 @@ Experiments with Cyclist Social Forces for Microscopic Traffic Simulation
    * - The social force model in action.
      - SUMO Cyclists driven by social forces.
 
-.. |socialforcesim| image:: https://objects-us-east-1.dream.io/mechmotum/sfm-intersection.png
+.. |socialforcesim| image:: https://mechmotum.s3.us-east-005.dream.io/sfm-intersection.png
    :width: 100%
 
-.. |sumosnapshot| image:: https://objects-us-east-1.dream.io/mechmotum/sfm-intersection-sumo.png
+.. |sumosnapshot| image:: https://mechmotum.s3.us-east-005.dream.io/sfm-intersection-sumo.png
    :width: 100%
 
 Microscopic traffic simulation is an important tool that traffic engineers and

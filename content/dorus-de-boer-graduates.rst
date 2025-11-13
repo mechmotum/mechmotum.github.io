@@ -7,7 +7,7 @@ Dorus de Boer Successfully Defends His MSc Thesis
 :category: news
 :slug: dorus-de-boer-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-de-boer.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-de-boer.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Dorus de Boer Successfully Defends His MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-de-boer-dorus.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-de-boer-dorus.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-de-boer.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-de-boer.png
    :height: 400px
 
 Dorus de Boer successfully defended "`Modeling a Professional Road Cycling Race

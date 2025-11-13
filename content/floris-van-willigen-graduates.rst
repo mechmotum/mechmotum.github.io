@@ -7,7 +7,7 @@ Floris van Willigen Successfully Defends His MSc Thesis
 :category: news
 :slug: floris-van-willigen-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-willigen.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-willigen.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Floris van Willigen Successfully Defends His MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-floris-van-willigen.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-floris-van-willigen.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-willigen.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-willigen.png
    :height: 400px
 
 Floris van Willigen successfully defended "`Evaluation of the handling of a

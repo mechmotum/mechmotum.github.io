@@ -14,7 +14,7 @@ Optimization of Skateboard Tricks
                    manipulate and control the board and their body using
                    optimal control methods. Secondly, we want to design the
                    board and environment to maximize performance and safety.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-skateboard-optimization-400x400.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-skateboard-optimization-400x400.png
 :slug: research/skateboard-optimization
 
 Associated Research Products

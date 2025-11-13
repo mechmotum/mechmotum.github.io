@@ -8,7 +8,7 @@ Estimating Competition Rowing Metrics
 :authors: Bryn Cloud, Britt Tarien, Ada Liu, Thomas Shedd
 :summary: Our paper on the sensor fusion of iPhone sensor streams is
           currently available for preprint at https://engrxiv.org/nykuh.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/speed-example.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/speed-example.png
 
 This blog post provides a brief description of the primary ideas and results
 that will be found in the paper, "Adaptive smartphone-based sensor fusion for
@@ -105,7 +105,7 @@ smartphone GPS, complementary filter, and Kalman filter through the relative
 error with respect to the the distance per stroke computed from the
 differential GPS measurements.
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/dps.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/dps.png
    :width: 50%
    :align: center
    :alt: Distance Per Stroke Figure
@@ -115,7 +115,7 @@ smartphone GPS derived speed and the complementary filter and Kalman filter
 outputs against the differential GPS is shown in Figure 2.  RMSE is calculated
 with respect to the sampling rate of the accelerometer, 100 Hz.
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/speed-example.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/speed-example.png
    :width: 50%
    :align: center
    :alt: Speed Estimation

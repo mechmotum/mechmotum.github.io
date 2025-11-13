@@ -40,7 +40,7 @@ Kubernetes cluster is by connecting through rooster.
 
 The following diagram describes our networking setup.
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/kubediagram.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/kubediagram.png
    :width: 600
    :alt: Kubernetes diagram of cluster
 
@@ -143,7 +143,7 @@ We chose the former option and have repositories for `custom HTML files
 
 This is a screenshot of how the login page looks now.
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/jupyterhubscreenshot.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/jupyterhubscreenshot.png
    :width: 600
    :alt: Screenshot of the redesigned JupyterHub login page
 
@@ -154,7 +154,7 @@ Dockerfile for the default environment is maintained in `this repository
 Python 2 and 3, Octave, R, Julia, and SageMath.  The default environment mainly
 installs software and packages via apt and conda for security reasons.
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/jupyterhubspawner.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/jupyterhubspawner.png
    :width: 600
    :alt: Screenshot of the redesigned JupyterHub spawner page
 

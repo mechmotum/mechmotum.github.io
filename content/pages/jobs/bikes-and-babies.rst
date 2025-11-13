@@ -7,7 +7,7 @@ Bikes & Babies
 :slug: jobs/msc/bikes-and-babies
 :template: msc-project
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/bikes-and-babies.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/bikes-and-babies.png
    :align: center
 
 We have guidelines on what kind of car seats to use for kids at a given

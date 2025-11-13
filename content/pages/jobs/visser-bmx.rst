@@ -7,7 +7,7 @@ Explosive Power in BMX Cycling
 :slug: jobs/msc/visser-bmx
 :template: msc-project
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/visser-air.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/visser-air.png
    :align: center
 
 Internship

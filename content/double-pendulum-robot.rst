@@ -8,7 +8,7 @@ Double Pendulum Human Controller Robot: GUI Development
 :authors: Jonathan Blaze Cubanski, Dorian Crutcher
 :summary: Blog post on creating a new interface to test different controller
           designs for the Double Pendulum Robot.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/pendulum-fbd.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/pendulum-fbd.png
 
 Introduction and background
 ---------------------------
@@ -19,7 +19,7 @@ serve as a model for a human balancing on a moving platform (i.e. a
 skateboard), where the degrees of freedom is limited to the human’s waist and
 ankle joints. This model is illustrated in Figure 1 below.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/pendulum-fbd.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/pendulum-fbd.png
    :width: 80%
    :alt: Image depicting visual model showing the dynamics of the double pendulum robot
    :align: center
@@ -60,7 +60,7 @@ shown below, has a startup and swing-up buttons which enable the user to safely
 start system operation when ready. The user can select the desired motor
 controller and update the gains in real time.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/pendulum-gui.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/pendulum-gui.png
    :width: 50%
    :align: center
    :alt: Operating GUI.
@@ -113,7 +113,7 @@ https://github.com/mechmotum/DoublePendulumCode
 Thank you
 ----------
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/dorian-blaze.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/dorian-blaze.jpg
    :width: 80%
    :alt: This image displays the two students that worked on this project over the Fall 2018 Quarter, Dorian Crutcher and Jonathan Blaze Cubanski
    :align: center

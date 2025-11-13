@@ -9,7 +9,7 @@ Bicycle Dynamics for Microscopic Traffic Simulation
 :research_theme: Cycling Safety
 :template: project
 :summary-sentence: We are investigating the influence of bicycle dynamics on the traffic conflict process to improve traffic simulation models towards predictive safety assessment of infrastructure improvements, smart cycling assistance systems, connectivity, and automated driving. 
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/social-force-example.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/social-force-example.png
 :slug: research/bicycle-dynamics-microsim
 
 
@@ -42,7 +42,7 @@ Cyclist Social Forces
 
    <center>
    <video width="522" height = "347" controls>
-	 <source src="https://objects-us-east-1.dream.io/mechmotum/socialforce_scenario_crossing_BMD2023.mp4" type="video/mp4">
+	 <source src="https://mechmotum.s3.us-east-005.dream.io/socialforce_scenario_crossing_BMD2023.mp4" type="video/mp4">
    Your browser does not support the video tag.
    </video> 
    <p>Animation of an interaction simulationed by our cyclist social force model.</p>

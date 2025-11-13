@@ -7,7 +7,7 @@ Design of a PID Controller for Controlling The Speed of an Instrumented Ebike
 :slug: ebike-controller-design
 :authors: Trevor Metz
 :summary: Blog post on designing a speed controller for an instrumented ebike.
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-10.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-10.jpg
 
 Introduction
 ------------
@@ -16,7 +16,7 @@ The goal of this project is to design and implement a control system for an
 instrumented ebike used in bicycle handling experimentation. To achieve this, a
 basic unity feedback control architecture (Figure 1) is employed.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-01.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-01.jpg
    :width: 80%
    :align: center
    :alt: Control Architecture.
@@ -40,7 +40,7 @@ conversion kit motor controller and a brushless 3 phase direct drive induction
 motor mounted to the rear hub of the bike. A simple diagram of the ebike
 drivetrain is shown below in Figure 2.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-02.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-02.jpg
    :width: 80%
    :align: center
    :alt: Ebike Drivetrain Diagram.
@@ -56,7 +56,7 @@ rotational dynamics of the drivetrain are defined by Euler’s rotation equation
 A simple equation of motion for the bicycle, modeled as a point mass, is
 derived using Newton’s 2nd Law of Motion in the horizontal direction [Wilson]_.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-03.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-03.jpg
    :width: 20%
    :align: center
    :alt: Free Body Diagram of Bicycle.
@@ -69,7 +69,7 @@ Together, the vehicle and drivetrain dynamics of the ebike can be shown in a
 state space representation with state variables :math:`i(t)` and :math:`x(t)`
 as seen below.
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-04.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-04.jpg
    :width: 55%
    :align: center
    :alt: State Space Representation of the eBike.
@@ -77,7 +77,7 @@ as seen below.
 From the state space representation, a transfer function from input DC voltage
 :math:`V` to output speed :math:`v` is formed:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-05.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-05.jpg
    :width: 80%
    :align: center
    :alt: Plant Model Transfer Function.
@@ -101,7 +101,7 @@ In MATLAB, a nonlinear least-squares solver was used to optimize the constants
 in the derived plant model of the ebike to match a speed time response measured
 from the instrumented ebike. Figure 4, below, shows the curve fitting result.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-06.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-06.jpg
    :width: 80%
    :align: center
    :alt: Curve Fitting Results.
@@ -111,7 +111,7 @@ from the instrumented ebike. Figure 4, below, shows the curve fitting result.
 Figure 4 shows that the plant model of ebike was reasonably identified using
 the least-squares curve fitting method. The resulting ebike plant model is:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-07.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-07.jpg
    :width: 90%
    :align: center
    :alt: Identified Plant Model.
@@ -127,7 +127,7 @@ The closed loop step response (Figure 5) shows that the controller meets the
 design goals with zero steady state error, a settling time of 1.56s, and an
 overshoot percentage of 10.45%.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-08.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-08.jpg
    :width: 80%
    :align: center
    :alt: Closed Loop System Step Response.
@@ -142,7 +142,7 @@ loop system with regards to uncertainties in the coefficients of the identified
 ebike plant model. The constants in the derived ebike plant model were lumped
 together forming the following simplified plant model:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-09.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-09.jpg
    :width: 90%
    :align: center
    :alt: Simplified Plant Model.
@@ -155,7 +155,7 @@ identification step of the controller design process.  Figure 6, below, shows
 the nominal closed loop and open loop system step response with 20 random
 samples of the uncertain plant model defined by the uncertain coefficients.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bike-speed-control-10.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/bike-speed-control-10.jpg
    :width: 80%
    :align: center
    :alt: Uncertain Step Response.

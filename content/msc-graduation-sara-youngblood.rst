@@ -6,12 +6,12 @@ Sara Youngblood Successfully Defends Her MSc Thesis
 :tags: bicycle, control, slip, tire, ice
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-youngblood-w240.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-youngblood-w240.png
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-youngblood-sara.png
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-youngblood-sara.png
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-youngblood.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-youngblood.png
    :height: 400px
    :target: https://resolver.tudelft.nl/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3
 
@@ -44,14 +44,14 @@ between the tire and the ground.
 
 The following animations show the controller in action:
 
-.. |slip-no-slip| image:: https://objects-us-east-1.dream.io/mechmotum/bicycle-ice-vs-normal.gif
+.. |slip-no-slip| image:: https://mechmotum.s3.us-east-005.dream.io/bicycle-ice-vs-normal.gif
    :width: 300px
 
 .. |ice| image::
-   https://objects-us-east-1.dream.io/mechmotum/bicycle-ice-both-wheels-highlighted.gif
+   https://mechmotum.s3.us-east-005.dream.io/bicycle-ice-both-wheels-highlighted.gif
    :width: 300px
 
-.. |lqr-pd| image:: https://objects-us-east-1.dream.io/mechmotum/bicycle-lqr-vs-pd-with-path-highlight.gif
+.. |lqr-pd| image:: https://mechmotum.s3.us-east-005.dream.io/bicycle-lqr-vs-pd-with-path-highlight.gif
    :width: 300px
 
 .. list-table::

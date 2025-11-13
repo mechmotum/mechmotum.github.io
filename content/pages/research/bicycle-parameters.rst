@@ -15,7 +15,7 @@ Measurement and Estimation of Bicycle and Rider Physical Parameters
                    measuring and estimating the physical parameters of bicycles
                    and bicycle riders necessary for simulating models of the
                    bicycle-rider system.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-bicycle-rider-parameters.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-bicycle-rider-parameters.png
 
 In [Moore2008]_ we developed and used a method for estimating the inertial
 properties of the bicycle and rider given simple geometric measurements. The
@@ -31,7 +31,7 @@ software [Moore2011]_ used for the computations has been developed over the
 years and basic functionality is now available in a freely accessible web
 application:
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-app.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/bicycle-dynamics-app.png
    :width: 800px
    :align: center
    :target: https://bicycle-dynamics.onrender.com

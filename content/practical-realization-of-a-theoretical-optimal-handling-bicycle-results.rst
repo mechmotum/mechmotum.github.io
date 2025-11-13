@@ -7,7 +7,7 @@ Practical Realization of a Theoretical Optimal-Handling Bicycle Results
 :authors: Anthony Toribio, Stasia Kubicki
 :summary: Blog post on the design and fabrication of a theoretically optimal
           handling bicycle
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/3ms-fabricated.jpg
 
 The goal of this research is to design and fabricate a theoretically optimal
 lateral handling bicycle based on a dynamics based algorithm written by
@@ -48,14 +48,14 @@ objectively.
 
 Paper: https://doi.org/10.6084/m9.figshare.9883328.v1
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/3ms-fabricated.jpg
    :width: 50%
    :align: center
    :alt: 3ms Fabricated.
 
    *Figure 1. Fabricated model of optimal bicycle for 3 m/s.*
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/3ms-fabricated-rider.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/3ms-fabricated-rider.jpg
    :width: 50%
    :align: center
    :alt: 3ms Fabricated Rider.

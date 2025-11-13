@@ -7,7 +7,7 @@ Data Generation Through Motorcycle Crash Simulations For Airbag Trigger Algorith
 :slug: jobs/msc/revit-sim
 :template: msc-project
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/petrucci.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io/petrucci.jpg
    :align: center
 
 Crashing during motorcycling, in sport or recreation, is highly likely to cause

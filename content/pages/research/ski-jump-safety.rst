@@ -22,7 +22,7 @@ Design and Analysis of Ski Jumps
                    participant fun. We have designed a web application that
                    laypeople can use to design and analyze ski jumps with
                    specified equivalent fall height in mind.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-ski-jump.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-ski-jump.png
 :slug: research/ski-jump-safety
 
 Associated Research Products
@@ -66,7 +66,7 @@ Software:
 Media
 =====
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/skijumpdesign-screenshot.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/skijumpdesign-screenshot.jpg
    :width: 60%
    :align: center
    :target: http://www.skijumpdesign.info
@@ -87,20 +87,20 @@ Media
    tools.</p>
    </center>
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-constant-efh-jump.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-constant-efh-jump.jpg
    :width: 60%
    :align: center
 
    Example of a constant equivalent fall height jump, built in Italy under
    Nicola Petrone's leadershipe.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-constructing-constant-efh-jump.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-constructing-constant-efh-jump.jpg
    :width: 60%
    :align: center
 
    Constructing a constant equivalent fall height jump.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-builders.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-builders.jpg
    :width: 60%
    :align: center
 

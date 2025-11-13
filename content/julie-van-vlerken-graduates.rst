@@ -7,9 +7,9 @@ Julie van Vlerken Successfully Defends Her MSc Thesis
 :category: news
 :slug: julie-van-vlerken-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-vlerken.png
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-van-vlerken.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-van-vlerken.png
    :height: 400px
    :align: center
    :target: http://resolver.tudelft.nl/uuid:3c71bc50-c6d0-4963-a3d2-5a1548f92786
@@ -29,7 +29,7 @@ used in the design phase to improve handling of new bicycle designs. Julie also
 gave our bicycle dynamics web application a make over with new aesthetics and
 new features:
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/bicycle-dynamics-web-app.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/bicycle-dynamics-web-app.png
    :width: 80%
    :align: center
    :target: https://bicycle-dynamics.onrender.com/

@@ -7,7 +7,7 @@ Squiggly Bicycle Routes
 :slug: jobs/msc/squiggly-routes
 :template: msc-project
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/direct-vs-squiggly.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/direct-vs-squiggly.png
    :width: 600px
    :align: center
 

@@ -15,10 +15,10 @@ Experimental Validation of Bicycle Handling Prediction
                    demonstrated preliminarily that that there may be
                    correlations between our theoretical metric and the rider's
                    subjective opinion of the bicycle's handling.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/handling-metric.png
 :slug: research/bicycle-handling-qualities
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/handling-metric.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/handling-metric.png
    :align: center
    :width: 60%
    :alt: Image showing handling quality metrics for a variety of bicycles.

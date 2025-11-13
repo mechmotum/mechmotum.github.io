@@ -6,14 +6,14 @@ BMD 2023 Proceedings Book Published
 :authors: Jason K. Moore
 :category: news
 :tags: publishing,proceedings,papers,book
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/proceedings-cover.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/proceedings-cover.jpg
 
 Today marks the 1 year anniversary of the BMD 2023 conference in Delft and we
 are very pleased to announce that the proceedings book is now officially
 published. The proceedings is a 464 page volume containing 60 extended
 abstracts from all the presentations and 28 peer reviewed full papers.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/proceedings-cover.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/proceedings-cover.jpg
    :align: center
    :target: https://doi.org/10.59490/mg.121
 

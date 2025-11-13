@@ -8,7 +8,7 @@ Implementation of a PID Controller for Controlling The Speed of an Instrumented 
 :authors: Trevor Metz
 :summary: Blog post on the implementation of a PID controller on an
           instrumented ebike
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingDesign.jpg
 
 *This blog post has been updated in a newer blog post. Please see the updated version of this blog post for the most up to date information.*
 
@@ -37,7 +37,7 @@ The implementation of the PID controller on the electric bike was fundamentally
 informed by the interactions that the user would have with the system. A
 typical user interaction with the system is outlined in Figure 1 below.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/UserInteractionFlowChart.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/UserInteractionFlowChart.jpg
    :width: 60%
    :align: center
    :alt: User Interaction.
@@ -61,7 +61,7 @@ Figure 2, shows how this error is inputted to the control algorithm encoded in
 the Arduino Nano resulting in an output variable used to control the speed of
 the ebike.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/BlogPost2ControlArchitecture.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/BlogPost2ControlArchitecture.jpg
    :width: 60%
    :align: center
    :alt: Control Architecture.
@@ -77,7 +77,7 @@ integration by highlighting the input/output and geometric relationships
 between existing components of the ebike and the additional control system
 components.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemGeometricLayout.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ControlSystemGeometricLayout.jpg
    :width: 75%
    :align: center
    :alt: System Architecture.
@@ -97,7 +97,7 @@ controller. When the cruise control is disengaged, the Arduino simply reads the
 user commanded throttle position and passes it directly to the motor
 controller.  Figure 4, below, graphically shows this interaction.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoThrottleSchematic.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ArduinoThrottleSchematic.jpg
    :width: 40%
    :align: center
    :alt: Arduino's Main Function.
@@ -115,7 +115,7 @@ the system via an LCD and logs diagnostic information to an SD card.
 
 Figure 5, below, shows the logic flow of the code.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemCodeLogicFlowChart.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ControlSystemCodeLogicFlowChart.jpg
    :width: 100%
    :align: center
    :alt: Code Logic Flowchart.
@@ -167,7 +167,7 @@ controller and a 36V Li ion battery. More information on the build and the
 bike’s instrumentation system can be found in Jason’s dissertation `found here
 <http://moorepants.github.io/dissertation/davisbicycle.html>`__.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/TheInstrumentedEbike.JPG
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/TheInstrumentedEbike.JPG
    :width: 45%
    :align: center
    :alt: Instrumented Ebike.
@@ -197,7 +197,7 @@ hardware used in this build.
 
 Figure 7, below, shows a Fritzing diagram of the electrical system.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemWiringDiagram.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ControlSystemWiringDiagram.jpg
    :width: 60%
    :align: center
    :alt: Electrical Hookup.
@@ -211,7 +211,7 @@ The Arduino Nano and the voltage divider circuits were soldered to a small 3" x
 to connect the external components to the Nano. Figure 8, below, shows the
 completed Arduino board.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoBoardWiredUp.JPG
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ArduinoBoardWiredUp.JPG
    :width: 60%
    :align: center
    :alt: Arduino Board.
@@ -240,7 +240,7 @@ the sides and top of the housing allow for wires to exit towards their
 destinations on the ebike. Threaded inserts on the base are used to secure the
 top cover using M3 screws.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingDesign.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingDesign.jpg
    :width: 100%
    :align: center
    :alt: Arduino Housing.
@@ -250,7 +250,7 @@ top cover using M3 screws.
 This housing is clamped to the downtube of the ebike by a socket head screw as
 shown in Figure 10.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ArduinoHousingMountingPoints.JPG
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ArduinoHousingMountingPoints.JPG
    :width: 80%
    :align: center
    :alt: Arduino Mounting.
@@ -263,7 +263,7 @@ bikes. Each mount had a pair of “bunny ears" designed to interface with the
 GoPro style mount. The LCD housing, shown in Figure 11 below, is a simple
 rectangular two-piece enclosure joined by button head screws.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/LCDHousingDesign.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/LCDHousingDesign.jpg
    :width: 75%
    :align: center
    :alt: LCD Housing.
@@ -277,7 +277,7 @@ more convenient for the user, larger button parts were 3D printed and offset
 from each mini momentary pushbutton using a compression spring as shown in
 Figure 12 below.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingDesign.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ButtonHousingDesign.jpg
    :width: 100%
    :align: center
    :alt: Button Housing.
@@ -287,7 +287,7 @@ Figure 12 below.
 As shown in Figure 13, the button housing is mounted on right side of the
 handlebars near the throttle and brake lever for convenient access.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ButtonHousingPosition.JPG
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ButtonHousingPosition.JPG
    :width: 80%
    :align: center
    :alt: Button Housing Mount.
@@ -297,7 +297,7 @@ handlebars near the throttle and brake lever for convenient access.
 6.0 Bill of Materials
 ^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ControlSystemBillofMaterials.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ControlSystemBillofMaterials.jpg
    :width: 100%
    :align: center
    :alt: Bill of Materials.

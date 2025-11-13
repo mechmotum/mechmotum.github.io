@@ -25,7 +25,7 @@ tested on human subjects to gage their subjective feeling of the handling of
 the vehicle in typical bicycle maneuvers. This position will have the
 opportunity to spend some time at Bosch eBike Systems in Reutlingen, Germany.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/balance-assist-bicycle-400x400.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/balance-assist-bicycle-400x400.jpg
    :width: 400px
    :align: center
 

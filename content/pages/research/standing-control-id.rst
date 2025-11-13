@@ -24,7 +24,7 @@ Control Identification of Human Standing
                    collected during externally perturbed standing, we are
                    interested in developing optimal control theories and
                    methods of identifying the specific control strategy in use.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-standing-id.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-standing-id.png
 :slug: research/standing-control-id
 
 Humans unconsciously utilize a control strategy while standing. Visual,

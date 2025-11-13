@@ -7,9 +7,9 @@ PhD Graduation Announcement: Gabriele Dell'Orto
 :category: news
 :slug: gabriele-dellorto-will-graduate
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg
 
-.. |headshot-dell-orto-gabriele| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
+.. |headshot-dell-orto-gabriele| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg
    :width: 100px
    :height: 133px
 
@@ -21,10 +21,10 @@ PhD Graduation Announcement: Gabriele Dell'Orto
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-dellorto.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-dellorto.png
    :height: 400px
 
 Bike Lab PhD candidate, Gabriele Dell'Orto, has completed his PhD dissertation

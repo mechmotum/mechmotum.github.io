@@ -20,7 +20,7 @@ Interactive Jupyter-Enabled LibreTexts Pages
                    Python, R, Octave, and Sage generated media for pages. This
                    will enable arbitrary visualizations and allow students to
                    learn through computational oriented exercises.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-jupyter-libretexts.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-jupyter-libretexts.png
 :slug: research/librtexts-jupyter
 
 Visit the LibreTexts/UC Davis JupyterHub: https://jupyter.libretexts.org

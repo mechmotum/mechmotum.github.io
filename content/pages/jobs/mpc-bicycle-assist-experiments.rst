@@ -7,7 +7,7 @@ Using Model Predictive Control to Assist in Bicycle Lane Changes
 :slug: jobs/msc/mpc-bicycle-assist-experiments.rst
 :template: msc-project
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/
+.. image:: https://mechmotum.s3.us-east-005.dream.io/
    :align: center
 
 Prior research has shown that tracking performance can be improved in a

@@ -6,7 +6,7 @@ Bart de Vries Successfully Defends His MSc Thesis
 :tags: cargo bicycle, balance, design, stabilization
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-bart-de-vries.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-bart-de-vries.png
 
 .. list-table::
    :class: borderless
@@ -16,11 +16,11 @@ Bart de Vries Successfully Defends His MSc Thesis
    * - |headshot|
      - |cover|
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-bart-de-vries.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-bart-de-vries.png
    :height: 400px
    :target: https://resolver.tudelft.nl/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-de-vries-bart.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-de-vries-bart.jpg
    :height: 400px
 
 Bart de Vries successfully defended his MSc thesis titled `Low-Speed Cargo

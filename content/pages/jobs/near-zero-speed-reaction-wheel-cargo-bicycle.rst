@@ -16,10 +16,10 @@ Near Zero Speed Reaction Wheel Balanced Cargo Bicycles
    * - |reaction-wheel-cad|
      - |first-reaction-wheel-cargo-bike|
 
-.. |reaction-wheel-cad| image:: https://objects-us-east-1.dream.io/mechmotum/reaction-wheel-cad.png
+.. |reaction-wheel-cad| image:: https://mechmotum.s3.us-east-005.dream.io/reaction-wheel-cad.png
    :width: 100%
 
-.. |first-reaction-wheel-cargo-bike| image:: https://objects-us-east-1.dream.io/mechmotum/first-reaction-wheel-cargo-bike.png
+.. |first-reaction-wheel-cargo-bike| image:: https://mechmotum.s3.us-east-005.dream.io/first-reaction-wheel-cargo-bike.png
    :width: 100%
 
 Two wheel cargo bicycle use has grown over the last decade. Increases in "last

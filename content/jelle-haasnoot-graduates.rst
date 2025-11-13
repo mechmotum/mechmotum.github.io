@@ -7,7 +7,7 @@ Jelle Haasnoot Successfully Defends His MSc Thesis
 :category: news
 :slug: jelle-haasnoot-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haasnoot.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-haasnoot.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Jelle Haasnoot Successfully Defends His MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-haasnoot-jelle.png
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-haasnoot-jelle.png
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-haasnoot.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-haasnoot.png
    :height: 400px
 
 

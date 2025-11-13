@@ -7,9 +7,9 @@ Shannon van de Velde Successfully Defends Her MSc Thesis
 :category: news
 :slug: shannon-van-de-velde-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/headshot-van-de-velde-shannon.jpg
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/headshot-van-de-velde-shannon.jpg
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-de-velde-shannon.jpg
+.. image:: https://mechmotum.s3.us-east-005.dream.io/headshot-van-de-velde-shannon.jpg
    :height: 400px
    :align: center
 

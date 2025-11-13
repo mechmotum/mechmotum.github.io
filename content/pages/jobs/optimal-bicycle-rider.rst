@@ -8,7 +8,7 @@ Optimal Control of the Bicycle-Rider Human-Machine System
 :template: msc-project
 
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/brim-lane-change.gif
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/brim-lane-change.gif
    :align: center
    :width: 80%
 

@@ -7,7 +7,7 @@ Using Model Predictive Control Steer-by-Wire Bicycle for Performance Assistance
 :slug: jobs/msc/mpc-bicycle-assist.rst
 :template: msc-project
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/steer-by-wire-bicycle.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/steer-by-wire-bicycle.png
    :width: 600px
    :align: center
 

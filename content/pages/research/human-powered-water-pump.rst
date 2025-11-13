@@ -19,7 +19,7 @@ Efficiency and Use of Human Powered Irrigation Pumps
                    biomechanical power and output hydraulic power from both
                    systems to produce efficiency curves as a function of
                    hydraulic load.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-human-powered-pumps.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-human-powered-pumps.png
 :research-theme: Human Powered Appropriate Technology
 :slug: research/human-powered-water-pump
 

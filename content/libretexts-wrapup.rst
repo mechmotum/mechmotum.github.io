@@ -6,9 +6,9 @@ LibreTexts Jupyter Integration Wrapup
 :authors: Jason K. Moore
 :category: education
 :tags: jupyter,libretexts,computation,education,oer,textbooks
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/libretexts-plus-jupyter.png
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-plus-jupyter.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/libretexts-plus-jupyter.png
    :align: center
    :alt: LibreTexts and Jupyter Logos
 
@@ -110,7 +110,7 @@ notable features:
 - High availability entry point server pair
 - Custom user abuse sensors and process killers
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ucd-kube-cluster.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ucd-kube-cluster.png
    :align: center
    :alt: UCD cluster racks.
 
@@ -132,13 +132,13 @@ that provides instructions for more advanced use. We also created a section in
 the LibreTexts `construction guide`_ that provides guidance specifically for
 LibreTexts users and authors.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-login-page.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyterhub-login-page.png
    :align: center
    :alt: LibreTexts UC Davis JupyterHub Login Screen
 
    LibreTexts UC Davis JupyterHub Login Screen
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyter-guide.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyter-guide.png
    :align: center
    :alt: Author construction guide section about Jupyter integration
 
@@ -170,13 +170,13 @@ This image is a nice starting image for many scientific computing situations as
 it includes Python, R, Julia, Octave, C++, and Sage in the console and
 notebooks as well as RStudio server access to R.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-jupyterhub-jupyterlab-launch.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/libretexts-jupyterhub-jupyterlab-launch.png
    :align: center
    :alt: JupyterLab Interface
 
    JupyterLab Interface
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-rstudio.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/libretexts-rstudio.png
    :align: center
    :alt: RStudio Interface
 
@@ -257,7 +257,7 @@ and since the sprint:
 - Each cell has a "busy indicator" to give the user feedback from the server
 - Enabled general ipywidgets functionality
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/thebe-ipywidgets.gif
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/thebe-ipywidgets.gif
    :height: 600px
    :align: center
    :alt: Example of an ipywidget controlling a matplotlib figure in Thebe.
@@ -297,7 +297,7 @@ partners. This published paper details more about that effort:
    Intercollegiate Online Chemistry Course (OLCC), Journal of Chemical
    Education, https://doi.org/10.1021/acs.jchemed.0c01035
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-cheminformatics-poster.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/libretexts-cheminformatics-poster.png
    :align: center
    :alt: Conference poster about the cheminformatics project.
 
@@ -353,7 +353,7 @@ Python
 - `Python for Everybody <https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Book%3A_Python_for_Everybody_(Severance)>`_ (Chuck Severance, University of Michigan)
 - `Chemistry Interactive Applications <https://chem.libretexts.org/Ancillary_Materials/Interactive_Applications/Jupyter_Notebooks>`_
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/libretexts-robot-sim.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/libretexts-robot-sim.png
    :align: center
    :alt: Example interactive robot arm simulator from Matrix Algebra with Computational Applications (Colbry)
 
@@ -398,7 +398,7 @@ connecting them to the communities of practice. We presented at Jupyter Open
 Studio (2019), SacPy (2020), OpenEd Week (2020), Women in Data (2020), and the
 National Workshop on Data Education (2020).
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/celine-sacpy.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/celine-sacpy.jpg
    :align: center
    :width: 600px
    :alt: Celine Presenting at SacPy
@@ -443,27 +443,27 @@ is it the team that made all of this magic happen:
    :width: 48%
    :align: center
 
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-celine.png
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-hao.jpg
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-henry.jpg
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-celine.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-hao.jpg
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-henry.jpg
    * - Celine Liang (now @ Facebook)
      - Hao Huang (now @ Zillow)
      - Henry Agnew (now @ UC San Diego)
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-k.png
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-kevin-r.png
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-mandeepika.jpg
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-kevin-k.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-kevin-r.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-mandeepika.jpg
    * - Kevin Krausse (now @ Ekata)
      - Kevin Rong (now @ Zoox)
      - Mandeepika Sani (UC Davis)
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-noah.png
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-patrick.jpg
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tannavee.png
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-noah.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-patrick.jpg
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-tannavee.png
    * - Lyla Sanders (UC Davis)
      - Patrick Mackle (now @ DocuSign)
      - Tannavee Kumar (now @ Tempus Labs)
-   * - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-tim.png
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-xiaochen.png
-     - .. image:: https://objects-us-east-1.dream.io/mechmotum/libretexts-headshot-luigi.png
+   * - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-tim.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-xiaochen.png
+     - .. image:: https://mechmotum.s3.us-east-005.dream.io/libretexts-headshot-luigi.png
    * - Tim Stewart (UC Davis)
      - Xiaochen Zeng (now @ Tencent)
      - Xin Luigi Chen (now @ VMware)
@@ -492,7 +492,7 @@ enthusiasm. He has my full admiration. I'll miss working with you Richard,
 hopefully we can start up something new in the future! The project is in great
 hands.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/lab-pizza-outing.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/lab-pizza-outing.png
    :align: center
    :alt: Lab pizza social
 

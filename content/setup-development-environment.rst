@@ -228,7 +228,7 @@ VScode, Pycharm, and many IDEs will allow you to select the Conda environment.
 To do so in Spyder, choose your environment from the "Consoles -> New Console
 in Environment" menu:
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/spyder-new-console-conda-env.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/spyder-new-console-conda-env.png
    :width: 90%
    :align: center
 
@@ -238,7 +238,7 @@ in Environment" menu:
 After the new console is available, your script will run using that
 environment:
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/spyder-using-conda-env.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/spyder-using-conda-env.png
    :width: 90%
    :align: center
 

@@ -16,7 +16,7 @@ Vibrations of Babies and Children During Human-powered Transport
                    experienced by babies and children during transportation in
                    strollers and cargo bicycles with a eye towards consequences
                    and improvements to health and comfort.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/child-dummy-in-bakfiets-400x400.jpg
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/child-dummy-in-bakfiets-400x400.jpg
 :slug: research/baby-child-transport-vibration
 
 ..

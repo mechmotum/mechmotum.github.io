@@ -6,7 +6,7 @@ Nijmegen Velorama Bicycle Tour
 :tags: bicycle, social
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-museum-240.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-fiets-museum-240.png
 
 The bicycle lab completed their second annual bicycle tour! Neville, Bart,
 Christoph, Nora, Sietse, Jason, and Yumi bicycled from Delft-Rotterdam to
@@ -24,40 +24,40 @@ from Sliedrecht to Rotterdam.
 .. _Velorama: https://velorama.nl/
 .. _Dr. Eric Maris: https://www.ru.nl/en/people/maris-e
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-route.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-route.png
    :align: center
    :width: 80%
 
    GPS trace of the route we took. We camped just west of Tiel beside the
    village of Geldermalsen.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-riding.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-riding.png
    :align: center
    :width: 60%
 
    In route.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-museum.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-fiets-museum.png
    :align: center
    :width: 80%
 
    Group photo after visiting the museum. Velorama is a quiet, compact musuem
    with a spectacular historical collection.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-fiets-simulator.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-fiets-simulator.png
    :align: center
    :width: 60%
 
    Neville on the treadmill/roller bicycle simulator with Eric giving
    instruction from the rear.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-ferry-group-picture.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-ferry-group-picture.png
    :align: center
    :width: 80%
 
    Group photo while waiting for the Varik-Heerewaarden ferry across the Waal.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/nijmegen-tour-statue-house-group-picture.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-statue-house-group-picture.png
    :align: center
    :width: 80%
 

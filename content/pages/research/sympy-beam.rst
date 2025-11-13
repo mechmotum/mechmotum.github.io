@@ -21,7 +21,7 @@ Development of a Beam Bending Package for SymPy
                    developing a package for SymPy that can be used to model and
                    solve analytical beam problems, without getting bogged down
                    in the mathematical details.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-sympy-beam.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-sympy-beam.png
 :slug: research/sympy-beam
 
 - `Latest version documentation <https://docs.sympy.org/latest/modules/physics/continuum_mechanics/index.html>`_

@@ -7,7 +7,7 @@ Maximizing Quantity and Quality of Rowing Performance Metrics From a Minimal Num
 :slug: jobs/msc/rowing-performance-metrics-using-minimal-sensors
 :template: msc-project
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/experimental-boat.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/experimental-boat.jpg
    :width: 600px
    :align: center
 

@@ -22,13 +22,13 @@ magnitude force and direction cause departure from a bicycle lane or cause
 falls. The results of the internship will be included in the next norm on wind
 force limits in urban environments.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/building-wind-profile.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/building-wind-profile.png
    :width: 400px
    :align: center
 
    Example of wind magnitude around buildings in an urban environment.
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/timo-bike-rider.gif
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/timo-bike-rider.gif
    :width: 400px
    :align: center
 

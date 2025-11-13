@@ -7,7 +7,7 @@ Francesca Andretta Successfully Defends Her MSc Thesis
 :category: news
 :slug: francesca-andretta-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-andretta-francesca.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-andretta-francesca.png
 
 .. list-table::
    :class: borderless
@@ -17,10 +17,10 @@ Francesca Andretta Successfully Defends Her MSc Thesis
    *  - |cover|
       - |headshot|
 
-.. |headshot| image:: https://objects-us-east-1.dream.io/mechmotum/portrait-andretta-francesca.jpg
+.. |headshot| image:: https://mechmotum.s3.us-east-005.dream.io/portrait-andretta-francesca.jpg
    :height: 400px
 
-.. |cover| image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-andretta-francesca.png
+.. |cover| image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-andretta-francesca.png
    :height: 400px
 
 `Francesca Andretta`_ successfully defended "`Learning cycling styles using

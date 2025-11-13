@@ -10,7 +10,7 @@ Validation of Ski & Snowboarding Low Impact Jump Design
 Description
 ===========
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/ski-figure-01.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-figure-01.png
    :width: 600px
    :align: center
 

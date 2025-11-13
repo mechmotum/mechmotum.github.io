@@ -4,7 +4,7 @@ Members
 
 :sortorder: 1
 
-.. |headshot-missing| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-missing.png
+.. |headshot-missing| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-missing.png
    :width: 100px
 
 Principal Investigators
@@ -19,7 +19,7 @@ Principal Investigators
    * - |headshot-moore-jason|
      - **Dr. Jason K. Moore**, Assistant Professor
 
-.. |headshot-moore-jason| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-moore-jason.png
+.. |headshot-moore-jason| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-moore-jason.png
    :width: 100px
    :height: 133px
 
@@ -35,7 +35,7 @@ Staff
    * - |headshot-rawdha-al-amri|
      - **Rawdha Al Amri**, Lab Coordinator
 
-.. |headshot-rawdha-al-amri| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-rawdha-al-amri.jpg
+.. |headshot-rawdha-al-amri| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-rawdha-al-amri.jpg
    :width: 100px
    :height: 133px
 
@@ -54,7 +54,7 @@ Postdoctoral Researchers
      -
      -
 
-.. |headshot-ronne-jules| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-ronne-jules.jpg
+.. |headshot-ronne-jules| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-ronne-jules.jpg
    :width: 100px
    :height: 133px
 
@@ -74,11 +74,11 @@ PhD Candidates
      - | **Christoph M. Konrad** [TUD, October 2022-present]
        | `Bicycle Dynamics for Microscopic Traffic Simulation <{filename}/pages/research/bicycle-dynamics-microsim.rst>`_
 
-.. |headshot-gonzalez-benjamin| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-gonzalez-benjamin.jpg
+.. |headshot-gonzalez-benjamin| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-gonzalez-benjamin.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-schmidt-christoph| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schmidt-christoph.jpg
+.. |headshot-schmidt-christoph| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-schmidt-christoph.jpg
    :width: 100px
    :height: 133px
 
@@ -110,27 +110,27 @@ Masters of Science Students
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
 
-.. |headshot-bongers-quinten| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-bongers-quinten.jpg
+.. |headshot-bongers-quinten| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-bongers-quinten.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-van-der-pol-dana| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-van-der-pol-dana.jpg
+.. |headshot-van-der-pol-dana| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-van-der-pol-dana.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-schoneveld-looka| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-schoneveld-looka.jpg
+.. |headshot-schoneveld-looka| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-schoneveld-looka.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-terwint-ruben| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-terwint-ruben.jpg
+.. |headshot-terwint-ruben| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-terwint-ruben.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-huang-yuke| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-huang-yuke.png
+.. |headshot-huang-yuke| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-huang-yuke.png
    :width: 100px
    :height: 133px
 
-.. |headshot-nieman-neville| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-nieman-neville.jpg
+.. |headshot-nieman-neville| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-nieman-neville.jpg
    :width: 100px
    :height: 133px
 
@@ -163,15 +163,15 @@ Alumni
      - | **Dr. Andrew Dressel** [TUD, Apr 2022-Apr 2023]
        | *Stable Tilting Tricycle & Next Gen Tire Tester*
 
-.. |headshot-alizadehsaravi-leila| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-alizadehsaravi-leila.jpg
+.. |headshot-alizadehsaravi-leila| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-alizadehsaravi-leila.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-brockie-sam| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-brockie-sam.jpg
+.. |headshot-brockie-sam| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-brockie-sam.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-dressel-andrew| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dressel-andrew.jpg
+.. |headshot-dressel-andrew| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-dressel-andrew.jpg
    :width: 100px
    :height: 133px
 
@@ -196,15 +196,15 @@ Alumni
      - | **Rado Dukalski** [TUD, March 2018-August 2023]
        | *Augmented Reality in Cycling for Safety and Peformance*
 
-.. |headshot-farias-jose| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-farias-jose.jpg
+.. |headshot-farias-jose| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-farias-jose.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-dell-orto-gabriele| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dell-orto-gabriele.jpg
+.. |headshot-dell-orto-gabriele| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-dell-orto-gabriele.jpg
    :width: 100px
    :height: 133px
 
-.. |headshot-dukalski-rado| image:: https://objects-us-east-1.dream.io/mechmotum/headshot-dukalski-rado.jpg
+.. |headshot-dukalski-rado| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-dukalski-rado.jpg
    :width: 100px
    :height: 133px
 

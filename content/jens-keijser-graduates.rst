@@ -7,9 +7,9 @@ Jens Keijser Successfully Defends His MSc Thesis
 :category: news
 :slug: jens-keijser-graduates
 :authors: Jason K. Moore
-:thumbnail: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-jens-keijser.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-jens-keijser.png
 
-.. image:: https://objects-us-east-1.dream.io/mechmotum/thesis-cover-jens-keijser.png
+.. image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-jens-keijser.png
    :height: 400px
    :align: center
 

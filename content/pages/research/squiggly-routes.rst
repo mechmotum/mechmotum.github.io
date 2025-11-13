@@ -13,10 +13,10 @@ Squiggly Bicycle Routes
                    time and energy costs for a bicyclist traveling over an
                    arbitrary route accounting for elevation changes, bicycle
                    type, rider physiology, traffic signals, and yielding.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/squiggly-400x400.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/squiggly-400x400.png
 :slug: research/squiggly-routes
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/direct-vs-squiggly.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/direct-vs-squiggly.png
    :width: 600px
    :align: center
 
@@ -69,7 +69,7 @@ Netherlands:
 
    <center>
    <video width="800px" controls>
-     <source src="https://objects-us-east-1.dream.io/mechmotum/hs_noi_tunnel_single.mp4" type="video/mp4">
+     <source src="https://mechmotum.s3.us-east-005.dream.io/hs_noi_tunnel_single.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
    </center>
@@ -80,7 +80,7 @@ The next video shows a population of cyclists riding the route:
 
    <center>
    <video width="800px" controls>
-     <source src="https://objects-us-east-1.dream.io/mechmotum/all_animation_hs_noi_normal_all_fast.mp4" type="video/mp4">
+     <source src="https://mechmotum.s3.us-east-005.dream.io/all_animation_hs_noi_normal_all_fast.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
    </center>

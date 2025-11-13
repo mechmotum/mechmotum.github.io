@@ -21,7 +21,7 @@ Estimation of Rower Kinematics in Competitive Rowing
                    methods to predict global boat position, speed, stroke rate,
                    and distance per stroke at high accuracy and with
                    experimental protocols for validating the estimations.
-:summary-image: https://objects-us-east-1.dream.io/mechmotum/project-image-row.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/project-image-row.png
 :slug: research/rowing-performance
 
 Description
@@ -85,7 +85,7 @@ Associated Research Products
 Media
 =====
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/experimental-boat.jpg
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/experimental-boat.jpg
    :width: 80%
    :alt: Experimental setup of the scull.
    :align: center
@@ -102,7 +102,7 @@ Media
 
 A video of the club-level rower during the data collection:
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/dist-per-stroke-summary.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/dist-per-stroke-summary.png
    :width: 80%
    :alt: Final results plot for the distance per stroke estimates.
    :align: center
@@ -111,7 +111,7 @@ A video of the club-level rower during the data collection:
    for the complementary filter (CF) and Kalman filter (KF) as compared to the
    estimates from the raw smartphone data (SP).
 
-.. figure:: https://objects-us-east-1.dream.io/mechmotum/row-research-team.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/row-research-team.png
    :width: 80%
    :alt: Rowing performance estimation project team.
    :align: center
