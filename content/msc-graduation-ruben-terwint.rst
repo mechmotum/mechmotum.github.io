@@ -3,7 +3,7 @@ Ruben Terwint Successfully Defends His MSc Thesis
 =================================================
 
 :date: 2025-11-19 13:43:00
-:tags: vibration, power, cycling
+:tags: workload, machine learning, computer vision, cycling, traffic
 :category: news
 :authors: Jason K. Moore
 :thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-terwint.png
