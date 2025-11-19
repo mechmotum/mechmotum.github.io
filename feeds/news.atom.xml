@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2025-10-14T15:04:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Eloy Vázquez Fernández Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-eloy-vazquez-fernandez.html" rel="alternate"/><published>2025-10-14T15:04:00-07:00</published><updated>2025-10-14T15:04:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-10-14:/blog/msc-graduation-eloy-vazquez-fernandez.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2025-11-19T13:43:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Ruben Terwint Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-ruben-terwint.html" rel="alternate"/><published>2025-11-19T13:43:00-08:00</published><updated>2025-11-19T13:43:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-11-19:/blog/msc-graduation-ruben-terwint.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-terwint-ruben.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:4642837e-d0a9-44ed-871d-17bc4e903ddf"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-terwint.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Ruben Terwint successfully defended his MSc thesis titled, &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:4642837e-d0a9-44ed-871d-17bc4e903ddf"&gt;Linking Traffic
+Condition Metrics to a Cyclist's Workload&lt;/a&gt;
+on September 15, 2025.&lt;/p&gt;
+&lt;p&gt;Ruben extracted metrics from video captured from glasses worn by a cyclist
+while they rode through the city of Delft and corresponding verbal workload
+levels reported by the cyclist. He …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-terwint-ruben.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:4642837e-d0a9-44ed-871d-17bc4e903ddf"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-terwint.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Ruben Terwint successfully defended his MSc thesis titled, &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:4642837e-d0a9-44ed-871d-17bc4e903ddf"&gt;Linking Traffic
+Condition Metrics to a Cyclist's Workload&lt;/a&gt;
+on September 15, 2025.&lt;/p&gt;
+&lt;p&gt;Ruben extracted metrics from video captured from glasses worn by a cyclist
+while they rode through the city of Delft and corresponding verbal workload
+levels reported by the cyclist. He then developed a regression model based on
+the traffic metrics to predict the subjective workload reported by the rider.
+He found that ego cyclist speed was a main predictor of workload and concluded
+that cyclists modulate their speed when in high workload areas. This result is
+consistent with self regulation to reduce the task difficulty in prior general
+driver behavior findings.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/terwint-video-still.png" style="width: 600px;" /&gt;
+&lt;p class="caption"&gt;Example of cyclists being detected and the distance estimate to each
+cyclist.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ruben was supervised by Jules Ronné, Holger Caesar, and Jason K. Moore.
+Everyone at the bicycle lab is very proud of Ruben and wishes him the best in
+his next adventures in studying machine learning in the UK.&lt;/p&gt;
+</content><category term="news"/><category term="vibration"/><category term="power"/><category term="cycling"/></entry><entry><title>Eloy Vázquez Fernández Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-eloy-vazquez-fernandez.html" rel="alternate"/><published>2025-10-14T15:04:00-07:00</published><updated>2025-10-14T15:04:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-10-14:/blog/msc-graduation-eloy-vazquez-fernandez.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
