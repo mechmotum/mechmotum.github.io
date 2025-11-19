@@ -97,18 +97,17 @@ Masters of Science Students
      - |headshot-van-der-pol-dana|
      - | **Dana van der Pol** [TUD, May 2025-present]
        | *Improving Rider Acceptance of Bicycle Balance Assist*
-   * - |headshot-terwint-ruben|
-     - | **Ruben Terwint** [TUD, Mar 2025-present]
-       | *Perception and Workload in Urban Cycling*
-     - |headshot-huang-yuke|
+   * - |headshot-huang-yuke|
      - | **Yuke Huang** [TUD, Feb 2025-present]
        | *Cyclist Path Planning with Social Force*
-   * - |headshot-schoneveld-looka|
+     - |headshot-schoneveld-looka|
      - | **Looka Schoneveld** [TUD, Nov 2024-present]
        | *Bicycle Simulator with Realistic Turning*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
+     -
+     -
 
 .. |headshot-bongers-quinten| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-bongers-quinten.jpg
    :width: 100px
@@ -225,6 +224,12 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Ruben Terwint
+     - TUD
+     - Mar 2025-Sep 2025
+     - `Linking Traffic Condition Metrics to a Cyclist's Workload
+       <https://repository.tudelft.nl/record/uuid:4642837e-d0a9-44ed-871d-17bc4e903ddf>`_
+     - `J. Ronné, H. Caesar, J. K. Moore`
    * - Eloy Vázquez Fernández
      - TUD
      - Sep 2024-Jul 2025
