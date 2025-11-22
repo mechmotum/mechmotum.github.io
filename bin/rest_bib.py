@@ -58,7 +58,7 @@ Report
 Preprint
     For preprints that are hosted on an official repository.
 Blog Post
-    Any informal web article.
+    Any informal web article written by us.
 Manuscript
     Draft papers (pre-pre prints), papers under review, papers submitted, in
     preparation.
@@ -190,9 +190,9 @@ def formatter_presentations(data):
 
 def formatter_proceedings(data):
     if data['DOI']:
-        hyperlink = '`{DOI} <https://dx.doi.org/{DOI}>`_ '.format(**data)
+        hyperlink = '`{DOI} <https://dx.doi.org/{DOI}>`_'.format(**data)
     elif data['url']:
-        hyperlink = '`{url} <{url}>`_ '.format(**data)
+        hyperlink = '`{url} <{url}>`_'.format(**data)
     else:
         hyperlink = ''
     template = (
@@ -214,7 +214,7 @@ def formatter_proceedings(data):
 
 def formatter_book(data):
     if data['url']:
-        hyperlink = '`{url} <{url}>`_ '.format(**data)
+        hyperlink = '`{url} <{url}>`_'.format(**data)
     else:
         hyperlink = ''
     template = (
