@@ -32,23 +32,23 @@ Journal Articles
 Conference Proceedings Articles
 ===============================
 
-1. `Radoslaw R. Dukalski`, `Jason K. Moore`, `Peter J. Beek`, and `Frances M. Brazier`, "A Low-Tech Methodology for Understanding User Needs and Preferences for User- Interface Design for Mixed Reality for a Dynamic Motion Context," SportsHCI, 2025, `10.1145/3749385.3749400 <https://dx.doi.org/10.1145/3749385.3749400>`_ 
-2. `L. Alizadehsaravi`, `S. Draukšas`, `J. K. Moore`, `R. Happee`, and `L. Marchal-Crespo`, "Enhancing Motor Learning in Cycling Tasks: The Role of Model Predictive Control and Training Sequence," 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), 2024-09, `10.1109/BioRob60516.2024.10719950 <https://dx.doi.org/10.1109/BioRob60516.2024.10719950>`_ 
-3. `Timótheüs J. Stienstra`, `Samuel G. Brockie`, and `Jason K. Moore`, "BRiM: A modular bicycle-rider modeling framework," Bicycle and Motorcycle Dynamics 2023, 2023-10-18, `10.59490/660179a06bf1082286458109 <https://dx.doi.org/10.59490/660179a06bf1082286458109>`_ 
-4. `Christoph M. Schmidt`, `Azita Dabiri`, `Frederik Schulte`, `Riender Happee`, and `Jason Moore`, "Essential bicycle dynamics for microscopic traffic simulation: An example using the social force model," Bicycle and Motorcycle Dynamics 2023, 2023, `10.59490/65a5124da90ad4aecf0ab147 <https://dx.doi.org/10.59490/65a5124da90ad4aecf0ab147>`_ 
-5. `Andrew Dressel` and `Jason K. Moore`, "Adapting a variable stability mechanism for a tilting tricycle from the delta to the tadpole wheel configuration," Bicycle and Motorcycle Dynamics 2023, 2023, `10.59490/65c54c6425dcba41658e0df1 <https://dx.doi.org/10.59490/65c54c6425dcba41658e0df1>`_ 
-6. `Jason K Moore` and `Mont Hubbard`, "Expanded Optimization for Discovering Optimal Lateral Handling Bicycles," Bicycle and Motorcycle Dynamics 2019: Symposium for Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9942938.v1 <https://dx.doi.org/10.6084/m9.figshare.9942938.v1>`_ 
-7. `Roy Gilboa`, `Anastasia Kubicki`, `Anthony Toribio`, `Mont Hubbard`, and `Jason K Moore`, "Practical Realization of a Theoretical Optimal-Handling Bicycle," Bicycle and Motorcycle Dynamics: Symposium on Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9883328.v1 <https://dx.doi.org/10.6084/m9.figshare.9883328.v1>`_ 
-8. `Trevor Z. Metz` and `Jason K. Moore`, "Design of an Electric Bicycle Speed Controller," Bicycle and Motorcycle Dynamics 2019: Symposium on the Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9937091.v1 <https://dx.doi.org/10.6084/m9.figshare.9937091.v1>`_ 
-9. `Jason K. Moore`, `Mont Hubbard`, and `Ronald A. Hess`, "An Optimal Handling Bicycle," Bicycle and Motorcycle Dynamics, 2016-09-21, `10.6084/m9.figshare.c.3460590.v11 <https://dx.doi.org/10.6084/m9.figshare.c.3460590.v11>`_ 
+1. `Radoslaw R. Dukalski`, `Jason K. Moore`, `Peter J. Beek`, and `Frances M. Brazier`, "A Low-Tech Methodology for Understanding User Needs and Preferences for User- Interface Design for Mixed Reality for a Dynamic Motion Context," SportsHCI, 2025, `10.1145/3749385.3749400 <https://dx.doi.org/10.1145/3749385.3749400>`_
+2. `L. Alizadehsaravi`, `S. Draukšas`, `J. K. Moore`, `R. Happee`, and `L. Marchal-Crespo`, "Enhancing Motor Learning in Cycling Tasks: The Role of Model Predictive Control and Training Sequence," 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), 2024-09, `10.1109/BioRob60516.2024.10719950 <https://dx.doi.org/10.1109/BioRob60516.2024.10719950>`_
+3. `Timótheüs J. Stienstra`, `Samuel G. Brockie`, and `Jason K. Moore`, "BRiM: A modular bicycle-rider modeling framework," Bicycle and Motorcycle Dynamics 2023, 2023-10-18, `10.59490/660179a06bf1082286458109 <https://dx.doi.org/10.59490/660179a06bf1082286458109>`_
+4. `Christoph M. Schmidt`, `Azita Dabiri`, `Frederik Schulte`, `Riender Happee`, and `Jason Moore`, "Essential bicycle dynamics for microscopic traffic simulation: An example using the social force model," Bicycle and Motorcycle Dynamics 2023, 2023, `10.59490/65a5124da90ad4aecf0ab147 <https://dx.doi.org/10.59490/65a5124da90ad4aecf0ab147>`_
+5. `Andrew Dressel` and `Jason K. Moore`, "Adapting a variable stability mechanism for a tilting tricycle from the delta to the tadpole wheel configuration," Bicycle and Motorcycle Dynamics 2023, 2023, `10.59490/65c54c6425dcba41658e0df1 <https://dx.doi.org/10.59490/65c54c6425dcba41658e0df1>`_
+6. `Jason K Moore` and `Mont Hubbard`, "Expanded Optimization for Discovering Optimal Lateral Handling Bicycles," Bicycle and Motorcycle Dynamics 2019: Symposium for Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9942938.v1 <https://dx.doi.org/10.6084/m9.figshare.9942938.v1>`_
+7. `Roy Gilboa`, `Anastasia Kubicki`, `Anthony Toribio`, `Mont Hubbard`, and `Jason K Moore`, "Practical Realization of a Theoretical Optimal-Handling Bicycle," Bicycle and Motorcycle Dynamics: Symposium on Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9883328.v1 <https://dx.doi.org/10.6084/m9.figshare.9883328.v1>`_
+8. `Trevor Z. Metz` and `Jason K. Moore`, "Design of an Electric Bicycle Speed Controller," Bicycle and Motorcycle Dynamics 2019: Symposium on the Dynamics and Control of Single Track Vehicles, 2019, `10.6084/m9.figshare.9937091.v1 <https://dx.doi.org/10.6084/m9.figshare.9937091.v1>`_
+9. `Jason K. Moore`, `Mont Hubbard`, and `Ronald A. Hess`, "An Optimal Handling Bicycle," Bicycle and Motorcycle Dynamics, 2016-09-21, `10.6084/m9.figshare.c.3460590.v11 <https://dx.doi.org/10.6084/m9.figshare.c.3460590.v11>`_
 
 Books
 =====
 
-1. `Jason K. Moore`, `Edwin de Vries`, `Andrew Dressel`, and `Leila Alizadehsaravi`, "Proceedings of the 5th Symposium on the Dynamics and Control of Single-track Vehicles: Bicycle and Motorcycle Dynamics 2023, October 18-20, Delft, The Netherlands," 2024, TU Delft OPEN Books, ISBN 978-94-6366-958-0, `https://books.open.tudelft.nl/home/catalog/book/121 <https://books.open.tudelft.nl/home/catalog/book/121>`_ 
-2. `Jason K. Moore`, "Learn Multibody Dynamics," 2022, Self-published, `https://moorepants.github.io/learn-multibody-dynamics/ <https://moorepants.github.io/learn-multibody-dynamics/>`_ 
-3. `Lorena A. Barba`, `Lecia J. Barker`, `Douglas S. Blank`, `Jed Brown`, `Allen B. Downey`, `Lindsey J. Heagy`, `Kyle T. Mandli`, `Jason K. Moore`, `David Lippert`, `Kyle E. Niemeyer`, `Ryan R. Watkins`, `Richard H. West`, `Elizabeth Wickes`, `Carol Willing`, and `Michael Zingale`, "Teaching and Learning with Jupyter," 2018, Self-published, `https://jupyter4edu.github.io/jupyter-edu-book/ <https://jupyter4edu.github.io/jupyter-edu-book/>`_ 
-4. `Jason K. Moore` and `Kenneth Lyons`, "Resonance: Learning Mechanical Vibration Enginering Through Computation," 2017, Draft, `https://moorepants.github.io/resonance/ <https://moorepants.github.io/resonance/>`_ 
+1. `Jason K. Moore`, `Edwin de Vries`, `Andrew Dressel`, and `Leila Alizadehsaravi`, "Proceedings of the 5th Symposium on the Dynamics and Control of Single-track Vehicles: Bicycle and Motorcycle Dynamics 2023, October 18-20, Delft, The Netherlands," 2024, TU Delft OPEN Books, ISBN 978-94-6366-958-0, `https://books.open.tudelft.nl/home/catalog/book/121 <https://books.open.tudelft.nl/home/catalog/book/121>`_
+2. `Jason K. Moore`, "Learn Multibody Dynamics," 2022, Self-published, `https://moorepants.github.io/learn-multibody-dynamics/ <https://moorepants.github.io/learn-multibody-dynamics/>`_
+3. `Lorena A. Barba`, `Lecia J. Barker`, `Douglas S. Blank`, `Jed Brown`, `Allen B. Downey`, `Lindsey J. Heagy`, `Kyle T. Mandli`, `Jason K. Moore`, `David Lippert`, `Kyle E. Niemeyer`, `Ryan R. Watkins`, `Richard H. West`, `Elizabeth Wickes`, `Carol Willing`, and `Michael Zingale`, "Teaching and Learning with Jupyter," 2018, Self-published, `https://jupyter4edu.github.io/jupyter-edu-book/ <https://jupyter4edu.github.io/jupyter-edu-book/>`_
+4. `Jason K. Moore` and `Kenneth Lyons`, "Resonance: Learning Mechanical Vibration Enginering Through Computation," 2017, Draft, `https://moorepants.github.io/resonance/ <https://moorepants.github.io/resonance/>`_
 
 Theses and Dissertations
 ========================
@@ -146,11 +146,11 @@ Presentations
 12. **Leila Alizadehsaravi**, "Balance Assist Bicycle to Prevent Falls in Older Adults," Delft, The Netherlands, 2023-07-03, [`Oral <https://a4see.com/news/2023/8/25/balance-assist-bicycle-to-prevent-falls-in-older-adults>`__]
 13. **Leila Alizadehsaravi** and **Jason K. Moore**, "Balance Assist for Reducing Low Speed Falls," Utrecht, The Netherlands, 2023-06-27, [Demo]
 14. **Christoph M. Schmidt**, `Jason K. Moore`, `Azita Dabiri`, `Riender Happee`, and `Frederik Schulte`, "Connected Traffic of Vulnerable Bicyclists and Automated Vehicles," SUMO User Conference: Berlin, Germany, 2023-05-02, [Poster]
-15. **Andrew Dressel** and `Jason K. Moore`, "Adapting a variable stability mechanism for a tilting tricycle from the delta to the tadpole wheel configuration," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
-16. **Andrew Dressel**, `Floris van Willigen`, and `Jason K. Moore`, "Evaluating the handling of a tilting tricycle with variable stability," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Poster]
-17. **Jason K. Moore**, `Jeswin Koshy Cherian`, `Björn Andersson`, `Oliver Lee`, and `Anders Ranheim`, "Modeling and Implementation of a Reaction Wheel Stabilization System for Low Speed Balance of a Cargo Bicycle," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [`Poster <https://doi.org/10.24404/63ff23b478f53b9c419075b9>`__]
-18. **Christoph M. Schmidt**, `Azita Dabiri`, `Frederik Schulte`, `Riender Happee`, and `Jason K. Moore`, "Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
-19. **Timo J. Stienstra**, **Samuel G. Brockie**, and **Jason K. Moore**, "BRiM: A Modular and Extensible Open-Source Framework for Creating Bicycle-Rider Models," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
+15. **Timo J. Stienstra**, `Samuel G. Brockie`, and `Jason K. Moore`, "BRiM: A Modular and Extensible Open-Source Framework for Creating Bicycle-Rider Models," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
+16. **Andrew Dressel** and `Jason K. Moore`, "Adapting a variable stability mechanism for a tilting tricycle from the delta to the tadpole wheel configuration," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
+17. **Andrew Dressel**, `Floris van Willigen`, and `Jason K. Moore`, "Evaluating the handling of a tilting tricycle with variable stability," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Poster]
+18. **Jason K. Moore**, `Jeswin Koshy Cherian`, `Björn Andersson`, `Oliver Lee`, and `Anders Ranheim`, "Modeling and Implementation of a Reaction Wheel Stabilization System for Low Speed Balance of a Cargo Bicycle," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [`Poster <https://doi.org/10.24404/63ff23b478f53b9c419075b9>`__]
+19. **Christoph M. Schmidt**, `Azita Dabiri`, `Frederik Schulte`, `Riender Happee`, and `Jason K. Moore`, "Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
 20. `Ajaypal Singh`, `Hans Vreman`, **Andrew Dressel**, and `Jason K. Moore`, "Using a Scanning Laser Doppler Vibrometer to Investigate Causes and Possible Mitigations of Bicycle Disc Brake Noise," Measuring By Light: International Meeting on Optical Measurement Techniques and Industrial Applications: Delft, The Netherlands, 2023-03-29, [Oral]
 21. **Leila Alizadehsaravi** and `Jason K. Moore`, "The Effects of a Steer Assist System on Bicycle Postural Control in Real-Like Safety Challenges," Dutch Biomedical Engineering Conference: Egmond an Zee, 2023-01-26, [Poster]
 22. **Jan Heinen**, `Eline van der Kruk`, `Raymund ten Broek`, and `Jason K. Moore`, "Optimal Skateboard Geometry For Maximizing Ollie Height," Dutch Biomedical Engineering Conference: Egmond an Zee, The Netherlands, 2023-01-26, [Poster]
@@ -187,257 +187,243 @@ Presentations
 Software
 ========
 
-#. B. Cloud, J. K. Moore, A. Liu, B. Tarien, T. Shedd, row_filter: Library for
-   rowing kinematic filtering and analysis, 2018
+1. `ngshare Development Team`, "`ngshare <https://github.com/LibreTexts/ngshare>`__", 2020-02-16 |github-LibreTexts/ngshare| |pypi-ngshare| |pypi-downloads-ngshare|
 
-   |row_filter-gitlab|
-#. J. K. Moore, M. Hubbard, and B. Cloud, skijumpdesign: A ski jump design tool
-   for equivalent fall height. 2017. http://www.skijumpdesign.info
+    .. |github-LibreTexts/ngshare| image:: https://img.shields.io/github/v/release/LibreTexts/ngshare?label=Github
+       :alt: github-LibreTexts/ngshare badge
+       :target: https://github.com/LibreTexts/ngshare
 
-   |skijumpdesign-gitlab| |skijumpdesign-pypi| |skijumpdesign-pypi-downloads| |skijumpdesign-conda-forge| |skijumpdesign-conda-downloads|
-#. J. K. Moore and K. Lyons, resonance: A Python package for mechanical
-   vibration analysis. University of California, Davis, 2017.
+    .. |pypi-ngshare| image:: https://img.shields.io/pypi/v/ngshare.png
+       :alt: pypi-ngshare badge
+       :target: https://pypi.org/project/ngshare
 
-   |resonance-github| |resonance-pypi| |resonance-pypi-downloads| |resonance-conda-forge| |resonance-conda-downloads|
-#. J. K. Moore and A. J. van den Bogert, opty: A library for using direct
-   collocation in the optimization and identification of dynamic systems.
-   Cleveland State University, 2014.
+    .. |pypi-downloads-ngshare| image:: https://pepy.tech/badge/ngshare
+       :alt: pypi-ngshare badge
+       :target: https://pypi.org/project/ngshare
 
-   |opty-github| |opty-pypi| |opty-pypi-downloads| |opty-conda-forge| |opty-conda-downloads|
-#. J. K. Moore, S. K. Hnat, O. Nwanna, M. Overmeyer, and A. J. van den Bogert,
-   GaitAnalysisToolKit: A Python Library for Gait Analysis. Cleveland State
-   University, 2013.
+2. `Bryn Cloud`, `Jason K. Moore`, `A. Liu`, `B. Tarien`, and `Thomas Shedd`, "`row_filter: Library for rowing kinematic filtering and analysis <https://gitlab.com/mechmotum/row_filter>`__", 2018 |gitlab-mechmotum/row_filter|
 
-   |GaitAnalysisToolKit-github| |GaitAnalysisToolKit-pypi| |GaitAnalysisToolKit-pypi-downloads|
-#. J. K. Moore, P. D. L. de Lange, and S. Yin, BicycleDataProcessor: Data
-   storage and processing library for an instrumented bicycle. University of
-   California, Davis, 2011.
+    .. |gitlab-mechmotum/row_filter| image:: https://img.shields.io/gitlab/v/release/mechmotum/row_filter?label=Gitlab
+       :alt: gitlab-mechmotum/row_filter badge
+       :target: https://gitlab.com/mechmotum/row_filter
 
-   |BicycleDataProcessor-github| |BicycleDataProcessor-pypi| |BicycleDataProcessor-pypi-downloads|
-#. J. K. Moore, C. Dembia, and O. Lee, BicycleParameters: A Python library for
-   bicycle parameter estimation and analysis. 2011.
+3. `Jason K. Moore`, `Mont Hubbard`, and `Bryn Cloud`, "`skijumpdesign: A ski jump design tool for equivalent fall height. <https://gitlab.com/moorepants/skijumpdesign>`__", 2017-12-19 |gitlab-moorepants/skijumpdesign| |pypi-skijumpdesign| |pypi-downloads-skijumpdesign| |conda-forge-skijumpdesign| |conda-forge-downloads-skijumpdesign|
 
-   |BicycleParameters-github| |BicycleParameters-pypi| |BicycleParameters-pypi-downloads| |BicycleParameters-conda-forge| |BicycleParameters-conda-downloads|
-#. J. K. Moore, C. Dembia, and O. Lee, DynamicistToolKit: A Python library for
-   dynamics and controls. 2011.
+    .. |gitlab-moorepants/skijumpdesign| image:: https://img.shields.io/gitlab/v/release/moorepants/skijumpdesign?label=Gitlab
+       :alt: gitlab-moorepants/skijumpdesign badge
+       :target: https://gitlab.com/moorepants/skijumpdesign
 
-   |DynamicistToolKit-github| |DynamicistToolKit-pypi| |DynamicistToolKit-pypi-downloads| |DynamicistToolKit-conda-forge| |DynamicistToolKit-conda-downloads|
-#. C. Dembia, J. K. Moore, S. Yin, and O. Lee, Yeadon: A Python Library For
-   Human Inertia Estimation. 2011.
+    .. |pypi-skijumpdesign| image:: https://img.shields.io/pypi/v/skijumpdesign.png
+       :alt: pypi-skijumpdesign badge
+       :target: https://pypi.org/project/skijumpdesign
 
-   |yeadon-github| |yeadon-pypi| |yeadon-pypi-downloads| |yeadon-conda-forge| |yeadon-conda-downloads|
-#. J. K. Moore et al., PyDy: A multi-body dynamics analysis package written in
-   Python. PyDy, 2011.
+    .. |pypi-downloads-skijumpdesign| image:: https://pepy.tech/badge/skijumpdesign
+       :alt: pypi-skijumpdesign badge
+       :target: https://pypi.org/project/skijumpdesign
 
-   |pydy-github| |pydy-pypi| |pydy-pypi-downloads| |pydy-conda-forge| |pydy-conda-downloads|
-#. cyipopt developers, cyipopt: Python Wrapper to IPOPT, 2011.
+    .. |conda-forge-skijumpdesign| image:: https://img.shields.io/conda/v/conda-forge/skijumpdesign.png
+       :alt: conda-forge-skijumpdesign badge
+       :target: https://anaconda.org/conda-forge/skijumpdesign
 
-   |cyipopt-github| |cyipopt-pypi| |cyipopt-pypi-downloads| |cyipopt-conda-forge| |cyipopt-conda-downloads|
-#. J. K. Moore, P. D. L. de Lange, and Y. Henneberry, BicycleDAQ: Data
-   aquisition application for an instrumented bicycle. University of
-   California, Davis, 2010.
+    .. |conda-forge-downloads-skijumpdesign| image:: https://img.shields.io/conda/dn/conda-forge/skijumpdesign.png
+       :alt: conda-forge-skijumpdesign badge
+       :target: https://anaconda.org/conda-forge/skijumpdesign
 
-   |BicycleDAQ-github|
-#. SymPy Development Team, SymPy: Python library for symbolic mathematics.
-   2006.
+4. `Jason K. Moore` and `Kenneth Lyons`, "`resonance: A Python package for mechanical vibration analysis <https://github.com/moorepants/resonance/>`__", 2017-07-16 |github-moorepants/resonance| |pypi-resonance| |pypi-downloads-resonance| |conda-forge-resonance| |conda-forge-downloads-resonance|
 
-   |sympy-github| |sympy-pypi| |sympy-pypi-downloads| |sympy-conda-forge| |sympy-conda-downloads|
+    .. |github-moorepants/resonance| image:: https://img.shields.io/github/v/release/moorepants/resonance?label=Github
+       :alt: github-moorepants/resonance badge
+       :target: https://github.com/moorepants/resonance
 
-.. |pydy-github| image:: https://img.shields.io/github/v/release/pydy/pydy?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/pydy/pydy
+    .. |pypi-resonance| image:: https://img.shields.io/pypi/v/resonance.png
+       :alt: pypi-resonance badge
+       :target: https://pypi.org/project/resonance
 
-.. |pydy-pypi| image:: https://img.shields.io/pypi/v/pydy.png
-   :target: https://pypi.org/project/pydy
+    .. |pypi-downloads-resonance| image:: https://pepy.tech/badge/resonance
+       :alt: pypi-resonance badge
+       :target: https://pypi.org/project/resonance
 
-.. |pydy-pypi-downloads| image:: https://pepy.tech/badge/pydy
-   :target: https://pypi.org/project/pydy
+    .. |conda-forge-resonance| image:: https://img.shields.io/conda/v/conda-forge/resonance.png
+       :alt: conda-forge-resonance badge
+       :target: https://anaconda.org/conda-forge/resonance
 
-.. |pydy-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/pydy.png
-   :target: https://anaconda.org/conda-forge/pydy
+    .. |conda-forge-downloads-resonance| image:: https://img.shields.io/conda/dn/conda-forge/resonance.png
+       :alt: conda-forge-resonance badge
+       :target: https://anaconda.org/conda-forge/resonance
 
-.. |pydy-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/pydy.png
-   :target: https://anaconda.org/conda-forge/pydy
+5. `Jason K. Moore` and `Antonie J. van den Bogert`, "`opty: A library for using direct collocation in the optimization and identification of dynamic systems. <https://github.com/csu-hmc/opty>`__", 2014-05-25 |github-csu-hmc/opty| |pypi-opty| |pypi-downloads-opty| |conda-forge-opty| |conda-forge-downloads-opty|
 
-.. |cyipopt-github| image:: https://img.shields.io/github/v/release/mechmotum/cyipopt?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/mechmotum/cyipopt
+    .. |github-csu-hmc/opty| image:: https://img.shields.io/github/v/release/csu-hmc/opty?label=Github
+       :alt: github-csu-hmc/opty badge
+       :target: https://github.com/csu-hmc/opty
 
-.. |cyipopt-pypi| image:: https://img.shields.io/pypi/v/cyipopt.png
-   :target: https://pypi.org/project/cyipopt
+    .. |pypi-opty| image:: https://img.shields.io/pypi/v/opty.png
+       :alt: pypi-opty badge
+       :target: https://pypi.org/project/opty
 
-.. |cyipopt-pypi-downloads| image:: https://pepy.tech/badge/cyipopt
-   :target: https://pypi.org/project/cyipopt
+    .. |pypi-downloads-opty| image:: https://pepy.tech/badge/opty
+       :alt: pypi-opty badge
+       :target: https://pypi.org/project/opty
 
-.. |cyipopt-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/cyipopt.png
-   :target: https://anaconda.org/conda-forge/cyipopt
+    .. |conda-forge-opty| image:: https://img.shields.io/conda/v/conda-forge/opty.png
+       :alt: conda-forge-opty badge
+       :target: https://anaconda.org/conda-forge/opty
 
-.. |cyipopt-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/cyipopt.png
-   :target: https://anaconda.org/conda-forge/cyipopt
+    .. |conda-forge-downloads-opty| image:: https://img.shields.io/conda/dn/conda-forge/opty.png
+       :alt: conda-forge-opty badge
+       :target: https://anaconda.org/conda-forge/opty
 
-.. |opty-github| image:: https://img.shields.io/github/v/release/csu-hmc/opty?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/csu-hmc/opty
+6. `Jason K. Moore`, `Sandra K. Hnat`, `Obinna Nwanna`, `Michael Overmeyer`, and `Antonie J. van den Bogert`, "`GaitAnalysisToolKit: A Python Library for Gait Analysis <https://github.com/csu-hmc/GaitAnalysisToolKit>`__", 2013-12-01 |github-csu-hmc/GaitAnalysisToolKit|
 
-.. |opty-pypi| image:: https://img.shields.io/pypi/v/opty.png
-   :target: https://pypi.org/project/opty
+    .. |github-csu-hmc/GaitAnalysisToolKit| image:: https://img.shields.io/github/v/release/csu-hmc/GaitAnalysisToolKit?label=Github
+       :alt: github-csu-hmc/GaitAnalysisToolKit badge
+       :target: https://github.com/csu-hmc/GaitAnalysisToolKit
 
-.. |opty-pypi-downloads| image:: https://pepy.tech/badge/opty
-   :target: https://pypi.org/project/opty
+7. `Jason K. Moore`, `Tarun Gaba`, `Oliver Lee`, `Sahil Shekhawat`, `Dale L. Peterson`, `Chris Dembia`, `Yashu Seth`, `Nikhil Pappu`, `Gilbert Gede`, `James Crist`, `Brandon James Milam`, `Frédéric Bastien`, `Pranjal Mittal`, `Robert McMurry`, `Varun Joshi`, `Ivan Angelov`, and `Nikolay Mayorov`, "`PyDy: A multi-body dynamics analysis package written in Python <http://pydy.org>`__", 2011-10-16 |github-pydy/pydy| |pypi-pydy| |pypi-downloads-pydy| |conda-forge-pydy| |conda-forge-downloads-pydy|
 
-.. |opty-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/opty.png
-   :target: https://anaconda.org/conda-forge/opty
+    .. |github-pydy/pydy| image:: https://img.shields.io/github/v/release/pydy/pydy?label=Github
+       :alt: github-pydy/pydy badge
+       :target: https://github.com/pydy/pydy
 
-.. |opty-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/opty.png
-   :target: https://anaconda.org/conda-forge/opty
+    .. |pypi-pydy| image:: https://img.shields.io/pypi/v/pydy.png
+       :alt: pypi-pydy badge
+       :target: https://pypi.org/project/pydy
 
-.. |BicycleParameters-github| image:: https://img.shields.io/github/v/release/moorepants/BicycleParameters?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/moorepants/BicycleParameters
+    .. |pypi-downloads-pydy| image:: https://pepy.tech/badge/pydy
+       :alt: pypi-pydy badge
+       :target: https://pypi.org/project/pydy
 
-.. |BicycleParameters-pypi| image:: https://img.shields.io/pypi/v/BicycleParameters.png
-   :target: https://pypi.org/project/BicycleParameters
+    .. |conda-forge-pydy| image:: https://img.shields.io/conda/v/conda-forge/pydy.png
+       :alt: conda-forge-pydy badge
+       :target: https://anaconda.org/conda-forge/pydy
 
-.. |BicycleParameters-pypi-downloads| image:: https://pepy.tech/badge/BicycleParameters
-   :target: https://pypi.org/project/BicycleParameters
+    .. |conda-forge-downloads-pydy| image:: https://img.shields.io/conda/dn/conda-forge/pydy.png
+       :alt: conda-forge-pydy badge
+       :target: https://anaconda.org/conda-forge/pydy
 
-.. |BicycleParameters-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/BicycleParameters.png
-   :target: https://anaconda.org/conda-forge/BicycleParameters
+8. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`DynamicistToolKit: A Python library for dynamcis and controls <https://github.com/moorepants/DynamicistToolKit>`__", 2011-06-19 |github-moorepants/DynamicistToolKit| |pypi-DynamicistToolKit| |pypi-downloads-DynamicistToolKit| |conda-forge-dynamicisttoolkit| |conda-forge-downloads-dynamicisttoolkit|
 
-.. |BicycleParameters-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/BicycleParameters.png
-   :target: https://anaconda.org/conda-forge/BicycleParameters
+    .. |github-moorepants/DynamicistToolKit| image:: https://img.shields.io/github/v/release/moorepants/DynamicistToolKit?label=Github
+       :alt: github-moorepants/DynamicistToolKit badge
+       :target: https://github.com/moorepants/DynamicistToolKit
 
-.. |yeadon-github| image:: https://img.shields.io/github/v/release/chrisdembia/yeadon?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/chrisdembia/yeadon
+    .. |pypi-DynamicistToolKit| image:: https://img.shields.io/pypi/v/DynamicistToolKit.png
+       :alt: pypi-DynamicistToolKit badge
+       :target: https://pypi.org/project/DynamicistToolKit
 
-.. |yeadon-pypi| image:: https://img.shields.io/pypi/v/yeadon.png
-   :target: https://pypi.org/project/yeadon
+    .. |pypi-downloads-DynamicistToolKit| image:: https://pepy.tech/badge/DynamicistToolKit
+       :alt: pypi-DynamicistToolKit badge
+       :target: https://pypi.org/project/DynamicistToolKit
 
-.. |yeadon-pypi-downloads| image:: https://pepy.tech/badge/yeadon
-   :target: https://pypi.org/project/yeadon
+    .. |conda-forge-dynamicisttoolkit| image:: https://img.shields.io/conda/v/conda-forge/dynamicisttoolkit.png
+       :alt: conda-forge-dynamicisttoolkit badge
+       :target: https://anaconda.org/conda-forge/dynamicisttoolkit
 
-.. |yeadon-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/yeadon.png
-   :target: https://anaconda.org/conda-forge/yeadon
+    .. |conda-forge-downloads-dynamicisttoolkit| image:: https://img.shields.io/conda/dn/conda-forge/dynamicisttoolkit.png
+       :alt: conda-forge-dynamicisttoolkit badge
+       :target: https://anaconda.org/conda-forge/dynamicisttoolkit
 
-.. |yeadon-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/yeadon.png
-   :target: https://anaconda.org/conda-forge/yeadon
+9. `Christopher Dembia`, `Jason K. Moore`, `Stefen Yin`, and `Oliver Lee`, "`Yeadon: A Python Library For Human Inertia Estimation <https://github.com/chrisdembia/yeadon>`__", 2011-06-12 |github-chrisdembia/yeadon| |pypi-yeadon| |pypi-downloads-yeadon| |conda-forge-yeadon| |conda-forge-downloads-yeadon|
 
-.. |sympy-github| image:: https://img.shields.io/github/v/release/sympy/sympy?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/sympy/sympy
+    .. |github-chrisdembia/yeadon| image:: https://img.shields.io/github/v/release/chrisdembia/yeadon?label=Github
+       :alt: github-chrisdembia/yeadon badge
+       :target: https://github.com/chrisdembia/yeadon
 
-.. |sympy-pypi| image:: https://img.shields.io/pypi/v/sympy.png
-   :target: https://pypi.org/project/sympy
+    .. |pypi-yeadon| image:: https://img.shields.io/pypi/v/yeadon.png
+       :alt: pypi-yeadon badge
+       :target: https://pypi.org/project/yeadon
 
-.. |sympy-pypi-downloads| image:: https://pepy.tech/badge/sympy
-   :target: https://pypi.org/project/sympy
+    .. |pypi-downloads-yeadon| image:: https://pepy.tech/badge/yeadon
+       :alt: pypi-yeadon badge
+       :target: https://pypi.org/project/yeadon
 
-.. |sympy-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/sympy.png
-   :target: https://anaconda.org/conda-forge/sympy
+    .. |conda-forge-yeadon| image:: https://img.shields.io/conda/v/conda-forge/yeadon.png
+       :alt: conda-forge-yeadon badge
+       :target: https://anaconda.org/conda-forge/yeadon
 
-.. |sympy-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/sympy.png
-   :target: https://anaconda.org/conda-forge/sympy
+    .. |conda-forge-downloads-yeadon| image:: https://img.shields.io/conda/dn/conda-forge/yeadon.png
+       :alt: conda-forge-yeadon badge
+       :target: https://anaconda.org/conda-forge/yeadon
 
-.. |DynamicistToolKit-github| image:: https://img.shields.io/github/v/release/moorepants/DynamicistToolKit?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/moorepants/DynamicistToolKit
+10. `Jason K. Moore`, "`HumanControl: Software for Evaluating Human Control and Handling Qualities of Bicycles <https://github.com/moorepants/HumanControl>`__", 2011-05-15
+11. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`BicycleParameters: A Python library for bicycle parameter estimation and analysis <https://github.com/moorepants/BicycleParameters>`__", 2011-04-10 |github-moorepants/BicycleParameters| |pypi-BicycleParameters| |pypi-downloads-BicycleParameters| |conda-forge-bicycleparameters| |conda-forge-downloads-bicycleparameters|
 
-.. |DynamicistToolKit-pypi| image:: https://img.shields.io/pypi/v/DynamicistToolKit.png
-   :target: https://pypi.org/project/DynamicistToolKit
+    .. |github-moorepants/BicycleParameters| image:: https://img.shields.io/github/v/release/moorepants/BicycleParameters?label=Github
+       :alt: github-moorepants/BicycleParameters badge
+       :target: https://github.com/moorepants/BicycleParameters
 
-.. |DynamicistToolKit-pypi-downloads| image:: https://pepy.tech/badge/DynamicistToolKit
-   :target: https://pypi.org/project/DynamicistToolKit
+    .. |pypi-BicycleParameters| image:: https://img.shields.io/pypi/v/BicycleParameters.png
+       :alt: pypi-BicycleParameters badge
+       :target: https://pypi.org/project/BicycleParameters
 
-.. |DynamicistToolKit-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/DynamicistToolKit.png
-   :target: https://anaconda.org/conda-forge/DynamicistToolKit
+    .. |pypi-downloads-BicycleParameters| image:: https://pepy.tech/badge/BicycleParameters
+       :alt: pypi-BicycleParameters badge
+       :target: https://pypi.org/project/BicycleParameters
 
-.. |DynamicistToolKit-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/DynamicistToolKit.png
-   :target: https://anaconda.org/conda-forge/DynamicistToolKit
+    .. |conda-forge-bicycleparameters| image:: https://img.shields.io/conda/v/conda-forge/bicycleparameters.png
+       :alt: conda-forge-bicycleparameters badge
+       :target: https://anaconda.org/conda-forge/bicycleparameters
 
-.. |GaitAnalysisToolKit-github| image:: https://img.shields.io/github/v/release/csu-hmc/GaitAnalysisToolKit?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/csu-hmc/GaitAnalysisToolKit
+    .. |conda-forge-downloads-bicycleparameters| image:: https://img.shields.io/conda/dn/conda-forge/bicycleparameters.png
+       :alt: conda-forge-bicycleparameters badge
+       :target: https://anaconda.org/conda-forge/bicycleparameters
 
-.. |GaitAnalysisToolKit-pypi| image:: https://img.shields.io/pypi/v/GaitAnalysisToolKit.png
-   :target: https://pypi.org/project/GaitAnalysisToolKit
+12. `Jason K. Moore`, `P. D. L. de Lange`, and `Stefen Yin`, "`BicycleDataProcessor: Data storage and processing library for an instrumented bicycle <https://github.com/moorepants/BicycleDataProcessor>`__", 2011-02-27 |github-moorepants/BicycleDataProcessor|
 
-.. |GaitAnalysisToolKit-pypi-downloads| image:: https://pepy.tech/badge/GaitAnalysisToolKit
-   :target: https://pypi.org/project/GaitAnalysisToolKit
+    .. |github-moorepants/BicycleDataProcessor| image:: https://img.shields.io/github/v/release/moorepants/BicycleDataProcessor?label=Github
+       :alt: github-moorepants/BicycleDataProcessor badge
+       :target: https://github.com/moorepants/BicycleDataProcessor
 
-.. |GaitAnalysisToolKit-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/GaitAnalysisToolKit.png
-   :target: https://anaconda.org/conda-forge/GaitAnalysisToolKit
+13. `cyipopt Development Team`, "`cyipopt: Cython interface for the interior point optimzer IPOPT <https://github.com/mechmotum/cyipopt>`__", 2011 |github-mechmotum/cyipopt| |conda-forge-cyipopt| |conda-forge-downloads-cyipopt| |pypi-cyipopt| |pypi-downloads-cyipopt|
 
-.. |GaitAnalysisToolKit-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/GaitAnalysisToolKit.png
-   :target: https://anaconda.org/conda-forge/GaitAnalysisToolKit
+    .. |github-mechmotum/cyipopt| image:: https://img.shields.io/github/v/release/mechmotum/cyipopt?label=Github
+       :alt: github-mechmotum/cyipopt badge
+       :target: https://github.com/mechmotum/cyipopt
 
-.. |resonance-github| image:: https://img.shields.io/github/v/release/moorepants/resonance?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/moorepants/resonance
+    .. |conda-forge-cyipopt| image:: https://img.shields.io/conda/v/conda-forge/cyipopt.png
+       :alt: conda-forge-cyipopt badge
+       :target: https://anaconda.org/conda-forge/cyipopt
 
-.. |resonance-pypi| image:: https://img.shields.io/pypi/v/resonance.png
-   :target: https://pypi.org/project/resonance
+    .. |conda-forge-downloads-cyipopt| image:: https://img.shields.io/conda/dn/conda-forge/cyipopt.png
+       :alt: conda-forge-cyipopt badge
+       :target: https://anaconda.org/conda-forge/cyipopt
 
-.. |resonance-pypi-downloads| image:: https://pepy.tech/badge/resonance
-   :target: https://pypi.org/project/resonance
+    .. |pypi-cyipopt| image:: https://img.shields.io/pypi/v/cyipopt.png
+       :alt: pypi-cyipopt badge
+       :target: https://pypi.org/project/cyipopt
 
-.. |resonance-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/resonance.png
-   :target: https://anaconda.org/conda-forge/resonance
+    .. |pypi-downloads-cyipopt| image:: https://pepy.tech/badge/cyipopt
+       :alt: pypi-cyipopt badge
+       :target: https://pypi.org/project/cyipopt
 
-.. |resonance-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/resonance.png
-   :target: https://anaconda.org/conda-forge/resonance
+14. `Jason K. Moore`, `P. D. L. de Lange`, and `Yumiko Henneberry`, "`BicycleDAQ: Data aquisition application for an instrumented bicycle <http://github.com/moorepants/BicycleDAQ>`__", 2010-10-24 |github-moorepants/BicycleDAQ|
 
-.. |BicycleDataProcessor-github| image:: https://img.shields.io/github/v/release/moorepants/BicycleDataProcessor?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/moorepants/BicycleDataProcessor
+    .. |github-moorepants/BicycleDAQ| image:: https://img.shields.io/github/v/release/moorepants/BicycleDAQ?label=Github
+       :alt: github-moorepants/BicycleDAQ badge
+       :target: https://github.com/moorepants/BicycleDAQ
 
-.. |BicycleDataProcessor-pypi| image:: https://img.shields.io/pypi/v/BicycleDataProcessor.png
-   :target: https://pypi.org/project/BicycleDataProcessor
+15. `SymPy Development Team`, "`SymPy: Python library for symbolic mathematics <http://www.sympy.org>`__", 2006 |github-sympy/sympy| |conda-forge-sympy| |conda-forge-downloads-sympy| |pypi-sympy| |pypi-downloads-sympy|
 
-.. |BicycleDataProcessor-pypi-downloads| image:: https://pepy.tech/badge/BicycleDataProcessor
-   :target: https://pypi.org/project/BicycleDataProcessor
+    .. |github-sympy/sympy| image:: https://img.shields.io/github/v/release/sympy/sympy?label=Github
+       :alt: github-sympy/sympy badge
+       :target: https://github.com/sympy/sympy
 
-.. |BicycleDataProcessor-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/BicycleDataProcessor.png
-   :target: https://anaconda.org/conda-forge/BicycleDataProcessor
+    .. |conda-forge-sympy| image:: https://img.shields.io/conda/v/conda-forge/sympy.png
+       :alt: conda-forge-sympy badge
+       :target: https://anaconda.org/conda-forge/sympy
 
-.. |BicycleDataProcessor-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/BicycleDataProcessor.png
-   :target: https://anaconda.org/conda-forge/BicycleDataProcessor
+    .. |conda-forge-downloads-sympy| image:: https://img.shields.io/conda/dn/conda-forge/sympy.png
+       :alt: conda-forge-sympy badge
+       :target: https://anaconda.org/conda-forge/sympy
 
-.. |BicycleDAQ-github| image:: https://img.shields.io/github/v/release/moorepants/BicycleDAQ?label=Github
-   :alt: GitHub Release
-   :target: https://github.com/moorepants/BicycleDAQ
+    .. |pypi-sympy| image:: https://img.shields.io/pypi/v/sympy.png
+       :alt: pypi-sympy badge
+       :target: https://pypi.org/project/sympy
 
-.. |BicycleDAQ-pypi| image:: https://img.shields.io/pypi/v/BicycleDAQ.png
-   :target: https://pypi.org/project/BicycleDAQ
+    .. |pypi-downloads-sympy| image:: https://pepy.tech/badge/sympy
+       :alt: pypi-sympy badge
+       :target: https://pypi.org/project/sympy
 
-.. |BicycleDAQ-pypi-downloads| image:: https://pepy.tech/badge/BicycleDAQ
-   :target: https://pypi.org/project/BicycleDAQ
-
-.. |BicycleDAQ-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/BicycleDAQ.png
-   :target: https://anaconda.org/conda-forge/BicycleDAQ
-
-.. |BicycleDAQ-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/BicycleDAQ.png
-   :target: https://anaconda.org/conda-forge/BicycleDAQ
-
-.. |skijumpdesign-gitlab| image:: https://img.shields.io/gitlab/v/release/moorepants/skijumpdesign?label=Gitlab
-   :alt: Gitlab Release
-   :target: https://gitlab.com/moorepants/skijumpdesign
-
-.. |skijumpdesign-pypi| image:: https://img.shields.io/pypi/v/skijumpdesign.png
-   :target: https://pypi.org/project/skijumpdesign
-
-.. |skijumpdesign-pypi-downloads| image:: https://pepy.tech/badge/skijumpdesign
-   :target: https://pypi.org/project/skijumpdesign
-
-.. |skijumpdesign-conda-forge| image:: https://img.shields.io/conda/v/conda-forge/skijumpdesign.png
-   :target: https://anaconda.org/conda-forge/skijumpdesign
-
-.. |skijumpdesign-conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/skijumpdesign.png
-   :target: https://anaconda.org/conda-forge/skijumpdesign
-
-.. |row_filter-gitlab| image:: https://img.shields.io/gitlab/v/release/mechmotum/row_filter?label=Gitlab
-   :alt: Gitlab Release
-   :target: https://gitlab.com/mechmotum/row_filter
 
 Data
 ====

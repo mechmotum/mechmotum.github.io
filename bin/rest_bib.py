@@ -17,7 +17,7 @@ line.
 
 Display the bibliography in the terminal::
 
-   build_rest_bibliography library_id library_type collection_id
+   rest_bib library_id library_type collection_id
 
 Or save it to a file::
 
@@ -25,18 +25,18 @@ Or save it to a file::
 
 Or pipe it to generate another file type with Pandoc, for example::
 
-   rest_bib library_id library_type collection_id | pandoc -o page.html
+   rest_bib library_id library_type collection_id | pandoc -s -o page.html
 
 Some example input values:
 
 library_id = "966974"  # group: mechmotum
 library_type = "group"
-collection_id = "3J8PXE2Z"  # Lab Publications collection in mechmotum
+collection_id = "3J8PXE2Z"  # "Lab Publications" collection in mechmotum
 
 library_id = "425053"  # user: moorepants
 library_type = "user"
-collection_id = "B8PZ4ZAN"  # My Publications collection
-collection_id = "7IG48IAS"  # Products Page
+collection_id = "B8PZ4ZAN"  # "My Publications" collection
+collection_id = "7IG48IAS"  # "Products Page"
 
 This script relies on using the Zotero item type to categorize the various
 research products in specific way:
@@ -66,7 +66,9 @@ Presentation
     Any conference presentation, workshop presentation, etc. Can include the
     slides or abstract as the linked material.
 Computer Program
-    Software repositories or archives.
+    Software repositories or archives. If the "extra" field contains text in
+    the following format, badges will be generated for the software:
+    ``badges{pypi:dist_name,conda-forge:package_name,github:user/repo,gitlab:user/repo}``
 Dataset
     Data that has been shared on an archive.
 Video Recording
@@ -80,6 +82,7 @@ TODO:
 - Add grant proposals
 
 """
+import re
 import sys
 from pyzotero.zotero import Zotero
 
@@ -315,6 +318,71 @@ def formatter_report(data):
     )
 
 
+def formatter_software(data):
+    template = '{authors}, "`{title} <{url}>`__", {year}'
+    item = template.format(
+        authors=make_author_list(data['creators']),
+        year=data['date'],
+        title=data['title'],
+        url=data['url'] if data['url'] else 'http://',
+    )
+
+    badge_templates = {
+        'github': (
+            "https://img.shields.io/github/v/release/{name}?label=Github",
+            "https://github.com/{name}",
+        ),
+        'gitlab': (
+            "https://img.shields.io/gitlab/v/release/{name}?label=Gitlab",
+            "https://gitlab.com/{name}",
+        ),
+        'pypi': (
+            "https://img.shields.io/pypi/v/{name}.png",
+            "https://pypi.org/project/{name}",
+        ),
+        'pypi-downloads': (
+            "https://pepy.tech/badge/{name}",
+            "https://pypi.org/project/{name}",
+        ),
+        'conda-forge': (
+            "https://img.shields.io/conda/v/conda-forge/{name}.png",
+            "https://anaconda.org/conda-forge/{name}",
+        ),
+        'conda-forge-downloads': (
+            "https://img.shields.io/conda/dn/conda-forge/{name}.png",
+            "https://anaconda.org/conda-forge/{name}",
+        ),
+    }
+
+    badge_line = " "
+    img_line = ""
+    # TODO : The img_template should be indented different number of characters
+    # depending on the item count, which is not accessible in this function.
+    img_template = """
+    .. |{tag}-{name}| image:: {badgeurl}
+       :alt: {repo}-{name} badge
+       :target: {targeturl}"""
+    badges = re.search(r'badges\{(.*)\}', data['extra'])
+    if badges:
+        badges = badges.group(1)
+        badge_map = badges.split(',')
+        for badge in badge_map:
+            repo, name = badge.split(':')
+            for img_tag, (badgeurl, targeturl) in badge_templates.items():
+                if img_tag.startswith(repo):
+                    badge_line += f'|{img_tag}-{name}| '
+                    img_line += img_template.format(
+                        tag=img_tag,
+                        name=name,
+                        badgeurl=badgeurl.format(name=name),
+                        repo=repo,
+                        targeturl=targeturl.format(name=name)) + '\n'
+        item += badge_line[:-1] + '\n'
+        item += img_line
+
+    return item
+
+
 def formatter(data):
     template = '{authors}, "`{title} <{url}>`__", {year}'
 
@@ -329,18 +397,18 @@ def formatter(data):
 formatter_map = {
     'blogPost': formatter_blog,
     'book': formatter_book,
-    'computerProgram': formatter,
+    'computerProgram': formatter_software,
     'conferencePaper': formatter_proceedings,
     'dataset': formatter_data,
     'document': formatter,
     'journalArticle': formatter_journal,
+    'magazineArticle': formatter,
     'manuscript': formatter_manuscript,
     'preprint': formatter_preprint,
     'presentation': formatter_presentations,
     'report': formatter_report,
     'thesis': formatter_thesis,
     'videoRecording': formatter,
-    'magazineArticle': formatter,
 }
 
 
