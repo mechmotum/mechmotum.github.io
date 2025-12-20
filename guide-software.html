@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Guide: Software | Bicycle Laboratorium
+</title>
+  <link rel="canonical" href="https://mechmotum.github.io/guide-software.html">
+
+
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://mechmotum.github.io/theme/css/origtheme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://mechmotum.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="We write software in the lab and strive to make it open source to facilitate reuse and collaboration. It is ideal if lab members 1) use the software we write, 2) report bugs and issues, and 3) contribute back to the software. The more we do all three points the …">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <a href="https://mechmotum.github.io/">
+        <img class="site-image img-fluid rounded" src=https://mechmotum.s3.us-east-005.dream.io/bear-bicycle-transparent-480x480.png alt="Bicycle Laboratorium">
+      </a>
+    </div>
+  <div class="col-sm-8">
+    <img src=https://mechmotum.s3.us-east-005.dream.io/tu-delft-logo-233x100.png height=100px>
+    <h1 class="title"><a href="https://mechmotum.github.io/">Bicycle Laboratorium</a></h1>
+      <p class="text-muted">E pur si muove</p>
+      <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/">About</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/members.html">Members</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/research.html">Research</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/products.html">Products</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/jobs.html">Positions</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/guide.html">Guide</a></li>
+            <li class="list-inline-item"><a href="https://mechmotum.github.io/contact.html">Contact</a></li>
+          <li class="list-inline-item"><a href="/blog/">Blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Guide: Software
+</h1>
+      <hr>
+
+<article class="article">
+  <div class="content">
+    <p>We write software in the lab and strive to make it open source to facilitate
+reuse and collaboration. It is ideal if lab members 1) use the software we
+write, 2) report bugs and issues, and 3) contribute back to the software. The
+more we do all three points the more universally useful and easy to use the
+software becomes for future use both by us and others outside the lab. This
+page highlights the software that we have designed to be more easily reusable
+and that we continuously maintain. It takes a collective effort from all lab
+members to keep these tools useful to all of us.</p>
+<div class="section" id="bicycleparameters">
+<h2>BicycleParameters</h2>
+<p>Generation and manipulation of bicycle physical parameters. If you measure the
+geometry, mass, inertia of a bicycle and/or rider you can use this package to
+process the measurements. It also has generic parameter sets and models that
+can be used to do dynamics analysis of bicycles. Lastly, it has a web
+application for exploring the linear Carvallo-Whipple model's properties.</p>
+<div class="line-block">
+<div class="line">Languages: Python, HTML, CSS</div>
+<div class="line">Repository: <a class="reference external" href="https://github.com/moorepants/BicycleParameters">https://github.com/moorepants/BicycleParameters</a></div>
+<div class="line">Documentation: <a class="reference external" href="https://bicycleparameters.readthedocs.io">https://bicycleparameters.readthedocs.io</a></div>
+</div>
+</div>
+<div class="section" id="opty">
+<h2>opty</h2>
+<p>opty is our general toolbox for solving optimal control problems (trajectory
+optimization &amp; parameter identification) using the direct collocation +
+nonlinear programming method.</p>
+<div class="line-block">
+<div class="line">Languages: Python, Cython, C</div>
+<div class="line">Repository: <a class="reference external" href="https://github.com/csu-hmc/opty">https://github.com/csu-hmc/opty</a></div>
+<div class="line">Documentation: <a class="reference external" href="http://opty.readthedocs.io">http://opty.readthedocs.io</a></div>
+<div class="line">Examples of use in the lab:</div>
+</div>
+<ul class="simple">
+<li>Sorgedrager, Simon, “Riding a Bicycle Without Hands: How To Do It and the
+Bicycle Dynamics Behind It,” 2025, MSc, Delft University of Technology.
+<a class="reference external" href="https://resolver.tudelft.nl/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55">https://resolver.tudelft.nl/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55</a></li>
+<li>T. J. Stienstra, S. G. Brockie, and J. K. Moore, “BRiM: A modular
+bicycle-rider modeling framework,” presented at the Bicycle and Motorcycle
+Dynamics 2023, Delft, The Netherlands: TU Delft OPEN Publishing, Oct. 2023.
+<a class="reference external" href="https://doi.org/10.59490/660179a06bf1082286458109">https://doi.org/10.59490/660179a06bf1082286458109</a></li>
+</ul>
+</div>
+<div class="section" id="yeadon">
+<h2>yeadon</h2>
+<p>Takes geometrical measurements of a person and generates body segment
+parameters (mass, inertia) following Fred Yeadon's model.</p>
+<div class="line-block">
+<div class="line">Languages: Python</div>
+<div class="line">Repository: <a class="reference external" href="https://github.com/chrisdembia/yeadon">https://github.com/chrisdembia/yeadon</a></div>
+<div class="line">Documentation: <a class="reference external" href="https://yeadon.readthedocs.io">https://yeadon.readthedocs.io</a></div>
+</div>
+</div>
+
+  </div>
+</article>
+
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://mechmotum.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://mechmotum.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy"
+         target="_blank">&#x2728;</a>
+    | Edit on <a href="https://github.com/mechmotum/mechmotum.github.io" target="_blank"><i class="fab fa-github"></i></a>
+  </p>
+</div>
+<div class="row">
+  <div class="col-sm-4 mx-auto text-center text-muted" >
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    <br />
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
