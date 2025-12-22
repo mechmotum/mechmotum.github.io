@@ -13,7 +13,7 @@ Describing and predicting cyclists' workload in natural urban conditions
                    cyclists with gaze, head kinematics and vehicule kinematics metrics. 
                    This reseach investigate the possibiliy to predict the subjective workload based
                    on objective metrics using machine learning methods. 
-:summary-image: https://mechmotum.s3.us-east-005.dream.io/child-dummy-in-bakfiets-400x400.jpg
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/image-400x400-urban-workload.png
 :slug: research/urban-cycling-workload
 
 ..
@@ -32,6 +32,9 @@ Articles In Preparation or Under Review
 
 Description
 ===========
+
+# insert giff here
+
 
 **Motivations**
 
@@ -73,15 +76,10 @@ These four students produced a robust and substantial piece of work that will di
 This 12-month project deserves to be continued in order to consolidate the cognitive load prediction models. So far, we have demonstrated the concept and shown what type of method could be used to develop a monitoring tool that can be used to map urban spaces. It would be particularly interesting to continue using metrics based on vehicle cinematics, which are easy to measure and highly predictive.
 
 
-
-
 Funding
 =======
 
 This 12 months postdoc project was funded by a cohesion grant of TU Delft between the Inteligent vehicule group (Cognitive Robotics departement) and the Bicycle Lab (BioMechanical Engineering departement).
 
-Media
-=====
 
-#TODO Insert here the giff
 
