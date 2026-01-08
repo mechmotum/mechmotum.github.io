@@ -14,6 +14,13 @@ page highlights the software that we have designed to be more easily reusable
 and that we continuously maintain. It takes a collective effort from all lab
 members to keep these tools useful to all of us.
 
+I Need To...
+============
+
+- find the body segment parameters (mass, inertia) of a person: yeadon
+- estimate the inertia of a bicycle: BicycleParameters
+- estimate dynamics model parameters from measured data: opty
+
 BicycleParameters
 =================
 
