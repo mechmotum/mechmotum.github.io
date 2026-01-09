@@ -5,6 +5,10 @@ Guide: Writing
 :date: 2023-05-21
 :status: hidden
 
+.. contents:: Table of Contents
+   :local:
+   :class: floatcon
+
 What to Read
 ============
 
@@ -139,6 +143,13 @@ This is how you do quotes in LaTeX!
 
 Backticks on the left quotes are necessary to obtain correctly formatted
 quotation marks.
+
+Prevent undesired linebreaks with the tilde `~`. For example, you don't want a
+citation to be on a new line by itself at the end of a sentence.
+
+.. code-block:: latex
+
+   This is my long sentence and this is a fact~\cite{JohnDoe2000}.
 
 Code
 ----
