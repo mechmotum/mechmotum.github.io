@@ -800,6 +800,9 @@ Computing and Data
 `Software Carpentry Lessons <https://software-carpentry.org/lessons/>`_
    General introductions to scientific computing and best practices in
    reproducible computational science.
+`Research Software Engineering with Python: Building software that makes research possible <https://third-bit.com/py-rse/index.html>`_
+   Book from past Software Carpentry contributors that provides a "getting
+   started" approach for doing research with data and computation.
 `Scipy Lecture Notes <https://scipy-lectures.org/>`_
    Nice, collaboratively developed, starting point for scientific computing
    with Python.
@@ -847,6 +850,13 @@ Markowetz, F. Five selfish reasons to work reproducibly. Genome Biol 16, 274 (20
 Carpentries, "Good Enough Practices in Scientific Computing" https://carpentries-lab.github.io/good-enough-practices/
    Lesson that gives the basics for dealing with data, software, and other
    digital artifacts of your science.
+
+Teaching and Learning
+---------------------
+
+`Teaching Tech Together: How to create and deliver lessons that work and build a teaching community around them <https://teachtogether.tech/>`_
+   Greg Wilson founded the Software Caprentry organization and has developed an
+   evidence based approach to teaching and learning computation.
 
 Other Graduate and Lab Guides
 -----------------------------
