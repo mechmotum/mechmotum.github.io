@@ -726,6 +726,12 @@ NWO `Veni <https://www.nwo.nl/en/calls/nwo-talent-programme>`_
    career forward in the Netherlands. If you don't, you'll have practiced
    developing your personal research vision and goals, which is also extremely
    valuable.
+`The Fair Data Fund <https://community.data.4tu.nl/the-fair-data-fund/>`_
+   Funding to make your data FAIR, open to all researchers at TU Delft.
+TU Delft `Open Research Hardware Stimulation Fund <https://www.tudelft.nl/en/open-hardware/call-open-research-hardware-stimulation-fund-program>`_
+   Funds to make a hardware project open. Open to all researchers at TU Delft.
+TU Delft Digital Competence Center `Hands on Support <https://www.tudelft.nl/digital-competence-centre/services/hands-on-project-support>`_
+   A software programmer will help you develop your software for broader use.
 
 Recommended Reading
 ===================
