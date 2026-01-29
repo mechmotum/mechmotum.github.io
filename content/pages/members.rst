@@ -42,21 +42,6 @@ Staff
 Postdoctoral Researchers
 ========================
 
-.. list-table::
-   :class: borderless
-   :width: 100%
-   :widths: 10 40 10 40
-   :align: center
-
-   * - |headshot-ronne-jules|
-     - | **Dr. Jules Ronné** [TUD, November 2024-present]
-       | *Modeling bicycle behavior from visual stimulus to neuromuscular control ability*
-     -
-     -
-
-.. |headshot-ronne-jules| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-ronne-jules.jpg
-   :width: 100px
-   :height: 133px
 
 PhD Candidates
 ==============
@@ -91,6 +76,24 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
+   * - |headshot-missing|
+     - | **Joris Scholten** [TUD, Feb 2026-present]
+       | *Bicycles and Tricycles for the Elderly*
+     - |headshot-missing|
+     - | **Philipp Jonas** [KTH, Jan 2026-present]
+       | *Bicycle Tire Characterization via a Kickplate*
+   * - |headshot-missing|
+     - | **Haye Boonstra** [TUD, Nov 2025-present]
+       | *Bicycle Pose Estimation*
+     - |headshot-missing|
+     - | **Siva Machavaram** [TUD, Nov 2025-present]
+       | *Using Model Predictive Control to Assist in Bicycle Lane Changes*
+   * - |headshot-missing|
+     - | **Stephen Lin** [TUD, Oct 2025-present]
+       | *Testing the Balance Assist Bicycle in Low Friction Falls*
+     - |headshot-missing|
+     - | **Luna Compen** [TUD, Oct 2025-present]
+       | *Unravelling Vestibular Sensory Contributions to Bicycle Balance Control*
    * - |headshot-bongers-quinten|
      - | **Quinten Bongers** [TUD, Aug 2025-present]
        | *Bicycle Vibration Analysis of Realistic Simulated Road Surfaces*
@@ -136,7 +139,7 @@ Masters of Science Students
 Research Assistants
 ===================
 
-None
+- **Floris Mostert** [TUD, Nov 2025-present]
 
 Alumni
 ======
@@ -149,18 +152,27 @@ Alumni
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-dell-orto-gabriele|
+   * - |headshot-ronne-jules|
+     - | **Dr. Jules Ronné** [TUD, November 2024-November 2025]
+       | *Modeling bicycle behavior from visual stimulus to neuromuscular control ability*
+     - |headshot-dell-orto-gabriele|
      - | **Dr. Gabriele Dell'Orto** [TUD, November 2024-January 2025]
        | `Characterization of Vibrations Experienced by Babies in Strollers and Cargo Bicycles <{filename}/pages/research/baby-child-transport-vibration.rst>`_
-     - |headshot-alizadehsaravi-leila|
+   * - |headshot-alizadehsaravi-leila|
      - | **Dr. Leila Alizadehsaravi** [TUD, Feb 2021-Feb 2024]
        | *Safety Evaluation of a Steer Assist Bicycle*
-   * - |headshot-brockie-sam|
+     - |headshot-brockie-sam|
      - | **Dr. Sam Brockie** [TUD, Sep 2022-Oct 2023]
        | *Advancing Biomechanical Modeling By Improving SymPy Code Generation*
-     - |headshot-dressel-andrew|
+   * - |headshot-dressel-andrew|
      - | **Dr. Andrew Dressel** [TUD, Apr 2022-Apr 2023]
        | *Stable Tilting Tricycle & Next Gen Tire Tester*
+     -
+     -
+
+.. |headshot-ronne-jules| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-ronne-jules.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-alizadehsaravi-leila| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-alizadehsaravi-leila.jpg
    :width: 100px
