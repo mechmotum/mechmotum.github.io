@@ -10,7 +10,7 @@ Learning to balance a bicycle: How do cyclists adapt to a new bicycle?
 :research_theme: Bicycle Engineering
 :template: project
 :summary-sentence: This project aims to characterize how cyclists adapt balance control and visual behavior while learning to balance a highly unstable bicycle. It investigates the relationship between subjective workload, head roll angular rate, and visual metrics (pupil diameter, saccade rate, fixation rate) to quantify learning progression and predict task success using logistic regression.
-:summary-image: https://mechmotum.s3.us-east-005.dream.io/image-400x400-hands-off.png
+:summary-image: https://mechmotum.s3.us-east-005.dream.io/image-400x400-learning.png
 :slug: research/learning-balance
 
 ..
