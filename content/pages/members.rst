@@ -91,7 +91,7 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Stephen Lin** [TUD, Oct 2025-present]
        | *Testing the Balance Assist Bicycle in Low Friction Falls*
-     - |headshot-missing|
+     - |headshot-compen-luna|
      - | **Luna Compen** [TUD, Oct 2025-present]
        | *Unravelling Vestibular Sensory Contributions to Bicycle Balance Control*
    * - |headshot-bongers-quinten|
@@ -111,6 +111,10 @@ Masters of Science Students
        | *Optimization of Time Trial Power Strategy*
      -
      -
+
+.. |headshot-compen-luna| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-compen-luna.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-jonas-philipp| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-jonas-philipp.png
    :width: 100px
