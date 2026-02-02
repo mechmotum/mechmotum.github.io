@@ -79,7 +79,7 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Joris Scholten** [TUD, Feb 2026-present]
        | *Bicycles and Tricycles for the Elderly*
-     - |headshot-missing|
+     - |headshot-jonas-philipp|
      - | **Philipp Jonas** [KTH, Jan 2026-present]
        | *Bicycle Tire Characterization via a Kickplate*
    * - |headshot-missing|
@@ -111,6 +111,10 @@ Masters of Science Students
        | *Optimization of Time Trial Power Strategy*
      -
      -
+
+.. |headshot-jonas-philipp| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-jonas-philipp.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-bongers-quinten| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-bongers-quinten.jpg
    :width: 100px
