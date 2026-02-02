@@ -112,7 +112,7 @@ Masters of Science Students
      -
      -
 
-.. |headshot-jonas-philipp| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-jonas-philipp.jpg
+.. |headshot-jonas-philipp| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-jonas-philipp.png
    :width: 100px
    :height: 133px
 
