@@ -18,16 +18,17 @@ Products
 Journal Articles
 ================
 
-1. `Christoph M. Konrad`, `Azita Dabiri`, `Frederik Schulte`, `Jason K. Moore`, and `Riender Happee`, "Cycling safety assessment in microscopic traffic simulation: A review and methodological framework," Transportation Research Interdisciplinary Perspectives, 2025, `10.1016/j.trip.2025.101734 <https://dx.doi.org/10.1016/j.trip.2025.101734>`_
-2. `Ajaypal Singh`, `Hans Vreman`, `Andrew Dressel`, and `Jason K. Moore`, "Bicycle Disc Brake Noise Analysis and Mitigation," Journal of Vibration and Control, 2024, `10.1177/10775463241273021 <https://dx.doi.org/10.1177/10775463241273021>`_
-3. `Jan T. Heinen`, `Samuel G. Brockie`, `Raymund ten Broek`, `Eline van der Kruk`, and `Jason K. Moore`, "Maximizing ollie height by optimizing control strategy and skateboard geometry using direct collocation," Sports Engineering, 2024, `10.1007/s12283-023-00448-y <https://dx.doi.org/10.1007/s12283-023-00448-y>`_
-4. `Gabriele Dell'Orto`, `Gianpiero Mastinu`, `Riender Happee`, and `Jason K. Moore`, "Measurement of lateral characteristics and identification of Magic Formula parameters of city and cargo bicycle tyres," Vehicle System Dynamics, 2024, `10.1080/00423114.2024.2338143 <https://dx.doi.org/10.1080/00423114.2024.2338143>`_
-5. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll and steering motion for young and older bicyclists during real-life safety challenges," PeerJ, 2023, `10.7717/peerj.16206 <https://dx.doi.org/10.7717/peerj.16206>`_
-6. `Xiaodong Qian`, `Jason K. Moore`, and `Deb Niemeier`, "Predicting Bicycle Pavement Ride Quality: Sensor-based Statistical Model," Journal of Infrastructure Systems, 2020, `10.1061/(ASCE)IS.1943-555X.0000571 <https://dx.doi.org/10.1061/(ASCE)IS.1943-555X.0000571>`_
-7. `Bryn Cloud`, `Britt Tarien`, `Ada Liu`, `Thomas Shedd`, `Xinfan Lin`, `Mont Hubbard`, `R. Paul Crawford`, and `Jason K. Moore`, "Adaptive smartphone-based sensor fusion for estimating competitive rowing kinematic metrics," PLOS ONE, 2019, `10.1371/journal.pone.0225690 <https://dx.doi.org/10.1371/journal.pone.0225690>`_
-8. `Jason K. Moore` and `Mont Hubbard`, "skijumpdesign: A Ski Jump Design Tool for Specified Equivalent Fall Height," The Journal of Open Source Software, 2018, `10.21105/joss.00818 <https://dx.doi.org/10.21105/joss.00818>`_
-9. `Jason K. Moore` and `Antonie van den Bogert`, "opty: Software for trajectory optimization and parameter identification using direct collocation," Journal of Open Source Software, 2018, `10.21105/joss.00300 <https://dx.doi.org/10.21105/joss.00300>`_
-10. `Aaron Meurer`, `Christopher P. Smith`, `Mateusz Paprocki`, `Ondřej Čertík`, `Sergey B. Kirpichev`, `Matthew Rocklin`, `AMiT Kumar`, `Sergiu Ivanov`, `Jason K. Moore`, `Sartaj Singh`, `Thilina Rathnayake`, `Sean Vig`, `Brian E. Granger`, `Richard P. Muller`, `Francesco Bonazzi`, `Harsh Gupta`, `Shivam Vats`, `Fredrik Johansson`, `Fabian Pedregosa`, `Matthew J. Curry`, `Andy R. Terrel`, `Štěpán Roučka`, `Ashutosh Saboo`, `Isuru Fernando`, `Sumith Kulal`, `Robert Cimrman`, and `Anthony Scopatz`, "SymPy: symbolic computing in Python," PeerJ Computer Science, 2017, `10.7717/peerj-cs.103 <https://dx.doi.org/10.7717/peerj-cs.103>`_
+1. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations," IATSS Research, 2026, `10.1016/j.iatssr.2026.02.001 <https://dx.doi.org/10.1016/j.iatssr.2026.02.001>`_
+2. `Christoph M. Konrad`, `Azita Dabiri`, `Frederik Schulte`, `Jason K. Moore`, and `Riender Happee`, "Cycling safety assessment in microscopic traffic simulation: A review and methodological framework," Transportation Research Interdisciplinary Perspectives, 2025, `10.1016/j.trip.2025.101734 <https://dx.doi.org/10.1016/j.trip.2025.101734>`_
+3. `Ajaypal Singh`, `Hans Vreman`, `Andrew Dressel`, and `Jason K. Moore`, "Bicycle Disc Brake Noise Analysis and Mitigation," Journal of Vibration and Control, 2024, `10.1177/10775463241273021 <https://dx.doi.org/10.1177/10775463241273021>`_
+4. `Jan T. Heinen`, `Samuel G. Brockie`, `Raymund ten Broek`, `Eline van der Kruk`, and `Jason K. Moore`, "Maximizing ollie height by optimizing control strategy and skateboard geometry using direct collocation," Sports Engineering, 2024, `10.1007/s12283-023-00448-y <https://dx.doi.org/10.1007/s12283-023-00448-y>`_
+5. `Gabriele Dell'Orto`, `Gianpiero Mastinu`, `Riender Happee`, and `Jason K. Moore`, "Measurement of lateral characteristics and identification of Magic Formula parameters of city and cargo bicycle tyres," Vehicle System Dynamics, 2024, `10.1080/00423114.2024.2338143 <https://dx.doi.org/10.1080/00423114.2024.2338143>`_
+6. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll and steering motion for young and older bicyclists during real-life safety challenges," PeerJ, 2023, `10.7717/peerj.16206 <https://dx.doi.org/10.7717/peerj.16206>`_
+7. `Xiaodong Qian`, `Jason K. Moore`, and `Deb Niemeier`, "Predicting Bicycle Pavement Ride Quality: Sensor-based Statistical Model," Journal of Infrastructure Systems, 2020, `10.1061/(ASCE)IS.1943-555X.0000571 <https://dx.doi.org/10.1061/(ASCE)IS.1943-555X.0000571>`_
+8. `Bryn Cloud`, `Britt Tarien`, `Ada Liu`, `Thomas Shedd`, `Xinfan Lin`, `Mont Hubbard`, `R. Paul Crawford`, and `Jason K. Moore`, "Adaptive smartphone-based sensor fusion for estimating competitive rowing kinematic metrics," PLOS ONE, 2019, `10.1371/journal.pone.0225690 <https://dx.doi.org/10.1371/journal.pone.0225690>`_
+9. `Jason K. Moore` and `Mont Hubbard`, "skijumpdesign: A Ski Jump Design Tool for Specified Equivalent Fall Height," The Journal of Open Source Software, 2018, `10.21105/joss.00818 <https://dx.doi.org/10.21105/joss.00818>`_
+10. `Jason K. Moore` and `Antonie van den Bogert`, "opty: Software for trajectory optimization and parameter identification using direct collocation," Journal of Open Source Software, 2018, `10.21105/joss.00300 <https://dx.doi.org/10.21105/joss.00300>`_
+11. `Aaron Meurer`, `Christopher P. Smith`, `Mateusz Paprocki`, `Ondřej Čertík`, `Sergey B. Kirpichev`, `Matthew Rocklin`, `AMiT Kumar`, `Sergiu Ivanov`, `Jason K. Moore`, `Sartaj Singh`, `Thilina Rathnayake`, `Sean Vig`, `Brian E. Granger`, `Richard P. Muller`, `Francesco Bonazzi`, `Harsh Gupta`, `Shivam Vats`, `Fredrik Johansson`, `Fabian Pedregosa`, `Matthew J. Curry`, `Andy R. Terrel`, `Štěpán Roučka`, `Ashutosh Saboo`, `Isuru Fernando`, `Sumith Kulal`, `Robert Cimrman`, and `Anthony Scopatz`, "SymPy: symbolic computing in Python," PeerJ Computer Science, 2017, `10.7717/peerj-cs.103 <https://dx.doi.org/10.7717/peerj-cs.103>`_
 
 Conference Proceedings Articles
 ===============================
@@ -112,11 +113,10 @@ Preprints
 Articles In Preparation or Under Review
 =======================================
 
-1. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "`Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers <https://engrxiv.org/preprint/view/4415>`__", 2025-09-22, Under Review at Ergonomics
+1. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "`Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers <https://engrxiv.org/preprint/view/4415>`__", 2025-09-22, Accepted at Ergonomics
 2. `Anna Marbus`, `Riender Happee`, `Jason K. Moore`, and `Christoph Konrad`, "`Cyclist yielding, path, and velocity adjustments during evasive actions in shared spaces <http://>`__", 2025, In Preparation
 3. `Jules Ronné`, `Jason K. Moore`, and `Caesar Holger`, "`Describing and predicting cyclists’ workload in natural urban conditions through gaze, head and bicycle kinematics <http://>`__", 2025, In Preparation
 4. `Jules Ronné`, `Jason K. Moore`, `Laura Dubuis`, and `Thomas Robert`, "`Personal Preference or Intrinsic Quality? A Study on Bicycle Handling Quality <http://>`__", 2025, Under Review at Vehicle System Dynamics
-5. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "`Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations <https://engrxiv.org/preprint/view/4003/version/5496>`__", 2024-10-09, Under Review at International Association of Traffic and Safety Sciences
 
 Web Articles
 ============
@@ -133,7 +133,7 @@ Web Articles
 Presentations
 =============
 
-1. **Jason K. Moore** and **Jules Ronné**, "Identifying Cyclist Control Actions via Direct Collocation," , 2026-01-19, [`Oral <https://tinyurl.com/r4-robotique-cyclist>`__]
+1. **Jason K. Moore** and **Jules Ronné**, "Identifying Cyclist Control Actions via Direct Collocation," Virtual, 2026-01-19, [`Oral <https://tinyurl.com/r4-robotique-cyclist>`__]
 2. **Jules Ronné** and `Jason K. Moore`, "Learning to balance a bicycle: how do cyclists adapt to a new bicycle?," International Cycling Safety Conference: Oslo, Norway, 2025-11-06, [Poster]
 3. `Anna Marbus`, **Christoph Konrad**, `Riender Happee`, and `Jason K. Moore`, "Modeling experimental observations of cyclist conflict behavior in open spaces," Oslo, Norway, 2025-11-05, [`Oral <https://doi.org/10.5281/zenodo.17642627>`__]
 4. **Dustyn Roberts** and `Jason K. Moore`, "Little kids on big bikes: A review of child passenger bicycle system safety," International Cycling Safety Conference: Oslo, Norway, 2025-11-05, [Poster]
