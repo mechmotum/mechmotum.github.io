@@ -34,7 +34,8 @@ motor control is activated.
 
 Journal Articles
 
-1. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll and steering motion for young and older bicyclists during real-life safety challenges," PeerJ, 2023, `10.7717/peerj.16206 <https://dx.doi.org/10.7717/peerj.16206>`_
+1. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations," IATSS Research, 2026, `10.1016/j.iatssr.2026.02.001 <https://dx.doi.org/10.1016/j.iatssr.2026.02.001>`_
+2. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll and steering motion for young and older bicyclists during real-life safety challenges," PeerJ, 2023, `10.7717/peerj.16206 <https://dx.doi.org/10.7717/peerj.16206>`_
 
 Theses and Dissertations
 
@@ -44,10 +45,6 @@ Preprints
 
 1. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations," engrXiv, 2024, `10.31224/4003 <https://dx.doi.org/10.31224/4003>`_
 2. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll motion for young and old bicyclists during real-life safety challenges," engrXiv, 2023, `10.31224/2825 <https://dx.doi.org/10.31224/2825>`_
-
-Articles In Preparation or Under Review
-
-1. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "`Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations <https://engrxiv.org/preprint/view/4003/version/5496>`__", 2024-10-09, Under Review at International Association of Traffic and Safety Sciences
 
 Presentations
 
