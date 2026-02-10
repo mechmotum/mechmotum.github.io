@@ -76,7 +76,7 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-missing|
+   * - |headshot-scholten-joris|
      - | **Joris Scholten** [TUD, Feb 2026-present]
        | *Bicycles and Tricycles for the Elderly*
      - |headshot-jonas-philipp|
@@ -111,6 +111,10 @@ Masters of Science Students
        | *Optimization of Time Trial Power Strategy*
      -
      -
+
+.. |headshot-scholten-joris| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-scholten-joris.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-compen-luna| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-compen-luna.jpg
    :width: 100px
