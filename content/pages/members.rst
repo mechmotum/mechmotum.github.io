@@ -26,22 +26,12 @@ Principal Investigators
 Staff
 =====
 
-.. list-table::
-   :class: borderless
-   :width: 60%
-   :widths: 20 80
-   :align: center
-
-   * - |headshot-rawdha-al-amri|
-     - **Rawdha Al Amri**, Lab Coordinator
-
-.. |headshot-rawdha-al-amri| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-rawdha-al-amri.jpg
-   :width: 100px
-   :height: 133px
+None presently.
 
 Postdoctoral Researchers
 ========================
 
+None presently.
 
 PhD Candidates
 ==============
@@ -155,6 +145,11 @@ Research Assistants
 
 Alumni
 ======
+
+**Staff**
+
+- **Rawdha Al Amri**, Lab Coordinator [Mar 2025-Feb 2026]
+- **Christian van der Zalm**, Lab Coordinator [Nov 2023-Jul 2024]
 
 **Postdoctoral Researchers**
 
