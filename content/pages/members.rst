@@ -460,6 +460,7 @@ Research Assistants
    - Braden Tinucci [UCD, Nov 2015-Dec 2015], now at Valcor Engineering
      Corporation
 Teaching Assistants
+   - Niels Stienen [TUD, Feb 2025-Jun 2025]
    - Neville Nieman [TUD, Jun 2024-Jul 2024]
    - Karien ter Welle [TUD, Feb 2024-Jun 2024]
    - Niels Stienen [TUD, Feb 2024-Jun 2024]
@@ -488,6 +489,7 @@ Teaching Assistants
    - Farhad Gadhamli [UCD, Jan 2016-Jun 2016], now at DM3D
    - Matthew Lefort [UCD, Sep 2015-Jun 2016], now at Yolo Robotics
 Google Summer of Code and Season of Docs Participants
+   - Leonardo Mangani [May 2025-Aug 2025]
    - Hwayeon Kang [May 2024-Aug 2024]
    - Riccardo Di Girolamo [May 2024-Aug 2024]
    - Timo Stienstra [Jun 2022-Oct 2022]
