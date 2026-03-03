@@ -208,7 +208,7 @@ can talk to an LLM themselves if they want to read something it produced.
 We ask you to write reports in school so that *you* learn how to write. You may
 not see it yet, but writing is also a key to improving your engineering
 thinking. The act of communicating each and every sentence, helps you think out
-the complexity of what you are communicating. If you let an LLM write for you,
+the complexity of what you are doing. If you let an LLM write for you,
 you remove a large amount of the thinking you need to be doing.
 
 We cannot assess whether *you* can write if an LLM did any of the writing for
@@ -223,7 +223,7 @@ are trying to get you to learn specific things and thus we put boundaries on
 what you can use in different tasks.
 
 For example, if I'm teaching you the concept of slope and you simply lay a
-digital level on a surface and tell me it is 18 degrees you can do that withing
+digital level on a surface and tell me it is 18 degrees you can do that without
 knowing what slope is. That is why we do not use a digital level to teach the
 concept of slope, we ask you to draw some geometry and use distance
 measurements to calculate what the slope is. After you know what slope is, sure
