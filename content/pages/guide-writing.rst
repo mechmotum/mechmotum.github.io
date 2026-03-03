@@ -215,7 +215,7 @@ We cannot assess whether *you* can write if an LLM did any of the writing for
 you. We may be able to asses whether you can use an LLM, but that is not the
 same as assessing whether *you* can write.
 
-LLMs can aid you writing, in the same way discussing a paragraph with a person
+LLMs can aid you during writing, in the same way discussing a paragraph with a person
 may aid you but the words on the paper of your reports should be those that
 came from your brain and your fingers. When you are outside of school, you can
 use any tool you desire to produce the thing you are making. But in school we
