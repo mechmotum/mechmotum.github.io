@@ -208,18 +208,19 @@ can talk to an LLM themselves if they want to read something it produced.
 We ask you to write reports in school so that *you* learn how to write. You may
 not see it yet, but writing is also a key to improving your engineering
 thinking. The act of communicating each and every sentence, helps you think out
-the complexity of what you are doing. If you let an LLM write for you,
-you remove a large amount of the thinking you need to be doing.
+the complexity of what engineering you are doing. If you let an LLM write for
+you, you remove a large amount of the thinking you need to be doing to become
+an engineer.
 
 We cannot assess whether *you* can write if an LLM did any of the writing for
 you. We may be able to asses whether you can use an LLM, but that is not the
 same as assessing whether *you* can write.
 
-LLMs can aid you during writing, in the same way discussing a paragraph with a person
-may aid you but the words on the paper of your reports should be those that
-came from your brain and your fingers. When you are outside of school, you can
-use any tool you desire to produce the thing you are making. But in school we
-are trying to get you to learn specific things and thus we put boundaries on
+LLMs can aid you during writing, in the same way discussing a paragraph with a
+person may aid you, but the words on the paper of your reports should be those
+that came from your brain and your fingers. When you are outside of school, you
+can use any tool you desire to produce the thing you are making. But in school,
+we are trying to get you to learn specific things and thus we put boundaries on
 what you can use in different tasks.
 
 For example, if I'm teaching you the concept of slope and you simply lay a
@@ -241,6 +242,28 @@ should not be used to directly produce content we use to assess specific
 learning objectives. The internship report, literature study report, and thesis
 report are tasks in your MSc designed to teach you to write through manual
 practice and feedback.
+
+.. list-table::
+   :align: center
+   :width: 100%
+   :header-rows: 1
+   :class: table
+
+   * - Permitted
+     - Non Permitted
+   * - type a paragraph, provide it to a LLM and ask for adjusments and
+       feedback, manually rewrite the paragraph based on the LLM's feedback
+     - type a paragraph, provide it to a LLM and ask it to improve the
+       paragraph, paste the paragraph from the LLM into your report
+   * - use the LLM to translate a word, sentence, or sentence fragment as you
+       are writing because you are struggling to get the write words and
+       phrasing in English
+     - write your report in your mother tongue, ask LLM to translate it to
+       English, turn in the translation for assessment
+   * - ask the LLM to check the grammar in your report, manually fix grammar
+       that is suggested by the LLM
+     - pass your report to an LLM and tell it to fix all grammar and spelling,
+       turn in the updated report
 
 Statement On AI Assistance
 --------------------------
