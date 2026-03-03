@@ -198,6 +198,73 @@ are much too large. Reduce the size of images before embedding and make sure to
 use .jpg images, rather than .png. A 300 dpi image that fits on an A4 page
 should only be a few hundred kilobytes.
 
+Generative AI in Writing
+========================
+
+**Jason's Rule #1**: If you cannot be bothered to write the text yourself, your
+supervisors should also not be bothered to read it for you. Your supervisors
+can talk to an LLM themselves if they want to read something it produced.
+
+We ask you to write reports in school so that *you* learn how to write. You may
+not see it yet, but writing is also a key to improving your engineering
+thinking. The act of communicating each and every sentence, helps you think out
+the complexity of what engineering you are doing. If you let an LLM write for
+you, you remove a large amount of the thinking you need to be doing to become
+an engineer.
+
+We cannot assess whether *you* can write if an LLM did any of the writing for
+you. We may be able to asses whether you can use an LLM, but that is not the
+same as assessing whether *you* can write.
+
+LLMs can aid you during writing, in the same way discussing a paragraph with a
+person may aid you, but the words on the paper of your reports should be those
+that came from your brain and your fingers. When you are outside of school, you
+can use any tool you desire to produce the thing you are making. But in school,
+we are trying to get you to learn specific things and thus we put boundaries on
+what you can use in different tasks.
+
+For example, if I'm teaching you the concept of slope and you simply lay a
+digital level on a surface and tell me it is 18 degrees you can do that without
+knowing what slope is. That is why we do not use a digital level to teach the
+concept of slope, we ask you to draw some geometry and use distance
+measurements to calculate what the slope is. After you know what slope is, sure
+use a digital level.
+
+Another example might be learning integration of a mathematical function.
+Almost anyone can type a mathematical function into Wolfram Alpha and ask it to
+integrate the function but that does not teach you what integration is or means
+or what logic may produce Wolfram's result. You also have no idea if Wolfram
+gave you a correct answer or not. We teach you integration in almost the same
+way Newton and Leibniz taught themselves 400 years ago for a reason.
+
+Generative AI is a tool that you can use to help you in your work. But it
+should not be used to directly produce content we use to assess specific
+learning objectives. The internship report, literature study report, and thesis
+report are tasks in your MSc designed to teach you to write through manual
+practice and feedback.
+
+.. list-table::
+   :align: center
+   :width: 100%
+   :header-rows: 1
+   :class: table
+
+   * - Permitted
+     - Non Permitted
+   * - type a paragraph, provide it to a LLM and ask for adjusments and
+       feedback, manually rewrite the paragraph based on the LLM's feedback
+     - type a paragraph, provide it to a LLM and ask it to improve the
+       paragraph, paste the paragraph from the LLM into your report
+   * - use the LLM to translate a word, sentence, or sentence fragment as you
+       are writing because you are struggling to get the write words and
+       phrasing in English
+     - write your report in your mother tongue, ask LLM to translate it to
+       English, turn in the translation for assessment
+   * - ask the LLM to check the grammar in your report, manually fix grammar
+       that is suggested by the LLM
+     - pass your report to an LLM and tell it to fix all grammar and spelling,
+       turn in the updated report
+
 Statement On AI Assistance
 --------------------------
 
