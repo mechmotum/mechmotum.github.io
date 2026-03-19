@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2025-11-19T13:43:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Ruben Terwint Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-ruben-terwint.html" rel="alternate"/><published>2025-11-19T13:43:00-08:00</published><updated>2025-11-19T13:43:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-11-19:/blog/msc-graduation-ruben-terwint.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-03-19T14:39:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Yuke Huang Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-yuke-huang.html" rel="alternate"/><published>2026-03-19T14:39:00-07:00</published><updated>2026-03-19T14:39:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-03-19:/blog/msc-graduation-yuke-huang.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-huang-yuke.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:7fcb3081-32e6-42a6-8fed-219bc6398e9b"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-huang.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Yuke Huang successfully defended her MSc Thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:7fcb3081-32e6-42a6-8fed-219bc6398e9b"&gt;Adaptive-Horizon Model
+Predictive Control for Modeling Anticipative Behavior in Cyclist Interaction&lt;/a&gt; on
+March 18, 2026.&lt;/p&gt;
+&lt;p&gt;Yuke developed a cyclist navigation controller representing the cyclist's
+heading control loop using adaptive-horizon model predictive control. This
+adaptive-horizon element was introduced to capture a hypothesized change …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-huang-yuke.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://resolver.tudelft.nl/uuid:7fcb3081-32e6-42a6-8fed-219bc6398e9b"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-huang.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Yuke Huang successfully defended her MSc Thesis titled &lt;a class="reference external" href="https://resolver.tudelft.nl/uuid:7fcb3081-32e6-42a6-8fed-219bc6398e9b"&gt;Adaptive-Horizon Model
+Predictive Control for Modeling Anticipative Behavior in Cyclist Interaction&lt;/a&gt; on
+March 18, 2026.&lt;/p&gt;
+&lt;p&gt;Yuke developed a cyclist navigation controller representing the cyclist's
+heading control loop using adaptive-horizon model predictive control. This
+adaptive-horizon element was introduced to capture a hypothesized change in
+reactive behavior when closer or further to another cyclist. She extracted
+pairwise cyclist overtaking data from a public dataset of cyclists in a German
+city and formulated an optimal control cost function that took into account
+following a desired path, maintaining speed, avoiding collision with the other
+cyclist, and minimizing large motions and control inputs. She calibrated the
+model on the data with Bayesian optimization first assuming a constant MPC
+horizon and then showing that more realistic simulated motion occurs if the
+horizon is variable throughout the overtaking maneuver, supporting the
+hypothesis that we shorten our internal planning horizon when closer to
+obstacles. She showed that we have a minimum horizon and that we use that
+minimum when closest to the other cyclist.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/huang-example-figure.png" style="width: 800px;" /&gt;
+&lt;p class="caption"&gt;Example result of simulating an overtaking maneuver with a constant horizon
+and adaptive horizon MPC controller, showing the adaptive controller better
+simualtes the cyclist's behavior.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Yuke was supervised by Christoph Konrad, Azita Dabiri, and Jason K. Moore with
+help from Riender Happee. Everyone at the bicycle lab is very proud of Yuke and
+wishes her the best with her upcoming PhD position in Eindhoven.&lt;/p&gt;
+</content><category term="news"/><category term="cycling"/><category term="behavior"/><category term="overtake"/><category term="mpc"/><category term="optimal control"/></entry><entry><title>Ruben Terwint Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-ruben-terwint.html" rel="alternate"/><published>2025-11-19T13:43:00-08:00</published><updated>2025-11-19T13:43:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2025-11-19:/blog/msc-graduation-ruben-terwint.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
