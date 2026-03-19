@@ -75,11 +75,6 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
-   * - `Estimate bicycle kinematics from coarse naturalistic traffic datasets
-       <https://github.com/mechmotum/ideas/issues/55>`_
-     - 2025-11-13
-     - Christoph Konrad
-     - Thesis
    * - `Develop a fast technique for estimating the mass distribution of a
        bicycle and rider <https://github.com/mechmotum/ideas/issues/54>`_
      - 2025-11-13
@@ -145,6 +140,11 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Estimate bicycle kinematics from coarse naturalistic traffic datasets
+       <https://github.com/mechmotum/ideas/issues/55>`_
+     - 2025-11-13
+     - Christoph Konrad
+     - Matthijs van den Broek
    * - `Bicycle pose estimation <{filename}/pages/jobs/bike-pose-estimation.rst>`_
      - 2025-02-13
      - Benjamin Gonzalez
