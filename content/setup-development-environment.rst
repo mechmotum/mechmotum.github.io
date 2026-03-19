@@ -6,7 +6,7 @@ My Research Software Development Setup
 :tags: conda,python,scientific software,installation
 :category: software
 :authors: Jason K. Moore
-:thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/219px-Python-logo-notext.svg.png
+:thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/500px-Python-logo-notext.svg.png
 
 Introduction
 ============
