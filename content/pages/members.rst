@@ -90,17 +90,12 @@ Masters of Science Students
      - |headshot-van-der-pol-dana|
      - | **Dana van der Pol** [TUD, May 2025-present]
        | *Improving Rider Acceptance of Bicycle Balance Assist*
-   * - |headshot-huang-yuke|
-     - | **Yuke Huang** [TUD, Feb 2025-present]
-       | *Cyclist Path Planning with Social Force*
-     - |headshot-schoneveld-looka|
+   * - |headshot-schoneveld-looka|
      - | **Looka Schoneveld** [TUD, Nov 2024-present]
        | *Bicycle Simulator with Realistic Turning*
-   * - |headshot-nieman-neville|
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     -
-     -
 
 .. |headshot-scholten-joris| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-scholten-joris.jpg
    :width: 100px
@@ -243,6 +238,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Yuke Huang
+     - TUD
+     - Feb 2025-Mar 2026
+     - `Adaptive-Horizon Model Predictive Control for Modeling Anticipative
+       Behavior in Cyclist Interaction
+       <https://resolver.tudelft.nl/uuid:7fcb3081-32e6-42a6-8fed-219bc6398e9b>`_
+     - `C. Konrad, A. Dabiri, J. K. Moore`
    * - Ruben Terwint
      - TUD
      - Mar 2025-Sep 2025
