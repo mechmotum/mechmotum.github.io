@@ -44,6 +44,18 @@ Scientific Writing
 Common Issues
 =============
 
+Pronouns
+--------
+
+If you write in first person, you need to use "I" or "we". If you have a
+co-authored document use "we", i.e. "We measured twelve bicycles." If you have
+a single authored document (like your thesis), then it is generally not
+appropriate to use "we". You may use "we" if you are writing a tutorial-style
+document, where you consider the reader's to be part of "we", i.e. "Now we
+divide the metric by the mass of the person to normalize it:". This tutorial
+style may be appropriate in some places in a scientific paper, if you are
+considering "we" to be the author and the reader.
+
 Conciseness
 -----------
 
