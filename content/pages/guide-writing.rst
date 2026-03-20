@@ -201,20 +201,19 @@ should only be a few hundred kilobytes.
 Generative AI in Writing
 ========================
 
-**Jason's Rule #1**: If you cannot be bothered to write the text yourself, your
-supervisors should also not be bothered to read it for you. Your supervisors
-can talk to an LLM themselves if they want to read something it produced.
+Engineering Thinking
+--------------------
 
 We ask you to write reports in school so that *you* learn how to write. You may
 not see it yet, but writing is also a key to improving your engineering
 thinking. The act of communicating each and every sentence, helps you think out
-the complexity of what engineering you are doing. If you let an LLM write for
+the complexity of the engineering you are doing. If you let an LLM write for
 you, you remove a large amount of the thinking you need to be doing to become
 an engineer.
 
 We cannot assess whether *you* can write if an LLM did any of the writing for
 you. We may be able to asses whether you can use an LLM, but that is not the
-same as assessing whether *you* can write.
+same as assessing whether you can write.
 
 LLMs can aid you during writing, in the same way discussing a paragraph with a
 person may aid you, but the words on the paper of your reports should be those
@@ -223,14 +222,7 @@ can use any tool you desire to produce the thing you are making. But in school,
 we are trying to get you to learn specific things and thus we put boundaries on
 what you can use in different tasks.
 
-For example, if I'm teaching you the concept of slope and you simply lay a
-digital level on a surface and tell me it is 18 degrees you can do that without
-knowing what slope is. That is why we do not use a digital level to teach the
-concept of slope, we ask you to draw some geometry and use distance
-measurements to calculate what the slope is. After you know what slope is, sure
-use a digital level.
-
-Another example might be learning integration of a mathematical function.
+For example, you might be learning about integration of a mathematical function.
 Almost anyone can type a mathematical function into Wolfram Alpha and ask it to
 integrate the function but that does not teach you what integration is or means
 or what logic may produce Wolfram's result. You also have no idea if Wolfram
@@ -242,6 +234,31 @@ should not be used to directly produce content we use to assess specific
 learning objectives. The internship report, literature study report, and thesis
 report are tasks in your MSc designed to teach you to write through manual
 practice and feedback.
+
+Writing in English
+------------------
+
+Using an LLM to help you write in English (whether it is a second language or
+your mother tongue) is useful. It can check spelling, grammar, translations,
+and other legibility aspects. We recommend using these tools to give you
+suggestions for such fixes and then you evaluate and incorporate them under
+your interpretation. Automatic translation saves times, but it does little to
+teach you a language, only using the language will. Once again, if the LLM does
+the writing for you, you lose the opportunity to learn how to write.
+
+Take Grammarly, for example: it is a tool for spellcheck and grammar. It
+produces suggestions and explanations of in-line grammar fixes to help you to
+write correct and engaging texts while at the same time teaches you to write
+better. But it doesn't generate the whole text for you.
+
+Lastly
+------
+
+If you cannot be bothered to write the text yourself, should your supervisors
+be bothered to read it for you? Your supervisors can just as easily talk to an
+LLM themselves if they want to read something it produced. Our role is to
+assess whether you can do technical writing and communicate your ideas and work
+yourself.
 
 .. list-table::
    :align: center
