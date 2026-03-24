@@ -15,6 +15,10 @@ Lab Meetings Archive
      - Date
      - Presenters
      - Materials
+   * - Engineering Experiments
+     - 2026-03-24
+     - Jason K. Moore
+     - `Slides <https://tinyurl.com/bikelab-experiments>`__
    * - Bicycle Lab Round Up
      - 2025-09-09
      - Jason K. Moore
