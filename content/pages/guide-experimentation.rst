@@ -114,6 +114,15 @@ Execute your experiments
 .. _protocol: https://en.wikipedia.org/wiki/Protocol_(science)
 .. _TU Delft Human Research Ethics Committee: https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/human-research-ethics
 
+Lab presentation on this topic:
+
+.. raw:: html
+
+   <iframe
+   src="https://docs.google.com/presentation/d/e/2PACX-1vSTLFWsV20Y-vjWgNCWIgNvFtizJe_wCSYD7QZkA1D05CUAw5Ts8NSY0P5Xq8Y1FmzKoWJ4oq9l1vMt/pubembed?start=false&loop=false&delayms=3000"
+   frameborder="0" width="960" height="569" allowfullscreen="true"
+   mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 References
 ==========
 
