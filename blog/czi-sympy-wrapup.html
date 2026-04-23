@@ -259,7 +259,7 @@ evaluation, so that pivot points can managed by <a class="reference external" hr
 would need to be able to use the results of a linear solve like any other
 symbol without symbolically evaluating the linear solve operation. The
 following SymPy code almost works as desired:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">MatrixSymbol</span><span class="p">,</span> <span class="n">Inverse</span><span class="p">,</span> <span class="n">lambdify</span>
+<div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="kn">import</span> <span class="n">MatrixSymbol</span><span class="p">,</span> <span class="n">Inverse</span><span class="p">,</span> <span class="n">lambdify</span>
 
 <span class="n">A</span> <span class="o">=</span> <span class="n">MatrixSymbol</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
 <span class="n">b</span> <span class="o">=</span> <span class="n">MatrixSymbol</span><span class="p">(</span><span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -278,7 +278,7 @@ symbolically when called, as can be seen in the generated function:</p>
 <span class="go">...</span>
 </pre></div>
 <p>Instead, we'd like <tt class="docutils literal">lambdify()</tt> to generate code that looks more like:</p>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">eval_result</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">eval_result</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
    <span class="n">x</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
    <span class="k">return</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
 </pre></div>
@@ -287,7 +287,7 @@ the numerical values used for A and b. The expression <tt class="docutils litera
 need to remain unevaluated for code generation to properly handle it. In SymPy,
 there is a <tt class="docutils literal">MatrixSolve()</tt> code generation node that acts as an unevaluated
 linear equation solver and works as desired with <tt class="docutils literal">lambdify()</tt>:</p>
-<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sympy.codegen.matrix_nodes</span> <span class="kn">import</span> <span class="n">MatrixSolve</span>
+<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">sympy.codegen.matrix_nodes</span><span class="w"> </span><span class="kn">import</span> <span class="n">MatrixSolve</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="n">MatrixSolve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">eval_x</span> <span class="o">=</span> <span class="n">lambdify</span><span class="p">((</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">),</span> <span class="n">x</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">help</span><span class="p">(</span><span class="n">eval_x</span><span class="p">)</span>
@@ -398,10 +398,10 @@ to help with that.  Support for the <a class="reference external" href="https://
 <tt class="docutils literal">lambdify()</tt> just before we started the CZI work in
 <a class="reference external" href="https://github.com/sympy/sympy/pull/21546">https://github.com/sympy/sympy/pull/21546</a>. Here is an example that demonstrates
 some of the speed improvements:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">count_ops</span><span class="p">,</span> <span class="n">lambdify</span>
-<span class="kn">from</span> <span class="nn">sympy.physics.mechanics</span> <span class="kn">import</span> <span class="n">find_dynamicsymbols</span><span class="p">,</span> <span class="n">dynamicsymbols</span>
-<span class="kn">from</span> <span class="nn">sympy.physics.mechanics.models</span> <span class="kn">import</span> <span class="n">n_link_pendulum_on_cart</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="kn">import</span> <span class="n">count_ops</span><span class="p">,</span> <span class="n">lambdify</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sympy.physics.mechanics</span><span class="w"> </span><span class="kn">import</span> <span class="n">find_dynamicsymbols</span><span class="p">,</span> <span class="n">dynamicsymbols</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sympy.physics.mechanics.models</span><span class="w"> </span><span class="kn">import</span> <span class="n">n_link_pendulum_on_cart</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 </pre></div>
 <p>Generating the equations of motion with <tt class="docutils literal">KanesMethod</tt> will be faster for some
 models in the next release of SymPy due to <a class="reference external" href="https://github.com/sympy/sympy/pull/24792">Pull Request 24792</a>. This shows the speed in SymPy
