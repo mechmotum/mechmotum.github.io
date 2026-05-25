@@ -60,7 +60,7 @@ Conference Presentations:
 
 Software:
 
-- Web application: http://www.skijumpdesign.info
+- Web application: https://skijumpdesign.onrender.com/
 - Ski jump simulation library and web application source code: https://gitlab.com/moorepants/skijumpdesign
 
 Media
@@ -69,7 +69,7 @@ Media
 .. figure:: https://mechmotum.s3.us-east-005.dream.io/skijumpdesign-screenshot.jpg
    :width: 60%
    :align: center
-   :target: http://www.skijumpdesign.info
+   :target: https://skijumpdesign.onrender.com/
    :alt: Screenshot of the ski jump design application.
 
    Screenshot of the ski jump design web application.

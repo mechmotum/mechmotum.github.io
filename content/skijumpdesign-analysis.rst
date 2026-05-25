@@ -102,7 +102,7 @@ Ski Jump Application Update
 ---------------------------
 
 The new version of the ski jump web application has launched and is available
-at http://www.skijumpdesign.info. A home page was added to keep it user
+at https://skijumpdesign.onrender.com/. A home page was added to keep it user
 friendly. This is shown below.
 
 .. figure:: https://mechmotum.s3.us-east-005.dream.io/ski-figure-03.png
@@ -151,11 +151,11 @@ the new web app user friendly.
 
 Other related information:
 
-- Web application: http://www.skijumpdesign.info
+- Web application: https://skijumpdesign.onrender.com/
 - Software repository: https://gitlab.com/moorepants/skijumpdesign
 - Software documentation: http://skijumpdesign.readthedocs.io
 
-.. _Ski Jump Design Tool: http://www.skijumpdesign.info
+.. _Ski Jump Design Tool: https://skijumpdesign.onrender.com/
 
 
 References

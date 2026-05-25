@@ -52,7 +52,7 @@ two case studies in the paper.
    :alt: Screenshot of the skijumpdesign app's analysis page.
    :align: center
    :width: 600px
-   :target: http://www.skijumpdesign.info/analysis
+   :target: https://skijumpdesign.onrender.com/analysis
 
    Screenshot of the new "analysis" page of the web app. Click the image to go
    to the app.

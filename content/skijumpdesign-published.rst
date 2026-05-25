@@ -22,12 +22,12 @@ If you'd like to check out the web app, click the image below:
 .. image:: https://mechmotum.s3.us-east-005.dream.io.github.io/skijumpdesign-screenshot.jpg
    :width: 50%
    :align: center
-   :target: http://www.skijumpdesign.info
+   :target: https://skijumpdesign.onrender.com/
    :alt: Screenshot of the application.
 
 Other related information:
 
-- Web application: http://www.skijumpdesign.info
+- Web application: https://skijumpdesign.onrender.com/
 - Software repository: https://gitlab.com/moorepants/skijumpdesign
 - Software documentation: http://skijumpdesign.readthedocs.io
 

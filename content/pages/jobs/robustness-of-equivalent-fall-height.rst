@@ -103,4 +103,4 @@ See Also
 ========
 
 - `Lab research page on ski jumps <https://mechmotum.github.io/research/ski-jump-safety.html>`_
-- skijumpdesign web application: http://www.skijumpdesign.info
+- skijumpdesign web application: https://skijumpdesign.onrender.com/

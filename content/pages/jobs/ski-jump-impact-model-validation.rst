@@ -52,7 +52,7 @@ about their design methodologies. You will be advised by Drs. Jason K. Moore
 (TU Delft) and Mont Hubbard (UC Davis). This will be followed by an MSc
 graduation project that focuses on impact data analysis and interpretation,
 jumper model validation, and model improvement incorporation into the `ski jump
-design web application <https://www.skijumpdesign.info>`_ and Prinoth's
+design web application <https://skijumpdesign.onrender.com/>`_ and Prinoth's
 simulation system.
 
 The X camp terrain park is available to test on between August and October,
