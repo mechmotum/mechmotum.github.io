@@ -857,7 +857,7 @@ two case studies in the paper.&lt;/p&gt;
 from the paper.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://www.skijumpdesign.info/analysis"&gt;
+&lt;a class="reference external image-reference" href="https://skijumpdesign.onrender.com/analysis"&gt;
 &lt;img alt="Screenshot of the skijumpdesign app's analysis page." src="https://mechmotum.s3.us-east-005.dream.io/skijumpdesign-1.4.0-analysis-screenshot.png" style="width: 600px;" /&gt;
 &lt;/a&gt;
 &lt;p class="caption"&gt;Screenshot of the new &amp;quot;analysis&amp;quot; page of the web app. Click the image to go
@@ -1309,7 +1309,7 @@ picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="
 ski jumps for equivalent fall height.&lt;/p&gt;
 </summary><content type="html">&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;The goal of this work is to add a new page to the &lt;a class="reference external" href="http://www.skijumpdesign.info"&gt;Ski Jump Design Tool&lt;/a&gt;
+&lt;p&gt;The goal of this work is to add a new page to the &lt;a class="reference external" href="https://skijumpdesign.onrender.com/"&gt;Ski Jump Design Tool&lt;/a&gt;
 that allows users to input a measured jump profile and get a depiction of
 the equivalent fall height (EFH) for their jump. Figure 1 illustrates the
 components of a terrain park using common terminology.&lt;/p&gt;
@@ -1388,7 +1388,7 @@ with the differential GPS ski helmet, and the backpack strapped to my chest.&lt;
 &lt;div class="section" id="ski-jump-application-update"&gt;
 &lt;h2&gt;Ski Jump Application Update&lt;/h2&gt;
 &lt;p&gt;The new version of the ski jump web application has launched and is available
-at &lt;a class="reference external" href="http://www.skijumpdesign.info"&gt;http://www.skijumpdesign.info&lt;/a&gt;. A home page was added to keep it user
+at &lt;a class="reference external" href="https://skijumpdesign.onrender.com/"&gt;https://skijumpdesign.onrender.com/&lt;/a&gt;. A home page was added to keep it user
 friendly. This is shown below.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="Ski Jump Tool Home Page." src="https://mechmotum.s3.us-east-005.dream.io/ski-figure-03.png" style="width: 50%;" /&gt;
@@ -1424,7 +1424,7 @@ calculations, determine the best methods for users to measure a jump, and make
 the new web app user friendly.&lt;/p&gt;
 &lt;p&gt;Other related information:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Web application: &lt;a class="reference external" href="http://www.skijumpdesign.info"&gt;http://www.skijumpdesign.info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Web application: &lt;a class="reference external" href="https://skijumpdesign.onrender.com/"&gt;https://skijumpdesign.onrender.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Software repository: &lt;a class="reference external" href="https://gitlab.com/moorepants/skijumpdesign"&gt;https://gitlab.com/moorepants/skijumpdesign&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Software documentation: &lt;a class="reference external" href="http://skijumpdesign.readthedocs.io"&gt;http://skijumpdesign.readthedocs.io&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
