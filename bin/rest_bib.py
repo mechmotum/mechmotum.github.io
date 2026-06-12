@@ -383,6 +383,19 @@ def formatter_software(data):
     return item
 
 
+def formatter_proposal(data):
+    template = '{authors}, "`{title} <{url}>`__", {publisher}, {year}{extra}'
+
+    return template.format(
+        authors=make_author_list(data['creators']),
+        year=data['date'],
+        title=data['title'],
+        url=data['url'] if data['url'] else 'http://',
+        publisher=data['publisher'],
+        extra=', ' + data['extra'] if data['extra'] else '',
+    )
+
+
 def formatter(data):
     template = '{authors}, "`{title} <{url}>`__", {year}'
 
@@ -400,7 +413,7 @@ formatter_map = {
     'computerProgram': formatter_software,
     'conferencePaper': formatter_proceedings,
     'dataset': formatter_data,
-    'document': formatter,
+    'document': formatter_proposal,
     'journalArticle': formatter_journal,
     'magazineArticle': formatter,
     'manuscript': formatter_manuscript,

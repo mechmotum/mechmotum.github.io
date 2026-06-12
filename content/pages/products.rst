@@ -94,10 +94,11 @@ Reports
 Grant Proposals
 ===============
 
-1. `Aaron Meurer`, `Jason K. Moore`, and `Oscar Benjamin`, "`SymPy CZI EOSS Round 4 Application <https://doi.org/10.6084/m9.figshare.16590053.v1>`__", 2021/09/08
-2. `Jason K. Moore`, "`Influence of Culture on Mechanical Design: A Proposal For an Undergraduate Exchange and Design Competition Between Japanese and American Students <https://doi.org/10.6084/m9.figshare.5656105.v1>`__", 2017
-3. `Jason K. Moore`, "`Development of an Interactive Textbook Backed by Cloud Infrastructure to Pilot Active Computational Learning in an Upper Level Mechanical Vibrations Engineering Course <https://doi.org/10.6084/m9.figshare.5229886.v1>`__", 2017
-4. `Jason K. Moore`, "`Identification of closed-loop human locomotion control with perturbed walking and running data under the constraints of a biologically actuated plant <https://figshare.com/articles/journal_contribution/Identification_of_closed_loop_human_locomotion_control_with_perturbed_walking_and_running_data_under_the_constraints_of_a_biologically_actuated_plant/1137192/2>`__", 2014/08/13
+1. `Jason K. Moore`, `Patrick Forbes`, `José Alfonso Farías`, and `Looka Schoneveld`, "`Balance in the Loop: A Compact Human-in-the-loop Simulator for Natural Bicycle Motion <http://>`__", NWO Demonstrator, 2026-03-19, Rejected
+2. `Aaron Meurer`, `Jason K. Moore`, and `Oscar Benjamin`, "`SymPy CZI EOSS Round 4 Application <https://doi.org/10.6084/m9.figshare.16590053.v1>`__", Chan-Zuckerberg Foundation, 2021/09/08, Granted
+3. `Jason K. Moore`, "`Influence of Culture on Mechanical Design: A Proposal For an Undergraduate Exchange and Design Competition Between Japanese and American Students <https://doi.org/10.6084/m9.figshare.5656105.v1>`__", UC Davis International, 2017, Granted
+4. `Jason K. Moore`, "`Development of an Interactive Textbook Backed by Cloud Infrastructure to Pilot Active Computational Learning in an Upper Level Mechanical Vibrations Engineering Course <https://doi.org/10.6084/m9.figshare.5229886.v1>`__", USA Department of Education, 2017, Granted
+5. `Jason K. Moore`, "`Identification of closed-loop human locomotion control with perturbed walking and running data under the constraints of a biologically actuated plant <https://figshare.com/articles/journal_contribution/Identification_of_closed_loop_human_locomotion_control_with_perturbed_walking_and_running_data_under_the_constraints_of_a_biologically_actuated_plant/1137192/2>`__", NCSS Fellowship, 2014/08/13, Granted
 
 Preprints
 =========
@@ -117,10 +118,11 @@ Articles In Preparation or Under Review
 =======================================
 
 1. `Jules Ronné`, `Jason K. Moore`, and `Holger Caesar`, "`Preventing Cyclist Falls: How Visual and Vestibular Adaptations Expand Balance Stability <http://>`__", 2026-03-10, Submitted
-2. `Benjamin E. González T.`, `Ajay Seth`, `Alfred Schouten`, and `Jason K. Moore`, "`A new sequential classification system for single-cyclist crashes based on bicycle dynamics <http://>`__", 2026, In Preparation
-3. `Anna Marbus`, `Riender Happee`, `Jason K. Moore`, and `Christoph Konrad`, "`Cyclist yielding, path, and velocity adjustments during evasive actions in shared spaces <http://>`__", 2025, In Preparation
-4. `Jules Ronné`, `Jason K. Moore`, and `Caesar Holger`, "`Describing and predicting cyclists’ workload in natural urban conditions through gaze, head and bicycle kinematics <http://>`__", 2025, In Preparation
-5. `Jules Ronné`, `Jason K. Moore`, `Laura Dubuis`, and `Thomas Robert`, "`Personal Preference or Intrinsic Quality? A Study on Bicycle Handling Quality <http://>`__", 2025, Under Review at Vehicle System Dynamics
+2. `Eloy Vázquez Fernández`, `Gabriele Dell'Orto`, and `Jason K. Moore`, "`Vibration-Induced Power Losses in Cycling: Experimental Quantification on a Simulated Cobblestone Surface <http://>`__", 2026, In Preparation
+3. `Benjamin E. González T.`, `Ajay Seth`, `Alfred Schouten`, and `Jason K. Moore`, "`A new sequential classification system for single-cyclist crashes based on bicycle dynamics <http://>`__", 2026, In Preparation
+4. `Anna Marbus`, `Riender Happee`, `Jason K. Moore`, and `Christoph Konrad`, "`Cyclist yielding, path, and velocity adjustments during evasive actions in shared spaces <http://>`__", 2025, In Preparation
+5. `Jules Ronné`, `Jason K. Moore`, and `Caesar Holger`, "`Describing and predicting cyclists’ workload in natural urban conditions through gaze, head and bicycle kinematics <http://>`__", 2025, In Preparation
+6. `Jules Ronné`, `Jason K. Moore`, `Laura Dubuis`, and `Thomas Robert`, "`Personal Preference or Intrinsic Quality? A Study on Bicycle Handling Quality <http://>`__", 2025, Under Review at Vehicle System Dynamics
 
 Web Articles
 ============
