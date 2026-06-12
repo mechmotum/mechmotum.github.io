@@ -94,11 +94,14 @@ Reports
 Grant Proposals
 ===============
 
-1. `Jason K. Moore`, `Patrick Forbes`, `José Alfonso Farías`, and `Looka Schoneveld`, "`Balance in the Loop: A Compact Human-in-the-loop Simulator for Natural Bicycle Motion <http://>`__", NWO Demonstrator, 2026-03-19, Rejected
-2. `Aaron Meurer`, `Jason K. Moore`, and `Oscar Benjamin`, "`SymPy CZI EOSS Round 4 Application <https://doi.org/10.6084/m9.figshare.16590053.v1>`__", Chan-Zuckerberg Foundation, 2021/09/08, Granted
-3. `Jason K. Moore`, "`Influence of Culture on Mechanical Design: A Proposal For an Undergraduate Exchange and Design Competition Between Japanese and American Students <https://doi.org/10.6084/m9.figshare.5656105.v1>`__", UC Davis International, 2017, Granted
-4. `Jason K. Moore`, "`Development of an Interactive Textbook Backed by Cloud Infrastructure to Pilot Active Computational Learning in an Upper Level Mechanical Vibrations Engineering Course <https://doi.org/10.6084/m9.figshare.5229886.v1>`__", USA Department of Education, 2017, Granted
-5. `Jason K. Moore`, "`Identification of closed-loop human locomotion control with perturbed walking and running data under the constraints of a biologically actuated plant <https://figshare.com/articles/journal_contribution/Identification_of_closed_loop_human_locomotion_control_with_perturbed_walking_and_running_data_under_the_constraints_of_a_biologically_actuated_plant/1137192/2>`__", NCSS Fellowship, 2014/08/13, Granted
+1. `Jason K. Moore`, `Patrick Forbes`, `José Alfonso Farías`, and `Looka Schoneveld`, "`Balance in the Loop: A Compact Human-in-the-loop Simulator for Natural Bicycle Motion <http://>`__", NWO Demonstrator, 2026-03-19, €200k, Rejected
+2. `Jason K. Moore`, `Georgios Papaioannou`, `Riender Happee`, and `Jules Ronné`, "`Vibration Health Effects of Children in Vehicles <http://>`__", TU Delft Mechanical Engineering Health Theme, 2025, €15k, Granted
+3. `Holger Ceasar` and `Jason K. Moore`, "`Modeling bicycle behavior from visual stimulus to neuromuscular control ability <http://>`__", 3mE Cohesion Proposal, 2023, €100k, Granted
+4. `Holger Ceasar` and `Jason K. Moore`, "`Sustainable Transportation Planning Via Bicycle-based Data Collection <http://>`__", TU Delft Climate Action Research and Education Seed Call, 2023, €30k, Granted
+5. `Aaron Meurer`, `Jason K. Moore`, and `Oscar Benjamin`, "`SymPy CZI EOSS Round 4 Application <https://doi.org/10.6084/m9.figshare.16590053.v1>`__", Chan-Zuckerberg Foundation, 2021/09/08, $395k, Granted
+6. `Jason K. Moore`, "`Development of an Interactive Textbook Backed by Cloud Infrastructure to Pilot Active Computational Learning in an Upper Level Mechanical Vibrations Engineering Course <https://doi.org/10.6084/m9.figshare.5229886.v1>`__", UC Davis Teaching and Learning, 2017, $22k, Granted
+7. `Jason K. Moore`, "`Influence of Culture on Mechanical Design: A Proposal For an Undergraduate Exchange and Design Competition Between Japanese and American Students <https://doi.org/10.6084/m9.figshare.5656105.v1>`__", UC Davis Global Affairs, 2017, $24k,Granted
+8. `Jason K. Moore`, "`Identification of closed-loop human locomotion control with perturbed walking and running data under the constraints of a biologically actuated plant <https://figshare.com/articles/journal_contribution/Identification_of_closed_loop_human_locomotion_control_with_perturbed_walking_and_running_data_under_the_constraints_of_a_biologically_actuated_plant/1137192/2>`__", NCSS Fellowship, 2014/08/13, Granted
 
 Preprints
 =========
