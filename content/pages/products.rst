@@ -8,6 +8,8 @@ Products
    from a collection Jason maintains in his Zotero account. The software
    section is manually constructed for now because the script does not generate
    the badges.
+   To clipboard directly:
+      python bin/rest_bib.py 425053 user 7IG48IAS | xsel -ib
 
 :sortorder: 3
 
