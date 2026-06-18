@@ -101,7 +101,6 @@ Grant Proposals
 5. `Aaron Meurer`, `Jason K. Moore`, and `Oscar Benjamin`, "`SymPy CZI EOSS Round 4 Application <https://doi.org/10.6084/m9.figshare.16590053.v1>`__", Chan-Zuckerberg Foundation, 2021/09/08, $395k, Granted
 6. `Jason K. Moore`, "`Development of an Interactive Textbook Backed by Cloud Infrastructure to Pilot Active Computational Learning in an Upper Level Mechanical Vibrations Engineering Course <https://doi.org/10.6084/m9.figshare.5229886.v1>`__", UC Davis Teaching and Learning, 2017, $22k, Granted
 7. `Jason K. Moore`, "`Influence of Culture on Mechanical Design: A Proposal For an Undergraduate Exchange and Design Competition Between Japanese and American Students <https://doi.org/10.6084/m9.figshare.5656105.v1>`__", UC Davis Global Affairs, 2017, $24k,Granted
-8. `Jason K. Moore`, "`Identification of closed-loop human locomotion control with perturbed walking and running data under the constraints of a biologically actuated plant <https://figshare.com/articles/journal_contribution/Identification_of_closed_loop_human_locomotion_control_with_perturbed_walking_and_running_data_under_the_constraints_of_a_biologically_actuated_plant/1137192/2>`__", NCSS Fellowship, 2014/08/13, Granted
 
 Preprints
 =========
@@ -200,7 +199,29 @@ Presentations
 Software
 ========
 
-1. `ngshare Development Team`, "`ngshare <https://github.com/LibreTexts/ngshare>`__", 2020-02-16 |github-LibreTexts/ngshare| |pypi-ngshare| |pypi-downloads-ngshare|
+1. `Timo Stienstra`, "`SymBRiM: A Modular and Extensible Open-Source Framework for Creating Symbolic Bicycle-Rider Models <https://mechmotum.github.io/symbrim/>`__", 2024-10-12 |github-mechmotum/symbrim| |pypi-symbrim| |pypi-downloads-symbrim| |conda-forge-symbrim| |conda-forge-downloads-symbrim|
+
+    .. |github-mechmotum/symbrim| image:: https://img.shields.io/github/v/release/mechmotum/symbrim?label=Github
+       :alt: github-mechmotum/symbrim badge
+       :target: https://github.com/mechmotum/symbrim
+
+    .. |pypi-symbrim| image:: https://img.shields.io/pypi/v/symbrim.png
+       :alt: pypi-symbrim badge
+       :target: https://pypi.org/project/symbrim
+
+    .. |pypi-downloads-symbrim| image:: https://pepy.tech/badge/symbrim
+       :alt: pypi-symbrim badge
+       :target: https://pypi.org/project/symbrim
+
+    .. |conda-forge-symbrim| image:: https://img.shields.io/conda/v/conda-forge/symbrim.png
+       :alt: conda-forge-symbrim badge
+       :target: https://anaconda.org/conda-forge/symbrim
+
+    .. |conda-forge-downloads-symbrim| image:: https://img.shields.io/conda/dn/conda-forge/symbrim.png
+       :alt: conda-forge-symbrim badge
+       :target: https://anaconda.org/conda-forge/symbrim
+
+2. `ngshare Development Team`, "`ngshare <https://github.com/LibreTexts/ngshare>`__", 2020-02-16 |github-LibreTexts/ngshare| |pypi-ngshare| |pypi-downloads-ngshare|
 
     .. |github-LibreTexts/ngshare| image:: https://img.shields.io/github/v/release/LibreTexts/ngshare?label=Github
        :alt: github-LibreTexts/ngshare badge
@@ -214,13 +235,13 @@ Software
        :alt: pypi-ngshare badge
        :target: https://pypi.org/project/ngshare
 
-2. `Bryn Cloud`, `Jason K. Moore`, `A. Liu`, `B. Tarien`, and `Thomas Shedd`, "`row_filter: Library for rowing kinematic filtering and analysis <https://gitlab.com/mechmotum/row_filter>`__", 2018 |gitlab-mechmotum/row_filter|
+3. `Bryn Cloud`, `Jason K. Moore`, `A. Liu`, `B. Tarien`, and `Thomas Shedd`, "`row_filter: Library for rowing kinematic filtering and analysis <https://gitlab.com/mechmotum/row_filter>`__", 2018 |gitlab-mechmotum/row_filter|
 
     .. |gitlab-mechmotum/row_filter| image:: https://img.shields.io/gitlab/v/release/mechmotum/row_filter?label=Gitlab
        :alt: gitlab-mechmotum/row_filter badge
        :target: https://gitlab.com/mechmotum/row_filter
 
-3. `Jason K. Moore`, `Mont Hubbard`, and `Bryn Cloud`, "`skijumpdesign: A ski jump design tool for equivalent fall height. <https://gitlab.com/moorepants/skijumpdesign>`__", 2017-12-19 |gitlab-moorepants/skijumpdesign| |pypi-skijumpdesign| |pypi-downloads-skijumpdesign| |conda-forge-skijumpdesign| |conda-forge-downloads-skijumpdesign|
+4. `Jason K. Moore`, `Mont Hubbard`, and `Bryn Cloud`, "`skijumpdesign: A ski jump design tool for equivalent fall height. <https://gitlab.com/moorepants/skijumpdesign>`__", 2017-12-19 |gitlab-moorepants/skijumpdesign| |pypi-skijumpdesign| |pypi-downloads-skijumpdesign| |conda-forge-skijumpdesign| |conda-forge-downloads-skijumpdesign|
 
     .. |gitlab-moorepants/skijumpdesign| image:: https://img.shields.io/gitlab/v/release/moorepants/skijumpdesign?label=Gitlab
        :alt: gitlab-moorepants/skijumpdesign badge
@@ -242,7 +263,7 @@ Software
        :alt: conda-forge-skijumpdesign badge
        :target: https://anaconda.org/conda-forge/skijumpdesign
 
-4. `Jason K. Moore` and `Kenneth Lyons`, "`resonance: A Python package for mechanical vibration analysis <https://github.com/moorepants/resonance/>`__", 2017-07-16 |github-moorepants/resonance| |pypi-resonance| |pypi-downloads-resonance| |conda-forge-resonance| |conda-forge-downloads-resonance|
+5. `Jason K. Moore` and `Kenneth Lyons`, "`resonance: A Python package for mechanical vibration analysis <https://github.com/moorepants/resonance/>`__", 2017-07-16 |github-moorepants/resonance| |pypi-resonance| |pypi-downloads-resonance| |conda-forge-resonance| |conda-forge-downloads-resonance|
 
     .. |github-moorepants/resonance| image:: https://img.shields.io/github/v/release/moorepants/resonance?label=Github
        :alt: github-moorepants/resonance badge
@@ -264,7 +285,7 @@ Software
        :alt: conda-forge-resonance badge
        :target: https://anaconda.org/conda-forge/resonance
 
-5. `Jason K. Moore` and `Antonie J. van den Bogert`, "`opty: A library for using direct collocation in the optimization and identification of dynamic systems. <https://github.com/csu-hmc/opty>`__", 2014-05-25 |github-csu-hmc/opty| |pypi-opty| |pypi-downloads-opty| |conda-forge-opty| |conda-forge-downloads-opty|
+6. `Jason K. Moore` and `Antonie J. van den Bogert`, "`opty: A library for using direct collocation in the optimization and identification of dynamic systems. <https://github.com/csu-hmc/opty>`__", 2014-05-25 |github-csu-hmc/opty| |pypi-opty| |pypi-downloads-opty| |conda-forge-opty| |conda-forge-downloads-opty|
 
     .. |github-csu-hmc/opty| image:: https://img.shields.io/github/v/release/csu-hmc/opty?label=Github
        :alt: github-csu-hmc/opty badge
@@ -286,13 +307,13 @@ Software
        :alt: conda-forge-opty badge
        :target: https://anaconda.org/conda-forge/opty
 
-6. `Jason K. Moore`, `Sandra K. Hnat`, `Obinna Nwanna`, `Michael Overmeyer`, and `Antonie J. van den Bogert`, "`GaitAnalysisToolKit: A Python Library for Gait Analysis <https://github.com/csu-hmc/GaitAnalysisToolKit>`__", 2013-12-01 |github-csu-hmc/GaitAnalysisToolKit|
+7. `Jason K. Moore`, `Sandra K. Hnat`, `Obinna Nwanna`, `Michael Overmeyer`, and `Antonie J. van den Bogert`, "`GaitAnalysisToolKit: A Python Library for Gait Analysis <https://github.com/csu-hmc/GaitAnalysisToolKit>`__", 2013-12-01 |github-csu-hmc/GaitAnalysisToolKit|
 
     .. |github-csu-hmc/GaitAnalysisToolKit| image:: https://img.shields.io/github/v/release/csu-hmc/GaitAnalysisToolKit?label=Github
        :alt: github-csu-hmc/GaitAnalysisToolKit badge
        :target: https://github.com/csu-hmc/GaitAnalysisToolKit
 
-7. `Jason K. Moore`, `Tarun Gaba`, `Oliver Lee`, `Sahil Shekhawat`, `Dale L. Peterson`, `Chris Dembia`, `Yashu Seth`, `Nikhil Pappu`, `Gilbert Gede`, `James Crist`, `Brandon James Milam`, `Frédéric Bastien`, `Pranjal Mittal`, `Robert McMurry`, `Varun Joshi`, `Ivan Angelov`, and `Nikolay Mayorov`, "`PyDy: A multi-body dynamics analysis package written in Python <http://pydy.org>`__", 2011-10-16 |github-pydy/pydy| |pypi-pydy| |pypi-downloads-pydy| |conda-forge-pydy| |conda-forge-downloads-pydy|
+8. `Jason K. Moore`, `Tarun Gaba`, `Oliver Lee`, `Sahil Shekhawat`, `Dale L. Peterson`, `Chris Dembia`, `Yashu Seth`, `Nikhil Pappu`, `Gilbert Gede`, `James Crist`, `Brandon James Milam`, `Frédéric Bastien`, `Pranjal Mittal`, `Robert McMurry`, `Varun Joshi`, `Ivan Angelov`, and `Nikolay Mayorov`, "`PyDy: A multi-body dynamics analysis package written in Python <http://pydy.org>`__", 2011-10-16 |github-pydy/pydy| |pypi-pydy| |pypi-downloads-pydy| |conda-forge-pydy| |conda-forge-downloads-pydy|
 
     .. |github-pydy/pydy| image:: https://img.shields.io/github/v/release/pydy/pydy?label=Github
        :alt: github-pydy/pydy badge
@@ -314,7 +335,7 @@ Software
        :alt: conda-forge-pydy badge
        :target: https://anaconda.org/conda-forge/pydy
 
-8. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`DynamicistToolKit: A Python library for dynamcis and controls <https://github.com/moorepants/DynamicistToolKit>`__", 2011-06-19 |github-moorepants/DynamicistToolKit| |pypi-DynamicistToolKit| |pypi-downloads-DynamicistToolKit| |conda-forge-dynamicisttoolkit| |conda-forge-downloads-dynamicisttoolkit|
+9. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`DynamicistToolKit: A Python library for dynamcis and controls <https://github.com/moorepants/DynamicistToolKit>`__", 2011-06-19 |github-moorepants/DynamicistToolKit| |pypi-DynamicistToolKit| |pypi-downloads-DynamicistToolKit| |conda-forge-dynamicisttoolkit| |conda-forge-downloads-dynamicisttoolkit|
 
     .. |github-moorepants/DynamicistToolKit| image:: https://img.shields.io/github/v/release/moorepants/DynamicistToolKit?label=Github
        :alt: github-moorepants/DynamicistToolKit badge
@@ -336,7 +357,7 @@ Software
        :alt: conda-forge-dynamicisttoolkit badge
        :target: https://anaconda.org/conda-forge/dynamicisttoolkit
 
-9. `Christopher Dembia`, `Jason K. Moore`, `Stefen Yin`, and `Oliver Lee`, "`Yeadon: A Python Library For Human Inertia Estimation <https://github.com/chrisdembia/yeadon>`__", 2011-06-12 |github-chrisdembia/yeadon| |pypi-yeadon| |pypi-downloads-yeadon| |conda-forge-yeadon| |conda-forge-downloads-yeadon|
+10. `Christopher Dembia`, `Jason K. Moore`, `Stefen Yin`, and `Oliver Lee`, "`Yeadon: A Python Library For Human Inertia Estimation <https://github.com/chrisdembia/yeadon>`__", 2011-06-12 |github-chrisdembia/yeadon| |pypi-yeadon| |pypi-downloads-yeadon| |conda-forge-yeadon| |conda-forge-downloads-yeadon|
 
     .. |github-chrisdembia/yeadon| image:: https://img.shields.io/github/v/release/chrisdembia/yeadon?label=Github
        :alt: github-chrisdembia/yeadon badge
@@ -358,8 +379,8 @@ Software
        :alt: conda-forge-yeadon badge
        :target: https://anaconda.org/conda-forge/yeadon
 
-10. `Jason K. Moore`, "`HumanControl: Software for Evaluating Human Control and Handling Qualities of Bicycles <https://github.com/moorepants/HumanControl>`__", 2011-05-15
-11. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`BicycleParameters: A Python library for bicycle parameter estimation and analysis <https://github.com/moorepants/BicycleParameters>`__", 2011-04-10 |github-moorepants/BicycleParameters| |pypi-BicycleParameters| |pypi-downloads-BicycleParameters| |conda-forge-bicycleparameters| |conda-forge-downloads-bicycleparameters|
+11. `Jason K. Moore`, "`HumanControl: Software for Evaluating Human Control and Handling Qualities of Bicycles <https://github.com/moorepants/HumanControl>`__", 2011-05-15
+12. `Jason K. Moore`, `Chris Dembia`, and `Oliver Lee`, "`BicycleParameters: A Python library for bicycle parameter estimation and analysis <https://github.com/moorepants/BicycleParameters>`__", 2011-04-10 |github-moorepants/BicycleParameters| |pypi-BicycleParameters| |pypi-downloads-BicycleParameters| |conda-forge-bicycleparameters| |conda-forge-downloads-bicycleparameters|
 
     .. |github-moorepants/BicycleParameters| image:: https://img.shields.io/github/v/release/moorepants/BicycleParameters?label=Github
        :alt: github-moorepants/BicycleParameters badge
@@ -381,13 +402,13 @@ Software
        :alt: conda-forge-bicycleparameters badge
        :target: https://anaconda.org/conda-forge/bicycleparameters
 
-12. `Jason K. Moore`, `P. D. L. de Lange`, and `Stefen Yin`, "`BicycleDataProcessor: Data storage and processing library for an instrumented bicycle <https://github.com/moorepants/BicycleDataProcessor>`__", 2011-02-27 |github-moorepants/BicycleDataProcessor|
+13. `Jason K. Moore`, `P. D. L. de Lange`, and `Stefen Yin`, "`BicycleDataProcessor: Data storage and processing library for an instrumented bicycle <https://github.com/moorepants/BicycleDataProcessor>`__", 2011-02-27 |github-moorepants/BicycleDataProcessor|
 
     .. |github-moorepants/BicycleDataProcessor| image:: https://img.shields.io/github/v/release/moorepants/BicycleDataProcessor?label=Github
        :alt: github-moorepants/BicycleDataProcessor badge
        :target: https://github.com/moorepants/BicycleDataProcessor
 
-13. `cyipopt Development Team`, "`cyipopt: Cython interface for the interior point optimzer IPOPT <https://github.com/mechmotum/cyipopt>`__", 2011 |github-mechmotum/cyipopt| |conda-forge-cyipopt| |conda-forge-downloads-cyipopt| |pypi-cyipopt| |pypi-downloads-cyipopt|
+14. `cyipopt Development Team`, "`cyipopt: Cython interface for the interior point optimzer IPOPT <https://github.com/mechmotum/cyipopt>`__", 2011 |github-mechmotum/cyipopt| |conda-forge-cyipopt| |conda-forge-downloads-cyipopt| |pypi-cyipopt| |pypi-downloads-cyipopt|
 
     .. |github-mechmotum/cyipopt| image:: https://img.shields.io/github/v/release/mechmotum/cyipopt?label=Github
        :alt: github-mechmotum/cyipopt badge
@@ -409,13 +430,13 @@ Software
        :alt: pypi-cyipopt badge
        :target: https://pypi.org/project/cyipopt
 
-14. `Jason K. Moore`, `P. D. L. de Lange`, and `Yumiko Henneberry`, "`BicycleDAQ: Data aquisition application for an instrumented bicycle <http://github.com/moorepants/BicycleDAQ>`__", 2010-10-24 |github-moorepants/BicycleDAQ|
+15. `Jason K. Moore`, `P. D. L. de Lange`, and `Yumiko Henneberry`, "`BicycleDAQ: Data aquisition application for an instrumented bicycle <http://github.com/moorepants/BicycleDAQ>`__", 2010-10-24 |github-moorepants/BicycleDAQ|
 
     .. |github-moorepants/BicycleDAQ| image:: https://img.shields.io/github/v/release/moorepants/BicycleDAQ?label=Github
        :alt: github-moorepants/BicycleDAQ badge
        :target: https://github.com/moorepants/BicycleDAQ
 
-15. `SymPy Development Team`, "`SymPy: Python library for symbolic mathematics <http://www.sympy.org>`__", 2006 |github-sympy/sympy| |conda-forge-sympy| |conda-forge-downloads-sympy| |pypi-sympy| |pypi-downloads-sympy|
+16. `SymPy Development Team`, "`SymPy: Python library for symbolic mathematics <http://www.sympy.org>`__", 2006 |github-sympy/sympy| |conda-forge-sympy| |conda-forge-downloads-sympy| |pypi-sympy| |pypi-downloads-sympy|
 
     .. |github-sympy/sympy| image:: https://img.shields.io/github/v/release/sympy/sympy?label=Github
        :alt: github-sympy/sympy badge
