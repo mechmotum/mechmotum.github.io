@@ -68,7 +68,7 @@ Masters of Science Students
 
    * - |headshot-body-daniel|
      - | **Daniel Body** [TUD, May 2026-Aug 2026]
-       | *Comparison of single input vertical vibrations of a bicycle* }
+       | *Comparison of single input vertical vibrations of a bicycle*
      - |headshot-van-den-broek-matthijs|
      - | **Matthijs van den Broek** [TUD, Feb 2026-present]
        | *Estimate bicycle kinematics from coarse naturalistic traffic datasets*
