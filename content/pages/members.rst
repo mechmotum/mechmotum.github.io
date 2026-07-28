@@ -66,41 +66,46 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-van-den-broek-matthijs|
+   * - |headshot-body-daniel|
+     - | **Daniel Body** [TUD, May 2026-Aug 2026]
+       | *Comparison of single input vertical vibrations of a bicycle* }
+     - |headshot-van-den-broek-matthijs|
      - | **Matthijs van den Broek** [TUD, Feb 2026-present]
        | *Estimate bicycle kinematics from coarse naturalistic traffic datasets*
-     - |headshot-scholten-joris|
+   * - |headshot-scholten-joris|
      - | **Joris Scholten** [TUD, Feb 2026-present]
        | *Bicycles and Tricycles for the Elderly*
-   * - |headshot-jonas-philipp|
+     - |headshot-jonas-philipp|
      - | **Philipp Jonas** [KTH, Jan 2026-present]
        | *Bicycle Tire Characterization via a Kickplate*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Haye Boonstra** [TUD, Nov 2025-present]
        | *Bicycle Pose Estimation*
-   * - |headshot-machavaram-siva|
+     - |headshot-machavaram-siva|
      - | **Siva Machavaram** [TUD, Nov 2025-present]
        | *Using Model Predictive Control to Assist in Bicycle Lane Changes*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Stephen Lin** [TUD, Oct 2025-present]
        | *Testing the Balance Assist Bicycle in Low Friction Falls*
-   * - |headshot-compen-luna|
+     - |headshot-compen-luna|
      - | **Luna Compen** [TUD, Oct 2025-present]
        | *Unravelling Vestibular Sensory Contributions to Bicycle Balance Control*
-     - |headshot-bongers-quinten|
+   * - |headshot-bongers-quinten|
      - | **Quinten Bongers** [TUD, Aug 2025-present]
        | *Bicycle Vibration Analysis of Realistic Simulated Road Surfaces*
-   * - |headshot-van-der-pol-dana|
+     - |headshot-van-der-pol-dana|
      - | **Dana van der Pol** [TUD, May 2025-present]
        | *Improving Rider Acceptance of Bicycle Balance Assist*
-     - |headshot-schoneveld-looka|
+   * - |headshot-schoneveld-looka|
      - | **Looka Schoneveld** [TUD, Nov 2024-present]
        | *Bicycle Simulator with Realistic Turning*
-   * - |headshot-nieman-neville|
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     -
-     -
+
+.. |headshot-body-daniel| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-body-daniel.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-van-den-broek-matthijs| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-van-den-broek-matthijs.jpg
    :width: 100px
