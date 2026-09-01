@@ -93,14 +93,9 @@ Masters of Science Students
    * - |headshot-bongers-quinten|
      - | **Quinten Bongers** [TUD, Aug 2025-present]
        | *Bicycle Vibration Analysis of Realistic Simulated Road Surfaces*
-     - |headshot-van-der-pol-dana|
-     - | **Dana van der Pol** [TUD, May 2025-present]
-       | *Improving Rider Acceptance of Bicycle Balance Assist*
-   * - |headshot-nieman-neville|
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     -
-     -
 
 .. |headshot-body-daniel| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-body-daniel.jpg
    :width: 100px
@@ -255,6 +250,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Dana van der Pol
+     - TUD
+     - May 2025-July 2026
+     - `Effects of Assistance Level and Familiarization on Elderly Riding a
+       Balance Assist Bicycle
+       <https://repository.tudelft.nl/record/uuid:764633b0-c1e0-420a-b057-ecfb94c77180>`_
+     - `J. Ronné, J. K. Moore`
    * - Looka Schoneveld
      - TUD
      - Nov 2024-May 2026
