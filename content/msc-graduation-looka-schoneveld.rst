@@ -65,7 +65,7 @@ speeds, i.e. no self-stability active.
 Furthermore, Looka went beyond his thesis and worked with us and TU Delft's
 innovation team to submit a patent application on this concept as well as
 co-wrote an NWO Demonstrator grant proposal for the project. This was an
-extraordinary effort from an MSc student. Look was supervised by Jason K. Moore
+extraordinary effort from an MSc student. Looka was supervised by Jason K. Moore
 and José Alfonso Farías Fuentes. Everyone at the bicycle lab is very proud of
 Looka and wishes him the best with his next endeavors. We are also excited to
 start doing research with his simulator!
