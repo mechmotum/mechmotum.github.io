@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-09-01T13:46:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Looka Schoneveld Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-looka-schoneveld.html" rel="alternate"/><published>2026-09-01T13:46:00-07:00</published><updated>2026-09-01T13:46:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-01:/blog/msc-graduation-looka-schoneveld.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-09-01T17:15:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Dana van der Pol Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-dana-van-der-pol.html" rel="alternate"/><published>2026-09-01T17:15:00-07:00</published><updated>2026-09-01T17:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-01:/blog/msc-graduation-dana-van-der-pol.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-van-der-pol-dana-02.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:764633b0-c1e0-420a-b057-ecfb94c77180"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-vanderpol.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Dana successfully defended her MSc Thesis titled &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:764633b0-c1e0-420a-b057-ecfb94c77180"&gt;Effects of Assistance Level
+and Familiarization on Elderly Riding a Balance Assist Bicycle&lt;/a&gt;
+on July 15, 2026.&lt;/p&gt;
+&lt;p&gt;Dana investigated whether elderly riders felt comfortable riding our balance
+assist bicycle and whether the assistance had any effect on motion. She did
+this by having …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-van-der-pol-dana-02.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:764633b0-c1e0-420a-b057-ecfb94c77180"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-vanderpol.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Dana successfully defended her MSc Thesis titled &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:764633b0-c1e0-420a-b057-ecfb94c77180"&gt;Effects of Assistance Level
+and Familiarization on Elderly Riding a Balance Assist Bicycle&lt;/a&gt;
+on July 15, 2026.&lt;/p&gt;
+&lt;p&gt;Dana investigated whether elderly riders felt comfortable riding our balance
+assist bicycle and whether the assistance had any effect on motion. She did
+this by having three groups of elderly riders test the bicycle that were
+unaware of the assistance strength level: off, low, or high. The subjects were
+only told that the bicycle had something akin to power steering in a car, but
+not that it had a stabilizing effect. Secondly, she tested if the comfort
+changed the longer the subjects road the bicycle by having them get familiar
+with the bicycle over a long period of riding in one day. Interestingly, she
+did not confirm the findings we had in &lt;a class="citation-reference" href="#alizadehsaravi2023" id="citation-reference-1"&gt;[Alizadehsaravi2023]&lt;/a&gt;, i.e. that the
+balance assist reduced steering and rolling motions. She also found that the 31
+elderly subjects' comfort opinion over time improved for all levels of
+assistance but it was not apparent that subjects gave differing comfort
+opinions for different assistance levels, possibly pointing towards the riders'
+inability to detect the assistance. This study has given us another set of
+clues to understand if balance assist really assists and whether riders will
+accept it. Elderly riders will likely accept the system but our confidence it
+objectively helps has not grown.&lt;/p&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/vanderpol-figure.png" style="width: 600px;" /&gt;
+&lt;p&gt;Dana was supervised by Jules Ronné and Jason K. Moore with early support from
+Felix Dauer at Bosch eBike Systems. Everyone at the bicycle lab is very proud
+of Dana and wishes her the best with her next endeavors.&lt;/p&gt;
+&lt;table class="docutils citation" frame="void" id="alizadehsaravi2023" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-1"&gt;[Alizadehsaravi2023]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Alizadehsaravi, L., &amp;amp; Moore, J. K. (2023). Bicycle
+balance assist system reduces roll and steering motion for young and older
+bicyclists during real-life safety challenges. PeerJ, 11, e16206.
+&lt;a class="reference external" href="https://doi.org/10.7717/peerj.16206"&gt;https://doi.org/10.7717/peerj.16206&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content><category term="news"/><category term="bicycle"/><category term="balance assist"/><category term="elderly"/></entry><entry><title>Looka Schoneveld Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-looka-schoneveld.html" rel="alternate"/><published>2026-09-01T13:46:00-07:00</published><updated>2026-09-01T13:46:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-01:/blog/msc-graduation-looka-schoneveld.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
