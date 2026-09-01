@@ -1,5 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-03-19T14:39:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Yuke Huang Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-yuke-huang.html" rel="alternate"/><published>2026-03-19T14:39:00-07:00</published><updated>2026-03-19T14:39:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-03-19:/blog/msc-graduation-yuke-huang.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-09-01T13:46:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Looka Schoneveld Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-looka-schoneveld.html" rel="alternate"/><published>2026-09-01T13:46:00-07:00</published><updated>2026-09-01T13:46:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-01:/blog/msc-graduation-looka-schoneveld.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-schoneveld-looka.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:dd87b218-debb-4c62-95a5-5e057d3711db"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-schoneveld.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Looka successfully defended his MSc Thesis titled &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:dd87b218-debb-4c62-95a5-5e057d3711db"&gt;Freewheeling in Virtual
+Space: Design of a Single-Track Vehicle Simulator for Simulating Sustained
+Turning Motions&lt;/a&gt;
+on May 1, 2026.&lt;/p&gt;
+&lt;p&gt;Looka invented, designed, built, and tested an innovative single-track vehicle
+simulator. We believe it is the first such simulator to have both natural
+balancing …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-schoneveld-looka.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:dd87b218-debb-4c62-95a5-5e057d3711db"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-schoneveld.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Looka successfully defended his MSc Thesis titled &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:dd87b218-debb-4c62-95a5-5e057d3711db"&gt;Freewheeling in Virtual
+Space: Design of a Single-Track Vehicle Simulator for Simulating Sustained
+Turning Motions&lt;/a&gt;
+on May 1, 2026.&lt;/p&gt;
+&lt;p&gt;Looka invented, designed, built, and tested an innovative single-track vehicle
+simulator. We believe it is the first such simulator to have both natural
+balancing through steering and continuous rotation for turning. Coupled with
+virtual speed-dependent stability, this will offer the most realistic
+reproduction of what it feels like to ride a bicycle while stationary within a
+laboratory setting. Looka's process started with a multibody dynamic model of
+the system coupled to both a simulator and human controller to prove the system
+would behave like a single-track vehicle. See one of his simulations below:&lt;/p&gt;
+&lt;center&gt;
+&lt;video controls&gt;
+  &lt;source src=" https://mechmotum.s3.us-east-005.dream.io/schoneveld-simulation.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/center&gt;&lt;p&gt;He then designed and constructed the simulator to prove that it works. See the
+video below for a demonstration of Looka riding the simulator after his
+graduation. The simulator is balanced via steering, includes natural
+countersteering, and in this mode is similar to balancing a bicycle at very low
+speeds, i.e. no self-stability active.&lt;/p&gt;
+&lt;center&gt;
+&lt;video width="400" controls&gt;
+  &lt;source src=" https://mechmotum.s3.us-east-005.dream.io/schoneveld-simulator.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/center&gt;&lt;p&gt;Furthermore, Looka went beyond his thesis and worked with us and TU Delft's
+innovation team to submit a patent application on this concept as well as
+co-wrote an NWO Demonstrator grant proposal for the project. This was an
+extraordinary effort from an MSc student. Look was supervised by Jason K. Moore
+and José Alfonso Farías Fuentes. Everyone at the bicycle lab is very proud of
+Looka and wishes him the best with his next endeavors. We are also excited to
+start doing research with his simulator!&lt;/p&gt;
+</content><category term="news"/><category term="simulator"/><category term="dynamics"/><category term="bicycle"/><category term="engineering"/></entry><entry><title>Yuke Huang Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-yuke-huang.html" rel="alternate"/><published>2026-03-19T14:39:00-07:00</published><updated>2026-03-19T14:39:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-03-19:/blog/msc-graduation-yuke-huang.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
