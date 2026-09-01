@@ -96,12 +96,11 @@ Masters of Science Students
      - |headshot-van-der-pol-dana|
      - | **Dana van der Pol** [TUD, May 2025-present]
        | *Improving Rider Acceptance of Bicycle Balance Assist*
-   * - |headshot-schoneveld-looka|
-     - | **Looka Schoneveld** [TUD, Nov 2024-present]
-       | *Bicycle Simulator with Realistic Turning*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
+     -
+     -
 
 .. |headshot-body-daniel| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-body-daniel.jpg
    :width: 100px
@@ -256,6 +255,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Looka Schoneveld
+     - TUD
+     - Nov 2024-May 2026
+     - `Freewheeling in Virtual Space: Design of a Single-Track Vehicle
+       Simulator for Simulating Sustained Turning Motions
+       <https://repository.tudelft.nl/record/uuid:dd87b218-debb-4c62-95a5-5e057d3711db>`_
+     - `J. K. Moore, J. Farias`
    * - Yuke Huang
      - TUD
      - Feb 2025-Mar 2026
