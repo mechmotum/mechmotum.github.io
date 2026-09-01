@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-09-01T17:15:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Dana van der Pol Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-dana-van-der-pol.html" rel="alternate"/><published>2026-09-01T17:15:00-07:00</published><updated>2026-09-01T17:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-01:/blog/msc-graduation-dana-van-der-pol.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-09-01T18:30:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Quinten Bongers Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-quinten-bongers.html" rel="alternate"/><published>2026-09-01T18:30:00-07:00</published><updated>2026-09-01T18:30:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-01:/blog/msc-graduation-quinten-bongers.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-bongers-quinten.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:b43d8df3-a89a-4c0e-8f67-8cdc8623f89c"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-bongers.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Quinten sucessfully defended his MSc Thesis titled &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:b43d8df3-a89a-4c0e-8f67-8cdc8623f89c"&gt;The influence of  road
+surface on  power loss: The design of a experimental apparatus that mimics road
+surfaces and measures power loss&lt;/a&gt;
+on July 16, 2026.&lt;/p&gt;
+&lt;p&gt;Quinten designed and developed a variable road surface treadmill with 3D
+printed paver bricks capable of accurately …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-bongers-quinten.jpg" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:b43d8df3-a89a-4c0e-8f67-8cdc8623f89c"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-bongers.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Quinten sucessfully defended his MSc Thesis titled &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:b43d8df3-a89a-4c0e-8f67-8cdc8623f89c"&gt;The influence of  road
+surface on  power loss: The design of a experimental apparatus that mimics road
+surfaces and measures power loss&lt;/a&gt;
+on July 16, 2026.&lt;/p&gt;
+&lt;p&gt;Quinten designed and developed a variable road surface treadmill with 3D
+printed paver bricks capable of accurately measuring the energy loss due to
+rolling with or without a rider. He used a custom flexure based load cell
+system to get very accurate measurements so that we can differentiate among
+small variations in tires, posture, or suspension. The following video shows
+the treadmill in action.&lt;/p&gt;
+&lt;center&gt;
+&lt;video controls&gt;
+  &lt;source src=" https://mechmotum.s3.us-east-005.dream.io/vibration-treadmill-first-day-960x540-no-sound.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/center&gt;&lt;p&gt;Quinten measured the rolling losses of a bicycle with rider over paver bricks
+for speeds up to 30 km/h and a range of tire pressures. The following plot
+shows the speed and tire pressure relationship along with the low uncertainty
+in the measurements. It is remarkable how much losses are due to vibration. At
+30 km/h 150 Watts of about 200 Watts are due to vibrations of the system and 50
+due to traditional rolling resistance measures. This new measurement system
+will help us further crack open the research on vibrational power loss.&lt;/p&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/bongers-figure.png" /&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Quinten was supervised by Jason K. Moore and Georgios Papaioannou. Everyone at
+the bicycle lab is very proud of Quinten and wishes him the best with his next
+endeavors. We are also excited to do more research with his measurement system!&lt;/p&gt;
+</content><category term="news"/><category term="vibration"/><category term="power"/><category term="energy"/><category term="treadmill"/><category term="tires"/><category term="measurement"/></entry><entry><title>Dana van der Pol Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-dana-van-der-pol.html" rel="alternate"/><published>2026-09-01T17:15:00-07:00</published><updated>2026-09-01T17:15:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-01:/blog/msc-graduation-dana-van-der-pol.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
