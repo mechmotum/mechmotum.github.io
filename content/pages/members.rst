@@ -90,12 +90,11 @@ Masters of Science Students
      - |headshot-compen-luna|
      - | **Luna Compen** [TUD, Oct 2025-present]
        | *Unravelling Vestibular Sensory Contributions to Bicycle Balance Control*
-   * - |headshot-bongers-quinten|
-     - | **Quinten Bongers** [TUD, Aug 2025-present]
-       | *Bicycle Vibration Analysis of Realistic Simulated Road Surfaces*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
+     -
+     -
 
 .. |headshot-body-daniel| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-body-daniel.jpg
    :width: 100px
@@ -118,26 +117,6 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-jonas-philipp| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-jonas-philipp.png
-   :width: 100px
-   :height: 133px
-
-.. |headshot-bongers-quinten| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-bongers-quinten.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-van-der-pol-dana| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-van-der-pol-dana-02.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-schoneveld-looka| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-schoneveld-looka.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-terwint-ruben| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-terwint-ruben.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-huang-yuke| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-huang-yuke.png
    :width: 100px
    :height: 133px
 
@@ -250,6 +229,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Quinten Bongers
+     - TUD
+     - Aug 2025-July 2026
+     - `The influence of  road surface on  power loss: The design of a
+       experimental apparatus that mimics road surfaces and measures power loss
+       <https://repository.tudelft.nl/record/uuid:b43d8df3-a89a-4c0e-8f67-8cdc8623f89c>`_
+     - `J. K. Moore, G. Papaioannou`
    * - Dana van der Pol
      - TUD
      - May 2025-July 2026
