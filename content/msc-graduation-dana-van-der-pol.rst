@@ -50,6 +50,13 @@ objectively helps has not grown.
    :width: 600
    :align: center
 
+|
+
+Dana was profiled by the TU Delft communications team in the online article:
+
+`How do older people experience a bike that helps them keep their balance?
+<https://www.tudelft.nl/en/me/education/student-stories/how-do-older-people-experience-a-bike-that-helps-them-keep-their-balance>`_
+
 Dana was supervised by Jules Ronné and Jason K. Moore with early support from
 Felix Dauer at Bosch eBike Systems. Everyone at the bicycle lab is very proud
 of Dana and wishes her the best with her next endeavors.
