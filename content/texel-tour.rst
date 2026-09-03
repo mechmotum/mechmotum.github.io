@@ -6,7 +6,7 @@ Texel Bicycle Tour
 :tags: bicycle, social
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://mechmotum.s3.us-east-005.dream.io/nijmegen-tour-fiets-museum-240.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/texel-tour-group-photo.png
 
 We completed the third annual bicycle tour September 12-14, 2025; this time
 from Delft to the island of Texel. Pascal, Jules, Neville, Christoph, Benjamin,
