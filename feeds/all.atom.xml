@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-09-03T06:51:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Texel Bicycle Tour</title><link href="https://mechmotum.github.io/blog/texel-tour.html" rel="alternate"/><published>2026-09-03T06:51:00-07:00</published><updated>2026-09-03T06:51:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-03:/blog/texel-tour.html</id><summary type="html">&lt;p&gt;We completed the third annual bicycle tour September 12-14, 2025; this time
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/all.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-09-06T17:48:00-07:00</updated><subtitle>E pur si muove</subtitle><entry><title>Bike Lab on the Kid's Science Show: Proefkonijnen</title><link href="https://mechmotum.github.io/blog/proefkonijnen.html" rel="alternate"/><published>2026-09-06T17:48:00-07:00</published><updated>2026-09-06T17:48:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-06:/blog/proefkonijnen.html</id><summary type="html">&lt;p&gt;Around the beginning of 2025 we were approached by TU Delft communications with
+a request to participate in a Dutch children's television show about science
+called &lt;a class="reference external" href="https://nl.wikipedia.org/wiki/Proefkonijnen"&gt;Proefkonijnen&lt;/a&gt; (EN: crash test dummies). We were told that a kid had
+submitted a question asking if it was possible to do a wheelie …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Around the beginning of 2025 we were approached by TU Delft communications with
+a request to participate in a Dutch children's television show about science
+called &lt;a class="reference external" href="https://nl.wikipedia.org/wiki/Proefkonijnen"&gt;Proefkonijnen&lt;/a&gt; (EN: crash test dummies). We were told that a kid had
+submitted a question asking if it was possible to do a wheelie on a tandem
+bicycle and the show was wondering if it is possible and if so can we help them
+answer this question.&lt;/p&gt;
+&lt;p&gt;I proposed it to the lab and enough members were excited to participate, so we
+agreed to help. Our job was to prove you can do a wheelie on a tandem, explain
+how it works on camera, and support the two zany hosts attempting the wheelie
+at TU Delft. This was the first time that we did a large lab-wide project
+together like this and it ended up being a great idea, both for the fun and for
+our own team building.&lt;/p&gt;
+&lt;p&gt;After some brainstorming, we settled on adding a counterbalance to tandem to
+facilitate the wheelie and side wheels to prevent falling to the left or right.
+The show's science focused on explanations about gravity, balance, levers, etc.
+Bart volunteered to be our speaking representative in the show and everyone
+else that helped was about to be a cheerleader in the show's wheelie scene.&lt;/p&gt;
+&lt;p&gt;It wasn't trivial to wheelie the final design, but with some coordination and
+practice you could manage a wheelie. Here is Bart and one of the shop employees
+learning:&lt;/p&gt;
+&lt;center&gt;
+&lt;video width="600" controls&gt;
+  &lt;source src="https://mechmotum.s3.us-east-005.dream.io/proefkonijnen-wheelie-compilation.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/center&gt;&lt;p&gt;Even professors can learn it too! Here is Simon and myself managing a decent
+length wheelie:&lt;/p&gt;
+&lt;center&gt;
+&lt;video width="600" controls&gt;
+  &lt;source src="https://mechmotum.s3.us-east-005.dream.io/proefkonijnen-first-wheelie.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/center&gt;&lt;p&gt;Here is Bart live on the show explaining what we built and how it works:&lt;/p&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/proefkonijnen-bart-01.png" /&gt;
+&lt;p&gt;All the helpers got to be the cheerleaders in the wheelie scene:&lt;/p&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/proefkonijnen-start.png" /&gt;
+&lt;p&gt;The show's hosts managed to get one brief wheelie to close the show:&lt;/p&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/proefkonijnen-wheelie.png" /&gt;
+&lt;p&gt;Thanks to everyone that helped pull this off: Bart de Vries, Simon Sorgedrager,
+Looka Schoneveld, Eloy Vazquez, Neville Nieman, Jan Spoelstra, Benjamin
+Gonzalez, Rawdha Al Amri, Jose Farias, Sara Youngblood, ME student machine shop
+employees, Annemiek Schouten, Mette Christiaanse, and Anna 't Hoen! Special
+thanks to Bart for leading the effort and being the fietslab explainer!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.zapp.nl/programmas/proefkonijnen/gemist/BV_101413767"&gt;Watch the full show online&lt;/a&gt; which
+aired in January 2026!&lt;/p&gt;
+</content><category term="news"/><category term="tandem"/><category term="bicycle"/><category term="tv"/><category term="science"/><category term="children"/></entry><entry><title>Texel Bicycle Tour</title><link href="https://mechmotum.github.io/blog/texel-tour.html" rel="alternate"/><published>2026-09-03T06:51:00-07:00</published><updated>2026-09-03T06:51:00-07:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-09-03:/blog/texel-tour.html</id><summary type="html">&lt;p&gt;We completed the third annual bicycle tour September 12-14, 2025; this time
 from Delft to the island of Texel. Pascal, Jules, Neville, Christoph, Benjamin,
 Sara, Nora, Yumi, and Jason did the 170 km ride, camping near Haarlem the first
 night and near Den Helder the second night. We rode mostly …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We completed the third annual bicycle tour September 12-14, 2025; this time
