@@ -2,7 +2,7 @@
 Guide
 =====
 
-:date: 2025-09-09
+:date: 2026-09-07
 :sortorder: 5
 
 .. contents:: Table of Contents
@@ -45,20 +45,20 @@ Getting Started
 - Setup regular mentorship meetings with your mentor(s). This should at least
   be a weekly or biweekly depending on your needs and the mentor(s)
   recommendations.
-- Attend biweekly `lab meetings <#laboratory-meetings>`_. Ask a lab member for
-  the calendar invite.
+- Attend biweekly `lab meetings <#laboratory-meetings>`_. You will receive a
+  calendar invite when added to the email list.
 - Get campus card access to the bicycle lab and bicycle lab storage (if
-  needed). These can be requested from Jason or Rawdha by sending one of them
-  an email with your student ID number, TU Delft email address, and expected
-  duration of access.  Ask for a tour of the space from a current lab member
-  before you start working there.
+  needed). These can be requested from Jason or our lab coordinator by sending
+  one of them an email with your student ID number, TU Delft email address, and
+  expected duration of access. Ask for a tour of the space from a current lab
+  member and read this guide before you start working there.
 - Request access to the lab's shared Google Drive from Jason.
 - Request to be added to the Github lab team organization: https://github.com/mechmotum.
 - We have the optional "Cheese for Thought" lunch every Wednesday at 12:00,
   meet at the lab. This is a chance to discuss topics informally or have some
   good weather fun.
 - Every month we have a Friday afternoon lab tidying session at 16:30 and we
-  may go for snacks and drinks (Vrijmibo) in Delft on Fridays @ 17:00.
+  may go for snacks and drinks (Vrijmibo) in Delft on Fridays @ 17:30.
 - See the `recommended reading list <#recommended-reading>`_ below for some
   reading materials to get you started.
 
@@ -72,7 +72,7 @@ BSc Teams
   access:
 
   - Send list of students (name, student ID, email) and end date of access to
-    the lab coordinator (Rawdha) or Jason.
+    the lab coordinator or Jason.
   - Each student who requests access must confirm they have read this guide,
     most importantly the safety and space usage rules.
 
@@ -84,7 +84,8 @@ BSc Teams
 - All members of the team must follow the lab rules in this guide and
   instruction by any of the lab members.
 - A team should use a project box for their project if lab storage is needed.
-- Get a lab tour from an existing member before you start to use the space.
+- Get a lab tour from an existing member and read this guide before you start
+  to use the space.
 - The MSc, PhD, and Postdoc projects have priority for lab space. Coordinate
   sharing space and time with the lab via your supervisor or via the lab
   chat/email.
@@ -104,8 +105,8 @@ Lab Email List
 Text, Audio, Video Chat Room
    We host a matrix_ server which can be accessed using https://element.io or
    any other supported clients_. This is used for quick chats, meetings, etc.
-   We'll keep the chat histories around, but its best to treat the data as
-   transient. Lab members can use as needed for lab related communication.
+   The chat history is automatically deleted after one year due to server space
+   limitations. Lab members can use as needed for lab related communication.
    There are a number of rooms that you can join where we share papers,
    conference announcements, etc.
 Issue Trackers
@@ -149,37 +150,37 @@ https://github.com/mechmotum/housekeeping/issues
 
 Keep the issues up-to-date so that they can be passed to others.
 
-da MC: (Looka Schoneveld)
+da MC: (?)
    Organizes the lab meeting, see the `MC Guide`_.
-Meneer/Mevrouw Schoon (Benjamin)
+Meneer/Mevrouw Schoon (?)
    Organizes monthly Friday afternoon tidy and bi-annual lab clean up days.
    Reminds the lab if the tidiness level is hampering other's work.
-Dragon Hoard Overseer (Quinten)
+Dragon Hoard Overseer (?)
    Maintains a spreadsheet on our GDrive containing the lab inventory, both
    consumable supplies and significant equipment (< 200 EUR or so).
-Batterij-momma (Christoph)
+Batterij-momma (?)
    Ensures that all batteries are stored safely and that their charge is kept
    topped up. The protector of the lives of all batteries.
-Neo T. Anderson: (Jason)
+Neo T. Anderson: (?)
    Keeps the lab chat room running. This is currently a matrix server running
    on a TU Delft VPS.
-Plant-papa (Christoph)
+Plant-papa (?)
    Keep lab plants alive.
-De Fikser (Jules,Neville)
+De Fikser (?)
    Monitors if equipment is broken or needs maintenance and seeks university or
    external support for repair. Coaxes the repair processes along. Sometimes
    fixes things themselves.
-Life Coach (Neville)
+Life Coach (?)
    Organizes lab fun: vrijmibo's, bike rides, cheese for thought activities,
    etc. Embodies the proverb "all work and no play makes Jack a dull boy".
-Peril Preventer (Rawdha)
+Peril Preventer (?)
    Keep an eye on safety and work with university safety to make sure lab is
    A-OK.
-Broom Finder (Rawdha)
+Broom Finder (?)
    Periodically review the lending checkout sheet, remove old sheets, add new
    sheets, and track down non-returned items.
 
-Individual responsibilities:
+Individual responsibilities of all lab members:
 
 - contribute to the housekeeping list: triage, open, close, update
 - clear your project box at the end of your project
@@ -210,16 +211,14 @@ galore:
 - have us read something (a paper) we could review (journal club)
 - watch and discuss a video
 - invite a speaker
-- play a game
 - practice your colloquia or conference talks
-- bicycle-themed stand-up
 - etc.
 
 Members are expected to attend and participate regularly. It's fine to miss a
 meeting here and there, but avoid making that regular. If the meetings are not
 useful to you, please be proactive about helping us make them useful for all.
 
-The MC position rotates approximately every quarter. See the `MC Guide`_ for
+The MC position rotates approximately every semester. See the `MC Guide`_ for
 instructions on being the MC.
 
 .. _MC Guide: {filename}/pages/guide-mc-lab-meetings.rst
@@ -316,24 +315,24 @@ contents should only be shared with other ``<netid>@g-tudelft.nl`` addresses
 that are members of the lab. ``<netid>@g-tudelft.nl`` is also the login
 username/email that you will need to use when logging into
 https://drive.google.com. **Avoid using the "Share" button to share with
-non-TUD accounts**, until we determine best practices for this. Read and update
-the README files present in the Google Drive directories to learn how to use
-the space. If you create new directories, add a README file to explain what the
-purpose of the folder is. If you want to add large amounts of data (>10 Gb),
-inform your supervisor first because there may be a more appropriate long term
-storage solution for certain types of data. **All files/folders you create in
-the Google Drive will be deleted when your TU Delft account is closed. It is
-impertative to transfer ownership to Jason of these files.**
+non-TUD accounts**. Read and update the README files present in the Google
+Drive directories to learn how to use the space. If you create new directories,
+add a README file to explain what the purpose of the folder is. If you want to
+add large amounts of data (>10 Gb), inform your supervisor first because there
+may be a more appropriate long term storage solution for certain types of data.
+**All files/folders you create in the Google Drive will be deleted when your TU
+Delft account is closed. It is impertative to transfer ownership to Jason of
+these files.**
 
 Reference Management
 --------------------
 
 The lab has a shared Zotero_ group which can be used for lab related reference
-management if needed, but a personal free account should suffice for most
-needs. Zotero is an open source reference management system backed by a
-consortium of libraries. Create an account and request membership to the
-`mechmotum group`_. Note that all lab members can view the contents of this
-library.
+management if needed for collaboration, but a personal free account should
+suffice for most needs. Zotero is an open source reference management system
+backed by a consortium of libraries. Create an account and request membership
+to the `mechmotum group`_. Note that all lab members can view the contents of
+this library.
 
 .. _Zotero: https://www.zotero.org
 .. _mechmotum group: https://www.zotero.org/groups/966974/mechmotum
@@ -385,13 +384,14 @@ Tidiness
 --------
 
 - The lab should be kept clean and tidy.
-- Place small trash into the two bins and paper into the blue box for pickup by
-  the janitors.
-- Place large trash, paper, cardboard outside in the bins near the bike cage.
-  Do not leave this lying in the floor of the bike lab. It will not be picked
-  up.
 - Always leave the lab cleaner and tidier than you found it. If followed, this
   will tend towards a clean and tidy lab instead of the opposite.
+- Your mess should not hinder other members use of the space.
+- Place small trash into the two bins and paper into the blue box for pickup by
+  the janitors.
+- Place large trash, paper, cardboard outside in the bins at the rear or the ME
+  building. Do not leave this lying in the floor of the bike lab. It will not
+  be picked up.
 - Always clean up before the end of a work day (reserve last 15 minutes to do
   so).
 - Put items and tools back in their labeled locations. If there isn't a label
@@ -413,10 +413,10 @@ and always prioritized. Some key things:
   During the workday period it is recommended to have a buddy present when
   doing anything can cause injury, but the number of people in the halls and
   glass walls make this optional.
-- The two treadmills **always** have to have two people for operation. When the
-  treadmill is operating the walker/rider must be wearing the harness properly
-  and the operator must have their hand on the kill switch. Ensure that objects
-  cannot fly off the back of the treadmill.
+- The two treadmills and bicycle simulator **always** have to have two people
+  for operation. When the treadmill is operating the walker/rider must be
+  wearing the harness properly and the operator must have their hand on the
+  kill switch. Ensure that objects cannot fly off the back of the treadmill.
 - Human subject experiments must have an HREC plan and protocol (always for
   PhD, Postdoc and at minimum approval from your supervisors for MSc).
 - If you are ever asking yourself "should I do this?", that's probably a good
@@ -515,15 +515,13 @@ Waste
 -----
 
 - Put paper waste in the blue plastic bin by the door.
-- Put small trash in the small trash cans in the lab.
+- Put small trash in the trash can in the lab.
 - Metals can be recycled by putting them in the bins in the student workshop or
   the bins in the basement.
 - Take larger trash and paper outside to the large bins in the rear of the ME
   building.
 - Put old small batteries in the bin in the hallway in the F wing.
-- Contact the servicepunt to dispose of any large batteries and people will
-  come to collect it.
-- Take electronic trash to the Logistiek Punt IO-ME.
+- Take large batteries and electronic trash to the Logistiek Punt IO-ME.
 
 ME Vehicle Testing Area
 -----------------------
@@ -536,32 +534,35 @@ Internet
 --------
 
 Ethernet ports
-  | To enable/disable:   
-  | Login to `Topdesk/Self Service Portal <https://tudelft.topdesk.net/>`_  
-  | Then:  
-  | ICT-Services > Network & WiFi > IT Request activation network outlet.  
-  | Fill the form and wait.
+| To enable/disable:
+| Login to `Topdesk/Self Service Portal <https://tudelft.topdesk.net/>`_
+| Then:
+| ICT-Services > Network & WiFi > IT Request activation network outlet.
+| Fill the form and wait.
 
 Wired connection for desktop computers
-  | Send a solicitude to `ict-servicedesk@tudelft.nl` providing the following information:    
+| Send a solicitude to `ict-servicedesk@tudelft.nl` providing the following
+| information:
 
-    - TUD*** number.  
-    - Model of the computer.  
-    - Serial number.  
-    - Operating system.  
-    - Primary purpose of the computer.  
-    - MAC Address (if the PC was NOT purchased by TU Delft). 
+- TUD*** number.
+- Model of the computer.
+- Serial number.
+- Operating system.
+- Primary purpose of the computer.
+- MAC Address (if the PC was NOT purchased by TU Delft).
 
 WiFi Hotspot
-  | On Windows:
+| On Windows:
 
-    - Control panel > Network and Internet > Network and sharing center > Change adapter settings > Ethernet > Properties (as admin)
-    - Select the "sharing" tab and mark "Allow other network users to connect through this computer's internet connection".
+- Control panel > Network and Internet > Network and sharing center > Change
+  adapter settings > Ethernet > Properties (as admin)
+- Select the "sharing" tab and mark "Allow other network users to connect
+  through this computer's internet connection".
 
-  | On Linux:
+| On Linux:
 
-    - Open the WiFi menu, in top right corner click options and then select "Turn on WiFi hotspot... (as admin)".
-
+- Open the WiFi menu, in top right corner click options and then select "Turn
+  on WiFi hotspot... (as admin)".
 
 Training
 ========
@@ -895,5 +896,7 @@ Random TU Delft Tips
 - You can set up general mailing lists here: https://listserv.tudelft.nl/mailman/admin
 - You can check if an ethernet port is active at https://outlets.tudelft.nl
 - GNSS data can be accessed for various sensors on campus here: https://gnss1.tudelft.nl/dlab/
-- Access a remote windows computer on the TU Delft network: https://weblogin.tudelft.nl/Citrix/TUDAppsWeb/
 - View info about classroom facilities: https://esviewer.tudelft.nl/
+- You can use `Remmina <https://gitlab.com/Remmina/Remmina>`_ on Linux to run
+  UMRA (adjusts permissions of shared drives) on a remote TU Delft Windows
+  computer.
