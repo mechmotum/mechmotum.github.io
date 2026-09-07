@@ -2,7 +2,7 @@
 Guide: Experimentation
 ======================
 
-:date: 2022-12-23
+:date: 2026-03-24
 :status: hidden
 
 If your project involves doing physical experiments, you will need to develop a
