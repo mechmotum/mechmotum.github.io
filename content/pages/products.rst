@@ -92,11 +92,11 @@ Theses and Dissertations
 Reports
 =======
 
-1. `B. J. Daams`, `J. K. Moore`, `A. J. Loeve`, `G. Papaioannou`, and `R. Happee`, "`Literature research on vibration of children during transport <http://>`__", Technical, 2025-01-31, Veiligheid NL
-2. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "`Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers <https://engrxiv.org/preprint/view/4415>`__", Technical, 2025-01-31, Veiligheid NL
-3. `S. C. Bruijn`, `A. J. Meyers`, `D. van Ommeren`, `J. E. Riegstra`, and `R. J. van Rooijen`, "`Evaluation of children’s whole-body vibrational comfort in cargo bikes <http://>`__", Bachelor End Project, 2024, Delft University of Technology
-4. `Molly Moritzburke`, `Anthony Toribio`, `Shizhao Yang`, and `Stasia Kubicki`, "`Optimal Handling Bicycle: Final Design <http://>`__", Senior Design Project, 2019/06/09, University of California, Davis
-5. `Daniel Body`, "`Measuring the vibrations of a bicycle on a treadmill to evaluate comfort <http://>`__", , ,
+1. `Daniel Body`, "`Measuring the vibrations of a bicycle on a treadmill to evaluate comfort <http://>`__", Technical, 2026-08, Delft University of Technology
+2. `B. J. Daams`, `J. K. Moore`, `A. J. Loeve`, `G. Papaioannou`, and `R. Happee`, "`Literature research on vibration of children during transport <http://>`__", Technical, 2025-01-31, Veiligheid NL
+3. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "`Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers <https://engrxiv.org/preprint/view/4415>`__", Technical, 2025-01-31, Veiligheid NL
+4. `S. C. Bruijn`, `A. J. Meyers`, `D. van Ommeren`, `J. E. Riegstra`, and `R. J. van Rooijen`, "`Evaluation of children’s whole-body vibrational comfort in cargo bikes <http://>`__", Bachelor End Project, 2024, Delft University of Technology
+5. `Molly Moritzburke`, `Anthony Toribio`, `Shizhao Yang`, and `Stasia Kubicki`, "`Optimal Handling Bicycle: Final Design <http://>`__", Senior Design Project, 2019/06/09, University of California, Davis
 
 Grant Proposals
 ===============
