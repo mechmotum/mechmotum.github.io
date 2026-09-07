@@ -2,7 +2,7 @@
 Guide: How to MC Lab Meetings
 =============================
 
-:date: 2025-09-09
+:date: 2026-09-07
 :status: hidden
 
 Being an MC of a Bicycle Lab Meeting is a great opportunity to contribute and
@@ -35,12 +35,13 @@ Lab Meeting
 - run the agenda
 - run whosnext.py (`instructions <https://github.com/mechmotum/whosnext>`__)
   (you could delegate this until you get set up, ask for help setting up
-  afterwards)
-- announce the keynote speaker
+  afterwards and make sure to keep the repository current in case someone else
+  needs to run the script)
+- announce the keynote speakers
 - jot down links from presentation slides or the chat section, paste into the
   agenda notes
-- help the speaker keep to the time
-- thank the keynote speaker
+- help the speakers keep to the time
+- thank the keynote speakers
 - prepare a question to ask, either to get the question ball rolling or to
   avoid a silence
 - ask audience for questions, otherwise shoot first
