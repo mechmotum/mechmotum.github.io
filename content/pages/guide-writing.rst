@@ -2,7 +2,7 @@
 Guide: Writing
 ==============
 
-:date: 2023-05-21
+:date: 2026-09-07
 :status: hidden
 
 .. contents:: Table of Contents
@@ -257,7 +257,9 @@ This is how you do quotes in LaTeX!
    ``double quoted stuff''
 
 Backticks on the left quotes are necessary to obtain correctly formatted
-quotation marks.
+quotation marks. See this Stackoverlow post:
+
+https://tex.stackexchange.com/questions/52351/quote-marks-are-backwards-using-texmaker-pdflatex
 
 Prevent undesired linebreaks with the tilde `~`. For example, you don't want a
 citation to be on a new line by itself at the end of a sentence.
