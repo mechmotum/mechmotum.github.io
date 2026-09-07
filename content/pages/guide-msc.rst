@@ -68,11 +68,13 @@ postings via the lab, here are some things you need to do:
   experience in engineering. The internship should also be distinct from your
   MSc literature study and thesis project in the sense that a standalone report
   for the internship work is required.
+- MyCase is used to track and approve your MSc progress. Make sure to utlize
+  this along the way to avoid delays and missing approvals.
 
 Here are some companies and organizations that have hosted internships with us
-in the past: Gazelle, Prinoth, Garmin/Tacx, Swugo, B-Cells, Team DSM, SymPy,
-Bikefitting.com, TrueKinetix, velolab.de, TU Delft Sports Engineering
-Institute, Aalborg University Sports Sciences.
+in the past: Gazelle, Prinoth, vanRaam, Garmin/Tacx, Swugo, B-Cells, Team DSM,
+SymPy, Bikefitting.com, TrueKinetix, velolab.de, TU Delft Sports Engineering
+Institute, Aalborg University Sports Sciences, Sheffield-Hallam University.
 
 Literature Study
 ----------------
@@ -129,8 +131,10 @@ MSc Thesis
 
 Basic Steps:
 
-- Submit MSc initiation form (BME/BMD form 4, other tracks may have a different
-  form). You may do this at the start of your literature study, if appropriate.
+- Meet with Jason to select a topic and get his agreement to supervise (if not
+  yet done before the literature study stage).
+- Submit MSc initiation into MyCase and include all supervisors (main, daily,
+  co-, etc.).
 - Formulate a research question or hypothesis that you'd like address in
   consultation with your supervisors (this usually occurs in the later portion
   of your literature study period and is informed by your literature study
@@ -154,18 +158,18 @@ Basic Steps:
 - Work on the project with your daily supervisor's guidance.
 - Present your progress at a midterm meeting with a formal presentation and
   with all of your supervisors present. The midterm should occur after you have
-  significant preliminary results that demonstrate you can succeed in the final
-  project execution.
+  significant preliminary results that demonstrate your project works and the
+  likelihood that you can produce thesis-worthy results is high.
 - Work on the project with your daily supervisor's guidance.
 - Once you are getting close to a draft thesis arrange a Go/No-Go meeting. This
   meeting should include all of your supervisors that will be on your defense
   committee except the "external independent member". Typically give the
   supervisors one week to read and comment on the draft before the meeting.
   Prepare a (strictly) 10 minute slide presentation to get everyone up to speed
-  at the beginning of the meeting.
+  at the beginning of the meeting if requested.
 - If you get a "Go" at the Go/No-Go meeting then you should initiate the
   arrangement of your defense by submitting the correct forms to your track
-  coordinators and department secretaries.
+  coordinators, department secretaries, and/or MyCase
 - If you get a "No-Go", at the Go/No-Go meeting then take the supervisors'
   feedback and improve your work until you are ready for another Go/No-Go
   meeting.
