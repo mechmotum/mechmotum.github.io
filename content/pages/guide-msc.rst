@@ -83,6 +83,8 @@ Literature Study
 
 - If you are a BMD or BME student, read the relevant guidance docs found on
   Brightspace.
+- Start a MyCase for your graduation at this point and trigger the check for
+  minimal credits (54 required in first year).
 - Arrange an initial meeting with your supervisor(s) to discuss how to get
   started on the literature study and to discuss the general topic area of the
   study.
