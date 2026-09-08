@@ -2,7 +2,7 @@
 Lab Meetings Archive
 ====================
 
-:date: 2024-05-01
+:date: 2026-09-08
 :status: hidden
 
 .. list-table::
@@ -15,6 +15,10 @@ Lab Meetings Archive
      - Date
      - Presenters
      - Materials
+   * - Bicycle Lab Round Up
+     - 2026-09-08
+     - Jason K. Moore
+     - `Slides <https://docs.google.com/presentation/d/e/2PACX-1vQgc-6TbkJft8oWCLCwAMv2uYnyv-1fmF3sufEsbsDEd_8wYDaWYGvuVRgOvWT1ZNe1FA-ZhmM-ulRu/pub?start=false&loop=false&delayms=3000>`_
    * - Engineering Experiments
      - 2026-03-24
      - Jason K. Moore
