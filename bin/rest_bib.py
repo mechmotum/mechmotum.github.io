@@ -432,7 +432,7 @@ def generate_bibliography(library_id, library_type, collection_id,
             api_key = f.read().strip()
 
     zot = Zotero(library_id=library_id, library_type=library_type,
-                 api_key=api_key)
+                 api_key=api_key, upload_timeout=240)
 
     items = zot.everything(zot.collection_items(collection_id, sort='date'))
 
