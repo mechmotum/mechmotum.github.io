@@ -9,6 +9,22 @@ Guide
    :local:
    :class: floatcon
 
+TLDR
+====
+
+- No dangerous activities without a second person
+- Clean up after yourself
+- Participate in the bi-weekly lab meeting
+- Participate in the monthly cleanup
+- Don't lend general tools or expensive stuff
+- Use the lending form if things leave the lab
+- Take on a role and collectively keep the lab running
+- Join and keep an eye on the lab communication channels
+- Read the fundamental papers most of our projects stand on
+
+Introduction
+============
+
 This page is intended to house documentation for lab members that describes the
 nuts and bolts of how the lab functions. It's primary purpose is for
 on-boarding new members, but is also a reference for current members. For this
