@@ -81,20 +81,25 @@ Masters of Science Students
    * - |headshot-missing|
      - | **Haye Boonstra** [TUD, Nov 2025-present]
        | *Bicycle Pose Estimation*
-     - |headshot-machavaram-siva|
+     - |headshot-gregorio-martin|
+     - | **Martin Gregorio** [Erasmus MC, Oct 2025-present]
+       | *How We Use Vestibular Sensing in Balance and Control of a Bicycle*
+   * - |headshot-machavaram-siva|
      - | **Siva Machavaram** [TUD, Nov 2025-present]
        | *Using Model Predictive Control to Assist in Bicycle Lane Changes*
-   * - |headshot-missing|
+     - |headshot-missing|
      - | **Stephen Lin** [TUD, Oct 2025-present]
        | *Testing the Balance Assist Bicycle in Low Friction Falls*
-     - |headshot-compen-luna|
+   * - |headshot-compen-luna|
      - | **Luna Compen** [TUD, Oct 2025-present]
        | *Unravelling Vestibular Sensory Contributions to Bicycle Balance Control*
-   * - |headshot-nieman-neville|
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     -
-     -
+
+.. |headshot-gregorio-martin| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-gregorio-martin.png
+   :width: 100px
+   :height: 133px
 
 .. |headshot-body-daniel| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-body-daniel.jpg
    :width: 100px
