@@ -2,7 +2,7 @@
 Guide: Data Management
 ======================
 
-:date: 2022-09-21
+:date: 2026-09-07
 :status: hidden
 
 The Basics
@@ -42,11 +42,11 @@ Digital Artifacts
 Examples of typical digital artifacts produced in our lab that should be stored
 and managed:
 
-- Editable source for your written work (LaTeX files, Word document, etc.)
+- Editable source for your written work (LaTeX files, Word document, SVG, etc.)
 - Computer scripts and programs
 - Raw and/or processed data
 - Editable CAD drawing source files
-- Non-editable outputs: bitmap images, PDFs, etc.
+- Static outputs: bitmap images, PDFs, etc.
 
 Open Source Software
 ====================
@@ -97,7 +97,9 @@ Security
 - Use a different secure password for every account. These should be stored in
   an encrypted password manager.
 - All employee and lab computers should have encrypted hard drives. If you make
-  use of external drives, USB sticks, etc. encrypt these also.
+  use of external drives, USB sticks, etc. encrypt these also. This makes it
+  difficult or impossible for someone to access data if the drive is lost or
+  stolen.
 - Copies of any usernames and passwords for lab accounts should be given to
   Jason for backup and access in the event you have left or are not available
   (do not email them!).
@@ -131,7 +133,8 @@ Use TU Delft supplied data storage for non-public data. Here are some options:
   shared network drive, don't use for confidential data (cause all staff see
   it). https://webdata.tudelft.nl
 - Project network drive (UL), 5 TB, can create as many as you need for a shared
-  project space. https://webdata.tudelft.nl
+  project space. This is typically best for a PhD to store all of their data
+  and shared with the supervisors.  https://webdata.tudelft.nl
 
 Closing Out a Project
 =====================
