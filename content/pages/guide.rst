@@ -18,7 +18,8 @@ TLDR
 - Participate in the monthly cleanup
 - Don't lend general tools or expensive stuff
 - Use the lending form if things leave the lab
-- Take on a role and collectively keep the lab running
+- Take on a role and collectively keep the lab running (initiatief wordt
+  beloond!)
 - Join and keep an eye on the lab communication channels
 - Read the fundamental papers most of our projects stand on
 
