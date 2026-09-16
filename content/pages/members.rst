@@ -26,7 +26,21 @@ Principal Investigators
 Staff
 =====
 
-None presently.
+.. list-table::
+   :class: borderless
+   :width: 100%
+   :widths: 10 40 10 40
+   :align: center
+
+   * - |headshot-roos-tim|
+     - | **Timothy Roos** [TUD, September 2026-present]
+       | Lab Coordinator
+     -
+     -
+
+.. |headshot-roos-tim| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-roos-tim.png
+   :width: 100px
+   :height: 133px
 
 Postdoctoral Researchers
 ========================
