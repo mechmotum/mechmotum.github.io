@@ -103,6 +103,7 @@ heading_map = {
     'dataset': 'Data',
     'videoRecording': 'Media',
     'magazineArticle': 'Media Articles',
+    'newspaperArticle': 'Newspaper Articles',
 }
 
 
@@ -417,6 +418,7 @@ formatter_map = {
     'journalArticle': formatter_journal,
     'magazineArticle': formatter,
     'manuscript': formatter_manuscript,
+    'newspaperArticle': formatter,
     'preprint': formatter_preprint,
     'presentation': formatter_presentations,
     'report': formatter_report,

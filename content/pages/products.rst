@@ -92,7 +92,7 @@ Theses and Dissertations
 Reports
 =======
 
-1. `Daniel Body`, "`Measuring the vibrations of a bicycle on a treadmill to evaluate comfort <http://>`__", Technical, 2026-08, Delft University of Technology
+1. `Daniel Body`, "`Measuring the vibrations of a bicycle on a treadmill to evaluate comfort <https://doi.org/10.6084/m9.figshare.33886375>`__", Technical, 2026-08, Delft University of Technology
 2. `B. J. Daams`, `J. K. Moore`, `A. J. Loeve`, `G. Papaioannou`, and `R. Happee`, "`Literature research on vibration of children during transport <http://>`__", Technical, 2025-01-31, Veiligheid NL
 3. `Gabriele Dell'Orto`, `Brecht Daams`, `Riender Happee`, `Georgios Papaioannou`, `Arjo Loeve`, `Jesper Meijerink`, `Thomas Valk`, and `Jason K. Moore`, "`Vibration Characterisation of Strollers and Cargo Bicycles for Transporting Infants: Including Recommendations for Users, Designers, Manufacturers, and Researchers <https://engrxiv.org/preprint/view/4415>`__", Technical, 2025-01-31, Veiligheid NL
 4. `S. C. Bruijn`, `A. J. Meyers`, `D. van Ommeren`, `J. E. Riegstra`, and `R. J. van Rooijen`, "`Evaluation of children’s whole-body vibrational comfort in cargo bikes <http://>`__", Bachelor End Project, 2024, Delft University of Technology
@@ -176,8 +176,8 @@ Presentations
 23. **Jason K. Moore**, `Jeswin Koshy Cherian`, `Björn Andersson`, `Oliver Lee`, and `Anders Ranheim`, "Modeling and Implementation of a Reaction Wheel Stabilization System for Low Speed Balance of a Cargo Bicycle," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [`Poster <https://doi.org/10.24404/63ff23b478f53b9c419075b9>`__]
 24. **Christoph M. Schmidt**, `Azita Dabiri`, `Frederik Schulte`, `Riender Happee`, and `Jason K. Moore`, "Essential Bicycle Dynamics for Microscopic Traffic Simulation: An Example Using the Social Force Model," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023-05-01, [Oral]
 25. `Ajaypal Singh`, `Hans Vreman`, **Andrew Dressel**, and `Jason K. Moore`, "Using a Scanning Laser Doppler Vibrometer to Investigate Causes and Possible Mitigations of Bicycle Disc Brake Noise," Measuring By Light: International Meeting on Optical Measurement Techniques and Industrial Applications: Delft, The Netherlands, 2023-03-29, [Oral]
-26. **Leila Alizadehsaravi** and `Jason K. Moore`, "The Effects of a Steer Assist System on Bicycle Postural Control in Real-Like Safety Challenges," Dutch Biomedical Engineering Conference: Egmond an Zee, 2023-01-26, [Poster]
-27. **Jan Heinen**, `Eline van der Kruk`, `Raymund ten Broek`, and `Jason K. Moore`, "Optimal Skateboard Geometry For Maximizing Ollie Height," Dutch Biomedical Engineering Conference: Egmond an Zee, The Netherlands, 2023-01-26, [Poster]
+26. **Jan Heinen**, `Eline van der Kruk`, `Raymund ten Broek`, and `Jason K. Moore`, "Optimal Skateboard Geometry For Maximizing Ollie Height," Dutch Biomedical Engineering Conference: Egmond an Zee, The Netherlands, 2023-01-26, [`Poster <https://doi.org/10.6084/m9.figshare.22958357>`__]
+27. **Leila Alizadehsaravi** and `Jason K. Moore`, "The Effects of a Steer Assist System on Bicycle Postural Control in Real-Like Safety Challenges," Dutch Biomedical Engineering Conference: Egmond an Zee, 2023-01-26, [Poster]
 28. **C M Schmidt**, `R Happee`, `J K Moore`, and `A Dabiri`, "Modeling the influence of bicycle dynamics and rider control on interactions of cyclists with other road users," Bicycle and Motorcycle Dynamics 2023: Delft, The Netherlands, 2023, [Oral]
 29. **Leila Alizadehsaravi** and `Jason K. Moore`, "The effects of a steer assist system on bicycle postural control in real-life safety challenges," International Cycling Safety Conference: Dresden, Germany, 2022-11-10, [Poster]
 30. **Andrew Dressel** and `Jason K. Moore`, "A Tilting Trike with Rider Tuneable Stability and Handling for Improved Safety," International Cycling Safety Conference: Dresden, Germany, 2022-11-10, [Oral]
@@ -501,3 +501,8 @@ Media Articles
 1. `TU Delft`, "`How do older people experience a bike that helps them keep their balance? <https://www.tudelft.nl/en/me/education/student-stories/how-do-older-people-experience-a-bike-that-helps-them-keep-their-balance>`__", 2026-05
 2. `TU Delft`, "`Causing near collisions with cyclists to improve traffic models <https://www.tudelft.nl/en/me/education/student-stories/causing-near-collisions-with-cyclists-to-improve-traffic-models>`__", 2024
 3. `DEMO`, "`Tilting Trike-fiets <https://www.tudelft.nl/demo/stories-of-demo/tilting-trike-fiets>`__", 2023
+
+Newspaper Articles
+==================
+
+1. `Sandra Don`, "`Met deze fiets vallen is bijna onmogelijk: ‘Kan dé oplossing zijn voor onzekere ouderen’ <https://www.ad.nl/binnenland/met-deze-fiets-vallen-is-bijna-onmogelijk-kan-de-oplossing-zijn-voor-onzekere-ouderen~a15d9319/>`__", 2023-04-08T14:00:30.892Z
