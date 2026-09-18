@@ -75,13 +75,19 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Type
+   * - `Development of a Proof of Concept of the ParaBike
+       <https://github.com/mechmotum/ideas/issues/62>`_
+     - 2026-09-18
+     - Terry Maden
+     - Internship
+   * - `Adding Fatigue/Wind Features and Improving Computational Efficiency to
+       Optimal Time Trial Software
+       <https://github.com/mechmotum/ideas/issues/61>`_
+     - 2026-09-18
+     - Team Picnic-PostNL
+     - Internship
    * - `Quantify the Effects of Road Surface Induced Vibration on Comfort in
        Cycling <https://github.com/mechmotum/ideas/issues/60>`_
-     - 2026-09-08
-     - Georgios Papaioannou & Riender Happee
-     - Thesis
-   * - `Quantify the Effects of Road Surface Induced Vibration on Energy Lossed
-       in Cycling <https://github.com/mechmotum/ideas/issues/59>`_
      - 2026-09-08
      - Georgios Papaioannou & Riender Happee
      - Thesis
@@ -155,6 +161,11 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Quantify the Effects of Road Surface Induced Vibration on Energy Lossed
+       in Cycling <https://github.com/mechmotum/ideas/issues/59>`_
+     - 2026-09-08
+     - Georgios Papaioannou & Riender Happee
+     - Stijn Wolters
    * - `Estimate bicycle kinematics from coarse naturalistic traffic datasets
        <https://github.com/mechmotum/ideas/issues/55>`_
      - 2025-11-13
