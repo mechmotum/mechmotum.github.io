@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """Generates a reStructuredText bibliography from a Zotero collection.
 
 Depends on pyzotero.
@@ -25,7 +27,7 @@ Or save it to a file::
 
 Or pipe it to generate another file type with Pandoc, for example::
 
-   rest_bib library_id library_type collection_id | pandoc -s -o page.html
+   rest_bib library_id library_type collection_id | pandoc -s -f rst -o page.html
 
 Some example input values:
 
@@ -89,22 +91,25 @@ from pyzotero.zotero import Zotero
 # map zotero item types to the page headings, this also defines the order of
 # display
 heading_map = {
-    'journalArticle': 'Journal Articles',
-    'conferencePaper': 'Conference Proceedings Articles',
-    'book': 'Books',
-    'thesis': 'Theses and Dissertations',
-    'report': 'Reports',
-    'document': 'Grant Proposals',
-    'preprint': 'Preprints',
-    'manuscript': 'Articles In Preparation or Under Review',
     'blogPost': 'Web Articles',
-    'presentation': 'Presentations',
+    'book': 'Books',
     'computerProgram': 'Software',
+    'conferencePaper': 'Conference Proceedings Articles',
     'dataset': 'Data',
-    'videoRecording': 'Media',
+    'document': 'Grant Proposals',
+    'journalArticle': 'Journal Articles',
     'magazineArticle': 'Media Articles',
+    'manuscript': 'Articles In Preparation or Under Review',
     'newspaperArticle': 'Newspaper Articles',
+    'preprint': 'Preprints',
+    'presentation': 'Presentations',
+    'report': 'Reports',
+    'thesis': 'Theses and Dissertations',
+    'videoRecording': 'Media',
 }
+
+# don't try to process these types:
+skip = ['attachment', 'note']
 
 
 def make_author_list(creators):
@@ -441,7 +446,7 @@ def generate_bibliography(library_id, library_type, collection_id,
     reference_lists = {v: [] for k, v in heading_map.items()}
     for item in items:
         item_type = item['data']['itemType']
-        if item_type != 'attachment':
+        if item_type not in skip:
             form = formatter_map[item_type]
             reference_lists[heading_map[item_type]].append(form(item['data']))
 
