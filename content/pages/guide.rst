@@ -718,6 +718,9 @@ Dutch Bio-Medical Engineering Conference
    Annual bicycle trade show for Europe.
 `Cycling Research Board <https://cyclingresearchboard.com/>`_
    Annual conference on general bicycle-related research.
+`Dutch Engineering Mechanics Annual Symposium <https://engineeringmechanicsnl.wpcomstaging.com/>`_
+   Possible to get TU Delft graduate school credits. Maybe good place to
+   connect with others in the Netherlands working on dynamics.
 
 Journals
 ========
