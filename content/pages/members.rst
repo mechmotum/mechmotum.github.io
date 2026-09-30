@@ -80,9 +80,9 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-body-daniel|
-     - | **Daniel Body** [TUD, May 2026-Aug 2026]
-       | *Comparison of single input vertical vibrations of a bicycle*
+   * - |headshot-wolters-stijn|
+     - | **Stijn Wolters** [TUD, Sep 2026-present]
+       | *Quantify the Effects of Road Surface Induced Vibration on Energy Lossed in Cycling*
      - |headshot-van-den-broek-matthijs|
      - | **Matthijs van den Broek** [TUD, Feb 2026-present]
        | *Estimate bicycle kinematics from coarse naturalistic traffic datasets*
@@ -115,7 +115,7 @@ Masters of Science Students
    :width: 100px
    :height: 133px
 
-.. |headshot-body-daniel| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-body-daniel.jpg
+.. |headshot-wolters-stijn| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-wolters-stijn.jpg
    :width: 100px
    :height: 133px
 
@@ -248,6 +248,11 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Daniel Body
+     - École normale supérieure Paris-Saclay
+     - May 2026-Aug 2026
+     - `Measuring the vibrations of a bicycle on a treadmill to evaluate comfort <https://doi.org/10.6084/m9.figshare.33886375>`__
+     - `J. K. Moore, G. Papaioannou`
    * - Quinten Bongers
      - TUD
      - Aug 2025-July 2026
