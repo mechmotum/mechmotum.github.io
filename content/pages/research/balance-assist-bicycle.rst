@@ -3,7 +3,7 @@ Balance Assist Bicycle for Fall Reduction
 =========================================
 
 :status: hidden
-:date: 2025-11-06
+:date: 2026-07-15
 :collaborators: Royal Dutch Gazelle, Bosch ebike Systems
 :current_researchers: Stephen Lin, Dana van der Pol
 :past_researchers: Leila Alizadehsaravi, Marten Haitjema, Shannon van de Velde, Marco Reijne
@@ -39,12 +39,8 @@ Journal Articles
 
 Theses and Dissertations
 
-1. `Marten Haitjema`, "`Estimating fall probability in cycling: Prediction of the effectiveness of a balance-assist bicycle in reducing falls <https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
-
-Preprints
-
-1. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations," engrXiv, 2024, `10.31224/4003 <https://dx.doi.org/10.31224/4003>`_
-2. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll motion for young and old bicyclists during real-life safety challenges," engrXiv, 2023, `10.31224/2825 <https://dx.doi.org/10.31224/2825>`_
+1. `Dana van der Pol`, "`Effects of Assistance Level and Familiarization on Elderly Riding a Balance Assist Bicycle <https://repository.tudelft.nl/record/uuid:764633b0-c1e0-420a-b057-ecfb94c77180>`_," [MSc], 2026-07-15, Delft University of Technology, Delft, The Netherlands
+2. `Marten Haitjema`, "`Estimating fall probability in cycling: Prediction of the effectiveness of a balance-assist bicycle in reducing falls <https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
 
 Presentations
 
@@ -55,9 +51,16 @@ Presentations
 5. **Leila Alizadehsaravi** and `Jason K. Moore`, "The Effects of a Steer Assist System on Bicycle Postural Control in Real-Like Safety Challenges," Dutch Biomedical Engineering Conference: Egmond an Zee, 2023-01-26, [Poster]
 6. **Leila Alizadehsaravi** and `Jason K. Moore`, "The effects of a steer assist system on bicycle postural control in real-life safety challenges," International Cycling Safety Conference: Dresden, Germany, 2022-11-10, [Poster]
 
-Media
+Preprints
 
-1. `NTR Wetenschap`, "`Fietsen steeds onveiliger, kan de wetenschap de fiets weer in het zadel helpen? <https://www.youtube.com/watch?v=yH6k_VJxGgI>`__", 2025-02-12
+1. `Marten T. Haitjema`, `Leila Alizadehsaravi`, and `Jason K. Moore`, "Automatic Bicycle Balance Assistance Reduces Probability of Falling at Low Speeds When Subjected to Handlebar Perturbations," engrXiv, 2024, `10.31224/4003 <https://dx.doi.org/10.31224/4003>`_
+2. `Leila Alizadehsaravi` and `Jason K. Moore`, "Bicycle balance assist system reduces roll motion for young and old bicyclists during real-life safety challenges," engrXiv, 2023, `10.31224/2825 <https://dx.doi.org/10.31224/2825>`_
+
+Media Articles
+
+1. `TU Delft`, "`How do older people experience a bike that helps them keep their balance? <https://www.tudelft.nl/en/me/education/student-stories/how-do-older-people-experience-a-bike-that-helps-them-keep-their-balance>`__", 2026-05
+2. `Sandra Don`, "`Met deze fiets vallen is bijna onmogelijk: ‘Kan dé oplossing zijn voor onzekere ouderen’ <https://www.ad.nl/binnenland/met-deze-fiets-vallen-is-bijna-onmogelijk-kan-de-oplossing-zijn-voor-onzekere-ouderen~a15d9319/>`__", 2023-04-08T14:00:30.892Z
+3. `NTR Wetenschap`, "`Fietsen steeds onveiliger, kan de wetenschap de fiets weer in het zadel helpen? <https://www.youtube.com/watch?v=yH6k_VJxGgI>`__", 2025-02-12
 
 Media
 =====
