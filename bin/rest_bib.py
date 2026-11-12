@@ -91,20 +91,20 @@ from pyzotero.zotero import Zotero
 # map zotero item types to the page headings, this also defines the order of
 # display
 heading_map = {
-    'blogPost': 'Web Articles',
-    'book': 'Books',
-    'computerProgram': 'Software',
+    'journalArticle': 'Journal Articles',
     'conferencePaper': 'Conference Proceedings Articles',
+    'book': 'Books',
+    'thesis': 'Theses and Dissertations',
+    'report': 'Reports',
+    'preprint': 'Preprints',
+    'manuscript': 'Articles In Preparation or Under Review',
+    'computerProgram': 'Software',
     'dataset': 'Data',
     'document': 'Grant Proposals',
-    'journalArticle': 'Journal Articles',
-    'magazineArticle': 'Media Articles',
-    'manuscript': 'Articles In Preparation or Under Review',
-    'newspaperArticle': 'Newspaper Articles',
-    'preprint': 'Preprints',
     'presentation': 'Presentations',
-    'report': 'Reports',
-    'thesis': 'Theses and Dissertations',
+    'blogPost': 'Web Articles',
+    'magazineArticle': 'Media Articles',
+    'newspaperArticle': 'Newspaper Articles',
     'videoRecording': 'Media',
 }
 
