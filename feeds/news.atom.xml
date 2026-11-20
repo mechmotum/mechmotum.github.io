@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-11-20T14:17:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Christoph Konrad Wins TU Delft Open Science Award</title><link href="https://mechmotum.github.io/blog/christoph-open-science-award.html" rel="alternate"/><published>2026-11-20T14:17:00-08:00</published><updated>2026-11-20T14:17:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-11-20:/blog/christoph-open-science-award.html</id><summary type="html">&lt;p class="first last"&gt;PhD candidate Christoph Konrad wins a 2026 TU Delft Open Science
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-11-20T14:30:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Haye Boonstra Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-haye-boonstra.html" rel="alternate"/><published>2026-11-20T14:30:00-08:00</published><updated>2026-11-20T14:30:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-11-20:/blog/msc-graduation-haye-boonstra.html</id><summary type="html">&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:68572e95-8752-44c8-a5af-3001c407aaed"&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-boonstra.png" style="height: 400px;" /&gt;
+&lt;/a&gt;
+&lt;p&gt;Haye successfully defended his MSc Thesis title &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:68572e95-8752-44c8-a5af-3001c407aaed"&gt;Development of a 3D bicycle
+keypoint detection method for extracting kinematics data from monocular video
+data&lt;/a&gt;
+on August 24, 2026.&lt;/p&gt;
+&lt;p&gt;Haye created synthetic monocular camera footage of bicyclist avatars navigating
+a scene. He then developed a pipeline which first extracted the key points …&lt;/p&gt;</summary><content type="html">&lt;a class="reference external image-reference" href="https://repository.tudelft.nl/record/uuid:68572e95-8752-44c8-a5af-3001c407aaed"&gt;
+&lt;img alt="" class="align-center" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-boonstra.png" style="height: 400px;" /&gt;
+&lt;/a&gt;
+&lt;p&gt;Haye successfully defended his MSc Thesis title &lt;a class="reference external" href="https://repository.tudelft.nl/record/uuid:68572e95-8752-44c8-a5af-3001c407aaed"&gt;Development of a 3D bicycle
+keypoint detection method for extracting kinematics data from monocular video
+data&lt;/a&gt;
+on August 24, 2026.&lt;/p&gt;
+&lt;p&gt;Haye created synthetic monocular camera footage of bicyclist avatars navigating
+a scene. He then developed a pipeline which first extracted the key points of
+the bicycle's geometry from the 2D footage. The key points were then &amp;quot;lifted&amp;quot;
+to to three dimensional space using a second machine learning technique that
+leveraged the dynamic nature of the rigid body system's differential equations.
+Finally, he extracted commonly measured variables like steer and roll angle and
+showed that he could accurately extract these variables from the monocular
+footage alone.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/haye-result.png" /&gt;
+&lt;p class="caption"&gt;Example showing the extraction of the 3D bicycle geometry from video frames.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Haye was supervised by Benjamín González, Ajay Seth, and Jason K. Moore.
+Everyone at the bicycle lab is very proud of Haye and wishes him the best with
+his upcoming PhD in Groningen.&lt;/p&gt;
+</content><category term="news"/><category term="bicycle"/><category term="engineering"/><category term="camera"/><category term="machine learning"/><category term="marker-less motion&#10;capture"/></entry><entry><title>Christoph Konrad Wins TU Delft Open Science Award</title><link href="https://mechmotum.github.io/blog/christoph-open-science-award.html" rel="alternate"/><published>2026-11-20T14:17:00-08:00</published><updated>2026-11-20T14:17:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-11-20:/blog/christoph-open-science-award.html</id><summary type="html">&lt;p class="first last"&gt;PhD candidate Christoph Konrad wins a 2026 TU Delft Open Science
 Award.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Bike Lab PhD candidate Christoph Konrad was &lt;a class="reference external" href="https://www.tudelft.nl/en/open-science/community/awards/open-science-awards-2026"&gt;awarded a 2026 TU Delft Open
 Science Award&lt;/a&gt;
