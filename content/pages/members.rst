@@ -80,21 +80,21 @@ Masters of Science Students
    :widths: 10 40 10 40
    :align: center
 
-   * - |headshot-wolters-stijn|
+   * - |headshot-luiks-dena|
+     - | **Dena Luiks** [TUD, Sep 2026-present]
+       | *Quantify the Effects of Road Surface Induced Vibration on Comfort in Cycling*
+     - |headshot-wolters-stijn|
      - | **Stijn Wolters** [TUD, Sep 2026-present]
        | *Quantify the Effects of Road Surface Induced Vibration on Energy Lossed in Cycling*
-     - |headshot-van-den-broek-matthijs|
+   * - |headshot-van-den-broek-matthijs|
      - | **Matthijs van den Broek** [TUD, Feb 2026-present]
        | *Estimate bicycle kinematics from coarse naturalistic traffic datasets*
-   * - |headshot-scholten-joris|
+     - |headshot-scholten-joris|
      - | **Joris Scholten** [TUD, Feb 2026-present]
        | *Bicycles and Tricycles for the Elderly*
-     - |headshot-jonas-philipp|
+   * - |headshot-jonas-philipp|
      - | **Philipp Jonas** [KTH, Jan 2026-present]
        | *Bicycle Tire Characterization via a Kickplate*
-   * - |headshot-missing|
-     - | **Haye Boonstra** [TUD, Nov 2025-present]
-       | *Bicycle Pose Estimation*
      - |headshot-gregorio-martin|
      - | **Martin Gregorio** [Erasmus MC, Oct 2025-present]
        | *How We Use Vestibular Sensing in Balance and Control of a Bicycle*
@@ -110,6 +110,10 @@ Masters of Science Students
      - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
+
+.. |headshot-luiks-dena| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-luiks-dena.jpg
+   :width: 100px
+   :height: 133px
 
 .. |headshot-gregorio-martin| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-gregorio-martin.png
    :width: 100px
@@ -248,6 +252,13 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Haye Boonstra
+     - TUD
+     - Nov 2025-Aug 2026
+     - `Development of a 3D bicycle keypoint detection method for extracting
+       kinematics data from monocular video data
+       <https://repository.tudelft.nl/record/uuid:68572e95-8752-44c8-a5af-3001c407aaed>`_
+     - `B. González, A. Seth, J. K. Moore`
    * - Daniel Body
      - École normale supérieure Paris-Saclay
      - May 2026-Aug 2026
