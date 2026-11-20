@@ -87,4 +87,7 @@ EXCLUDED_CATEGORIES = []
 
 ## PLUGINS
 
-PLUGINS = ['render_math', 'extract_toc']
+PLUGINS = ['render_math', 'extract_toc', 'minchin.pelican.readers.microblog']
+
+MICROBLOG_SAVE_AS = 'blog/u{date:%Y%m%d%H%M}.html'
+MICROBLOG_URL = 'u{date:%Y%m%d%H%M}'
