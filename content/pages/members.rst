@@ -92,23 +92,18 @@ Masters of Science Students
      - |headshot-scholten-joris|
      - | **Joris Scholten** [TUD, Feb 2026-present]
        | *Bicycles and Tricycles for the Elderly*
-   * - |headshot-jonas-philipp|
-     - | **Philipp Jonas** [KTH, Jan 2026-present]
-       | *Bicycle Tire Characterization via a Kickplate*
-     - |headshot-gregorio-martin|
+   * - |headshot-gregorio-martin|
      - | **Martin Gregorio** [Erasmus MC, Oct 2025-present]
        | *How We Use Vestibular Sensing in Balance and Control of a Bicycle*
-   * - |headshot-machavaram-siva|
+     - |headshot-machavaram-siva|
      - | **Siva Machavaram** [TUD, Nov 2025-present]
        | *Using Model Predictive Control to Assist in Bicycle Lane Changes*
-     - |headshot-missing|
+   * - |headshot-missing|
      - | **Stephen Lin** [TUD, Oct 2025-present]
        | *Testing the Balance Assist Bicycle in Low Friction Falls*
-   * - |headshot-nieman-neville|
+     - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
-     -
-     -
 
 .. |headshot-luiks-dena| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-luiks-dena.jpg
    :width: 100px
@@ -135,10 +130,6 @@ Masters of Science Students
    :height: 133px
 
 .. |headshot-compen-luna| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-compen-luna.jpg
-   :width: 100px
-   :height: 133px
-
-.. |headshot-jonas-philipp| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-jonas-philipp.png
    :width: 100px
    :height: 133px
 
@@ -269,6 +260,13 @@ https://repository.tudelft.nl.
      - May 2026-Aug 2026
      - `Measuring the vibrations of a bicycle on a treadmill to evaluate comfort <https://doi.org/10.6084/m9.figshare.33886375>`__
      - `J. K. Moore, G. Papaioannou`
+   * - Philipp Jonas
+     - KTH Stockholm
+     - Jan 2026-Jul 2026
+     - `Effect of Tyre Characteristics on Bicycle Recovery Following Kickplate
+       Perturbations
+       <https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-391166>`_
+     - `G. Dell'Orto, R. Happee, J. K. Moore, M. Rothhämel`
    * - Quinten Bongers
      - TUD
      - Aug 2025-July 2026
@@ -514,6 +512,8 @@ Research Assistants
    - Braden Tinucci [UCD, Nov 2015-Dec 2015], now at Valcor Engineering
      Corporation
 Teaching Assistants
+   - Matthijs van den Broek, [TUD, ME40135, Jun 2026-Jul 2026]
+   - Begüm Sari, [TUD, ME41056, May 2026-Jun 2026]
    - Eloy Vázquez Fernández [TUD, ME40135, Jun 2025-Jul 2025]
    - Niels Stienen [TUD, ME41056, Feb 2025-Jun 2025]
    - Neville Nieman [TUD, ME40135, Jun 2024-Jul 2024]
