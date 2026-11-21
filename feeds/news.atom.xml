@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-11-20T16:19:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Luna Compen Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-luna-compen.html" rel="alternate"/><published>2026-11-20T16:19:00-08:00</published><updated>2026-11-20T16:19:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-11-20:/blog/msc-graduation-luna-compen.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Bicycle Laboratorium - news</title><link href="https://mechmotum.github.io/" rel="alternate"/><link href="https://mechmotum.github.io/feeds/news.atom.xml" rel="self"/><id>https://mechmotum.github.io/</id><updated>2026-11-21T06:41:00-08:00</updated><subtitle>E pur si muove</subtitle><entry><title>Philipp Jonas Successfully Defends His MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-philipp-jonas.html" rel="alternate"/><published>2026-11-21T06:41:00-08:00</published><updated>2026-11-21T06:41:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-11-21:/blog/msc-graduation-philipp-jonas.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-jonas-philipp.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-391166"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-jonas.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Philipp successfully defended his MSc Thesis titled &lt;a class="reference external" href="https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-391166"&gt;Effect of Tyre
+Characteristics on Bicycle Recovery Following Kickplate Perturbations&lt;/a&gt; in July of 2026.
+He was a KTH Stockholm MSc student, but did his thesis project work at TU Delft
+in collaboration with the two universities.&lt;/p&gt;
+&lt;p&gt;Philipp made use of our kickplate to …&lt;/p&gt;</summary><content type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt="headshot" src="https://mechmotum.s3.us-east-005.dream.io/headshot-jonas-philipp.png" style="height: 400px;" /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external image-reference" href="https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-391166"&gt;&lt;img alt="cover" src="https://mechmotum.s3.us-east-005.dream.io/thesis-cover-jonas.png" style="height: 400px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Philipp successfully defended his MSc Thesis titled &lt;a class="reference external" href="https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-391166"&gt;Effect of Tyre
+Characteristics on Bicycle Recovery Following Kickplate Perturbations&lt;/a&gt; in July of 2026.
+He was a KTH Stockholm MSc student, but did his thesis project work at TU Delft
+in collaboration with the two universities.&lt;/p&gt;
+&lt;p&gt;Philipp made use of our kickplate to study the overall bicycle motion response
+with different tire pressures while the rider's upper torso was restrained or
+free to move normally. He made use of our &amp;quot;Davis Instrumented Bicycle&amp;quot; for the
+restraint and for its ability to measure steer torque accurately in addition to
+the vehicle's kinematics.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="" src="https://mechmotum.s3.us-east-005.dream.io/jonas-kick.png" /&gt;
+&lt;p class="caption"&gt;Bicycle while being kicked by the kickplate.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;He found that tire pressure did change recovery response but there was not a
+monotonic change with respect to tire pressure. With regards to the upper torso
+restraint, he found larger differences between restrained and not than seen in
+differing tire pressures. This points towards a dominant effect of
+rider-bicycle relative motion to the overall response.&lt;/p&gt;
+&lt;p&gt;Philipp was supervised by Gabriele Dell'Orto, Riender Happee, and Jason K.
+Moore with Malte Rothhämel as his KTH examiner. Everyone at the bicycle lab
+wishes Philipp the best in his future endeavors; which will surely include his
+passion for sailing!&lt;/p&gt;
+</content><category term="news"/><category term="tire"/><category term="slip"/><category term="kickplate"/><category term="experiment"/></entry><entry><title>Luna Compen Successfully Defends Her MSc Thesis</title><link href="https://mechmotum.github.io/blog/msc-graduation-luna-compen.html" rel="alternate"/><published>2026-11-20T16:19:00-08:00</published><updated>2026-11-20T16:19:00-08:00</updated><author><name>Jason K. Moore</name></author><id>tag:mechmotum.github.io,2026-11-20:/blog/msc-graduation-luna-compen.html</id><summary type="html">&lt;table border="1" class="borderless docutils align-center" style="width: 60%"&gt;
 &lt;colgroup&gt;
 &lt;col width="50%" /&gt;
 &lt;col width="50%" /&gt;
