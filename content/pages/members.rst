@@ -571,10 +571,18 @@ These students graduated under the primary supervision of Dr. Arend Schwab
 prior to Dr. Moore's leadership of the lab and are here for reference.
 
 PhD Candidates
-   - Marco Reijne [TUD, April 2018-April 2022]
-   - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach into the quantification of steering and balance behaviour of bicyclists <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
-   - Eline van der Kruk [TUD]
-   - Jodi Kooijman [TUD], `Bicycle Rider Control: Observations, Modeling & Experiments <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
+   - Marco Reijne [TUD, April 2018-April 2022], `Modeling and Evaluation of
+     Cyclist Fall Prevention Interventions
+     <https://repository.tudelft.nl/record/uuid:ada397a7-0c55-4284-9133-3c5ea515ea67>`_
+   - `Georgios Dialynas`_ [TUD, Aug 2015-Sep 2020], `An experimental approach
+     into the quantification of steering and balance behaviour of bicyclists
+     <https://doi.org/10.4233/uuid:3c6817fd-9d04-4461-9253-f02f0ca78a6a>`_
+   - Eline van der Kruk [TUD], `Parameter analysis for speed skating
+     performance
+     <https://repository.tudelft.nl/record/uuid:70679175-8672-42e4-88dc-dfe927448596>`_
+   - Jodi Kooijman [TUD], `Bicycle Rider Control: Observations, Modeling &
+     Experiments
+     <http://resolver.tudelft.nl/uuid:da8e3e64-0f3e-4932-adf7-dd80d9008040>`_
 Masters of Science Students
    - Shannon van de Velde [TUD, Dec 2020-Mar 2022], `Design of a setup for
      experimental research on stability of a bicycle-rider system subject to
