@@ -104,12 +104,11 @@ Masters of Science Students
      - |headshot-missing|
      - | **Stephen Lin** [TUD, Oct 2025-present]
        | *Testing the Balance Assist Bicycle in Low Friction Falls*
-   * - |headshot-compen-luna|
-     - | **Luna Compen** [TUD, Oct 2025-present]
-       | *Unravelling Vestibular Sensory Contributions to Bicycle Balance Control*
-     - |headshot-nieman-neville|
+   * - |headshot-nieman-neville|
      - | **Neville Nieman** [TUD, Aug 2024-present]
        | *Optimization of Time Trial Power Strategy*
+     -
+     -
 
 .. |headshot-luiks-dena| image:: https://mechmotum.s3.us-east-005.dream.io/headshot-luiks-dena.jpg
    :width: 100px
@@ -252,6 +251,12 @@ https://repository.tudelft.nl.
      - Dates
      - Project
      - Supervisors
+   * - Luna Compen
+     - TUD
+     - Oct 2025-Sep 2026
+     - `Vestibular contributions to cycling balance across different speeds
+       <https://repository.tudelft.nl/record/uuid:bb8a52f9-02c8-4b55-902a-6f2bc5a65a9b>`_
+     - `P. Forbes, M. Leeuwis, J. K. Moore`
    * - Haye Boonstra
      - TUD
      - Nov 2025-Aug 2026

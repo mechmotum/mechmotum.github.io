@@ -7,7 +7,7 @@ Haye Boonstra Successfully Defends His MSc Thesis
        capture
 :category: news
 :authors: Jason K. Moore
-:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-boonstra.png
+:thumbnail: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-boonstra-h240.png
 
 .. image:: https://mechmotum.s3.us-east-005.dream.io/thesis-cover-boonstra.png
    :height: 400px
