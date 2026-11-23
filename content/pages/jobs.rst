@@ -80,22 +80,6 @@ in finding students for [#]_:
      - 2026-09-18
      - Terry Maden
      - Internship
-   * - `Adding Fatigue/Wind Features and Improving Computational Efficiency to
-       Optimal Time Trial Software
-       <https://github.com/mechmotum/ideas/issues/61>`_
-     - 2026-09-18
-     - Team Picnic-PostNL
-     - Internship
-   * - `Quantify the Effects of Road Surface Induced Vibration on Comfort in
-       Cycling <https://github.com/mechmotum/ideas/issues/60>`_
-     - 2026-09-08
-     - Georgios Papaioannou & Riender Happee
-     - Thesis
-   * - `Integrate Environment Visualization and Coupled Haptic Response in the
-       Balancing Bicycle Simulator <https://github.com/mechmotum/ideas/issues/58>`_
-     - 2026-09-08
-     - DEMO
-     - Thesis
    * - `Develop a fast technique for estimating the mass distribution of a
        bicycle and rider <https://github.com/mechmotum/ideas/issues/54>`_
      - 2025-11-13
@@ -161,6 +145,22 @@ in finding students for [#]_:
      - Date posted
      - Partners
      - Student
+   * - `Integrate Environment Visualization and Coupled Haptic Response in the
+       Balancing Bicycle Simulator <https://github.com/mechmotum/ideas/issues/58>`_
+     - 2026-09-08
+     - DEMO
+     - Matt Molenaar
+   * - `Adding Fatigue/Wind Features and Improving Computational Efficiency to
+       Optimal Time Trial Software
+       <https://github.com/mechmotum/ideas/issues/61>`_
+     - 2026-09-18
+     - Team Picnic-PostNL
+     - Bram Luiks
+   * - `Quantify the Effects of Road Surface Induced Vibration on Comfort in
+       Cycling <https://github.com/mechmotum/ideas/issues/60>`_
+     - 2026-09-08
+     - Georgios Papaioannou & Riender Happee
+     - Dena Luiks
    * - `Quantify the Effects of Road Surface Induced Vibration on Energy Lossed
        in Cycling <https://github.com/mechmotum/ideas/issues/59>`_
      - 2026-09-08
