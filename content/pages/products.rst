@@ -59,29 +59,29 @@ Books
 Theses and Dissertations
 ========================
 
-1. `Haye Boonstra`, "`Development of a 3D bicycle keypoint detection method for extracting kinematics data from monocular video data <https://repository.tudelft.nl/record/uuid:68572e95-8752-44c8-a5af-3001c407aaed>`_," [MSc], 2026-08-24, Delft University of Technology, Delft, The Netherlands
-2. `Quinten Bongers`, "`The Influence of Roadsurface on Powerloss <https://repository.tudelft.nl/record/uuid:b43d8df3-a89a-4c0e-8f67-8cdc8623f89c>`_," [MSc], 2026-07-16, Delft University of Technology, Delft, The Netherlands
-3. `Dana van der Pol`, "`Effects of Assistance Level and Familiarization on Elderly Riding a Balance Assist Bicycle <https://repository.tudelft.nl/record/uuid:764633b0-c1e0-420a-b057-ecfb94c77180>`_," [MSc], 2026-07-15, Delft University of Technology, Delft, The Netherlands
-4. `Looka Schoneveld`, "`Freewheeling in Virtual Space <https://repository.tudelft.nl/record/uuid:dd87b218-debb-4c62-95a5-5e057d3711db>`_," [MSc], 2026-05-01, Delft University of Technology, Delft, The Netherlands
-5. `Yuke Huang`, "`Adaptive-Horizon Model Predictive Control for Modeling Anticipative Behavior in Cyclist Interaction <https://repository.tudelft.nl/record/uuid:7fcb3081-32e6-42a6-8fed-219bc6398e9b>`_," [MSc], 2026-03-18, Delft University of Technology, Delft, The Netherlands
-6. `Luna Compen`, "`Vestibular contributions to cycling balance across different speeds <https://repository.tudelft.nl/record/uuid:bb8a52f9-02c8-4b55-902a-6f2bc5a65a9b>`_," [MSc], 2026, ,
-7. `R. R. Dukalski`, "`Pursuing Points of View in Road Cycling <https://repository.tudelft.nl/record/uuid:c4e19354-0d80-4e1e-89c0-00c81723a00b>`_," [PhD], 2026, Delft University of Technology, Delft, The Netherlands
-8. `Ruben Terwint`, "`Linking Traffic Condition Metrics to a Cyclist's Workload <https://repository.tudelft.nl/record/uuid:4642837e-d0a9-44ed-871d-17bc4e903ddf>`_," [Master of Science], 2025-09-15, Delft University of Technology, Delft, The Netherlands
-9. `Eloy Vázquez Fernández`, "`Vibration Impact on Cycling Performance <https://repository.tudelft.nl/record/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0>`_," [Master of Science], 2025-07-17, Delft University of Technology, Delft, The Netherlands
-10. `Sara Youngblood`, "`Engineering Bicycle Stability: A Study of Control Strategies for Crash Prevention on Icy and Normal Terrain <https://repository.tudelft.nl/record/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
-11. `Bart de Vries`, "`Low-Speed Cargo Bicycle Balance <https://repository.tudelft.nl/record/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
-12. `A. Marbus`, "`Cyclist conflict behavior in shared spaces <https://repository.tudelft.nl/record/uuid:092f3b70-2d97-436e-b193-139a593e09c7>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
-13. `G. Dell'Orto`, "`Bicycle tyre lateral characteristics and their effect on bicycle dynamics <https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa>`_," [Doctor of Philosophy], 2025, Delft University of Technology, Delft, The Netherlands
-14. `S. J. Sorgedrager`, "`Riding a Bicycle Without Hands <https://repository.tudelft.nl/record/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
-15. `Kenneth Pasma`, "`Model Matching Control Applied to Bicycles <https://repository.tudelft.nl/record/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a>`_," [Master of Science], 2024-08-28, Delft University of Technology, Delft, The Netherlands
-16. `Sietse Soethout`, "`A dynamic utility cycling model for energy and time expenditure calculation of a population of cyclists <https://repository.tudelft.nl/record/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def>`_," [Master of Science], 2024, Delft University of Technology, Delft, The Netherlands
+1. `R. R. Dukalski`, "`Pursuing Points of View in Road Cycling <https://repository.tudelft.nl/record/uuid:c4e19354-0d80-4e1e-89c0-00c81723a00b>`_," [Doctor of Philosophy], 2026-11-10, Delft University of Technology, Delft, The Netherlands
+2. `Haye Boonstra`, "`Development of a 3D bicycle keypoint detection method for extracting kinematics data from monocular video data <https://repository.tudelft.nl/record/uuid:68572e95-8752-44c8-a5af-3001c407aaed>`_," [Master of Science], 2026-08-24, Delft University of Technology, Delft, The Netherlands
+3. `Quinten Bongers`, "`The Influence of Roadsurface on Powerloss <https://repository.tudelft.nl/record/uuid:b43d8df3-a89a-4c0e-8f67-8cdc8623f89c>`_," [Master of Science], 2026-07-16, Delft University of Technology, Delft, The Netherlands
+4. `Dana van der Pol`, "`Effects of Assistance Level and Familiarization on Elderly Riding a Balance Assist Bicycle <https://repository.tudelft.nl/record/uuid:764633b0-c1e0-420a-b057-ecfb94c77180>`_," [Master of Science], 2026-07-15, Delft University of Technology, Delft, The Netherlands
+5. `Philipp Jonas`, "`Effect of Tyre Characteristics on Bicycle Recovery Following Kickplate Perturbations <https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-391166>`_," [Master of Science], 2026-07, KTH Royal Institute of Technology, Stockholm, Sweden
+6. `Looka Schoneveld`, "`Freewheeling in Virtual Space <https://repository.tudelft.nl/record/uuid:dd87b218-debb-4c62-95a5-5e057d3711db>`_," [Master of Science], 2026-05-01, Delft University of Technology, Delft, The Netherlands
+7. `Yuke Huang`, "`Adaptive-Horizon Model Predictive Control for Modeling Anticipative Behavior in Cyclist Interaction <https://repository.tudelft.nl/record/uuid:7fcb3081-32e6-42a6-8fed-219bc6398e9b>`_," [Master of Science], 2026-03-18, Delft University of Technology, Delft, The Netherlands
+8. `Luna Compen`, "`Vestibular contributions to cycling balance across different speeds <https://repository.tudelft.nl/record/uuid:bb8a52f9-02c8-4b55-902a-6f2bc5a65a9b>`_," [Master of Science], 2026, , 
+9. `Ruben Terwint`, "`Linking Traffic Condition Metrics to a Cyclist's Workload <https://repository.tudelft.nl/record/uuid:4642837e-d0a9-44ed-871d-17bc4e903ddf>`_," [Master of Science], 2025-09-15, Delft University of Technology, Delft, The Netherlands
+10. `Eloy Vázquez Fernández`, "`Vibration Impact on Cycling Performance <https://repository.tudelft.nl/record/uuid:c33246b4-b42e-49cb-b042-c0b7ee4a0ac0>`_," [Master of Science], 2025-07-17, Delft University of Technology, Delft, The Netherlands
+11. `Sara Youngblood`, "`Engineering Bicycle Stability: A Study of Control Strategies for Crash Prevention on Icy and Normal Terrain <https://repository.tudelft.nl/record/uuid:2109f294-ddba-4849-934b-9ce5cef15ec3>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
+12. `S. J. Sorgedrager`, "`Riding a Bicycle Without Hands <https://repository.tudelft.nl/record/uuid:ee22c5d1-b27f-4542-8a49-71d92a9e2f55>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
+13. `A. Marbus`, "`Cyclist conflict behavior in shared spaces <https://repository.tudelft.nl/record/uuid:092f3b70-2d97-436e-b193-139a593e09c7>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
+14. `Bart de Vries`, "`Low-Speed Cargo Bicycle Balance <https://repository.tudelft.nl/record/uuid:9c4f9f29-5f2f-4c67-93c8-58ddcb054641>`_," [Master of Science], 2025, Delft University of Technology, Delft, The Netherlands
+15. `G. Dell'Orto`, "`Bicycle tyre lateral characteristics and their effect on bicycle dynamics <https://repository.tudelft.nl/record/uuid:dc549b99-0b00-4f24-995b-94a44cbf5caa>`_," [Doctor of Philosophy], 2025, Delft University of Technology, Delft, The Netherlands
+16. `Kenneth Pasma`, "`Model Matching Control Applied to Bicycles <https://repository.tudelft.nl/record/uuid:e0f4dafe-ff81-40af-9466-e8eaa4199a7a>`_," [Master of Science], 2024-08-28, Delft University of Technology, Delft, The Netherlands
 17. `Kirsten Dijkman`, "`Impact of bicycle tire parameter on the total rolling losses <https://repository.tudelft.nl/islandora/object/uuid%3A7d45c36f-5df4-46bf-a526-b3f28a4a9fab>`_," [Master of Science], 2024, Delft University of Technology, Delft, The Netherlands
-18. `Floris van Willigen`, "`Evaluation of the handling of a variable dynamics tilting tricycle: A novel handling assessment method <https://repository.tudelft.nl/islandora/object/uuid%3A3e68f4f0-80f0-4be5-9914-ba2fccefe631>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
-19. `Julie van Vlerken`, "`The influence of posture and stature on bicycle handling qualities <https://repository.tudelft.nl/islandora/object/uuid%3A3c71bc50-c6d0-4963-a3d2-5a1548f92786>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
-20. `Jan van der Schot`, "`The Relationship between Equivalent Fall Height and Ground Reaction Force in Freestyle Ski Jumping <https://repository.tudelft.nl/islandora/object/uuid%3A98476791-40be-4ee5-ab3a-3f1a9d5e63cb>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
-21. `Timo Stienstra`, "`BRiM: A Modular Bicycle-Rider Modeling Framework <https://repository.tudelft.nl/islandora/object/uuid%3Aa2b132e9-8d38-4553-8587-0c9e3341b202>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
-22. `Jens Keijser`, "`Investigating the Theoretical Feasibility of Longitudinal Motion Control in Indoor Cycling Trainers <https://repository.tudelft.nl/islandora/object/uuid%3Ad48c5066-0c44-40a7-9f7e-4bebd3756dcd>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
-23. `Marten Haitjema`, "`Estimating fall probability in cycling: Prediction of the effectiveness of a balance-assist bicycle in reducing falls <https://repository.tudelft.nl/islandora/object/uuid%3Ab7a3ff8d-de2b-47ee-ac05-61c34c1eac23>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+18. `Sietse Soethout`, "`A dynamic utility cycling model for energy and time expenditure calculation of a population of cyclists <https://repository.tudelft.nl/record/uuid:ae45c43e-8eb1-4256-b7c2-e290f1260def>`_," [Master of Science], 2024, Delft University of Technology, Delft, The Netherlands
+19. `Floris van Willigen`, "`Evaluation of the handling of a variable dynamics tilting tricycle: A novel handling assessment method <https://repository.tudelft.nl/islandora/object/uuid%3A3e68f4f0-80f0-4be5-9914-ba2fccefe631>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+20. `Julie van Vlerken`, "`The influence of posture and stature on bicycle handling qualities <https://repository.tudelft.nl/islandora/object/uuid%3A3c71bc50-c6d0-4963-a3d2-5a1548f92786>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+21. `Jan van der Schot`, "`The Relationship between Equivalent Fall Height and Ground Reaction Force in Freestyle Ski Jumping <https://repository.tudelft.nl/islandora/object/uuid%3A98476791-40be-4ee5-ab3a-3f1a9d5e63cb>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+22. `Timo Stienstra`, "`BRiM: A Modular Bicycle-Rider Modeling Framework <https://repository.tudelft.nl/islandora/object/uuid%3Aa2b132e9-8d38-4553-8587-0c9e3341b202>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
+23. `Jens Keijser`, "`Investigating the Theoretical Feasibility of Longitudinal Motion Control in Indoor Cycling Trainers <https://repository.tudelft.nl/islandora/object/uuid%3Ad48c5066-0c44-40a7-9f7e-4bebd3756dcd>`_," [Master of Science], 2023, Delft University of Technology, Delft, The Netherlands
 24. `Jan Thomas Heinen`, "`Optimal Skateboard Geometry for Maximizing Ollie Height <http://resolver.tudelft.nl/uuid:61f4e969-8bd1-4687-9942-b70024b216dc>`_," [Master of Science], 2022-12-20, Delft University of Technology, Delft, The Netherlands
 25. `Daniël Landré`, "`Predicting cycling risk at intersections with natural cycling data for speed-controlled e-bikes <https://repository.tudelft.nl/islandora/object/uuid%3A4996f53f-e493-4ddb-9924-c4110965fb48>`_," [Master of Science], 2022-09-16, Delft University of Technology, Delft, The Netherlands
 26. `Ajaypal Singh`, "`Investigation of the chatter and squeal phenomenon in bicycle disc brakes <https://repository.tudelft.nl/islandora/object/uuid%3Add809802-ea24-48b2-b63c-150611f612c9>`_," [Master of Science], 2022-08-22, Delft University of Technology, Delft, The Netherlands
@@ -416,12 +416,16 @@ Grant Proposals
 2. `Jason K. Moore`, "`Bicycle Simulator <http://>`__", TU Delft Transport Institute, 2026-02, €30k, Granted
 3. `Jason K. Moore`, `Georgios Papaioannou`, `Riender Happee`, and `Jules Ronné`, "`Research facility for studying bicycle vibrations with regards to bicyclists health, comfort, and performance <http://>`__", TU Delft Mechanical Engineering Transport and Mobility Theme, 2026, €15k, Granted
 4. `Jason K. Moore`, `Georgios Papaioannou`, `Riender Happee`, and `Jules Ronné`, "`Vibration Health Effects of Children in Vehicles <http://>`__", TU Delft Mechanical Engineering Health Theme, 2025, €15k, Granted
-5. `Leila Alizadehsaravi`, "`2023 Delft University of Technology DEWIS Award Winner <https://www.tudelft.nl/en/2023/dewis/leila-alizadehsaravi-2023-dewis-award-winner>`__", , 2023-12-22
-6. `Holger Ceasar` and `Jason K. Moore`, "`Sustainable Transportation Planning Via Bicycle-based Data Collection <http://>`__", TU Delft Climate Action Research and Education Seed Call, 2023, €30k, Granted
-7. `Holger Ceasar` and `Jason K. Moore`, "`Modeling bicycle behavior from visual stimulus to neuromuscular control ability <http://>`__", 3mE Cohesion Proposal, 2023, €100k, Granted
-8. `Aaron Meurer`, `Jason K. Moore`, and `Oscar Benjamin`, "`SymPy CZI EOSS Round 4 Application <https://doi.org/10.6084/m9.figshare.16590053.v1>`__", Chan-Zuckerberg Foundation, 2021/09/08, $395k, Granted
-9. `Jason K. Moore`, "`Influence of Culture on Mechanical Design: A Proposal For an Undergraduate Exchange and Design Competition Between Japanese and American Students <https://doi.org/10.6084/m9.figshare.5656105.v1>`__", UC Davis Global Affairs, 2017, $24k,Granted
-10. `Jason K. Moore`, "`Development of an Interactive Textbook Backed by Cloud Infrastructure to Pilot Active Computational Learning in an Upper Level Mechanical Vibrations Engineering Course <https://doi.org/10.6084/m9.figshare.5229886.v1>`__", UC Davis Teaching and Learning, 2017, $22k, Granted
+5. `Riender Happee`, `Brecht Daams`, `Arjo Loeve`, `Georgios Papaioannou`, and `Jason Moore`, "`Vibration Health Effects of Children in Vehicles <http://>`__", VeiligheidNL, 2024, €65k, Granted
+6. `Leila Alizadehsaravi`, "`2023 Delft University of Technology DEWIS Award Winner <https://www.tudelft.nl/en/2023/dewis/leila-alizadehsaravi-2023-dewis-award-winner>`__", , 2023-12-22
+7. `Holger Ceasar` and `Jason K. Moore`, "`Sustainable Transportation Planning Via Bicycle-based Data Collection <http://>`__", TU Delft Climate Action Research and Education Seed Call, 2023, €30k, Granted
+8. `Holger Ceasar` and `Jason K. Moore`, "`Modeling bicycle behavior from visual stimulus to neuromuscular control ability <http://>`__", 3mE Cohesion Proposal, 2023, €100k, Granted
+9. `Jason Moore` and `Azita Dabiri`, "`Integrated Micro and Macroscopic Methods for Safe and Efficient Traffic of Connected Vulnerable Bicyclists and Automated Vehicles <http://>`__", TU Delft Faculty of Mechanical, Maritime, and Materials Engineering, 2022, €200k, Granted
+10. `Yanqiu Huang`, `Paul Havinga`, `Karst Geurs`, `Frauke Behrendt`, `Marieke Martens`, `Jason Moore`, `Jacky Bourgeois`, and `Gerd Korteum`, "`Community Funding Proposal for Making Bikes Smarter <http://>`__", 4TU.NIRICT, 2021-10, €15k, Granted
+11. `Aaron Meurer`, `Jason K. Moore`, and `Oscar Benjamin`, "`SymPy CZI EOSS Round 4 Application <https://doi.org/10.6084/m9.figshare.16590053.v1>`__", Chan-Zuckerberg Foundation, 2021/09/08, $395k, Granted
+12. `Delmar Larsen` and `Jason K. Moore`, "`Expanding the LibreTexts Project into the Next-Generation Hub for Construction, Dissemination, and Usage of Open Educational Resource Textbooks <http://>`__", United States Department of Education, 2018, $5M, Granted
+13. `Jason K. Moore`, "`Influence of Culture on Mechanical Design: A Proposal For an Undergraduate Exchange and Design Competition Between Japanese and American Students <https://doi.org/10.6084/m9.figshare.5656105.v1>`__", UC Davis Global Affairs, 2017, $24k,Granted
+14. `Jason K. Moore`, "`Development of an Interactive Textbook Backed by Cloud Infrastructure to Pilot Active Computational Learning in an Upper Level Mechanical Vibrations Engineering Course <https://doi.org/10.6084/m9.figshare.5229886.v1>`__", UC Davis Teaching and Learning, 2017, $22k, Granted
 
 Presentations
 =============
@@ -506,7 +510,8 @@ Media Articles
 2. `TU Delft`, "`How do older people experience a bike that helps them keep their balance? <https://www.tudelft.nl/en/me/education/student-stories/how-do-older-people-experience-a-bike-that-helps-them-keep-their-balance>`__", 2026-05
 3. `TU Delft`, "`Causing near collisions with cyclists to improve traffic models <https://www.tudelft.nl/en/me/education/student-stories/causing-near-collisions-with-cyclists-to-improve-traffic-models>`__", 2024
 4. `DEMO`, "`Tilting Trike-fiets <https://www.tudelft.nl/demo/stories-of-demo/tilting-trike-fiets>`__", 2023
-5. `Frédérique Belliard`, "`TU Delft OPEN Publishing Annual Report 2025 <http://>`__",
+5. `Hans Dorsch`, "`Assistierte Radtour: Selbstlenkendes E-Bike im Test <https://www.heise.de/hintergrund/Assistierte-Radtour-Selbstlenkendes-E-Bike-im-Test-7074981.html>`__", 2022-05-09
+6. `Frédérique Belliard`, "`TU Delft OPEN Publishing Annual Report 2025 <http://>`__", 
 
 Newspaper Articles
 ==================
@@ -518,3 +523,13 @@ Media
 
 1. `NPO Start`, "`Proefkonijnen Season 3 Episode 6 <https://www.zapp.nl/programmas/proefkonijnen/gemist/BV_101413767>`__", 2026-01-24
 2. `NTR Wetenschap`, "`Fietsen steeds onveiliger, kan de wetenschap de fiets weer in het zadel helpen? <https://www.youtube.com/watch?v=yH6k_VJxGgI>`__", 2025-02-12
+
+Radio
+=====
+
+1. `NPO`, "`TU Delft maakt fiets waarmee je niet kan vallen <https://www.nporadio1.nl/fragmenten/langs-de-lijn-en-omstreken/ecde8e18-8537-44e6-a5f4-e7632386a04e/2023-03-30-tu-delft-maakt-fiets-waarmee-je-niet-kan-vallen>`__", 2023-03-30
+
+Podcast
+=======
+
+1. `Marnie Chesterton` and `Emily Bird`, "`How do you balance on a bicycle? <https://www.bbc.co.uk/programmes/w3ct3j6r>`__", 2022-05-02
