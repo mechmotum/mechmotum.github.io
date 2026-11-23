@@ -106,6 +106,8 @@ heading_map = {
     'magazineArticle': 'Media Articles',
     'newspaperArticle': 'Newspaper Articles',
     'videoRecording': 'Media',
+    'radioBroadcast': 'Radio',
+    'podcast': 'Podcast',
 }
 
 # don't try to process these types:
@@ -431,6 +433,8 @@ formatter_map = {
     'report': formatter_report,
     'thesis': formatter_thesis,
     'videoRecording': formatter,
+    'radioBroadcast': formatter,
+    'podcast': formatter,
 }
 
 
