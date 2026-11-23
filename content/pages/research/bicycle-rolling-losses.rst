@@ -37,6 +37,12 @@ MSc Kirsten Dijkman first developed "De Veeger", our rolling loss measurement
 trailer which allows us to collect on-road data without air resistance and can
 be pulled over varied road surfaces. See it in action below:
 
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/de-veeger-trailer-sideview.png
+   :align: center
+
+   De Veeger: floorless trailer designed for wind-free on-road power
+   measurements.
+
 .. raw:: html
 
    <center>
@@ -53,12 +59,13 @@ uncertainty in our measurements needs to be reduced significantly to have
 reliable comparisons among such similar tires. She showed that paver bricks
 have higher losses than asphalt, as expected.
 
-.. figure:: https://mechmotum.s3.us-east-005.dream.io/kirsten-results.png
+.. figure:: https://mechmotum.s3.us-east-005.dream.io/dijkman-power-plots.png
    :width: 80%
    :align: center
 
-   Rolling resistance coefficient derived from total rolling losses (rolling +
-   vibrational) for two tire sizes, three pressures, and two target speeds.
+   Power and speed from two runs over paver bricks using the same tire with the
+   runs being in opposite directions to see the effect of gravity. The power
+   losses with gravity accounted for amount to about 33 Watts in this case.
 
 Vázquez 2025
 ------------
