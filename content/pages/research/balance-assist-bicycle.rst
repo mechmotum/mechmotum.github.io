@@ -93,10 +93,12 @@ Below are videos that demonstrate the bicycle's ability to stabilize itself:
    <center>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/RicK8H2Ar2U?si=ZMBjSskp2z9MV2NX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </center>
+   <br>
    <center>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/IT-vvmnNwcQ?si=QUoou9B2rrf4dRT1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </center>
-   </center>
+   <br>
+   <center>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/6Gxy8jhS1SU?si=N_WlH49b6KM98XgB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
    </center>
 
