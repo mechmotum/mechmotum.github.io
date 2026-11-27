@@ -920,3 +920,5 @@ Random TU Delft Tips
 - You can use `Remmina <https://gitlab.com/Remmina/Remmina>`_ on Linux to run
   UMRA (adjusts permissions of shared drives) on a remote TU Delft Windows
   computer.
+- The Research Engineering and Infrastructure Team can give you software
+  support (possibly for free): https://reit.tudelft.nl
